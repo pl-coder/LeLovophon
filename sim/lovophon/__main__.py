@@ -80,7 +80,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.csv:
         path = args.out / f"{STEM}_{tag}_Pluck_Times.csv"
         with path.open("w", newline="") as f:
-            w = csv.writer(f)
+            w = csv.writer(f, lineterminator="\n")
             w.writerow(["seconds", "voice", "midi_channel_1_based", "midi_note", "just_frequency_hz", "crossing_in_cycle", "cam_revolution"])
             for e in events:
                 row = design["voices"][e["index"]]
