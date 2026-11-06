@@ -171,43 +171,83 @@ function buildCrank(shaft) {
   const brass = new THREE.MeshStandardMaterial({ color: 0xc29645, metalness: 0.4, roughness: 0.45 });
   const dark = new THREE.MeshStandardMaterial({ color: 0x2b2622, roughness: 0.8 });
   const g = new THREE.Group();
-  const hub = new THREE.Mesh(new THREE.CylinderGeometry(0.006, 0.006, 0.010, 24), brass);
+  // The CAD shaft ends in a collar, so the crank and worm sit on a short
+  // extension beyond it (negative local x = outboard).
+  const extension = new THREE.Mesh(new THREE.CylinderGeometry(0.003, 0.003, 0.018, 20), brass);
+  extension.rotation.z = Math.PI / 2;
+  extension.position.x = -0.009;
+  const hub = new THREE.Mesh(new THREE.CylinderGeometry(0.006, 0.006, 0.006, 24), brass);
   hub.rotation.z = Math.PI / 2;
-  hub.position.x = -0.005;
+  hub.position.x = -0.017;
   const arm = new THREE.Mesh(new THREE.BoxGeometry(0.004, 0.036, 0.008), brass);
-  arm.position.set(-0.009, 0.015, 0);
+  arm.position.set(-0.021, 0.015, 0);
   const pin = new THREE.Mesh(new THREE.CylinderGeometry(0.002, 0.002, 0.012, 16), brass);
   pin.rotation.z = Math.PI / 2;
-  pin.position.set(-0.016, 0.030, 0);
+  pin.position.set(-0.028, 0.030, 0);
   const knob = new THREE.Mesh(new THREE.CylinderGeometry(0.004, 0.0045, 0.016, 20), dark);
   knob.rotation.z = Math.PI / 2;
-  knob.position.set(-0.028, 0.030, 0);
-  g.add(hub, arm, pin, knob);
-  // Single-start worm on the shaft just inboard of the crank: core plus a
-  // helical thread, module 1 (axial pitch pi mm), 8 mm long.
-  const wormCore = new THREE.Mesh(new THREE.CylinderGeometry(0.004, 0.004, 0.008, 24), brass);
-  wormCore.rotation.z = Math.PI / 2;
-  wormCore.position.x = WORM_X;
-  const helix = [];
-  const turns = 0.008 / (Math.PI / 1000);
-  for (let i = 0; i <= 160; i++) {
-    const u = i / 160;
-    const a = u * turns * 2 * Math.PI;
-    helix.push(new THREE.Vector3(WORM_X - 0.004 + u * 0.008, 0.0045 * Math.cos(a), 0.0045 * Math.sin(a)));
-  }
-  const thread = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(helix), 320, 0.0011, 8, false), brass);
-  g.add(wormCore, thread);
+  knob.position.set(-0.040, 0.030, 0);
+  g.add(extension, hub, arm, pin, knob);
+  // Single-start worm on the extension between collar and crank: a screw surface
+  // with a trapezoidal thread, module 1 (axial pitch pi mm), 8 mm long.
+  const worm = new THREE.Mesh(wormGeometry(0.008, 0.0036, 0.0016, Math.PI / 1000), brass);
+  worm.position.x = WORM_X;
+  g.add(worm);
   g.position.set(shaft.x_min / 1000, shaft.y / 1000, shaft.z / 1000);
   scene.add(g);
   state.crank = g;
   buildDial(shaft, brass);
 }
 
+// A worm as a screw surface: radius varies with axial position and angle so a
+// trapezoidal thread winds along the X axis. Closed with flat end caps.
+function wormGeometry(length, rCore, depth, pitch, axial = 96, around = 48) {
+  const positions = [];
+  const indices = [];
+  const radiusAt = (x, phi) => {
+    const t = ((x / pitch - phi / (2 * Math.PI)) % 1 + 1) % 1; // 0..1 along one thread
+    const tri = 1 - Math.abs(2 * t - 1); // 0 at root, 1 at crest
+    const flank = Math.min(1, Math.max(0, (tri - 0.2) / 0.5)); // flat root and crest
+    return rCore + depth * flank;
+  };
+  for (let i = 0; i <= axial; i++) {
+    const x = -length / 2 + (i / axial) * length;
+    for (let j = 0; j <= around; j++) {
+      const phi = (j / around) * 2 * Math.PI;
+      const r = radiusAt(x, phi);
+      positions.push(x, r * Math.cos(phi), r * Math.sin(phi));
+    }
+  }
+  const row = around + 1;
+  for (let i = 0; i < axial; i++) {
+    for (let j = 0; j < around; j++) {
+      const a = i * row + j;
+      indices.push(a, a + row, a + 1, a + 1, a + row, a + row + 1);
+    }
+  }
+  // End caps: a centre vertex fanned to the rim.
+  for (const [i, sign] of [[0, -1], [axial, 1]]) {
+    const centre = positions.length / 3;
+    positions.push(sign * length / 2, 0, 0);
+    for (let j = 0; j < around; j++) {
+      const a = i * row + j;
+      const b = i * row + j + 1;
+      if (sign < 0) indices.push(centre, b, a);
+      else indices.push(centre, a, b);
+    }
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute("position", new THREE.Float32BufferAttribute(positions, 3));
+  geo.setIndex(indices);
+  geo.computeVertexNormals();
+  return geo;
+}
+
 // Worm wheel, 24 teeth, on a Z axis above the worm, carrying a needle over a
 // dial with 24 ticks: one tick per shaft turn, one needle turn per cycle.
 // Single-start worm + 24-tooth wheel = 24:1 in one step, which is exactly
 // the ratio denominators' LCM, so no second reduction is needed.
-const WORM_X = 0.0047; // worm centre, metres from the shaft end
+const WORM_X = -0.0085; // worm centre, metres from the shaft end (outboard)
 const WHEEL_TEETH = 24;
 const WHEEL_PITCH_R = 0.012;
 const WORM_PITCH_R = 0.005;
@@ -254,27 +294,40 @@ function buildDial(shaft, brass) {
   state.dial = rotor;
 }
 
-// Give each speaking string its own material so it can glow when plucked.
+// Each speaking string keeps its own nylon material; a transparent coloured
+// halo around it, invisible at rest, lights up when the string is plucked.
 function buildStrings() {
   state.design.voices.forEach((row, v) => {
+    // Tint the whole drivetrain of this voice (driver pulley, driven pulley
+    // and cam, follower, arm and pick) in the string's colour.
+    const tint = new THREE.MeshStandardMaterial({ color: voiceColour(v), metalness: 0.25, roughness: 0.5 });
+    for (const kind of KINDS) {
+      const part = state.nodes.get(`${row.note}_${kind}`);
+      if (part) part.traverse((o) => { if (o.isMesh) o.material = tint; });
+    }
     const node = state.nodes.get(`${row.note}_string`);
     if (!node) return;
-    const colour = voiceColour(v);
-    const material = new THREE.MeshStandardMaterial({ color: colour, emissive: colour, emissiveIntensity: 0.12, roughness: 0.5 });
-    node.traverse((o) => {
-      if (o.isMesh) o.material = material;
-    });
-    state.strings[v] = { node, material, glow: 0 };
+    const box = new THREE.Box3().setFromObject(node);
+    const centre = box.getCenter(new THREE.Vector3());
+    const length = box.max.x - box.min.x;
+    const material = new THREE.MeshBasicMaterial({ color: voiceColour(v), transparent: true, opacity: 0, depthWrite: false });
+    const halo = new THREE.Mesh(new THREE.CylinderGeometry(0.0022, 0.0022, length, 12), material);
+    halo.rotation.z = Math.PI / 2;
+    halo.position.copy(centre);
+    halo.visible = false;
+    scene.add(halo);
+    state.strings[v] = { halo, material, glow: 0 };
   });
 }
 
 function decayGlow(dt) {
   for (const s of state.strings) {
-    if (!s || s.glow <= 0.001) continue;
-    s.glow *= Math.exp(-dt / 0.3);
-    s.material.emissiveIntensity = 0.12 + 2.5 * s.glow;
-    const fat = 1 + 3 * s.glow;
-    s.node.scale.set(1, fat, fat);
+    if (!s || !s.halo.visible) continue;
+    s.glow *= Math.exp(-dt / 0.35);
+    s.material.opacity = 0.85 * s.glow;
+    const r = 0.6 + 0.8 * s.glow;
+    s.halo.scale.set(r, 1, r);
+    if (s.glow < 0.02) s.halo.visible = false;
   }
 }
 
@@ -410,8 +463,9 @@ function flash(v) {
   const s = state.strings[v];
   if (s) {
     s.glow = 1;
-    s.material.emissiveIntensity = 2.6;
-    s.node.scale.set(1, 4, 4);
+    s.material.opacity = 0.85;
+    s.halo.scale.set(1.4, 1, 1.4);
+    s.halo.visible = true;
   }
 }
 

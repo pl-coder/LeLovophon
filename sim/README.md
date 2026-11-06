@@ -65,9 +65,11 @@ Inboard of it a single-start worm drives a 24-tooth wheel carrying a needle
 over a dial with 24 ticks: one tick per shaft turn, one needle turn per
 480 s cycle. The 24:1 comes in one step because 24 is the least common
 multiple of the ratio denominators, so no further reduction is needed.
-Each speaking string has its own colour, shown as a swatch in the panel, and
-glows and fattens for a moment when plucked. Both are visual aids the real
-machine does not have.
+Each voice has its own colour, shown as a swatch in the panel and painted on
+its whole drivetrain (driver pulley, driven pulley and cam, follower, arm and
+pick); the string itself stays nylon-coloured and a halo in the voice colour
+flashes around it when plucked. The crank, the dial and the colours are visual
+aids the real machine does not have.
 
 The model is always evaluated at the reference 3 rpm in "machine time"; the
 page advances machine time at rpm/3 of wall time, so a speed change never makes
