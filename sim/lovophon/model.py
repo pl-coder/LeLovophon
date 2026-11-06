@@ -245,29 +245,43 @@ def voice_frequency(row: dict, tunings: dict | None = None) -> float:
     return row["frequency_hz"]
 
 
+_PHASE_CACHE: dict = {}
+
+
+def cached_pluck_phases(row: dict) -> list[float]:
+    """``pluck_phases`` memoised on the geometry that determines it."""
+    key = (row["note"], row.get("follower_y"), row.get("follower_z"), row["lever_length"], row["beta_mid"])
+    if key not in _PHASE_CACHE:
+        _PHASE_CACHE[key] = pluck_phases(row)
+    return _PHASE_CACHE[key]
+
+
 def pluck_events(
     design: dict,
     duration: float | None = None,
     rpm: float = DEFAULT_INPUT_RPM,
     tunings: dict | None = None,
+    start: float = 0.0,
 ) -> list[dict]:
-    """Every pluck in ``[0, duration)`` across the twelve voices, time-sorted.
+    """Every pluck in ``[start, duration)`` across the twelve voices, sorted.
 
     Each event: ``time`` (s), ``voice`` (display note), ``index`` (0..11),
     ``frequency_hz``, ``crossing`` (1 or 2, which of the two crossings in the
-    cam cycle), ``cam_revolution`` (0-based).
+    cam cycle), ``cam_revolution`` (0-based). ``duration`` is an absolute end
+    time, so a window is ``start=t0, duration=t1``.
     """
     if duration is None:
         duration = repeat_seconds(design, rpm)
     events = []
     for index, row in enumerate(design["voices"]):
         period = cam_period_seconds(row, rpm)
-        phases = pluck_phases(row)
+        phases = cached_pluck_phases(row)
         freq = voice_frequency(row, tunings)
-        for k in range(math.ceil(duration / period) + 1):
+        first = max(0, math.floor(start / period) - 1)
+        for k in range(first, math.ceil(duration / period) + 1):
             for crossing, phase in enumerate(phases, start=1):
                 t = (k + phase / TWO_PI) * period
-                if 0.0 <= t < duration:
+                if start <= t < duration:
                     events.append(
                         {
                             "time": t,
@@ -280,3 +294,40 @@ def pluck_events(
                     )
     events.sort(key=lambda e: (e["time"], e["index"]))
     return events
+
+
+# --------------------------------------------------------------------------
+# Flat helpers for the browser page (one call per frame, no dict traffic)
+# --------------------------------------------------------------------------
+
+def speaking_frequency(row: dict, length_mm: float, tuning_hz: float | None = None) -> float:
+    """Pitch when the third bridge sets a speaking length of ``length_mm``.
+
+    Same linear density and tension as the CAD assumes, so frequency scales
+    with the inverse of length from the voice's tuned pitch at its design
+    length. The cam ratio is unaffected: that is the machine detuning from
+    its own rhythm.
+    """
+    base = tuning_hz if tuning_hz is not None else row["frequency_hz"]
+    return base * row["speaking_length"] / length_mm
+
+
+def poses_flat(design: dict, t: float, rpm: float = DEFAULT_INPUT_RPM) -> list[float]:
+    """``[x, y, z, angle_deg]`` for every voice and kind in ``POSE_KINDS``
+    order: 12 voices x 4 kinds x 4 numbers. Positions in mm."""
+    out = []
+    for row in design["voices"]:
+        p = poses(row, t, rpm)
+        for kind in POSE_KINDS:
+            x, y, z = p[kind]["position"]
+            out.extend((x, y, z, p[kind]["angle_deg"]))
+    return out
+
+
+def events_flat(design: dict, t0: float, t1: float, rpm: float = DEFAULT_INPUT_RPM) -> list[float]:
+    """``[time, voice_index, crossing]`` triples for plucks in ``[t0, t1)``.
+    Frequencies are left to the page, which owns tuning and bridge state."""
+    out = []
+    for e in pluck_events(design, t1, rpm, start=t0):
+        out.extend((e["time"], float(e["index"]), float(e["crossing"])))
+    return out

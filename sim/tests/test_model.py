@@ -101,6 +101,31 @@ class KinematicsTests(unittest.TestCase):
         swing = max(abs(model.arm_swing_deg(row, t / 10)) for t in range(201))
         self.assertAlmostEqual(swing, row["swing_half_angle_deg"], delta=0.05)
 
+    def test_windowed_events_match_full_schedule(self):
+        full = [(e["time"], e["index"], e["crossing"]) for e in model.pluck_events(self.design, 480.0)]
+        windowed = []
+        for t0 in range(0, 480, 7):
+            windowed += [(e["time"], e["index"], e["crossing"]) for e in model.pluck_events(self.design, min(480.0, t0 + 7.0), start=float(t0))]
+        self.assertEqual(full, windowed)
+        flat = model.events_flat(self.design, 100.0, 110.0)
+        self.assertEqual(len(flat) % 3, 0)
+        self.assertEqual([tuple(flat[i:i + 3]) for i in range(0, len(flat), 3)],
+                         [(e["time"], float(e["index"]), float(e["crossing"])) for e in model.pluck_events(self.design, 110.0, start=100.0)])
+
+    def test_poses_flat_layout(self):
+        flat = model.poses_flat(self.design, 3.7)
+        self.assertEqual(len(flat), 12 * 4 * 4)
+        p = model.poses(self.voices[5], 3.7)
+        base = 5 * 16 + 2 * 4  # voice 5, LongArmRotor
+        self.assertEqual(tuple(flat[base:base + 3]), p["LongArmRotor"]["position"])
+        self.assertEqual(flat[base + 3], p["LongArmRotor"]["angle_deg"])
+
+    def test_speaking_frequency_inverse_length(self):
+        row = self.voices[0]
+        self.assertAlmostEqual(model.speaking_frequency(row, 330.0), row["frequency_hz"])
+        self.assertAlmostEqual(model.speaking_frequency(row, 165.0), 2 * row["frequency_hz"])
+        self.assertAlmostEqual(model.speaking_frequency(row, 165.0, tuning_hz=100.0), 200.0)
+
     def test_tuning_override_changes_frequency_not_timing(self):
         base = model.pluck_events(self.design, 60.0)
         tuned = model.pluck_events(self.design, 60.0, tunings={"C3": 128.0})

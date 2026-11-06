@@ -7,3 +7,5 @@
 *.csv text eol=lf
 *.scl text eol=lf
 *.FCMacro text eol=lf
+*.glb binary
+*.wasm binary

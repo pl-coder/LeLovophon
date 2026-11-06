@@ -1,10 +1,13 @@
 # sim — play with the Lovophon without FreeCAD
 
-`sim/lovophon` is a standard-library Python model of the current design,
-`outputs/Lovophone_Lab_Frame_Ratio_Review.FCStd`. It answers two questions:
-when does each string get plucked, and where is every moving part at time *t*.
-It is the seed of a browser-playable page and the oracle for the fabrication
-and plugin work.
+Two things live here: a Python model of the current design and a browser page
+that runs it. The design of record is
+`outputs/Lovophone_Lab_Frame_Ratio_Review.FCStd`.
+
+## The model: `sim/lovophon`
+
+A standard-library Python package that answers two questions: when does each
+string get plucked, and where is every moving part at time *t*.
 
 ```sh
 python3 -m sim.lovophon                      # table of the twelve voices
@@ -15,7 +18,7 @@ python3 -m unittest discover -s sim/tests    # checks
 ```
 
 `design.json` is a snapshot of the FreeCAD document's `Motion.LinkageGeometry`
-rows and properties, so the browser never has to parse a `.FCStd`. A test
+rows and properties, so nothing downstream has to parse a `.FCStd`. A test
 proves it still equals the FreeCAD file; refresh it with
 `python3 -m sim.lovophon --snapshot` after a CAD revision.
 
@@ -26,5 +29,51 @@ archived 160-minute CSV, the one voice whose follower geometry survived the
 ratio correction. Generated `.mid` files are gitignored upstream and should be
 regenerated, not committed.
 
-This is ideal kinematics. It models no belt ripple, pick compliance, string
-acoustics or motor regulation, and proves nothing about a physical machine.
+## The page: `sim/page`
+
+A standalone page that draws the exported CAD meshes moving and plays the
+strings. Serve the repository root (the page fetches the model and the design
+snapshot from `../lovophon/`) and open `sim/page/`:
+
+```sh
+python3 -m http.server 8765
+# then http://localhost:8765/sim/page/
+```
+
+It needs a network connection for two CDN libraries, three.js and Pyodide.
+First load is a few seconds while Pyodide starts.
+
+| Layer | Where | Role |
+|---|---|---|
+| Python in Pyodide | `sim/lovophon` unchanged | poses for the 48 moving groups every frame; plucks in a short lookahead |
+| three.js | `assets/lovophon.glb` | the CAD, one node per moving group, one per third bridge, one static |
+| Faust in an AudioWorklet | `lovophon.dsp` → `dsp/lovophon.wasm` | twelve Karplus-Strong nylon strings, plucks scheduled on the audio clock |
+
+Controls: play, pause, reset; shaft speed in rpm (the machine's one real knob:
+faster means the same pattern in less time); volume, decay and brightness of
+the strings; per voice, a tuning offset in cents and the third-bridge position
+in mm. Moving a bridge changes the speaking length and so the pitch, while the
+cam ratio stays fixed by the pulleys. That is the real machine detuning from
+its own rhythm, and the point of the slider.
+
+The model is always evaluated at the reference 3 rpm in "machine time"; the
+page advances machine time at rpm/3 of wall time, so a speed change never makes
+a cam jump.
+
+### Rebuilding the assets
+
+```sh
+# meshes, with FreeCAD's headless interpreter (macOS path shown)
+/Applications/FreeCAD.app/Contents/Resources/bin/freecadcmd \
+    -c "exec(open('sim/export_meshes.py').read())"
+# strings, with the Faust compiler (brew install faust)
+faust -lang wasm -o sim/page/dsp/lovophon.wasm sim/page/lovophon.dsp
+```
+
+The exporter reads colours and visibility from the saved document, so hidden
+presentation parts (motor, obsolete tray) are left out. The GLB is about 3 MB
+at 0.5 mm / 0.6 rad deflection.
+
+This is ideal kinematics and a listening model. It models no belt ripple,
+pick compliance, string acoustics or motor regulation, and proves nothing
+about a physical machine.
