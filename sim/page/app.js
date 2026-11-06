@@ -73,6 +73,7 @@ const state = {
   nodes: new Map(),
   strings: [], // per voice: {mesh, material, glow}
   crank: null,
+  dial: null,
   audio: null,
   node: null,
   flashTimers: [],
@@ -182,9 +183,75 @@ function buildCrank(shaft) {
   knob.rotation.z = Math.PI / 2;
   knob.position.set(-0.028, 0.030, 0);
   g.add(hub, arm, pin, knob);
+  // Single-start worm on the shaft just inboard of the crank: core plus a
+  // helical thread, module 1 (axial pitch pi mm), 8 mm long.
+  const wormCore = new THREE.Mesh(new THREE.CylinderGeometry(0.004, 0.004, 0.008, 24), brass);
+  wormCore.rotation.z = Math.PI / 2;
+  wormCore.position.x = WORM_X;
+  const helix = [];
+  const turns = 0.008 / (Math.PI / 1000);
+  for (let i = 0; i <= 160; i++) {
+    const u = i / 160;
+    const a = u * turns * 2 * Math.PI;
+    helix.push(new THREE.Vector3(WORM_X - 0.004 + u * 0.008, 0.0045 * Math.cos(a), 0.0045 * Math.sin(a)));
+  }
+  const thread = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(helix), 320, 0.0011, 8, false), brass);
+  g.add(wormCore, thread);
   g.position.set(shaft.x_min / 1000, shaft.y / 1000, shaft.z / 1000);
   scene.add(g);
   state.crank = g;
+  buildDial(shaft, brass);
+}
+
+// Worm wheel, 24 teeth, on a Z axis above the worm, carrying a needle over a
+// dial with 24 ticks: one tick per shaft turn, one needle turn per cycle.
+// Single-start worm + 24-tooth wheel = 24:1 in one step, which is exactly
+// the ratio denominators' LCM, so no second reduction is needed.
+const WORM_X = 0.0047; // worm centre, metres from the shaft end
+const WHEEL_TEETH = 24;
+const WHEEL_PITCH_R = 0.012;
+const WORM_PITCH_R = 0.005;
+
+function buildDial(shaft, brass) {
+  const g = new THREE.Group();
+  g.position.set(shaft.x_min / 1000 + WORM_X, shaft.y / 1000 + WORM_PITCH_R + WHEEL_PITCH_R, shaft.z / 1000);
+  const rotor = new THREE.Group(); // wheel + needle turn together about Z
+  const wheel = new THREE.Mesh(new THREE.CylinderGeometry(WHEEL_PITCH_R - 0.001, WHEEL_PITCH_R - 0.001, 0.004, 48), brass);
+  wheel.rotation.x = Math.PI / 2;
+  rotor.add(wheel);
+  for (let i = 0; i < WHEEL_TEETH; i++) {
+    const tooth = new THREE.Mesh(new THREE.BoxGeometry(0.0016, 0.0022, 0.004), brass);
+    const a = (i / WHEEL_TEETH) * 2 * Math.PI;
+    tooth.position.set(Math.cos(a) * (WHEEL_PITCH_R - 0.0002), Math.sin(a) * (WHEEL_PITCH_R - 0.0002), 0);
+    tooth.rotation.z = a;
+    rotor.add(tooth);
+  }
+  const needle = new THREE.Mesh(new THREE.BoxGeometry(0.0008, 0.0105, 0.0006), new THREE.MeshStandardMaterial({ color: 0xc0392b, roughness: 0.5 }));
+  needle.position.set(0, 0.0045, 0.0036);
+  const boss = new THREE.Mesh(new THREE.CylinderGeometry(0.0012, 0.0012, 0.0012, 16), new THREE.MeshStandardMaterial({ color: 0x2b2622 }));
+  boss.rotation.x = Math.PI / 2;
+  boss.position.z = 0.0036;
+  rotor.add(needle, boss);
+  // Dial face: a pale disc with 24 ticks, fixed to the frame.
+  const face = new THREE.Mesh(new THREE.CylinderGeometry(0.0118, 0.0118, 0.0008, 48), new THREE.MeshStandardMaterial({ color: 0xf3ead8, roughness: 0.9 }));
+  face.rotation.x = Math.PI / 2;
+  face.position.z = 0.0026;
+  g.add(face);
+  const ink = new THREE.MeshStandardMaterial({ color: 0x2b2622 });
+  for (let i = 0; i < WHEEL_TEETH; i++) {
+    const major = i % 6 === 0;
+    const tick = new THREE.Mesh(new THREE.BoxGeometry(0.0005, major ? 0.0022 : 0.0012, 0.0004), ink);
+    const a = Math.PI / 2 - (i / WHEEL_TEETH) * 2 * Math.PI;
+    const r = 0.0108 - (major ? 0.0011 : 0.0006);
+    tick.position.set(Math.cos(a) * r, Math.sin(a) * r, 0.0032);
+    tick.rotation.z = a - Math.PI / 2;
+    g.add(tick);
+  }
+  const axle = new THREE.Mesh(new THREE.CylinderGeometry(0.0015, 0.0015, 0.012, 16), brass);
+  axle.rotation.x = Math.PI / 2;
+  g.add(axle, rotor);
+  scene.add(g);
+  state.dial = rotor;
 }
 
 // Give each speaking string its own material so it can glow when plucked.
@@ -215,6 +282,8 @@ function applyPoses(T) {
   const flat = posesFlat(T);
   const voices = state.design.voices;
   if (state.crank) state.crank.rotation.x = THREE.MathUtils.degToRad(flat[3]);
+  // Worm wheel turns 1/24 of the shaft; clockwise seen from the front.
+  if (state.dial) state.dial.rotation.z = THREE.MathUtils.degToRad(flat[3]) / WHEEL_TEETH;
   for (let v = 0; v < voices.length; v++) {
     for (let k = 0; k < KINDS.length; k++) {
       const node = state.nodes.get(`${voices[v].note}_${KINDS[k]}`);
@@ -537,6 +606,8 @@ state.peak = () => {
   for (const x of buf) peak = Math.max(peak, Math.abs(x));
   return peak;
 };
+state.camera = camera;
+state.controls = controls;
 window.lovophon = state;
 
 main();

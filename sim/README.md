@@ -61,6 +61,10 @@ and the point of the slider.
 
 A brass crank on the free end of the input shaft (the end away from the tuner
 block) turns with the C3 driver so the shaft speed can be read at a glance.
+Inboard of it a single-start worm drives a 24-tooth wheel carrying a needle
+over a dial with 24 ticks: one tick per shaft turn, one needle turn per
+480 s cycle. The 24:1 comes in one step because 24 is the least common
+multiple of the ratio denominators, so no further reduction is needed.
 Each speaking string has its own colour, shown as a swatch in the panel, and
 glows and fattens for a moment when plucked. Both are visual aids the real
 machine does not have.
