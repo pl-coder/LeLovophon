@@ -235,9 +235,21 @@ def main():
             builder.node(f"{n}_{kind}", prims_for(part.Group, local=True), {"voice": row["display_note"], "kind": kind})
         bridge = [doc.getObject(f"{n}_KotoThirdBridge"), doc.getObject(f"{n}_NylonBridgeCrown")]
         builder.node(f"{n}_bridge", prims_for([b for b in bridge if b], local=False), {"voice": row["display_note"], "kind": "bridge", "bridge_x_mm": row["bridge_x"]})
+        string = [doc.getObject(f"{n}_KotoSpeakingString")]
+        builder.node(f"{n}_string", prims_for([s for s in string if s], local=False), {"voice": row["display_note"], "kind": "string"})
 
     rest = [o for o in doc.Objects if o.TypeId == "Part::Feature" and o.Name not in claimed]
     builder.node("static", prims_for(rest, local=False))
+
+    shaft = doc.getObject("CommonInputShaft_D6")
+    extras = {}
+    if shaft is not None:
+        bb = world_shape(shaft).BoundBox
+        extras["input_shaft_mm"] = {"x_min": bb.XMin, "x_max": bb.XMax, "y": (bb.YMin + bb.YMax) / 2, "z": (bb.ZMin + bb.ZMax) / 2, "radius": (bb.YMax - bb.YMin) / 2}
+    tuner = doc.getObject("KotoTunerBlock")
+    if tuner is not None:
+        extras["tuner_block_x_mm"] = world_shape(tuner).BoundBox.Center.x
+    builder.nodes[-1]["extras"] = extras
 
     GLB.parent.mkdir(parents=True, exist_ok=True)
     size = builder.write(GLB)

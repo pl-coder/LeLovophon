@@ -28,8 +28,10 @@
   .group { display: flex; flex-direction: column; gap: 6px; }
   .group h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 6px 0 2px; }
   .voice { border-top: 1px solid var(--line); padding: 8px 0 4px; display: flex; flex-direction: column; gap: 4px; transition: background 0.15s; }
-  .voice.pluck { background: rgba(216, 162, 74, 0.18); }
+  .voice.pluck { background: color-mix(in srgb, var(--voice, var(--accent)) 28%, transparent); }
   .voice-head { display: flex; gap: 8px; align-items: baseline; }
+  .voice-head .swatch { width: 10px; height: 10px; border-radius: 50%; background: var(--voice, var(--accent)); align-self: center; flex: none; }
+  select { background: var(--line); color: var(--ink); border: 0; border-radius: 4px; padding: 4px 6px; font: inherit; grid-column: 2 / 4; }
   .voice-head b { width: 28px; }
   .voice-head .ratio { color: var(--accent); width: 36px; }
   .voice-head .teeth { color: var(--muted); font-size: 12px; }
@@ -70,6 +72,10 @@
       <label>volume <input type="range" id="gain" min="0" max="1" step="0.01" value="0.4"><span></span></label>
       <label>decay <input type="range" id="t60" min="0.2" max="12" step="0.1" value="3"><span></span></label>
       <label>bright <input type="range" id="bright" min="500" max="12000" step="50" value="5200"><span></span></label>
+    </div>
+    <div class="group">
+      <h2>Tuning</h2>
+      <label>preset <select id="preset"></select><span></span></label>
     </div>
     <div class="group">
       <h2>Voices — ratio, pulley teeth, pitch</h2>

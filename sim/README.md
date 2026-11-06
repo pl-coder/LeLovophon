@@ -51,10 +51,19 @@ First load is a few seconds while Pyodide starts.
 
 Controls: play, pause, reset; shaft speed in rpm (the machine's one real knob:
 faster means the same pattern in less time); volume, decay and brightness of
-the strings; per voice, a tuning offset in cents and the third-bridge position
-in mm. Moving a bridge changes the speaking length and so the pitch, while the
-cam ratio stays fixed by the pulleys. That is the real machine detuning from
-its own rhythm, and the point of the slider.
+the strings; a tuning preset menu (the design's 5-limit just pentatonic,
+12-tone equal temperament, Pythagorean, just minor pentatonic, Hirajoshi,
+Slendro, as cents offsets per degree, with Custom once a slider is moved); per
+voice, a tuning offset in cents and the third-bridge position in mm. Moving a
+bridge changes the speaking length and so the pitch, while the cam ratio stays
+fixed by the pulleys. That is the real machine detuning from its own rhythm,
+and the point of the slider.
+
+A brass crank on the free end of the input shaft (the end away from the tuner
+block) turns with the C3 driver so the shaft speed can be read at a glance.
+Each speaking string has its own colour, shown as a swatch in the panel, and
+glows and fattens for a moment when plucked. Both are visual aids the real
+machine does not have.
 
 The model is always evaluated at the reference 3 rpm in "machine time"; the
 page advances machine time at rpm/3 of wall time, so a speed change never makes

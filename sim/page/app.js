@@ -17,6 +17,25 @@ import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 
 const REFERENCE_RPM = 3;
 const KINDS = ["Driver", "Output", "LongArmRotor", "Rocker"];
+
+// Tuning presets as cents offsets per pentatonic degree (C D E G A) from the
+// design's 5-limit just intonation (1, 9/8, 5/4, 3/2, 5/3). Octave voices
+// share their degree's offset. Values are rounded to the cent.
+const DEGREE_OF_VOICE = [0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 0, 1];
+const PRESETS = {
+  "Just pentatonic (design)": [0, 0, 0, 0, 0],
+  "12-tone equal temperament": [0, -4, 14, -2, 16],
+  "Pythagorean (3-limit)": [0, 0, 22, 0, 22],
+  "Minor pentatonic, just (C Eb F G Bb)": [0, 112, 112, 0, 133],
+  "Hirajoshi, just (C D Eb G Ab)": [0, 0, -71, 0, -71],
+  "Slendro, five equal steps": [0, 36, 94, 18, 76],
+};
+const CUSTOM = "Custom";
+
+// One colour per string, used for the glow and the panel swatch.
+function voiceColour(v) {
+  return new THREE.Color().setHSL(((v * 137.5) % 360) / 360, 0.75, 0.55);
+}
 const LOOKAHEAD_WALL = 0.5; // seconds of wall clock scheduled ahead
 const TRIG_PULSE = 0.006; // seconds the trigger param stays high
 const PYODIDE_URL = "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/";
@@ -34,6 +53,7 @@ const ui = {
   gain: document.getElementById("gain"),
   t60: document.getElementById("t60"),
   bright: document.getElementById("bright"),
+  preset: document.getElementById("preset"),
   voices: document.getElementById("voices"),
   canvas: document.getElementById("view"),
 };
@@ -51,6 +71,8 @@ const state = {
   scheduledT: 0,
   voices: [], // per-voice UI state: tuningHz, lengthMm
   nodes: new Map(),
+  strings: [], // per voice: {mesh, material, glow}
+  crank: null,
   audio: null,
   node: null,
   flashTimers: [],
@@ -130,6 +152,9 @@ async function loadMeshes() {
     if (o.name && !state.nodes.has(o.name)) state.nodes.set(o.name, o);
   });
   scene.add(root);
+  const staticNode = state.nodes.get("static");
+  const extras = (staticNode && staticNode.userData) || {};
+  buildCrank(extras.input_shaft_mm);
   const box = new THREE.Box3().setFromObject(root);
   const centre = box.getCenter(new THREE.Vector3());
   const size = box.getSize(new THREE.Vector3()).length();
@@ -138,9 +163,58 @@ async function loadMeshes() {
   controls.update();
 }
 
+// A crank handle on the free (non-tuning) end of the input shaft, turning
+// with the C3 driver so the shaft speed can be read at a glance.
+function buildCrank(shaft) {
+  if (!shaft) return;
+  const brass = new THREE.MeshStandardMaterial({ color: 0xc29645, metalness: 0.4, roughness: 0.45 });
+  const dark = new THREE.MeshStandardMaterial({ color: 0x2b2622, roughness: 0.8 });
+  const g = new THREE.Group();
+  const hub = new THREE.Mesh(new THREE.CylinderGeometry(0.006, 0.006, 0.010, 24), brass);
+  hub.rotation.z = Math.PI / 2;
+  hub.position.x = -0.005;
+  const arm = new THREE.Mesh(new THREE.BoxGeometry(0.004, 0.036, 0.008), brass);
+  arm.position.set(-0.009, 0.015, 0);
+  const pin = new THREE.Mesh(new THREE.CylinderGeometry(0.002, 0.002, 0.012, 16), brass);
+  pin.rotation.z = Math.PI / 2;
+  pin.position.set(-0.016, 0.030, 0);
+  const knob = new THREE.Mesh(new THREE.CylinderGeometry(0.004, 0.0045, 0.016, 20), dark);
+  knob.rotation.z = Math.PI / 2;
+  knob.position.set(-0.028, 0.030, 0);
+  g.add(hub, arm, pin, knob);
+  g.position.set(shaft.x_min / 1000, shaft.y / 1000, shaft.z / 1000);
+  scene.add(g);
+  state.crank = g;
+}
+
+// Give each speaking string its own material so it can glow when plucked.
+function buildStrings() {
+  state.design.voices.forEach((row, v) => {
+    const node = state.nodes.get(`${row.note}_string`);
+    if (!node) return;
+    const colour = voiceColour(v);
+    const material = new THREE.MeshStandardMaterial({ color: colour, emissive: colour, emissiveIntensity: 0.12, roughness: 0.5 });
+    node.traverse((o) => {
+      if (o.isMesh) o.material = material;
+    });
+    state.strings[v] = { node, material, glow: 0 };
+  });
+}
+
+function decayGlow(dt) {
+  for (const s of state.strings) {
+    if (!s || s.glow <= 0.001) continue;
+    s.glow *= Math.exp(-dt / 0.3);
+    s.material.emissiveIntensity = 0.12 + 2.5 * s.glow;
+    const fat = 1 + 3 * s.glow;
+    s.node.scale.set(1, fat, fat);
+  }
+}
+
 function applyPoses(T) {
   const flat = posesFlat(T);
   const voices = state.design.voices;
+  if (state.crank) state.crank.rotation.x = THREE.MathUtils.degToRad(flat[3]);
   for (let v = 0; v < voices.length; v++) {
     for (let k = 0; k < KINDS.length; k++) {
       const node = state.nodes.get(`${voices[v].note}_${KINDS[k]}`);
@@ -260,9 +334,40 @@ function rebase() {
 
 function flash(v) {
   const row = ui.voices.children[v];
-  if (!row) return;
-  row.classList.add("pluck");
-  setTimeout(() => row.classList.remove("pluck"), 180);
+  if (row) {
+    row.classList.add("pluck");
+    setTimeout(() => row.classList.remove("pluck"), 180);
+  }
+  const s = state.strings[v];
+  if (s) {
+    s.glow = 1;
+    s.material.emissiveIntensity = 2.6;
+    s.node.scale.set(1, 4, 4);
+  }
+}
+
+function applyPreset(name) {
+  const offsets = PRESETS[name];
+  if (!offsets) return;
+  state.design.voices.forEach((row, v) => {
+    const tune = document.getElementById(`tune-${v}`);
+    tune.value = String(offsets[DEGREE_OF_VOICE[v]]);
+    tune.dispatchEvent(new Event("input", { bubbles: false }));
+  });
+  ui.preset.value = name;
+}
+
+function buildPresetMenu() {
+  ui.preset.innerHTML = "";
+  for (const name of [...Object.keys(PRESETS), CUSTOM]) {
+    const opt = document.createElement("option");
+    opt.value = name;
+    opt.textContent = name;
+    ui.preset.appendChild(opt);
+  }
+  ui.preset.addEventListener("change", () => {
+    if (ui.preset.value !== CUSTOM) applyPreset(ui.preset.value);
+  });
 }
 
 function buildVoiceRows() {
@@ -272,14 +377,16 @@ function buildVoiceRows() {
     const minLength = Math.max(40, Math.ceil(320 - row.station + 6));
     const el = document.createElement("div");
     el.className = "voice";
+    el.style.setProperty("--voice", `#${voiceColour(v).getHexString()}`);
     el.innerHTML = `
       <div class="voice-head">
+        <i class="swatch"></i>
         <b>${row.display_note}</b>
         <span class="ratio">${row.ratio_exact}</span>
         <span class="teeth">${row.driver_teeth}/${row.driven_teeth}</span>
         <span class="hz" id="hz-${v}"></span>
       </div>
-      <label>tuning <input type="range" id="tune-${v}" min="-100" max="100" step="1" value="0"><span id="tune-val-${v}">0 ¢</span></label>
+      <label>tuning <input type="range" id="tune-${v}" min="-150" max="150" step="1" value="0"><span id="tune-val-${v}">0 ¢</span></label>
       <label>bridge <input type="range" id="len-${v}" min="${minLength}" max="330" step="0.5" value="${row.speaking_length}"><span id="len-val-${v}">${row.speaking_length.toFixed(1)} mm</span></label>`;
     ui.voices.appendChild(el);
     const tune = el.querySelector(`#tune-${v}`);
@@ -295,6 +402,11 @@ function buildVoiceRows() {
       if (state.node) param(`freq${v}`).setValueAtTime(voiceFrequency(v), state.audio.currentTime);
     };
     tune.addEventListener("input", refresh);
+    // A hand-moved tuning slider turns the preset menu to Custom; applyPreset
+    // dispatches a non-bubbling event and then restores its own name.
+    tune.addEventListener("input", (e) => {
+      if (e.isTrusted) ui.preset.value = CUSTOM;
+    });
     len.addEventListener("input", refresh);
     refresh();
   });
@@ -383,7 +495,9 @@ function frame(now) {
       if (state.lastFrame !== undefined) state.elapsed += (now - state.lastFrame) / 1000;
       scheduleAhead();
     }
+    const dt = state.lastFrame === undefined ? 0 : (now - state.lastFrame) / 1000;
     state.lastFrame = now;
+    decayGlow(Math.min(dt, 0.1));
     applyPoses(currentT());
     updateReadouts();
     controls.update();
@@ -398,7 +512,9 @@ async function main() {
   try {
     await loadMeshes();
     await loadModel();
+    buildPresetMenu();
     buildVoiceRows();
+    buildStrings();
     applyPoses(0);
     ui.rpmValue.textContent = `${state.rpm.toFixed(1)} rpm`;
     setStatus("");
