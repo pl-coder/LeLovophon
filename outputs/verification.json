@@ -1,0 +1,41 @@
+{
+  "status": "concept only",
+  "invalid_shapes": [],
+  "initial_gear_overlap_mm3": [
+    {
+      "pair": 0,
+      "mm3": 0.0
+    },
+    {
+      "pair": 1,
+      "mm3": 0.0
+    },
+    {
+      "pair": 2,
+      "mm3": 0.0
+    },
+    {
+      "pair": 3,
+      "mm3": 0.0
+    },
+    {
+      "pair": 4,
+      "mm3": 0.0
+    }
+  ],
+  "ratios": [
+    1.0,
+    1.125,
+    1.25,
+    1.3333333333333333,
+    1.5
+  ],
+  "period_seconds": [
+    20.0,
+    17.77777777777778,
+    16.0,
+    15.0,
+    13.333333333333334
+  ],
+  "scope": "Prescribed rotations. No gear-contact solver, full collision sweep, torque, acoustic, string tension, spring, escapement, fits or fastening design."
+}

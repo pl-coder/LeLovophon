@@ -1,0 +1,9 @@
+{
+  "rigid_rotors": 34,
+  "pairs_proven_by_axial_separation": 518,
+  "pairs_proven_by_radial_separation": 43,
+  "unproven_pairs": [],
+  "tessellation_deflection_mm": 0.05,
+  "added_radial_margin_mm": 0.1,
+  "scope": "Conservative swept-circle/axial bounds for independently rotating rigid wheel, drive and idler groups. Excludes intended shaft couplings, deformable picks and reference chain engagement."
+}

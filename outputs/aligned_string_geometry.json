@@ -1,0 +1,89 @@
+{
+  "vertical_axis": "Y",
+  "spacing_mm": 10,
+  "geometry": [
+    {
+      "note": "C",
+      "string_y": 29.393876913398138,
+      "string_z": -34,
+      "left_x": -10.0,
+      "right_x": 320,
+      "length_mm": 330.0,
+      "arm_radius_mm": 67.19693845669907,
+      "arm_axis_y": -37.803061543300934,
+      "pick_x": 16.65
+    },
+    {
+      "note": "D",
+      "string_y": 19.393876913398138,
+      "string_z": -34,
+      "left_x": 26.666666666666686,
+      "right_x": 320,
+      "length_mm": 293.3333333333333,
+      "arm_radius_mm": 59.730611961510284,
+      "arm_axis_y": -40.336735048112146,
+      "pick_x": 40.65
+    },
+    {
+      "note": "E",
+      "string_y": 9.393876913398138,
+      "string_z": -34,
+      "left_x": 56.0,
+      "right_x": 320,
+      "length_mm": 264.0,
+      "arm_radius_mm": 53.75755076535926,
+      "arm_axis_y": -44.363673851961124,
+      "pick_x": 64.65
+    },
+    {
+      "note": "F",
+      "string_y": -0.6061230866018619,
+      "string_z": -34,
+      "left_x": 72.5,
+      "right_x": 320,
+      "length_mm": 247.5,
+      "arm_radius_mm": 50.39770384252431,
+      "arm_axis_y": -51.00382692912617,
+      "pick_x": 88.65
+    },
+    {
+      "note": "G",
+      "string_y": -10.606123086601862,
+      "string_z": -34,
+      "left_x": 100.0,
+      "right_x": 320,
+      "length_mm": 220.0,
+      "arm_radius_mm": 44.797958971132715,
+      "arm_axis_y": -55.40408205773458,
+      "pick_x": 112.65
+    }
+  ],
+  "unwanted_full_turn_contacts": [],
+  "intended_pick_contacts": [
+    {
+      "voice": "C",
+      "part": "C_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "D",
+      "part": "D_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "E",
+      "part": "E_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "F",
+      "part": "F_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "G",
+      "part": "G_LongSpeakingString",
+      "sweep": "pick"
+    }
+  ]
+}

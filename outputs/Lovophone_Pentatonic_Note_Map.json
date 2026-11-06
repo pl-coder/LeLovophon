@@ -1,0 +1,126 @@
+{
+  "purpose": "Approved pentatonic pitches implemented in Lovophone_Pentatonic.FCStd; original cam/follower timing retained",
+  "reference": "MIDI 48 = C3 = 130.8127826502993 Hz; octave labels may differ in your DAW",
+  "voices": [
+    {
+      "string": 1,
+      "note": "C3",
+      "midi_note": 48,
+      "ratio_to_C3": "1",
+      "frequency_hz": 130.8127826502993,
+      "correction_cents": 0.0,
+      "channel": 1,
+      "timing_source": "C"
+    },
+    {
+      "string": 2,
+      "note": "D3",
+      "midi_note": 50,
+      "ratio_to_C3": "9/8",
+      "frequency_hz": 147.16438048158673,
+      "correction_cents": 3.9100017307748374,
+      "channel": 2,
+      "timing_source": "C\u266f"
+    },
+    {
+      "string": 3,
+      "note": "E3",
+      "midi_note": 52,
+      "ratio_to_C3": "5/4",
+      "frequency_hz": 163.51597831287415,
+      "correction_cents": -13.686286135165176,
+      "channel": 3,
+      "timing_source": "D"
+    },
+    {
+      "string": 4,
+      "note": "G3",
+      "midi_note": 55,
+      "ratio_to_C3": "3/2",
+      "frequency_hz": 196.21917397544897,
+      "correction_cents": 1.955000865387433,
+      "channel": 4,
+      "timing_source": "E\u266d"
+    },
+    {
+      "string": 5,
+      "note": "A3",
+      "midi_note": 57,
+      "ratio_to_C3": "5/3",
+      "frequency_hz": 218.02130441716554,
+      "correction_cents": -15.641287000552552,
+      "channel": 5,
+      "timing_source": "E"
+    },
+    {
+      "string": 6,
+      "note": "C4",
+      "midi_note": 60,
+      "ratio_to_C3": "2",
+      "frequency_hz": 261.6255653005986,
+      "correction_cents": 0.0,
+      "channel": 6,
+      "timing_source": "F"
+    },
+    {
+      "string": 7,
+      "note": "D4",
+      "midi_note": 62,
+      "ratio_to_C3": "9/4",
+      "frequency_hz": 294.32876096317347,
+      "correction_cents": 3.910001730774866,
+      "channel": 7,
+      "timing_source": "F\u266f"
+    },
+    {
+      "string": 8,
+      "note": "E4",
+      "midi_note": 64,
+      "ratio_to_C3": "5/2",
+      "frequency_hz": 327.0319566257483,
+      "correction_cents": -13.686286135165119,
+      "channel": 8,
+      "timing_source": "G"
+    },
+    {
+      "string": 9,
+      "note": "G4",
+      "midi_note": 67,
+      "ratio_to_C3": "3",
+      "frequency_hz": 392.43834795089793,
+      "correction_cents": 1.9550008653873192,
+      "channel": 9,
+      "timing_source": "A\u266d"
+    },
+    {
+      "string": 10,
+      "note": "A4",
+      "midi_note": 69,
+      "ratio_to_C3": "10/3",
+      "frequency_hz": 436.0426088343311,
+      "correction_cents": -15.641287000552438,
+      "channel": 11,
+      "timing_source": "A"
+    },
+    {
+      "string": 11,
+      "note": "C5",
+      "midi_note": 72,
+      "ratio_to_C3": "4",
+      "frequency_hz": 523.2511306011972,
+      "correction_cents": 0.0,
+      "channel": 12,
+      "timing_source": "B\u266d"
+    },
+    {
+      "string": 12,
+      "note": "D5",
+      "midi_note": 74,
+      "ratio_to_C3": "9/2",
+      "frequency_hz": 588.6575219263469,
+      "correction_cents": 3.9100017307746384,
+      "channel": 13,
+      "timing_source": "B"
+    }
+  ]
+}

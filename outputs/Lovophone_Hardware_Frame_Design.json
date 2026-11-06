@@ -1,0 +1,776 @@
+{
+  "removed_custom_supports": [
+    "LowInputStand0",
+    "LowInputStand1",
+    "LowInputBearing0",
+    "LowInputBearing1",
+    "IntermediateAxleStand0",
+    "IntermediateAxleStand1"
+  ],
+  "old_custom_support_volume_mm3": 19314.723705709534,
+  "new_parts": [
+    {
+      "name": "DriveFrameLeftInputBearing",
+      "label": "Left input bearing \u2014 MR126-2RS, 6 \u00d7 12 \u00d7 4 mm",
+      "source_class": "catalogue bearing",
+      "specification": "MR126-2RS or MR126ZZ, 6 mm bore / 12 mm OD / 4 mm width; sealed/shielded version, not 3 mm-wide open version"
+    },
+    {
+      "name": "DriveFrameLeftInputRetainer0FrontWasher",
+      "label": "DriveFrameLeftInputRetainer0FrontWasher",
+      "source_class": "standard hardware",
+      "specification": "M3 plain washer, 3.2/7/0.5 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftInputRetainer0RearWasher",
+      "label": "DriveFrameLeftInputRetainer0RearWasher",
+      "source_class": "standard hardware",
+      "specification": "M3 plain washer, 3.2/7/0.5 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftInputRetainer0Bolt",
+      "label": "M3 \u00d7 10 bolt \u2014 bearing retaining washers",
+      "source_class": "standard hardware",
+      "specification": "M3 \u00d7 10 hex bolt, DIN 933 / ISO 4017 envelope"
+    },
+    {
+      "name": "DriveFrameLeftInputRetainer0Nut",
+      "label": "M3 nut \u2014 bearing retainer",
+      "source_class": "standard hardware",
+      "specification": "M3 hex nut, ISO 4032 envelope; thread not modelled"
+    },
+    {
+      "name": "DriveFrameLeftInputRetainer1FrontWasher",
+      "label": "DriveFrameLeftInputRetainer1FrontWasher",
+      "source_class": "standard hardware",
+      "specification": "M3 plain washer, 3.2/7/0.5 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftInputRetainer1RearWasher",
+      "label": "DriveFrameLeftInputRetainer1RearWasher",
+      "source_class": "standard hardware",
+      "specification": "M3 plain washer, 3.2/7/0.5 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftInputRetainer1Bolt",
+      "label": "M3 \u00d7 10 bolt \u2014 bearing retaining washers",
+      "source_class": "standard hardware",
+      "specification": "M3 \u00d7 10 hex bolt, DIN 933 / ISO 4017 envelope"
+    },
+    {
+      "name": "DriveFrameLeftInputRetainer1Nut",
+      "label": "M3 nut \u2014 bearing retainer",
+      "source_class": "standard hardware",
+      "specification": "M3 hex nut, ISO 4032 envelope; thread not modelled"
+    },
+    {
+      "name": "DriveFrameLeftAngle0",
+      "label": "Left standard angle foot 1 \u2014 20 \u00d7 20 \u00d7 2, cut 15 mm",
+      "source_class": "cut and drill hardware stock",
+      "specification": "20 \u00d7 20 \u00d7 2 mm equal angle; saw four identical 15 mm lengths; one 4.4 mm hole per leg"
+    },
+    {
+      "name": "DriveFrameLeftCheekBolt0",
+      "label": "M4 \u00d7 12 bolt \u2014 end plate to angle",
+      "source_class": "standard hardware",
+      "specification": "M4 \u00d7 12 hex bolt, nominal thread envelope"
+    },
+    {
+      "name": "DriveFrameLeftCheekWasherA0",
+      "label": "DriveFrameLeftCheekWasherA0",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftCheekWasherB0",
+      "label": "DriveFrameLeftCheekWasherB0",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftCheekNut0",
+      "label": "M4 nut \u2014 end plate to angle",
+      "source_class": "standard hardware",
+      "specification": "M4 hex nut, ISO 4032 nominal envelope"
+    },
+    {
+      "name": "DriveFrameLeftDeckBolt0",
+      "label": "M4 \u00d7 20 bolt \u2014 removable drive deck",
+      "source_class": "standard hardware",
+      "specification": "M4 \u00d7 20 hex bolt; nominal thread envelope"
+    },
+    {
+      "name": "DriveFrameLeftDeckWasher0",
+      "label": "DriveFrameLeftDeckWasher0",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftDeckRearWasher0",
+      "label": "DriveFrameLeftDeckRearWasher0",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftDeckNut0",
+      "label": "M4 nut \u2014 accessible inside soundbox",
+      "source_class": "standard hardware",
+      "specification": "M4 hex nut; lock with a second nut or a replaceable nyloc after prototype testing"
+    },
+    {
+      "name": "DriveFrameLeftAngle1",
+      "label": "Left standard angle foot 2 \u2014 20 \u00d7 20 \u00d7 2, cut 15 mm",
+      "source_class": "cut and drill hardware stock",
+      "specification": "20 \u00d7 20 \u00d7 2 mm equal angle; saw four identical 15 mm lengths; one 4.4 mm hole per leg"
+    },
+    {
+      "name": "DriveFrameLeftCheekBolt1",
+      "label": "M4 \u00d7 12 bolt \u2014 end plate to angle",
+      "source_class": "standard hardware",
+      "specification": "M4 \u00d7 12 hex bolt, nominal thread envelope"
+    },
+    {
+      "name": "DriveFrameLeftCheekWasherA1",
+      "label": "DriveFrameLeftCheekWasherA1",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftCheekWasherB1",
+      "label": "DriveFrameLeftCheekWasherB1",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftCheekNut1",
+      "label": "M4 nut \u2014 end plate to angle",
+      "source_class": "standard hardware",
+      "specification": "M4 hex nut, ISO 4032 nominal envelope"
+    },
+    {
+      "name": "DriveFrameLeftDeckBolt1",
+      "label": "M4 \u00d7 20 bolt \u2014 removable drive deck",
+      "source_class": "standard hardware",
+      "specification": "M4 \u00d7 20 hex bolt; nominal thread envelope"
+    },
+    {
+      "name": "DriveFrameLeftDeckWasher1",
+      "label": "DriveFrameLeftDeckWasher1",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftDeckRearWasher1",
+      "label": "DriveFrameLeftDeckRearWasher1",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameLeftDeckNut1",
+      "label": "M4 nut \u2014 accessible inside soundbox",
+      "source_class": "standard hardware",
+      "specification": "M4 hex nut; lock with a second nut or a replaceable nyloc after prototype testing"
+    },
+    {
+      "name": "DriveFrameLeftCheek",
+      "label": "Left identical end plate \u2014 50 \u00d7 59 \u00d7 4 mm flat stock",
+      "source_class": "cut and drill hardware stock",
+      "specification": "50 \u00d7 4 mm flat steel stock, saw two 59 mm lengths. One 12.1 mm bearing hole, one 6.5 mm fixed-axle hole, two 3.4 mm retaining-bolt holes and two 4.4 mm foot holes; identical drilling template."
+    },
+    {
+      "name": "DriveFrameRightInputBearing",
+      "label": "Right input bearing \u2014 MR126-2RS, 6 \u00d7 12 \u00d7 4 mm",
+      "source_class": "catalogue bearing",
+      "specification": "MR126-2RS or MR126ZZ, 6 mm bore / 12 mm OD / 4 mm width; sealed/shielded version, not 3 mm-wide open version"
+    },
+    {
+      "name": "DriveFrameRightInputRetainer0FrontWasher",
+      "label": "DriveFrameRightInputRetainer0FrontWasher",
+      "source_class": "standard hardware",
+      "specification": "M3 plain washer, 3.2/7/0.5 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightInputRetainer0RearWasher",
+      "label": "DriveFrameRightInputRetainer0RearWasher",
+      "source_class": "standard hardware",
+      "specification": "M3 plain washer, 3.2/7/0.5 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightInputRetainer0Bolt",
+      "label": "M3 \u00d7 10 bolt \u2014 bearing retaining washers",
+      "source_class": "standard hardware",
+      "specification": "M3 \u00d7 10 hex bolt, DIN 933 / ISO 4017 envelope"
+    },
+    {
+      "name": "DriveFrameRightInputRetainer0Nut",
+      "label": "M3 nut \u2014 bearing retainer",
+      "source_class": "standard hardware",
+      "specification": "M3 hex nut, ISO 4032 envelope; thread not modelled"
+    },
+    {
+      "name": "DriveFrameRightInputRetainer1FrontWasher",
+      "label": "DriveFrameRightInputRetainer1FrontWasher",
+      "source_class": "standard hardware",
+      "specification": "M3 plain washer, 3.2/7/0.5 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightInputRetainer1RearWasher",
+      "label": "DriveFrameRightInputRetainer1RearWasher",
+      "source_class": "standard hardware",
+      "specification": "M3 plain washer, 3.2/7/0.5 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightInputRetainer1Bolt",
+      "label": "M3 \u00d7 10 bolt \u2014 bearing retaining washers",
+      "source_class": "standard hardware",
+      "specification": "M3 \u00d7 10 hex bolt, DIN 933 / ISO 4017 envelope"
+    },
+    {
+      "name": "DriveFrameRightInputRetainer1Nut",
+      "label": "M3 nut \u2014 bearing retainer",
+      "source_class": "standard hardware",
+      "specification": "M3 hex nut, ISO 4032 envelope; thread not modelled"
+    },
+    {
+      "name": "DriveFrameRightAngle0",
+      "label": "Right standard angle foot 1 \u2014 20 \u00d7 20 \u00d7 2, cut 15 mm",
+      "source_class": "cut and drill hardware stock",
+      "specification": "20 \u00d7 20 \u00d7 2 mm equal angle; saw four identical 15 mm lengths; one 4.4 mm hole per leg"
+    },
+    {
+      "name": "DriveFrameRightCheekBolt0",
+      "label": "M4 \u00d7 12 bolt \u2014 end plate to angle",
+      "source_class": "standard hardware",
+      "specification": "M4 \u00d7 12 hex bolt, nominal thread envelope"
+    },
+    {
+      "name": "DriveFrameRightCheekWasherA0",
+      "label": "DriveFrameRightCheekWasherA0",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightCheekWasherB0",
+      "label": "DriveFrameRightCheekWasherB0",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightCheekNut0",
+      "label": "M4 nut \u2014 end plate to angle",
+      "source_class": "standard hardware",
+      "specification": "M4 hex nut, ISO 4032 nominal envelope"
+    },
+    {
+      "name": "DriveFrameRightDeckBolt0",
+      "label": "M4 \u00d7 20 bolt \u2014 removable drive deck",
+      "source_class": "standard hardware",
+      "specification": "M4 \u00d7 20 hex bolt; nominal thread envelope"
+    },
+    {
+      "name": "DriveFrameRightDeckWasher0",
+      "label": "DriveFrameRightDeckWasher0",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightDeckRearWasher0",
+      "label": "DriveFrameRightDeckRearWasher0",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightDeckNut0",
+      "label": "M4 nut \u2014 accessible inside soundbox",
+      "source_class": "standard hardware",
+      "specification": "M4 hex nut; lock with a second nut or a replaceable nyloc after prototype testing"
+    },
+    {
+      "name": "DriveFrameRightAngle1",
+      "label": "Right standard angle foot 2 \u2014 20 \u00d7 20 \u00d7 2, cut 15 mm",
+      "source_class": "cut and drill hardware stock",
+      "specification": "20 \u00d7 20 \u00d7 2 mm equal angle; saw four identical 15 mm lengths; one 4.4 mm hole per leg"
+    },
+    {
+      "name": "DriveFrameRightCheekBolt1",
+      "label": "M4 \u00d7 12 bolt \u2014 end plate to angle",
+      "source_class": "standard hardware",
+      "specification": "M4 \u00d7 12 hex bolt, nominal thread envelope"
+    },
+    {
+      "name": "DriveFrameRightCheekWasherA1",
+      "label": "DriveFrameRightCheekWasherA1",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightCheekWasherB1",
+      "label": "DriveFrameRightCheekWasherB1",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightCheekNut1",
+      "label": "M4 nut \u2014 end plate to angle",
+      "source_class": "standard hardware",
+      "specification": "M4 hex nut, ISO 4032 nominal envelope"
+    },
+    {
+      "name": "DriveFrameRightDeckBolt1",
+      "label": "M4 \u00d7 20 bolt \u2014 removable drive deck",
+      "source_class": "standard hardware",
+      "specification": "M4 \u00d7 20 hex bolt; nominal thread envelope"
+    },
+    {
+      "name": "DriveFrameRightDeckWasher1",
+      "label": "DriveFrameRightDeckWasher1",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightDeckRearWasher1",
+      "label": "DriveFrameRightDeckRearWasher1",
+      "source_class": "standard hardware",
+      "specification": "M4 plain washer, 4.3/9/0.8 mm nominal"
+    },
+    {
+      "name": "DriveFrameRightDeckNut1",
+      "label": "M4 nut \u2014 accessible inside soundbox",
+      "source_class": "standard hardware",
+      "specification": "M4 hex nut; lock with a second nut or a replaceable nyloc after prototype testing"
+    },
+    {
+      "name": "DriveFrameRightCheek",
+      "label": "Right identical end plate \u2014 50 \u00d7 59 \u00d7 4 mm flat stock",
+      "source_class": "cut and drill hardware stock",
+      "specification": "50 \u00d7 4 mm flat steel stock, saw two 59 mm lengths. One 12.1 mm bearing hole, one 6.5 mm fixed-axle hole, two 3.4 mm retaining-bolt holes and two 4.4 mm foot holes; identical drilling template."
+    },
+    {
+      "name": "DriveFrameInputLeftCollar",
+      "label": "InputLeft \u2014 standard 6 mm shaft stop collar",
+      "source_class": "catalogue shaft hardware",
+      "specification": "DIN 705 style 6 mm bore stop collar, nominal 12 mm OD \u00d7 8 mm wide, radial set screw; check supplier dimensions"
+    },
+    {
+      "name": "DriveFrameInputCollarSpacer",
+      "label": "Input collar spacer \u2014 3 mm length of brass tube",
+      "source_class": "cut stock spacer",
+      "specification": "8 mm OD \u00d7 1 mm wall brass tube; cut 3 mm; deburr bore for free fit on 6 mm shaft"
+    },
+    {
+      "name": "DriveFrameIdlerLeftNut",
+      "label": "M6 nut \u2014 stationary axle end fixing",
+      "source_class": "standard hardware",
+      "specification": "Ordinary M6 hex nut, nominal 10 mm across flats \u00d7 5 mm thick. M6 threads must be cut only on the exposed ends of the smooth 6 mm stationary axle; thread envelope shown."
+    },
+    {
+      "name": "DriveFrameIdlerRightNut",
+      "label": "M6 nut \u2014 stationary axle end fixing",
+      "source_class": "standard hardware",
+      "specification": "Ordinary M6 hex nut, nominal 10 mm across flats \u00d7 5 mm thick. M6 threads must be cut only on the exposed ends of the smooth 6 mm stationary axle; thread envelope shown."
+    }
+  ],
+  "new_part_names": [
+    "DriveFrameLeftInputBearing",
+    "DriveFrameLeftInputRetainer0FrontWasher",
+    "DriveFrameLeftInputRetainer0RearWasher",
+    "DriveFrameLeftInputRetainer0Bolt",
+    "DriveFrameLeftInputRetainer0Nut",
+    "DriveFrameLeftInputRetainer1FrontWasher",
+    "DriveFrameLeftInputRetainer1RearWasher",
+    "DriveFrameLeftInputRetainer1Bolt",
+    "DriveFrameLeftInputRetainer1Nut",
+    "DriveFrameLeftAngle0",
+    "DriveFrameLeftCheekBolt0",
+    "DriveFrameLeftCheekWasherA0",
+    "DriveFrameLeftCheekWasherB0",
+    "DriveFrameLeftCheekNut0",
+    "DriveFrameLeftDeckBolt0",
+    "DriveFrameLeftDeckWasher0",
+    "DriveFrameLeftDeckRearWasher0",
+    "DriveFrameLeftDeckNut0",
+    "DriveFrameLeftAngle1",
+    "DriveFrameLeftCheekBolt1",
+    "DriveFrameLeftCheekWasherA1",
+    "DriveFrameLeftCheekWasherB1",
+    "DriveFrameLeftCheekNut1",
+    "DriveFrameLeftDeckBolt1",
+    "DriveFrameLeftDeckWasher1",
+    "DriveFrameLeftDeckRearWasher1",
+    "DriveFrameLeftDeckNut1",
+    "DriveFrameLeftCheek",
+    "DriveFrameRightInputBearing",
+    "DriveFrameRightInputRetainer0FrontWasher",
+    "DriveFrameRightInputRetainer0RearWasher",
+    "DriveFrameRightInputRetainer0Bolt",
+    "DriveFrameRightInputRetainer0Nut",
+    "DriveFrameRightInputRetainer1FrontWasher",
+    "DriveFrameRightInputRetainer1RearWasher",
+    "DriveFrameRightInputRetainer1Bolt",
+    "DriveFrameRightInputRetainer1Nut",
+    "DriveFrameRightAngle0",
+    "DriveFrameRightCheekBolt0",
+    "DriveFrameRightCheekWasherA0",
+    "DriveFrameRightCheekWasherB0",
+    "DriveFrameRightCheekNut0",
+    "DriveFrameRightDeckBolt0",
+    "DriveFrameRightDeckWasher0",
+    "DriveFrameRightDeckRearWasher0",
+    "DriveFrameRightDeckNut0",
+    "DriveFrameRightAngle1",
+    "DriveFrameRightCheekBolt1",
+    "DriveFrameRightCheekWasherA1",
+    "DriveFrameRightCheekWasherB1",
+    "DriveFrameRightCheekNut1",
+    "DriveFrameRightDeckBolt1",
+    "DriveFrameRightDeckWasher1",
+    "DriveFrameRightDeckRearWasher1",
+    "DriveFrameRightDeckNut1",
+    "DriveFrameRightCheek",
+    "DriveFrameInputLeftCollar",
+    "DriveFrameInputCollarSpacer",
+    "DriveFrameIdlerLeftNut",
+    "DriveFrameIdlerRightNut"
+  ],
+  "colors": {
+    "DriveFrameLeftInputBearing": [
+      0.38,
+      0.4,
+      0.41
+    ],
+    "DriveFrameLeftInputRetainer0FrontWasher": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftInputRetainer0RearWasher": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftInputRetainer0Bolt": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftInputRetainer0Nut": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftInputRetainer1FrontWasher": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftInputRetainer1RearWasher": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftInputRetainer1Bolt": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftInputRetainer1Nut": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftAngle0": [
+      0.55,
+      0.58,
+      0.6
+    ],
+    "DriveFrameLeftCheekBolt0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftCheekWasherA0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftCheekWasherB0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftCheekNut0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftDeckBolt0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftDeckWasher0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftDeckRearWasher0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftDeckNut0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftAngle1": [
+      0.55,
+      0.58,
+      0.6
+    ],
+    "DriveFrameLeftCheekBolt1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftCheekWasherA1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftCheekWasherB1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftCheekNut1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftDeckBolt1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftDeckWasher1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftDeckRearWasher1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftDeckNut1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameLeftCheek": [
+      0.42,
+      0.45,
+      0.47
+    ],
+    "DriveFrameRightInputBearing": [
+      0.38,
+      0.4,
+      0.41
+    ],
+    "DriveFrameRightInputRetainer0FrontWasher": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightInputRetainer0RearWasher": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightInputRetainer0Bolt": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightInputRetainer0Nut": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightInputRetainer1FrontWasher": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightInputRetainer1RearWasher": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightInputRetainer1Bolt": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightInputRetainer1Nut": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightAngle0": [
+      0.55,
+      0.58,
+      0.6
+    ],
+    "DriveFrameRightCheekBolt0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightCheekWasherA0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightCheekWasherB0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightCheekNut0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightDeckBolt0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightDeckWasher0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightDeckRearWasher0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightDeckNut0": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightAngle1": [
+      0.55,
+      0.58,
+      0.6
+    ],
+    "DriveFrameRightCheekBolt1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightCheekWasherA1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightCheekWasherB1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightCheekNut1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightDeckBolt1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightDeckWasher1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightDeckRearWasher1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightDeckNut1": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameRightCheek": [
+      0.42,
+      0.45,
+      0.47
+    ],
+    "LowGearboxTray": [
+      0.6,
+      0.42,
+      0.25
+    ],
+    "DriveFrameInputLeftCollar": [
+      0.35,
+      0.38,
+      0.4
+    ],
+    "DriveFrameInputCollarSpacer": [
+      0.62,
+      0.43,
+      0.15
+    ],
+    "DriveFrameIdlerLeftNut": [
+      0.46,
+      0.49,
+      0.51
+    ],
+    "DriveFrameIdlerRightNut": [
+      0.46,
+      0.49,
+      0.51
+    ]
+  },
+  "cut_list": [
+    {
+      "part": "Identical end plates",
+      "quantity": 2,
+      "stock": "50 \u00d7 4 mm flat steel",
+      "cut_length_mm": 59
+    },
+    {
+      "part": "Identical angle feet",
+      "quantity": 4,
+      "stock": "20 \u00d7 20 \u00d7 2 mm equal angle",
+      "cut_length_mm": 15
+    },
+    {
+      "part": "Drive deck",
+      "quantity": 1,
+      "stock": "6 mm plywood",
+      "size_mm": [
+        288,
+        78
+      ]
+    }
+  ],
+  "timing_and_pitch_geometry_unchanged": true,
+  "bearing_standard": "MR126-2RS / MR126ZZ, 6 \u00d7 12 \u00d7 4 mm, sealed/shielded version",
+  "invalid_shapes": [],
+  "scope": "Hardware-store replaceability applies to frame stock, smooth rod, plywood, nuts, bolts and washers. Bearings, collars, belts, pulleys, motor and ratio cams may need motion/hobby suppliers. Ordinary threaded rod is not a bearing journal.",
+  "part_count": 614,
+  "envelope_mm": [
+    394.0,
+    202.28680816147636,
+    197.19693845669906
+  ],
+  "display_settings_saved": true
+}

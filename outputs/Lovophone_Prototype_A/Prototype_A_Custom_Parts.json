@@ -1,0 +1,47 @@
+[
+  {
+    "id": "R01_Cheek_0",
+    "description": "Two identical 180 x 100 x 6 mm 6061-T6 cheeks; slotted carrier mounting",
+    "volume_mm3": 87565.44343506577
+  },
+  {
+    "id": "R02_Carrier_0_0",
+    "description": "Six identical bearing carriers, 30 x 50 x 6; 16 H7 pocket depth 5, 8 through; outer race shoulder",
+    "volume_mm3": 7702.396570361272
+  },
+  {
+    "id": "R03_Retainer_0_0",
+    "description": "Six 27 OD x 8 ID x 1 stainless retainers; 2 x 2.2 clearance at +/-11",
+    "volume_mm3": 514.6871244376159
+  },
+  {
+    "id": "P01_LinkageCheek_0",
+    "description": "Two 140 x 140 x 6 cheeks; 16 H7 through seats, centres (30,110)/(110,110); two 10 mm string ports",
+    "volume_mm3": 113863.07553855497
+  },
+  {
+    "id": "P02_BlindCrank",
+    "description": "20 OD x 12 crank; rear 5 H7 blind depth 6; front 3 pin blind depth 4 at 4 radius; 2 mm separating web. Shaft clamp thread to detail.",
+    "volume_mm3": 3623.827125915826
+  },
+  {
+    "id": "P03_Rocker",
+    "description": "14 mm rocker pin centres; 5 shaft bore / 3 pin bore; separate shaft clamp to detail",
+    "volume_mm3": 1458.14981095011
+  },
+  {
+    "id": "P04_POMCoupler",
+    "description": "POM-C; 80 +/-0.05 centres; 3.02 to 3.04 journal bores; 4 mm thick; replaceable dry plain bearing link",
+    "volume_mm3": 3456.092580024147
+  },
+  {
+    "id": "P05_Arm_0",
+    "description": "Removable aluminium arm; pivot-to-string 67.196938; body stops 1 mm short; final flexible pick and hub clamp to test",
+    "volume_mm3": 1445.1876203749946
+  },
+  {
+    "id": "P05_Arm_1",
+    "description": "Removable aluminium arm; pivot-to-string 14.932653; body stops 1 mm short; final flexible pick and hub clamp to test",
+    "volume_mm3": 504.43048198120783
+  }
+]

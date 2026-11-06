@@ -1,0 +1,7 @@
+{
+  "sampled_linkage_poses": 144,
+  "invalid_shapes": [],
+  "moving_rigid_to_fixed_intersections": [],
+  "scope": "Swept rigid link-to-fixed geometric check of pluck fixture. Excludes intended pins and deformable picks. Does not validate supplier pulley batch dimensions, motor torque, bearing fits under load, string anchors, or actual release. Base angle brackets and fasteners not fully represented.",
+  "physical_test_passed": false
+}

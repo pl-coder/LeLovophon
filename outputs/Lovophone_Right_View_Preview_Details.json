@@ -1,0 +1,17 @@
+{
+  "duration_seconds": 20,
+  "fps": 24,
+  "frames": 480,
+  "resolution": [
+    1008,
+    900
+  ],
+  "codec": "H.264",
+  "motor_visible": false,
+  "camera": "Fixed RIGHT orthographic view",
+  "normal_speed": true,
+  "midi_offset_seconds": 0,
+  "midi_tempo_bpm": 120,
+  "audio": "Silent",
+  "full_film_status": "Rendering; complete eight-minute output is created only after successful encoding"
+}

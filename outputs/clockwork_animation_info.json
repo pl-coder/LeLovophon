@@ -1,0 +1,12 @@
+{
+  "duration_seconds": 12,
+  "fps": 24,
+  "frames": 288,
+  "model_speed_multiplier": 4,
+  "clockwork_angles_deg_per_model_second": {
+    "barrel": -6,
+    "idler": 15,
+    "output": -18
+  },
+  "scope": "Kinematic illustration, not a spring, escapement, collision or sound simulation."
+}

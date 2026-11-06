@@ -1,0 +1,9 @@
+{
+  "voices": 12,
+  "repeat_seconds": 480,
+  "frame_count": 11520,
+  "fps": 24,
+  "end_matrix_error": 2.88003957393812e-05,
+  "normal_speed": true,
+  "physical_validation": false
+}

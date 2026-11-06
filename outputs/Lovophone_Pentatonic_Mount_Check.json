@@ -1,0 +1,54 @@
+{
+  "changed_fixed_part_clashes": [],
+  "intentional_bridge_crown_seats": [
+    [
+      "A_KotoThirdBridge",
+      "A_NylonBridgeCrown"
+    ],
+    [
+      "Ab_KotoThirdBridge",
+      "Ab_NylonBridgeCrown"
+    ],
+    [
+      "B_KotoThirdBridge",
+      "B_NylonBridgeCrown"
+    ],
+    [
+      "Bb_KotoThirdBridge",
+      "Bb_NylonBridgeCrown"
+    ],
+    [
+      "C_KotoThirdBridge",
+      "C_NylonBridgeCrown"
+    ],
+    [
+      "Cs_KotoThirdBridge",
+      "Cs_NylonBridgeCrown"
+    ],
+    [
+      "D_KotoThirdBridge",
+      "D_NylonBridgeCrown"
+    ],
+    [
+      "E_KotoThirdBridge",
+      "E_NylonBridgeCrown"
+    ],
+    [
+      "Eb_KotoThirdBridge",
+      "Eb_NylonBridgeCrown"
+    ],
+    [
+      "F_KotoThirdBridge",
+      "F_NylonBridgeCrown"
+    ],
+    [
+      "Fs_KotoThirdBridge",
+      "Fs_NylonBridgeCrown"
+    ],
+    [
+      "G_KotoThirdBridge",
+      "G_NylonBridgeCrown"
+    ]
+  ],
+  "scope": "Changed forks, belt paths, third bridges and motor mount against all stationary model parts. Bridge crowns seated into wooden bridges are intentional interfaces."
+}

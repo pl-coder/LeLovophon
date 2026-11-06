@@ -1,0 +1,30 @@
+# Generated media and bundles
+*.mp4
+*.mov
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.blend
+*.blend1
+*.mid
+*.wav
+*.mp3
+*.flac
+*.zip
+# CAD/application backups
+*.FCBak
+*.FCStd1
+*.webloc
+.DS_Store
+# Generated data / local tools
+__pycache__/
+*.pyc
+*.log
+*_frames/
+work/*_mesh.json
+work/*progress*.json
+work/*status*.json
+work/blender-runtime/
+.env
+.env.*

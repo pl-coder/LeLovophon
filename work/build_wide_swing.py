@@ -1,0 +1,64 @@
+import os as _lovophon_os
+from pathlib import Path as _LovophonPath
+_LOVOPHON_WORKSPACE = _lovophon_os.environ.get('LOVOPHON_WORKSPACE', str(_LovophonPath(__file__).resolve().parents[1]))
+import FreeCAD as App,Part,math,json
+from FreeCAD import Vector as V
+OUT=(_LOVOPHON_WORKSPACE + '/outputs')
+doc=App.openDocument(OUT+'/Harpe_d_Amour_Koto_Live.FCStd')
+rows=json.load(open(OUT+'/koto_pendulum_geometry.json'))['rows']
+def cy(r,h,p):return Part.makeCylinder(r,h,p,V(1,0,0))
+def bx(a,b,c,x,y,z):return Part.makeBox(a,b,c,V(x,y,z))
+def add(name,shape,parent):
+ o=doc.addObject('Part::Feature',name);o.Shape=shape;parent.addObject(o);return o
+def wire(A,B,ra,rb):
+ d=B-A;D=d.Length;d.normalize();p=V(0,-d.z,d.y);k=(ra-rb)/D;q=math.sqrt(1-k*k);n1=d*k+p*q;n2=d*k-p*q
+ return Part.Wire([Part.makeLine(A+n1*ra,B+n1*rb),Part.Arc(B+n1*rb,B+d*rb,B+n2*rb).toShape(),Part.makeLine(B+n2*rb,A+n2*ra),Part.Arc(A+n2*ra,A-d*ra,A+n1*ra).toShape()])
+def beta(row,theta):
+ U=V(0,row['follower_y'],row['follower_z']);C=V(0,-59-4*math.sin(theta),-116+4*math.cos(theta));v=C-U;d=v.Length;v.normalize();a=(row['lever_length']**2-225+d*d)/(2*d);h2=row['lever_length']**2-a*a
+ assert h2>0
+ P=U+v*a;perp=V(0,-v.z,v.y);h=math.sqrt(h2);b1=P+perp*h;b2=P-perp*h;B=b1 if b1.y>b2.y else b2
+ return math.atan2(-(B.y-U.y),B.z-U.z)
+for row in rows:
+ n=row['note'];s=row['station'];fy=row['pivot_y'];fz=row['pivot_z']-30;row['follower_y']=fy;row['follower_z']=fz;row['swing_gain']=4.0;D=(V(0,fy,fz)-V(0,-59,-116)).Length;row['lever_length']=D
+ vals=[beta(row,math.radians(j)) for j in range(720)];ref=vals[0];vals=[ref+math.atan2(math.sin(b-ref),math.cos(b-ref)) for b in vals]
+ row['beta_mid']=(max(vals)+min(vals))/2;row['swing_half_angle_deg']=math.degrees((max(vals)-min(vals))/2)*4
+ r=doc.getObject(n+'_Rocker');p=r.Placement;p.Base=V(s,fy,fz);r.Placement=p
+ plate=bx(2.5,4,D,8.75,-2,0).fuse(cy(6,2.5,V(8.75,0,0))).fuse(cy(4,2.5,V(8.75,0,D))).cut(cy(3.05,4.5,V(7.75,0,0)))
+ doc.getObject(n+'_FollowerLever').Shape=plate
+ doc.getObject(n+'_FollowerRoller').Shape=cy(3,3,V(5.25,0,D)).cut(cy(1.05,5,V(4.25,0,D)))
+ doc.getObject(n+'_RollerPin').Shape=cy(1,6,V(5.25,0,D))
+ doc.getObject(n+'_ReturnSpringEnvelope').Shape=cy(5,1,V(4.1,0,0)).cut(cy(3.3,3,V(3.1,0,0)))
+ add(n+'_FollowerSwingShaft',cy(3,17.75,V(-6.5,0,0)),r)
+ driver=add(n+'_SwingDrivePulley',cy(64/math.pi,3,V(5.25,0,0)).cut(cy(3.05,5,V(4.25,0,0))),r)
+ driven=add(n+'_SwingDrivenPulley',cy(16/math.pi,3,V(5.25,0,0)).cut(cy(3.05,5,V(4.25,0,0))),doc.getObject(n+'_LongArmRotor'))
+ for o,teeth in [(driver,64),(driven,16)]:
+  o.addProperty('App::PropertyInteger','ReferenceTeeth','Belt');o.ReferenceTeeth=teeth;o.addProperty('App::PropertyLength','ReferencePitch','Belt');o.ReferencePitch=2
+ A=V(s+5.25,fy,fz);B=V(s+5.25,row['pivot_y'],row['pivot_z']);ra=64/math.pi;rb=16/math.pi
+ belt=Part.Face(wire(A,B,ra+.8,rb+.8)).cut(Part.Face(wire(A,B,ra+.1,rb+.1))).extrude(V(3,0,0))
+ add(n+'_SwingStepUpBelt',belt,doc.RatioBeltDrives)
+ for j,off in enumerate([-5.5,0]):
+  x=s+off;stand=doc.getObject(n+'_PendulumBracket'+str(j));stand.Shape=stand.Shape.cut(cy(6.05,6,V(x-1,fy,fz)))
+  add(n+'_FollowerPivotBearing'+str(j),cy(6,4,V(x,fy,fz)).cut(cy(3.1,6,V(x-1,fy,fz))),doc.Structure)
+ print(n,'swing +/-',round(row['swing_half_angle_deg'],2),'degrees',flush=True)
+# Raise the clear enclosure by ten millimetres.
+doc.GuardRoof.Shape=bx(172,2,144,-30,24,-156)
+doc.GuardBack.Shape=bx(172,133,2,-30,-109,-156)
+doc.GuardFront.Shape=bx(172,133,2,-30,-109,-14)
+doc.GuardLeft.Shape=bx(2,133,144,-30,-109,-156).cut(bx(4,36,76,-31,-109,-93))
+right=bx(2,133,144,140,-109,-156)
+for row in rows:right=right.cut(cy(1.3,4,V(139,-73,row['pivot_z'])))
+for y,z in [(-83,-131),(-59,-116)]:right=right.cut(cy(4.5,4,V(139,y,z)))
+doc.GuardRight.Shape=right
+
+def update(t):
+ for row in rows:
+  n=row['note'];s=row['station'];theta=-math.radians(18*t*row['ratio']);b=beta(row,theta);delta=math.atan2(math.sin(b-row['beta_mid']),math.cos(b-row['beta_mid']))
+  poses={'Driver':App.Placement(V(s,-83,-131),App.Rotation(V(1,0,0),-18*t)), 'Output':App.Placement(V(s,-59,-116),App.Rotation(V(1,0,0),math.degrees(theta))), 'Rocker':App.Placement(V(s,row['follower_y'],row['follower_z']),App.Rotation(V(1,0,0),math.degrees(b))), 'LongArmRotor':App.Placement(V(s,row['pivot_y'],row['pivot_z']),App.Rotation(V(1,0,0),90+4*math.degrees(delta)))}
+  for kind,p in poses.items():doc.getObject(n+'_'+kind).Placement=p
+ doc.recompute()
+update(0)
+doc.Label="L'Harpe d'Amour — wide pendulum swing"
+doc.Motion.LinkageGeometry=json.dumps(rows)
+doc.Motion.Status='Wide swing via 64:16 reference pulley step-up. Kinematic prototype: tooth form, belt length/tension, spring forces, guard fasteners and structural safety remain to be detailed.'
+doc.recompute();doc.saveAs(OUT+'/Harpe_d_Amour_Wide_Swing.FCStd')
+with open(OUT+'/wide_swing_geometry.json','w') as f:json.dump({'rows':rows,'scope':doc.Motion.Status},f,indent=2)

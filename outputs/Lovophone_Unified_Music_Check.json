@@ -1,0 +1,39 @@
+{
+  "rotation_ratios_equal_pitch": true,
+  "full_repeat_seconds": 9600,
+  "pattern_no_shorter_rotational_symmetry": true,
+  "files": [
+    {
+      "file": "Lovophone_Unified_8min_Bitwig.mid",
+      "duration_seconds": 480,
+      "notes": 643,
+      "tracks": 13,
+      "exact_event_times_verified": true,
+      "balanced_note_offs": true
+    },
+    {
+      "file": "Lovophone_Unified_8min_Just_Intonation.mid",
+      "duration_seconds": 480,
+      "notes": 643,
+      "tracks": 13,
+      "exact_event_times_verified": true,
+      "balanced_note_offs": true
+    },
+    {
+      "file": "Lovophone_Unified_160min_Bitwig.mid",
+      "duration_seconds": 9600,
+      "notes": 12825,
+      "tracks": 13,
+      "exact_event_times_verified": true,
+      "balanced_note_offs": true
+    },
+    {
+      "file": "Lovophone_Unified_160min_Just_Intonation.mid",
+      "duration_seconds": 9600,
+      "notes": 12825,
+      "tracks": 13,
+      "exact_event_times_verified": true,
+      "balanced_note_offs": true
+    }
+  ]
+}

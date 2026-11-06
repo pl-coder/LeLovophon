@@ -1,0 +1,2937 @@
+{
+  "rows": [
+    {
+      "index": 1,
+      "note": "C3",
+      "midi_note": 48,
+      "ratio_exact": "1",
+      "ratio": 1.0,
+      "pitch_ratio_exact": "1",
+      "rotation_ratio_exact": "1",
+      "frequency_hz": 130.8127826502993,
+      "lane_z": -91,
+      "driver_teeth": 32,
+      "driven_teeth": 32,
+      "period_seconds": 400.0,
+      "speaking_length_mm": 330.0,
+      "bridge_x": -10.0,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V01",
+      "source_prefix": "C",
+      "chain_links_reference": 0,
+      "idler_y": null,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 0,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": true,
+      "pick_x": 190
+    },
+    {
+      "index": 2,
+      "note": "D3",
+      "midi_note": 50,
+      "ratio_exact": "9/8",
+      "ratio": 1.125,
+      "pitch_ratio_exact": "9/8",
+      "rotation_ratio_exact": "9/8",
+      "frequency_hz": 147.16438048158673,
+      "lane_z": -79,
+      "driver_teeth": 36,
+      "driven_teeth": 32,
+      "period_seconds": 355.55555555555554,
+      "speaking_length_mm": 293.3333333333333,
+      "bridge_x": 26.666666666666686,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V02",
+      "source_prefix": "Cs",
+      "chain_links_reference": 84,
+      "idler_y": -10.03757349925765,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 315.0,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    },
+    {
+      "index": 3,
+      "note": "E3",
+      "midi_note": 52,
+      "ratio_exact": "5/4",
+      "ratio": 1.25,
+      "pitch_ratio_exact": "5/4",
+      "rotation_ratio_exact": "5/4",
+      "frequency_hz": 163.51597831287415,
+      "lane_z": -67,
+      "driver_teeth": 40,
+      "driven_teeth": 32,
+      "period_seconds": 320.0,
+      "speaking_length_mm": 264.0,
+      "bridge_x": 56.0,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V03",
+      "source_prefix": "D",
+      "chain_links_reference": 86,
+      "idler_y": -8.87599024967665,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 322.5,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    },
+    {
+      "index": 4,
+      "note": "G3",
+      "midi_note": 55,
+      "ratio_exact": "3/2",
+      "ratio": 1.5,
+      "pitch_ratio_exact": "3/2",
+      "rotation_ratio_exact": "3/2",
+      "frequency_hz": 196.21917397544897,
+      "lane_z": -55,
+      "driver_teeth": 48,
+      "driven_teeth": 32,
+      "period_seconds": 266.6666666666667,
+      "speaking_length_mm": 220.0,
+      "bridge_x": 100.0,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V04",
+      "source_prefix": "Eb",
+      "chain_links_reference": 88,
+      "idler_y": -13.211483225135314,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 330.0,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    },
+    {
+      "index": 5,
+      "note": "A3",
+      "midi_note": 57,
+      "ratio_exact": "5/3",
+      "ratio": 1.6666666666666667,
+      "pitch_ratio_exact": "5/3",
+      "rotation_ratio_exact": "5/3",
+      "frequency_hz": 218.02130441716554,
+      "lane_z": -43,
+      "driver_teeth": 40,
+      "driven_teeth": 24,
+      "period_seconds": 240.0,
+      "speaking_length_mm": 198.0,
+      "bridge_x": 122.0,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V05",
+      "source_prefix": "E",
+      "chain_links_reference": 82,
+      "idler_y": -12.039860231105468,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 307.5,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    },
+    {
+      "index": 6,
+      "note": "C4",
+      "midi_note": 60,
+      "ratio_exact": "2",
+      "ratio": 2.0,
+      "pitch_ratio_exact": "2",
+      "rotation_ratio_exact": "2",
+      "frequency_hz": 261.6255653005986,
+      "lane_z": -31,
+      "driver_teeth": 48,
+      "driven_teeth": 24,
+      "period_seconds": 200.0,
+      "speaking_length_mm": 165.0,
+      "bridge_x": 155.0,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V06",
+      "source_prefix": "F",
+      "chain_links_reference": 86,
+      "idler_y": -10.386555798226507,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 322.5,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    },
+    {
+      "index": 7,
+      "note": "D4",
+      "midi_note": 62,
+      "ratio_exact": "9/4",
+      "ratio": 2.25,
+      "pitch_ratio_exact": "9/4",
+      "rotation_ratio_exact": "9/4",
+      "frequency_hz": 294.32876096317347,
+      "lane_z": -19,
+      "driver_teeth": 54,
+      "driven_teeth": 24,
+      "period_seconds": 177.77777777777777,
+      "speaking_length_mm": 146.66666666666666,
+      "bridge_x": 173.33333333333334,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V07",
+      "source_prefix": "Fs",
+      "chain_links_reference": 88,
+      "idler_y": -12.658066705193587,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 330.0,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    },
+    {
+      "index": 8,
+      "note": "E4",
+      "midi_note": 64,
+      "ratio_exact": "5/2",
+      "ratio": 2.5,
+      "pitch_ratio_exact": "5/2",
+      "rotation_ratio_exact": "5/2",
+      "frequency_hz": 327.0319566257483,
+      "lane_z": -7,
+      "driver_teeth": 60,
+      "driven_teeth": 24,
+      "period_seconds": 160.0,
+      "speaking_length_mm": 132.0,
+      "bridge_x": 188.0,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V08",
+      "source_prefix": "G",
+      "chain_links_reference": 92,
+      "idler_y": -8.716450066130879,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 345.0,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    },
+    {
+      "index": 9,
+      "note": "G4",
+      "midi_note": 67,
+      "ratio_exact": "3",
+      "ratio": 3.0,
+      "pitch_ratio_exact": "3",
+      "rotation_ratio_exact": "3",
+      "frequency_hz": 392.43834795089793,
+      "lane_z": 5,
+      "driver_teeth": 60,
+      "driven_teeth": 20,
+      "period_seconds": 133.33333333333334,
+      "speaking_length_mm": 110.0,
+      "bridge_x": 210.0,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V09",
+      "source_prefix": "Ab",
+      "chain_links_reference": 90,
+      "idler_y": -11.012875550422105,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 337.5,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    },
+    {
+      "index": 10,
+      "note": "A4",
+      "midi_note": 69,
+      "ratio_exact": "10/3",
+      "ratio": 3.3333333333333335,
+      "pitch_ratio_exact": "10/3",
+      "rotation_ratio_exact": "10/3",
+      "frequency_hz": 436.0426088343311,
+      "lane_z": 17,
+      "driver_teeth": 60,
+      "driven_teeth": 18,
+      "period_seconds": 120.0,
+      "speaking_length_mm": 99.0,
+      "bridge_x": 221.0,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V10",
+      "source_prefix": "A",
+      "chain_links_reference": 90,
+      "idler_y": -8.962239011174535,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 337.5,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    },
+    {
+      "index": 11,
+      "note": "C5",
+      "midi_note": 72,
+      "ratio_exact": "4",
+      "ratio": 4.0,
+      "pitch_ratio_exact": "4",
+      "rotation_ratio_exact": "4",
+      "frequency_hz": 523.2511306011972,
+      "lane_z": 29,
+      "driver_teeth": 64,
+      "driven_teeth": 16,
+      "period_seconds": 100.0,
+      "speaking_length_mm": 82.5,
+      "bridge_x": 237.5,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V11",
+      "source_prefix": "Bb",
+      "chain_links_reference": 90,
+      "idler_y": -13.451148052158128,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 337.5,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    },
+    {
+      "index": 12,
+      "note": "D5",
+      "midi_note": 74,
+      "ratio_exact": "9/2",
+      "ratio": 4.5,
+      "pitch_ratio_exact": "9/2",
+      "rotation_ratio_exact": "9/2",
+      "frequency_hz": 588.6575219263469,
+      "lane_z": 41,
+      "driver_teeth": 72,
+      "driven_teeth": 16,
+      "period_seconds": 88.88888888888889,
+      "speaking_length_mm": 73.33333333333333,
+      "bridge_x": 246.66666666666669,
+      "slots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        28,
+        30
+      ],
+      "release_angle_radians": 4.850953151488822,
+      "prefix": "V12",
+      "source_prefix": "B",
+      "chain_links_reference": 94,
+      "idler_y": -13.999482753485726,
+      "chain_pitch_mm": 3.75,
+      "chain_path_length_mm": 352.5,
+      "chain_profile_scope": "Smooth pitch-path and scalloped sprocket reference; real link engagement and tensioner setup pending",
+      "direct_input": false,
+      "pick_x": 270
+    }
+  ],
+  "pattern_slots": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    8,
+    10,
+    11,
+    13,
+    15,
+    16,
+    18,
+    20,
+    21,
+    23,
+    25,
+    26,
+    28,
+    30
+  ],
+  "slots": 32,
+  "picks_per_wheel": 19,
+  "base_period_seconds": 400,
+  "full_repeat_seconds": 9600,
+  "rotation_equals_pitch": true,
+  "rotation_matches_tuning": true,
+  "chain_pitch_reference_mm": 3.75,
+  "reference_sources": [
+    "https://shop.sdp-si.com/products/chains-sprockets/sprockets-roller-ladder/roller-chain.html"
+  ],
+  "string_lane_pitch_mm": 12,
+  "number_of_chain_loops": 11,
+  "number_of_main_axles": 2,
+  "bearing_count": 24,
+  "allen_key_af_mm": 2.5,
+  "envelope_mm": [
+    393.1,
+    180.0,
+    177.0
+  ],
+  "invalid_shapes": [],
+  "colors": {
+    "SoundboxShell": [
+      0.43,
+      0.24,
+      0.11
+    ],
+    "SoundboxEndBlock0": [
+      0.48,
+      0.29,
+      0.14
+    ],
+    "SoundboxEndBlock1": [
+      0.48,
+      0.29,
+      0.14
+    ],
+    "SoundboxMountRib0": [
+      0.48,
+      0.29,
+      0.14
+    ],
+    "SoundboxMountRib1": [
+      0.48,
+      0.29,
+      0.14
+    ],
+    "SoundboxFoot0": [
+      0.08,
+      0.09,
+      0.1
+    ],
+    "SoundboxFoot1": [
+      0.08,
+      0.09,
+      0.1
+    ],
+    "SoundboxFoot2": [
+      0.08,
+      0.09,
+      0.1
+    ],
+    "SoundboxFoot3": [
+      0.08,
+      0.09,
+      0.1
+    ],
+    "KotoAnchorBlock": [
+      0.57,
+      0.37,
+      0.17
+    ],
+    "KotoAnchorSaddleRail": [
+      0.75,
+      0.56,
+      0.24
+    ],
+    "KotoTunerBlock": [
+      0.57,
+      0.37,
+      0.17
+    ],
+    "KotoTunerSaddleRail": [
+      0.75,
+      0.56,
+      0.24
+    ],
+    "NylonLeftGuidePedestal": [
+      0.48,
+      0.29,
+      0.14
+    ],
+    "NylonRightGuidePedestal": [
+      0.48,
+      0.29,
+      0.14
+    ],
+    "NylonTunerSupportPlate": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "C_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V01_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V01_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "Cs_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Cs_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "D_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "D_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "Eb_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Eb_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "E_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "E_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "F_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "F_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "Fs_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Fs_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "G_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "G_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "Ab_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Ab_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "A_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "A_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "Bb_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "Bb_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "B_KotoSpeakingString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_KotoBackString": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_KotoThirdBridge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_NylonBridgeCrown": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_LeftNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_LeftNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_RightNylonGuide": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_RightNylonOverEdge": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_NylonTieShuttle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_NylonTensionScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_NylonTieKnotEnvelope": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_AnchorNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "B_TunerNylonSaddle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_BridgeLock": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_BridgeSlidingNut": [
+      0.73,
+      0.55,
+      0.25
+    ],
+    "Baseplate": [
+      0.62,
+      0.42,
+      0.2
+    ],
+    "CommonInputShaft": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "CommonFixedAxle": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FramePost00": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFoot00": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFootBolt000": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFootBolt001": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameUpperStay00": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FramePost01": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFoot01": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFootBolt010": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFootBolt011": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameUpperStay01": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameTie0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameDiagonal0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameCrossbar0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "AxleBlock00": [
+      0.74,
+      0.56,
+      0.25
+    ],
+    "InputBearing0": [
+      0.17,
+      0.19,
+      0.21
+    ],
+    "AxleBlockClamp00": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "AxleBlock01": [
+      0.74,
+      0.56,
+      0.25
+    ],
+    "AxleBlockClamp01": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FramePost10": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFoot10": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFootBolt100": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFootBolt101": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameUpperStay10": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FramePost11": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFoot11": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFootBolt110": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameFootBolt111": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameUpperStay11": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameTie1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameDiagonal1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "FrameCrossbar1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "AxleBlock10": [
+      0.74,
+      0.56,
+      0.25
+    ],
+    "InputBearing1": [
+      0.17,
+      0.19,
+      0.21
+    ],
+    "AxleBlockClamp10": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "AxleBlock11": [
+      0.74,
+      0.56,
+      0.25
+    ],
+    "AxleBlockClamp11": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "SharedIdlerRail": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V01_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V01_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V01_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V01_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V01_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V01_DirectHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V02_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V02_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V02_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V02_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V02_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V02_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V02_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V02_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V02_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V02_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V02_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "V03_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V03_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V03_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V03_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V03_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V03_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V03_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V03_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V03_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V03_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V03_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V03_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "V04_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V04_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V04_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V04_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V04_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V04_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V04_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V04_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V04_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V04_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V04_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V04_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "V05_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V05_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V05_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V05_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V05_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V05_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V05_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V05_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V05_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V05_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V05_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V05_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "V06_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V06_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V06_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V06_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V06_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V06_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V06_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V06_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V06_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V06_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V06_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V06_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "V07_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V07_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V07_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V07_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V07_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V07_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V07_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V07_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V07_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V07_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V07_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V07_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "V08_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V08_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V08_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V08_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V08_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V08_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V08_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V08_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V08_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V08_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V08_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V08_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "V09_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V09_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V09_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V09_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V09_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V09_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V09_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V09_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V09_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V09_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V09_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V09_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "V10_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V10_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V10_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V10_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V10_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V10_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V10_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V10_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V10_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V10_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V10_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V10_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "V11_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V11_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V11_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V11_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V11_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V11_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V11_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V11_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V11_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V11_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V11_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V11_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "V12_DriveSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V12_DriveHub": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_DriveHubScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_PickWheel": [
+      0.79,
+      0.76,
+      0.63
+    ],
+    "V12_WheelBolt0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_WheelBolt1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_WheelBolt2": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_WheelHub": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V12_WheelBearing0": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V12_WheelBearing1": [
+      0.16,
+      0.18,
+      0.2
+    ],
+    "V12_DrivenSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V12_SprocketCollar": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_IdlerSprocket": [
+      0.65,
+      0.48,
+      0.2
+    ],
+    "V12_IdlerPin": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_IdlerCaptiveNut": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V12_IdlerHanger": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_IdlerClamp": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "V12_IdlerClampScrew": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "V12_ChainPlates": [
+      0.19,
+      0.21,
+      0.22
+    ],
+    "V12_ChainRollers": [
+      0.53,
+      0.55,
+      0.58
+    ],
+    "InputKnob": [
+      0.72,
+      0.53,
+      0.23
+    ],
+    "InputKnobClamp": [
+      0.7,
+      0.73,
+      0.76
+    ]
+  },
+  "part_count": 464,
+  "scope": "Concept CAD and exact ideal wheel timing; not fabrication-ready. Scalloped tooth/chain display envelopes are not validated production chain engagement. Physical flexible-pick release, chain tensioner setup, captive nut guides, hub keys, clamp preloads and motor sizing are pending.",
+  "display_settings_saved": true,
+  "mesh_objects": 464,
+  "sprocket_webs": "Three open spokes where web dimensions permit"
+}

@@ -1,0 +1,14 @@
+quantity,item,specification_or_status
+12,Identical 19-finger picking wheels,One thin sheet part per wheel; flexure material/gauge to test
+1,Direct input wheel hub,6 mm shaft; key and axial retention detailing pending
+11,Independent wheel cartridges,Two 6 × 10 × 3 mm bearings per wheel
+22,MR106 bearings,6 × 10 × 3 mm
+2,MR126 input bearings,6 × 12 × 4 mm
+11,Input chain sprockets,Exact tooth counts in ratio table; profile reference only
+11,Output chain sprockets,Exact tooth counts in ratio table; hub keys pending
+11,12-tooth idler sprockets,3 mm shoulder screw/plain bearing; reference profile
+11,Miniature chain loops,3.75 mm nominal pitch; actual engagement and link count to confirm
+11,Slotted tensioner hangers,6 mm nominal adjustment; captive-nut guides pending
+2,Common 6 mm shafts,"One rotating input, one fixed wheel-support axle"
+12,M4 string pull screws,"Existing 0.7 mm-pitch tensioners, 2.5 mm hex socket head model"
+12,M3 bridge locks,Short slots and sliding nuts; anti-rotation cage detail pending

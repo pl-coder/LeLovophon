@@ -1,0 +1,36 @@
+{
+  "stage1": {
+    "driver": 60,
+    "driven": 20,
+    "belt_pitch_mm": 2,
+    "belt_teeth": 80,
+    "center_mm": 37.836781510399135,
+    "small_wrap_deg": 140.67141974343974,
+    "engaged_teeth_reference": 7.8150788746355415
+  },
+  "stage2": {
+    "driver": 30,
+    "driven": 20,
+    "belt_pitch_mm": 2,
+    "belt_teeth": 80,
+    "center_mm": 54.90770914506659,
+    "small_wrap_deg": 173.35319421859063,
+    "engaged_teeth_reference": 9.630733012143924
+  },
+  "ratio_exact": "9/2",
+  "input_rpm": 3,
+  "output_rpm": 13.5,
+  "ground_mm": 80,
+  "crank_mm": 4,
+  "coupler_mm": 80,
+  "rocker_mm": 14,
+  "arm_low_radius_mm": 67.19693845669907,
+  "arm_high_radius_mm": 14.932652990377571,
+  "rocker_mid_radians": 1.6547739657390288,
+  "swing_half_angle_deg": 16.661970738070387,
+  "minimum_transmission_angle_deg": 68.5264648710975,
+  "max_closure_error_mm": 2.842170943040401e-14,
+  "samples": 10001,
+  "physical_test_performed": false,
+  "full_machine_repeat_seconds": 480
+}

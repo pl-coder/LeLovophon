@@ -1,0 +1,18 @@
+{
+  "duration_seconds": 480,
+  "fps": 24,
+  "frames": 11520,
+  "speed_multiplier": 1,
+  "input_axle_rpm": 3,
+  "complete_twelve_voice_repeat_seconds": 9600,
+  "layout": "Single full-instrument view, no motor inset.",
+  "render_phase_samples_per_voice_cycle": 960,
+  "maximum_phase_time_rounding_seconds": 0.010416666666666666,
+  "scope": "Silent prescribed-motion illustration. No force, motor load, string vibration or sound simulation.",
+  "midi": "Lovophone_Pentatonic_8min_Bitwig.mid",
+  "midi_tempo_bpm": 120,
+  "sync_offset_seconds": 0,
+  "file_bytes": 12104617,
+  "tuning": "Approved C D E G A across octaves",
+  "machine": "Lovophone_Pentatonic.FCStd"
+}

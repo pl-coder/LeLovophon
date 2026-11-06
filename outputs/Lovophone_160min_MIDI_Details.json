@@ -1,0 +1,195 @@
+{
+  "duration_seconds": 9600,
+  "duration_minutes": 160,
+  "ppq": 960,
+  "tempo_bpm": 120,
+  "C_reference": "C4, MIDI 60, 261.6255653 Hz",
+  "input_speed_rpm": 3,
+  "pluck_model": "Two actual beta=beta_mid crossings per cam cycle; preserves the CAD phase offsets and unequal half-cycle intervals.",
+  "total_plucks": 16150,
+  "voice_count": 12,
+  "note_duration_seconds": 2,
+  "voices": [
+    {
+      "note": "C",
+      "ratio": "1",
+      "channel": 1,
+      "midi_note": 60,
+      "frequency_hz": 261.6255653005986,
+      "pitch_correction_cents": 0.0,
+      "pitch_bend_14bit": 8192,
+      "pluck_count": 960,
+      "cycle_seconds": 20.0,
+      "pluck_phases_radians": [
+        1.4541529379488005,
+        4.323083881304372
+      ]
+    },
+    {
+      "note": "C\u266f",
+      "ratio": "16/15",
+      "channel": 2,
+      "midi_note": 61,
+      "frequency_hz": 279.06726965397183,
+      "pitch_correction_cents": 11.731285269777743,
+      "pitch_bend_14bit": 8673,
+      "pluck_count": 1024,
+      "cycle_seconds": 18.75,
+      "pluck_phases_radians": [
+        1.2455626613174147,
+        4.114076462276117
+      ]
+    },
+    {
+      "note": "D",
+      "ratio": "9/8",
+      "channel": 3,
+      "midi_note": 62,
+      "frequency_hz": 294.32876096317347,
+      "pitch_correction_cents": 3.9100017307748374,
+      "pitch_bend_14bit": 8352,
+      "pluck_count": 1080,
+      "cycle_seconds": 17.77777777777778,
+      "pluck_phases_radians": [
+        1.0470864639060613,
+        3.9158249696164544
+      ]
+    },
+    {
+      "note": "E\u266d",
+      "ratio": "6/5",
+      "channel": 4,
+      "midi_note": 63,
+      "frequency_hz": 313.9506783607183,
+      "pitch_correction_cents": 15.641287000552552,
+      "pitch_bend_14bit": 8833,
+      "pluck_count": 1152,
+      "cycle_seconds": 16.666666666666668,
+      "pluck_phases_radians": [
+        0.8622091875012607,
+        3.731470582152224
+      ]
+    },
+    {
+      "note": "E",
+      "ratio": "5/4",
+      "channel": 5,
+      "midi_note": 64,
+      "frequency_hz": 327.0319566257483,
+      "pitch_correction_cents": -13.686286135165176,
+      "pitch_bend_14bit": 7631,
+      "pluck_count": 1200,
+      "cycle_seconds": 16.0,
+      "pluck_phases_radians": [
+        0.7247331373072088,
+        3.5948521080189435
+      ]
+    },
+    {
+      "note": "F",
+      "ratio": "4/3",
+      "channel": 6,
+      "midi_note": 65,
+      "frequency_hz": 348.8340870674648,
+      "pitch_correction_cents": -1.9550008653874897,
+      "pitch_bend_14bit": 8112,
+      "pluck_count": 1280,
+      "cycle_seconds": 15.0,
+      "pluck_phases_radians": [
+        0.5991535655841951,
+        3.4699671626443243
+      ]
+    },
+    {
+      "note": "F\u266f",
+      "ratio": "45/32",
+      "channel": 7,
+      "midi_note": 66,
+      "frequency_hz": 367.9109512039668,
+      "pitch_correction_cents": -9.776284404390367,
+      "pitch_bend_14bit": 7792,
+      "pluck_count": 1350,
+      "cycle_seconds": 14.222222222222221,
+      "pluck_phases_radians": [
+        0.5068158129395302,
+        3.3782703547232567
+      ]
+    },
+    {
+      "note": "G",
+      "ratio": "3/2",
+      "channel": 8,
+      "midi_note": 67,
+      "frequency_hz": 392.43834795089793,
+      "pitch_correction_cents": 1.955000865387433,
+      "pitch_bend_14bit": 8272,
+      "pluck_count": 1440,
+      "cycle_seconds": 13.333333333333334,
+      "pluck_phases_radians": [
+        0.4282249424875453,
+        3.3001612198737407
+      ]
+    },
+    {
+      "note": "A\u266d",
+      "ratio": "8/5",
+      "channel": 9,
+      "midi_note": 68,
+      "frequency_hz": 418.6009044809578,
+      "pitch_correction_cents": 13.686286135165233,
+      "pitch_bend_14bit": 8753,
+      "pluck_count": 1536,
+      "cycle_seconds": 12.5,
+      "pluck_phases_radians": [
+        0.36632675017568317,
+        3.238658571114061
+      ]
+    },
+    {
+      "note": "A",
+      "ratio": "5/3",
+      "channel": 11,
+      "midi_note": 69,
+      "frequency_hz": 436.0426088343311,
+      "pitch_correction_cents": -15.641287000552552,
+      "pitch_bend_14bit": 7551,
+      "pluck_count": 1600,
+      "cycle_seconds": 12.0,
+      "pluck_phases_radians": [
+        0.32661378160288523,
+        3.199262392298917
+      ]
+    },
+    {
+      "note": "B\u266d",
+      "ratio": "9/5",
+      "channel": 12,
+      "midi_note": 70,
+      "frequency_hz": 470.92601754107756,
+      "pitch_correction_cents": 17.5962878659401,
+      "pitch_bend_14bit": 8913,
+      "pluck_count": 1728,
+      "cycle_seconds": 11.11111111111111,
+      "pluck_phases_radians": [
+        0.2818406109188709,
+        3.1547269572563117
+      ]
+    },
+    {
+      "note": "B",
+      "ratio": "15/8",
+      "channel": 13,
+      "midi_note": 71,
+      "frequency_hz": 490.5479349386224,
+      "pitch_correction_cents": -11.7312852697778,
+      "pitch_bend_14bit": 7711,
+      "pluck_count": 1800,
+      "cycle_seconds": 10.666666666666666,
+      "pluck_phases_radians": [
+        0.25675022065689435,
+        3.129827973267897
+      ]
+    }
+  ],
+  "scope": "Idealized MIDI trigger schedule; no string acoustics, contact dynamics or motor-speed fluctuation. MIDI pitch bends require per-channel support. Equal-temperament copy deliberately omits the just-intonation corrections."
+}

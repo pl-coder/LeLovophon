@@ -1,0 +1,17 @@
+{
+  "full_repeat_seconds": 9600,
+  "fps": 24,
+  "frame_end": 230400,
+  "checked_frames": [
+    1,
+    121,
+    5761,
+    115201,
+    230400,
+    230401
+  ],
+  "max_rigid_vertex_error_m": 2.47107803102985e-08,
+  "max_chain_reference_error_m": 3.9398357406166657e-07,
+  "all_voice_rotations_verified": true,
+  "moving_chain_reference_verified": true
+}

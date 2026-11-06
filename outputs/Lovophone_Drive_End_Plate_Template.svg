@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100mm" height="110mm" viewBox="0 0 100 110">
+<rect width="100" height="110" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#222">
+<text x="10" y="7" font-size="3.5">Lovophone drive end plate — make 2</text>
+<text x="10" y="12" font-size="2.7">50 × 59 × 4 mm steel · development template</text>
+<rect x="25" y="20" width="50" height="59" fill="none" stroke="black" stroke-width="0.25"/>
+<circle cx="45" cy="59" r="6.05" fill="none" stroke="black" stroke-width="0.2"/>
+<path d="M 43.8,59 h 2.4 M 45,57.8 v 2.4" fill="none" stroke="#666" stroke-width="0.12"/>
+<text x="52.05" y="59.7" font-size="2.2">Ø12.1</text>
+<circle cx="60" cy="35" r="3.25" fill="none" stroke="black" stroke-width="0.2"/>
+<path d="M 58.8,35 h 2.4 M 60,33.8 v 2.4" fill="none" stroke="#666" stroke-width="0.12"/>
+<text x="64.25" y="35.7" font-size="2.2">Ø6.5</text>
+<circle cx="45" cy="67.7" r="1.7" fill="none" stroke="black" stroke-width="0.2"/>
+<path d="M 43.8,67.7 h 2.4 M 45,66.5 v 2.4" fill="none" stroke="#666" stroke-width="0.12"/>
+<text x="47.7" y="68.4" font-size="2.2">Ø3.4</text>
+<circle cx="45" cy="50.3" r="1.7" fill="none" stroke="black" stroke-width="0.2"/>
+<path d="M 43.8,50.3 h 2.4 M 45,49.099999999999994 v 2.4" fill="none" stroke="#666" stroke-width="0.12"/>
+<text x="47.7" y="51.0" font-size="2.2">Ø3.4</text>
+<circle cx="32.5" cy="69" r="2.2" fill="none" stroke="black" stroke-width="0.2"/>
+<path d="M 31.3,69 h 2.4 M 32.5,67.8 v 2.4" fill="none" stroke="#666" stroke-width="0.12"/>
+<text x="35.7" y="69.7" font-size="2.2">Ø4.4</text>
+<circle cx="67.5" cy="69" r="2.2" fill="none" stroke="black" stroke-width="0.2"/>
+<path d="M 66.3,69 h 2.4 M 67.5,67.8 v 2.4" fill="none" stroke="#666" stroke-width="0.12"/>
+<text x="70.7" y="69.7" font-size="2.2">Ø4.4</text>
+<path d="M25,85h50 M25,83v4 M75,83v4" stroke="black" stroke-width="0.25" fill="none"/>
+<text x="34" y="91" font-size="3">Calibration: exactly 50 mm</text>
+<text x="10" y="98" font-size="2.6">Print 100%. Check scale and actual bearings before drilling.</text>
+<text x="10" y="103" font-size="2.6">Hole coordinates are in the companion parts notes / CAD.</text>
+</g></svg>

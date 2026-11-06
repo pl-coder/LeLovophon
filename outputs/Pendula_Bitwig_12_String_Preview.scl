@@ -1,0 +1,18 @@
+! Pendula_Bitwig_12_String_Preview.scl
+! Twelve-string selection: harmonics 16 through 27.
+! Omits harmonics 28 through 31 from the original sixteen-note scale.
+Pendula harmonics 16-27; twelve-string preview, root C
+12
+!
+17/16
+9/8
+19/16
+5/4
+21/16
+11/8
+23/16
+3/2
+25/16
+13/8
+27/16
+2/1

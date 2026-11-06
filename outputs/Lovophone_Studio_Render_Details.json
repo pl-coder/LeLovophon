@@ -1,0 +1,30 @@
+{
+  "renderer": "4.5.15 LTS",
+  "engine": "Cycles",
+  "device": "GPU",
+  "resolution": [
+    2400,
+    1600
+  ],
+  "samples": 96,
+  "render_seconds": 70.69779205322266,
+  "geometry_source": "Lovophone_Hardware_Frame.FCStd",
+  "cad_objects": 614,
+  "area_lights": 5,
+  "animation_frames": 11520,
+  "fps": 24,
+  "midi_tempo_bpm": 120,
+  "midi_offset_seconds": 0,
+  "materials": "Self-contained procedural wood grain, brushed metals, brass, nylon, rubber and acrylic",
+  "scope": "Actual CAD mesh render with cosmetic edge bevels; lighting/material appearance is illustrative, not a manufactured prototype.",
+  "animation_validation_passed": true,
+  "animation_pose_check_frames": [
+    1,
+    121,
+    5761,
+    11520
+  ],
+  "maximum_imported_vertex_error_m": 6.07616610031051e-08,
+  "scene_contains_complete_eight_minute_animation": true,
+  "delivered_render": "Still image; full textured animation is prepared in the editable scene"
+}

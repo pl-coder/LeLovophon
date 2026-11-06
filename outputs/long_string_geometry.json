@@ -1,0 +1,66 @@
+{
+  "coordinates": "X longitudinal axle / Y vertical / Z depth",
+  "base_x_limits_mm": [
+    -30,
+    340
+  ],
+  "geometry": [
+    {
+      "note": "C",
+      "speaking_mm": 330.0,
+      "ratio": 1.0,
+      "arm_radius_mm": 30.0,
+      "arm_station_x_mm": 16.65,
+      "left_saddle_x_mm": -10,
+      "right_saddle_x_mm": 320.0,
+      "string_vertical_y_mm": 29.393876913398138,
+      "common_string_z_mm": -34.0
+    },
+    {
+      "note": "D",
+      "speaking_mm": 293.3333333333333,
+      "ratio": 0.8888888888888888,
+      "arm_radius_mm": 26.666666666666664,
+      "arm_station_x_mm": 40.65,
+      "left_saddle_x_mm": 26,
+      "right_saddle_x_mm": 319.3333333333333,
+      "string_vertical_y_mm": 26.666666666666664,
+      "common_string_z_mm": -34.0
+    },
+    {
+      "note": "E",
+      "speaking_mm": 264.0,
+      "ratio": 0.8,
+      "arm_radius_mm": 24.0,
+      "arm_station_x_mm": 64.65,
+      "left_saddle_x_mm": 48,
+      "right_saddle_x_mm": 312.0,
+      "string_vertical_y_mm": 23.916521486202797,
+      "common_string_z_mm": -34.0
+    },
+    {
+      "note": "F",
+      "speaking_mm": 247.5,
+      "ratio": 0.75,
+      "arm_radius_mm": 22.5,
+      "arm_station_x_mm": 88.65,
+      "left_saddle_x_mm": 72,
+      "right_saddle_x_mm": 319.5,
+      "string_vertical_y_mm": 21.68524844220144,
+      "common_string_z_mm": -34.0
+    },
+    {
+      "note": "G",
+      "speaking_mm": 220.0,
+      "ratio": 0.6666666666666666,
+      "arm_radius_mm": 20.0,
+      "arm_station_x_mm": 112.65,
+      "left_saddle_x_mm": 96,
+      "right_saddle_x_mm": 316.0,
+      "string_vertical_y_mm": 19.595917942265423,
+      "common_string_z_mm": -34.0
+    }
+  ],
+  "full_turn_hardware_clashes": [],
+  "full_turn_other_string_clashes": []
+}

@@ -1,0 +1,21 @@
+{
+  "sampled_positions_per_rotor": 48,
+  "moving_fixed_clashes": [],
+  "frame_chain_vs_string_hardware_clashes": [],
+  "exact_nominal_release_contact_mm3": {
+    "C3": 0.17763172954026638,
+    "D3": 0.1776317295478641,
+    "E3": 0.17763172953442205,
+    "G3": 0.1776317295438155,
+    "A3": 0.17763172954516745,
+    "C4": 0.17763172953761405,
+    "D4": 0.1776317295388466,
+    "E4": 0.17763172954190287,
+    "G4": 0.17763172953949738,
+    "A4": 0.177631729538421,
+    "C5": 0.1776317295396086,
+    "D5": 0.17763172954200232
+  },
+  "source_rows_identical_pitch_rotation": true,
+  "scope": "Rigid package checks only. Same-loop chain/sprocket engagement is excluded because tooth/link geometry is illustrative. Nominal pick/string overlap represents plucking; elastic deflection and release need physical tests. Structural joints and motor loads are not certified."
+}

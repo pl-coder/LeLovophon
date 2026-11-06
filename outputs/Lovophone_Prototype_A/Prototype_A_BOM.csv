@@ -1,0 +1,40 @@
+id,quantity,item,source,status,notes
+BUY01,1,"60T, 2 mm pitch, 6 mm belt, 5 mm bore aluminium pulley, DHM05010106",https://www.dhm-online.com/en/toothed-pulleys-gt2/389-gt2-pulley-o-5-mm-60-teeth-h6.html,Catalogue candidate,Hub/flange dimensions vary by batch; get drawing or measure before spacer manufacture
+BUY02,1,"30T, 2 mm pitch, 6 mm belt, 5 mm bore aluminium pulley, DHM05010107",https://www.dhm-online.com/en/toothed-pulleys-gt2/390-gt2-pulley-o-5-mm-30-teeth-h6.html,Catalogue candidate,"Same profile as other pulleys and belts, supplier must confirm"
+BUY03,2,"20T, 2 mm pitch, 6 mm belt, 5 mm bore aluminium pulley, DHM05010102",https://www.dhm-online.com/en/toothed-pulleys-gt2/385-gt2-pulley-o-5-mm-20-teeth-h6.html,Catalogue candidate,"Two intermediate/output positions, not a 16T bored to bearing OD"
+BUY04,2,"160 mm closed belt, 80 teeth, 2 mm pitch, 6 mm wide, DHM05030201",https://www.dhm-online.com/fr/courroie-gt2/438-courroie-neoprene-gt2-fermee-h-6-mm-80-dents-160-mm.html,HOLD profile confirmation,Current GT2 vs older S2M naming conflict. Do not buy a substituted profile merely because pitch is2 mm
+BUY05,10,"625-ZZ bearing, 5 x16 x5 mm",https://www.123roulement.com/roulement-palier/roulement-bille/simple-rangee/625-zz,Exact dimensional catalogue item,6 drive fixture +4 pluck fixture. Check manufacturer drawing and fits
+STOCK01,3,"5 mm ground steel shaft, 100 mm cut length",Stock / machine service,"Specification, merchant not selected","Ratio fixture; tolerance h6/g6 to match actual bearings, collars on inner races"
+STOCK02,2,"5 mm ground steel shaft, 96 mm cut length",Stock / machine service,"Specification, merchant not selected",Pluck fixture; crank shaft must end at blind-bore depth52 globalZ
+BUY06,10,"5 mm bore split shaft collar, external retention",Motion supplier,Exact SKU to select,"Two per shaft; envelope outside plate carriers, no preload; final thickness sets shaft spacing"
+BUY07,1,5-to-5 mm shaft coupling,Motion supplier,Exact SKU to select after alignment,Only to link two separately tested fixtures; not represented as coupled in CAD
+STOCK03,4,Aluminium spacer tube OD8 / ID4.5 x50 mm,Cut stock / machine service,Specified cut part,Drive cheek spacing
+STOCK04,4,Aluminium spacer tube OD8 / ID4.5 x30 mm,Cut stock / machine service,Specified cut part,Pluck cheek spacing
+BUY08,24,"M3x20 socket-head bolts, M3 nuts and washers",Metric fastener supplier,Standard specification,Ratio bearing-carrier clamps; check thread projection against pulleys
+BUY09,12,M2x5 screws,Metric fastener supplier,Standard specification,"Ratio bearing retainer, one face only"
+BUY10,16,M2x3 screws,Metric fastener supplier,Standard specification,Pluck cheek retainers on both faces; short screws avoid meeting in6 mm plate; machinist to confirm engagement
+BUY11,4,M3x16 socket-head clamp bolts,Metric fastener supplier,Standard specification,"Crank, rocker and two interchangeable arms; check head seating"
+BUY12,2,M2 locking nuts and washers,Metric fastener supplier,Standard specification,Journal pin retention; ensure nut tightens spacers without clamping POM link
+STOCK05,2,Pin spacer ID3.1 / OD5 x3.0 mm,Turned stock,Custom cut / turn,Before POM link
+STOCK06,2,Pin spacer ID3.1 / OD5 x1.9 mm,Turned stock,Custom cut / turn,After POM link; nominal0.1 axial running clearance
+BUY13,2,M4x40 tension/anchor screws and axial capture washers/locknuts,Metric fastener supplier,Thrust stack to detail,Guide rod prevents drawbar rotation; captive screw must turn without moving axially
+STOCK07,2,"4 mm smooth steel guide rod, 50 mm",Cut stock,Specified,Keep parallel to M4 tension screw
+STOCK08,1,"Unwound nylon string, nominal0.8 mm, at least700 mm",Music string supplier,Actual linear density and tension rating needed,Tie loops and tails consume extra length; nominal43.1 N is an estimate not safe working rating
+BUY14,4,"Polished smooth string-guide eyelets, for4.5 mm post hole",Music/hobby supplier,Exact SKU / finished bore to confirm,No nylon on raw drilled aluminium edges; centre height must preserve speaking length
+STOCK09,1,Plywood board140 x400 x12 mm,Wood cutting service,Cut stock,Pluck fixture; base holes drilled from assembled angle feet
+STOCK10,1,Plywood board200 x120 x12 mm,Wood cutting service,Cut stock,Optional drive fixture bench base
+STOCK11,6,"20 x20 x2 angle, nominal40 mm long plus M4 mounting bolts",Cut stock / hardware shop,Drill to assembly,2 end-post feet +4 linkage cheek feet; board holes from fit-up. Not all brackets in CAD
+R01,2,"Drive cheek 180 x100 x6,6061-T6",CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+R02,6,"Bearing carrier30 x50 x6,6061-T6",CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+R03,14,Bearing retainer27/8 x1 stainless,CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+P01,2,"Pluck cheek140 x140 x6,6061-T6",CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+P02,1,"Blind split-clamp crank,6061-T6",CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+P03,1,"14 mm rocker with split hub,6061-T6",CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+P04,1,80 mm POM-C connecting rod,CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+P05a,1,"C3 arm67.196938 mm,6061-T6",CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+P05b,1,"D5 arm14.932653 mm,6061-T6",CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+P06,2,"String end post40 x125 x4,6061-T6",CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+P07,2,Custom steel threaded journal pin,CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+P08,2,"Guided tension drawbar32 x12 x10,brass/aluminium",CNC / sheet service,Quotation candidate; drawings govern,Machinist review required before production; STEP threads shown as pilots/nominal cylinders
+WEAR01,4,Trial flexible pick strips PET0.5 mm,Sheet stock,Cut trial parts,Try multiple thicknesses and minimum intrusion; actual release not validated
+WOOD01,1,Removable smooth third bridge on clampable wood block,Workshop / wood service,Fit-up part,Set correct crown height; bridge260 for C3 or3.333333 forD5 alongZ from fixture coordinates

@@ -1,0 +1,74 @@
+import FreeCAD as App, FreeCADGui as Gui, math, json, time
+from FreeCAD import Vector as V
+from PySide import QtCore, QtWidgets
+def harpe_live_beta(row, theta):
+    U = V(0, row.get('follower_y', row['pivot_y']), row.get('follower_z', row['pivot_z']))
+    C = V(0, -59 - 4 * math.sin(theta), -116 + 4 * math.cos(theta))
+    v = C - U
+    d = v.Length
+    v.normalize()
+    a = (row['lever_length'] ** 2 - 225 + d * d) / (2 * d)
+    h = math.sqrt(max(0, row['lever_length'] ** 2 - a * a))
+    P = U + v * a
+    perp = V(0, -v.z, v.y)
+    b1 = P + perp * h
+    b2 = P - perp * h
+    B = b1 if b1.y > b2.y else b2
+    return math.atan2(-(B.y - U.y), B.z - U.z)
+def harpe_live_roots(row, t):
+    s = row['station']
+    theta = -math.radians(18 * t * row['ratio'])
+    beta = harpe_live_beta(row, theta)
+    delta = math.atan2(math.sin(beta - row['beta_mid']), math.cos(beta - row['beta_mid']))
+
+    def place(y, z, angle):
+        return App.Placement(V(s, y, z), App.Rotation(V(1, 0, 0), angle))
+    return {'Driver': place(-83, -131, -18 * t), 'Output': place(-59, -116, math.degrees(theta)), 'LongArmRotor': place(row['pivot_y'], row['pivot_z'], 90 + row.get('swing_gain', 1.0) * math.degrees(delta)), 'Rocker': place(row.get('follower_y', row['pivot_y']), row.get('follower_z', row['pivot_z']), math.degrees(beta))}
+# Never save, reopen or close a document. Only animate the selected reviewed model.
+lab_doc=App.ActiveDocument
+if lab_doc is None or 'Ratio_Review' not in lab_doc.FileName:
+    raise RuntimeError('Open Lovophone_Lab_Frame_Ratio_Review.FCStd and make it active first.')
+lab_rows=json.loads(lab_doc.Motion.LinkageGeometry)
+assert all(abs(r['ratio']-r['pitch_ratio'])<1e-12 for r in lab_rows)
+for key in ['harpe_live_timer','lab_review_timer']:
+    old=globals().get(key)
+    if old:old.stop()
+lab_offset=0.0;lab_speed=1.0;lab_start=time.monotonic()
+lab_review_timer=QtCore.QTimer(Gui.getMainWindow())
+def lab_pose(t):
+    for r in lab_rows:
+        for kind,p in harpe_live_roots(r,t).items():
+            obj=lab_doc.getObject(r['note']+'_'+kind)
+            obj.setExpression('Placement.Rotation.Angle',None)
+            obj.Placement=p
+    lab_doc.recompute()
+    Gui.getDocument(lab_doc.Name).activeView().redraw()
+def lab_tick():
+    if lab_doc.Name not in App.listDocuments():lab_review_timer.stop();return
+    t=lab_offset+(time.monotonic()-lab_start)*lab_speed
+    lab_pose(t);lab_status.setText('%.1f s — 8-minute ideal repeat'%t)
+def lab_toggle():
+    global lab_offset,lab_start
+    if lab_review_timer.isActive():
+        lab_offset+=(time.monotonic()-lab_start)*lab_speed
+        lab_review_timer.stop();lab_play.setText('Play')
+    else:
+        lab_start=time.monotonic();lab_review_timer.start(50);lab_play.setText('Pause')
+def lab_reset():
+    global lab_offset,lab_start
+    lab_offset=0.0;lab_start=time.monotonic();lab_pose(0)
+def lab_change(i):
+    global lab_offset,lab_start,lab_speed
+    if lab_review_timer.isActive():lab_offset+=(time.monotonic()-lab_start)*lab_speed
+    lab_start=time.monotonic();lab_speed=[1.0,4.0,20.0][i]
+old=Gui.getMainWindow().findChild(QtWidgets.QDockWidget,'LabReviewControls')
+if old:old.close();old.deleteLater()
+lab_dock=QtWidgets.QDockWidget('Lab Frame — reference motion / not fabrication-ready',Gui.getMainWindow());lab_dock.setObjectName('LabReviewControls')
+lab_panel=QtWidgets.QWidget();lab_layout=QtWidgets.QHBoxLayout(lab_panel)
+lab_play=QtWidgets.QPushButton('Pause');lab_play.clicked.connect(lab_toggle)
+lab_reset_button=QtWidgets.QPushButton('Reset');lab_reset_button.clicked.connect(lab_reset)
+lab_rates=QtWidgets.QComboBox();lab_rates.addItems(['1× normal','4× preview','20× preview']);lab_rates.currentIndexChanged.connect(lab_change)
+lab_status=QtWidgets.QLabel('Starting')
+for w in [lab_play,lab_reset_button,lab_rates,lab_status]:lab_layout.addWidget(w)
+lab_dock.setWidget(lab_panel);Gui.getMainWindow().addDockWidget(QtCore.Qt.BottomDockWidgetArea,lab_dock)
+lab_review_timer.timeout.connect(lab_tick);lab_pose(0);lab_review_timer.start(50)

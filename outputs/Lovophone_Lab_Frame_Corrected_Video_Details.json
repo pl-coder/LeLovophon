@@ -1,0 +1,28 @@
+{
+  "duration_seconds": 480,
+  "fps": 24,
+  "unique_motion_samples_per_second": 12,
+  "resolution": [
+    1008,
+    720
+  ],
+  "normal_speed": true,
+  "ratios": [
+    "1",
+    "9/8",
+    "5/4",
+    "3/2",
+    "5/3",
+    "2",
+    "9/4",
+    "5/2",
+    "3",
+    "10/3",
+    "4",
+    "9/2"
+  ],
+  "input_rpm": 3,
+  "audio": "Silent",
+  "old_midi_compatible": false,
+  "scope": "Corrected timing visualization of Lab Frame ratio review. Obsolete tray/right-foot hardware hidden. Four-bar test prototype not installed. Not physical validation."
+}

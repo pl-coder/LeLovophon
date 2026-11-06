@@ -1,0 +1,37 @@
+part,description,stock,nominal_cut_length_mm
+LabBaseTransom0,8 × 1 mm aluminium base transom,Aluminium tube 8 mm OD × 1 mm wall,193.0
+LabBaseTransom1,8 × 1 mm aluminium base transom001,Aluminium tube 8 mm OD × 1 mm wall,193.0
+LabBaseLongeron0,8 × 1 mm aluminium removable base rail,Aluminium tube 8 mm OD × 1 mm wall,346.0
+LabBaseLongeron1,8 × 1 mm aluminium removable base rail001,Aluminium tube 8 mm OD × 1 mm wall,346.0
+LabBaseClamp00,Split base-rail clamp — prototype machined block,Prototype joint component,
+LabBaseClamp01,Split base-rail clamp — prototype machined block001,Prototype joint component,
+LabBaseClamp10,Split base-rail clamp — prototype machined block002,Prototype joint component,
+LabBaseClamp11,Split base-rail clamp — prototype machined block003,Prototype joint component,
+LabRearFootStem0,6 mm metal rear foot stem,Prototype joint component,
+LabRearFootPad0,Replaceable rubber rear foot,Prototype joint component,
+LabRearFootStem1,6 mm metal rear foot stem001,Prototype joint component,
+LabRearFootPad1,Replaceable rubber rear foot001,Prototype joint component,
+LabPost00,6 × 1 mm aluminium end post,Aluminium tube 6 mm OD × 1 mm wall,135.69
+LabPostFoot00,M3 bolted post tab,Prototype joint component,
+LabPost01,6 × 1 mm aluminium end post001,Aluminium tube 6 mm OD × 1 mm wall,135.69
+LabPostFoot01,M3 bolted post tab001,Prototype joint component,
+LabHead0,6 × 1 mm aluminium removable top bridge,Aluminium tube 6 mm OD × 1 mm wall,168.0
+LabEndStay0,4 × 1 mm aluminium diagonal end stay,Aluminium tube 4 mm OD × 1 mm wall,171.42
+LabRearStay0,4 × 1 mm aluminium rear drive-bay stay,Aluminium tube 4 mm OD × 1 mm wall,236.69
+LabRailExtension00,8 × 1 mm aluminium removable rail end extension,Aluminium tube 8 mm OD × 1 mm wall,27.35
+LabRailExtension01,8 × 1 mm aluminium removable rail end extension001,Aluminium tube 8 mm OD × 1 mm wall,27.35
+LabRailClamp00,Visible split rail clamp — M3 clamping detail pending,Prototype joint component,
+LabRailClamp01,Visible split rail clamp — M3 clamping detail pending001,Prototype joint component,
+LabPost10,6 × 1 mm aluminium end post002,Aluminium tube 6 mm OD × 1 mm wall,98.51
+LabPostFoot10,M3 bolted post tab002,Prototype joint component,
+LabPost11,6 × 1 mm aluminium end post003,Aluminium tube 6 mm OD × 1 mm wall,98.51
+LabPostFoot11,M3 bolted post tab003,Prototype joint component,
+LabHead1,6 × 1 mm aluminium removable top bridge001,Aluminium tube 6 mm OD × 1 mm wall,138.0
+LabEndStay1,4 × 1 mm aluminium diagonal end stay001,Aluminium tube 4 mm OD × 1 mm wall,152.33
+LabRearStay1,4 × 1 mm aluminium rear drive-bay stay001,Aluminium tube 4 mm OD × 1 mm wall,216.69
+LabRailExtension10,8 × 1 mm aluminium removable rail end extension002,Aluminium tube 8 mm OD × 1 mm wall,19.65
+LabRailExtension11,8 × 1 mm aluminium removable rail end extension003,Aluminium tube 8 mm OD × 1 mm wall,19.65
+LabRailClamp10,Visible split rail clamp — M3 clamping detail pending002,Prototype joint component,
+LabRailClamp11,Visible split rail clamp — M3 clamping detail pending003,Prototype joint component,
+LabRackingStay0,2.5 mm steel diagonal tie — adjustable clevis ends pending,Steel rod 2.5 mm,316.97
+LabRackingStay1,2.5 mm steel diagonal tie — adjustable clevis ends pending001,Steel rod 2.5 mm,316.97

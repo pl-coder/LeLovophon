@@ -1,0 +1,1357 @@
+{
+  "straight_down_pick_contact_volumes_mm3": {
+    "C": 0.33589908652182293,
+    "D": 0.33589908652182293,
+    "E": 0.33589908652182227,
+    "F": 0.3358990865218223,
+    "G": 0.3358990865218223,
+    "A": 0.33589908652182254
+  },
+  "stationary_envelope_mm": {
+    "length": 370.0,
+    "depth": 200.0,
+    "height": 178.3687711724617
+  },
+  "model_material_mass_kg": 2.1919617293729043,
+  "densities_kg_per_m3": {
+    "plywood": 650,
+    "rubber": 1100,
+    "polymer": 1200,
+    "steel": 7850,
+    "aluminium": 2700
+  },
+  "parts": [
+    {
+      "part": "Baseplate_310x170x6",
+      "material_assumption": "plywood",
+      "volume_mm3": 221714.90046668675,
+      "mass_kg": 0.1441146853033464
+    },
+    {
+      "part": "CommonInputShaft_D6",
+      "material_assumption": "steel",
+      "volume_mm3": 4919.734095521617,
+      "mass_kg": 0.03861991264984469
+    },
+    {
+      "part": "LowInputStand0",
+      "material_assumption": "aluminium",
+      "volume_mm3": 3503.270066045474,
+      "mass_kg": 0.009458829178322779
+    },
+    {
+      "part": "LowInputBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 497.43978076940755,
+      "mass_kg": 0.003904902279039849
+    },
+    {
+      "part": "LowInputStand1",
+      "material_assumption": "aluminium",
+      "volume_mm3": 3503.270066045474,
+      "mass_kg": 0.009458829178322779
+    },
+    {
+      "part": "LowInputBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 497.43978076940743,
+      "mass_kg": 0.003904902279039848
+    },
+    {
+      "part": "LowGearboxTray",
+      "material_assumption": "aluminium",
+      "volume_mm3": 46746.0,
+      "mass_kg": 0.1262142
+    },
+    {
+      "part": "C_RaisedArmShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 777.544181763474,
+      "mass_kg": 0.00610372182684327
+    },
+    {
+      "part": "C_ExtendedArm",
+      "material_assumption": "aluminium",
+      "volume_mm3": 981.3377593700296,
+      "mass_kg": 0.00264961195029908
+    },
+    {
+      "part": "C_ExtendedPick",
+      "material_assumption": "polymer",
+      "volume_mm3": 2.96999999999999,
+      "mass_kg": 3.563999999999988e-06
+    },
+    {
+      "part": "D_RaisedArmShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 777.544181763474,
+      "mass_kg": 0.00610372182684327
+    },
+    {
+      "part": "D_ExtendedArm",
+      "material_assumption": "aluminium",
+      "volume_mm3": 891.7418414277643,
+      "mass_kg": 0.0024077029718549635
+    },
+    {
+      "part": "D_ExtendedPick",
+      "material_assumption": "polymer",
+      "volume_mm3": 2.96999999999999,
+      "mass_kg": 3.563999999999988e-06
+    },
+    {
+      "part": "E_RaisedArmShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 777.5441817634737,
+      "mass_kg": 0.006103721826843268
+    },
+    {
+      "part": "E_ExtendedArm",
+      "material_assumption": "aluminium",
+      "volume_mm3": 820.0651070739518,
+      "mass_kg": 0.00221417578909967
+    },
+    {
+      "part": "E_ExtendedPick",
+      "material_assumption": "polymer",
+      "volume_mm3": 2.970000000000006,
+      "mass_kg": 3.564000000000007e-06
+    },
+    {
+      "part": "F_RaisedArmShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 777.5441817634737,
+      "mass_kg": 0.006103721826843268
+    },
+    {
+      "part": "F_ExtendedArm",
+      "material_assumption": "aluminium",
+      "volume_mm3": 779.7469439999323,
+      "mass_kg": 0.002105316748799817
+    },
+    {
+      "part": "F_ExtendedPick",
+      "material_assumption": "polymer",
+      "volume_mm3": 2.970000000000006,
+      "mass_kg": 3.564000000000007e-06
+    },
+    {
+      "part": "G_RaisedArmShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 777.5441817634737,
+      "mass_kg": 0.006103721826843268
+    },
+    {
+      "part": "G_ExtendedArm",
+      "material_assumption": "aluminium",
+      "volume_mm3": 712.5500055432332,
+      "mass_kg": 0.0019238850149667296
+    },
+    {
+      "part": "G_ExtendedPick",
+      "material_assumption": "polymer",
+      "volume_mm3": 2.970000000000006,
+      "mass_kg": 3.564000000000007e-06
+    },
+    {
+      "part": "SoundboxShell",
+      "material_assumption": "plywood",
+      "volume_mm3": 566916.8852630646,
+      "mass_kg": 0.36849597542099205
+    },
+    {
+      "part": "SoundboxEndBlock0",
+      "material_assumption": "plywood",
+      "volume_mm3": 107911.99999999999,
+      "mass_kg": 0.07014279999999999
+    },
+    {
+      "part": "SoundboxEndBlock1",
+      "material_assumption": "plywood",
+      "volume_mm3": 107911.99999999999,
+      "mass_kg": 0.07014279999999999
+    },
+    {
+      "part": "SoundboxFoot0",
+      "material_assumption": "rubber",
+      "volume_mm3": 2399.9999999999995,
+      "mass_kg": 0.0026399999999999996
+    },
+    {
+      "part": "SoundboxFoot1",
+      "material_assumption": "rubber",
+      "volume_mm3": 2399.9999999999995,
+      "mass_kg": 0.0026399999999999996
+    },
+    {
+      "part": "SoundboxFoot2",
+      "material_assumption": "rubber",
+      "volume_mm3": 2399.9999999999995,
+      "mass_kg": 0.0026399999999999996
+    },
+    {
+      "part": "SoundboxFoot3",
+      "material_assumption": "rubber",
+      "volume_mm3": 2399.9999999999995,
+      "mass_kg": 0.0026399999999999996
+    },
+    {
+      "part": "A_RaisedArmShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 777.5441817634737,
+      "mass_kg": 0.006103721826843268
+    },
+    {
+      "part": "A_ExtendedArm",
+      "material_assumption": "aluminium",
+      "volume_mm3": 658.792454777874,
+      "mass_kg": 0.0017787396279002599
+    },
+    {
+      "part": "A_ExtendedPick",
+      "material_assumption": "polymer",
+      "volume_mm3": 2.97,
+      "mass_kg": 3.564e-06
+    },
+    {
+      "part": "CommonIntermediateAxle",
+      "material_assumption": "steel",
+      "volume_mm3": 4750.0880922277665,
+      "mass_kg": 0.03728819152398796
+    },
+    {
+      "part": "IntermediateAxleStand0",
+      "material_assumption": "steel",
+      "volume_mm3": 5656.652006039885,
+      "mass_kg": 0.04440471824741309
+    },
+    {
+      "part": "IntermediateAxleStand1",
+      "material_assumption": "steel",
+      "volume_mm3": 5656.652006039885,
+      "mass_kg": 0.04440471824741309
+    },
+    {
+      "part": "C_RatioDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 2400.3557611702295,
+      "mass_kg": 0.00648096055515962
+    },
+    {
+      "part": "C_RatioDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 2145.8867562294577,
+      "mass_kg": 0.005793894241819536
+    },
+    {
+      "part": "C_CompoundPulleyHub",
+      "material_assumption": "aluminium",
+      "volume_mm3": 371.01227491191173,
+      "mass_kg": 0.0010017331422621616
+    },
+    {
+      "part": "C_IndependentPulleyBearing",
+      "material_assumption": "steel",
+      "volume_mm3": 507.6656648568428,
+      "mass_kg": 0.003985175469126216
+    },
+    {
+      "part": "C_RatioBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 488.009620631993,
+      "mass_kg": 0.0005856115447583916
+    },
+    {
+      "part": "D_RatioDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1916.5247341708684,
+      "mass_kg": 0.005174616782261345
+    },
+    {
+      "part": "D_RatioDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1229.1542840201396,
+      "mass_kg": 0.003318716566854377
+    },
+    {
+      "part": "D_CompoundPulleyHub",
+      "material_assumption": "aluminium",
+      "volume_mm3": 371.01227491191173,
+      "mass_kg": 0.0010017331422621616
+    },
+    {
+      "part": "D_IndependentPulleyBearing",
+      "material_assumption": "steel",
+      "volume_mm3": 507.6656648568428,
+      "mass_kg": 0.003985175469126216
+    },
+    {
+      "part": "D_RatioBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 446.2101349128821,
+      "mass_kg": 0.0005354521618954585
+    },
+    {
+      "part": "E_RatioDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 2400.3557611702295,
+      "mass_kg": 0.00648096055515962
+    },
+    {
+      "part": "E_RatioDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1229.1542840201396,
+      "mass_kg": 0.003318716566854377
+    },
+    {
+      "part": "E_CompoundPulleyHub",
+      "material_assumption": "aluminium",
+      "volume_mm3": 371.01227491191196,
+      "mass_kg": 0.0010017331422621622
+    },
+    {
+      "part": "E_IndependentPulleyBearing",
+      "material_assumption": "steel",
+      "volume_mm3": 507.6656648568428,
+      "mass_kg": 0.003985175469126216
+    },
+    {
+      "part": "E_RatioBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 460.8120847431585,
+      "mass_kg": 0.0005529745016917901
+    },
+    {
+      "part": "F_RatioDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1483.623288960913,
+      "mass_kg": 0.004005782880194465
+    },
+    {
+      "part": "F_RatioDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 516.1401389684487,
+      "mass_kg": 0.0013935783752148114
+    },
+    {
+      "part": "F_CompoundPulleyHub",
+      "material_assumption": "aluminium",
+      "volume_mm3": 371.01227491191196,
+      "mass_kg": 0.0010017331422621622
+    },
+    {
+      "part": "F_IndependentPulleyBearing",
+      "material_assumption": "steel",
+      "volume_mm3": 507.6656648568428,
+      "mass_kg": 0.003985175469126216
+    },
+    {
+      "part": "F_RatioBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 404.8120847431576,
+      "mass_kg": 0.0004857745016917891
+    },
+    {
+      "part": "G_RatioDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1916.5247341708684,
+      "mass_kg": 0.005174616782261345
+    },
+    {
+      "part": "G_RatioDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 516.1401389684487,
+      "mass_kg": 0.0013935783752148114
+    },
+    {
+      "part": "G_CompoundPulleyHub",
+      "material_assumption": "aluminium",
+      "volume_mm3": 371.01227491191196,
+      "mass_kg": 0.0010017331422621622
+    },
+    {
+      "part": "G_IndependentPulleyBearing",
+      "material_assumption": "steel",
+      "volume_mm3": 507.6656648568428,
+      "mass_kg": 0.003985175469126216
+    },
+    {
+      "part": "G_RatioBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 419.8166985710674,
+      "mass_kg": 0.0005037800382852809
+    },
+    {
+      "part": "A_RatioDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 2400.3557611702295,
+      "mass_kg": 0.00648096055515962
+    },
+    {
+      "part": "A_RatioDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 516.1401389684487,
+      "mass_kg": 0.0013935783752148114
+    },
+    {
+      "part": "A_CompoundPulleyHub",
+      "material_assumption": "aluminium",
+      "volume_mm3": 371.01227491191173,
+      "mass_kg": 0.0010017331422621616
+    },
+    {
+      "part": "A_IndependentPulleyBearing",
+      "material_assumption": "steel",
+      "volume_mm3": 507.6656648568427,
+      "mass_kg": 0.003985175469126215
+    },
+    {
+      "part": "A_RatioBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 435.2260491481842,
+      "mass_kg": 0.000522271258977821
+    },
+    {
+      "part": "KotoAnchorBlock",
+      "material_assumption": "steel",
+      "volume_mm3": 41343.99999999999,
+      "mass_kg": 0.3245503999999999
+    },
+    {
+      "part": "KotoAnchorSaddleRail",
+      "material_assumption": "steel",
+      "volume_mm3": 840.0,
+      "mass_kg": 0.006593999999999999
+    },
+    {
+      "part": "KotoTunerBlock",
+      "material_assumption": "aluminium",
+      "volume_mm3": 41343.99999999999,
+      "mass_kg": 0.11162879999999999
+    },
+    {
+      "part": "KotoTunerSaddleRail",
+      "material_assumption": "aluminium",
+      "volume_mm3": 840.0,
+      "mass_kg": 0.002268
+    },
+    {
+      "part": "C_KotoSpeakingString",
+      "material_assumption": "steel",
+      "volume_mm3": 33.589908652182324,
+      "mass_kg": 0.0002636807829196312
+    },
+    {
+      "part": "C_KotoBackString",
+      "material_assumption": "steel",
+      "volume_mm3": 1.2214512237157211,
+      "mass_kg": 9.58839210616841e-06
+    },
+    {
+      "part": "C_KotoThirdBridge",
+      "material_assumption": "aluminium",
+      "volume_mm3": 993.6000000000003,
+      "mass_kg": 0.002682720000000001
+    },
+    {
+      "part": "C_KotoAnchorSaddle",
+      "material_assumption": "steel",
+      "volume_mm3": 9.236282401554003,
+      "mass_kg": 7.250481685219893e-05
+    },
+    {
+      "part": "C_KotoAnchorPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157126,
+      "mass_kg": 0.0013356392106168343
+    },
+    {
+      "part": "C_KotoAnchorTail",
+      "material_assumption": "steel",
+      "volume_mm3": 0.6107256118578598,
+      "mass_kg": 4.794196053084199e-06
+    },
+    {
+      "part": "C_KotoTunerSaddle",
+      "material_assumption": "aluminium",
+      "volume_mm3": 9.236282401554003,
+      "mass_kg": 2.493796248419581e-05
+    },
+    {
+      "part": "C_KotoTunerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157092,
+      "mass_kg": 0.0013356392106168317
+    },
+    {
+      "part": "C_KotoTunerTail",
+      "material_assumption": "aluminium",
+      "volume_mm3": 0.6107256118578543,
+      "mass_kg": 1.6489591520162068e-06
+    },
+    {
+      "part": "C_PendulumBracket0",
+      "material_assumption": "aluminium",
+      "volume_mm3": 10361.703333144169,
+      "mass_kg": 0.027976598999489257
+    },
+    {
+      "part": "C_PendulumBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.6265205129385,
+      "mass_kg": 0.002603268186026567
+    },
+    {
+      "part": "C_PendulumBracket1",
+      "material_assumption": "aluminium",
+      "volume_mm3": 8782.380869790206,
+      "mass_kg": 0.023712428348433557
+    },
+    {
+      "part": "C_PendulumBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.6265205129385,
+      "mass_kg": 0.002603268186026567
+    },
+    {
+      "part": "D_KotoSpeakingString",
+      "material_assumption": "steel",
+      "volume_mm3": 29.857696579717622,
+      "mass_kg": 0.00023438291815078331
+    },
+    {
+      "part": "D_KotoBackString",
+      "material_assumption": "steel",
+      "volume_mm3": 4.953663296180426,
+      "mass_kg": 3.888625687501634e-05
+    },
+    {
+      "part": "D_KotoThirdBridge",
+      "material_assumption": "aluminium",
+      "volume_mm3": 993.6000000000003,
+      "mass_kg": 0.002682720000000001
+    },
+    {
+      "part": "D_KotoAnchorSaddle",
+      "material_assumption": "steel",
+      "volume_mm3": 9.236282401554003,
+      "mass_kg": 7.250481685219893e-05
+    },
+    {
+      "part": "D_KotoAnchorPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157126,
+      "mass_kg": 0.0013356392106168343
+    },
+    {
+      "part": "D_KotoAnchorTail",
+      "material_assumption": "steel",
+      "volume_mm3": 0.6107256118578598,
+      "mass_kg": 4.794196053084199e-06
+    },
+    {
+      "part": "D_KotoTunerSaddle",
+      "material_assumption": "aluminium",
+      "volume_mm3": 9.236282401554003,
+      "mass_kg": 2.493796248419581e-05
+    },
+    {
+      "part": "D_KotoTunerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157092,
+      "mass_kg": 0.0013356392106168317
+    },
+    {
+      "part": "D_KotoTunerTail",
+      "material_assumption": "aluminium",
+      "volume_mm3": 0.6107256118578543,
+      "mass_kg": 1.6489591520162068e-06
+    },
+    {
+      "part": "D_PendulumBracket0",
+      "material_assumption": "aluminium",
+      "volume_mm3": 11012.433928289605,
+      "mass_kg": 0.029733571606381935
+    },
+    {
+      "part": "D_PendulumBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.6265205129385,
+      "mass_kg": 0.002603268186026567
+    },
+    {
+      "part": "D_PendulumBracket1",
+      "material_assumption": "aluminium",
+      "volume_mm3": 9343.458421944166,
+      "mass_kg": 0.025227337739249248
+    },
+    {
+      "part": "D_PendulumBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.6265205129385,
+      "mass_kg": 0.002603268186026567
+    },
+    {
+      "part": "E_KotoSpeakingString",
+      "material_assumption": "steel",
+      "volume_mm3": 26.871926921745693,
+      "mass_kg": 0.00021094462633570367
+    },
+    {
+      "part": "E_KotoBackString",
+      "material_assumption": "steel",
+      "volume_mm3": 7.939432954152135,
+      "mass_kg": 6.232454869009425e-05
+    },
+    {
+      "part": "E_KotoThirdBridge",
+      "material_assumption": "aluminium",
+      "volume_mm3": 993.6000000000006,
+      "mass_kg": 0.0026827200000000017
+    },
+    {
+      "part": "E_KotoAnchorSaddle",
+      "material_assumption": "steel",
+      "volume_mm3": 9.23628240155399,
+      "mass_kg": 7.25048168521988e-05
+    },
+    {
+      "part": "E_KotoAnchorPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157118,
+      "mass_kg": 0.0013356392106168337
+    },
+    {
+      "part": "E_KotoAnchorTail",
+      "material_assumption": "steel",
+      "volume_mm3": 0.6107256118578559,
+      "mass_kg": 4.7941960530841686e-06
+    },
+    {
+      "part": "E_KotoTunerSaddle",
+      "material_assumption": "aluminium",
+      "volume_mm3": 9.23628240155399,
+      "mass_kg": 2.493796248419577e-05
+    },
+    {
+      "part": "E_KotoTunerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157084,
+      "mass_kg": 0.0013356392106168308
+    },
+    {
+      "part": "E_KotoTunerTail",
+      "material_assumption": "aluminium",
+      "volume_mm3": 0.6107256118578506,
+      "mass_kg": 1.6489591520161966e-06
+    },
+    {
+      "part": "E_PendulumBracket0",
+      "material_assumption": "aluminium",
+      "volume_mm3": 11751.332193990987,
+      "mass_kg": 0.031728596923775665
+    },
+    {
+      "part": "E_PendulumBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.6265205129385,
+      "mass_kg": 0.002603268186026567
+    },
+    {
+      "part": "E_PendulumBracket1",
+      "material_assumption": "aluminium",
+      "volume_mm3": 9952.32046366733,
+      "mass_kg": 0.026871265251901793
+    },
+    {
+      "part": "E_PendulumBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.6265205129385,
+      "mass_kg": 0.002603268186026567
+    },
+    {
+      "part": "F_KotoSpeakingString",
+      "material_assumption": "steel",
+      "volume_mm3": 25.192431489136585,
+      "mass_kg": 0.00019776058718972217
+    },
+    {
+      "part": "F_KotoBackString",
+      "material_assumption": "steel",
+      "volume_mm3": 9.618928386761242,
+      "mass_kg": 7.550858783607574e-05
+    },
+    {
+      "part": "F_KotoThirdBridge",
+      "material_assumption": "aluminium",
+      "volume_mm3": 993.6000000000001,
+      "mass_kg": 0.0026827200000000004
+    },
+    {
+      "part": "F_KotoAnchorSaddle",
+      "material_assumption": "steel",
+      "volume_mm3": 9.23628240155399,
+      "mass_kg": 7.25048168521988e-05
+    },
+    {
+      "part": "F_KotoAnchorPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157118,
+      "mass_kg": 0.0013356392106168337
+    },
+    {
+      "part": "F_KotoAnchorTail",
+      "material_assumption": "steel",
+      "volume_mm3": 0.6107256118578558,
+      "mass_kg": 4.794196053084168e-06
+    },
+    {
+      "part": "F_KotoTunerSaddle",
+      "material_assumption": "aluminium",
+      "volume_mm3": 9.23628240155399,
+      "mass_kg": 2.493796248419577e-05
+    },
+    {
+      "part": "F_KotoTunerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157084,
+      "mass_kg": 0.0013356392106168308
+    },
+    {
+      "part": "F_KotoTunerTail",
+      "material_assumption": "aluminium",
+      "volume_mm3": 0.6107256118578506,
+      "mass_kg": 1.6489591520161966e-06
+    },
+    {
+      "part": "F_PendulumBracket0",
+      "material_assumption": "aluminium",
+      "volume_mm3": 12614.07589925577,
+      "mass_kg": 0.034058004927990576
+    },
+    {
+      "part": "F_PendulumBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "F_PendulumBracket1",
+      "material_assumption": "aluminium",
+      "volume_mm3": 10644.805362136614,
+      "mass_kg": 0.028740974477768858
+    },
+    {
+      "part": "F_PendulumBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "G_KotoSpeakingString",
+      "material_assumption": "steel",
+      "volume_mm3": 22.393272434788074,
+      "mass_kg": 0.00017578718861308636
+    },
+    {
+      "part": "G_KotoBackString",
+      "material_assumption": "steel",
+      "volume_mm3": 12.418087441109751,
+      "mass_kg": 9.748198641271155e-05
+    },
+    {
+      "part": "G_KotoThirdBridge",
+      "material_assumption": "aluminium",
+      "volume_mm3": 993.6000000000001,
+      "mass_kg": 0.0026827200000000004
+    },
+    {
+      "part": "G_KotoAnchorSaddle",
+      "material_assumption": "steel",
+      "volume_mm3": 9.23628240155399,
+      "mass_kg": 7.25048168521988e-05
+    },
+    {
+      "part": "G_KotoAnchorPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157118,
+      "mass_kg": 0.0013356392106168337
+    },
+    {
+      "part": "G_KotoAnchorTail",
+      "material_assumption": "steel",
+      "volume_mm3": 0.6107256118578558,
+      "mass_kg": 4.794196053084168e-06
+    },
+    {
+      "part": "G_KotoTunerSaddle",
+      "material_assumption": "aluminium",
+      "volume_mm3": 9.23628240155399,
+      "mass_kg": 2.493796248419577e-05
+    },
+    {
+      "part": "G_KotoTunerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157084,
+      "mass_kg": 0.0013356392106168308
+    },
+    {
+      "part": "G_KotoTunerTail",
+      "material_assumption": "aluminium",
+      "volume_mm3": 0.6107256118578506,
+      "mass_kg": 1.6489591520161966e-06
+    },
+    {
+      "part": "G_PendulumBracket0",
+      "material_assumption": "aluminium",
+      "volume_mm3": 13376.463360301956,
+      "mass_kg": 0.03611645107281528
+    },
+    {
+      "part": "G_PendulumBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "G_PendulumBracket1",
+      "material_assumption": "aluminium",
+      "volume_mm3": 11265.613526252082,
+      "mass_kg": 0.03041715652088062
+    },
+    {
+      "part": "G_PendulumBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "A_KotoSpeakingString",
+      "material_assumption": "steel",
+      "volume_mm3": 20.153945191309283,
+      "mass_kg": 0.00015820846975177785
+    },
+    {
+      "part": "A_KotoBackString",
+      "material_assumption": "steel",
+      "volume_mm3": 14.65741468458857,
+      "mass_kg": 0.00011506070527402027
+    },
+    {
+      "part": "A_KotoThirdBridge",
+      "material_assumption": "aluminium",
+      "volume_mm3": 993.5999999999995,
+      "mass_kg": 0.0026827199999999987
+    },
+    {
+      "part": "A_KotoAnchorSaddle",
+      "material_assumption": "steel",
+      "volume_mm3": 9.23628240155399,
+      "mass_kg": 7.25048168521988e-05
+    },
+    {
+      "part": "A_KotoAnchorPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.14512237157112,
+      "mass_kg": 0.0013356392106168332
+    },
+    {
+      "part": "A_KotoAnchorTail",
+      "material_assumption": "steel",
+      "volume_mm3": 0.6107256118578562,
+      "mass_kg": 4.794196053084171e-06
+    },
+    {
+      "part": "A_KotoTunerSaddle",
+      "material_assumption": "aluminium",
+      "volume_mm3": 9.23628240155399,
+      "mass_kg": 2.493796248419577e-05
+    },
+    {
+      "part": "A_KotoTunerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 170.1451223715708,
+      "mass_kg": 0.0013356392106168306
+    },
+    {
+      "part": "A_KotoTunerTail",
+      "material_assumption": "aluminium",
+      "volume_mm3": 0.6107256118578509,
+      "mass_kg": 1.6489591520161975e-06
+    },
+    {
+      "part": "A_PendulumBracket0",
+      "material_assumption": "aluminium",
+      "volume_mm3": 14174.785401806494,
+      "mass_kg": 0.03827192058487753
+    },
+    {
+      "part": "A_PendulumBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "A_PendulumBracket1",
+      "material_assumption": "aluminium",
+      "volume_mm3": 11922.26005754446,
+      "mass_kg": 0.03219010215537004
+    },
+    {
+      "part": "A_PendulumBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "C_EccentricCam",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1116.8126264062696,
+      "mass_kg": 0.0030153940912969277
+    },
+    {
+      "part": "C_FollowerLever",
+      "material_assumption": "aluminium",
+      "volume_mm3": 773.5536734005708,
+      "mass_kg": 0.0020885949181815413
+    },
+    {
+      "part": "C_FollowerRoller",
+      "material_assumption": "aluminium",
+      "volume_mm3": 74.43218394517616,
+      "mass_kg": 0.00020096689665197564
+    },
+    {
+      "part": "C_RollerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 18.849555921538762,
+      "mass_kg": 0.00014796901398407927
+    },
+    {
+      "part": "C_ReturnSpringEnvelope",
+      "material_assumption": "steel",
+      "volume_mm3": 44.32787234215198,
+      "mass_kg": 0.000347973797885893
+    },
+    {
+      "part": "D_EccentricCam",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1116.8126264062696,
+      "mass_kg": 0.0030153940912969277
+    },
+    {
+      "part": "D_FollowerLever",
+      "material_assumption": "aluminium",
+      "volume_mm3": 722.69960199319,
+      "mass_kg": 0.001951288925381613
+    },
+    {
+      "part": "D_FollowerRoller",
+      "material_assumption": "aluminium",
+      "volume_mm3": 74.4321839451762,
+      "mass_kg": 0.00020096689665197574
+    },
+    {
+      "part": "D_RollerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 18.84955592153875,
+      "mass_kg": 0.00014796901398407919
+    },
+    {
+      "part": "D_ReturnSpringEnvelope",
+      "material_assumption": "steel",
+      "volume_mm3": 44.32787234215198,
+      "mass_kg": 0.000347973797885893
+    },
+    {
+      "part": "E_EccentricCam",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1116.8126264062696,
+      "mass_kg": 0.0030153940912969277
+    },
+    {
+      "part": "E_FollowerLever",
+      "material_assumption": "aluminium",
+      "volume_mm3": 713.2547837741043,
+      "mass_kg": 0.0019257879161900817
+    },
+    {
+      "part": "E_FollowerRoller",
+      "material_assumption": "aluminium",
+      "volume_mm3": 74.43218394517622,
+      "mass_kg": 0.0002009668966519758
+    },
+    {
+      "part": "E_RollerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 18.849555921538766,
+      "mass_kg": 0.0001479690139840793
+    },
+    {
+      "part": "E_ReturnSpringEnvelope",
+      "material_assumption": "steel",
+      "volume_mm3": 44.327872342152,
+      "mass_kg": 0.00034797379788589316
+    },
+    {
+      "part": "F_EccentricCam",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1116.8126264062696,
+      "mass_kg": 0.0030153940912969277
+    },
+    {
+      "part": "F_FollowerLever",
+      "material_assumption": "aluminium",
+      "volume_mm3": 750.1481259880443,
+      "mass_kg": 0.0020253999401677195
+    },
+    {
+      "part": "F_FollowerRoller",
+      "material_assumption": "aluminium",
+      "volume_mm3": 74.43218394517622,
+      "mass_kg": 0.0002009668966519758
+    },
+    {
+      "part": "F_RollerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 18.84955592153873,
+      "mass_kg": 0.00014796901398407902
+    },
+    {
+      "part": "F_ReturnSpringEnvelope",
+      "material_assumption": "steel",
+      "volume_mm3": 44.327872342152006,
+      "mass_kg": 0.0003479737978858932
+    },
+    {
+      "part": "G_EccentricCam",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1116.8126264062696,
+      "mass_kg": 0.0030153940912969277
+    },
+    {
+      "part": "G_FollowerLever",
+      "material_assumption": "aluminium",
+      "volume_mm3": 791.7918807325954,
+      "mass_kg": 0.0021378380779780073
+    },
+    {
+      "part": "G_FollowerRoller",
+      "material_assumption": "aluminium",
+      "volume_mm3": 74.43218394517618,
+      "mass_kg": 0.0002009668966519757
+    },
+    {
+      "part": "G_RollerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 18.849555921538776,
+      "mass_kg": 0.00014796901398407938
+    },
+    {
+      "part": "G_ReturnSpringEnvelope",
+      "material_assumption": "steel",
+      "volume_mm3": 44.32787234215199,
+      "mass_kg": 0.0003479737978858931
+    },
+    {
+      "part": "A_EccentricCam",
+      "material_assumption": "aluminium",
+      "volume_mm3": 1116.8126264062696,
+      "mass_kg": 0.0030153940912969277
+    },
+    {
+      "part": "A_FollowerLever",
+      "material_assumption": "aluminium",
+      "volume_mm3": 856.9718402538819,
+      "mass_kg": 0.002313823968685481
+    },
+    {
+      "part": "A_FollowerRoller",
+      "material_assumption": "aluminium",
+      "volume_mm3": 74.43218394517613,
+      "mass_kg": 0.00020096689665197556
+    },
+    {
+      "part": "A_RollerPin",
+      "material_assumption": "steel",
+      "volume_mm3": 18.84955592153877,
+      "mass_kg": 0.00014796901398407932
+    },
+    {
+      "part": "A_ReturnSpringEnvelope",
+      "material_assumption": "steel",
+      "volume_mm3": 44.32787234215199,
+      "mass_kg": 0.0003479737978858931
+    },
+    {
+      "part": "ClockworkInputCoupling",
+      "material_assumption": "aluminium",
+      "volume_mm3": 493.1515067972577,
+      "mass_kg": 0.0013315090683525958
+    },
+    {
+      "part": "C_FollowerSwingShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 501.86942641096937,
+      "mass_kg": 0.0039396749973261095
+    },
+    {
+      "part": "C_SwingDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 3823.717884446363,
+      "mass_kg": 0.01032403828800518
+    },
+    {
+      "part": "C_SwingDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 156.78799560909405,
+      "mass_kg": 0.00042332758814455393
+    },
+    {
+      "part": "C_SwingStepUpBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 316.6631102551173,
+      "mass_kg": 0.00037999573230614075
+    },
+    {
+      "part": "C_FollowerPivotBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "C_FollowerPivotBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "D_FollowerSwingShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 501.86942641096954,
+      "mass_kg": 0.00393967499732611
+    },
+    {
+      "part": "D_SwingDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 3823.7178844463633,
+      "mass_kg": 0.010324038288005181
+    },
+    {
+      "part": "D_SwingDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 156.78799560909405,
+      "mass_kg": 0.00042332758814455393
+    },
+    {
+      "part": "D_SwingStepUpBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 316.66311025512186,
+      "mass_kg": 0.0003799957323061462
+    },
+    {
+      "part": "D_FollowerPivotBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "D_FollowerPivotBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "E_FollowerSwingShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 501.86942641096965,
+      "mass_kg": 0.003939674997326111
+    },
+    {
+      "part": "E_SwingDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 3823.717884446365,
+      "mass_kg": 0.010324038288005186
+    },
+    {
+      "part": "E_SwingDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 156.78799560909408,
+      "mass_kg": 0.00042332758814455404
+    },
+    {
+      "part": "E_SwingStepUpBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 316.6631102551206,
+      "mass_kg": 0.0003799957323061447
+    },
+    {
+      "part": "E_FollowerPivotBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "E_FollowerPivotBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "F_FollowerSwingShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 501.8694264109695,
+      "mass_kg": 0.00393967499732611
+    },
+    {
+      "part": "F_SwingDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 3823.7178844463633,
+      "mass_kg": 0.010324038288005181
+    },
+    {
+      "part": "F_SwingDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 156.78799560909408,
+      "mass_kg": 0.00042332758814455404
+    },
+    {
+      "part": "F_SwingStepUpBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 316.6631102551222,
+      "mass_kg": 0.00037999573230614665
+    },
+    {
+      "part": "F_FollowerPivotBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "F_FollowerPivotBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "G_FollowerSwingShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 501.8694264109695,
+      "mass_kg": 0.00393967499732611
+    },
+    {
+      "part": "G_SwingDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 3823.7178844463633,
+      "mass_kg": 0.010324038288005181
+    },
+    {
+      "part": "G_SwingDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 156.78799560909408,
+      "mass_kg": 0.00042332758814455404
+    },
+    {
+      "part": "G_SwingStepUpBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 316.6631102551223,
+      "mass_kg": 0.00037999573230614676
+    },
+    {
+      "part": "G_FollowerPivotBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "G_FollowerPivotBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293855,
+      "mass_kg": 0.0026032681860265676
+    },
+    {
+      "part": "A_FollowerSwingShaft",
+      "material_assumption": "steel",
+      "volume_mm3": 501.8694264109695,
+      "mass_kg": 0.00393967499732611
+    },
+    {
+      "part": "A_SwingDrivePulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 3823.7178844463624,
+      "mass_kg": 0.010324038288005178
+    },
+    {
+      "part": "A_SwingDrivenPulley",
+      "material_assumption": "aluminium",
+      "volume_mm3": 156.7879956090941,
+      "mass_kg": 0.0004233275881445541
+    },
+    {
+      "part": "A_SwingStepUpBelt",
+      "material_assumption": "polymer",
+      "volume_mm3": 316.6631102551228,
+      "mass_kg": 0.0003799957323061473
+    },
+    {
+      "part": "A_FollowerPivotBearing0",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293844,
+      "mass_kg": 0.0026032681860265667
+    },
+    {
+      "part": "A_FollowerPivotBearing1",
+      "material_assumption": "steel",
+      "volume_mm3": 331.62652051293844,
+      "mass_kg": 0.0026032681860265667
+    },
+    {
+      "part": "C_CassetteMountShoe",
+      "material_assumption": "aluminium",
+      "volume_mm3": 895.1969263755011,
+      "mass_kg": 0.002417031701213853
+    },
+    {
+      "part": "D_CassetteMountShoe",
+      "material_assumption": "aluminium",
+      "volume_mm3": 895.196926375501,
+      "mass_kg": 0.0024170317012138526
+    },
+    {
+      "part": "E_CassetteMountShoe",
+      "material_assumption": "aluminium",
+      "volume_mm3": 895.1969263755008,
+      "mass_kg": 0.002417031701213852
+    },
+    {
+      "part": "F_CassetteMountShoe",
+      "material_assumption": "aluminium",
+      "volume_mm3": 895.196926375501,
+      "mass_kg": 0.0024170317012138526
+    },
+    {
+      "part": "G_CassetteMountShoe",
+      "material_assumption": "aluminium",
+      "volume_mm3": 895.1969263755071,
+      "mass_kg": 0.002417031701213869
+    },
+    {
+      "part": "A_CassetteMountShoe",
+      "material_assumption": "aluminium",
+      "volume_mm3": 895.1969263755009,
+      "mass_kg": 0.002417031701213852
+    },
+    {
+      "part": "SoundboxMountRib0",
+      "material_assumption": "plywood",
+      "volume_mm3": 22847.999999999996,
+      "mass_kg": 0.014851199999999998
+    },
+    {
+      "part": "SoundboxMountRib1",
+      "material_assumption": "plywood",
+      "volume_mm3": 22848.0,
+      "mass_kg": 0.0148512
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "new_parts": [
+    "LabBaseTransom0",
+    "LabBaseTransom1",
+    "LabBaseLongeron0",
+    "LabBaseLongeron1",
+    "LabBaseClamp00",
+    "LabBaseClamp01",
+    "LabBaseClamp10",
+    "LabBaseClamp11",
+    "LabRearFootStem0",
+    "LabRearFootPad0",
+    "LabRearFootStem1",
+    "LabRearFootPad1",
+    "LabPost00",
+    "LabPostFoot00",
+    "LabPost01",
+    "LabPostFoot01",
+    "LabHead0",
+    "LabEndStay0",
+    "LabRearStay0",
+    "LabRailExtension00",
+    "LabRailExtension01",
+    "LabRailClamp00",
+    "LabRailClamp01",
+    "LabPost10",
+    "LabPostFoot10",
+    "LabPost11",
+    "LabPostFoot11",
+    "LabHead1",
+    "LabEndStay1",
+    "LabRearStay1",
+    "LabRailExtension10",
+    "LabRailExtension11",
+    "LabRailClamp10",
+    "LabRailClamp11",
+    "LabRackingStay0",
+    "LabRackingStay1"
+  ],
+  "removed_parts": [
+    "GantryLeftPost0",
+    "GantryLeftFoot0",
+    "GantryLeftPost1",
+    "GantryLeftFoot1",
+    "GantryLeftCrosshead",
+    "GantryLeftBrace",
+    "GantryRightPost0",
+    "GantryRightFoot0",
+    "GantryRightPost1",
+    "GantryRightFoot1",
+    "GantryRightCrosshead",
+    "GantryRightBrace"
+  ],
+  "colors": {
+    "LabBaseTransom0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabBaseTransom1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabBaseLongeron0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabBaseLongeron1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabBaseClamp00": [
+      0.69,
+      0.53,
+      0.23
+    ],
+    "LabBaseClamp01": [
+      0.69,
+      0.53,
+      0.23
+    ],
+    "LabBaseClamp10": [
+      0.69,
+      0.53,
+      0.23
+    ],
+    "LabBaseClamp11": [
+      0.69,
+      0.53,
+      0.23
+    ],
+    "LabRearFootStem0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRearFootPad0": [
+      0.08,
+      0.09,
+      0.1
+    ],
+    "LabRearFootStem1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRearFootPad1": [
+      0.08,
+      0.09,
+      0.1
+    ],
+    "LabPost00": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabPostFoot00": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabPost01": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabPostFoot01": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabHead0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabEndStay0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRearStay0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRailExtension00": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRailExtension01": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRailClamp00": [
+      0.69,
+      0.53,
+      0.23
+    ],
+    "LabRailClamp01": [
+      0.69,
+      0.53,
+      0.23
+    ],
+    "LabPost10": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabPostFoot10": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabPost11": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabPostFoot11": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabHead1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabEndStay1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRearStay1": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRailExtension10": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRailExtension11": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRailClamp10": [
+      0.69,
+      0.53,
+      0.23
+    ],
+    "LabRailClamp11": [
+      0.69,
+      0.53,
+      0.23
+    ],
+    "LabRackingStay0": [
+      0.7,
+      0.73,
+      0.76
+    ],
+    "LabRackingStay1": [
+      0.7,
+      0.73,
+      0.76
+    ]
+  },
+  "previous_envelope_mm": [
+    394.0,
+    202.28680816147636,
+    197.19693845669906
+  ],
+  "envelope_mm": [
+    394.0,
+    203.06238548366338,
+    197.19693845669906
+  ],
+  "string_bank_centre_z_mm": -25,
+  "soundbox_centre_z_mm": -25,
+  "soundbox_width_mm": 140,
+  "original_soundbox_width_mm": 200,
+  "string_positions_unchanged": true,
+  "pitch_and_timing_unchanged": true,
+  "invalid_shapes": [],
+  "scope": "Concept CAD. Tube dimensions provisional; clamp preload, joint stiffness, acoustic changes, loads, fatigue and physical safety unverified.",
+  "part_count": 636,
+  "display_settings_saved": true
+}

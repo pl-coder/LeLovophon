@@ -1,0 +1,8 @@
+{
+  "duration_seconds": 12,
+  "fps": 24,
+  "frames": 288,
+  "model_speed_multiplier": 4,
+  "input_axle_degrees_per_model_second": -18,
+  "scope": "Kinematic illustration, not a motor-load, string-vibration or sound simulation."
+}

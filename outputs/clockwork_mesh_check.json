@@ -1,0 +1,5 @@
+{
+  "gear_mesh_samples": 16,
+  "positive_volume_tooth_intersections": [],
+  "scope": "Sampled tooth geometry only, no strength, bearing, spring or escapement validation."
+}

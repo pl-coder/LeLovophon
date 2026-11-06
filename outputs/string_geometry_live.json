@@ -1,0 +1,76 @@
+{
+  "invalid_shapes": [],
+  "assumptions": "C speaking length 120 mm, C arm radius 50 mm; inverse pitch ratios for equal string linear density and equal tension. Absolute tuning unspecified.",
+  "geometry": [
+    {
+      "note": "C",
+      "speaking_mm": 120.0,
+      "arm_radius_mm": 50.0,
+      "length_ratio": 1.0,
+      "offset_mm": 40.0,
+      "crossings_z_mm": [
+        -30.0,
+        30.0
+      ],
+      "end_margin_mm": 30.0,
+      "arm_to_string_plane_clearance_mm": 3,
+      "note_on_plucking": "Two crossings per revolution; a one-way or retracting pick is still needed for one pluck per turn."
+    },
+    {
+      "note": "D",
+      "speaking_mm": 106.66666666666666,
+      "arm_radius_mm": 44.44444444444444,
+      "length_ratio": 0.8888888888888888,
+      "offset_mm": 35.55555555555556,
+      "crossings_z_mm": [
+        -26.66666666666666,
+        26.66666666666666
+      ],
+      "end_margin_mm": 26.666666666666668,
+      "arm_to_string_plane_clearance_mm": 3,
+      "note_on_plucking": "Two crossings per revolution; a one-way or retracting pick is still needed for one pluck per turn."
+    },
+    {
+      "note": "E",
+      "speaking_mm": 96.0,
+      "arm_radius_mm": 40.0,
+      "length_ratio": 0.8,
+      "offset_mm": 32.0,
+      "crossings_z_mm": [
+        -24.0,
+        24.0
+      ],
+      "end_margin_mm": 24.0,
+      "arm_to_string_plane_clearance_mm": 3,
+      "note_on_plucking": "Two crossings per revolution; a one-way or retracting pick is still needed for one pluck per turn."
+    },
+    {
+      "note": "F",
+      "speaking_mm": 90.0,
+      "arm_radius_mm": 37.5,
+      "length_ratio": 0.75,
+      "offset_mm": 30.0,
+      "crossings_z_mm": [
+        -22.5,
+        22.5
+      ],
+      "end_margin_mm": 22.5,
+      "arm_to_string_plane_clearance_mm": 3,
+      "note_on_plucking": "Two crossings per revolution; a one-way or retracting pick is still needed for one pluck per turn."
+    },
+    {
+      "note": "G",
+      "speaking_mm": 80.0,
+      "arm_radius_mm": 33.33333333333333,
+      "length_ratio": 0.6666666666666666,
+      "offset_mm": 26.666666666666664,
+      "crossings_z_mm": [
+        -19.999999999999996,
+        19.999999999999996
+      ],
+      "end_margin_mm": 20.000000000000004,
+      "arm_to_string_plane_clearance_mm": 3,
+      "note_on_plucking": "Two crossings per revolution; a one-way or retracting pick is still needed for one pluck per turn."
+    }
+  ]
+}

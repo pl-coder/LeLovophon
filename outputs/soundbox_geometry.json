@@ -1,0 +1,91 @@
+{
+  "strings": 6,
+  "equal_end_span_mm": 342,
+  "ratios": [
+    1,
+    0.8888888888888888,
+    0.8,
+    0.75,
+    0.6666666666666666,
+    0.6
+  ],
+  "geometry": [
+    {
+      "note": "C",
+      "axis_y": 29.393876913398138,
+      "axis_z": -87.19693845669907,
+      "radius": 67.19693845669907,
+      "speaking_length": 330.0
+    },
+    {
+      "note": "D",
+      "axis_y": 19.393876913398138,
+      "axis_z": -79.73061196151028,
+      "radius": 59.730611961510284,
+      "speaking_length": 293.3333333333333
+    },
+    {
+      "note": "E",
+      "axis_y": 9.393876913398138,
+      "axis_z": -73.75755076535927,
+      "radius": 53.75755076535926,
+      "speaking_length": 264.0
+    },
+    {
+      "note": "F",
+      "axis_y": -0.6061230866018619,
+      "axis_z": -70.39770384252431,
+      "radius": 50.39770384252431,
+      "speaking_length": 247.5
+    },
+    {
+      "note": "G",
+      "axis_y": -10.606123086601862,
+      "axis_z": -64.79795897113272,
+      "radius": 44.797958971132715,
+      "speaking_length": 220.0
+    },
+    {
+      "note": "A",
+      "axis_y": -20.606123086601862,
+      "axis_z": -60.318163074019445,
+      "radius": 40.318163074019445,
+      "speaking_length": 198.0
+    }
+  ],
+  "sweep_clashes": [],
+  "contacts": [
+    {
+      "voice": "C",
+      "part": "C_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "D",
+      "part": "D_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "E",
+      "part": "E_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "F",
+      "part": "F_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "G",
+      "part": "G_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "A",
+      "part": "A_LongSpeakingString",
+      "sweep": "pick"
+    }
+  ],
+  "invalid_shapes": [],
+  "scope": "Geometric concept; string tension, structural sizing and acoustic performance require engineering validation."
+}

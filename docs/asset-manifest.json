@@ -1,0 +1,2256 @@
+{
+  "files": [
+    {
+      "path": "outputs/Animate_Lovophone_Lab_Ratio_Review.FCMacro",
+      "storage": "git",
+      "size_bytes": 4034,
+      "sha256": "3e406013b247c35f98a39f971c4df43e26a8ba5f7f6122523bf3f94d42467817"
+    },
+    {
+      "path": "outputs/Animate_Lovophone_Unified.FCMacro",
+      "storage": "git",
+      "size_bytes": 3066,
+      "sha256": "b97054f363e64e61fad1940f1e9b36dccfca8eb9ecf61822100ffb71489d2530"
+    },
+    {
+      "path": "outputs/Animate_Open_Harpe.FCMacro",
+      "storage": "git",
+      "size_bytes": 7961,
+      "sha256": "8353a2d8aa986282c5cc74153e52dda69362d57c6184dfdcf7c4d410d27defc8"
+    },
+    {
+      "path": "outputs/Antique_Winding_Key.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 39045,
+      "sha256": "c64352fd705eb701ad4154d0cd500c3744d95581e44f084c97b91a0d77d33d0a"
+    },
+    {
+      "path": "outputs/Apply_Wide_Swing.FCMacro",
+      "storage": "git",
+      "size_bytes": 5593,
+      "sha256": "053276e7a23b4f70edf318e54f36a5f3e5ee8c50e795cb07e25d414580f5adf8"
+    },
+    {
+      "path": "outputs/Clockwork_Design_Notes.md",
+      "storage": "git",
+      "size_bytes": 3570,
+      "sha256": "83cad5c6c23ae8a6072c90483d52a7f2b70b86949955fb24332fd9da844a4da9"
+    },
+    {
+      "path": "outputs/Design_review.txt",
+      "storage": "git",
+      "size_bytes": 2529,
+      "sha256": "211e09530bffca5e8630c8dbebd6c478d9d06078644edab6a6fa1c38ea396745"
+    },
+    {
+      "path": "outputs/Future_Ukulele_Version.md",
+      "storage": "git",
+      "size_bytes": 1348,
+      "sha256": "03134dbe51c72cf5a14b48e6b1f7dd455f24abf2111f6c9f268d392f181789a1"
+    },
+    {
+      "path": "outputs/Harpe_Clockwork_Preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 180902,
+      "sha256": "0a1a4e65f55ef2a46d8756fb6848a74bfae76ea3e643eedc8c9a6c2283b382f8"
+    },
+    {
+      "path": "outputs/Harpe_Clockwork_Rolling.gif",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 2878725,
+      "sha256": "dbd2faf5624050d245bbfdbcb1760555183f67a4964ecdeec3b91c8119f481dc"
+    },
+    {
+      "path": "outputs/Harpe_Clockwork_Rolling.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 991158,
+      "sha256": "3a4d35c2b74ec40572fb7e23c818922edd3d4f26a9cc9fee29f34b218278a612"
+    },
+    {
+      "path": "outputs/Harpe_Koto_Geometry_Rescue.FCStd",
+      "storage": "git",
+      "size_bytes": 276114,
+      "sha256": "08dcecba15421185e24240b6236b3aa24b499969451bc7775de81e116eeb3173"
+    },
+    {
+      "path": "outputs/Harpe_Koto_Geometry_Rescue.step",
+      "storage": "git",
+      "size_bytes": 1342305,
+      "sha256": "402c284a85227977794b4ffe4e4666083f83a1edfc271774f71ee3cef6ca6f7d"
+    },
+    {
+      "path": "outputs/Harpe_Low_Nylon_Preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 31353,
+      "sha256": "fc3e6186c4e9105ef3b08bcfe2bba1f2297ce898394136d31633c33853a1b653"
+    },
+    {
+      "path": "outputs/Harpe_Portable_Preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 47257,
+      "sha256": "44543fce88505f663b90463b26d39384ebe0a574fda3f8833277a8c059c451a0"
+    },
+    {
+      "path": "outputs/Harpe_Twelve_Electric_30s.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 1238549,
+      "sha256": "454d26234094239ba03d65f70736b6ff47349ae5f5c9a14aee86a2891de19af8"
+    },
+    {
+      "path": "outputs/Harpe_Twelve_Electric_Preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 93312,
+      "sha256": "f5f7130784ad2eeea3887648b1722dd957ebf010fe55b3d8d2c14cd0715863d9"
+    },
+    {
+      "path": "outputs/Harpe_Twelve_Electric_Rolling.gif",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 1433269,
+      "sha256": "eabd8ea6d3787049f1920a4df3c64f1d751eb922095e5a4e3a0a71bb7f7eb32c"
+    },
+    {
+      "path": "outputs/Harpe_Twelve_Electric_Rolling.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 557517,
+      "sha256": "354b1a7e7ecd5151a8c18ee1e76bb9a1cf88f614867895ae6d394a3f28bcf0e8"
+    },
+    {
+      "path": "outputs/Harpe_aligned_strings_preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 47688,
+      "sha256": "2261fd014ee3b9ddff60ceff3f27d3bbf745690d8f7b2284618007a07e3dd35a"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Aligned_Strings.FCStd",
+      "storage": "git",
+      "size_bytes": 1249256,
+      "sha256": "7d4d2e661101acabdd401af3a162b5ba29e5220313f6672823f8f3081e2ecfb0"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Axial.FCStd",
+      "storage": "git",
+      "size_bytes": 1197093,
+      "sha256": "f095326fe13b69cf3feadb68b240116ea16a23123cd3f5abe43dd5d1357ba06b"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Clockwork.FCStd",
+      "storage": "git",
+      "size_bytes": 1384250,
+      "sha256": "b7825b31376bc9140fb0f29c015f0782b37d5d8244c62ef8d14beaf62b50dda3"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Clockwork.step",
+      "storage": "git",
+      "size_bytes": 10782153,
+      "sha256": "c43508aebb27c202078f67f33e39f3915d8109efd89acf9547c00431d70e94c0"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Koto_Live.FCStd",
+      "storage": "git",
+      "size_bytes": 356669,
+      "sha256": "344283919ea42d1fe3ce7641ad1ab478a43c6148c8588148a266b21b680ce31c"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Koto_Pendulums.FCStd",
+      "storage": "git",
+      "size_bytes": 349119,
+      "sha256": "01a63bbf9ff3061322f553cd889df71f9b998dc0e158160b08dad1827ea70f80"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Koto_Recovered.FCStd",
+      "storage": "git",
+      "size_bytes": 347437,
+      "sha256": "24389b610bbc4c55cf3786e07e52528e9a12fdb96b583006c670ea8de380112c"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Live.FCStd",
+      "storage": "git",
+      "size_bytes": 1215300,
+      "sha256": "5117e903b69ada8e41816e6b11c6cc6f87e8547477422a5dad4da19d4e0d70ed"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Long_Strings.FCStd",
+      "storage": "git",
+      "size_bytes": 1145545,
+      "sha256": "214a6246180216db3125f563cfbbd67c46992062b7031c9867d269b7c4e79d70"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Low_Gearbox.FCStd",
+      "storage": "git",
+      "size_bytes": 1222646,
+      "sha256": "c7c92432e46dd7a889871cce39673be20398d2c696943de8f9b5ddee2a04858b"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Low_Nylon.FCStd",
+      "storage": "git",
+      "size_bytes": 519899,
+      "sha256": "d8f5f39bb46f1379db40b77becb4e30679156764546b4bbb5b4e310d03d03b01"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Low_Nylon.step",
+      "storage": "git",
+      "size_bytes": 2042906,
+      "sha256": "bbc2d9f0120eaa5cdc1a94e78602a94881b55e1d4e51699fceaaa8dae2d0a631"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Open_Centred.FCStd",
+      "storage": "git",
+      "size_bytes": 431496,
+      "sha256": "aaa0c2f4e9372ff6572301aa1e372879c0724814ded18cb90303e7062a4c914f"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Open_Centred_Live.FCStd",
+      "storage": "git",
+      "size_bytes": 431482,
+      "sha256": "adab00b266f4579e2efaacbfc35f3abcb70e0799233442ecb3da5ddc71cef883"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Portable.FCStd",
+      "storage": "git",
+      "size_bytes": 444271,
+      "sha256": "96f4ce94d2ac8924c0041d6292ba7875124cab9ac918a6b827ab07e35543f2aa"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Portable.step",
+      "storage": "git",
+      "size_bytes": 1680398,
+      "sha256": "4b1dd6c9dda97033b4d4dc0e2c7e3aaada9497ce905b96741f717669eebb3041"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Six_String_Soundbox.FCStd",
+      "storage": "git",
+      "size_bytes": 1529229,
+      "sha256": "a8195d51fb0b36f79bc61231d23eec00457c2a9501be65cb84acc8bed5b1c952"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Strings_v2.FCStd",
+      "storage": "git",
+      "size_bytes": 1179091,
+      "sha256": "f5821108d16ae22d3ecfe14fb1e82d25b8e40ec864fcbc9476eeea6f2788718f"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Study.FCStd",
+      "storage": "git",
+      "size_bytes": 1000736,
+      "sha256": "2e8679ad6061be33b65d01ae5869c6e153df87fdf94e1ec500f6f7d3ac40f726"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Twelve_Electric.FCStd",
+      "storage": "git",
+      "size_bytes": 1288551,
+      "sha256": "4a4db11b24c4639e31e0713e24f2ad64b88d74108cba3f089bd6f732b169e01a"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Twelve_Electric.step",
+      "storage": "git",
+      "size_bytes": 5297014,
+      "sha256": "0e351b8514a6cc2558d3eff7ac04ca8ba95fda104a810ec07e9cf0d376ed910c"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Two_Axle_Belts.FCStd",
+      "storage": "git",
+      "size_bytes": 796992,
+      "sha256": "48599ff1399937902f389eb89a15a9b67fb7fc034fc7a7d23e277722889b5734"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Wide_Swing.FCStd",
+      "storage": "git",
+      "size_bytes": 415040,
+      "sha256": "faaeb4e99e1e727729f906813f09d18ae5aadcc4c8b22e640b8c5658a60f6317"
+    },
+    {
+      "path": "outputs/Harpe_d_Amour_Wide_Swing_Live.FCStd",
+      "storage": "git",
+      "size_bytes": 424594,
+      "sha256": "098c7962af449ece04f2c67cc5cb530594179d3e0725aea7f554b103c170ec05"
+    },
+    {
+      "path": "outputs/Harpe_koto_native_preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 8982,
+      "sha256": "3720da350cf7f3c4fd2c39255ff41f44a468af90bdf1a9a843b27797b98d11b4"
+    },
+    {
+      "path": "outputs/Harpe_koto_pendulums_preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 413571,
+      "sha256": "83ec09df12ca4b5ebf23867ff5f1906193758aa16075dfbb3303407bb0dd28b3"
+    },
+    {
+      "path": "outputs/Harpe_live_preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 93171,
+      "sha256": "4438f81aa751d8eec55a0fead5bd4b0a881823cadf182764b6bf9dfaf3c80a04"
+    },
+    {
+      "path": "outputs/Harpe_live_verified.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 57290,
+      "sha256": "e7ea66b41a05b4333f27b01799f261fde35f9fe2fd3b3a623213b60becee3a08"
+    },
+    {
+      "path": "outputs/Harpe_long_strings_preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 48000,
+      "sha256": "ee83d0e8c13de45600f63d3a9e76b315cfbe154e48826f7d1fd1c8092e01afcc"
+    },
+    {
+      "path": "outputs/Harpe_low_gearbox_preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 55915,
+      "sha256": "2f80163273358141127d03b98bc9ff297c98455cd953ff03a2098bb0b2eeac04"
+    },
+    {
+      "path": "outputs/Harpe_preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 17750,
+      "sha256": "15ef546a78df49e8b251e951d01b11b8fb8d36b5979bdf63bb80e56a5f03b958"
+    },
+    {
+      "path": "outputs/Harpe_recovered_checkpoint.FCStd",
+      "storage": "git",
+      "size_bytes": 1007723,
+      "sha256": "cdb519d1f179f3a25e6bcbfd87694baed9e6ededd71961f8ac010e9a933522d4"
+    },
+    {
+      "path": "outputs/Harpe_soundbox_preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 50909,
+      "sha256": "a90ab601632e912d41c372b40c0e4e154f341daa92f33a908870ce1f69f252ed"
+    },
+    {
+      "path": "outputs/Lovophone_160min_Equal_Temperament.mid",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 164293,
+      "sha256": "6ef0b6b750a6e4f95cb5d0158b2bf7b65d683baa205db641aa699ba5f4b1f17d"
+    },
+    {
+      "path": "outputs/Lovophone_160min_Just_Intonation.mid",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 164278,
+      "sha256": "821a87cc73ed187916d950a6a56098b0d63e2e0c13974d75abf2427d67763d20"
+    },
+    {
+      "path": "outputs/Lovophone_160min_MIDI_Details.json",
+      "storage": "git",
+      "size_bytes": 5206,
+      "sha256": "d87013a92b7b61e7a2c241b002d02c4dbe11ea44096a10afd1e19b419e58ab32"
+    },
+    {
+      "path": "outputs/Lovophone_160min_Pluck_Times.csv",
+      "storage": "git",
+      "size_bytes": 800046,
+      "sha256": "f5c0ccd65bfef6919f7603ef154307d9806efca733bec927ca1440acd0c6712d"
+    },
+    {
+      "path": "outputs/Lovophone_8min_Normal_Speed.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 14726576,
+      "sha256": "cd4884c7e1026c9f72287fd12c4951fe100e0c646245f255bdcf896751e25973"
+    },
+    {
+      "path": "outputs/Lovophone_8min_Video_Details.json",
+      "storage": "git",
+      "size_bytes": 440,
+      "sha256": "26a2c612d26700f8df06dc9427a868b0ba10c9611afb34f5e43d8380917ca0d7"
+    },
+    {
+      "path": "outputs/Lovophone_Corrected_Right_8min_Alpha.mov",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 2680243160,
+      "sha256": "426ba3e6869ae2bcce18a1da2f07b4fd27ea6517508b6ee76b54aa668b707626"
+    },
+    {
+      "path": "outputs/Lovophone_Corrected_Right_8min_Blue.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 52037961,
+      "sha256": "a7194c8f47657b89cd532addac7d6d15dee7955898f84d73d3351a60d8082dcb"
+    },
+    {
+      "path": "outputs/Lovophone_Corrected_Right_Compositing.md",
+      "storage": "git",
+      "size_bytes": 2264,
+      "sha256": "bd75dd05c786774d88d3638b625a26180ed939f558e02201dcb9e410456dee0f"
+    },
+    {
+      "path": "outputs/Lovophone_Corrected_Right_Preview_10sec_Alpha.mov",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 288757413,
+      "sha256": "973c84fcf14f501d84a0cc779601f1661a912aad937ca29910ddab7582e52fcf"
+    },
+    {
+      "path": "outputs/Lovophone_Corrected_Right_Preview_10sec_Blue.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 1090349,
+      "sha256": "36971116db4987cac915eac2b22559bef40fb2817615d9e7d3d3e87c9d596bf8"
+    },
+    {
+      "path": "outputs/Lovophone_Corrected_Right_Render_Details.json",
+      "storage": "git",
+      "size_bytes": 1201,
+      "sha256": "5007102ab90a96a0eb434d571578c7f713a79c933d06b20405c4fc16862bae1b"
+    },
+    {
+      "path": "outputs/Lovophone_Corrected_Right_Transparent.blend",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 18732002,
+      "sha256": "7c2d31895331a8c27547beac113469432f2d2d59dd9da0f83d5ded6ae90da1b7"
+    },
+    {
+      "path": "outputs/Lovophone_Drive_End_Plate_Template.svg",
+      "storage": "git",
+      "size_bytes": 2189,
+      "sha256": "8fc9d59149c2df49c511bec2703b943068f5835591efb5990d6ffeb2d7928be9"
+    },
+    {
+      "path": "outputs/Lovophone_Hardware_Frame.FCStd",
+      "storage": "git",
+      "size_bytes": 1467673,
+      "sha256": "4cc9e76f227d36e035c0745a3676d89d53fe93310607d63067287ab9adf5dd7d"
+    },
+    {
+      "path": "outputs/Lovophone_Hardware_Frame.step",
+      "storage": "git",
+      "size_bytes": 5857724,
+      "sha256": "bbc5c8a76fcd14285eb673e42fb9e2e27277fcd538dd7ce6eb87549f3ce671cb"
+    },
+    {
+      "path": "outputs/Lovophone_Hardware_Frame_Clearance_Check.json",
+      "storage": "git",
+      "size_bytes": 1825,
+      "sha256": "082bc1527238f76949361ae5db5681039f7449ea391d1b82e854480dabef6868"
+    },
+    {
+      "path": "outputs/Lovophone_Hardware_Frame_Design.json",
+      "storage": "git",
+      "size_bytes": 23235,
+      "sha256": "e4f86be28e35382d892f9fd9d065a7b783043ebcbc0a1b94664bded215db8cc4"
+    },
+    {
+      "path": "outputs/Lovophone_Hardware_Frame_Notes.md",
+      "storage": "git",
+      "size_bytes": 4914,
+      "sha256": "1f5985beeac2c005fdd4f718f971576919e9f49a45ec94c970e87a6278fa79ed"
+    },
+    {
+      "path": "outputs/Lovophone_Hardware_Frame_Parts.csv",
+      "storage": "git",
+      "size_bytes": 1863,
+      "sha256": "5096a3c494314fa381b503861670153a14347dab38162a493d8370eef86f55b1"
+    },
+    {
+      "path": "outputs/Lovophone_Just_Intonation.scl",
+      "storage": "git",
+      "size_bytes": 203,
+      "sha256": "12c0d8fa4355770543241a2bf4e3f5fdfe1004cefe23583e0a08e85802b5013d"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame.FCStd",
+      "storage": "git",
+      "size_bytes": 1930952,
+      "sha256": "76168913102f2b0c7dbbb9d1c6efbfeb0d720016327e3e3f189ce77f4b967815"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame.step",
+      "storage": "git",
+      "size_bytes": 6706732,
+      "sha256": "ad133f44bdfad4928540c68a8a6481fbaf99407459cb253085a27c5961f2684a"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Build_Review.md",
+      "storage": "git",
+      "size_bytes": 9925,
+      "sha256": "47dcbc769685a4080b27144a102a5af73b2ad47f386b622bc5443e15828cf35b"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Build_Review.zip",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 1421819,
+      "sha256": "fead471ab7a93bf4c5e4d86970e74b68a8b5eac1b6a6a3668ea77562d2a629b3"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Clearance_Check.json",
+      "storage": "git",
+      "size_bytes": 4830,
+      "sha256": "d5a9b3fa0239082b7976f05e28c9e1f868ff07bcdbc81de2519d5568b102e1d6"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Corrected.jpg",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 101396,
+      "sha256": "25aab6cbf27d72fca0e50a7841fa9ca186969ce0fa0cf122be4fbfa3f8100c67"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Corrected_10sec.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 309442,
+      "sha256": "54724322a9ce31b571db5edc48949461cf182c44d702817fc5df10e8f1b5cefe"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Corrected_8min.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 15397190,
+      "sha256": "57a851ab2423958bd9279c67e7ab1164b5f93dba6d9c3a7ff31d7bf3f840fd9f"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Corrected_Animation.blend",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 18025046,
+      "sha256": "74d792c3b1b2d19cac762d4e426fee6a8252bd317c22da3aac90c148dd005c0f"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Corrected_Readme.md",
+      "storage": "git",
+      "size_bytes": 1305,
+      "sha256": "b7a05664aee88666528834f4f15dfecd7f6e17248f38b57a52896e57deaa31de"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Corrected_Video_Check.json",
+      "storage": "git",
+      "size_bytes": 180,
+      "sha256": "bafb96fba03f589e56f3a2c3daece801848a5530c5a462a202f992573a89ba43"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Corrected_Video_Details.json",
+      "storage": "git",
+      "size_bytes": 541,
+      "sha256": "6ff9ae681fb9b301a0a0652f378c457d5c23158f15918067038429885d50c603"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Design.json",
+      "storage": "git",
+      "size_bytes": 4075,
+      "sha256": "b102a022aea13f5609690322ab71f092d9fa45545784ae51ed0926a7b60215ed"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Notes.md",
+      "storage": "git",
+      "size_bytes": 3496,
+      "sha256": "ba08529325b00b2cabbd70b88ab39277b291a260e49d2a32561e763e2fd946ca"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Parts.csv",
+      "storage": "git",
+      "size_bytes": 3312,
+      "sha256": "599153632a65c0a0c2351ab1358c200fcd13ed3fe020446ac215efa79af81a71"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Procurement_Inventory.csv",
+      "storage": "git",
+      "size_bytes": 129394,
+      "sha256": "7186315b82ac48163cdf70d35586179e8de1d3272e0e4f7dba1cb44d7f489c47"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Quick_Check.json",
+      "storage": "git",
+      "size_bytes": 4303,
+      "sha256": "6b85368cbcd698f94fa579fcf2a61a93dd8354094e9292ac4f8ae54ad2b303fe"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Ratio_Audit.csv",
+      "storage": "git",
+      "size_bytes": 2506,
+      "sha256": "2081e77e120416c4203ea6ca0492e25309f37bb96a712a9dcbd3ba05710acb9e"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Ratio_Audit.json",
+      "storage": "git",
+      "size_bytes": 9147,
+      "sha256": "a4b50d910196c0d23ef77c2556d00a48948a3ebc1f3b32b077d63158a131494a"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Ratio_Review.FCStd",
+      "storage": "git",
+      "size_bytes": 1919569,
+      "sha256": "78f5297b99584c60f45c16ed167bbed8547ec318b74aa1bf2e102fa8f1693e18"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Right.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 1529266,
+      "sha256": "a537a1fae2d5249a75d7dc0be29c032087ee6c2debf2492157dd392955506452"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Studio.blend",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 12340294,
+      "sha256": "5549416dec3d52165dc806b253436f385210c04006bbf0d7718a40085350ad10"
+    },
+    {
+      "path": "outputs/Lovophone_Lab_Frame_Studio.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 2176646,
+      "sha256": "98d99566efaffe1f73ac8b92affad1cdad49bc578786d3f629d15a4e18e4e38b"
+    },
+    {
+      "path": "outputs/Lovophone_MIDI_Readme.md",
+      "storage": "git",
+      "size_bytes": 1960,
+      "sha256": "c525aa3260200b38dce6d40c425d9366cb4565d101f1ce8ec5394954a1f3f3e7"
+    },
+    {
+      "path": "outputs/Lovophone_Open_Drive_Right_View.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 758903,
+      "sha256": "dc6882ec67aa598604f35466f9b87210cfae4ae479e8586f3222fd287d8bd97d"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic.FCStd",
+      "storage": "git",
+      "size_bytes": 1371290,
+      "sha256": "e3558f9fd779b56a32775a3252270c10d52e4cf0dad6d15ac4342245f5f6fdd0"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic.step",
+      "storage": "git",
+      "size_bytes": 5347937,
+      "sha256": "9d432f981745952ff5e55229468de27f5989a6d1515bd7cafed750003ace9c0e"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_160min_Bitwig.mid",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 162990,
+      "sha256": "c0892295e9f03ffc6629bb1f2cec33fd04ad57c904cd83270777953ac2bf8090"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_160min_Just_Intonation.mid",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 162990,
+      "sha256": "ecec6b3e587ec2c289e65fba12cf4addc23f1b236cd3a4e9ef1cddc23fd1dd44"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_8min_Bitwig.mid",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 9122,
+      "sha256": "03fd224119a00c7057a6f8a83bd61663ad9c34731be5cc159a7374e23909f7c8"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_8min_Just_Intonation.mid",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 9122,
+      "sha256": "cb34f1bcac75bb612a099083b842a09a9eac1f474aaf62c2211272c78c7ac291"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_8min_Normal_Speed.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 12104617,
+      "sha256": "40fe84145097db048ba2a6962c721741d1483466dacc82b0b5b2d55a04562e2d"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_8min_Video_Details.json",
+      "storage": "git",
+      "size_bytes": 661,
+      "sha256": "4099f77c7657126e5a7edad582c85a403f020489b99c02f70b524a057d691811"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_Bitwig.scl",
+      "storage": "git",
+      "size_bytes": 269,
+      "sha256": "14bbc6bb60c6c3fd9edf676ec8d3266cb25ba2af68d041d42487750537559a9c"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_Bridge_Settings.csv",
+      "storage": "git",
+      "size_bytes": 957,
+      "sha256": "6df9e7a7ede8a9fe705d020d54bebb4820321dbedd149be538bf13b2e4a9fcbe"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_Clearance_Check.json",
+      "storage": "git",
+      "size_bytes": 1825,
+      "sha256": "082bc1527238f76949361ae5db5681039f7449ea391d1b82e854480dabef6868"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_Geometry.json",
+      "storage": "git",
+      "size_bytes": 18604,
+      "sha256": "58ff1abb086b2e155ad7a75989467fd9ab8c1d24b7a18931c97dd9a0e03279d6"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_Machine_Notes.md",
+      "storage": "git",
+      "size_bytes": 3100,
+      "sha256": "ded7742905a7943f2f12ae4daec55010298a99911d912ae5be0d25eae8c40545"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_Motion.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 652894,
+      "sha256": "e71c23cede4e98f910e6c0c7604ec6421f294af91e2a7824411bea0929e97883"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_Mount_Check.json",
+      "storage": "git",
+      "size_bytes": 1070,
+      "sha256": "47c3882ac059496a0751986c5136ea9f1f579bde23b3fadd995d8f1f9e0b4f57"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_Note_Map.json",
+      "storage": "git",
+      "size_bytes": 3073,
+      "sha256": "8da9fb1f44bb35861fd540836b98039add5149eaad26d6d1664295d558983d45"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_Preview.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 124899,
+      "sha256": "f4caf51f6f67cce27d548aa1d1924139960b502d010e3202d8b55cc89139061c"
+    },
+    {
+      "path": "outputs/Lovophone_Pentatonic_Setup.md",
+      "storage": "git",
+      "size_bytes": 1988,
+      "sha256": "970568d75741538868712fad1a96289aa0a35671b913e48d9733aacf9b5c28c2"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/Lovophone_Prototype_A.FCStd",
+      "storage": "git",
+      "size_bytes": 224980,
+      "sha256": "9b9ce14b9c1b64a6e7d688be0fec0c21d93aedefbdf5aab17d5d3f372e8265df"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/P01_LinkageCheek_0.step",
+      "storage": "git",
+      "size_bytes": 24472,
+      "sha256": "40db8b55246518a078355be39131d295331cb4ddccc7ec162d99f4fec1727cbb"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/P02_BlindCrank.step",
+      "storage": "git",
+      "size_bytes": 34147,
+      "sha256": "4b5a912f1d763920ab418f857c7b43c14e3b69554cd41e6ca7ac0699b455a5ee"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/P03_Rocker.step",
+      "storage": "git",
+      "size_bytes": 60404,
+      "sha256": "378181917353cd930440207dfeb3c093b32e48b4fa3d17f15b1ff5d21009ae65"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/P04_POMCoupler.step",
+      "storage": "git",
+      "size_bytes": 20617,
+      "sha256": "dd40f1d585e01c7fbfbcdc0c42435ce18c28676a3968f586f26cda5c2bd9057d"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/P05_Arm_0.step",
+      "storage": "git",
+      "size_bytes": 43709,
+      "sha256": "0a51d5a2f375b4ad5a9d3699163911fead05c590d97a4ae901731e1b06d9479c"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/P05_Arm_1.step",
+      "storage": "git",
+      "size_bytes": 47225,
+      "sha256": "f702cd40ae6cdcb447df8c3fc9ddc3ac25a33bb74fd7ddb39d91fd478226d94d"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/P06_EndPost.step",
+      "storage": "git",
+      "size_bytes": 18885,
+      "sha256": "98544ac530b24c2bf38c70fc3272500700b706dfc704d96fc902fbcdd442c2d7"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/P07_JournalPin.step",
+      "storage": "git",
+      "size_bytes": 8589,
+      "sha256": "2280e5ca584e9ec0a62216a4fdb7cf16d464477cbb99fe5365728cdeda0e5950"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/P08_TensionDrawbar.step",
+      "storage": "git",
+      "size_bytes": 11397,
+      "sha256": "344c3599fb4bebc5bbdf21bf658de6f5bd2c7fb1ddcf5aa863becbdaa564d51b"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/Prototype_A_Assembly_REFERENCE.step",
+      "storage": "git",
+      "size_bytes": 977013,
+      "sha256": "6c59e82128d5bbd66c55cec95c071af72b914d57e53cac7934e552a126d57f07"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/Prototype_A_BOM.csv",
+      "storage": "git",
+      "size_bytes": 7109,
+      "sha256": "6acd93337d6d881f530ceb35d379df2a21e5094a74d6d4df4d2b64a23b31034b"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/Prototype_A_CAD_Check.json",
+      "storage": "git",
+      "size_bytes": 438,
+      "sha256": "c8fa3a3214163375fb7161413d396f0cd598aa18ae5a23131b74f6d06afc9267"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/Prototype_A_Calculations.json",
+      "storage": "git",
+      "size_bytes": 972,
+      "sha256": "b2cc865e350c242713fd1dabd29aa94e898b35c685a114da35b48a65b19a29d8"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/Prototype_A_Custom_Parts.json",
+      "storage": "git",
+      "size_bytes": 1739,
+      "sha256": "16c9943deea42f5a090a4cfe9c91f827596059eab1d0f72decd210036998fd9b"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/Prototype_A_Drawings.pdf",
+      "storage": "git",
+      "size_bytes": 20824,
+      "sha256": "49a2d9ce4fbfd349c324f4f6f746349a85b6e4aaa5a593c5ac47413ad60861cf"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/Prototype_A_High_Arm_Check.json",
+      "storage": "git",
+      "size_bytes": 438,
+      "sha256": "c8fa3a3214163375fb7161413d396f0cd598aa18ae5a23131b74f6d06afc9267"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/R01_Cheek_0.step",
+      "storage": "git",
+      "size_bytes": 119649,
+      "sha256": "ea8cf92cf0a0e46028d2ab1b680d15f9ab8beb7268ca4ff0cba0f1e65decf35f"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/R02_Carrier_0_0.step",
+      "storage": "git",
+      "size_bytes": 18927,
+      "sha256": "c718525ed538b07e4e8192ae52b8dc2db156fb19ca3ebe6994d78cdfb3c700de"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/R03_Retainer_0_0.step",
+      "storage": "git",
+      "size_bytes": 7947,
+      "sha256": "7cf5225c907f6a7bb0dddafc2618807967f0ca76397cb0c30f25425cb54dcba2"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A/README.md",
+      "storage": "git",
+      "size_bytes": 5352,
+      "sha256": "1330d672893f74d4587180f7a74f5a1f680067e14581949dc59a6f4ec874f813"
+    },
+    {
+      "path": "outputs/Lovophone_Prototype_A_Review.zip",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 511420,
+      "sha256": "dc9c4557f4d3a26d2f1008bb951d88c810682d8dafb27ca67280d23762b325e6"
+    },
+    {
+      "path": "outputs/Lovophone_Right_Open_Drive_No_Motor.blend",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 12421161,
+      "sha256": "18034bae7f890b62a59a3ee0503248bf482ed5d80da9a938f88d15de3be1017d"
+    },
+    {
+      "path": "outputs/Lovophone_Right_Open_Drive_No_Motor_8min.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 31192181,
+      "sha256": "b5e240054341c68d3cea86edafc8760de6c02aef87211ea32e2e66711000b7a4"
+    },
+    {
+      "path": "outputs/Lovophone_Right_Open_Drive_No_Motor_Preview.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 1246764,
+      "sha256": "40e41cd9fba6b03450523bf7d6e5a2b0f24528a881a88c6c5f5d5a4e1a699885"
+    },
+    {
+      "path": "outputs/Lovophone_Right_Open_Drive_Video_Details.json",
+      "storage": "git",
+      "size_bytes": 524,
+      "sha256": "b83919fc23c5c4a40244e425bfd1968a28e4e7703aa2759e53c9724ef32b2874"
+    },
+    {
+      "path": "outputs/Lovophone_Right_View_No_Motor.blend",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 12415643,
+      "sha256": "b548c592228aed5d583380204611b660d572a46e4c69d51e0115a3f9347b5048"
+    },
+    {
+      "path": "outputs/Lovophone_Right_View_No_Motor_8min.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 27160600,
+      "sha256": "07014399eaff74be881b805cade3785da0b6b67abf9b3fac8c6e581ed98f6092"
+    },
+    {
+      "path": "outputs/Lovophone_Right_View_No_Motor_Preview.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 1083127,
+      "sha256": "731a3e64e88f530ce3fa5c1609125941513ebdfe9c4846145f5b35732dd26b01"
+    },
+    {
+      "path": "outputs/Lovophone_Right_View_No_Motor_Still.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 1455753,
+      "sha256": "835e07f0a6ba314fab10124da8c1fedc23cd4d746e90c5a990c9d09db9467e5e"
+    },
+    {
+      "path": "outputs/Lovophone_Right_View_Preview_Details.json",
+      "storage": "git",
+      "size_bytes": 395,
+      "sha256": "2a98c46d434f4c8d0526c456e34d462c77173191469ca6522df40704ea78f6d1"
+    },
+    {
+      "path": "outputs/Lovophone_Right_View_Render_Notes.md",
+      "storage": "git",
+      "size_bytes": 1112,
+      "sha256": "5e2751b1e357ed88c2695ecce6ab6bd44f9b4710c4bd1fc3fea57b65c1ea9c0e"
+    },
+    {
+      "path": "outputs/Lovophone_Right_View_Video_Details.json",
+      "storage": "git",
+      "size_bytes": 489,
+      "sha256": "6aaae0271d7498486cf7d122c50473830809ca63d81024646fdf5baa5090cdcf"
+    },
+    {
+      "path": "outputs/Lovophone_Studio_Render_Details.json",
+      "storage": "git",
+      "size_bytes": 934,
+      "sha256": "561bce6f6030b1544198891256edd29044af769746fe7f854c5c3be7daef8e04"
+    },
+    {
+      "path": "outputs/Lovophone_Textured_Studio.blend",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 12449609,
+      "sha256": "44d7bb0efd94ca65bc3958ad04a93864f15b2b8f5ebcacf8de740d05b3d85f76"
+    },
+    {
+      "path": "outputs/Lovophone_Textured_Studio.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 4730835,
+      "sha256": "cb151fa0b7d72ab2306441c3147d3d2d30894d167e2427ee2c46f4a1500389c1"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_160min.FCStd",
+      "storage": "git",
+      "size_bytes": 3161989,
+      "sha256": "0c72c9574e285ed323b8d601ae9a57a86b168ab33a6671b32c437651ac7c2d4a"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_160min.step",
+      "storage": "git",
+      "size_bytes": 29288104,
+      "sha256": "cbebbc6bf7e9be09e1a23d512cf0889d77950e94d4af58346f6194ec55d32e42"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_160min_Bitwig.mid",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 133120,
+      "sha256": "53a005b88e16d6f5a7277758e238ecc2f873a3a4f92756727c09cf2e6915f13d"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_160min_Just_Intonation.mid",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 133120,
+      "sha256": "c7cd507855043c707e6cfdc472bb7cb058e4484ba08a3c82fcb5bdb96246357b"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_160min_Pluck_Times.csv",
+      "storage": "git",
+      "size_bytes": 381982,
+      "sha256": "1e336e10eda3321735062854c8d57648d9118ade7ef9fb8ce8740d102f7032ab"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_20sec.mp4",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 1668227,
+      "sha256": "d6e4f50e726b9a27a401e67bcb7bba1d0bc71b5dffe5084faa8c6f56ecea322c"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_8min_Bitwig.mid",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 7808,
+      "sha256": "8a3460c65c28d4c4a63e85c6a229d23ea0357611fa9ce8368077f33f28ed3833"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_8min_Just_Intonation.mid",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 7808,
+      "sha256": "c69b2ad6158a4da2ccf3212c38268bb7791abb15f247d85e6e31cac457912000"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Animation_Check.json",
+      "storage": "git",
+      "size_bytes": 349,
+      "sha256": "3b2668f93a27134efc8fd385d2f69fcc1f6de111358033f8945eff7c04e70f62"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Bitwig.scl",
+      "storage": "git",
+      "size_bytes": 266,
+      "sha256": "208c579698c34455c0b0ebe6d422c6522b7418f66458d197a13d2dfbdfc07872"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Clearance_Check.json",
+      "storage": "git",
+      "size_bytes": 864,
+      "sha256": "a1cce8c1ee2a4d0d06bba76ad7af8e4e49df94b767932c33e8241d9f8b8faced"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Design.json",
+      "storage": "git",
+      "size_bytes": 45568,
+      "sha256": "a0c5b41ba13b4c16f3a58068d0b67458ac7dc8de5c9fe895ca0ce8475c1dbad3"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Main_Parts.csv",
+      "storage": "git",
+      "size_bytes": 1021,
+      "sha256": "f68da3ca6c2849c992cfee99b27daac1a9236958200ba7e307d8d4b433e332b3"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Music.json",
+      "storage": "git",
+      "size_bytes": 10169,
+      "sha256": "7e6766bbb374be00d9e857e4dd04cf59bd8e0c036bc3a6c1d0573e39d90947e4"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Music_Check.json",
+      "storage": "git",
+      "size_bytes": 1007,
+      "sha256": "6ef23515059c4fdce78b10d68e882e39f02dc07ceeebc0eef3c90d252c2dcfbe"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Preview_Details.json",
+      "storage": "git",
+      "size_bytes": 347,
+      "sha256": "2967d60441cb73c37cfd8281a06fc4d7c3a13cc9bb8a4f85d5afe5806b2ca234"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Project.zip",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 38585226,
+      "sha256": "fa832bc457e7f14413f0eaabf5b4afdef971e2234a986e34928f0b52bbcb4916"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Ratios_Design_Brief.md",
+      "storage": "git",
+      "size_bytes": 1702,
+      "sha256": "8d9d8095a50ef84a3b3c6db890519308fe6adcae0bc1ff77ae7690e9721326e2"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Ratios_and_Chains.csv",
+      "storage": "git",
+      "size_bytes": 748,
+      "sha256": "9718fbc39558b47c9b23ff06325ef17b145013faae448525333e9c6bfeba43b8"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Right.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 1672118,
+      "sha256": "6f6de28062b2f843db167c35b58a2e34def21edfdcf3d95944cd849d16f6a342"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Rotor_Separation_Check.json",
+      "storage": "git",
+      "size_bytes": 406,
+      "sha256": "55747e75506687ba345359bf6fee93dc6bd1993c45c643d19d7753b508e3ce1c"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Setup.md",
+      "storage": "git",
+      "size_bytes": 5804,
+      "sha256": "5cefae700eb8a8f39b921e2275230bfc79ff47e6dfd726f38f0e03b173ad779f"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Studio.blend",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 25517505,
+      "sha256": "eb387a642e4aa7bf661d0a3b4bc3b93cceb5f1f5fc9e10593f64a762735bad04"
+    },
+    {
+      "path": "outputs/Lovophone_Unified_Studio.png",
+      "storage": "excluded-media-or-bundle",
+      "size_bytes": 2058776,
+      "sha256": "831f0258100354ba8759bf1445b7f70b0c2ec65518ca0e48afde8601410fdf32"
+    },
+    {
+      "path": "outputs/Low_Nylon_Stringing_Notes.md",
+      "storage": "git",
+      "size_bytes": 3927,
+      "sha256": "43cb65bf06b06400312cf038964ebaf96f09906559e31f73e7986b98c965c3c6"
+    },
+    {
+      "path": "outputs/Open_Centred_Design_Notes.md",
+      "storage": "git",
+      "size_bytes": 3299,
+      "sha256": "c66ddb2b7cb42ddccb2ccb81d1d94f26903ca22a894cc21a250a694029b60524"
+    },
+    {
+      "path": "outputs/Pendula_Bitwig_12_String_Preview.scl",
+      "storage": "git",
+      "size_bytes": 283,
+      "sha256": "c73f56752397de31da23821336dbfad8f26bce5f7954610ce6059cf3ebd4d7fa"
+    },
+    {
+      "path": "outputs/Pendula_Original_16_Note.scl",
+      "storage": "git",
+      "size_bytes": 159,
+      "sha256": "7b10a113cdfee3738edfb8d72e88303c55dcc68eddd6aa3f1c2dc21277f68bc2"
+    },
+    {
+      "path": "outputs/Play_Harpe.FCMacro",
+      "storage": "git",
+      "size_bytes": 14063,
+      "sha256": "5d52f0f2b976e9914ef011f7430f1f51a498c2a261073b85f89e50a67559acbb"
+    },
+    {
+      "path": "outputs/Twelve_Electric_Design_Notes.md",
+      "storage": "git",
+      "size_bytes": 5596,
+      "sha256": "56ce713e0106a00666dd82c76479a2339e6883e803ddbe03e299f054f555332d"
+    },
+    {
+      "path": "outputs/aligned_string_geometry.json",
+      "storage": "git",
+      "size_bytes": 1972,
+      "sha256": "5dedea85382bce979fa195867484955789048d59558ab0f0ecee598add5eb2f3"
+    },
+    {
+      "path": "outputs/axial_string_geometry.json",
+      "storage": "git",
+      "size_bytes": 1958,
+      "sha256": "569dfefa859d20886fa0186b8d28a104e7be5903c8771a3957933ac3fed38b86"
+    },
+    {
+      "path": "outputs/clockwork_animation_info.json",
+      "storage": "git",
+      "size_bytes": 287,
+      "sha256": "4ac05ba0e13073ec1451c7471b4a0d0ae4f72e02d9590355bf4fb3f22eae6793"
+    },
+    {
+      "path": "outputs/clockwork_design_check.json",
+      "storage": "git",
+      "size_bytes": 1505,
+      "sha256": "482172c8c5d00a2f1ba9166d24864385f2cc5800c3f50187107dd490eb6860e3"
+    },
+    {
+      "path": "outputs/clockwork_mesh_check.json",
+      "storage": "git",
+      "size_bytes": 172,
+      "sha256": "6d7e345f42530a906dc2675469a07099ff1d3f7fa5181d562c0ce5d7e8f5c4f7"
+    },
+    {
+      "path": "outputs/gantry_clearance_check.json",
+      "storage": "git",
+      "size_bytes": 387,
+      "sha256": "6528472b296beebf00d580d8cc56664608bb06c5ba63aad6aafd9014d51d80cb"
+    },
+    {
+      "path": "outputs/gantry_design_check.json",
+      "storage": "git",
+      "size_bytes": 2822,
+      "sha256": "f8f3f255804fe55d4651594e1ee388e0ca757c7f713444529686107bc42daffe"
+    },
+    {
+      "path": "outputs/koto_pendulum_checks.json",
+      "storage": "git",
+      "size_bytes": 489,
+      "sha256": "b063251ff8e8a1bae3ecd5fcd3e1a7e61462787eda86a0b92b687515562b6e7d"
+    },
+    {
+      "path": "outputs/koto_pendulum_geometry.json",
+      "storage": "git",
+      "size_bytes": 3473,
+      "sha256": "00e76361ac1e28db06c2c414597cdc8e295c1769e20964bb733fed999184f821"
+    },
+    {
+      "path": "outputs/long_string_geometry.json",
+      "storage": "git",
+      "size_bytes": 1727,
+      "sha256": "4cba8fa08bca71ad4d5595638876eb1241aefcbdb21e75c85ff76d9583bf3600"
+    },
+    {
+      "path": "outputs/low_gearbox_geometry.json",
+      "storage": "git",
+      "size_bytes": 1697,
+      "sha256": "ae0a4b38eb6a36688f7bab2be2837068ed35b57a31313a56bc78dbbfd40de58e"
+    },
+    {
+      "path": "outputs/low_nylon_checks.json",
+      "storage": "git",
+      "size_bytes": 311,
+      "sha256": "60138ef6268bba324e25be2d08bda80f8d04856227a2fac1456108af596613c4"
+    },
+    {
+      "path": "outputs/low_nylon_geometry.json",
+      "storage": "git",
+      "size_bytes": 4278,
+      "sha256": "42e6c2797d547946118066d5fb8c1e9367df52cf1254bbbf8a900f99797414a9"
+    },
+    {
+      "path": "outputs/low_nylon_size_and_mass.json",
+      "storage": "git",
+      "size_bytes": 42216,
+      "sha256": "1247602f20f28fe3bda9b60fe57c14d7d91b1a003429fff706c1aeb13124b92f"
+    },
+    {
+      "path": "outputs/open_centred_checks.json",
+      "storage": "git",
+      "size_bytes": 302,
+      "sha256": "11d40e8a7484ece55c7c6c394db253f16c77fd612bfc56e3293bb97493a4bae9"
+    },
+    {
+      "path": "outputs/open_centred_geometry.json",
+      "storage": "git",
+      "size_bytes": 4471,
+      "sha256": "1d4064d8e73ec7d36516ad109c6e44d34206700669a3fb06e0fb35e37db73a15"
+    },
+    {
+      "path": "outputs/portable_size_and_mass.json",
+      "storage": "git",
+      "size_bytes": 37339,
+      "sha256": "c1d952ce671155d923b22dba833999d6ca83de7a6478b5f89b938dc133d2a087"
+    },
+    {
+      "path": "outputs/recovery_report.json",
+      "storage": "git",
+      "size_bytes": 197,
+      "sha256": "802106bb8da0757429e04eb1b960d93f8ab52abf8ad014db8f8124711efccb13"
+    },
+    {
+      "path": "outputs/soundbox_geometry.json",
+      "storage": "git",
+      "size_bytes": 1954,
+      "sha256": "88ae30523465a3276476d4f13dab48c9349c457df084972d6d0be943742af806"
+    },
+    {
+      "path": "outputs/string_dimensions_live.csv",
+      "storage": "git",
+      "size_bytes": 348,
+      "sha256": "7b160465f670f74dde5715e418ee6c6c6b497a8026adfecbcc2fdc6e7f8b76ff"
+    },
+    {
+      "path": "outputs/string_dimensions_v2.csv",
+      "storage": "git",
+      "size_bytes": 348,
+      "sha256": "7b160465f670f74dde5715e418ee6c6c6b497a8026adfecbcc2fdc6e7f8b76ff"
+    },
+    {
+      "path": "outputs/string_geometry_live.json",
+      "storage": "git",
+      "size_bytes": 2414,
+      "sha256": "a1de3ae7484905de39023e39de8efd4089fe41c90842d52ac43d38f6175dc3dd"
+    },
+    {
+      "path": "outputs/string_geometry_v2.json",
+      "storage": "git",
+      "size_bytes": 2414,
+      "sha256": "a1de3ae7484905de39023e39de8efd4089fe41c90842d52ac43d38f6175dc3dd"
+    },
+    {
+      "path": "outputs/twelve_30s_animation_info.json",
+      "storage": "git",
+      "size_bytes": 229,
+      "sha256": "90d703592d926220f5b03a28d31b9b61c70efc8bd1efc65971d9e5b0089e41be"
+    },
+    {
+      "path": "outputs/twelve_animation_info.json",
+      "storage": "git",
+      "size_bytes": 229,
+      "sha256": "6bd85e57f186117543b62e64e686ceae935a2cd5dbf87bbc8e644838c998acd8"
+    },
+    {
+      "path": "outputs/twelve_clearance_check.json",
+      "storage": "git",
+      "size_bytes": 370,
+      "sha256": "2124e1dcfee75b7a998ee1bd3b811c0be7d59d0cfdeb9f998c6c1e39341a92f3"
+    },
+    {
+      "path": "outputs/twelve_final_checks.json",
+      "storage": "git",
+      "size_bytes": 526,
+      "sha256": "95c4a2af0c8fbf2ce4848ee1aecdf7f23b2a2edfb60546f00dbfccc34b8cd0e1"
+    },
+    {
+      "path": "outputs/twelve_gantry_design_check.json",
+      "storage": "git",
+      "size_bytes": 3630,
+      "sha256": "b5bbbff7ee71cd8aae4e1566c110237112c3334871c66ffedf3aa856e826f50f"
+    },
+    {
+      "path": "outputs/twelve_motor_geometry.json",
+      "storage": "git",
+      "size_bytes": 9281,
+      "sha256": "986b7c9cb1cecfef60efaa9788d63edf90a01c9890af7d408bcde0026334b48e"
+    },
+    {
+      "path": "outputs/two_axle_drive_geometry.json",
+      "storage": "git",
+      "size_bytes": 995,
+      "sha256": "00d2824cf2960a9234741fb9ef2b200b3940ab90c07a9dec68330b3c12ccb966"
+    },
+    {
+      "path": "outputs/verification.json",
+      "storage": "git",
+      "size_bytes": 671,
+      "sha256": "98ddc76fb999b780d40514a16d60cea551354d80250b387cb3166c6a000f15db"
+    },
+    {
+      "path": "outputs/wide_swing_geometry.json",
+      "storage": "git",
+      "size_bytes": 3993,
+      "sha256": "18989c0d25ff39995b7db968ef0d5fe0effda4632b543da23b7fecc6462699f3"
+    },
+    {
+      "path": "outputs/wide_swing_preflight.json",
+      "storage": "git",
+      "size_bytes": 1292,
+      "sha256": "6a5c3491f9c7844be19905c576e34dca3a72e267bd1bd35c5a4237a4c56843ad"
+    },
+    {
+      "path": "work/Harpe_d_Amour_Shared_Gantry.FCStd",
+      "storage": "git",
+      "size_bytes": 1355589,
+      "sha256": "468769a6ce2b731a2279593681da7425ff12a7bc47bdfdb8e8ce2dfaad4d7a51"
+    },
+    {
+      "path": "work/Harpe_d_Amour_Twelve_Motor_Base.FCStd",
+      "storage": "git",
+      "size_bytes": 555784,
+      "sha256": "a2e4a992098dcf85cb74baa90f629ab853c76d35634791258fd431daafe3594e"
+    },
+    {
+      "path": "work/Lovophone_Hardware_Frame_Base.FCStd",
+      "storage": "git",
+      "size_bytes": 1112242,
+      "sha256": "9d1c399f7c38203f5c9fc77d019cb98573d1ea10cd8f598a8caa5977ca75c63d"
+    },
+    {
+      "path": "work/Lovophone_Lab_Frame_Base.FCStd",
+      "storage": "git",
+      "size_bytes": 1563930,
+      "sha256": "31653c4c928fe83e44925114d7b45f3d4c60d85b5e79e00103d53807bece7c4b"
+    },
+    {
+      "path": "work/Lovophone_Pentatonic_Base.FCStd",
+      "storage": "git",
+      "size_bytes": 1040600,
+      "sha256": "6e108cd8232ea2b956cd1f2a0ff780a162ae111782c2e5f33dd4f95f046bdbb2"
+    },
+    {
+      "path": "work/Lovophone_Unified_Base.FCStd",
+      "storage": "git",
+      "size_bytes": 2864871,
+      "sha256": "305fa02f88bb9ba239a3cefff30ac14e5f00cc762c02e95db646ecd24cdef296"
+    },
+    {
+      "path": "work/Pentatonic_First_Clearance_Check.json",
+      "storage": "git",
+      "size_bytes": 2112,
+      "sha256": "03275f136fd6ab9a1f75b1b06bdd0e46c33fe11937ffc4869753fd60d07d26b4"
+    },
+    {
+      "path": "work/Pentatonic_PreRelief.FCStd",
+      "storage": "git",
+      "size_bytes": 1037606,
+      "sha256": "7fc4283338581989ee1fe17cc1ef921cfbaaee93c3ba98b8da9472325eafd311"
+    },
+    {
+      "path": "work/align_strings.py",
+      "storage": "git",
+      "size_bytes": 4483,
+      "sha256": "b63255a0ebecd8e1ccdcbe00c811f10b5923a10feab399fad7edcdde84b84f91"
+    },
+    {
+      "path": "work/anchor_prototype_a.py",
+      "storage": "git",
+      "size_bytes": 1532,
+      "sha256": "f85bc74e933b44fa9a88c2a21990dea1da3337db4205e075f3197983ce2a5a88"
+    },
+    {
+      "path": "work/animate_clockwork_offline.py",
+      "storage": "git",
+      "size_bytes": 6649,
+      "sha256": "3568e231035eec5083c7fc46f499912635154ae899d4ed91dc485a6521c9e577"
+    },
+    {
+      "path": "work/animate_twelve_30s.py",
+      "storage": "git",
+      "size_bytes": 6378,
+      "sha256": "7063c0e140d855c5291fb391b9555bbce05fd689a6e7df6f85bccfae50e9a490"
+    },
+    {
+      "path": "work/animate_twelve_offline.py",
+      "storage": "git",
+      "size_bytes": 6374,
+      "sha256": "6dc8949f5490134365cec319e31e6133922fe685f16430fde6b45821796ec976"
+    },
+    {
+      "path": "work/audit_lab_build.py",
+      "storage": "git",
+      "size_bytes": 9144,
+      "sha256": "181aa67345732a540e379d57fe22bedeaa070cc4da5aec69f0dd71609cf638b8"
+    },
+    {
+      "path": "work/axial_strings.py",
+      "storage": "git",
+      "size_bytes": 7421,
+      "sha256": "31295afd6b6617f11cde603b3ee947f14db81e00439e2a3b67b83770cf3a038f"
+    },
+    {
+      "path": "work/benchmark_clean.py",
+      "storage": "git",
+      "size_bytes": 1149,
+      "sha256": "973417d40c2427d5b7845d8586c5abe713087ffae26598da183705399506af7a"
+    },
+    {
+      "path": "work/benchmark_corrected_fast.py",
+      "storage": "git",
+      "size_bytes": 1222,
+      "sha256": "8020937925847621d0a2e82639e295fdedb17a9621ed3e35d13ddc8022f98662"
+    },
+    {
+      "path": "work/benchmark_fast.py",
+      "storage": "git",
+      "size_bytes": 768,
+      "sha256": "571f4fc5ec61201ba1a50fd266f17c8023befaecef03884362e129ef7b1e5b05"
+    },
+    {
+      "path": "work/benchmark_right.py",
+      "storage": "git",
+      "size_bytes": 487,
+      "sha256": "b78ff6761fd1c910f90d792b1b8b6ae9da72aec2b848657a540bcaac2d577e46"
+    },
+    {
+      "path": "work/build_clockwork.py",
+      "storage": "git",
+      "size_bytes": 9751,
+      "sha256": "a27a37a0606b86b020136abc19875e0f935e43632f267bcdcb601f284815d648"
+    },
+    {
+      "path": "work/build_corrected_right_alpha.py",
+      "storage": "git",
+      "size_bytes": 4341,
+      "sha256": "680b6b562746f8762d2197a6c54a4c77c28f766b3c313476099316318f89984e"
+    },
+    {
+      "path": "work/build_hardware_drive_frame.py",
+      "storage": "git",
+      "size_bytes": 12137,
+      "sha256": "63f865309cb9870566a9698df50ccf7555009f3f1d77907ebd7f337f70fedc99"
+    },
+    {
+      "path": "work/build_koto_headless.py",
+      "storage": "git",
+      "size_bytes": 8416,
+      "sha256": "dd0c1d9558b8d8f18522fae2145dc5302c5cd7c2fb508b21f6b4d43aa07215cb"
+    },
+    {
+      "path": "work/build_lab_frame.py",
+      "storage": "git",
+      "size_bytes": 8044,
+      "sha256": "23d689991c81f302b6875caede69ac4859bac2905796759afb70824b7da8e4cd"
+    },
+    {
+      "path": "work/build_lovophone_studio.py",
+      "storage": "git",
+      "size_bytes": 13207,
+      "sha256": "b5bb94c7da0e62c5901f2eb5bc240a7e59092bc607b2cc7d86075f60e582f45e"
+    },
+    {
+      "path": "work/build_low_nylon.py",
+      "storage": "git",
+      "size_bytes": 7594,
+      "sha256": "1e4583b5183528f1250672ef5506a5500f7ac485a30016a098b3d74ddc5a763c"
+    },
+    {
+      "path": "work/build_open_centre.py",
+      "storage": "git",
+      "size_bytes": 4951,
+      "sha256": "2b30951e9ed4903d95837faffe3bcf545dc3ebf30a8ac314509f50638634215d"
+    },
+    {
+      "path": "work/build_pentatonic_machine.py",
+      "storage": "git",
+      "size_bytes": 9905,
+      "sha256": "96d5bec7da7301be43e1e6b67a0a16871dc86506e1f0cd36f4a8f16aef8301f1"
+    },
+    {
+      "path": "work/build_prototype_a.py",
+      "storage": "git",
+      "size_bytes": 8912,
+      "sha256": "598eb0d6a8a019cdf74bbf84821d9f63ed8f77a78a379c655da24635f929f6d4"
+    },
+    {
+      "path": "work/build_shared_gantry.py",
+      "storage": "git",
+      "size_bytes": 6340,
+      "sha256": "e06fd5ab921db118c873c7d0685e435dd01d59eb7dedfaedd7ceb6ce5078fc39"
+    },
+    {
+      "path": "work/build_twelve_gantry.py",
+      "storage": "git",
+      "size_bytes": 6405,
+      "sha256": "4f7986f658f0779980b7e6acb33f72348fe77046a91871f7144db0f81b94f812"
+    },
+    {
+      "path": "work/build_twelve_motor.py",
+      "storage": "git",
+      "size_bytes": 13271,
+      "sha256": "bfb7a89c6808e7c98aaec8edcaacaf7c850fade4531def92b1c5cbb502eea61b"
+    },
+    {
+      "path": "work/build_unified_machine.py",
+      "storage": "git",
+      "size_bytes": 14971,
+      "sha256": "f07dec3d29a647c07116db3d400209f221a8738aa01bb258809f33d1d089b840"
+    },
+    {
+      "path": "work/build_unified_studio.py",
+      "storage": "git",
+      "size_bytes": 13879,
+      "sha256": "a3017c5e56bdeea13140bb83c2f6eba236da7db55a5239a6ba637a4a3c9afc9b"
+    },
+    {
+      "path": "work/build_wide_swing.py",
+      "storage": "git",
+      "size_bytes": 4894,
+      "sha256": "4a1bb38110e74da5777d3f818b3e12d60843ace8759a3690499b6fe3bf88f054"
+    },
+    {
+      "path": "work/check_clock_mesh.py",
+      "storage": "git",
+      "size_bytes": 1059,
+      "sha256": "f35c483cb09a2aa7dc680016ef9563203854aa0c55d7b037670eb2f66c592a17"
+    },
+    {
+      "path": "work/check_hardware_drive_frame.py",
+      "storage": "git",
+      "size_bytes": 4841,
+      "sha256": "84c43f75211b7e2d00ef42c040d43704380506a926a9fd348660a4e881e3de89"
+    },
+    {
+      "path": "work/check_koto.py",
+      "storage": "git",
+      "size_bytes": 2192,
+      "sha256": "ace640d57b54ff940187f11883c57c0fc0cb54a87f709708a8414764ec60dd76"
+    },
+    {
+      "path": "work/check_koto_rescue.py",
+      "storage": "git",
+      "size_bytes": 877,
+      "sha256": "301ce59f8faab409b2fb1b6e0b29dfe41ae020c0f2aaaec76f929e3f6881573a"
+    },
+    {
+      "path": "work/check_lab_bounds.py",
+      "storage": "git",
+      "size_bytes": 470,
+      "sha256": "cd38f82e09514e0bb231b773b604c8b53003531627dcaf81952c9bfd4373ae5d"
+    },
+    {
+      "path": "work/check_lab_frame.py",
+      "storage": "git",
+      "size_bytes": 4887,
+      "sha256": "b7a48f8457f81fb3e9c7cbfb5b1773e42484b179b94901b33d16f3ea58114855"
+    },
+    {
+      "path": "work/check_lab_quick.py",
+      "storage": "git",
+      "size_bytes": 4956,
+      "sha256": "4fa56770014037f5bd766d2df962f4fa97fd70716ed5fe64b5eeb2ae76791ac7"
+    },
+    {
+      "path": "work/check_lab_studio.py",
+      "storage": "git",
+      "size_bytes": 1859,
+      "sha256": "98a8aaf881b3e1b793e7db23ba497ad7f86e1aaeadb727f7e5aca4b02ee1a918"
+    },
+    {
+      "path": "work/check_lovophone_midi.py",
+      "storage": "git",
+      "size_bytes": 1651,
+      "sha256": "70b985394669c47b339a3d9ee125a62b051b1df840b88c5697a8e8bcf244e415"
+    },
+    {
+      "path": "work/check_lovophone_studio.py",
+      "storage": "git",
+      "size_bytes": 1869,
+      "sha256": "65b9a6ef708654dfa0caf3746f92a9238466edc6a9cf98842a688e610b207e3d"
+    },
+    {
+      "path": "work/check_low_nylon.py",
+      "storage": "git",
+      "size_bytes": 2312,
+      "sha256": "bc0f7aff941d06da75e2e5c48812f42cd45fe8e92917c55f0419501d12480c47"
+    },
+    {
+      "path": "work/check_open_centre.py",
+      "storage": "git",
+      "size_bytes": 2318,
+      "sha256": "daf42b6b7ff12989093afaa219d1e39bcc1cd077fdadaa5c9cc7806bcf1621bb"
+    },
+    {
+      "path": "work/check_pentatonic.py",
+      "storage": "git",
+      "size_bytes": 1936,
+      "sha256": "d77464e4511c7fd3a16d150b879025769e1c96393d1612a931b20146fcdfc244"
+    },
+    {
+      "path": "work/check_pentatonic_machine.py",
+      "storage": "git",
+      "size_bytes": 4690,
+      "sha256": "ff48cbdaef6daf8aa4546c7127b68805627d874cf5ec2f3f8f4b079788a7be76"
+    },
+    {
+      "path": "work/check_pentatonic_mounts.py",
+      "storage": "git",
+      "size_bytes": 1699,
+      "sha256": "3e2fc8a324bba01433ef42c9dd3bf4946179e10f26b62cfe0b5aec5b4098a2b4"
+    },
+    {
+      "path": "work/check_prototype_a.py",
+      "storage": "git",
+      "size_bytes": 1724,
+      "sha256": "860f5289e5cf336bf4eb3b229ffef667018852ccc5486ede202bd2d8b9ba21a6"
+    },
+    {
+      "path": "work/check_prototype_a_high.py",
+      "storage": "git",
+      "size_bytes": 1861,
+      "sha256": "cb5340a414f8b090cfa7307bdb77a99c1b4028ce05ba7f76bcb2c54e22877168"
+    },
+    {
+      "path": "work/check_shared_gantry.py",
+      "storage": "git",
+      "size_bytes": 2482,
+      "sha256": "d53a1cdc2e388a77bacb6f0b8cc408d3f21ffc1a472eaea03d5f69eca05f813d"
+    },
+    {
+      "path": "work/check_standard_drives.py",
+      "storage": "git",
+      "size_bytes": 1319,
+      "sha256": "09a11cd9756368ffa4ba97494031e7347286a3f014f3b92ffdceede726413fd3"
+    },
+    {
+      "path": "work/check_twelve.py",
+      "storage": "git",
+      "size_bytes": 2324,
+      "sha256": "9f00527e9ce2406aa1327f9abb276b73293d46c3161f47f7be62baefdc868dd9"
+    },
+    {
+      "path": "work/check_unified_machine.py",
+      "storage": "git",
+      "size_bytes": 3674,
+      "sha256": "17d3aa1645405f376c0b440aa238074d2141650316e59cfdad95ae6522c29256"
+    },
+    {
+      "path": "work/check_unified_music.py",
+      "storage": "git",
+      "size_bytes": 2688,
+      "sha256": "b4e6fe1460e3aa5903f3d56ecf7f81fee336992ec01ceb32f17b8737e5a13ab5"
+    },
+    {
+      "path": "work/check_unified_rotor_separation.py",
+      "storage": "git",
+      "size_bytes": 1751,
+      "sha256": "956ad39530dfb8ee7d31e637f3bfead9c406b2e53bfe37633104a694e0f0bba8"
+    },
+    {
+      "path": "work/check_unified_studio.py",
+      "storage": "git",
+      "size_bytes": 2582,
+      "sha256": "ab7bc4cce6b75e441cd2d20045a41f5b6a31f597ef187d04b06f346185245079"
+    },
+    {
+      "path": "work/clear_axial_tuner.py",
+      "storage": "git",
+      "size_bytes": 435,
+      "sha256": "eb6662f05b2533de70435d31ba16e4c017f0137b9fee2f643d881a61a4cb1b19"
+    },
+    {
+      "path": "work/clear_low_nylon_drive.py",
+      "storage": "git",
+      "size_bytes": 3007,
+      "sha256": "03655c6cb355e279f1d9abb80d385c8f7c0eb4ab664e0e7c6b73186395f4b951"
+    },
+    {
+      "path": "work/clear_two_axles.py",
+      "storage": "git",
+      "size_bytes": 1983,
+      "sha256": "fc32dd38558014d74413a6682cd3ada744eec08400f4522cce19d9a461b1e5f1"
+    },
+    {
+      "path": "work/clockwork_colors.json",
+      "storage": "git",
+      "size_bytes": 1315,
+      "sha256": "59aeff96d81f9c2687c7efe0a87af1f5e96280f13b7d1d4ec36140c1480ca8c2"
+    },
+    {
+      "path": "work/clockwork_motion_map.json",
+      "storage": "git",
+      "size_bytes": 9479,
+      "sha256": "2601fdbbb1e7ea6aec6258e0b693c43314737b049a8cafed8261013042a4de55"
+    },
+    {
+      "path": "work/export_koto_rescue.py",
+      "storage": "git",
+      "size_bytes": 2147,
+      "sha256": "8921732e56c4cf6ed9efb4fddf58e44f4ab741d5d70cb26ba14fba31dae7e1f4"
+    },
+    {
+      "path": "work/export_lab_corrected_render.py",
+      "storage": "git",
+      "size_bytes": 907,
+      "sha256": "61905ba88b86cfc672221dde5d5907183207054d51722315bd75c053f364bde8"
+    },
+    {
+      "path": "work/export_motion_map.py",
+      "storage": "git",
+      "size_bytes": 726,
+      "sha256": "743ab85b9914a5b06162c055ce5c88181f7936853dd143a4146f7f88e1f9c58a"
+    },
+    {
+      "path": "work/export_twelve_motion_map.py",
+      "storage": "git",
+      "size_bytes": 729,
+      "sha256": "357eaa3860a7cf2bd3a9eb9d57595292f82ce5a78a56848eec13302d47d7e987"
+    },
+    {
+      "path": "work/finalize_portable.py",
+      "storage": "git",
+      "size_bytes": 2533,
+      "sha256": "cb73f72fea0fd63c1762b29a02556a6cc6319a59bdfab64273dd426c713dd004"
+    },
+    {
+      "path": "work/finish_clockwork_offscreen.py",
+      "storage": "git",
+      "size_bytes": 3371,
+      "sha256": "12274c1a9ff42267672367f3887e1122d0391fb831cf48a62872ee376c5b6dda"
+    },
+    {
+      "path": "work/finish_gantry_offscreen.py",
+      "storage": "git",
+      "size_bytes": 3491,
+      "sha256": "b0e3e219167ea53fda5a1f1b761ed06f60758c809b587de4c5fe4d09044d3ad2"
+    },
+    {
+      "path": "work/finish_hardware_drive_frame.py",
+      "storage": "git",
+      "size_bytes": 3389,
+      "sha256": "1e0ec33221c868b630fedfafb5331f3bfb9c9a95c243191bb7b6052ea841b72d"
+    },
+    {
+      "path": "work/finish_koto_cams.py",
+      "storage": "git",
+      "size_bytes": 4936,
+      "sha256": "29ba394171c859ab2b80041cecb7c1b4c5ab4648fd4c9e7ac657f9ec2aea67a5"
+    },
+    {
+      "path": "work/finish_lab_frame.py",
+      "storage": "git",
+      "size_bytes": 3527,
+      "sha256": "30a9f7072c93bd07b7fe779fe01d501c285a5a01a1e369f60f667115bb9a087a"
+    },
+    {
+      "path": "work/finish_long_bank.py",
+      "storage": "git",
+      "size_bytes": 2544,
+      "sha256": "d220f25c42f150f4c219d2b97477ab242385715a84d2265988edf9f331200ec5"
+    },
+    {
+      "path": "work/finish_nylon_mounts.py",
+      "storage": "git",
+      "size_bytes": 1480,
+      "sha256": "d2ad3320087de2df99bb2e61ba2deea6ffd771aceb216c5474c8496791e89635"
+    },
+    {
+      "path": "work/finish_pentatonic_machine.py",
+      "storage": "git",
+      "size_bytes": 3276,
+      "sha256": "43877cb324e22e39d77e5204c3705d64020ee69a7f181f05e2aa7ec5a0f13ad7"
+    },
+    {
+      "path": "work/finish_prototype_a.py",
+      "storage": "git",
+      "size_bytes": 3355,
+      "sha256": "f31a0145252300683d2a40701b494d01abc4ade7a35b2848195ead99c907f126"
+    },
+    {
+      "path": "work/finish_twelve_mount_clearance.py",
+      "storage": "git",
+      "size_bytes": 1736,
+      "sha256": "42bd331da631c131459e5f84ffda675a658f1917af14c2cca8e222f3c79bf803"
+    },
+    {
+      "path": "work/finish_twelve_offscreen.py",
+      "storage": "git",
+      "size_bytes": 3830,
+      "sha256": "63cc30f160513971a4008f0d63051c0bd40625d2672e9d562d7923ab6b4e260d"
+    },
+    {
+      "path": "work/finish_two_axles.py",
+      "storage": "git",
+      "size_bytes": 1048,
+      "sha256": "8c7f3fba4075bfcdc01b675ebefb79534b04c393c87ad6146d2f029e57a5d345"
+    },
+    {
+      "path": "work/finish_unified_machine.py",
+      "storage": "git",
+      "size_bytes": 4122,
+      "sha256": "40ca446ac8eac776643509a755ed8a9bd2a0e09db5b1ce9fb98e4404f1e9736e"
+    },
+    {
+      "path": "work/fit_belt_lanes.py",
+      "storage": "git",
+      "size_bytes": 1446,
+      "sha256": "a3f1fcf969a0a78029ed77213360dc78f460865d0f062a78d747e32ed41bc503"
+    },
+    {
+      "path": "work/fix_portable_visibility.py",
+      "storage": "git",
+      "size_bytes": 1736,
+      "sha256": "cfb5049829d3b81e200aeca2cd637dadd963e1f7c6bc1f34bebe8a678c671777"
+    },
+    {
+      "path": "work/fix_soundbox_heights.py",
+      "storage": "git",
+      "size_bytes": 1288,
+      "sha256": "5866553370c211d7195141a34801f0aa71604f8dc638a8dd708b66ccad93ac69"
+    },
+    {
+      "path": "work/fix_studio_animation_slots.py",
+      "storage": "git",
+      "size_bytes": 780,
+      "sha256": "911bbe0d961a323ae0ec2d2578a37de7986f8e9e969c94b9c0719292f711a596"
+    },
+    {
+      "path": "work/gantry_colors.json",
+      "storage": "git",
+      "size_bytes": 2539,
+      "sha256": "1b5f56cb579b3951e407d090a06950de7f1ed5e337a6d60a2c997615976fb175"
+    },
+    {
+      "path": "work/hardware_frame_colors.json",
+      "storage": "git",
+      "size_bytes": 3125,
+      "sha256": "2dfb4b567138211c451037d976617d5c8584c7fa2d102eee0c04468f86f1a5e6"
+    },
+    {
+      "path": "work/hardware_frame_motion_map.json",
+      "storage": "git",
+      "size_bytes": 21863,
+      "sha256": "c1a1dbc6c3d07df8e995530f9ca3f2b2365970d3f608af74aec018f18fda78b0"
+    },
+    {
+      "path": "work/inspect_clock_space.py",
+      "storage": "git",
+      "size_bytes": 475,
+      "sha256": "bf8d3436cd6be99c42c1592f65c37162b2bed4a458c4483beece713fdaa32eb2"
+    },
+    {
+      "path": "work/inspect_machine_groups.py",
+      "storage": "git",
+      "size_bytes": 458,
+      "sha256": "09270416d2a6a08fe799c5294e66c70b18772b5b56e6f0dba37b5d2b630b58bc"
+    },
+    {
+      "path": "work/inspect_pentatonic_base.py",
+      "storage": "git",
+      "size_bytes": 963,
+      "sha256": "673a95edaf148273c96814945532589029b9e5143fe46409d80dced04bbe1a62"
+    },
+    {
+      "path": "work/inspect_voice_parts.py",
+      "storage": "git",
+      "size_bytes": 645,
+      "sha256": "6b6e36dfd130e64958b64f144e5ef02b8eaffae0973e4a97a27222a8b87d3d79"
+    },
+    {
+      "path": "work/koto_cam_drive.py",
+      "storage": "git",
+      "size_bytes": 3777,
+      "sha256": "de36b4e9734d6af27388fb791921bbefe6d639006daf1fb4c5ae09f30a0b6b70"
+    },
+    {
+      "path": "work/koto_pendulums.py",
+      "storage": "git",
+      "size_bytes": 6816,
+      "sha256": "3460f093afbf21cd2c30d35f421c06672fc72174279b81f179342235944c89df"
+    },
+    {
+      "path": "work/lab_corrected_render_rows.json",
+      "storage": "git",
+      "size_bytes": 9563,
+      "sha256": "4100bf274a029b73de56f72249cd5e27c36c9377acd51fda495ef06602db1d2f"
+    },
+    {
+      "path": "work/lab_frame_motion_map.json",
+      "storage": "git",
+      "size_bytes": 21863,
+      "sha256": "c1a1dbc6c3d07df8e995530f9ca3f2b2365970d3f608af74aec018f18fda78b0"
+    },
+    {
+      "path": "work/lab_frame_parts.py",
+      "storage": "git",
+      "size_bytes": 1095,
+      "sha256": "fe71be51cb4364c8bce25118a11a25e049b717cbada177ffd1adc644ba3b49ef"
+    },
+    {
+      "path": "work/live_refine.py",
+      "storage": "git",
+      "size_bytes": 7724,
+      "sha256": "c02d63003454ba032cf439545e0b748a38ca06f24c9420bbcd0ebd62a7a0c166"
+    },
+    {
+      "path": "work/low_nylon_size.py",
+      "storage": "git",
+      "size_bytes": 2457,
+      "sha256": "45e76765aa6f63f53bb99562ffb67bc351fada156a9cb23bbd713dd2b6add5ea"
+    },
+    {
+      "path": "work/low_nylon_visibility_fixed.json",
+      "storage": "git",
+      "size_bytes": 73,
+      "sha256": "dc59b22a97428dd4f3b2c8cdd8cbbe769b6af6002e8a4c80dc50b7a79564de3c"
+    },
+    {
+      "path": "work/lower_gearbox.py",
+      "storage": "git",
+      "size_bytes": 7497,
+      "sha256": "9a252ea9e3a58134fb0c35ab3b5d390247cb2bb87acede7336285c9514ae54b9"
+    },
+    {
+      "path": "work/make_lovophone_midi.py",
+      "storage": "git",
+      "size_bytes": 7900,
+      "sha256": "c4c66bc476d755798e7adccc13c947d2fc348d6344c99858829ba0be0bbcd438"
+    },
+    {
+      "path": "work/make_pentatonic.py",
+      "storage": "git",
+      "size_bytes": 5110,
+      "sha256": "3a7bf4eecc0cc4cfebea9ea75ad812776253c4f5b52d2c8cac0db7206e8d42cc"
+    },
+    {
+      "path": "work/make_unified_midi.py",
+      "storage": "git",
+      "size_bytes": 3078,
+      "sha256": "a81067b4fc006656c8e874d2210fc0bbc8b4c0f7da4f5c209e15b98a57574cbe"
+    },
+    {
+      "path": "work/make_unified_studio_script.py",
+      "storage": "git",
+      "size_bytes": 7093,
+      "sha256": "bff385b6de11cd126aaf8c2d57f2105813a27af556d51ab33dea6ec864ac3697"
+    },
+    {
+      "path": "work/motor_colors.json",
+      "storage": "git",
+      "size_bytes": 599,
+      "sha256": "7b7b074562d992aee7f0f8136d3347b9d2059479e678716eec800dc6edcd518c"
+    },
+    {
+      "path": "work/offline_probe.FCStd",
+      "storage": "git",
+      "size_bytes": 5111,
+      "sha256": "b8025b0db1c9f164ef1d93d6a177bc959345d90c696dc56c09545ed12d9549d4"
+    },
+    {
+      "path": "work/open_right_drive_view.py",
+      "storage": "git",
+      "size_bytes": 995,
+      "sha256": "24b9d38c6bae2e4cd1291063fdcaa4e25b9bda6e251216fe2a51bb32a28a77a7"
+    },
+    {
+      "path": "work/optimize_corrected_right.py",
+      "storage": "git",
+      "size_bytes": 1674,
+      "sha256": "b6e563e7bfaeed45e63deca40573314f2d76fa449f804a657668b4c9d7f4d66d"
+    },
+    {
+      "path": "work/pentatonic_motion_map.json",
+      "storage": "git",
+      "size_bytes": 21803,
+      "sha256": "8db4a1282220f762340c605d0fad003a0151ecfe7dd5ac2eb4bf6ee0a9708e0f"
+    },
+    {
+      "path": "work/polish_unified_labels.py",
+      "storage": "git",
+      "size_bytes": 903,
+      "sha256": "3b060d7ac647d9967e420ad2be356bc330518c6f5280c0db91d0a8b168821e5f"
+    },
+    {
+      "path": "work/portable_check.py",
+      "storage": "git",
+      "size_bytes": 1952,
+      "sha256": "85478c949e7834c9fb87d4671dead794a30c38bee8a4c50b38dacdfe5b12d7e3"
+    },
+    {
+      "path": "work/portable_visibility_fixed.json",
+      "storage": "git",
+      "size_bytes": 72,
+      "sha256": "bbbf04a0b0649bec10cde1b156a86fe2df503ab06ac9f195f88d53b41a2792ad"
+    },
+    {
+      "path": "work/probe_gui_engine.py",
+      "storage": "git",
+      "size_bytes": 255,
+      "sha256": "f94c16672c5a4af702adee4b2f9099e7c4fbf113a427ff5df66c66ad9182474f"
+    },
+    {
+      "path": "work/probe_offscreen.py",
+      "storage": "git",
+      "size_bytes": 610,
+      "sha256": "28691db1736c73c4eef0c77f1ff813169bd7ca5777a0ee957616a8d286928827"
+    },
+    {
+      "path": "work/prototype_a_bom.py",
+      "storage": "git",
+      "size_bytes": 12706,
+      "sha256": "4a19474dc6717c540b49c99b4af49f0dcf42195d8aa1f903a317a4fc0d262fb1"
+    },
+    {
+      "path": "work/prototype_a_drawings.py",
+      "storage": "git",
+      "size_bytes": 15598,
+      "sha256": "7a16aa8b5a8a9e1a6040ed75d164839eab09f9276d00c0e3c6c19a26ff6176d0"
+    },
+    {
+      "path": "work/prototype_a_math.py",
+      "storage": "git",
+      "size_bytes": 2444,
+      "sha256": "7e1d888b950144baef2c0205a392024c675e6ff428f40980b6b5522a7c802c52"
+    },
+    {
+      "path": "work/recover_koto_static.py",
+      "storage": "git",
+      "size_bytes": 13760,
+      "sha256": "4b46dd2570ebd3422e2ed64477916f6146fc0eadad42560ae563f763643b7318"
+    },
+    {
+      "path": "work/recover_koto_visibility.py",
+      "storage": "git",
+      "size_bytes": 14390,
+      "sha256": "7c9414ae09c614ec2bd2791d4d5f9354f44a269db716e5afb6bd145f159e4bff"
+    },
+    {
+      "path": "work/refine_headless.py",
+      "storage": "git",
+      "size_bytes": 7360,
+      "sha256": "39fde78696191a1a94d9148c3656225991494d9147530bbf775b0e61669c1b7d"
+    },
+    {
+      "path": "work/refine_nylon_picks.py",
+      "storage": "git",
+      "size_bytes": 596,
+      "sha256": "a9949649bfd8f74a12c9484521c9f67fef152d60c69a2f27538e38f20f7d19b0"
+    },
+    {
+      "path": "work/refine_strings.py",
+      "storage": "git",
+      "size_bytes": 7384,
+      "sha256": "3eb8bfbcc15db0cb8e4b492f7cfdd817d33f14b1bf5d547f0c9ae83d40f0cb56"
+    },
+    {
+      "path": "work/refine_twelve_motor_mount.py",
+      "storage": "git",
+      "size_bytes": 1106,
+      "sha256": "45d6c54c91e988db75be4d3ba7b8794f0c7c76c4828093218a422affbc9fc5e3"
+    },
+    {
+      "path": "work/render_clockwork.py",
+      "storage": "git",
+      "size_bytes": 3058,
+      "sha256": "df4111304b0c83f20698a6bb11026a64ad8b5e032aec0d32b23b9fea6fc99e8a"
+    },
+    {
+      "path": "work/render_clockwork_cpu.py",
+      "storage": "git",
+      "size_bytes": 4002,
+      "sha256": "73e57bb3e9d4c8a8cadab959c56ed1d4160fdfaf1c1bc06e27d3515ca325b768"
+    },
+    {
+      "path": "work/render_corrected_fast_film.py",
+      "storage": "git",
+      "size_bytes": 1985,
+      "sha256": "7c2c0821bf26975ec56c305b378fff96ea3b277222a16ea30157a0c1dbf50403"
+    },
+    {
+      "path": "work/render_corrected_lab.py",
+      "storage": "git",
+      "size_bytes": 6139,
+      "sha256": "27d3ac7d554afb9503cc3eec22ef88485dcde5523edf81b97fec1ac0696fa881"
+    },
+    {
+      "path": "work/render_corrected_right_film.py",
+      "storage": "git",
+      "size_bytes": 3227,
+      "sha256": "78816a550365b702c2a111bcd2e86aa4bcc881899755333d7f812dce4fdb5ec8"
+    },
+    {
+      "path": "work/render_koto.py",
+      "storage": "git",
+      "size_bytes": 1730,
+      "sha256": "5738771cc1a2e4603c58e993df3ec7e4773541a20c1c4de207b30d2dd550902a"
+    },
+    {
+      "path": "work/render_lab_studio.py",
+      "storage": "git",
+      "size_bytes": 12736,
+      "sha256": "aced4aecaaf8fd37d45c8d3c0e48313474fc3d5c4cfa6362b2bba86194843c0f"
+    },
+    {
+      "path": "work/render_lovophone_8min.py",
+      "storage": "git",
+      "size_bytes": 4685,
+      "sha256": "4b66f0add85330308d7b63878e37687cbe5b9f17d4c80ac0e5eb9008e8172f7d"
+    },
+    {
+      "path": "work/render_pentatonic_8min.py",
+      "storage": "git",
+      "size_bytes": 4867,
+      "sha256": "ef76a102dc2e10146d1624b74d065d79c607c1b08bf014f3a7207b83af0ed536"
+    },
+    {
+      "path": "work/render_pentatonic_machine.py",
+      "storage": "git",
+      "size_bytes": 1810,
+      "sha256": "b2bc662d03ce58d085483274bc6a2c4fca80b3d9cf04fc32d88c572fb85d85ca"
+    },
+    {
+      "path": "work/render_right_film.py",
+      "storage": "git",
+      "size_bytes": 2229,
+      "sha256": "250e8766e302ab4702d3c7daa8b8e13e4a9530a8846e7f505caccf9f13f58b2a"
+    },
+    {
+      "path": "work/render_right_open_drive_film.py",
+      "storage": "git",
+      "size_bytes": 2300,
+      "sha256": "2f7bf2e5bb14e2356793665f3b734ecb721c56ee80805d62f571c08fc311d681"
+    },
+    {
+      "path": "work/render_right_video.py",
+      "storage": "git",
+      "size_bytes": 1685,
+      "sha256": "ba3f01ae9b971e52911691a6d60eb5a66ae0f55f747a3bdcae1325f1d6c9ce5f"
+    },
+    {
+      "path": "work/render_unified_preview.py",
+      "storage": "git",
+      "size_bytes": 1796,
+      "sha256": "4255be73c88561c4a068d5ecb5ce14dbd913a0b761b456b364f15d891e98584e"
+    },
+    {
+      "path": "work/right_open_drive_hidden.json",
+      "storage": "git",
+      "size_bytes": 622,
+      "sha256": "af18fa0c909e88c76ba0a918f15d9d40457b57a53d00db3cc88deace880c4138"
+    },
+    {
+      "path": "work/show_low_nylon.py",
+      "storage": "git",
+      "size_bytes": 2036,
+      "sha256": "5a5231c5f9f6a5e307dd91cbfded66da642642f2058405fb2b271b6cd0f107fc"
+    },
+    {
+      "path": "work/show_open_centre.py",
+      "storage": "git",
+      "size_bytes": 1540,
+      "sha256": "a1c7cbb6f341415f3c5f177a0b29e7b65ea895136687caa1523f94ecb7af4908"
+    },
+    {
+      "path": "work/soundbox.py",
+      "storage": "git",
+      "size_bytes": 11185,
+      "sha256": "8d2194a9e5c2d009c09c0536e8f3bcbc0194d2eeac0ce263aef6e74b2f914b59"
+    },
+    {
+      "path": "work/standard_belt_pitch.py",
+      "storage": "git",
+      "size_bytes": 1626,
+      "sha256": "bc554cf6ea9425d6e7f73c9e8a0c2cecfa5f19787786068bdbc94b55575bed8b"
+    },
+    {
+      "path": "work/test_right_denoise.py",
+      "storage": "git",
+      "size_bytes": 826,
+      "sha256": "997422e563dbee5d2543403dca35bf290a980c1f5ab01cfc404d2685bb285f0b"
+    },
+    {
+      "path": "work/test_surface.py",
+      "storage": "git",
+      "size_bytes": 768,
+      "sha256": "00846af26dd88511e4dc06598d6eaf298ff8ccd0d435b28838b6d99ac7e58f97"
+    },
+    {
+      "path": "work/twelve_final_details.py",
+      "storage": "git",
+      "size_bytes": 2158,
+      "sha256": "70fdcf75528d4bcea03aac02fd87ef3d1796d23ff25f487fdf4fbebca1e29449"
+    },
+    {
+      "path": "work/twelve_gantry_colors.json",
+      "storage": "git",
+      "size_bytes": 4559,
+      "sha256": "4a51f3033793c8860aa07d1c1653a6af19ff9eabcad629ed503c5383f1356f26"
+    },
+    {
+      "path": "work/twelve_motion_map.json",
+      "storage": "git",
+      "size_bytes": 19747,
+      "sha256": "e5dfa3b37aa5dc45350f9c86f6dda1595524812d06952dd2c8e010ab67c064eb"
+    },
+    {
+      "path": "work/two_axle_belts.py",
+      "storage": "git",
+      "size_bytes": 6770,
+      "sha256": "7827b230c8a2acf9e4f6b4b661632d97fd89778fdb02b51e99de8bb6c834f4b2"
+    },
+    {
+      "path": "work/unified_design.py",
+      "storage": "git",
+      "size_bytes": 3075,
+      "sha256": "c5ada3081a258b88dbde270f51beea27ac5ea7deae1a42dc6c350b5187f4f228"
+    },
+    {
+      "path": "work/unified_motion_map.json",
+      "storage": "git",
+      "size_bytes": 18105,
+      "sha256": "3ce6c585c631bf05c8ba6707fce087defd1c77ff70828aaca6374398fb1dfcd2"
+    },
+    {
+      "path": "work/unified_sprocket_webs.py",
+      "storage": "git",
+      "size_bytes": 563,
+      "sha256": "ce18481dd28e8a26ec0742f9a1ff4b2313da8796dc0594e887c26a317babd6d7"
+    },
+    {
+      "path": "work/update_unified_studio_webs.py",
+      "storage": "git",
+      "size_bytes": 1781,
+      "sha256": "d2643242ed648daa97862c0480f306edb9e76d137f0ab27382a7cc5243030295"
+    },
+    {
+      "path": "work/verify_saved_open.py",
+      "storage": "git",
+      "size_bytes": 639,
+      "sha256": "6069a9328334de9bf7e66c2cfa9bf1f591931ca05f0d75815287853834e8ac91"
+    },
+    {
+      "path": "work/vertical_long_bank.py",
+      "storage": "git",
+      "size_bytes": 9410,
+      "sha256": "48c60940f3e4da1691f9b5413dea610cd39cdde990d05fbfb733d0832bf5282b"
+    },
+    {
+      "path": "work/write_hardware_frame_notes.py",
+      "storage": "git",
+      "size_bytes": 7688,
+      "sha256": "1ee6fff4bd1c87e00bcc4b6badaf1a3d1480fae41c72c4768df2829036d4644e"
+    },
+    {
+      "path": "work/write_lab_review_notes.py",
+      "storage": "git",
+      "size_bytes": 10177,
+      "sha256": "b2b23f72e61e4c0f7ff5a16475709f75dd2692e081efd9581e43f7bba2ad0173"
+    },
+    {
+      "path": "work/write_unified_notes.py",
+      "storage": "git",
+      "size_bytes": 8057,
+      "sha256": "d714e58b1f633b87556af7b7027002cdddbe2eeff8012ea219cd59639265141b"
+    }
+  ],
+  "media_included": false,
+  "scope": "CAD, drawings, BOMs, tuning data, calculated checks and generation source. Media and duplicate ZIP bundles excluded at author request."
+}

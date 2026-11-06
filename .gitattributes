@@ -1,0 +1,9 @@
+*.FCStd binary
+*.step binary
+*.pdf binary
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.scl text eol=lf
+*.FCMacro text eol=lf

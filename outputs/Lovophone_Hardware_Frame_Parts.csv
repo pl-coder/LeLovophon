@@ -1,0 +1,18 @@
+Quantity,Source category,Item / nominal specification
+2,catalogue bearing,"MR126-2RS or MR126ZZ, 6 mm bore / 12 mm OD / 4 mm width; sealed/shielded version, not 3 mm-wide open version"
+1,catalogue shaft hardware,"DIN 705 style 6 mm bore stop collar, nominal 12 mm OD × 8 mm wide, radial set screw; check supplier dimensions"
+4,cut and drill hardware stock,20 × 20 × 2 mm equal angle; saw four identical 15 mm lengths; one 4.4 mm hole per leg
+2,cut and drill hardware stock,"50 × 4 mm flat steel stock, saw two 59 mm lengths. One 12.1 mm bearing hole, one 6.5 mm fixed-axle hole, two 3.4 mm retaining-bolt holes and two 4.4 mm foot holes; identical drilling template."
+1,cut stock spacer,8 mm OD × 1 mm wall brass tube; cut 3 mm; deburr bore for free fit on 6 mm shaft
+4,standard hardware,"M3 hex nut, ISO 4032 envelope; thread not modelled"
+8,standard hardware,"M3 plain washer, 3.2/7/0.5 mm nominal"
+4,standard hardware,"M3 × 10 hex bolt, DIN 933 / ISO 4017 envelope"
+4,standard hardware,"M4 hex nut, ISO 4032 nominal envelope"
+4,standard hardware,M4 hex nut; lock with a second nut or a replaceable nyloc after prototype testing
+16,standard hardware,"M4 plain washer, 4.3/9/0.8 mm nominal"
+4,standard hardware,"M4 × 12 hex bolt, nominal thread envelope"
+4,standard hardware,M4 × 20 hex bolt; nominal thread envelope
+2,standard hardware,"Ordinary M6 hex nut, nominal 10 mm across flats × 5 mm thick. M6 threads must be cut only on the exposed ends of the smooth 6 mm stationary axle; thread envelope shown."
+1,hardware-store sheet stock,"6 mm plywood drive deck, 288 × 78 mm, four 4.4 mm mounting holes"
+1,smooth shaft stock,"6 mm common input shaft, 314.25 mm modeled length; check bearing fit and deburr sawn ends"
+1,cut and thread smooth stock,"6 mm stationary axle, 307.85 mm modeled length; M6 threads on about 9 mm left and 7 mm right ends only"

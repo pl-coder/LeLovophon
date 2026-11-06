@@ -1,0 +1,108 @@
+import FreeCAD as App, FreeCADGui as Gui, math, json, time, traceback
+from FreeCAD import Vector as V
+from PySide import QtCore, QtWidgets
+OUT='./outputs'
+harpe_live_doc=App.ActiveDocument
+if harpe_live_doc is None:raise RuntimeError('Open the recovered harp first.')
+for key in ['harpe_koto_timer','harpe_motion_timer','harpe_live_timer']:
+    old=globals().get(key)
+    if old is not None:
+        try:old.stop()
+        except Exception:pass
+harpe_live_rows=json.loads(harpe_live_doc.Motion.LinkageGeometry) if harpe_live_doc.getObject('Motion') and hasattr(harpe_live_doc.Motion,'LinkageGeometry') else json.load(open(OUT+'/koto_pendulum_geometry.json'))['rows']
+harpe_live_static=harpe_live_doc.getObject('C_LongArmRotor') is None
+harpe_live_members={
+ 'Driver':['_RatioDrivePulley'],
+ 'Output':['_RatioDrivenPulley','_CompoundPulleyHub','_IndependentPulleyBearing','_EccentricCam'],
+ 'LongArmRotor':['_RaisedArmShaft','_ExtendedArm','_ExtendedPick'],
+ 'Rocker':['_FollowerLever','_FollowerRoller','_RollerPin','_ReturnSpringEnvelope']}
+def harpe_live_beta(row,theta):
+    U=V(0,row.get('follower_y',row['pivot_y']),row.get('follower_z',row['pivot_z']));C=V(0,-59-4*math.sin(theta),-116+4*math.cos(theta))
+    v=C-U;d=v.Length;v.normalize();a=(row['lever_length']**2-225+d*d)/(2*d);h=math.sqrt(max(0,row['lever_length']**2-a*a))
+    P=U+v*a;perp=V(0,-v.z,v.y);b1=P+perp*h;b2=P-perp*h;B=b1 if b1.y>b2.y else b2
+    return math.atan2(-(B.y-U.y),B.z-U.z)
+def harpe_live_roots(row,t):
+    s=row['station'];theta=-math.radians(18*t*row['ratio']);beta=harpe_live_beta(row,theta)
+    delta=math.atan2(math.sin(beta-row['beta_mid']),math.cos(beta-row['beta_mid']))
+    def place(y,z,angle):return App.Placement(V(s,y,z),App.Rotation(V(1,0,0),angle))
+    return {'Driver':place(-83,-131,-18*t),'Output':place(-59,-116,math.degrees(theta)),
+            'LongArmRotor':place(row['pivot_y'],row['pivot_z'],90+row.get('swing_gain',1.0)*math.degrees(delta)),
+            'Rocker':place(row.get('follower_y',row['pivot_y']),row.get('follower_z',row['pivot_z']),math.degrees(beta))}
+harpe_live_bases={}
+for row in harpe_live_rows:
+    roots=harpe_live_roots(row,0);n=row['note']
+    for kind,suffixes in harpe_live_members.items():
+        if harpe_live_static:
+            for suffix in suffixes:
+                o=harpe_live_doc.getObject(n+suffix)
+                if o is None:raise RuntimeError('Missing part: '+n+suffix)
+                harpe_live_bases[o.Name]=(o,o.Placement,roots[kind].inverse(),row,kind)
+        else:
+            o=harpe_live_doc.getObject(n+'_'+kind)
+            o.setExpression('Placement.Rotation.Angle',None)
+# Save a separate stationary checkpoint before changing live placements.
+harpe_live_doc.recompute()
+harpe_live_doc.saveAs(OUT+('/Harpe_d_Amour_Twelve_Electric_Live.FCStd' if 'Twelve_Electric' in harpe_live_doc.FileName else '/Harpe_d_Amour_Low_Nylon_Live.FCStd' if 'Low_Nylon' in harpe_live_doc.FileName else '/Harpe_d_Amour_Portable_Live.FCStd' if 'Portable' in harpe_live_doc.FileName else '/Harpe_d_Amour_Open_Centred_Live.FCStd' if 'Open_Centred' in harpe_live_doc.FileName else '/Harpe_d_Amour_Wide_Swing_Live.FCStd' if any(r.get('swing_gain',1)>1 for r in harpe_live_rows) else '/Harpe_d_Amour_Koto_Live.FCStd'))
+harpe_live_start=time.monotonic();harpe_live_frames=0;harpe_live_last_report=-1;harpe_live_captured=False
+harpe_live_speed=4.0
+harpe_live_offset=0.0
+harpe_live_timer=QtCore.QTimer(Gui.getMainWindow())
+def harpe_live_tick():
+    global harpe_live_frames,harpe_live_last_report,harpe_live_captured
+    try:
+        if harpe_live_doc.Name not in App.listDocuments():harpe_live_timer.stop();return
+        t=harpe_live_offset+(time.monotonic()-harpe_live_start)*harpe_live_speed
+        poses={row['note']:harpe_live_roots(row,t) for row in harpe_live_rows}
+        if harpe_live_static:
+            for o,base,inv,row,kind in harpe_live_bases.values():o.Placement=poses[row['note']][kind]*inv*base
+        else:
+            for row in harpe_live_rows:
+                for kind,placement in poses[row['note']].items():harpe_live_doc.getObject(row['note']+'_'+kind).Placement=placement
+        harpe_live_doc.recompute();Gui.getDocument(harpe_live_doc.Name).activeView().redraw();harpe_live_frames+=1
+        sec=int(t)
+        if sec!=harpe_live_last_report:
+            with open(OUT+'/../work/harpe_live_status.json','w') as f:json.dump({'running':True,'updated_unix':time.time(),'speed_multiplier':harpe_live_speed,'elapsed_seconds':t,'frames':harpe_live_frames,'file':harpe_live_doc.FileName,'mode':'recovered static geometry' if harpe_live_static else 'native motion hierarchy','arm_angles_degrees':{n:math.degrees(p['LongArmRotor'].Rotation.Angle) for n,p in poses.items()}},f)
+            harpe_live_last_report=sec
+            if 'harpe_live_label' in globals():harpe_live_label.setText('Playing — %.1f s — %d frames'%(t,harpe_live_frames))
+        if t>2 and not harpe_live_captured:
+            harpe_live_captured=True
+            Gui.activeDocument().activeView().saveImage(OUT+'/Harpe_live_verified.png',1800,1100,'Current')
+    except Exception:
+        harpe_live_timer.stop()
+        with open(OUT+'/../work/harpe_live_status.json','w') as f:json.dump({'running':False,'error':traceback.format_exc()},f)
+harpe_live_timer.timeout.connect(harpe_live_tick)
+# Persistent in-session Play/Pause and preview-speed controls.
+existing=Gui.getMainWindow().findChild(QtWidgets.QDockWidget,'HarpeMotionControls')
+if existing is not None:existing.close();existing.deleteLater()
+harpe_live_dock=QtWidgets.QDockWidget('Harp motion',Gui.getMainWindow())
+harpe_live_dock.setObjectName('HarpeMotionControls')
+harpe_live_dock.setMinimumHeight(55);harpe_live_dock.setMaximumHeight(70)
+harpe_live_panel=QtWidgets.QWidget();harpe_live_layout=QtWidgets.QHBoxLayout(harpe_live_panel)
+harpe_live_button=QtWidgets.QPushButton('Pause')
+harpe_live_label=QtWidgets.QLabel('Starting…')
+harpe_live_speed_box=QtWidgets.QComboBox();harpe_live_speed_box.addItems(['1× speed','2× speed','4× preview']);harpe_live_speed_box.setCurrentIndex(2)
+harpe_live_layout.addWidget(harpe_live_button);harpe_live_layout.addWidget(harpe_live_speed_box);harpe_live_layout.addWidget(harpe_live_label);harpe_live_layout.addStretch()
+harpe_live_dock.setWidget(harpe_live_panel);Gui.getMainWindow().addDockWidget(QtCore.Qt.BottomDockWidgetArea,harpe_live_dock)
+def harpe_live_toggle():
+    global harpe_live_offset,harpe_live_start
+    if harpe_live_timer.isActive():
+        harpe_live_offset+=(time.monotonic()-harpe_live_start)*harpe_live_speed;harpe_live_timer.stop();harpe_live_button.setText('Play');harpe_live_label.setText('Paused')
+    else:
+        harpe_live_start=time.monotonic();harpe_live_timer.start(100);harpe_live_button.setText('Pause')
+def harpe_live_change_speed(index):
+    global harpe_live_offset,harpe_live_start,harpe_live_speed
+    if harpe_live_timer.isActive():harpe_live_offset+=(time.monotonic()-harpe_live_start)*harpe_live_speed
+    harpe_live_start=time.monotonic();harpe_live_speed=[1.0,2.0,4.0][index]
+harpe_live_button.clicked.connect(harpe_live_toggle);harpe_live_speed_box.currentIndexChanged.connect(harpe_live_change_speed)
+Gui.activeDocument().activeView().setCameraOrientation(App.Rotation(V(1,0,-.25),V(0,1,0),V(.25,.4,1),'ZXY').Q)
+Gui.activeDocument().activeView().fitAll()
+for o in harpe_live_doc.Objects:
+    if o.Name.startswith('Guard') and o.ViewObject:o.ViewObject.Transparency=93
+def harpe_live_frame_view():
+    import re
+    v=Gui.getDocument(harpe_live_doc.Name).activeView();v.fitAll();v.setCamera(re.sub(r'\bheight\s+[-+.0-9Ee]+','height 280',v.getCamera()))
+QtCore.QTimer.singleShot(500,harpe_live_frame_view)
+harpe_live_timer.start(100)
+for w in Gui.getMainWindow().findChildren(QtWidgets.QDockWidget):
+    if w.objectName()=='Python console':w.hide()
+with open(OUT+'/../work/harpe_live_status.json','w') as f:json.dump({'running':True,'starting':True,'file':harpe_live_doc.FileName},f)

@@ -1,0 +1,59 @@
+{
+  "Y_vertical": true,
+  "base_top_y_mm": -109,
+  "sweep_floor_reference_y_mm": -105,
+  "arms": [
+    {
+      "note": "C",
+      "string_mm": 330.0,
+      "arm_radius_mm": 67.19693845669907,
+      "output_axis_y_mm": -37.803061543300934,
+      "output_axis_z_mm": -34,
+      "gearbox_axis_y_mm": -83,
+      "gearbox_axis_z_mm": -91.0,
+      "centre_distance_mm": 72.74450663698698
+    },
+    {
+      "note": "D",
+      "string_mm": 293.3333333333333,
+      "arm_radius_mm": 59.730611961510284,
+      "output_axis_y_mm": -33.06394529484362,
+      "output_axis_z_mm": -34,
+      "gearbox_axis_y_mm": -83,
+      "gearbox_axis_z_mm": -97.0,
+      "centre_distance_mm": 80.39035737895665
+    },
+    {
+      "note": "E",
+      "string_mm": 264.0,
+      "arm_radius_mm": 53.75755076535926,
+      "output_axis_y_mm": -29.841029279156466,
+      "output_axis_z_mm": -34,
+      "gearbox_axis_y_mm": -83,
+      "gearbox_axis_z_mm": -95.0,
+      "centre_distance_mm": 80.9127688816759
+    },
+    {
+      "note": "F",
+      "string_mm": 247.5,
+      "arm_radius_mm": 50.39770384252431,
+      "output_axis_y_mm": -28.712455400322867,
+      "output_axis_z_mm": -34,
+      "gearbox_axis_y_mm": -83,
+      "gearbox_axis_z_mm": -103.0,
+      "centre_distance_mm": 87.79599933175733
+    },
+    {
+      "note": "G",
+      "string_mm": 220.0,
+      "arm_radius_mm": 44.797958971132715,
+      "output_axis_y_mm": -25.202041028867292,
+      "output_axis_z_mm": -34,
+      "gearbox_axis_y_mm": -83,
+      "gearbox_axis_z_mm": -101.0,
+      "centre_distance_mm": 88.485049930645
+    }
+  ],
+  "full_turn_stationary_clashes": [],
+  "scope": "Geometric concept; transmission is prescribed, not contact/dynamics simulation."
+}

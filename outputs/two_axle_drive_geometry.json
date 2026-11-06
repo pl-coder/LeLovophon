@@ -1,0 +1,50 @@
+{
+  "long_axles": 2,
+  "fixed_intermediate_axle": true,
+  "independent_pulley_units": 6,
+  "gear_pairs": 0,
+  "ratios": [
+    1.0,
+    1.125,
+    1.25,
+    1.3333333333333333,
+    1.5,
+    1.6666666666666667
+  ],
+  "arm_clashes": [],
+  "contacts": [
+    {
+      "voice": "C",
+      "part": "C_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "D",
+      "part": "D_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "E",
+      "part": "E_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "F",
+      "part": "F_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "G",
+      "part": "G_LongSpeakingString",
+      "sweep": "pick"
+    },
+    {
+      "voice": "A",
+      "part": "A_LongSpeakingString",
+      "sweep": "pick"
+    }
+  ],
+  "drive_clashes": [],
+  "invalid": [],
+  "scope": "Prescribed motion with pulley/belt envelopes. Belt pitch, tooth profiles, tensioners, bearing fits and loads remain unspecified."
+}

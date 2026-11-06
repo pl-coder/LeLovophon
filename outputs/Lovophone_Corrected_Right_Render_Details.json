@@ -1,0 +1,44 @@
+{
+  "duration_seconds": 480,
+  "encoded_fps": 24,
+  "motion_samples_per_second": 12,
+  "frames": 11520,
+  "resolution": [
+    1008,
+    900
+  ],
+  "camera": "Orthographic RIGHT (+CAD X), matching reference screenshot",
+  "normal_speed": true,
+  "input_rpm": 3,
+  "ratios": [
+    "1",
+    "9/8",
+    "5/4",
+    "3/2",
+    "5/3",
+    "2",
+    "9/4",
+    "5/2",
+    "3",
+    "10/3",
+    "4",
+    "9/2"
+  ],
+  "audio": "Silent",
+  "alpha_master": "ProRes4444 alpha MOV; use alpha directly, no key required",
+  "key_copy": "H264 blue background MP4, RGB blue composited after render to avoid key-colour spill",
+  "render_engine": "EEVEE16 samples, procedural timber/metal materials and studio lighting",
+  "scope": "Corrected Lab Frame timing visualization. Motor, obsolete tray and foreground/right-foot hardware hidden for presentation; not the separate four-bar physical prototype. Old MIDI does not sync.",
+  "alpha_master_fps": 12,
+  "blue_copy_fps": 24,
+  "alpha_master_frames": 5760,
+  "blue_copy_frames": 11520,
+  "alpha_master_bytes": 2680243160,
+  "blue_copy_bytes": 52037961,
+  "verified_duration_seconds_both": 480,
+  "decoded_alpha_range": [
+    0,
+    65535
+  ],
+  "decoded_corner_alpha": 0
+}

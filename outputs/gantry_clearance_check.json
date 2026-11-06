@@ -1,0 +1,14 @@
+{
+  "sampled_positions_per_cycle": 96,
+  "moving_fixed_clashes": [],
+  "sampled_own_string_contacts": [
+    "A",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+  ],
+  "invalid_shapes": [],
+  "scope": "Sampled moving-to-new-gantry clearance and own-string contact only. Existing clockwork not dynamically checked. Structural stiffness, clamp slip, fatigue and fasteners remain unverified."
+}

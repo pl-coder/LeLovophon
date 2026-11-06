@@ -1,0 +1,18 @@
+{
+  "duration_seconds": 480,
+  "fps": 24,
+  "resolution": [
+    1008,
+    900
+  ],
+  "frames": 11520,
+  "camera": "Fixed orthographic right view matching reference",
+  "hidden_motor_and_controls": true,
+  "near_drive_plate_hidden": true,
+  "engine": "Blender EEVEE",
+  "samples": 32,
+  "midi_offset_seconds": 0,
+  "midi_tempo_bpm": 120,
+  "audio": "Silent; align existing pentatonic MIDI at zero",
+  "scope": "Actual CAD geometry with procedural presentation materials and studio lighting; light temporal noise reduction."
+}

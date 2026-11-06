@@ -1,0 +1,44 @@
+[
+  {
+    "voice": "C",
+    "swing_each_side_deg": 17.29912654417186,
+    "total_arc_deg": 34.59825308834372,
+    "front_guard_clearance_mm": 45.869616783818486,
+    "follower_lever_length_mm": 53.534234478190015
+  },
+  {
+    "voice": "D",
+    "swing_each_side_deg": 19.15851100735865,
+    "total_arc_deg": 38.3170220147173,
+    "front_guard_clearance_mm": 36.23335398683033,
+    "follower_lever_length_mm": 48.44882733745191
+  },
+  {
+    "voice": "E",
+    "swing_each_side_deg": 19.549340528647924,
+    "total_arc_deg": 39.09868105729585,
+    "front_guard_clearance_mm": 27.844419993858594,
+    "follower_lever_length_mm": 47.5043455155433
+  },
+  {
+    "voice": "F",
+    "swing_each_side_deg": 18.107445059196934,
+    "total_arc_deg": 36.21489011839387,
+    "front_guard_clearance_mm": 20.18099681268358,
+    "follower_lever_length_mm": 51.19367973693734
+  },
+  {
+    "voice": "G",
+    "swing_each_side_deg": 16.718057577478664,
+    "total_arc_deg": 33.43611515495733,
+    "front_guard_clearance_mm": 12.969481452911275,
+    "follower_lever_length_mm": 55.35805521139245
+  },
+  {
+    "voice": "A",
+    "swing_each_side_deg": 14.928416458409869,
+    "total_arc_deg": 29.856832916819737,
+    "front_guard_clearance_mm": 5.484749491381521,
+    "follower_lever_length_mm": 61.8760511635211
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "sampled_positions_per_voice_cycle": 144,
+  "moving_fixed_clashes": [],
+  "changed_fixed_part_intersections": [],
+  "intentional_bridge_crown_seats": [
+    [
+      "A_KotoThirdBridge",
+      "A_NylonBridgeCrown"
+    ],
+    [
+      "Ab_KotoThirdBridge",
+      "Ab_NylonBridgeCrown"
+    ],
+    [
+      "B_KotoThirdBridge",
+      "B_NylonBridgeCrown"
+    ],
+    [
+      "Bb_KotoThirdBridge",
+      "Bb_NylonBridgeCrown"
+    ],
+    [
+      "C_KotoThirdBridge",
+      "C_NylonBridgeCrown"
+    ],
+    [
+      "Cs_KotoThirdBridge",
+      "Cs_NylonBridgeCrown"
+    ],
+    [
+      "D_KotoThirdBridge",
+      "D_NylonBridgeCrown"
+    ],
+    [
+      "E_KotoThirdBridge",
+      "E_NylonBridgeCrown"
+    ],
+    [
+      "Eb_KotoThirdBridge",
+      "Eb_NylonBridgeCrown"
+    ],
+    [
+      "F_KotoThirdBridge",
+      "F_NylonBridgeCrown"
+    ],
+    [
+      "Fs_KotoThirdBridge",
+      "Fs_NylonBridgeCrown"
+    ],
+    [
+      "G_KotoThirdBridge",
+      "G_NylonBridgeCrown"
+    ]
+  ],
+  "sampled_own_string_contacts": [
+    "A",
+    "Ab",
+    "B",
+    "Bb",
+    "C",
+    "Cs",
+    "D",
+    "E",
+    "Eb",
+    "F",
+    "Fs",
+    "G"
+  ],
+  "exact_own_string_contact_volume_mm3": {
+    "C": 0.7790756168247673,
+    "Cs": 0.7790756168247519,
+    "D": 0.7790756168247506,
+    "Eb": 0.7790756168247507,
+    "E": 0.7790756168247527,
+    "F": 0.7790756168247526,
+    "Fs": 0.7790756168247526,
+    "G": 0.7790756168247392,
+    "Ab": 0.7790756168247522,
+    "A": 0.7790756168248478,
+    "Bb": 0.7790756168248607,
+    "B": 0.7790756168248539
+  },
+  "timing_geometry_matches_approved_midi": [
+    "C",
+    "Cs",
+    "D",
+    "Eb",
+    "E",
+    "F",
+    "Fs",
+    "G",
+    "Ab",
+    "A",
+    "Bb",
+    "B"
+  ],
+  "invalid_shapes": [],
+  "scope": "Geometric and kinematic checks, not load, acoustic, fatigue, motor-sizing or safety certification."
+}

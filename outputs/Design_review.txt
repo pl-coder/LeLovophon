@@ -1,0 +1,24 @@
+L’Harpe d’Amour — koto strings and cam-driven pendulum picks
+
+Review concept, not fabrication release.
+
+Six strings share two load-bearing ends 342 mm apart. Intermediate bridges set the speaking lengths. Strings sit in a horizontal plane 36 mm above the soundbox lid. The low drive uses one common turning shaft and six independent pulley units on a second fixed axle. Six eccentric cams and spring-return roller followers rock the picking arms.
+
+| Voice | Speaking length (mm) | Arm radius (mm) | Speed ratio | 2 mm pitch pulley counts |
+|---|---:|---:|---:|---|
+| C | 330.000 | 67.197 | 1.000000 | 40 driving / 40 driven |
+| D | 293.333 | 59.731 | 1.125000 | 36 driving / 32 driven |
+| E | 264.000 | 53.758 | 1.250000 | 40 driving / 32 driven |
+| F | 247.500 | 50.398 | 1.333333 | 32 driving / 24 driven |
+| G | 220.000 | 44.798 | 1.500000 | 36 driving / 24 driven |
+| A | 198.000 | 40.318 | 1.666667 | 40 driving / 24 driven |
+
+Repeated parts: 4 mm eccentricity / 12 mm radius cam disks, 3 mm radius follower rollers, 6 mm shaft references, flat follower and arm profiles. Follower lever lengths differ and can use adjustable attachment positions. The pulley tooth forms are envelopes; final catalogue belt lengths, profiles and tension adjustment are unresolved.
+
+Checks: 72 sampled positions per independent cam cycle; no detected pick/arm or cam/follower contact with fixed hardware; intended contact with all six assigned strings; all solid shapes valid. Standard-pitch pulleys and belt envelopes clear the fixed supports and guard. These checks do not prove continuous clearance, strength, acoustic performance or safety.
+
+Power: a single coupling is provided for clockwork input. No working spring barrel, escapement or governor has been modeled or selected. Spring return torque, friction, string material/gauge/tension, bridge break angle, flexible pick release and tuning-peg fits need development. A rocking arm crosses its string twice each cycle; the two crossings need not be equally spaced with an eccentric cam.
+
+Guard: a removable clear enclosure is modeled with 2.6 mm string exit holes. Material thickness, captive fasteners, impact resistance, emergency stop/rewind handling and string-break containment require validation.
+
+Open Harpe_d_Amour_Koto_Pendulums.FCStd to inspect the saved model. In FreeCAD, run Play_Harpe.FCMacro to apply colours and show prescribed cam motion. The playback macro has been syntax-checked; the live playback has not been verified after the FreeCAD window-control issue.

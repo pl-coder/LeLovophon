@@ -1,0 +1,260 @@
+{
+  "input_period_seconds": 20,
+  "repeat_seconds": 480,
+  "denominator_lcm": 24,
+  "matched_voices": 12,
+  "invalid_shapes": [],
+  "changed_envelope_intersections": [
+    {
+      "part": "Bb_RatioDrivePulley",
+      "other": "LowGearboxTray",
+      "overlap_mm3": 9.622049260412643
+    },
+    {
+      "part": "Bb_RatioBelt",
+      "other": "LowGearboxTray",
+      "overlap_mm3": 40.79336878186102
+    },
+    {
+      "part": "B_RatioDrivePulley",
+      "other": "LowGearboxTray",
+      "overlap_mm3": 220.26942007205466
+    },
+    {
+      "part": "B_RatioDrivePulley",
+      "other": "DriveFrameRightAngle0",
+      "overlap_mm3": 64.23127476332495
+    },
+    {
+      "part": "B_RatioDrivePulley",
+      "other": "DriveFrameRightDeckBolt0",
+      "overlap_mm3": 97.80362619762965
+    },
+    {
+      "part": "B_RatioDrivePulley",
+      "other": "DriveFrameRightDeckWasher0",
+      "overlap_mm3": 15.105521725616597
+    },
+    {
+      "part": "B_RatioBelt",
+      "other": "LowGearboxTray",
+      "overlap_mm3": 85.20342379210936
+    },
+    {
+      "part": "B_RatioBelt",
+      "other": "DriveFrameRightAngle0",
+      "overlap_mm3": 6.008976745557575
+    },
+    {
+      "part": "B_RatioBelt",
+      "other": "DriveFrameRightDeckBolt0",
+      "overlap_mm3": 9.112195653238796
+    },
+    {
+      "part": "B_RatioBelt",
+      "other": "DriveFrameRightDeckWasher0",
+      "overlap_mm3": 3.7121589606801826
+    },
+    {
+      "part": "B_RatioBelt",
+      "other": "DriveFrameRightAngle1",
+      "overlap_mm3": 0.41844714992211524
+    }
+  ],
+  "voices": [
+    {
+      "note": "C3",
+      "prefix": "C",
+      "old_rotation_ratio": "1",
+      "pitch_and_rotation_ratio": "1",
+      "speaking_length_mm": 330.0,
+      "arm_radius_mm": 67.19693845669907,
+      "driver_teeth": 32,
+      "driven_teeth": 32,
+      "cam_period_seconds": 20.0,
+      "belt_reference_length_mm": 120.60388679233962,
+      "small_pulley_wrap_deg": 180.0,
+      "reference_teeth_in_wrap": 16.0,
+      "driven_pitch_radius_minus_bore_mm": 5.135916357881302,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "D3",
+      "prefix": "Cs",
+      "old_rotation_ratio": "16/15",
+      "pitch_and_rotation_ratio": "9/8",
+      "speaking_length_mm": 293.3333333333333,
+      "arm_radius_mm": 59.730611961510284,
+      "driver_teeth": 36,
+      "driven_teeth": 32,
+      "cam_period_seconds": 17.77777777777778,
+      "belt_reference_length_mm": 124.66117658687762,
+      "small_pulley_wrap_deg": 174.84304796760114,
+      "reference_teeth_in_wrap": 15.541604263786768,
+      "driven_pitch_radius_minus_bore_mm": 5.135916357881302,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "E3",
+      "prefix": "D",
+      "old_rotation_ratio": "9/8",
+      "pitch_and_rotation_ratio": "5/4",
+      "speaking_length_mm": 264.0,
+      "arm_radius_mm": 53.757550765359255,
+      "driver_teeth": 40,
+      "driven_teeth": 32,
+      "cam_period_seconds": 16.0,
+      "belt_reference_length_mm": 128.83316225267092,
+      "small_pulley_wrap_deg": 169.67561458068258,
+      "reference_teeth_in_wrap": 15.08227685161623,
+      "driven_pitch_radius_minus_bore_mm": 5.135916357881302,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "G3",
+      "prefix": "Eb",
+      "old_rotation_ratio": "6/5",
+      "pitch_and_rotation_ratio": "3/2",
+      "speaking_length_mm": 220.0,
+      "arm_radius_mm": 44.797958971132715,
+      "driver_teeth": 48,
+      "driven_teeth": 32,
+      "cam_period_seconds": 13.333333333333334,
+      "belt_reference_length_mm": 137.5228663683929,
+      "small_pulley_wrap_deg": 159.26620849412268,
+      "reference_teeth_in_wrap": 14.156996310588683,
+      "driven_pitch_radius_minus_bore_mm": 5.135916357881302,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "A3",
+      "prefix": "E",
+      "old_rotation_ratio": "5/4",
+      "pitch_and_rotation_ratio": "5/3",
+      "speaking_length_mm": 198.0,
+      "arm_radius_mm": 40.318163074019445,
+      "driver_teeth": 40,
+      "driven_teeth": 24,
+      "cam_period_seconds": 12.0,
+      "belt_reference_length_mm": 121.5228663683929,
+      "small_pulley_wrap_deg": 159.26620849412268,
+      "reference_teeth_in_wrap": 10.617747232941513,
+      "driven_pitch_radius_minus_bore_mm": 2.5894372684109763,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "C4",
+      "prefix": "F",
+      "old_rotation_ratio": "4/3",
+      "pitch_and_rotation_ratio": "2",
+      "speaking_length_mm": 165.0,
+      "arm_radius_mm": 33.598469228349536,
+      "driver_teeth": 48,
+      "driven_teeth": 24,
+      "cam_period_seconds": 10.0,
+      "belt_reference_length_mm": 130.6787746596056,
+      "small_pulley_wrap_deg": 148.6802440672473,
+      "reference_teeth_in_wrap": 9.91201627114982,
+      "driven_pitch_radius_minus_bore_mm": 2.5894372684109763,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "D4",
+      "prefix": "Fs",
+      "old_rotation_ratio": "45/32",
+      "pitch_and_rotation_ratio": "9/4",
+      "speaking_length_mm": 146.66666666666666,
+      "arm_radius_mm": 29.865305980755142,
+      "driver_teeth": 54,
+      "driven_teeth": 24,
+      "cam_period_seconds": 8.88888888888889,
+      "belt_reference_length_mm": 137.85756174019824,
+      "small_pulley_wrap_deg": 140.56195603093423,
+      "reference_teeth_in_wrap": 9.37079706872895,
+      "driven_pitch_radius_minus_bore_mm": 2.5894372684109763,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "E4",
+      "prefix": "G",
+      "old_rotation_ratio": "3/2",
+      "pitch_and_rotation_ratio": "5/2",
+      "speaking_length_mm": 132.0,
+      "arm_radius_mm": 26.878775382679628,
+      "driver_teeth": 60,
+      "driven_teeth": 24,
+      "cam_period_seconds": 8.0,
+      "belt_reference_length_mm": 145.31032935075402,
+      "small_pulley_wrap_deg": 132.23161120538188,
+      "reference_teeth_in_wrap": 8.815440747025459,
+      "driven_pitch_radius_minus_bore_mm": 2.5894372684109763,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "G4",
+      "prefix": "Ab",
+      "old_rotation_ratio": "8/5",
+      "pitch_and_rotation_ratio": "3",
+      "speaking_length_mm": 110.0,
+      "arm_radius_mm": 22.398979485566358,
+      "driver_teeth": 60,
+      "driven_teeth": 20,
+      "cam_period_seconds": 6.666666666666667,
+      "belt_reference_length_mm": 142.4349694627347,
+      "small_pulley_wrap_deg": 126.52840532406873,
+      "reference_teeth_in_wrap": 7.029355851337151,
+      "driven_pitch_radius_minus_bore_mm": 1.3161977236758142,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "A4",
+      "prefix": "A",
+      "old_rotation_ratio": "5/3",
+      "pitch_and_rotation_ratio": "10/3",
+      "speaking_length_mm": 99.0,
+      "arm_radius_mm": 20.159081537009722,
+      "driver_teeth": 60,
+      "driven_teeth": 18,
+      "cam_period_seconds": 6.0,
+      "belt_reference_length_mm": 141.04520186896588,
+      "small_pulley_wrap_deg": 123.62338223956903,
+      "reference_teeth_in_wrap": 6.181169111978452,
+      "driven_pitch_radius_minus_bore_mm": 0.6795779513082323,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "C5",
+      "prefix": "Bb",
+      "old_rotation_ratio": "9/5",
+      "pitch_and_rotation_ratio": "4",
+      "speaking_length_mm": 82.5,
+      "arm_radius_mm": 16.799234614174768,
+      "driver_teeth": 64,
+      "driven_teeth": 16,
+      "cam_period_seconds": 5.0,
+      "belt_reference_length_mm": 145.07278609405563,
+      "small_pulley_wrap_deg": 114.65280483901228,
+      "reference_teeth_in_wrap": 5.095680215067212,
+      "driven_pitch_radius_minus_bore_mm": 0.04295817894065124,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    },
+    {
+      "note": "D5",
+      "prefix": "B",
+      "old_rotation_ratio": "15/8",
+      "pitch_and_rotation_ratio": "9/2",
+      "speaking_length_mm": 73.33333333333333,
+      "arm_radius_mm": 14.932652990377571,
+      "driver_teeth": 72,
+      "driven_teeth": 16,
+      "cam_period_seconds": 4.444444444444445,
+      "belt_reference_length_mm": 156.25615807178417,
+      "small_pulley_wrap_deg": 101.92514683029367,
+      "reference_teeth_in_wrap": 4.53000652579083,
+      "driven_pitch_radius_minus_bore_mm": 0.04295817894065124,
+      "procurement_status": "NOT RELEASED: catalogue pulley and belt selection pending"
+    }
+  ],
+  "production_released": false,
+  "scope": "Exact pitch/average-rotation and inverse length checks. Intersections are new drive envelope candidates, not a complete physical contact simulation. Existing frame joints remain un-detailed. Catalogue profiles and belt lengths must be selected before machining."
+}

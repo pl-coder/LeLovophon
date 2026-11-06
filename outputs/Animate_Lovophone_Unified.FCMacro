@@ -1,0 +1,36 @@
+import FreeCAD as App, FreeCADGui as Gui, json, math, time
+from FreeCAD import Vector as V
+from PySide import QtCore, QtWidgets
+lovophone_doc=App.ActiveDocument
+if lovophone_doc is None or not hasattr(lovophone_doc.Motion,'UnifiedGeometry'):raise RuntimeError('Open Lovophone_Unified_160min.FCStd first.')
+if 'lovophone_unified_timer' in globals():lovophone_unified_timer.stop()
+lovophone_rows=json.loads(lovophone_doc.Motion.UnifiedGeometry);lovophone_elapsed=0.;lovophone_start=time.monotonic();lovophone_rate=1.
+def lovophone_pose(t):
+ if lovophone_doc.getObject('SystemInput'):
+  p=lovophone_doc.SystemInput.Placement;p.Rotation=App.Rotation(V(0,0,1),360*t/400%360);lovophone_doc.SystemInput.Placement=p
+ for r in lovophone_rows:
+  theta=360*t/400
+  for kind,a in [('Driver',theta),('Wheel',math.degrees(r['release_angle_radians'])+theta*r['ratio']),('Idler',theta*r['driver_teeth']/12)]:
+   o=lovophone_doc.getObject(r['prefix']+'_'+kind)
+   if o is None:continue
+   p=o.Placement;p.Rotation=App.Rotation(V(0,0,1),a%360);o.Placement=p
+ lovophone_doc.recompute();Gui.activeDocument().activeView().redraw()
+def lovophone_tick():
+ if lovophone_doc.Name not in App.listDocuments():lovophone_unified_timer.stop();return
+ lovophone_pose(lovophone_elapsed+(time.monotonic()-lovophone_start)*lovophone_rate)
+lovophone_unified_timer=QtCore.QTimer(Gui.getMainWindow());lovophone_unified_timer.timeout.connect(lovophone_tick)
+old=Gui.getMainWindow().findChild(QtWidgets.QDockWidget,'LovophoneUnifiedControls')
+if old:old.close();old.deleteLater()
+lovophone_dock=QtWidgets.QDockWidget('Lovophone — unified 160-minute cycle',Gui.getMainWindow());lovophone_dock.setObjectName('LovophoneUnifiedControls');panel=QtWidgets.QWidget();layout=QtWidgets.QHBoxLayout(panel);button=QtWidgets.QPushButton('Pause');reset=QtWidgets.QPushButton('Reset');speed=QtWidgets.QComboBox();speed.addItems(['Normal speed','10× preview','60× preview']);layout.addWidget(button);layout.addWidget(reset);layout.addWidget(speed);layout.addWidget(QtWidgets.QLabel('Chain paths are reference geometry'));lovophone_dock.setWidget(panel);Gui.getMainWindow().addDockWidget(QtCore.Qt.BottomDockWidgetArea,lovophone_dock)
+def lovophone_toggle():
+ global lovophone_elapsed,lovophone_start
+ if lovophone_unified_timer.isActive():lovophone_elapsed+=(time.monotonic()-lovophone_start)*lovophone_rate;lovophone_unified_timer.stop();button.setText('Play')
+ else:lovophone_start=time.monotonic();lovophone_unified_timer.start(40);button.setText('Pause')
+def lovophone_reset():
+ global lovophone_elapsed,lovophone_start
+ lovophone_elapsed=0.;lovophone_start=time.monotonic();lovophone_pose(0)
+def lovophone_speed(i):
+ global lovophone_elapsed,lovophone_start,lovophone_rate
+ if lovophone_unified_timer.isActive():lovophone_elapsed+=(time.monotonic()-lovophone_start)*lovophone_rate
+ lovophone_start=time.monotonic();lovophone_rate=[1.,10.,60.][i]
+button.clicked.connect(lovophone_toggle);reset.clicked.connect(lovophone_reset);speed.currentIndexChanged.connect(lovophone_speed);lovophone_unified_timer.start(40)

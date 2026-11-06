@@ -1,0 +1,15 @@
+{
+  "duration_seconds": 20,
+  "fps": 24,
+  "frames": 480,
+  "resolution": [
+    1008,
+    630
+  ],
+  "normal_speed": true,
+  "midi_offset_seconds": 0,
+  "midi_tempo_bpm": 120,
+  "matching_midi": "Lovophone_Unified_8min_Bitwig.mid",
+  "chain_motion": "Animated smooth pitch-path reference, not validated roller/tooth contact",
+  "audio": "Silent"
+}
