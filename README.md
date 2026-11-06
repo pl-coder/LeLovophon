@@ -8,7 +8,8 @@ This repository contains the CAD, technical drawings, parts lists, tuning data, 
 
 | Purpose | File |
 |---|---|
-| Current twelve-voice Lab Frame review | [FreeCAD model](outputs/Lovophone_Lab_Frame_Ratio_Review.FCStd) |
+| New slender proportional upper-bank study | [CAD and clearance findings](outputs/LeLovophon_Slender_Bank/README.md) |
+| Current full twelve-voice Lab Frame review | [FreeCAD model](outputs/Lovophone_Lab_Frame_Ratio_Review.FCStd) |
 | Build status and supplier routes | [Lab Frame engineering review](outputs/Lovophone_Lab_Frame_Build_Review.md) |
 | Ratio audit | [Per-voice CSV](outputs/Lovophone_Lab_Frame_Ratio_Audit.csv) |
 | One-string and high-ratio physical test fixtures | [Prototype A FreeCAD](outputs/Lovophone_Prototype_A/Lovophone_Prototype_A.FCStd) |
