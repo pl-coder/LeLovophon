@@ -72,9 +72,10 @@ its output turns 1.5 times a second at 3 rpm and scales with shaft speed. The
 output axle carries an eccentric disc. A bell crank pivoted about a vertical
 pin rides the disc with its input arm and pushes a tab on the tuner block with
 its output arm, so the whole end bridge (block, saddle rail, twelve saddles)
-slides along the strings by ±0.6 mm against a return spring to the lab post.
-Every string gets the same millimetres, so the depth in cents is larger on the
-short strings: ±3 ¢ on C3, ±14 ¢ on D5 (the panel shows the current values).
+slides along the strings by 0.6 mm end to end (±0.3 mm) against a return
+spring to the lab post. Every string gets the same millimetres, so the depth
+in cents is larger on the short strings: ±1.6 ¢ on C3, ±7 ¢ on D5 (the panel
+shows the current values).
 The constants live in `sim/lovophon/model.py` (`VIBRATO_STEP_UP`,
 `VIBRATO_DEPTH_MM`, `bridge_offset_mm`). The sound side is in the Faust
 string: the bridge offset `-depth * sin(phase)` modulates each voice's delay

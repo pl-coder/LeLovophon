@@ -42,9 +42,10 @@ TWO_PI = 2.0 * math.pi
 # Vibrato (sim addition, not in the FreeCAD document): on the tuning end the
 # input shaft drives a 30:1 step-up (60/10 then 50/10) whose output carries an
 # eccentric; a bell crank pushes the floating tuner block along the strings by
-# -VIBRATO_DEPTH_MM * sin(phase). Every string sees the same millimetres.
+# -VIBRATO_DEPTH_MM * sin(phase): 0.6 mm end to end. Every string sees the
+# same millimetres.
 VIBRATO_STEP_UP = 30
-VIBRATO_DEPTH_MM = 0.6
+VIBRATO_DEPTH_MM = 0.3
 
 POSE_KINDS = ("Driver", "Output", "LongArmRotor", "Rocker")
 
