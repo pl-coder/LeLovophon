@@ -59,31 +59,33 @@ bridge changes the speaking length and so the pitch, while the cam ratio stays
 fixed by the pulleys. That is the real machine detuning from its own rhythm,
 and the point of the slider.
 
-A brass crank on the free end of the input shaft (the end away from the tuner
-block) turns with the C3 driver so the shaft speed can be read at a glance.
-Inboard of it a single-start worm drives a 24-tooth wheel carrying a needle
-over a dial with 24 ticks: one tick per shaft turn, one needle turn per
-480 s cycle. The 24:1 comes in one step because 24 is the least common
-multiple of the ratio denominators, so no further reduction is needed.
+Everything added to the shaft sits on its tuning end, outboard of where the
+CAD shaft stops, on a brass extension: in order from the machine outward, the
+worm for the cycle dial, the vibrato step-up, a cheek carrying the bearings,
+and a crank handle so the shaft speed can be read at a glance. The single-start
+worm drives a 24-tooth wheel carrying a needle over a dial with 24 ticks: one
+tick per shaft turn, one needle turn per 480 s cycle, since 24 is the least
+common multiple of the ratio denominators.
+
+**Vibrato.** The step-up is two gear stages, 60/10 then 50/10, 30:1 in all, so
+its output turns 1.5 times a second at 3 rpm and scales with shaft speed. The
+output axle carries an eccentric disc. A bell crank pivoted about a vertical
+pin rides the disc with its input arm and pushes a tab on the tuner block with
+its output arm, so the whole end bridge (block, saddle rail, twelve saddles)
+slides along the strings by ±0.6 mm against a return spring to the lab post.
+Every string gets the same millimetres, so the depth in cents is larger on the
+short strings: ±3 ¢ on C3, ±14 ¢ on D5 (the panel shows the current values).
+The constants live in `sim/lovophon/model.py` (`VIBRATO_STEP_UP`,
+`VIBRATO_DEPTH_MM`, `bridge_offset_mm`). The sound side is in the Faust
+string: the bridge offset `-depth * sin(phase)` modulates each voice's delay
+line through its speaking length, with the phase integrated from the same
+rate in Faust and the model.
+
 Each voice has its own colour, shown as a swatch in the panel and painted on
 its whole drivetrain (driver pulley, driven pulley and cam, follower, arm and
 pick); the string itself stays nylon-coloured and a halo in the voice colour
-flashes around it when plucked. The crank, the dial and the colours are visual
-aids the real machine does not have.
-
-**Vibrato.** On the tuning end the input shaft, which stops just short of the
-tuner block, drives a step-up whose output carries an eccentric disc. A bell
-crank pivoted about a vertical pin rides the disc with its input arm and pushes
-a tab on the tuner block with its output arm, so the whole end bridge (block,
-saddle rail, twelve saddles) slides along the strings against a return spring.
-Every string gets the same millimetres, so the depth in cents is larger on the
-short strings (the panel shows the extremes). The step-up is drawn as a sealed
-housing while its ratio is a slider, 1:1 to 200:1 (5 Hz at 3 rpm for 100:1,
-scaling with shaft speed); once a ratio is chosen the real stages replace the
-housing. Depth is a slider too, 0 to 3 mm; 0 lifts the roller off. The sound
-side is in the Faust string: the bridge offset `-depth * sin(phase)` modulates
-each voice's delay line through its speaking length, and the phase is
-integrated from the same piecewise-constant rate in both Faust and the page.
+flashes around it when plucked. The crank, the dial, the vibrato and the
+colours are visual aids the real machine does not have.
 
 The model is always evaluated at the reference 3 rpm in "machine time"; the
 page advances machine time at rpm/3 of wall time, so a speed change never makes

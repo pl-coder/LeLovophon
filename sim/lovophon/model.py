@@ -39,6 +39,13 @@ DRIVER_AXIS_Z = -131.0
 DEFAULT_INPUT_RPM = 3.0
 TWO_PI = 2.0 * math.pi
 
+# Vibrato (sim addition, not in the FreeCAD document): on the tuning end the
+# input shaft drives a 30:1 step-up (60/10 then 50/10) whose output carries an
+# eccentric; a bell crank pushes the floating tuner block along the strings by
+# -VIBRATO_DEPTH_MM * sin(phase). Every string sees the same millimetres.
+VIBRATO_STEP_UP = 30
+VIBRATO_DEPTH_MM = 0.6
+
 POSE_KINDS = ("Driver", "Output", "LongArmRotor", "Rocker")
 
 
@@ -310,6 +317,20 @@ def speaking_frequency(row: dict, length_mm: float, tuning_hz: float | None = No
     """
     base = tuning_hz if tuning_hz is not None else row["frequency_hz"]
     return base * row["speaking_length"] / length_mm
+
+
+def vibrato_phase(t: float, rpm: float = DEFAULT_INPUT_RPM) -> float:
+    """Turns of the vibrato eccentric after ``t`` seconds at ``rpm``."""
+    return (rpm / 60.0) * t * VIBRATO_STEP_UP
+
+
+def bridge_offset_mm(t: float, rpm: float = DEFAULT_INPUT_RPM) -> float:
+    """Where the floating end bridge sits along X at time ``t`` (mm).
+
+    Negative shortens every speaking length, so pitch rises; pass the
+    result to ``speaking_frequency`` added to the voice's length.
+    """
+    return -VIBRATO_DEPTH_MM * math.sin(TWO_PI * vibrato_phase(t, rpm))
 
 
 def poses_flat(design: dict, t: float, rpm: float = DEFAULT_INPUT_RPM) -> list[float]:

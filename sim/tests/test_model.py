@@ -126,6 +126,18 @@ class KinematicsTests(unittest.TestCase):
         self.assertAlmostEqual(model.speaking_frequency(row, 165.0), 2 * row["frequency_hz"])
         self.assertAlmostEqual(model.speaking_frequency(row, 165.0, tuning_hz=100.0), 200.0)
 
+    def test_vibrato_bridge_offset(self):
+        # 30 eccentric turns per shaft turn; a quarter turn in is full depth.
+        self.assertAlmostEqual(model.vibrato_phase(20.0), 30.0)
+        self.assertAlmostEqual(model.bridge_offset_mm(0.0), 0.0)
+        quarter = (20.0 / model.VIBRATO_STEP_UP) / 4
+        self.assertAlmostEqual(model.bridge_offset_mm(quarter), -model.VIBRATO_DEPTH_MM)
+        self.assertAlmostEqual(model.bridge_offset_mm(3 * quarter), model.VIBRATO_DEPTH_MM)
+        self.assertAlmostEqual(model.bridge_offset_mm(quarter, rpm=6.0), model.bridge_offset_mm(2 * quarter))
+        row = self.voices[0]
+        up = model.speaking_frequency(row, row["speaking_length"] + model.bridge_offset_mm(quarter))
+        self.assertGreater(up, row["frequency_hz"])
+
     def test_tuning_override_changes_frequency_not_timing(self):
         base = model.pluck_events(self.design, 60.0)
         tuned = model.pluck_events(self.design, 60.0, tunings={"C3": 128.0})
