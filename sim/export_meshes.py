@@ -16,6 +16,9 @@ Nodes in the GLB:
   sets each node's translation and X-axis rotation from ``sim.lovophon.poses``.
 - ``<note>_bridge``: the voice's third bridge and crown, in world coordinates,
   so the page can slide it along X when the bridge slider moves.
+- ``bridge_float``: the tuner block, its saddle rail and the twelve tuner
+  saddles, in world coordinates: the end bridge the page's vibrato mechanism
+  pushes along X. Extras carry its bounding box in mm.
 - ``static``: every other visible solid, in world coordinates.
 
 Hidden objects (the saved presentation hides the motor and the obsolete tray
@@ -237,6 +240,15 @@ def main():
         builder.node(f"{n}_bridge", prims_for([b for b in bridge if b], local=False), {"voice": row["display_note"], "kind": "bridge", "bridge_x_mm": row["bridge_x"]})
         string = [doc.getObject(f"{n}_KotoSpeakingString")]
         builder.node(f"{n}_string", prims_for([s for s in string if s], local=False), {"voice": row["display_note"], "kind": "string"})
+
+    floating = [doc.getObject("KotoTunerBlock"), doc.getObject("KotoTunerSaddleRail")]
+    floating += [doc.getObject(f"{row['note']}_TunerNylonSaddle") for row in rows]
+    floating = [o for o in floating if o is not None]
+    bb = None
+    for o in floating:
+        b = world_shape(o).BoundBox
+        bb = b if bb is None else bb.united(b)
+    builder.node("bridge_float", prims_for(floating, local=False), {"kind": "bridge_float", "bbox_mm": [bb.XMin, bb.XMax, bb.YMin, bb.YMax, bb.ZMin, bb.ZMax]} if bb else None)
 
     rest = [o for o in doc.Objects if o.TypeId == "Part::Feature" and o.Name not in claimed]
     builder.node("static", prims_for(rest, local=False))

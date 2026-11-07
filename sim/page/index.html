@@ -21,7 +21,7 @@
   #time { font-variant-numeric: tabular-nums; margin-left: auto; color: var(--muted); }
   .bar { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
   .bar div { height: 100%; width: 0; background: var(--accent); }
-  #repeat { color: var(--muted); font-size: 12px; }
+  #repeat, .note { color: var(--muted); font-size: 12px; }
   label { display: grid; grid-template-columns: 56px 1fr 64px; gap: 8px; align-items: center; font-size: 12px; color: var(--muted); }
   label span { text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
   input[type=range] { width: 100%; accent-color: var(--accent); }
@@ -72,6 +72,12 @@
       <label>volume <input type="range" id="gain" min="0" max="1" step="0.01" value="0.4"><span></span></label>
       <label>decay <input type="range" id="t60" min="0.2" max="12" step="0.1" value="3"><span></span></label>
       <label>bright <input type="range" id="bright" min="500" max="12000" step="50" value="5200"><span></span></label>
+    </div>
+    <div class="group">
+      <h2>Vibrato — end bridge on the shaft</h2>
+      <label>step-up <input type="range" id="vib-ratio" min="1" max="200" step="1" value="100"><span id="vib-ratio-value">100:1</span></label>
+      <label>depth <input type="range" id="vib-depth" min="0" max="3" step="0.05" value="1"><span id="vib-depth-value">±1.0 mm</span></label>
+      <div id="vib-note" class="note"></div>
     </div>
     <div class="group">
       <h2>Tuning</h2>

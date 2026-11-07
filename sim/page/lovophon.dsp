@@ -10,10 +10,18 @@
 //   freq%i   Hz          string pitch
 //   trig%i   0/1         rising edge plucks; the page schedules it as an AudioParam
 //   dir%i    -1/+1       pick direction, flips the excitation polarity
+//   len%i    mm          speaking length, so a bridge offset in mm becomes pitch
 // Global:
 //   gain     0..1        master
 //   t60      seconds     decay to -60 dB
 //   bright   Hz          loop low-pass cutoff
+//   vibhz    Hz          vibrato rate: the end bridge's eccentric, turns per second
+//   vibmm    mm          vibrato depth: the end bridge's travel amplitude
+//
+// Vibrato is the whole end bridge moving along the strings by
+// d = -vibmm * sin(phase), phase integrated from vibhz, so every voice sees
+// freq * len / (len + d): the same millimetres, more cents on the short
+// strings. The page mirrors the phase by integrating the same rate.
 //
 // Build:  faust -lang wasm-e -o sim/page/dsp/lovophon.wasm sim/page/lovophon.dsp
 // This is a listening model, not a measurement of any real string.
@@ -26,14 +34,20 @@ declare author "Langford and Love's Musical Doohickey Corporation";
 gain   = hslider("gain", 0.4, 0, 1, 0.001) : si.smoo;
 t60    = hslider("t60", 3.0, 0.2, 12, 0.01);
 bright = hslider("bright", 5200, 500, 12000, 1);
+vibhz  = hslider("vibhz", 0, 0, 60, 0.0001);
+vibmm  = hslider("vibmm", 0, 0, 3, 0.001) : si.smoo;
+// Bridge offset in mm; negative shortens the strings. Holds when vibhz is 0.
+bridgeOffset = 0 - vibmm * sin(2 * ma.PI * os.phasor(1, vibhz));
 
 maxDelay = 8192;
 
 voice(i) = excitation : string
 with {
-    freq = hslider("freq%i", 220, 20, 4000, 0.001) : si.smoo;
+    base = hslider("freq%i", 220, 20, 4000, 0.001) : si.smoo;
     trig = hslider("trig%i", 0, 0, 1, 1);
     dir  = hslider("dir%i", 1, -1, 1, 2);
+    len  = hslider("len%i", 330, 20, 400, 0.001);
+    freq = base * len / (len + bridgeOffset);
 
     // Delay in samples for one period, minus the loop filter's own delay.
     period = ma.SR / freq;

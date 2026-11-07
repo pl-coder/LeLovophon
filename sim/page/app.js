@@ -54,6 +54,11 @@ const ui = {
   t60: document.getElementById("t60"),
   bright: document.getElementById("bright"),
   preset: document.getElementById("preset"),
+  vibRatio: document.getElementById("vib-ratio"),
+  vibRatioValue: document.getElementById("vib-ratio-value"),
+  vibDepth: document.getElementById("vib-depth"),
+  vibDepthValue: document.getElementById("vib-depth-value"),
+  vibNote: document.getElementById("vib-note"),
   voices: document.getElementById("voices"),
   canvas: document.getElementById("view"),
 };
@@ -74,6 +79,10 @@ const state = {
   strings: [], // per voice: {mesh, material, glow}
   crank: null,
   dial: null,
+  // Vibrato: the end bridge pushed along the strings by an eccentric on a
+  // step-up from the input shaft. Phase is integrated in audio time from a
+  // piecewise-constant rate, exactly as the Faust phasor integrates it.
+  vib: { ratio: 100, depthMm: 1, rate: 0, phase0: 0, wall0: 0, bridge: null, eccentric: null, disc: null, crank: null },
   audio: null,
   node: null,
   flashTimers: [],
@@ -156,6 +165,8 @@ async function loadMeshes() {
   const staticNode = state.nodes.get("static");
   const extras = (staticNode && staticNode.userData) || {};
   buildCrank(extras.input_shaft_mm);
+  const floating = state.nodes.get("bridge_float");
+  if (floating) buildVibrato(extras.input_shaft_mm, floating.userData.bbox_mm, floating);
   const box = new THREE.Box3().setFromObject(root);
   const centre = box.getCenter(new THREE.Vector3());
   const size = box.getSize(new THREE.Vector3()).length();
@@ -294,6 +305,160 @@ function buildDial(shaft, brass) {
   state.dial = rotor;
 }
 
+// Vibrato mechanism on the tuning end of the input shaft. The step-up itself
+// is a sealed housing while the ratio is still a slider; out of it comes a
+// fast shaft carrying an eccentric. A bell crank pivoted about a vertical
+// axis rides the eccentric with its input arm (along the shaft) and pushes a
+// tab on the floating tuner block with its output arm (toward the strings),
+// so the block slides along X against a return spring to the lab post.
+// All dimensions in mm, converted at the end.
+const VIB_ARM_IN = 17.5; // pivot to roller, along X
+const VIB_ARM_OUT = 25; // pivot to tab, along Z
+const VIB_DISC_R = 8;
+function buildVibrato(shaft, bbox, floating) {
+  if (!shaft || !bbox) return;
+  const brass = new THREE.MeshStandardMaterial({ color: 0xc29645, metalness: 0.4, roughness: 0.45 });
+  const steel = new THREE.MeshStandardMaterial({ color: 0x9aa0a6, metalness: 0.6, roughness: 0.4 });
+  const dark = new THREE.MeshStandardMaterial({ color: 0x3a3a3c, roughness: 0.7 });
+  const axisY = shaft.y;
+  const axisZ = shaft.z;
+  const x0 = shaft.x_max; // 314.6: where the CAD shaft ends
+  const g = new THREE.Group(); // built in mm, scaled once
+  g.scale.setScalar(0.001);
+  const add = (geom, mat, x, y, z, rot) => {
+    const m = new THREE.Mesh(geom, mat);
+    m.position.set(x, y, z);
+    if (rot) m.rotation.set(rot[0], rot[1], rot[2]);
+    g.add(m);
+    return m;
+  };
+  const alongX = [0, 0, Math.PI / 2];
+  // Coupling from the shaft end into the housing, and the housing.
+  add(new THREE.CylinderGeometry(4, 4, 4, 24), steel, x0 + 1.5, axisY, axisZ, alongX);
+  add(new THREE.BoxGeometry(12, 20, 20), dark, x0 + 9.5, axisY, axisZ);
+  // Fast output shaft and the eccentric disc on it.
+  add(new THREE.CylinderGeometry(1.5, 1.5, 14, 16), brass, x0 + 22.5, axisY, axisZ, alongX);
+  const ecc = new THREE.Group();
+  ecc.position.set(x0 + 21, axisY, axisZ);
+  const disc = new THREE.Mesh(new THREE.CylinderGeometry(VIB_DISC_R, VIB_DISC_R, 5, 48), brass);
+  disc.rotation.z = Math.PI / 2;
+  const mark = new THREE.Mesh(new THREE.BoxGeometry(1.2, 5.2, 1), dark);
+  mark.position.set(VIB_DISC_R - 1.2, 0, 0); // on the rim, in the disc's local frame
+  disc.add(mark);
+  const discHolder = new THREE.Group(); // offset by the throw, set from the depth slider
+  discHolder.add(disc);
+  ecc.add(discHolder);
+  g.add(ecc);
+  // Bell crank: pivot post on the housing's front face, arms, roller, pad.
+  const px = x0 + 21 - VIB_ARM_IN;
+  const pz = axisZ + VIB_DISC_R + 3; // roller (r 3) rests on the disc rim
+  add(new THREE.CylinderGeometry(1.5, 1.5, 16, 16), steel, px, axisY - 6, pz); // pivot pin, vertical
+  add(new THREE.BoxGeometry(6, 3, 10), dark, px, axisY - 14, pz - 3); // its bracket
+  const crank = new THREE.Group();
+  crank.position.set(px, axisY, pz);
+  const armIn = new THREE.Mesh(new THREE.BoxGeometry(VIB_ARM_IN - 2, 3, 2.5), brass);
+  armIn.position.set((VIB_ARM_IN - 2) / 2, 0, 0);
+  const rollerPin = new THREE.Mesh(new THREE.CylinderGeometry(0.8, 0.8, 7, 12), steel);
+  rollerPin.rotation.z = Math.PI / 2;
+  rollerPin.position.set(VIB_ARM_IN, 0, 0);
+  const roller = new THREE.Mesh(new THREE.CylinderGeometry(3, 3, 4, 24), steel);
+  roller.rotation.z = Math.PI / 2;
+  roller.position.set(VIB_ARM_IN, 0, 0);
+  const armOut = new THREE.Mesh(new THREE.BoxGeometry(2.5, 3, VIB_ARM_OUT), brass);
+  armOut.position.set(0, 0, VIB_ARM_OUT / 2);
+  const pad = new THREE.Mesh(new THREE.CylinderGeometry(1.5, 1.5, 3, 16), steel);
+  pad.rotation.x = Math.PI / 2;
+  pad.position.set(-1.5, 0, VIB_ARM_OUT);
+  const boss = new THREE.Mesh(new THREE.CylinderGeometry(3, 3, 3.5, 20), brass);
+  crank.add(armIn, rollerPin, roller, armOut, pad, boss);
+  g.add(crank);
+  scene.add(g);
+  // Lever tab on the floating block's near end face, and the return spring
+  // from the tab toward the lab post, both carried by the block (metres).
+  const carried = new THREE.Group();
+  carried.scale.setScalar(0.001);
+  const tab = new THREE.Mesh(new THREE.BoxGeometry(4, 22, 4), brass);
+  tab.position.set(px - 5, axisY - 7, bbox[4] - 2);
+  const spring = new THREE.Mesh(springGeometry(13, 2.2, 0.5, 9), steel);
+  spring.scale.setScalar(1000); // springGeometry is in metres
+  spring.position.set(px - 3 + 6.5, axisY - 14, bbox[4] - 2);
+  carried.add(tab, spring);
+  floating.add(carried);
+  state.vib.bridge = floating;
+  state.vib.eccentric = ecc;
+  state.vib.disc = discHolder;
+  state.vib.crank = crank;
+  applyVibratoDepth();
+}
+
+// A coil spring along local X: length, coil radius, wire radius, turns (mm).
+function springGeometry(length, radius, wire, turns) {
+  const pts = [];
+  const n = turns * 24;
+  for (let i = 0; i <= n; i++) {
+    const t = i / n;
+    const a = t * turns * 2 * Math.PI;
+    pts.push(new THREE.Vector3((t - 0.5) * length / 1000, Math.cos(a) * radius / 1000, Math.sin(a) * radius / 1000));
+  }
+  return new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), n, wire / 1000, 8, false);
+}
+
+// Eccentric throw for the depth slider: the bell crank multiplies it by
+// VIB_ARM_OUT / VIB_ARM_IN at the bridge.
+function applyVibratoDepth() {
+  const throwMm = state.vib.depthMm * VIB_ARM_IN / VIB_ARM_OUT;
+  if (state.vib.disc) state.vib.disc.position.y = throwMm; // the group is in mm
+}
+
+function vibratoRate() {
+  return state.playing ? (state.rpm / 60) * state.vib.ratio : 0;
+}
+
+function vibratoPhase() {
+  const t = state.audio ? state.audio.currentTime : 0;
+  return state.vib.phase0 + (t - state.vib.wall0) * state.vib.rate;
+}
+
+// Re-anchor the phase and push the new rate to Faust: call on any change of
+// rpm, ratio or play state.
+function setVibratoRate() {
+  state.vib.phase0 = vibratoPhase();
+  state.vib.wall0 = state.audio ? state.audio.currentTime : 0;
+  state.vib.rate = vibratoRate();
+  if (state.node) param("vibhz").setValueAtTime(state.vib.rate, state.audio.currentTime);
+}
+
+// Bridge offset in mm at the current phase, matching Faust's bridgeOffset.
+function bridgeOffsetMm() {
+  return -state.vib.depthMm * Math.sin(2 * Math.PI * vibratoPhase());
+}
+
+function applyVibrato() {
+  const v = state.vib;
+  if (!v.bridge) return;
+  const phi = 2 * Math.PI * vibratoPhase();
+  v.eccentric.rotation.x = phi;
+  // Roller follows the disc rim in Z; the crank turns about Y by -throw sin / arm.
+  const throwMm = v.depthMm * VIB_ARM_IN / VIB_ARM_OUT;
+  v.crank.rotation.y = -(throwMm * Math.sin(phi)) / VIB_ARM_IN;
+  v.bridge.position.x = bridgeOffsetMm() / 1000;
+}
+
+function updateVibratoReadouts() {
+  const hz = (state.rpm / 60) * state.vib.ratio;
+  ui.vibRatioValue.textContent = `${state.vib.ratio}:1`;
+  ui.vibDepthValue.textContent = `±${state.vib.depthMm.toFixed(2)} mm`;
+  const cents = (v) => {
+    const L = state.voices[v].lengthMm;
+    return 1200 * Math.log2(L / (L - state.vib.depthMm));
+  };
+  const voices = state.design.voices;
+  if (!voices || state.voices.length < voices.length) return;
+  const lo = voices[0].display_note;
+  const hi = voices[voices.length - 1].display_note;
+  ui.vibNote.textContent = `${hz.toFixed(2)} Hz at ${state.rpm.toFixed(1)} rpm · ±${cents(0).toFixed(1)} ¢ on ${lo}, ±${cents(voices.length - 1).toFixed(1)} ¢ on ${hi}`;
+}
+
 // Each speaking string keeps its own nylon material; a transparent coloured
 // halo around it, invisible at rest, lights up when the string is plucked.
 function buildStrings() {
@@ -382,7 +547,12 @@ async function loadAudio() {
   param("gain").value = parseFloat(ui.gain.value);
   param("t60").value = parseFloat(ui.t60.value);
   param("bright").value = parseFloat(ui.bright.value);
-  for (let v = 0; v < 12; v++) param(`freq${v}`).value = voiceFrequency(v);
+  for (let v = 0; v < 12; v++) {
+    param(`freq${v}`).value = voiceFrequency(v);
+    param(`len${v}`).value = state.voices[v].lengthMm;
+  }
+  param("vibmm").value = state.vib.depthMm;
+  param("vibhz").value = state.vib.rate;
 }
 
 function param(name) {
@@ -522,7 +692,11 @@ function buildVoiceRows() {
       el.querySelector(`#len-val-${v}`).textContent = `${state.voices[v].lengthMm.toFixed(1)} mm`;
       el.querySelector(`#hz-${v}`).textContent = `${voiceFrequency(v).toFixed(2)} Hz`;
       applyBridge(v);
-      if (state.node) param(`freq${v}`).setValueAtTime(voiceFrequency(v), state.audio.currentTime);
+      if (state.node) {
+        param(`freq${v}`).setValueAtTime(voiceFrequency(v), state.audio.currentTime);
+        param(`len${v}`).setValueAtTime(state.voices[v].lengthMm, state.audio.currentTime);
+      }
+      updateVibratoReadouts();
     };
     tune.addEventListener("input", refresh);
     // A hand-moved tuning slider turns the preset menu to Custom; applyPreset
@@ -564,12 +738,14 @@ ui.play.addEventListener("click", async () => {
     state.T = currentT();
     state.playing = false;
     cancelScheduled();
+    setVibratoRate();
     ui.play.textContent = "Play";
   } else {
     state.T0 = state.T;
     state.wall0 = state.audio.currentTime;
     state.scheduledT = state.T;
     state.playing = true;
+    setVibratoRate();
     ui.play.textContent = "Pause";
     // Schedule from a timer as well as from frames, so a background tab
     // (where requestAnimationFrame stalls) keeps plucking.
@@ -587,6 +763,8 @@ ui.reset.addEventListener("click", () => {
     state.node.port.postMessage({ type: "clear" });
   }
   state.scheduledT = 0;
+  state.vib.phase0 = 0;
+  state.vib.wall0 = state.audio ? state.audio.currentTime : 0;
 });
 
 ui.rpm.addEventListener("input", () => {
@@ -600,6 +778,21 @@ ui.rpm.addEventListener("input", () => {
     rebase();
     state.scheduledT = state.T;
   }
+  setVibratoRate();
+  updateVibratoReadouts();
+});
+
+ui.vibRatio.addEventListener("input", () => {
+  state.vib.ratio = parseInt(ui.vibRatio.value, 10);
+  setVibratoRate();
+  updateVibratoReadouts();
+});
+
+ui.vibDepth.addEventListener("input", () => {
+  state.vib.depthMm = parseFloat(ui.vibDepth.value);
+  applyVibratoDepth();
+  if (state.node) param("vibmm").setValueAtTime(state.vib.depthMm, state.audio.currentTime);
+  updateVibratoReadouts();
 });
 
 for (const name of ["gain", "t60", "bright"]) {
@@ -622,6 +815,7 @@ function frame(now) {
     state.lastFrame = now;
     decayGlow(Math.min(dt, 0.1));
     applyPoses(currentT());
+    applyVibrato();
     updateReadouts();
     controls.update();
     renderer.render(scene, camera);
@@ -639,6 +833,7 @@ async function main() {
     buildVoiceRows();
     buildStrings();
     applyPoses(0);
+    updateVibratoReadouts();
     ui.rpmValue.textContent = `${state.rpm.toFixed(1)} rpm`;
     setStatus("");
     ui.overlay.classList.add("hidden");

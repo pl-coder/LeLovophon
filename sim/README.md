@@ -46,7 +46,7 @@ First load is a few seconds while Pyodide starts.
 | Layer | Where | Role |
 |---|---|---|
 | Python in Pyodide | `sim/lovophon` unchanged | poses for the 48 moving groups every frame; plucks in a short lookahead |
-| three.js | `assets/lovophon.glb` | the CAD, one node per moving group, one per third bridge, one static |
+| three.js | `assets/lovophon.glb` | the CAD, one node per moving group, one per third bridge, one for the floating end bridge, one static |
 | Faust in an AudioWorklet | `lovophon.dsp` → `dsp/lovophon.wasm` | twelve Karplus-Strong nylon strings, plucks scheduled on the audio clock |
 
 Controls: play, pause, reset; shaft speed in rpm (the machine's one real knob:
@@ -71,6 +71,20 @@ pick); the string itself stays nylon-coloured and a halo in the voice colour
 flashes around it when plucked. The crank, the dial and the colours are visual
 aids the real machine does not have.
 
+**Vibrato.** On the tuning end the input shaft, which stops just short of the
+tuner block, drives a step-up whose output carries an eccentric disc. A bell
+crank pivoted about a vertical pin rides the disc with its input arm and pushes
+a tab on the tuner block with its output arm, so the whole end bridge (block,
+saddle rail, twelve saddles) slides along the strings against a return spring.
+Every string gets the same millimetres, so the depth in cents is larger on the
+short strings (the panel shows the extremes). The step-up is drawn as a sealed
+housing while its ratio is a slider, 1:1 to 200:1 (5 Hz at 3 rpm for 100:1,
+scaling with shaft speed); once a ratio is chosen the real stages replace the
+housing. Depth is a slider too, 0 to 3 mm; 0 lifts the roller off. The sound
+side is in the Faust string: the bridge offset `-depth * sin(phase)` modulates
+each voice's delay line through its speaking length, and the phase is
+integrated from the same piecewise-constant rate in both Faust and the page.
+
 The model is always evaluated at the reference 3 rpm in "machine time"; the
 page advances machine time at rpm/3 of wall time, so a speed change never makes
 a cam jump.
@@ -88,6 +102,10 @@ faust -lang wasm -o sim/page/dsp/lovophon.wasm sim/page/lovophon.dsp
 The exporter reads colours and visibility from the saved document, so hidden
 presentation parts (motor, obsolete tray) are left out. The GLB is about 3 MB
 at 0.5 mm / 0.6 rad deflection.
+
+The Karplus-Strong loop compensates one sample for its low-pass filter; at
+low `bright` settings the filter's real delay is longer and the string plays a
+little flat (about 2 % at 1500 Hz for C3, 0.2 % at the default 5200 Hz).
 
 This is ideal kinematics and a listening model. It models no belt ripple,
 pick compliance, string acoustics or motor regulation, and proves nothing
