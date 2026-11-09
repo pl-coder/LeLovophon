@@ -1,0 +1,15 @@
+Generated audio/video files named below are retained locally and intentionally excluded from this repository. This folder preserves their settings, credits and checks.
+
+# Le Lovophon — Paris studio, sixteen minutes
+
+LeLovophon_Paris_Close_16min.mp4 is 960 seconds, 1600 x900, H.264 picture and 320 kb/s AAC stereo harp audio. Two identical eight-minute cycles give two complete 360-degree camera rotations. Each cycle has 5760 rendered motion samples at 12 fps, delivered at 24 fps by frame duplication. The zero pose is included at both ends, as in the preceding corrected film, with the same slight endpoint-inclusive clock convention. The sampled harp event times already match that convention.
+
+The camera keeps a 0.95 m radius around the Lovophon. Its elevation gently follows 16 +/-5 degrees over each eight-minute orbit, looking towards a fixed target and returning to its initial transform at 8 and 16 minutes. Instrument framing was checked at 97 poses. The table remains contextual and is intentionally cropped in this closer composition. The photographic backdrop sits outside the orbit, so the opposite side reveals the studio. There are no people.
+
+The 50 mm camera uses f/1.8 depth of field focused on the Lovophon, for a very narrow sharp region and strongly softened foreground/background, giving a miniature-like selective-focus effect. Warm side light, a low cool fill, warm rim, captured reflections, baked indirect light and screen-space ray tracing refine the material response. Tiny render-only bevels provide machined edge highlights; CAD geometry is unchanged. The parquet is stained dark brown.
+
+The room is a procedurally built Parisian-inspired set, rather than a photograph of a real address. The Louis XV-style walnut table includes cabriole legs, rocaille apron decoration, restrained ormolu and marquetry borders. The set includes a white seamless paper sweep, chevron parquet, tall French windows, cream wall mouldings and lighting stands. The corrected mechanism and its ratios are unchanged. This is a visualization of an engineering prototype, not physical proof or a manufactured antique table specification.
+
+The sound uses K. Smith's concert-harp recordings from the Versilian Community Sample Library, edited/mapped by FreePats, under CC0. Source and credits are in the adjacent Sound folder. Exact just-intonation ratios and pluck times remain unchanged. A light convolution of Voxengo's modelled French 18th Century Salon response supplies room ambience: wet RMS 16 dB below dry, 12 ms predelay, wet-only 180 Hz highpass / 6.5 kHz lowpass. This is a designed acoustic match, not a measurement of the pictured studio. Voxengo permits royalty-free processing including commercial use. Its raw IR is not redistributed. See Salon_Reverb_Details.json and https://www.voxengo.com/impulses/ .
+
+LeLovophon_8min_Harp_Salon.wav is the looped 48 kHz/24-bit stereo audio source; it is repeated twice in the movie. The .blend is a scene snapshot for the accompanying render recipe, not a baked animation. Media remains local and is not uploaded to GitHub.

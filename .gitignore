@@ -28,3 +28,20 @@ work/*status*.json
 work/blender-runtime/
 .env
 .env.*
+
+# Current rendering intermediates and third-party sound downloads
+work/*_mesh*.json
+work/harp_samples/
+work/studio_ir/
+*.aif
+*.aiff
+*.ogg
+*.m4a
+*.webm
+*.mkv
+*.exr
+*.tif
+*.tiff
+*.tar
+*.xz
+*.sf2

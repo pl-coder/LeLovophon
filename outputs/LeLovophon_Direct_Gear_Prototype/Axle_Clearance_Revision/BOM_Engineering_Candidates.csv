@@ -1,0 +1,15 @@
+part,quantity,specification,status
+Common drive shaft,1,"5 mm steel,320 mm long",Shaft locking and journals to detail
+Driver spur gears,12,"Module0.5,20 degree,4 mm face; tooth counts in voice table",Custom or supplier-confirmed parts; no approved SKU
+Output spur gears,12,Same module/pressure angle;3 mm shaft,Custom or supplier-confirmed parts; no approved SKU
+Integral crank shafts and flanges,12,3 mm shaft from station -14 to +4 mm; flange 24 mm OD x2 mm from +2 to +4 mm; 10 mm pin throw,"Turned machining candidate; bearing thrust clearance, material, fits, gear locking and pin installation not released"
+Pendulum shafts,12,3 mm steel,Axial retention and torque transfer not detailed
+683 bearings,48,3 x7 x3 mm,Catalogue envelope; fits and approved SKU pending
+MR105 bearings,4,5 x10 x4 mm,Catalogue envelope; fits and approved SKU pending
+Carrier plates,24,"3 mm aluminium, narrow outline",Bearing fits/retainer threads to finish
+Rocker levers,12,"14 mm pin centres,2 mm aluminium",Hub locking to finish
+POM coupling rods,12,"2 mm thick, length per voice",3.04 mm nominal trial pin bores; fit/wear test
+Journal pins,24,3 mm nominal,"Specify shoulders, threads and positive retention before release"
+Pendulum tubes,12,"4 mm OD,2 mm ID aluminium",109/ratio pivot-to-string radii; mounting details pending
+Flexible picks,12,0.5 mm PET geometry candidate,Clean bidirectional release and neighbouring string clearance need testing
+Hand input wheel,1,50 mm OD with free-turning grip,"Prototype input, no motor fitted"

@@ -1,0 +1,122 @@
+{
+  "duration_seconds": 480,
+  "source": "https://freepats.zenvoid.org/OrchestralStrings/harp.html",
+  "licence": "CC0 1.0",
+  "performer": "K. Smith",
+  "original_library": "Versilian Community Sample Library, Versilian Studios LLC",
+  "mapping": "FreePats Concert Harp 2020-07-02",
+  "sources": [
+    {
+      "string": 1,
+      "sample": "samples/C3_mf3.wav",
+      "sample_keycenter": 48,
+      "library_tune_cents": 1.0,
+      "ji_correction_cents": 0.0,
+      "playback_speed": 1.0005777895065548,
+      "duration_seconds": 6.4651875
+    },
+    {
+      "string": 2,
+      "sample": "samples/C3_mf3.wav",
+      "sample_keycenter": 48,
+      "library_tune_cents": 1.0,
+      "ji_correction_cents": 3.9100017307748374,
+      "playback_speed": 1.1256500131948741,
+      "duration_seconds": 5.746833333333333
+    },
+    {
+      "string": 3,
+      "sample": "samples/E3_mf1.wav",
+      "sample_keycenter": 52,
+      "library_tune_cents": 2.0,
+      "ji_correction_cents": -13.686286135165176,
+      "playback_speed": 0.9932724682802141,
+      "duration_seconds": 6.829916666666667
+    },
+    {
+      "string": 4,
+      "sample": "samples/G3_mf1.wav",
+      "sample_keycenter": 55,
+      "library_tune_cents": 1.0,
+      "ji_correction_cents": 1.955000865387433,
+      "playback_speed": 1.0017083329730287,
+      "duration_seconds": 5.985354166666666
+    },
+    {
+      "string": 5,
+      "sample": "samples/G3_mf1.wav",
+      "sample_keycenter": 55,
+      "library_tune_cents": 1.0,
+      "ji_correction_cents": -15.641287000552552,
+      "playback_speed": 1.1130092588589209,
+      "duration_seconds": 5.3868125
+    },
+    {
+      "string": 6,
+      "sample": "samples/B3_mf1.wav",
+      "sample_keycenter": 59,
+      "library_tune_cents": 8.0,
+      "ji_correction_cents": 0.0,
+      "playback_speed": 1.0643701824533598,
+      "duration_seconds": 6.310458333333333
+    },
+    {
+      "string": 7,
+      "sample": "samples/D4_mf1.wav",
+      "sample_keycenter": 62,
+      "library_tune_cents": 7.0,
+      "ji_correction_cents": 3.910001730774866,
+      "playback_speed": 1.0063217626392982,
+      "duration_seconds": 9.2306875
+    },
+    {
+      "string": 8,
+      "sample": "samples/F4_mf1.wav",
+      "sample_keycenter": 65,
+      "library_tune_cents": 1.0,
+      "ji_correction_cents": -13.686286135165119,
+      "playback_speed": 0.9369829893645611,
+      "duration_seconds": 4.056875
+    },
+    {
+      "string": 9,
+      "sample": "samples/F4_mf1.wav",
+      "sample_keycenter": 65,
+      "library_tune_cents": 1.0,
+      "ji_correction_cents": 1.9550008653873192,
+      "playback_speed": 1.1243795872374733,
+      "duration_seconds": 3.380729166666667
+    },
+    {
+      "string": 10,
+      "sample": "samples/C5_f1.wav",
+      "sample_keycenter": 72,
+      "library_tune_cents": 3.0,
+      "ji_correction_cents": -15.641287000552438,
+      "playback_speed": 0.8347786418622466,
+      "duration_seconds": 4.18825
+    },
+    {
+      "string": 11,
+      "sample": "samples/C5_f1.wav",
+      "sample_keycenter": 72,
+      "library_tune_cents": 3.0,
+      "ji_correction_cents": 0.0,
+      "playback_speed": 1.001734370234696,
+      "duration_seconds": 3.4902083333333334
+    },
+    {
+      "string": 12,
+      "sample": "samples/C5_f1.wav",
+      "sample_keycenter": 72,
+      "library_tune_cents": 3.0,
+      "ji_correction_cents": 3.9100017307746384,
+      "playback_speed": 1.1269511665140328,
+      "duration_seconds": 3.1023958333333335
+    }
+  ],
+  "total_plucks": 1350,
+  "timing": "Unchanged corrected-video CSV and MIDI",
+  "audio": "Original sampled stereo, medium-soft layer, library tuning compensation plus JI offsets, no added reverb, tails wrap at loop boundary, global peak -1 dBFS",
+  "previous_synthetic_version_retained": true
+}

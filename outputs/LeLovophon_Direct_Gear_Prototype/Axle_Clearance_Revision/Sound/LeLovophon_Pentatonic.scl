@@ -1,0 +1,17 @@
+! Lovophone_Pentatonic_Bitwig.scl
+! C D E G A tuned in just intonation; unused keys remain equal tempered.
+Lovophone major pentatonic on conventional C D E G A keys
+12
+!
+100.000000
+9/8
+300.000000
+5/4
+500.000000
+600.000000
+3/2
+800.000000
+5/3
+1000.000000
+1100.000000
+2/1

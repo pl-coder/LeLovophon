@@ -1,0 +1,71 @@
+{
+  "model": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/LeLovophon_Direct_Gear_Prototype.FCStd",
+  "poses_per_voice": 360,
+  "rod_axle_intersections": [],
+  "voice_minimum_clearances": [
+    {
+      "voice": "V01",
+      "minimum_axle_clearance_mm": 1.0
+    },
+    {
+      "voice": "V02",
+      "minimum_axle_clearance_mm": 1.0
+    },
+    {
+      "voice": "V03",
+      "minimum_axle_clearance_mm": 1.0
+    },
+    {
+      "voice": "V04",
+      "minimum_axle_clearance_mm": 1.0
+    },
+    {
+      "voice": "V05",
+      "minimum_axle_clearance_mm": 1.0
+    },
+    {
+      "voice": "V06",
+      "minimum_axle_clearance_mm": 1.0
+    },
+    {
+      "voice": "V07",
+      "minimum_axle_clearance_mm": 0.9999999999999716
+    },
+    {
+      "voice": "V08",
+      "minimum_axle_clearance_mm": 1.0
+    },
+    {
+      "voice": "V09",
+      "minimum_axle_clearance_mm": 1.0
+    },
+    {
+      "voice": "V10",
+      "minimum_axle_clearance_mm": 1.0
+    },
+    {
+      "voice": "V11",
+      "minimum_axle_clearance_mm": 1.0
+    },
+    {
+      "voice": "V12",
+      "minimum_axle_clearance_mm": 1.0
+    }
+  ],
+  "minimum_clearance_mm": 0.9999999999999716,
+  "physical_test_passed": false,
+  "distance_method": "Exact shape distance when axial slabs overlap. For axially separated parts, the positive X gap is a conservative lower bound on 3D distance.",
+  "continuous_crank_axle_certificate": {
+    "rod_X_relative_station_mm": [
+      5,
+      7
+    ],
+    "integral_crank_axle_X_relative_station_mm": [
+      -14,
+      4
+    ],
+    "minimum_axial_separation_mm": 1,
+    "reason": "All crank and rod motion rotates about axes parallel to X. X extents remain constant at every phase, so these disjoint slabs cannot intersect between sampled poses."
+  },
+  "scope": "All twelve POM connecting rods versus every individual pivot/crank axle and the common input axle; 360 poses per voice. No physical load, tolerance, flex or wear test."
+}

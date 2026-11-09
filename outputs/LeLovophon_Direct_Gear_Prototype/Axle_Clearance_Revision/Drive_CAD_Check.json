@@ -1,0 +1,7 @@
+{
+  "poses_per_voice": 72,
+  "rigid_moving_to_support_intersections": [],
+  "invalid_shapes": [],
+  "scope": "Moving cranks, rockers, rods, pins, washers and pendula against all cassette carrier plates, rear stays, input blocks and common shaft. Excludes intended bearing/shaft fits, gear meshing, strings and soundbox; these need separate checks.",
+  "physical_pass": false
+}

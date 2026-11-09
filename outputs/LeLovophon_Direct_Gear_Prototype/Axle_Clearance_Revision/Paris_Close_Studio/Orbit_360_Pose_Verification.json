@@ -1,0 +1,16 @@
+{
+  "parent_and_camera_objects_checked": 38,
+  "maximum_world_matrix_endpoint_error": 0.0,
+  "camera_world_matrix_endpoint_error": 0.0,
+  "camera_target_height_m": 0.075,
+  "camera_radius_m": 0.95,
+  "opening_closing_pose_exact": true,
+  "subject_screen_bounds": [
+    0.16580374538898468,
+    0.04051198810338974,
+    0.8347822427749634,
+    0.9854825139045715
+  ],
+  "framing_poses_checked": 97,
+  "cropped_subject_bounds": []
+}

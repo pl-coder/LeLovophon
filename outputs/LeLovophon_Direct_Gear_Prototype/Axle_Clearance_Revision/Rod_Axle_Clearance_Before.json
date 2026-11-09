@@ -1,0 +1,3376 @@
+{
+  "model": "./outputs/LeLovophon_Direct_Gear_Prototype/LeLovophon_Direct_Gear_Prototype.FCStd",
+  "poses_per_voice": 360,
+  "rod_axle_intersections": [
+    {
+      "voice": "V01",
+      "pose": 243,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 0.15878919214057335
+    },
+    {
+      "voice": "V01",
+      "pose": 244,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 0.544343550323946
+    },
+    {
+      "voice": "V01",
+      "pose": 245,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 1.0522697481701757
+    },
+    {
+      "voice": "V01",
+      "pose": 246,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 1.6501587361093344
+    },
+    {
+      "voice": "V01",
+      "pose": 247,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 2.3186817381316724
+    },
+    {
+      "voice": "V01",
+      "pose": 248,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 3.043841662758346
+    },
+    {
+      "voice": "V01",
+      "pose": 249,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 3.8143818615048746
+    },
+    {
+      "voice": "V01",
+      "pose": 250,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 4.620606274799139
+    },
+    {
+      "voice": "V01",
+      "pose": 251,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 5.4537357286139825
+    },
+    {
+      "voice": "V01",
+      "pose": 252,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 6.305504912498634
+    },
+    {
+      "voice": "V01",
+      "pose": 253,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 7.167875801679864
+    },
+    {
+      "voice": "V01",
+      "pose": 254,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 8.032804892871981
+    },
+    {
+      "voice": "V01",
+      "pose": 255,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 8.892025251655419
+    },
+    {
+      "voice": "V01",
+      "pose": 256,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 9.736810890560202
+    },
+    {
+      "voice": "V01",
+      "pose": 257,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 10.557685535189018
+    },
+    {
+      "voice": "V01",
+      "pose": 258,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 11.344016787054436
+    },
+    {
+      "voice": "V01",
+      "pose": 259,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 12.083383350423244
+    },
+    {
+      "voice": "V01",
+      "pose": 260,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 12.76046248659548
+    },
+    {
+      "voice": "V01",
+      "pose": 261,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 13.35474814269265
+    },
+    {
+      "voice": "V01",
+      "pose": 262,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 13.834570696673978
+    },
+    {
+      "voice": "V01",
+      "pose": 263,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 14.128342200764827
+    },
+    {
+      "voice": "V01",
+      "pose": 264,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V01",
+      "pose": 265,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V01",
+      "pose": 266,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V01",
+      "pose": 267,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V01",
+      "pose": 268,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V01",
+      "pose": 269,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V01",
+      "pose": 270,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 14.104544255507077
+    },
+    {
+      "voice": "V01",
+      "pose": 271,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 13.76682671373978
+    },
+    {
+      "voice": "V01",
+      "pose": 272,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 13.253354348506562
+    },
+    {
+      "voice": "V01",
+      "pose": 273,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 12.625072640833812
+    },
+    {
+      "voice": "V01",
+      "pose": 274,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 11.911722883913505
+    },
+    {
+      "voice": "V01",
+      "pose": 275,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 11.133265713112605
+    },
+    {
+      "voice": "V01",
+      "pose": 276,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 10.305050174138506
+    },
+    {
+      "voice": "V01",
+      "pose": 277,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 9.439872660671112
+    },
+    {
+      "voice": "V01",
+      "pose": 278,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 8.54900888899942
+    },
+    {
+      "voice": "V01",
+      "pose": 279,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 7.642817722637304
+    },
+    {
+      "voice": "V01",
+      "pose": 280,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 6.731144419435166
+    },
+    {
+      "voice": "V01",
+      "pose": 281,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 5.823629084516202
+    },
+    {
+      "voice": "V01",
+      "pose": 282,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 4.929981174003351
+    },
+    {
+      "voice": "V01",
+      "pose": 283,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 4.060267138161964
+    },
+    {
+      "voice": "V01",
+      "pose": 284,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 3.2252642369478055
+    },
+    {
+      "voice": "V01",
+      "pose": 285,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 2.4369642054694425
+    },
+    {
+      "voice": "V01",
+      "pose": 286,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 1.7093948103853693
+    },
+    {
+      "voice": "V01",
+      "pose": 287,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 1.060171359738062
+    },
+    {
+      "voice": "V01",
+      "pose": 288,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 0.5140656309302918
+    },
+    {
+      "voice": "V01",
+      "pose": 289,
+      "axle": "V01_3mmShaft_1",
+      "volume_mm3": 0.11477939580753241
+    },
+    {
+      "voice": "V02",
+      "pose": 242,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 0.009907123885866894
+    },
+    {
+      "voice": "V02",
+      "pose": 243,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 0.2724485907301344
+    },
+    {
+      "voice": "V02",
+      "pose": 244,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 0.7010594559492048
+    },
+    {
+      "voice": "V02",
+      "pose": 245,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 1.2371646885151684
+    },
+    {
+      "voice": "V02",
+      "pose": 246,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 1.8548774242949846
+    },
+    {
+      "voice": "V02",
+      "pose": 247,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 2.537410408973391
+    },
+    {
+      "voice": "V02",
+      "pose": 248,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 3.2720961927506678
+    },
+    {
+      "voice": "V02",
+      "pose": 249,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 4.048485907542968
+    },
+    {
+      "voice": "V02",
+      "pose": 250,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 4.857420598156077
+    },
+    {
+      "voice": "V02",
+      "pose": 251,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 5.690499079150795
+    },
+    {
+      "voice": "V02",
+      "pose": 252,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 6.5397306710350644
+    },
+    {
+      "voice": "V02",
+      "pose": 253,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 7.397278178695691
+    },
+    {
+      "voice": "V02",
+      "pose": 254,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 8.25524043424288
+    },
+    {
+      "voice": "V02",
+      "pose": 255,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 9.1054403407255
+    },
+    {
+      "voice": "V02",
+      "pose": 256,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 9.939187284902316
+    },
+    {
+      "voice": "V02",
+      "pose": 257,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 10.746974408457747
+    },
+    {
+      "voice": "V02",
+      "pose": 258,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 11.518045816943633
+    },
+    {
+      "voice": "V02",
+      "pose": 259,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 12.239705405148253
+    },
+    {
+      "voice": "V02",
+      "pose": 260,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 12.89606824300266
+    },
+    {
+      "voice": "V02",
+      "pose": 261,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 13.46540020198998
+    },
+    {
+      "voice": "V02",
+      "pose": 262,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 13.912637758012789
+    },
+    {
+      "voice": "V02",
+      "pose": 263,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V02",
+      "pose": 264,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V02",
+      "pose": 265,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 14.137166941154069
+    },
+    {
+      "voice": "V02",
+      "pose": 266,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V02",
+      "pose": 267,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V02",
+      "pose": 268,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 14.137166941154069
+    },
+    {
+      "voice": "V02",
+      "pose": 269,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V02",
+      "pose": 270,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 14.070670913663125
+    },
+    {
+      "voice": "V02",
+      "pose": 271,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 13.702272986966069
+    },
+    {
+      "voice": "V02",
+      "pose": 272,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 13.173512484027642
+    },
+    {
+      "voice": "V02",
+      "pose": 273,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 12.536255057100025
+    },
+    {
+      "voice": "V02",
+      "pose": 274,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 11.817829721320077
+    },
+    {
+      "voice": "V02",
+      "pose": 275,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 11.037060257586639
+    },
+    {
+      "voice": "V02",
+      "pose": 276,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 10.20862685254325
+    },
+    {
+      "voice": "V02",
+      "pose": 277,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 9.34488010175884
+    },
+    {
+      "voice": "V02",
+      "pose": 278,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 8.456773967862517
+    },
+    {
+      "voice": "V02",
+      "pose": 279,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 7.554422337897334
+    },
+    {
+      "voice": "V02",
+      "pose": 280,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 6.647477211471699
+    },
+    {
+      "voice": "V02",
+      "pose": 281,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 5.745423068453253
+    },
+    {
+      "voice": "V02",
+      "pose": 282,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 4.85784349224561
+    },
+    {
+      "voice": "V02",
+      "pose": 283,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 3.994705149432378
+    },
+    {
+      "voice": "V02",
+      "pose": 284,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 3.166711812256694
+    },
+    {
+      "voice": "V02",
+      "pose": 285,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 2.38581354106384
+    },
+    {
+      "voice": "V02",
+      "pose": 286,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 1.6660443038202992
+    },
+    {
+      "voice": "V02",
+      "pose": 287,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 1.025117640581016
+    },
+    {
+      "voice": "V02",
+      "pose": 288,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 0.4881425098276871
+    },
+    {
+      "voice": "V02",
+      "pose": 289,
+      "axle": "V02_3mmShaft_1",
+      "volume_mm3": 0.10021875610364323
+    },
+    {
+      "voice": "V03",
+      "pose": 242,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 0.08490637483162915
+    },
+    {
+      "voice": "V03",
+      "pose": 243,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 0.4216183699140189
+    },
+    {
+      "voice": "V03",
+      "pose": 244,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 0.8911658664159186
+    },
+    {
+      "voice": "V03",
+      "pose": 245,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 1.4551961260083874
+    },
+    {
+      "voice": "V03",
+      "pose": 246,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 2.0927480209440756
+    },
+    {
+      "voice": "V03",
+      "pose": 247,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 2.78923582279169
+    },
+    {
+      "voice": "V03",
+      "pose": 248,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 3.5332207492723384
+    },
+    {
+      "voice": "V03",
+      "pose": 249,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 4.315029244888662
+    },
+    {
+      "voice": "V03",
+      "pose": 250,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 5.126030405122244
+    },
+    {
+      "voice": "V03",
+      "pose": 251,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 5.958200191008692
+    },
+    {
+      "voice": "V03",
+      "pose": 252,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 6.803823807594612
+    },
+    {
+      "voice": "V03",
+      "pose": 253,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 7.655265241952922
+    },
+    {
+      "voice": "V03",
+      "pose": 254,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 8.504763116702968
+    },
+    {
+      "voice": "V03",
+      "pose": 255,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 9.344222735532753
+    },
+    {
+      "voice": "V03",
+      "pose": 256,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 10.164973747957905
+    },
+    {
+      "voice": "V03",
+      "pose": 257,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 10.95745120521554
+    },
+    {
+      "voice": "V03",
+      "pose": 258,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 11.710726721384905
+    },
+    {
+      "voice": "V03",
+      "pose": 259,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 12.411739045648561
+    },
+    {
+      "voice": "V03",
+      "pose": 260,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 13.043858236417794
+    },
+    {
+      "voice": "V03",
+      "pose": 261,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 13.583675717757055
+    },
+    {
+      "voice": "V03",
+      "pose": 262,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 13.99106169948459
+    },
+    {
+      "voice": "V03",
+      "pose": 263,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V03",
+      "pose": 264,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V03",
+      "pose": 265,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V03",
+      "pose": 266,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V03",
+      "pose": 267,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V03",
+      "pose": 268,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V03",
+      "pose": 269,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V03",
+      "pose": 270,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 14.024050652779987
+    },
+    {
+      "voice": "V03",
+      "pose": 271,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 13.625655453269358
+    },
+    {
+      "voice": "V03",
+      "pose": 272,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 13.080992737891817
+    },
+    {
+      "voice": "V03",
+      "pose": 273,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 12.434331097676763
+    },
+    {
+      "voice": "V03",
+      "pose": 274,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 11.710641559491682
+    },
+    {
+      "voice": "V03",
+      "pose": 275,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 10.92758408349205
+    },
+    {
+      "voice": "V03",
+      "pose": 276,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 10.099137636394035
+    },
+    {
+      "voice": "V03",
+      "pose": 277,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 9.237178618640682
+    },
+    {
+      "voice": "V03",
+      "pose": 278,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 8.352315459154587
+    },
+    {
+      "voice": "V03",
+      "pose": 279,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 7.454397255487284
+    },
+    {
+      "voice": "V03",
+      "pose": 280,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 6.552866229301152
+    },
+    {
+      "voice": "V03",
+      "pose": 281,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 5.6570375421615795
+    },
+    {
+      "voice": "V03",
+      "pose": 282,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 4.7763578220789
+    },
+    {
+      "voice": "V03",
+      "pose": 283,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 3.920685563559533
+    },
+    {
+      "voice": "V03",
+      "pose": 284,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 3.100645887335799
+    },
+    {
+      "voice": "V03",
+      "pose": 285,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 2.328146616571633
+    },
+    {
+      "voice": "V03",
+      "pose": 286,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 1.6172353279362948
+    },
+    {
+      "voice": "V03",
+      "pose": 287,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 0.9857484164558041
+    },
+    {
+      "voice": "V03",
+      "pose": 288,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 0.4592071560785838
+    },
+    {
+      "voice": "V03",
+      "pose": 289,
+      "axle": "V03_3mmShaft_1",
+      "volume_mm3": 0.08446984330430077
+    },
+    {
+      "voice": "V04",
+      "pose": 243,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 0.22906461448660007
+    },
+    {
+      "voice": "V04",
+      "pose": 244,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 0.6429330438547769
+    },
+    {
+      "voice": "V04",
+      "pose": 245,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 1.1692348435287185
+    },
+    {
+      "voice": "V04",
+      "pose": 246,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 1.7800236847974036
+    },
+    {
+      "voice": "V04",
+      "pose": 247,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 2.4576674275860184
+    },
+    {
+      "voice": "V04",
+      "pose": 248,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 3.1890465709523386
+    },
+    {
+      "voice": "V04",
+      "pose": 249,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 3.9634340895731324
+    },
+    {
+      "voice": "V04",
+      "pose": 250,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 4.771484596256039
+    },
+    {
+      "voice": "V04",
+      "pose": 251,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 5.604665053333931
+    },
+    {
+      "voice": "V04",
+      "pose": 252,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 6.454888747105657
+    },
+    {
+      "voice": "V04",
+      "pose": 253,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 7.314248280551559
+    },
+    {
+      "voice": "V04",
+      "pose": 254,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 8.174792982969453
+    },
+    {
+      "voice": "V04",
+      "pose": 255,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 9.028315060355908
+    },
+    {
+      "voice": "V04",
+      "pose": 256,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 9.866112964958347
+    },
+    {
+      "voice": "V04",
+      "pose": 257,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 10.678693131289345
+    },
+    {
+      "voice": "V04",
+      "pose": 258,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 11.455347454707429
+    },
+    {
+      "voice": "V04",
+      "pose": 259,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 12.183484355056255
+    },
+    {
+      "voice": "V04",
+      "pose": 260,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 12.847432330620414
+    },
+    {
+      "voice": "V04",
+      "pose": 261,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 13.425926770093756
+    },
+    {
+      "voice": "V04",
+      "pose": 262,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 13.88523103349209
+    },
+    {
+      "voice": "V04",
+      "pose": 263,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V04",
+      "pose": 264,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V04",
+      "pose": 265,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 14.137166941154067
+    },
+    {
+      "voice": "V04",
+      "pose": 266,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 14.137166941154067
+    },
+    {
+      "voice": "V04",
+      "pose": 267,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V04",
+      "pose": 268,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V04",
+      "pose": 269,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 14.137166941154067
+    },
+    {
+      "voice": "V04",
+      "pose": 270,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 14.083836447593065
+    },
+    {
+      "voice": "V04",
+      "pose": 271,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 13.726033813306401
+    },
+    {
+      "voice": "V04",
+      "pose": 272,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 13.20267516095447
+    },
+    {
+      "voice": "V04",
+      "pose": 273,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 12.568597568954276
+    },
+    {
+      "voice": "V04",
+      "pose": 274,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 11.851965455216765
+    },
+    {
+      "voice": "V04",
+      "pose": 275,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 11.072002266262116
+    },
+    {
+      "voice": "V04",
+      "pose": 276,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 10.243625107099298
+    },
+    {
+      "voice": "V04",
+      "pose": 277,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 9.37934319789153
+    },
+    {
+      "voice": "V04",
+      "pose": 278,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 8.490225327895482
+    },
+    {
+      "voice": "V04",
+      "pose": 279,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 7.586472985785923
+    },
+    {
+      "voice": "V04",
+      "pose": 280,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 6.677807369805194
+    },
+    {
+      "voice": "V04",
+      "pose": 281,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 5.773768724044006
+    },
+    {
+      "voice": "V04",
+      "pose": 282,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 4.883985737684875
+    },
+    {
+      "voice": "V04",
+      "pose": 283,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 4.0184607974577125
+    },
+    {
+      "voice": "V04",
+      "pose": 284,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 3.1879238865021557
+    },
+    {
+      "voice": "V04",
+      "pose": 285,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 2.4043397047374846
+    },
+    {
+      "voice": "V04",
+      "pose": 286,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 1.681739346914961
+    },
+    {
+      "voice": "V04",
+      "pose": 287,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 1.037799639821458
+    },
+    {
+      "voice": "V04",
+      "pose": 288,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 0.4975044446748433
+    },
+    {
+      "voice": "V04",
+      "pose": 289,
+      "axle": "V04_3mmShaft_1",
+      "volume_mm3": 0.10543096563502669
+    },
+    {
+      "voice": "V05",
+      "pose": 243,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 0.03032632431937209
+    },
+    {
+      "voice": "V05",
+      "pose": 244,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 0.33009125132218986
+    },
+    {
+      "voice": "V05",
+      "pose": 245,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 0.7871692195095954
+    },
+    {
+      "voice": "V05",
+      "pose": 246,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 1.350080509415055
+    },
+    {
+      "voice": "V05",
+      "pose": 247,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 1.9938976845759664
+    },
+    {
+      "voice": "V05",
+      "pose": 248,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 2.7019818329546057
+    },
+    {
+      "voice": "V05",
+      "pose": 249,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 3.4615589143713583
+    },
+    {
+      "voice": "V05",
+      "pose": 250,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 4.261958215156354
+    },
+    {
+      "voice": "V05",
+      "pose": 251,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 5.093729342765743
+    },
+    {
+      "voice": "V05",
+      "pose": 252,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 5.94812498114657
+    },
+    {
+      "voice": "V05",
+      "pose": 253,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 6.816755058606763
+    },
+    {
+      "voice": "V05",
+      "pose": 254,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 7.6913228078346565
+    },
+    {
+      "voice": "V05",
+      "pose": 255,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 8.563392596222087
+    },
+    {
+      "voice": "V05",
+      "pose": 256,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 9.424153116874146
+    },
+    {
+      "voice": "V05",
+      "pose": 257,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 10.264138877798104
+    },
+    {
+      "voice": "V05",
+      "pose": 258,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 11.072857786031832
+    },
+    {
+      "voice": "V05",
+      "pose": 259,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 11.838231536306004
+    },
+    {
+      "voice": "V05",
+      "pose": 260,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 12.545649570172838
+    },
+    {
+      "voice": "V05",
+      "pose": 261,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 13.176126752215513
+    },
+    {
+      "voice": "V05",
+      "pose": 262,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 13.701882548774671
+    },
+    {
+      "voice": "V05",
+      "pose": 263,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 14.070164526645836
+    },
+    {
+      "voice": "V05",
+      "pose": 264,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V05",
+      "pose": 265,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V05",
+      "pose": 266,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V05",
+      "pose": 267,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V05",
+      "pose": 268,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V05",
+      "pose": 269,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V05",
+      "pose": 270,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 14.136575233603109
+    },
+    {
+      "voice": "V05",
+      "pose": 271,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 13.85874702669836
+    },
+    {
+      "voice": "V05",
+      "pose": 272,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 13.37108127277724
+    },
+    {
+      "voice": "V05",
+      "pose": 273,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 12.757751530254403
+    },
+    {
+      "voice": "V05",
+      "pose": 274,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 12.052930782541289
+    },
+    {
+      "voice": "V05",
+      "pose": 275,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 11.278538507479373
+    },
+    {
+      "voice": "V05",
+      "pose": 276,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 10.451040823324885
+    },
+    {
+      "voice": "V05",
+      "pose": 277,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 9.583964984971955
+    },
+    {
+      "voice": "V05",
+      "pose": 278,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 8.689107889344733
+    },
+    {
+      "voice": "V05",
+      "pose": 279,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 7.7772220076846175
+    },
+    {
+      "voice": "V05",
+      "pose": 280,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 6.858461447889601
+    },
+    {
+      "voice": "V05",
+      "pose": 281,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 5.942714269158437
+    },
+    {
+      "voice": "V05",
+      "pose": 282,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 5.0398903880853
+    },
+    {
+      "voice": "V05",
+      "pose": 283,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 4.160215746988801
+    },
+    {
+      "voice": "V05",
+      "pose": 284,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 3.3145866321049766
+    },
+    {
+      "voice": "V05",
+      "pose": 285,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 2.5150659613896322
+    },
+    {
+      "voice": "V05",
+      "pose": 286,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 1.7756822968455108
+    },
+    {
+      "voice": "V05",
+      "pose": 287,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 1.1139192296451312
+    },
+    {
+      "voice": "V05",
+      "pose": 288,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 0.5540806745466627
+    },
+    {
+      "voice": "V05",
+      "pose": 289,
+      "axle": "V05_3mmShaft_1",
+      "volume_mm3": 0.13797984051680642
+    },
+    {
+      "voice": "V06",
+      "pose": 244,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 0.12182342856989385
+    },
+    {
+      "voice": "V06",
+      "pose": 245,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 0.4990648925999781
+    },
+    {
+      "voice": "V06",
+      "pose": 246,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 1.0102391146732355
+    },
+    {
+      "voice": "V06",
+      "pose": 247,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 1.6179594337993572
+    },
+    {
+      "voice": "V06",
+      "pose": 248,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 2.3008131322951018
+    },
+    {
+      "voice": "V06",
+      "pose": 249,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 3.043539533414452
+    },
+    {
+      "voice": "V06",
+      "pose": 250,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 3.833959539319311
+    },
+    {
+      "voice": "V06",
+      "pose": 251,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 4.661620537350719
+    },
+    {
+      "voice": "V06",
+      "pose": 252,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 5.517070633027029
+    },
+    {
+      "voice": "V06",
+      "pose": 253,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 6.3914092193495975
+    },
+    {
+      "voice": "V06",
+      "pose": 254,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 7.275968772788299
+    },
+    {
+      "voice": "V06",
+      "pose": 255,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 8.162055562316
+    },
+    {
+      "voice": "V06",
+      "pose": 256,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 9.040704063018268
+    },
+    {
+      "voice": "V06",
+      "pose": 257,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 9.902406423249664
+    },
+    {
+      "voice": "V06",
+      "pose": 258,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 10.736769841072325
+    },
+    {
+      "voice": "V06",
+      "pose": 259,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 11.532025042814418
+    },
+    {
+      "voice": "V06",
+      "pose": 260,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 12.274232338450075
+    },
+    {
+      "voice": "V06",
+      "pose": 261,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 12.945818674824693
+    },
+    {
+      "voice": "V06",
+      "pose": 262,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 13.52235481060123
+    },
+    {
+      "voice": "V06",
+      "pose": 263,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 13.962847375388892
+    },
+    {
+      "voice": "V06",
+      "pose": 264,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V06",
+      "pose": 265,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V06",
+      "pose": 266,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V06",
+      "pose": 267,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V06",
+      "pose": 268,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V06",
+      "pose": 269,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V06",
+      "pose": 270,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V06",
+      "pose": 271,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 13.957921105578425
+    },
+    {
+      "voice": "V06",
+      "pose": 272,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 13.506259743398767
+    },
+    {
+      "voice": "V06",
+      "pose": 273,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 12.913235048559969
+    },
+    {
+      "voice": "V06",
+      "pose": 274,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 12.220072330480788
+    },
+    {
+      "voice": "V06",
+      "pose": 275,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 11.451500924292048
+    },
+    {
+      "voice": "V06",
+      "pose": 276,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 10.625516401773673
+    },
+    {
+      "voice": "V06",
+      "pose": 277,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 9.756620197360565
+    },
+    {
+      "voice": "V06",
+      "pose": 278,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 8.857292077672822
+    },
+    {
+      "voice": "V06",
+      "pose": 279,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 7.938794339280401
+    },
+    {
+      "voice": "V06",
+      "pose": 280,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 7.0116780886400525
+    },
+    {
+      "voice": "V06",
+      "pose": 281,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 6.086148677477389
+    },
+    {
+      "voice": "V06",
+      "pose": 282,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 5.172372240154824
+    },
+    {
+      "voice": "V06",
+      "pose": 283,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 4.280779352383307
+    },
+    {
+      "voice": "V06",
+      "pose": 284,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 3.4224213025554073
+    },
+    {
+      "voice": "V06",
+      "pose": 285,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 2.6094590913513773
+    },
+    {
+      "voice": "V06",
+      "pose": 286,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 1.8559381529503112
+    },
+    {
+      "voice": "V06",
+      "pose": 287,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 1.1792103113618402
+    },
+    {
+      "voice": "V06",
+      "pose": 288,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 0.603081886313845
+    },
+    {
+      "voice": "V06",
+      "pose": 289,
+      "axle": "V06_3mmShaft_1",
+      "volume_mm3": 0.167411133928563
+    },
+    {
+      "voice": "V07",
+      "pose": 244,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 0.03556227652946497
+    },
+    {
+      "voice": "V07",
+      "pose": 245,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 0.349925716749603
+    },
+    {
+      "voice": "V07",
+      "pose": 246,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 0.8245109987055497
+    },
+    {
+      "voice": "V07",
+      "pose": 247,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 1.4073021582116698
+    },
+    {
+      "voice": "V07",
+      "pose": 248,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 2.0727141267771785
+    },
+    {
+      "voice": "V07",
+      "pose": 249,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 2.803539665853593
+    },
+    {
+      "voice": "V07",
+      "pose": 250,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 3.5864882068677755
+    },
+    {
+      "voice": "V07",
+      "pose": 251,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 4.410395697755841
+    },
+    {
+      "voice": "V07",
+      "pose": 252,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 5.265321515480687
+    },
+    {
+      "voice": "V07",
+      "pose": 253,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 6.1420150469643255
+    },
+    {
+      "voice": "V07",
+      "pose": 254,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 7.031554334466256
+    },
+    {
+      "voice": "V07",
+      "pose": 255,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 7.925064543545728
+    },
+    {
+      "voice": "V07",
+      "pose": 256,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 8.813462982937207
+    },
+    {
+      "voice": "V07",
+      "pose": 257,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 9.687189493505603
+    },
+    {
+      "voice": "V07",
+      "pose": 258,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 10.535876546030632
+    },
+    {
+      "voice": "V07",
+      "pose": 259,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 11.347889321198128
+    },
+    {
+      "voice": "V07",
+      "pose": 260,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 12.109602179876282
+    },
+    {
+      "voice": "V07",
+      "pose": 261,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 12.80410459255422
+    },
+    {
+      "voice": "V07",
+      "pose": 262,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 13.408469250488965
+    },
+    {
+      "voice": "V07",
+      "pose": 263,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 13.886180231300358
+    },
+    {
+      "voice": "V07",
+      "pose": 264,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V07",
+      "pose": 265,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V07",
+      "pose": 266,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V07",
+      "pose": 267,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V07",
+      "pose": 268,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V07",
+      "pose": 269,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V07",
+      "pose": 270,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V07",
+      "pose": 271,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 14.00909265336426
+    },
+    {
+      "voice": "V07",
+      "pose": 272,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 13.581589486728493
+    },
+    {
+      "voice": "V07",
+      "pose": 273,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 13.001730065775245
+    },
+    {
+      "voice": "V07",
+      "pose": 274,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 12.316135290069592
+    },
+    {
+      "voice": "V07",
+      "pose": 275,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 11.551460583095224
+    },
+    {
+      "voice": "V07",
+      "pose": 276,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 10.72670384925519
+    },
+    {
+      "voice": "V07",
+      "pose": 277,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 9.856989144628134
+    },
+    {
+      "voice": "V07",
+      "pose": 278,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 8.955225833184917
+    },
+    {
+      "voice": "V07",
+      "pose": 279,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 8.0329935922705
+    },
+    {
+      "voice": "V07",
+      "pose": 280,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 7.101088945389706
+    },
+    {
+      "voice": "V07",
+      "pose": 281,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 6.169912556417696
+    },
+    {
+      "voice": "V07",
+      "pose": 282,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 5.249788046216179
+    },
+    {
+      "voice": "V07",
+      "pose": 283,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 4.351272085367079
+    },
+    {
+      "voice": "V07",
+      "pose": 284,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 3.4855125127691515
+    },
+    {
+      "voice": "V07",
+      "pose": 285,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 2.6647338728082874
+    },
+    {
+      "voice": "V07",
+      "pose": 286,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 1.9029993074473608
+    },
+    {
+      "voice": "V07",
+      "pose": 287,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 1.2175965241352449
+    },
+    {
+      "voice": "V07",
+      "pose": 288,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 0.63207148456552
+    },
+    {
+      "voice": "V07",
+      "pose": 289,
+      "axle": "V07_3mmShaft_1",
+      "volume_mm3": 0.1852761892811744
+    },
+    {
+      "voice": "V08",
+      "pose": 245,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 0.2187537031456199
+    },
+    {
+      "voice": "V08",
+      "pose": 246,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 0.6506072506789772
+    },
+    {
+      "voice": "V08",
+      "pose": 247,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 1.2051970222387396
+    },
+    {
+      "voice": "V08",
+      "pose": 248,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 1.850985855810124
+    },
+    {
+      "voice": "V08",
+      "pose": 249,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 2.568293118819303
+    },
+    {
+      "voice": "V08",
+      "pose": 250,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 3.3424942485725886
+    },
+    {
+      "voice": "V08",
+      "pose": 251,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 4.161599725326749
+    },
+    {
+      "voice": "V08",
+      "pose": 252,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 5.015113696262385
+    },
+    {
+      "voice": "V08",
+      "pose": 253,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 5.89339265579491
+    },
+    {
+      "voice": "V08",
+      "pose": 254,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 6.78722993520736
+    },
+    {
+      "voice": "V08",
+      "pose": 255,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 7.687546115623303
+    },
+    {
+      "voice": "V08",
+      "pose": 256,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 8.585121037422493
+    },
+    {
+      "voice": "V08",
+      "pose": 257,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 9.470322228973393
+    },
+    {
+      "voice": "V08",
+      "pose": 258,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 10.332784475158816
+    },
+    {
+      "voice": "V08",
+      "pose": 259,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 11.160976284431497
+    },
+    {
+      "voice": "V08",
+      "pose": 260,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 11.941535766039047
+    },
+    {
+      "voice": "V08",
+      "pose": 261,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 12.658116064905109
+    },
+    {
+      "voice": "V08",
+      "pose": 262,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 13.289039844875791
+    },
+    {
+      "voice": "V08",
+      "pose": 263,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 13.801233070292817
+    },
+    {
+      "voice": "V08",
+      "pose": 264,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 14.12238009453821
+    },
+    {
+      "voice": "V08",
+      "pose": 265,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V08",
+      "pose": 266,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V08",
+      "pose": 267,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V08",
+      "pose": 268,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V08",
+      "pose": 269,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V08",
+      "pose": 270,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 14.137166941154069
+    },
+    {
+      "voice": "V08",
+      "pose": 271,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 14.054193298514548
+    },
+    {
+      "voice": "V08",
+      "pose": 272,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 13.653666552779741
+    },
+    {
+      "voice": "V08",
+      "pose": 273,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 13.08797675304048
+    },
+    {
+      "voice": "V08",
+      "pose": 274,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 12.410510474069683
+    },
+    {
+      "voice": "V08",
+      "pose": 275,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 11.650097699987802
+    },
+    {
+      "voice": "V08",
+      "pose": 276,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 10.826826064388609
+    },
+    {
+      "voice": "V08",
+      "pose": 277,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 9.956482972997797
+    },
+    {
+      "voice": "V08",
+      "pose": 278,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 9.052429801102926
+    },
+    {
+      "voice": "V08",
+      "pose": 279,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 8.12657742542487
+    },
+    {
+      "voice": "V08",
+      "pose": 280,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 7.1899770682354935
+    },
+    {
+      "voice": "V08",
+      "pose": 281,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 6.2532314029926095
+    },
+    {
+      "voice": "V08",
+      "pose": 282,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 5.3268267124229745
+    },
+    {
+      "voice": "V08",
+      "pose": 283,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 4.421450082955596
+    },
+    {
+      "voice": "V08",
+      "pose": 284,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 3.548349897253772
+    },
+    {
+      "voice": "V08",
+      "pose": 285,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 2.7198185015741263
+    },
+    {
+      "voice": "V08",
+      "pose": 286,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 1.9499422760146847
+    },
+    {
+      "voice": "V08",
+      "pose": 287,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 1.2559540789111325
+    },
+    {
+      "voice": "V08",
+      "pose": 288,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 0.6611612068189727
+    },
+    {
+      "voice": "V08",
+      "pose": 289,
+      "axle": "V08_3mmShaft_1",
+      "volume_mm3": 0.2035000447625162
+    },
+    {
+      "voice": "V09",
+      "pose": 245,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 0.035663855317450505
+    },
+    {
+      "voice": "V09",
+      "pose": 246,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 0.35961817906871163
+    },
+    {
+      "voice": "V09",
+      "pose": 247,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 0.8496450859160154
+    },
+    {
+      "voice": "V09",
+      "pose": 248,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 1.4514364679929301
+    },
+    {
+      "voice": "V09",
+      "pose": 249,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 2.1382822118532965
+    },
+    {
+      "voice": "V09",
+      "pose": 250,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 2.8921726211837027
+    },
+    {
+      "voice": "V09",
+      "pose": 251,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 3.6991496805784667
+    },
+    {
+      "voice": "V09",
+      "pose": 252,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 4.5474427939656055
+    },
+    {
+      "voice": "V09",
+      "pose": 253,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 5.426526709208097
+    },
+    {
+      "voice": "V09",
+      "pose": 254,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 6.326562118673857
+    },
+    {
+      "voice": "V09",
+      "pose": 255,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 7.23801242922987
+    },
+    {
+      "voice": "V09",
+      "pose": 256,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 8.15133927171373
+    },
+    {
+      "voice": "V09",
+      "pose": 257,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 9.05671868680194
+    },
+    {
+      "voice": "V09",
+      "pose": 258,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 9.943730122424974
+    },
+    {
+      "voice": "V09",
+      "pose": 259,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 10.800960566633066
+    },
+    {
+      "voice": "V09",
+      "pose": 260,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 11.615428758476066
+    },
+    {
+      "voice": "V09",
+      "pose": 261,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 12.37163429211023
+    },
+    {
+      "voice": "V09",
+      "pose": 262,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 13.04974587763324
+    },
+    {
+      "voice": "V09",
+      "pose": 263,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 13.621382500660598
+    },
+    {
+      "voice": "V09",
+      "pose": 264,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 14.03522338264921
+    },
+    {
+      "voice": "V09",
+      "pose": 265,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V09",
+      "pose": 266,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V09",
+      "pose": 267,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V09",
+      "pose": 268,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V09",
+      "pose": 269,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 14.137166941154073
+    },
+    {
+      "voice": "V09",
+      "pose": 270,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V09",
+      "pose": 271,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 14.118810345924029
+    },
+    {
+      "voice": "V09",
+      "pose": 272,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 13.78035411582399
+    },
+    {
+      "voice": "V09",
+      "pose": 273,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 13.244522733671616
+    },
+    {
+      "voice": "V09",
+      "pose": 274,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 12.584047526744886
+    },
+    {
+      "voice": "V09",
+      "pose": 275,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 11.832725942068969
+    },
+    {
+      "voice": "V09",
+      "pose": 276,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 11.012981974753714
+    },
+    {
+      "voice": "V09",
+      "pose": 277,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 10.141980113798446
+    },
+    {
+      "voice": "V09",
+      "pose": 278,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 9.234002022762203
+    },
+    {
+      "voice": "V09",
+      "pose": 279,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 8.301624417092983
+    },
+    {
+      "voice": "V09",
+      "pose": 280,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 7.356406271009908
+    },
+    {
+      "voice": "V09",
+      "pose": 281,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 6.409350844511331
+    },
+    {
+      "voice": "V09",
+      "pose": 282,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 5.471266205821394
+    },
+    {
+      "voice": "V09",
+      "pose": 283,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 4.553097778855147
+    },
+    {
+      "voice": "V09",
+      "pose": 284,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 3.666294794186273
+    },
+    {
+      "voice": "V09",
+      "pose": 285,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 2.823289118537348
+    },
+    {
+      "voice": "V09",
+      "pose": 286,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 2.0382255758039505
+    },
+    {
+      "voice": "V09",
+      "pose": 287,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 1.3282571978882456
+    },
+    {
+      "voice": "V09",
+      "pose": 288,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 0.7162944386452468
+    },
+    {
+      "voice": "V09",
+      "pose": 289,
+      "axle": "V09_3mmShaft_1",
+      "volume_mm3": 0.23875692272218613
+    },
+    {
+      "voice": "V10",
+      "pose": 245,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 0.01802211492987636
+    },
+    {
+      "voice": "V10",
+      "pose": 246,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 0.319719975486104
+    },
+    {
+      "voice": "V10",
+      "pose": 247,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 0.7981332558338367
+    },
+    {
+      "voice": "V10",
+      "pose": 248,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 1.3922053187762091
+    },
+    {
+      "voice": "V10",
+      "pose": 249,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 2.0737158031777834
+    },
+    {
+      "voice": "V10",
+      "pose": 250,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 2.8239957195762853
+    },
+    {
+      "voice": "V10",
+      "pose": 251,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 3.6287229642948393
+    },
+    {
+      "voice": "V10",
+      "pose": 252,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 4.475898444319688
+    },
+    {
+      "voice": "V10",
+      "pose": 253,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 5.354841885332535
+    },
+    {
+      "voice": "V10",
+      "pose": 254,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 6.255603865623953
+    },
+    {
+      "voice": "V10",
+      "pose": 255,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 7.168568210672319
+    },
+    {
+      "voice": "V10",
+      "pose": 256,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 8.084140221460027
+    },
+    {
+      "voice": "V10",
+      "pose": 257,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 8.992459877469498
+    },
+    {
+      "voice": "V10",
+      "pose": 258,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 9.88309131291421
+    },
+    {
+      "voice": "V10",
+      "pose": 259,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 10.744631489551622
+    },
+    {
+      "voice": "V10",
+      "pose": 260,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 11.564145710744077
+    },
+    {
+      "voice": "V10",
+      "pose": 261,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 12.326242627007009
+    },
+    {
+      "voice": "V10",
+      "pose": 262,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 13.01132789601039
+    },
+    {
+      "voice": "V10",
+      "pose": 263,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 13.591594048919202
+    },
+    {
+      "voice": "V10",
+      "pose": 264,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 14.017773265607932
+    },
+    {
+      "voice": "V10",
+      "pose": 265,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V10",
+      "pose": 266,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V10",
+      "pose": 267,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V10",
+      "pose": 268,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V10",
+      "pose": 269,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V10",
+      "pose": 270,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V10",
+      "pose": 271,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 14.125663921439997
+    },
+    {
+      "voice": "V10",
+      "pose": 272,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 13.798744165527928
+    },
+    {
+      "voice": "V10",
+      "pose": 273,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 13.267923419333489
+    },
+    {
+      "voice": "V10",
+      "pose": 274,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 12.610273400595819
+    },
+    {
+      "voice": "V10",
+      "pose": 275,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 11.86048109591011
+    },
+    {
+      "voice": "V10",
+      "pose": 276,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 11.041367979958483
+    },
+    {
+      "voice": "V10",
+      "pose": 277,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 10.170326962075272
+    },
+    {
+      "voice": "V10",
+      "pose": 278,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 9.261790068249564
+    },
+    {
+      "voice": "V10",
+      "pose": 279,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 8.328441743572302
+    },
+    {
+      "voice": "V10",
+      "pose": 280,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 7.381922580759966
+    },
+    {
+      "voice": "V10",
+      "pose": 281,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 6.433299965123316
+    },
+    {
+      "voice": "V10",
+      "pose": 282,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 5.493433371666601
+    },
+    {
+      "voice": "V10",
+      "pose": 283,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 4.573309520495968
+    },
+    {
+      "voice": "V10",
+      "pose": 284,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 3.684409923401345
+    },
+    {
+      "voice": "V10",
+      "pose": 285,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 2.8391893026123274
+    },
+    {
+      "voice": "V10",
+      "pose": 286,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 2.051803149242831
+    },
+    {
+      "voice": "V10",
+      "pose": 287,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 1.3393948075301836
+    },
+    {
+      "voice": "V10",
+      "pose": 288,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 0.7248193070140654
+    },
+    {
+      "voice": "V10",
+      "pose": 289,
+      "axle": "V10_3mmShaft_1",
+      "volume_mm3": 0.2442841213024622
+    },
+    {
+      "voice": "V11",
+      "pose": 246,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 0.14005870518944813
+    },
+    {
+      "voice": "V11",
+      "pose": 247,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 0.5487614152768181
+    },
+    {
+      "voice": "V11",
+      "pose": 248,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 1.098271623189932
+    },
+    {
+      "voice": "V11",
+      "pose": 249,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 1.7492163550057593
+    },
+    {
+      "voice": "V11",
+      "pose": 250,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 2.4786608586355094
+    },
+    {
+      "voice": "V11",
+      "pose": 251,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 3.27006161395816
+    },
+    {
+      "voice": "V11",
+      "pose": 252,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 4.110071204635649
+    },
+    {
+      "voice": "V11",
+      "pose": 253,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 4.987113090773011
+    },
+    {
+      "voice": "V11",
+      "pose": 254,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 5.8906085644131405
+    },
+    {
+      "voice": "V11",
+      "pose": 255,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 6.8104881628192935
+    },
+    {
+      "voice": "V11",
+      "pose": 256,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 7.736833645507115
+    },
+    {
+      "voice": "V11",
+      "pose": 257,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 8.659570474622518
+    },
+    {
+      "voice": "V11",
+      "pose": 258,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 9.568155495730185
+    },
+    {
+      "voice": "V11",
+      "pose": 259,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 10.451204089974246
+    },
+    {
+      "voice": "V11",
+      "pose": 260,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 11.295975722632216
+    },
+    {
+      "voice": "V11",
+      "pose": 261,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 12.08756414378657
+    },
+    {
+      "voice": "V11",
+      "pose": 262,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 12.80743563885499
+    },
+    {
+      "voice": "V11",
+      "pose": 263,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 13.430283989827021
+    },
+    {
+      "voice": "V11",
+      "pose": 264,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 13.914957097094097
+    },
+    {
+      "voice": "V11",
+      "pose": 265,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V11",
+      "pose": 266,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V11",
+      "pose": 267,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V11",
+      "pose": 268,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V11",
+      "pose": 269,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V11",
+      "pose": 270,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V11",
+      "pose": 271,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 14.137166941154078
+    },
+    {
+      "voice": "V11",
+      "pose": 272,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 13.888244019920673
+    },
+    {
+      "voice": "V11",
+      "pose": 273,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 13.385225382966436
+    },
+    {
+      "voice": "V11",
+      "pose": 274,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 12.74306852515182
+    },
+    {
+      "voice": "V11",
+      "pose": 275,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 12.001721819372875
+    },
+    {
+      "voice": "V11",
+      "pose": 276,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 11.18623928125426
+    },
+    {
+      "voice": "V11",
+      "pose": 277,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 10.31526682887281
+    },
+    {
+      "voice": "V11",
+      "pose": 278,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 9.404050142922403
+    },
+    {
+      "voice": "V11",
+      "pose": 279,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 8.465851590786244
+    },
+    {
+      "voice": "V11",
+      "pose": 280,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 7.512747110202993
+    },
+    {
+      "voice": "V11",
+      "pose": 281,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 6.556144868358869
+    },
+    {
+      "voice": "V11",
+      "pose": 282,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 5.607177011988799
+    },
+    {
+      "voice": "V11",
+      "pose": 283,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 4.677049347148791
+    },
+    {
+      "voice": "V11",
+      "pose": 284,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 3.777415305866562
+    },
+    {
+      "voice": "V11",
+      "pose": 285,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 2.9208530092328067
+    },
+    {
+      "voice": "V11",
+      "pose": 286,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 2.121579731372547
+    },
+    {
+      "voice": "V11",
+      "pose": 287,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 1.3966994567753162
+    },
+    {
+      "voice": "V11",
+      "pose": 288,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 0.7688042236162097
+    },
+    {
+      "voice": "V11",
+      "pose": 289,
+      "axle": "V11_3mmShaft_1",
+      "volume_mm3": 0.27308938162268426
+    },
+    {
+      "voice": "V12",
+      "pose": 246,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 0.07053292628160968
+    },
+    {
+      "voice": "V12",
+      "pose": 247,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 0.4361601444071789
+    },
+    {
+      "voice": "V12",
+      "pose": 248,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 0.9600978638121691
+    },
+    {
+      "voice": "V12",
+      "pose": 249,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 1.593773612865881
+    },
+    {
+      "voice": "V12",
+      "pose": 250,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 2.311395169079022
+    },
+    {
+      "voice": "V12",
+      "pose": 251,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 3.095048181644266
+    },
+    {
+      "voice": "V12",
+      "pose": 252,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 3.9305900872169492
+    },
+    {
+      "voice": "V12",
+      "pose": 253,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 4.805930244655718
+    },
+    {
+      "voice": "V12",
+      "pose": 254,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 5.710134861334088
+    },
+    {
+      "voice": "V12",
+      "pose": 255,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 6.632880376720456
+    },
+    {
+      "voice": "V12",
+      "pose": 256,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 7.56406609527534
+    },
+    {
+      "voice": "V12",
+      "pose": 257,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 8.493492650705207
+    },
+    {
+      "voice": "V12",
+      "pose": 258,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 9.410546023548157
+    },
+    {
+      "voice": "V12",
+      "pose": 259,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 10.303830921562394
+    },
+    {
+      "voice": "V12",
+      "pose": 260,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 11.160676560138308
+    },
+    {
+      "voice": "V12",
+      "pose": 261,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 11.966374258243127
+    },
+    {
+      "voice": "V12",
+      "pose": 262,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 12.702830092146645
+    },
+    {
+      "voice": "V12",
+      "pose": 263,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 13.345748261295347
+    },
+    {
+      "voice": "V12",
+      "pose": 264,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 13.856931825011376
+    },
+    {
+      "voice": "V12",
+      "pose": 265,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V12",
+      "pose": 266,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V12",
+      "pose": 267,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V12",
+      "pose": 268,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V12",
+      "pose": 269,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V12",
+      "pose": 270,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 14.13716694115407
+    },
+    {
+      "voice": "V12",
+      "pose": 271,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 14.137166941154074
+    },
+    {
+      "voice": "V12",
+      "pose": 272,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 13.929146699599194
+    },
+    {
+      "voice": "V12",
+      "pose": 273,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 13.441292637412326
+    },
+    {
+      "voice": "V12",
+      "pose": 274,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 12.80743269031209
+    },
+    {
+      "voice": "V12",
+      "pose": 275,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 12.070637566414142
+    },
+    {
+      "voice": "V12",
+      "pose": 276,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 11.257196855319258
+    },
+    {
+      "voice": "V12",
+      "pose": 277,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 10.386428936193248
+    },
+    {
+      "voice": "V12",
+      "pose": 278,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 9.474008577455336
+    },
+    {
+      "voice": "V12",
+      "pose": 279,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 8.533499558105358
+    },
+    {
+      "voice": "V12",
+      "pose": 280,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 7.5772032110255
+    },
+    {
+      "voice": "V12",
+      "pose": 281,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 6.6167033068437995
+    },
+    {
+      "voice": "V12",
+      "pose": 282,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 5.663272143051379
+    },
+    {
+      "voice": "V12",
+      "pose": 283,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 4.728228132657212
+    },
+    {
+      "voice": "V12",
+      "pose": 284,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 3.823313448140278
+    },
+    {
+      "voice": "V12",
+      "pose": 285,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 2.9611708835820556
+    },
+    {
+      "voice": "V12",
+      "pose": 286,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 2.1560525117996754
+    },
+    {
+      "voice": "V12",
+      "pose": 287,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 1.4250491457608172
+    },
+    {
+      "voice": "V12",
+      "pose": 288,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 0.7906357397899991
+    },
+    {
+      "voice": "V12",
+      "pose": 289,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 0.2875520646594477
+    },
+    {
+      "voice": "V12",
+      "pose": 290,
+      "axle": "V12_3mmShaft_1",
+      "volume_mm3": 0.0008305081678457131
+    }
+  ],
+  "voice_minimum_clearances": [
+    {
+      "voice": "V01",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V02",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V03",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V04",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V05",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V06",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V07",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V08",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V09",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V10",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V11",
+      "minimum_axle_clearance_mm": 0.0
+    },
+    {
+      "voice": "V12",
+      "minimum_axle_clearance_mm": 0.0
+    }
+  ],
+  "minimum_clearance_mm": 0.0,
+  "physical_test_passed": false
+}
