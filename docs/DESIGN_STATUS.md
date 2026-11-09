@@ -1,9 +1,10 @@
-# Design status - 6 November 2026
+# Design status — 9 November 2026
 
 | Version | Status | Timing | Physical validation |
 |---|---|---|---|
+| Direct gear, axle-clearance revision | Current architecture proposal; integral crank shafts end behind rods | Exact pentatonic rates; 480 s ideal repeat at 3 rpm | Native-solid and mathematical checks only; no physical build |
 | Lab Frame, original | Historical appearance/layout | Earlier chromatic drive ratios, pentatonic pitches; mismatch | None |
-| Lab Frame Ratio Review | Current twelve-voice review | Pitch and average cam rotation match; 480 s ideal repeat at3 rpm | Known packaging/hub problems remain |
+| Lab Frame Ratio Review | Earlier twelve-voice review | Pitch and average cam rotation match; 480 s ideal repeat at3 rpm | Known packaging/hub problems remain |
 | Slender proportional bank | Upper-bank layout study; full drive not installed |109..24.222 mm arms;13.5 mm pitch;target +/-45 degrees;rates unchanged |181-position sampled sweep; hardware untested |
 | Prototype A | Separate one-voice and9:2 test-fixture proposal | Pinned4-bar, compound60/20 and30/20 belt stages | CAD and mathematical checks only; not built |
 | Unified160-minute | Parked alternative | 19-finger picking-wheel pattern;9600 s nominal cycle | Not built; not the Lab Frame |
@@ -26,3 +27,9 @@ The original sampled clearance reports do not certify later supplier parts or ma
 The working scripts include older revisions and may replace generated files, open documents or start renders when run. Read a script before executing it. They reference generated intermediate files and installed macOS applications not distributed here. Use version control and separate copies for experiments.
 
 Media has been excluded at the author's request. Documents mentioning videos, renders or MIDI exports are historical descriptions of assets retained locally, not missing downloads from a promised release.
+
+## Current direct-gear correction
+
+The earlier rod/support sweep excluded the individual crank axles and missed a real collision. Reproducing 360 poses per voice found 553 positive-volume rod–crank-axle intersections across twelve channels. The current integral shaft/flange terminates at station X +4 mm; rods occupy X +5..+7 mm. Their axial slabs stay disjoint at every rotation angle, providing a continuous 1 mm gap from that crank component. The all-axle sampled sweep has no rod intersections, and the separate 72-pose support sweep has no intersections or invalid solids within its recorded scope. No tolerance, load, flex, wear, assembly or physical safety proof follows from these results.
+
+The current candidate BOM replaces twelve separate crank disks/shafts with twelve integral crank shaft/flange candidates. Machining details, material, bearing thrust stack, output-gear locking, pin retention and measured torque remain release gates. The previously known Lab Frame belt/pulley problems apply to that older architecture; the direct-gear proposal has its own unresolved joints and gear supplier requirements.

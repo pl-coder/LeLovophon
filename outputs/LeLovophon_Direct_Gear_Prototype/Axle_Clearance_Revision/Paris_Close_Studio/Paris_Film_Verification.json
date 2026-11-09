@@ -1,0 +1,50 @@
+{
+  "export": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1600,
+        "height": 900,
+        "r_frame_rate": "24/1",
+        "duration": "960.000000",
+        "nb_frames": "23040"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "960.000000",
+        "nb_frames": "45001"
+      }
+    ],
+    "format": {
+      "duration": "960.000000",
+      "size": "413940587"
+    }
+  },
+  "full_decode_passed": true,
+  "rendered_first_last_identical": true,
+  "source_loop_sha256": "4ecbc8f8d5b70a0355c5b8f27345475a4e04ad8df6e57fc6e1003ddcd4bccc5c",
+  "camera_and_mechanism_pose_check": {
+    "parent_and_camera_objects_checked": 38,
+    "maximum_world_matrix_endpoint_error": 0.0,
+    "camera_world_matrix_endpoint_error": 0.0,
+    "camera_target_height_m": 0.075,
+    "camera_radius_m": 0.95,
+    "opening_closing_pose_exact": true,
+    "subject_screen_bounds": [
+      0.16580374538898468,
+      0.04051198810338974,
+      0.8347822427749634,
+      0.9854825139045715
+    ],
+    "framing_poses_checked": 97,
+    "cropped_subject_bounds": []
+  },
+  "rotations": 2,
+  "identical_eight_minute_cycles": true,
+  "no_people": true
+}

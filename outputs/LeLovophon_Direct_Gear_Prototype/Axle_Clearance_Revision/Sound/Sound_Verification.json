@@ -1,0 +1,27 @@
+{
+  "Bitwig_Scala": {
+    "note_ons": 1350,
+    "string_tracks": 12,
+    "duration_seconds": 480.0,
+    "balanced_notes": true,
+    "maximum_pitch_bend_error_cents": 0,
+    "maximum_timing_rounding_ms": 0.2541628878134361
+  },
+  "Just_Intonation": {
+    "note_ons": 1350,
+    "string_tracks": 12,
+    "duration_seconds": 480.0,
+    "balanced_notes": true,
+    "maximum_pitch_bend_error_cents": 0.010002927334880951,
+    "maximum_timing_rounding_ms": 0.2541628878134361
+  },
+  "audio": {
+    "duration_seconds": 480,
+    "sample_rate": 48000,
+    "bit_depth": 24,
+    "channels": 2,
+    "peak_dbfs": -0.9999998354746678,
+    "rms_dbfs": -19.6492466481636,
+    "clipping": false
+  }
+}

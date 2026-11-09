@@ -4,12 +4,18 @@ A portable, mechanically driven plucked-string instrument by **Paul Love**. Pitc
 
 This repository contains the CAD, technical drawings, parts lists, tuning data, calculations and generation scripts. **Media files are intentionally excluded:** no rendered images, videos, Blender scenes, audio/MIDI exports or bundled media archives.
 
-## Start here
+## Current revision — 9 November 2026
+
+The current proposal is the [direct-gear engineering prototype](outputs/LeLovophon_Direct_Gear_Prototype/README.md), with the [corrected crank axle CAD and clearance results](outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/README.md). One common input shaft drives twelve gear/crank-rocker channels. The rods now clear their crank axles by a continuous 1 mm axial gap. It remains unbuilt and unreleased for manufacture; shaft locking, fastener retention, bearing thrust spacing and physical plucking/load tests remain open.
+
+[Reproduction notes](docs/DIRECT_GEAR_REPRODUCTION.md) cover the eight-minute MIDI/event list, sampled harp, salon convolution and the final close-focus Paris studio render. The local film is sixteen minutes/two rotations, with a thirty-second 32x edit. No media is included here.
+
+## Earlier studies
 
 | Purpose | File |
 |---|---|
-| New slender proportional upper-bank study | [CAD and clearance findings](outputs/LeLovophon_Slender_Bank/README.md) |
-| Current full twelve-voice Lab Frame review | [FreeCAD model](outputs/Lovophone_Lab_Frame_Ratio_Review.FCStd) |
+| Earlier slender proportional upper-bank study | [CAD and clearance findings](outputs/LeLovophon_Slender_Bank/README.md) |
+| Earlier full twelve-voice Lab Frame review | [FreeCAD model](outputs/Lovophone_Lab_Frame_Ratio_Review.FCStd) |
 | Build status and supplier routes | [Lab Frame engineering review](outputs/Lovophone_Lab_Frame_Build_Review.md) |
 | Ratio audit | [Per-voice CSV](outputs/Lovophone_Lab_Frame_Ratio_Audit.csv) |
 | One-string and high-ratio physical test fixtures | [Prototype A FreeCAD](outputs/Lovophone_Prototype_A/Lovophone_Prototype_A.FCStd) |

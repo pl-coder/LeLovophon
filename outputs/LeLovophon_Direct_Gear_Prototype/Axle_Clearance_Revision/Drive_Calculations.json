@@ -1,0 +1,330 @@
+{
+  "scope": "Full 12-channel drive architecture with explicit gears, shafts, bearings and crank-rockers; engineering prototype, not physically tested or released for manufacture.",
+  "module_mm": 0.5,
+  "pressure_angle_deg": 20,
+  "crank_mm": 10.0,
+  "rocker_mm": 14.0,
+  "drive_yz": [
+    65.0,
+    -25.0
+  ],
+  "input_rpm": 3,
+  "repeat_seconds": 480,
+  "voices": [
+    {
+      "index": 1,
+      "note": "C3",
+      "ratio": "1",
+      "driver_teeth": 36,
+      "driven_teeth": 36,
+      "station_x": 35,
+      "pivot_yz": [
+        18.0,
+        -102
+      ],
+      "crank_yz": [
+        55.62197210361568,
+        -40.364003149395586
+      ],
+      "ground_mm": 72.21086409075129,
+      "coupler_mm": 72.21086409075129,
+      "arm_radius_mm": 109.0,
+      "pick_x": 44,
+      "bridge_x": -10.0,
+      "rocker_mid_rad": 2.525508722400466,
+      "half_swing_deg": 45.72055545842229,
+      "phase_rad": 2.5093627200249182,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 2,
+      "note": "D3",
+      "ratio": "9/8",
+      "driver_teeth": 36,
+      "driven_teeth": 32,
+      "station_x": 59,
+      "pivot_yz": [
+        5.888888888888886,
+        -88
+      ],
+      "crank_yz": [
+        53.36791060173841,
+        -37.39735843762091
+      ],
+      "ground_mm": 69.38937120265504,
+      "coupler_mm": 69.38937120265504,
+      "arm_radius_mm": 96.88888888888889,
+      "pick_x": 68,
+      "bridge_x": 26.666666666666686,
+      "rocker_mid_rad": 2.3171843993942196,
+      "half_swing_deg": 45.73194510231709,
+      "phase_rad": 2.3003742030352434,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 3,
+      "note": "E3",
+      "ratio": "5/4",
+      "driver_teeth": 40,
+      "driven_teeth": 32,
+      "station_x": 83,
+      "pivot_yz": [
+        -3.799999999999997,
+        -74
+      ],
+      "crank_yz": [
+        50.33841243939385,
+        -35.442119047524734
+      ],
+      "ground_mm": 66.46561430546753,
+      "coupler_mm": 66.46561430546753,
+      "arm_radius_mm": 87.2,
+      "pick_x": 92,
+      "bridge_x": 56.0,
+      "rocker_mid_rad": 2.115683264625071,
+      "half_swing_deg": 45.74533856992728,
+      "phase_rad": 2.0981241845659495,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 4,
+      "note": "G3",
+      "ratio": "3/2",
+      "driver_teeth": 48,
+      "driven_teeth": 32,
+      "station_x": 107,
+      "pivot_yz": [
+        -18.33333333333333,
+        -60
+      ],
+      "crank_yz": [
+        46.560357887852774,
+        -32.744649687101834
+      ],
+      "ground_mm": 70.38497908637498,
+      "coupler_mm": 70.38497908637498,
+      "arm_radius_mm": 72.66666666666667,
+      "pick_x": 116,
+      "bridge_x": 100.0,
+      "rocker_mid_rad": 1.8985868663880354,
+      "half_swing_deg": 45.72776705684717,
+      "phase_rad": 1.8820172275482894,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 5,
+      "note": "A3",
+      "ratio": "5/3",
+      "driver_teeth": 40,
+      "driven_teeth": 24,
+      "station_x": 131,
+      "pivot_yz": [
+        -25.60000000000001,
+        -46
+      ],
+      "crank_yz": [
+        49.4132276089532,
+        -28.612828037659852
+      ],
+      "ground_mm": 77.00193546373109,
+      "coupler_mm": 77.00193546373109,
+      "arm_radius_mm": 65.39999999999999,
+      "pick_x": 140,
+      "bridge_x": 122.0,
+      "rocker_mid_rad": 1.7347618287034474,
+      "half_swing_deg": 45.70403599183092,
+      "phase_rad": 1.7196304550528088,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 6,
+      "note": "C4",
+      "ratio": "2",
+      "driver_teeth": 48,
+      "driven_teeth": 24,
+      "station_x": 155,
+      "pivot_yz": [
+        -36.5,
+        -32
+      ],
+      "crank_yz": [
+        47.04265408838631,
+        -26.238437649076808
+      ],
+      "ground_mm": 83.74109297624044,
+      "coupler_mm": 83.74109297624044,
+      "arm_radius_mm": 54.5,
+      "pick_x": 164,
+      "bridge_x": 155.0,
+      "rocker_mid_rad": 1.5810123858732543,
+      "half_swing_deg": 45.68546726799655,
+      "phase_rad": 1.5671090581813285,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 7,
+      "note": "D4",
+      "ratio": "9/4",
+      "driver_teeth": 54,
+      "driven_teeth": 24,
+      "station_x": 179,
+      "pivot_yz": [
+        -42.55555555555556,
+        -18
+      ],
+      "crank_yz": [
+        45.54116783222241,
+        -23.733567741146707
+      ],
+      "ground_mm": 88.2831041066465,
+      "coupler_mm": 88.2831041066465,
+      "arm_radius_mm": 48.44444444444444,
+      "pick_x": 188,
+      "bridge_x": 173.33333333333334,
+      "rocker_mid_rad": 1.4501952029678604,
+      "half_swing_deg": 45.67530120370485,
+      "phase_rad": 1.437012557662138,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 8,
+      "note": "E4",
+      "ratio": "5/2",
+      "driver_teeth": 60,
+      "driven_teeth": 24,
+      "station_x": 203,
+      "pivot_yz": [
+        -47.4,
+        -4
+      ],
+      "crank_yz": [
+        44.35719342952575,
+        -21.143247882740575
+      ],
+      "ground_mm": 93.34491680875018,
+      "coupler_mm": 93.34491680875018,
+      "arm_radius_mm": 43.6,
+      "pick_x": 212,
+      "bridge_x": 188.0,
+      "rocker_mid_rad": 1.333510387218875,
+      "half_swing_deg": 45.66568567213459,
+      "phase_rad": 1.321047395250079,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 9,
+      "note": "G4",
+      "ratio": "3",
+      "driver_teeth": 60,
+      "driven_teeth": 20,
+      "station_x": 227,
+      "pivot_yz": [
+        -54.666666666666664,
+        10
+      ],
+      "crank_yz": [
+        45.804197443457994,
+        -19.385628778727266
+      ],
+      "ground_mm": 104.68003493387027,
+      "coupler_mm": 104.68003493387027,
+      "arm_radius_mm": 36.333333333333336,
+      "pick_x": 236,
+      "bridge_x": 210.0,
+      "rocker_mid_rad": 1.2393832080723723,
+      "half_swing_deg": 45.64901833673026,
+      "phase_rad": 1.2282771707021398,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 10,
+      "note": "A4",
+      "ratio": "10/3",
+      "driver_teeth": 80,
+      "driven_teeth": 24,
+      "station_x": 251,
+      "pivot_yz": [
+        -58.300000000000004,
+        24
+      ],
+      "crank_yz": [
+        40.838043312071036,
+        -15.397924754999844
+      ],
+      "ground_mm": 106.67965179333265,
+      "coupler_mm": 106.67965179333265,
+      "arm_radius_mm": 32.699999999999996,
+      "pick_x": 260,
+      "bridge_x": 221.0,
+      "rocker_mid_rad": 1.146539988734653,
+      "half_swing_deg": 45.646619460036,
+      "phase_rad": 1.1356431705815475,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 11,
+      "note": "C5",
+      "ratio": "4",
+      "driver_teeth": 80,
+      "driven_teeth": 20,
+      "station_x": 275,
+      "pivot_yz": [
+        -63.75,
+        38
+      ],
+      "crank_yz": [
+        42.54421567943626,
+        -14.011926895568815
+      ],
+      "ground_mm": 118.3372334740698,
+      "coupler_mm": 118.3372334740698,
+      "arm_radius_mm": 27.25,
+      "pick_x": 284,
+      "bridge_x": 237.5,
+      "rocker_mid_rad": 1.0742813860984006,
+      "half_swing_deg": 45.63497853483818,
+      "phase_rad": 1.0644626025527102,
+      "grashof_margin_mm": 4.0
+    },
+    {
+      "index": 12,
+      "note": "D5",
+      "ratio": "9/2",
+      "driver_teeth": 90,
+      "driven_teeth": 20,
+      "station_x": 299,
+      "pivot_yz": [
+        -66.77777777777777,
+        52
+      ],
+      "crank_yz": [
+        41.256252225497356,
+        -11.126123770885048
+      ],
+      "ground_mm": 125.12497409024965,
+      "coupler_mm": 125.12497409024965,
+      "arm_radius_mm": 24.22222222222222,
+      "pick_x": 308,
+      "bridge_x": 246.66666666666669,
+      "rocker_mid_rad": 1.0027941153327604,
+      "half_swing_deg": 45.62965193796315,
+      "phase_rad": 0.9935099562650149,
+      "grashof_margin_mm": 4.0
+    }
+  ],
+  "minimum_transmission_angle_deg": 40.0155598849525,
+  "max_link_closure_error_mm": 4.263256414560601e-14,
+  "half_swing_range_deg": [
+    45.62965193796315,
+    45.74533856992728
+  ],
+  "physical_test_passed": false,
+  "machining_release": false,
+  "invalid_shapes": [],
+  "part_count": 509,
+  "envelope_mm": [
+    394.0,
+    221.30168311121776,
+    253.0
+  ]
+}

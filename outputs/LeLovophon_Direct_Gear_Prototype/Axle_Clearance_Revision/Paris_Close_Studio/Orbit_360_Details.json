@@ -1,0 +1,60 @@
+{
+  "duration_seconds": 480,
+  "unique_motion_fps": 12,
+  "delivery_fps": 24,
+  "width": 1600,
+  "height": 900,
+  "input_rpm": 3,
+  "ratios": [
+    "1",
+    "9/8",
+    "5/4",
+    "3/2",
+    "5/3",
+    "2",
+    "9/4",
+    "5/2",
+    "3",
+    "10/3",
+    "4",
+    "9/2"
+  ],
+  "camera": {
+    "target_world": [
+      0.004000000189989805,
+      -0.011650841683149338,
+      0.075
+    ],
+    "radius_metres": 0.95,
+    "height_range_metres": [
+      0.25626854560771756,
+      0.41544955206803524
+    ],
+    "azimuth_start_deg": -53,
+    "azimuth_end_deg": 307,
+    "elevation_mid_deg": 16,
+    "elevation_arc_deg": 5,
+    "roll_deg": 0,
+    "lens_mm": 50,
+    "vertical_lens_shift": 0,
+    "note": "A gentle vertical arc accompanies the 360-degree orbit; camera looks towards the staged model and table."
+  },
+  "motion": "Exact crank-rocker closure; all gear/crank/rod/rocker/pick motions driven from one input phase. Rigid kinematic depiction, not physical proof.",
+  "background": {
+    "table": "Procedurally modelled Louis XV-style walnut, marquetry and ormolu table; cabriole legs and rocaille apron",
+    "room": "Unoccupied Parisian-inspired photography studio, French windows, cream mouldings, chevron parquet and a single white paper sweep",
+    "people": false
+  },
+  "depth_of_field": {
+    "fstop": 1.8,
+    "focus": "Lovophon centre",
+    "background": "Optically softened studio"
+  },
+  "lighting": "Warm side key, cool low fill, warm rim; local indirect-light bake, captured room reflections and screen-space ray tracing; subtle visual edge bevels do not change the CAD.",
+  "physical_test_passed": false,
+  "endpoint_sampling": "5760 uniformly spaced samples including both0 and480 seconds; final camera and mechanism pose reset exactly to the opening pose.",
+  "source_loop_seconds": 480,
+  "delivered_duration_seconds": 960,
+  "delivered_rotations": 2,
+  "delivered_file": "LeLovophon_Paris_Close_16min.mp4"
+}

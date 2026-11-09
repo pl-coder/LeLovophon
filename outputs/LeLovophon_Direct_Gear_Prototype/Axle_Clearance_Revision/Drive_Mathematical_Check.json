@@ -1,0 +1,97 @@
+{
+  "samples_per_voice": 10001,
+  "minimum_rod_to_common_shaft_surface_clearance_mm": 1.5000013117753932,
+  "minimum_crank_disk_to_common_shaft_clearance_mm": 1.4999999999999982,
+  "minimum_pick_tip_to_other_string_conservative_margin_mm": 0.6442693799408187,
+  "maximum_480_second_phase_error_rad": 3.68594044175552e-14,
+  "independent_rotor_axial_gap_mm": 15,
+  "parts_detailed": false,
+  "physical_pass": false,
+  "tests": "Exact rigid crank-rocker closure and phase return; conservative projected clearances. Does not test force, flexure, wear, gear quality or all fasteners.",
+  "voices": [
+    {
+      "note": "C3",
+      "driver": 36,
+      "driven": 36,
+      "coupler_mm": 72.21086409075129,
+      "half_swing_deg": 45.72055545842229
+    },
+    {
+      "note": "D3",
+      "driver": 36,
+      "driven": 32,
+      "coupler_mm": 69.38937120265504,
+      "half_swing_deg": 45.73194510231709
+    },
+    {
+      "note": "E3",
+      "driver": 40,
+      "driven": 32,
+      "coupler_mm": 66.46561430546753,
+      "half_swing_deg": 45.74533856992728
+    },
+    {
+      "note": "G3",
+      "driver": 48,
+      "driven": 32,
+      "coupler_mm": 70.38497908637498,
+      "half_swing_deg": 45.72776705684717
+    },
+    {
+      "note": "A3",
+      "driver": 40,
+      "driven": 24,
+      "coupler_mm": 77.00193546373109,
+      "half_swing_deg": 45.70403599183092
+    },
+    {
+      "note": "C4",
+      "driver": 48,
+      "driven": 24,
+      "coupler_mm": 83.74109297624044,
+      "half_swing_deg": 45.68546726799655
+    },
+    {
+      "note": "D4",
+      "driver": 54,
+      "driven": 24,
+      "coupler_mm": 88.2831041066465,
+      "half_swing_deg": 45.67530120370485
+    },
+    {
+      "note": "E4",
+      "driver": 60,
+      "driven": 24,
+      "coupler_mm": 93.34491680875018,
+      "half_swing_deg": 45.66568567213459
+    },
+    {
+      "note": "G4",
+      "driver": 60,
+      "driven": 20,
+      "coupler_mm": 104.68003493387027,
+      "half_swing_deg": 45.64901833673026
+    },
+    {
+      "note": "A4",
+      "driver": 80,
+      "driven": 24,
+      "coupler_mm": 106.67965179333265,
+      "half_swing_deg": 45.646619460036
+    },
+    {
+      "note": "C5",
+      "driver": 80,
+      "driven": 20,
+      "coupler_mm": 118.3372334740698,
+      "half_swing_deg": 45.63497853483818
+    },
+    {
+      "note": "D5",
+      "driver": 90,
+      "driven": 20,
+      "coupler_mm": 125.12497409024965,
+      "half_swing_deg": 45.62965193796315
+    }
+  ]
+}

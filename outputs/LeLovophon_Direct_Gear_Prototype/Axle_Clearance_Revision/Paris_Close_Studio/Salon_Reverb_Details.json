@@ -1,0 +1,13 @@
+{
+  "source": "https://www.voxengo.com/impulses/",
+  "response": "French 18th Century Salon",
+  "creator": "Aleksey Vaneev / Voxengo",
+  "type": "Modelled room impulse response, not measured Paris studio acoustics",
+  "licence": "Royalty-free processing including commercial usage; raw IR not redistributed",
+  "processing": "Stereo convolution, dry timing untouched, IR aligned to main arrival, first 2 ms faded, 12 ms predelay, wet-only highpass 180 Hz and lowpass 6.5 kHz, final 150 ms IR fade",
+  "wet_relative_dry_rms_db": -16,
+  "wet_gain": 0.02148809628269504,
+  "duration_seconds": 480.0,
+  "tail": "Circular convolution tail, no extra time or cutoff",
+  "peak_dbfs": -1
+}
