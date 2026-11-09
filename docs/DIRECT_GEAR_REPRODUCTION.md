@@ -4,6 +4,10 @@ Current native CAD: `outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Rev
 
 This checkout contains corrected CAD, a reference assembly STEP, candidate BOM, tuning/event data, geometric checks and scripts. It deliberately contains no images, Blender scenes, frame caches, audio, MIDI, video, external samples, impulse responses or renderer binaries. Files named in export reports describe local outputs, not promised repository downloads. Nothing here is a manufacturing release.
 
+## Failed assembly audit
+
+The current model must not be fabricated as drawn. Read [Reality_Audit](../outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/README.md). The four `work/audit_direct_gear_*.py` / `work/summarize_reality_audit.py` scripts record all saved-pose solid pairs, the scoped motion sweep and string/bridge dimensions. They report real failures, not a release certificate. The prior checking recipes below have narrower scopes.
+
 ## CAD and checks
 
 Use a Python environment with FreeCAD, FreeCADGui, Part and PySide, with Qt offscreen support. The author used the installed FreeCAD application on macOS. Run from the checkout root, in a separate process, without closing or automating the live FreeCAD window:

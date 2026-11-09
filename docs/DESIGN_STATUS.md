@@ -2,7 +2,7 @@
 
 | Version | Status | Timing | Physical validation |
 |---|---|---|---|
-| Direct gear, axle-clearance revision | Current architecture proposal; integral crank shafts end behind rods | Exact pentatonic rates; 480 s ideal repeat at 3 rpm | Native-solid and mathematical checks only; no physical build |
+| Direct gear, axle-clearance revision | FAILED assembly audit; local crank-rod gap corrected, other collisions unresolved | Exact pentatonic rates; 480 s ideal repeat at 3 rpm | Seven support/string clashes,16 shaft/support clashes, four arm/shaft motion clashes and further routing/mounting failures; no build |
 | Lab Frame, original | Historical appearance/layout | Earlier chromatic drive ratios, pentatonic pitches; mismatch | None |
 | Lab Frame Ratio Review | Earlier twelve-voice review | Pitch and average cam rotation match; 480 s ideal repeat at3 rpm | Known packaging/hub problems remain |
 | Slender proportional bank | Upper-bank layout study; full drive not installed |109..24.222 mm arms;13.5 mm pitch;target +/-45 degrees;rates unchanged |181-position sampled sweep; hardware untested |
@@ -33,3 +33,7 @@ Media has been excluded at the author's request. Documents mentioning videos, re
 The earlier rod/support sweep excluded the individual crank axles and missed a real collision. Reproducing 360 poses per voice found 553 positive-volume rod–crank-axle intersections across twelve channels. The current integral shaft/flange terminates at station X +4 mm; rods occupy X +5..+7 mm. Their axial slabs stay disjoint at every rotation angle, providing a continuous 1 mm gap from that crank component. The all-axle sampled sweep has no rod intersections, and the separate 72-pose support sweep has no intersections or invalid solids within its recorded scope. No tolerance, load, flex, wear, assembly or physical safety proof follows from these results.
 
 The current candidate BOM replaces twelve separate crank disks/shafts with twelve integral crank shaft/flange candidates. Machining details, material, bearing thrust stack, output-gear locking, pin retention and measured torque remain release gates. The previously known Lab Frame belt/pulley problems apply to that older architecture; the direct-gear proposal has its own unresolved joints and gear supplier requirements.
+
+## 9 November reality audit supersedes assembly feasibility assumptions
+
+[Measured audit and part names](../outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/README.md). The current direct-gear CAD is not buildable as drawn. The saved-pose all-pairs audit and 360-pose arm/rod sweep find multiple independent failures. Published earlier passes remain limited to their stated exclusions and must not be read as a working-assembly pass. No corrected design or physical validation is claimed by this documentation update.

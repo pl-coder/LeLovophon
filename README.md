@@ -6,6 +6,8 @@ This repository contains the CAD, technical drawings, parts lists, tuning data, 
 
 ## Current revision — 9 November 2026
 
+**Build status: FAILED reality audit (9 November 2026). The current CAD has supports through strings and rotating shafts, four arm/shaft sweep collisions, blocked anchor routes, incompatible pin retainers and unsupported outer bridges. Do not fabricate it as drawn.** See the [measured reality audit](outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/README.md).
+
 The current proposal is the [direct-gear engineering prototype](outputs/LeLovophon_Direct_Gear_Prototype/README.md), with the [corrected crank axle CAD and clearance results](outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/README.md). One common input shaft drives twelve gear/crank-rocker channels. The rods now clear their crank axles by a continuous 1 mm axial gap. It remains unbuilt and unreleased for manufacture; shaft locking, fastener retention, bearing thrust spacing and physical plucking/load tests remain open.
 
 [Reproduction notes](docs/DIRECT_GEAR_REPRODUCTION.md) cover the eight-minute MIDI/event list, sampled harp, salon convolution and the final close-focus Paris studio render. The local film is sixteen minutes/two rotations, with a thirty-second 32x edit. No media is included here.

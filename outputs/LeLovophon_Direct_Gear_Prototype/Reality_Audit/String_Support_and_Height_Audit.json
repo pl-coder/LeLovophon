@@ -1,0 +1,246 @@
+{
+  "actual_deck_bounds_mm": [
+    -30.0,
+    340.0,
+    -112.00000000000013,
+    -109.0,
+    -95.0,
+    45.0
+  ],
+  "outer_bridges": [
+    {
+      "note": "C3",
+      "bridge": "C_KotoThirdBridge",
+      "body_contacts": [
+        {
+          "part": "Baseplate_310x170x6",
+          "minimum_distance_mm": 4.0,
+          "overlap_volume_mm3": 0.0
+        },
+        {
+          "part": "SoundboxShell",
+          "minimum_distance_mm": 5.0,
+          "overlap_volume_mm3": 0.0
+        },
+        {
+          "part": "KotoAnchorBlock",
+          "minimum_distance_mm": 0.0,
+          "overlap_volume_mm3": 34.80000000000002
+        },
+        {
+          "part": "KotoTunerBlock",
+          "minimum_distance_mm": 316.0,
+          "overlap_volume_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "note": "D5",
+      "bridge": "B_KotoThirdBridge",
+      "body_contacts": [
+        {
+          "part": "Baseplate_310x170x6",
+          "minimum_distance_mm": 4.0,
+          "overlap_volume_mm3": 0.0
+        },
+        {
+          "part": "SoundboxShell",
+          "minimum_distance_mm": 5.0,
+          "overlap_volume_mm3": 0.0
+        },
+        {
+          "part": "KotoAnchorBlock",
+          "minimum_distance_mm": 254.66666666666669,
+          "overlap_volume_mm3": 0.0
+        },
+        {
+          "part": "KotoTunerBlock",
+          "minimum_distance_mm": 59.333333333333314,
+          "overlap_volume_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "string_bridge_height_geometry": [
+    {
+      "prefix": "C",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "Cs",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "D",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "Eb",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "E",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "F",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "Fs",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "G",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "Ab",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "A",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "Bb",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    },
+    {
+      "prefix": "B",
+      "speaking_centre_height_Y_mm": -91.0,
+      "back_centre_height_Y_mm": -91.0,
+      "bridge_crown_top_Y_mm": -91.39999999999999,
+      "left_saddle_top_Y_mm": -91.4,
+      "right_saddle_top_Y_mm": -91.4,
+      "crown_faces": 3,
+      "crown_surface_types": [
+        "Cylinder",
+        "Plane",
+        "Plane"
+      ],
+      "nominal_string_break_angle_deg": 0
+    }
+  ]
+}
