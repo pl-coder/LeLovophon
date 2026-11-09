@@ -23,7 +23,7 @@
 // freq * len / (len + d): the same millimetres, more cents on the short
 // strings. The page mirrors the phase by integrating the same rate.
 //
-// Build:  faust -lang wasm-e -o sim/page/dsp/lovophon.wasm sim/page/lovophon.dsp
+// Build:  faust -lang wasm -o sim/page/dsp/lovophon.wasm sim/page/lovophon.dsp
 // This is a listening model, not a measurement of any real string.
 
 import("stdfaust.lib");

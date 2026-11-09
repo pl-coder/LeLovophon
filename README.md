@@ -17,6 +17,7 @@ This repository contains the CAD, technical drawings, parts lists, tuning data, 
 | Prototype bought/custom parts | [BOM](outputs/Lovophone_Prototype_A/Prototype_A_BOM.csv) |
 | Full Lab Frame component inventory | [Procurement inventory](outputs/Lovophone_Lab_Frame_Procurement_Inventory.csv) |
 | What is current, archived or still unproved | [Design status](docs/DESIGN_STATUS.md) |
+| Play the twelve-voice design in a browser, no FreeCAD (a simulation with labelled additions, not a hardware test) | [sim/README.md](sim/README.md) |
 
 ## What it does
 
