@@ -2,8 +2,17 @@
 
 A page that draws the twelve-voice Lab Frame moving, straight from the CAD, and
 plays its strings. Behind it is a small Python model of the design that also
-runs on its own. The design of record is
-`outputs/Lovophone_Lab_Frame_Ratio_Review.FCStd`; nothing here changes it.
+runs on its own. It reads `outputs/Lovophone_Lab_Frame_Ratio_Review.FCStd`
+and changes nothing in it.
+
+**Which design this is.** The Lab Frame Ratio Review: belts, eccentric cams and
+spring followers. As of 9 November 2026 the repository's current proposal is
+the [direct-gear prototype](../outputs/LeLovophon_Direct_Gear_Prototype/README.md),
+which this page does not model. The ratios, pitches, speaking lengths and the
+24-turn repeat are the same in both. The motion is not: the direct-gear
+crank-rocker has its own non-sinusoidal swing and its own pluck schedule, so
+the rhythm heard here is the earlier machine's. Porting the page to the
+direct-gear CAD is the obvious next step and has not been started.
 
 Built by Peter Langford, with Claude (Anthropic's AI model) writing the code.
 Idea, instrument and CAD by Paul Love. The history of how it got here is in
@@ -138,8 +147,8 @@ The constants are `VIBRATO_STEP_UP` and `VIBRATO_DEPTH_MM` in
 ## The model: `sim/lovophon`
 
 A standard-library Python package (3.11 or newer, like the repository checks)
-that answers two questions: when is each string plucked, and where is every
-moving part at time *t*.
+that answers two questions for the Lab Frame Ratio Review: when is each string
+plucked, and where is every moving part at time *t*.
 
 ```sh
 python3 -m sim.lovophon                      # table of the twelve voices

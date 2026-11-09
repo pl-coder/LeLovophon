@@ -12,12 +12,23 @@ which wrote the code and these entries. Nothing here has touched hardware.
 
 ## 2026-11-09 — packaged for Paul
 
-**Changed:** merged Paul's `main` (the Slender Bank study, `ed24372`) into the
-branch so switching to it does not hide his newest work (`bf5ce92`). The merge
-touched nothing under `sim/` and not the design of record. Rewrote
-`sim/README.md` to open with a quick start and to separate what comes from the
-CAD from what the page adds; added this diary; added one row to the top-level
-README's table.
+**Changed:** merged Paul's `main` twice so switching to this branch does not
+hide his newest work: the Slender Bank study (`ed24372`, merge `bf5ce92`) and,
+landing the same evening while the documentation was being written, the
+direct-gear prototype (`b6513ea`, merge `ffcd022`). Neither merge touched
+anything under `sim/` or the Lab Frame document. Rewrote `sim/README.md` to
+open with a quick start and to separate what comes from the CAD from what the
+page adds; added this diary; added one row to the top-level README's table.
+
+**The important one:** the direct-gear commit makes a different architecture
+the current proposal and relabels the Lab Frame Ratio Review, which is all
+this page models, as an earlier study. So the page is now a simulation of the
+previous machine. The README says so at the top. What carries over unchanged:
+the ratios, pitches, speaking lengths, the 24-turn repeat, and so the cycle
+dial; a hand crank is now part of Paul's own proposal. What does not: the
+motion and the pluck times, which come from a crank-rocker instead of a cam
+and follower. The direct-gear folder ships its own 1350-pluck event list,
+which would be an oracle for all twelve voices, where the Lab Frame had one.
 
 **Learned:** reading CONTRIBUTING properly at this point, not at the start,
 turned up two things that should have been raised earlier. The repository
@@ -26,12 +37,15 @@ compiled wasm. And no licence is selected, which CONTRIBUTING says must be
 settled before third-party contributions. Both are written up in the README
 as decisions for Paul. Neither stops anyone trying the branch.
 
-**Now true:** branch is Paul's current `main` plus the sim. Repository checks
-pass (323 packaged files) and the 17 model tests pass. No pull request opened.
+**Now true:** branch is Paul's `main` as of `b6513ea` plus the sim. Repository
+checks pass (323 packaged files) and the 17 model tests pass. No pull request
+opened.
 
-**Open:** whether Paul wants this as a pull request, a long-lived branch, or
-not at all. Peter's observation from playing it: 3 rpm by hand is peaceful but
-hard to hold steady.
+**Open:** whether to port the page to the direct-gear CAD, which is where it
+would be useful to Paul now. Whether Paul wants any of this as a pull request,
+a long-lived branch, or not at all. Peter's observation from playing it: 3 rpm
+by hand is peaceful but hard to hold steady, which bears on a hand-cranked
+prototype.
 
 ---
 
