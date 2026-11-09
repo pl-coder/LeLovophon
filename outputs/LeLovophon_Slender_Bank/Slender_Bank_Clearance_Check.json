@@ -1,0 +1,13 @@
+{
+  "poses_per_voice": 181,
+  "half_swing_degrees": 45,
+  "moving_fixed_intersections": [],
+  "wrong_string_intersections": [],
+  "own_string_pick_contacts": 12,
+  "minimum_independent_rotor_axial_separation_mm": 7.5,
+  "independent_rotors_clear_for_any_relative_phase": true,
+  "invalid_shapes": [],
+  "drivetrain_included": false,
+  "physical_test_passed": false,
+  "scope": "Upper-bank reference geometry. Half-degree sampled moving/fixed sweep; analytic disjoint axial slabs for independent rotors. No strength, joints, full drive, load or pick dynamics validation."
+}

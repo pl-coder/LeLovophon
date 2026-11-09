@@ -4,6 +4,7 @@
 |---|---|---|---|
 | Lab Frame, original | Historical appearance/layout | Earlier chromatic drive ratios, pentatonic pitches; mismatch | None |
 | Lab Frame Ratio Review | Current twelve-voice review | Pitch and average cam rotation match; 480 s ideal repeat at3 rpm | Known packaging/hub problems remain |
+| Slender proportional bank | Upper-bank layout study; full drive not installed |109..24.222 mm arms;13.5 mm pitch;target +/-45 degrees;rates unchanged |181-position sampled sweep; hardware untested |
 | Prototype A | Separate one-voice and9:2 test-fixture proposal | Pinned4-bar, compound60/20 and30/20 belt stages | CAD and mathematical checks only; not built |
 | Unified160-minute | Parked alternative | 19-finger picking-wheel pattern;9600 s nominal cycle | Not built; not the Lab Frame |
 | Earlier Harpe studies | Archive/provenance | Varies by file | Not build releases |

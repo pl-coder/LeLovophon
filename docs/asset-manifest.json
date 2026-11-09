@@ -319,6 +319,42 @@
       "sha256": "a90ab601632e912d41c372b40c0e4e154f341daa92f33a908870ce1f69f252ed"
     },
     {
+      "path": "outputs/LeLovophon_Slender_Bank/LeLovophon_Slender_Bank.FCStd",
+      "storage": "git",
+      "size_bytes": 1135781,
+      "sha256": "16be5b9d80aef32b63e7ba1661ab29d7f2246334503e730dc36effe30259c13b"
+    },
+    {
+      "path": "outputs/LeLovophon_Slender_Bank/LeLovophon_Slender_Bank.step",
+      "storage": "git",
+      "size_bytes": 3136164,
+      "sha256": "4b89f01b82ce49fd17d2d7fb329c273c6616692175e8d5ef801976d5c1a7fe1f"
+    },
+    {
+      "path": "outputs/LeLovophon_Slender_Bank/README.md",
+      "storage": "git",
+      "size_bytes": 5749,
+      "sha256": "aeb90bf52d8a850f164449caba7957be30081663bacae83768fac201226cd0cf"
+    },
+    {
+      "path": "outputs/LeLovophon_Slender_Bank/Slender_Bank_Clearance_Check.json",
+      "storage": "git",
+      "size_bytes": 572,
+      "sha256": "4f00c4231373bc9c70ea6960c6ccc126f09bc700c951168627ff9ec3a6b7d396"
+    },
+    {
+      "path": "outputs/LeLovophon_Slender_Bank/Slender_Bank_Dimensions.csv",
+      "storage": "git",
+      "size_bytes": 1898,
+      "sha256": "4b8f916bdb2ca04bd4c03916185c6b933a33792a528c11a1f4838e4c01c145d1"
+    },
+    {
+      "path": "outputs/LeLovophon_Slender_Bank/Slender_Bank_Layout.json",
+      "storage": "git",
+      "size_bytes": 7628,
+      "sha256": "5a0d19bbb079d1093f03c8d00aceb6e83fdef7e4a2bf32b8cee08bee5e574c6c"
+    },
+    {
       "path": "outputs/Lovophone_160min_Equal_Temperament.mid",
       "storage": "excluded-media-or-bundle",
       "size_bytes": 164293,
@@ -1477,6 +1513,12 @@
       "sha256": "e06fd5ab921db118c873c7d0685e435dd01d59eb7dedfaedd7ceb6ce5078fc39"
     },
     {
+      "path": "work/build_slender_bank.py",
+      "storage": "git",
+      "size_bytes": 6918,
+      "sha256": "17049884f0fdf632a4c6b7d31d081c298914cf53fa893a380bf8c6c0b857c63e"
+    },
+    {
       "path": "work/build_twelve_gantry.py",
       "storage": "git",
       "size_bytes": 6405,
@@ -1613,6 +1655,12 @@
       "storage": "git",
       "size_bytes": 2482,
       "sha256": "d53a1cdc2e388a77bacb6f0b8cc408d3f21ffc1a472eaea03d5f69eca05f813d"
+    },
+    {
+      "path": "work/check_slender_bank.py",
+      "storage": "git",
+      "size_bytes": 2707,
+      "sha256": "ff1ef6c5d5736241f4849fb8ca629400582ce97ad3cf1c34ee4b090d60dd2724"
     },
     {
       "path": "work/check_standard_drives.py",
@@ -2125,6 +2173,12 @@
       "sha256": "ba3f01ae9b971e52911691a6d60eb5a66ae0f55f747a3bdcae1325f1d6c9ce5f"
     },
     {
+      "path": "work/render_slender_bank.py",
+      "storage": "git",
+      "size_bytes": 2008,
+      "sha256": "a7d29cfe8d36f2bcfc6cb4319b1c82b04c56331dbd97834b22170ba878323432"
+    },
+    {
       "path": "work/render_unified_preview.py",
       "storage": "git",
       "size_bytes": 1796,
@@ -2147,6 +2201,12 @@
       "storage": "git",
       "size_bytes": 1540,
       "sha256": "a1c7cbb6f341415f3c5f177a0b29e7b65ea895136687caa1523f94ecb7af4908"
+    },
+    {
+      "path": "work/slender_bank_math.py",
+      "storage": "git",
+      "size_bytes": 2634,
+      "sha256": "7d8c1236387c9c40a613c8854b9de4886cec99c8d61535f24e9519c3f832f38e"
     },
     {
       "path": "work/soundbox.py",
