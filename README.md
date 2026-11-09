@@ -6,9 +6,13 @@ This repository contains the CAD, technical drawings, parts lists, tuning data, 
 
 ## Current revision — 9 November 2026
 
-**Build status: FAILED reality audit (9 November 2026). The current CAD has supports through strings and rotating shafts, four arm/shaft sweep collisions, blocked anchor routes, incompatible pin retainers and unsupported outer bridges. Do not fabricate it as drawn.** See the [measured reality audit](outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/README.md).
+**Current CAD: [Mechanical Revision R2](outputs/LeLovophon_Mechanical_Revision_R2/README.md). It passes the recorded nominal-geometry checks and remains unbuilt.**
 
-The current proposal is the [direct-gear engineering prototype](outputs/LeLovophon_Direct_Gear_Prototype/README.md), with the [corrected crank axle CAD and clearance results](outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/README.md). One common input shaft drives twelve gear/crank-rocker channels. The rods now clear their crank axles by a continuous 1 mm axial gap. It remains unbuilt and unreleased for manufacture; shaft locking, fastener retention, bearing thrust spacing and physical plucking/load tests remain open.
+Open [LeLovophon_R2.FCStd](outputs/LeLovophon_Mechanical_Revision_R2/LeLovophon_R2.FCStd). R2 rebuilds the string routes and tensioners, supports every bridge, moves the frame behind the swing, details shaft retention/gear pins/clamp hubs and corrects the spring-pick direction. Exact pentatonic ratios, proportional arms and the 480-second ideal cycle remain unchanged.
+
+The [verification summary](outputs/LeLovophon_Mechanical_Revision_R2/Verification_Summary.json) records 803 valid part shapes, 322,003 saved-pose pairs, full per-voice motion checks, 64 relative tooth phases per gear pair, continuous shared-input clearance and full tensioner travel checks. No unintended contacts remain within these recorded nominal checks. Thread/race internals, elastic pick release, manufacturing tolerances and loads are not physically simulated. A low-voice and high-ratio bench prototype are required before ordering the full machine or selecting a motor.
+
+The [previous failed assembly audit](outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/README.md) is preserved as provenance. Earlier films depict that earlier assembly; they do not establish R2's operation. The STEP in R2 is an assembly reference, not a machining release.
 
 [Reproduction notes](docs/DIRECT_GEAR_REPRODUCTION.md) cover the eight-minute MIDI/event list, sampled harp, salon convolution and the final close-focus Paris studio render. The local film is sixteen minutes/two rotations, with a thirty-second 32x edit. No media is included here.
 
@@ -63,7 +67,7 @@ The Lab Frame review fixes the old pitch/rotation mismatch, but its largest refe
 
 Prototype A is a separate test-fixture proposal. It uses a pinned four-bar linkage instead of a spring-loaded follower and swing-amplifier belt, plus two catalogue timing stages `(60/20) × (30/20) = 9/2`. The calculation and sampled rigid-clearance checks pass; no fixture has been built. Belt tooth-profile compatibility, actual supplier dimensions, fits, tensioner thrust capture, flexible-pick release, starting torque and endurance remain physical release gates.
 
-See [the prototype README](outputs/Lovophone_Prototype_A/README.md) and [drawings](outputs/Lovophone_Prototype_A/Prototype_A_Drawings.pdf) before quoting or machining. STEP files show nominal/pilot geometry; specified threads and fits in the drawings govern.
+For the earlier separate fixture, see [the prototype README](outputs/Lovophone_Prototype_A/README.md) and [drawings](outputs/Lovophone_Prototype_A/Prototype_A_Drawings.pdf) before quoting or machining. STEP files show nominal/pilot geometry; specified threads and fits in the drawings govern.
 
 ## Open and work on the project
 

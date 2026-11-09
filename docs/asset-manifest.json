@@ -1,6 +1,54 @@
 {
   "files": [
     {
+      "path": ".gitattributes",
+      "storage": "git",
+      "size_bytes": 153,
+      "sha256": "57af1ac58c8839868730eff00abc62bc15b047c0f460e9d11144b01f08faeeba"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "storage": "git",
+      "size_bytes": 300,
+      "sha256": "873ff35f0b6d78e252cec1e137f1384281999b3c0236df7d90cfeeede720227f"
+    },
+    {
+      "path": ".gitignore",
+      "storage": "git",
+      "size_bytes": 679,
+      "sha256": "4c2b7537be43b451365404ab71f8d399c40d825ab717925c44011a119ec17cef"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "storage": "git",
+      "size_bytes": 818,
+      "sha256": "e1c146b28fd20b691a33cdfc0d2948243cc6dd29577337c97d024bc0af0a1141"
+    },
+    {
+      "path": "README.md",
+      "storage": "git",
+      "size_bytes": 7941,
+      "sha256": "6a47de5d52a8ae172b7c792fd1e15ad145efdd9d2cce9701e4bb73a4440ef525"
+    },
+    {
+      "path": "docs/DESIGN_STATUS.md",
+      "storage": "git",
+      "size_bytes": 5627,
+      "sha256": "46f349dc65d970eba5d8e05e1dc6f416eac951b7e42c497bddea35f3e12be23a"
+    },
+    {
+      "path": "docs/DIRECT_GEAR_REPRODUCTION.md",
+      "storage": "git",
+      "size_bytes": 7320,
+      "sha256": "f8e146e42ceea910516169eeb54f8bde65161d0dad66e4ba01223e4404e8bb10"
+    },
+    {
+      "path": "docs/R2_REPRODUCTION.md",
+      "storage": "git",
+      "size_bytes": 2461,
+      "sha256": "cfa046a4f73985cb0703d34b007bd9cebe6cbee94cd99d25980b3b307454910e"
+    },
+    {
       "path": "outputs/Animate_Lovophone_Lab_Ratio_Review.FCMacro",
       "storage": "git",
       "size_bytes": 4034,
@@ -317,6 +365,294 @@
       "storage": "excluded-media-or-bundle",
       "size_bytes": 50909,
       "sha256": "a90ab601632e912d41c372b40c0e4e154f341daa92f33a908870ce1f69f252ed"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Assembly_REFERENCE_NOT_FOR_MACHINING.step",
+      "storage": "git",
+      "size_bytes": 32740031,
+      "sha256": "6cbf4fd75428015e147cae36c11805e10a82909172fe0652072504c2da1d89d5"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/BOM_Engineering_Candidates.csv",
+      "storage": "git",
+      "size_bytes": 1521,
+      "sha256": "8a2f7268d99e470d61029550a52e54f3f9fa1f6acbef8855fdf35d91d8e8d3f1"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Drive_CAD_Check.json",
+      "storage": "git",
+      "size_bytes": 376,
+      "sha256": "8430912901502b028c906582a68fc91e67de471065dd0e916cca1bafdbefc666"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Drive_Calculations.json",
+      "storage": "git",
+      "size_bytes": 8134,
+      "sha256": "15c9e569942c764aead508108a6ee99d5d534ec66ce783073f2c47b4a89befa2"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Drive_Mathematical_Check.json",
+      "storage": "git",
+      "size_bytes": 2448,
+      "sha256": "d4aa72c37620729adf3e7653200ea8eca750e9ad676fc4cd2c78c32922efbd49"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/LeLovophon_Direct_Gear_Prototype.FCStd",
+      "storage": "git",
+      "size_bytes": 4126727,
+      "sha256": "5bb40f80e5d8582394893421a41c546a709f5cb284c1e173ec5228e985b67105"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Paris_Close_Studio/Orbit_360_Details.json",
+      "storage": "git",
+      "size_bytes": 1926,
+      "sha256": "d0f2a61996a7e8f7f65095a7087bfdecaf39fd1589b935141a0260e510a61195"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Paris_Close_Studio/Orbit_360_Pose_Verification.json",
+      "storage": "git",
+      "size_bytes": 430,
+      "sha256": "9849690920aa16827465661cc4ea2e9562a7b59cbe44a815c3c7c85b167d316a"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Paris_Close_Studio/Paris_Film_Verification.json",
+      "storage": "git",
+      "size_bytes": 1301,
+      "sha256": "071c004178e24683f771cccbc680fb2e8777e4825d004556349d9ecef3fc7f60"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Paris_Close_Studio/Readme.md",
+      "storage": "git",
+      "size_bytes": 3086,
+      "sha256": "34dab92e7954baad2ea87050d8bdda8b6ea0adb4c8d9edf18e7fa5991b0a8418"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Paris_Close_Studio/Salon_Reverb_Details.json",
+      "storage": "git",
+      "size_bytes": 680,
+      "sha256": "a0ba9bdd909b2a5b683796d9a2c40f6d7c1852f61894c8a00c584bb1c9adb807"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/README.md",
+      "storage": "git",
+      "size_bytes": 2063,
+      "sha256": "939792cadd8f3ccd61262651efef7f687b4cb7706e60fa5957e3676a5596b919"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Rod_Axle_Clearance.json",
+      "storage": "git",
+      "size_bytes": 1944,
+      "sha256": "44d4f8e45e7d8ecd19bcda8d7218b5aa304da91ffb96bd8c6c65922256d4cba4"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Rod_Axle_Clearance_Before.json",
+      "storage": "git",
+      "size_bytes": 70015,
+      "sha256": "da6761a0703e6e6f16f8f6a27c0a13ee03e423b8365b0b27d6a9bb1415ab2d73"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/Concert_Harp_Sample_Credits.txt",
+      "storage": "git",
+      "size_bytes": 964,
+      "sha256": "9fbe9eac9b1568423644cddb3aef1d7951cb4af74bbecafed07d09aac4644d07"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/LeLovophon_8min_Pluck_Times.csv",
+      "storage": "git",
+      "size_bytes": 85997,
+      "sha256": "0f83f1b4c795a0dbaa4dbe850a6e0324e64a410e6e278f742dbe88a68d0fdd06"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/LeLovophon_Pentatonic.scl",
+      "storage": "git",
+      "size_bytes": 269,
+      "sha256": "14bbc6bb60c6c3fd9edf676ec8d3266cb25ba2af68d041d42487750537559a9c"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/Readme.md",
+      "storage": "git",
+      "size_bytes": 2196,
+      "sha256": "5bba0b5c496378fa854f46d848601e0b743136c3a332bb09f44ad1391f00aeca"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/Sampled_Harp_Details.json",
+      "storage": "git",
+      "size_bytes": 3752,
+      "sha256": "7d8d99e645e2aa75c8b922802b3087ff6073f897ec8a934f6f505e0338108d85"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/Sound_Details.json",
+      "storage": "git",
+      "size_bytes": 4525,
+      "sha256": "5ecf75a44ea43d4b3c85b84ef4a40195c4c1e307136c166e3d42170e9444908f"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/Sound_Verification.json",
+      "storage": "git",
+      "size_bytes": 682,
+      "sha256": "08a9a8e43046372c94bf5d005823211806d52fc7489cf879882ce9ac8f9ca8e2"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Voice_Dimensions.csv",
+      "storage": "git",
+      "size_bytes": 1660,
+      "sha256": "09ca96a74e75d6537eaa662a4ddb96d317ca5ed7c62b9f6f83c4d57917f92268"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/README.md",
+      "storage": "git",
+      "size_bytes": 7222,
+      "sha256": "0822d7820739a8da4eff5d2f21029927482469cfe976ed39dcf977071f1e0c7b"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Audit_Summary.json",
+      "storage": "git",
+      "size_bytes": 3925,
+      "sha256": "72e246b6a25e21923a5afd2298ffbe9f27c077fef7b0242d9972873fc22db02d"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Confirmed_Findings.csv",
+      "storage": "git",
+      "size_bytes": 1996,
+      "sha256": "44c46e3599caa4add37c7233c7bb0ad37a34412b147fd2675436112149ac3715"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Critical_Face_Clearances.json",
+      "storage": "git",
+      "size_bytes": 6053,
+      "sha256": "e17180ae20799d6cc2e0e864297e4a235f10e34dc945fbcb912951d43488d379"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Motion_to_Stationary_Audit.json",
+      "storage": "git",
+      "size_bytes": 4458,
+      "sha256": "b8364bb219a0709bb8ff0a5f35906d4d0b64212eecf4c9b5d2825a8b262463f1"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Part_Inventory.json",
+      "storage": "git",
+      "size_bytes": 123444,
+      "sha256": "1736998a8799c1aa55bc925f50f2e78ef8b70c5aedd36ef499d39fa99b8f58e8"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/README.md",
+      "storage": "git",
+      "size_bytes": 6977,
+      "sha256": "9357082828c5e501ba06eb1bc0275748464a7fe8270ab7ff7762f489a4f20271"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Static_All_Pairs_Raw.json",
+      "storage": "git",
+      "size_bytes": 67348,
+      "sha256": "eb1c0ee73d88eeeff97b130c24fac189188cdaae1179c37360631f1035005c13"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/String_Support_and_Height_Audit.json",
+      "storage": "git",
+      "size_bytes": 6330,
+      "sha256": "44cb542662674d1e2c1cf1fb47640855950c7f5f66efbdbbcc0bca720570a678"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Candidate_BOM.csv",
+      "storage": "git",
+      "size_bytes": 3844,
+      "sha256": "391380317fb13a706e5195767acb50c2b5f072e0b39fdd7409b333026d65bb43"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Baseline_Motion_01_04.json",
+      "storage": "git",
+      "size_bytes": 1787,
+      "sha256": "30792425aea977ba3381bd129951ad1956be8265c965d5fd8c56ac4e6f4e37de"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Baseline_Motion_05_08.json",
+      "storage": "git",
+      "size_bytes": 3422,
+      "sha256": "e0d0253ef373b5493635257881a15dda1dd5bf67ce70867649b99c526aa307df"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Baseline_Motion_09_12.json",
+      "storage": "git",
+      "size_bytes": 1385,
+      "sha256": "0fccdb43fb77fd09574fb85a66d6c82377c009615070f919fcbd80d182b5747b"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Dimensions_and_Tensioners.json",
+      "storage": "git",
+      "size_bytes": 5939,
+      "sha256": "18a17093ea1803c52428259c419f96214c8df850f16d2f5fb89afa8f7d143bb6"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Motion_Audit.json",
+      "storage": "git",
+      "size_bytes": 11507,
+      "sha256": "c546e30fd218fff3a1a150fb1369419ff5f9ca92cc42a5124a00e18a1f369195"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Retainer_Refinement_Motion.json",
+      "storage": "git",
+      "size_bytes": 147236,
+      "sha256": "0aff88e794bb736a2149e078bc9df2c0571dfe48608530115c3b5cf2b9169f93"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Shared_Input_Continuous_Clearance.json",
+      "storage": "git",
+      "size_bytes": 1210,
+      "sha256": "39d8e1d3bfd72370d087e042c1ad1f517e735637fdef4fad61c3012a5bf8a4a8"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Static_All_Pairs.json",
+      "storage": "git",
+      "size_bytes": 6512,
+      "sha256": "8cc86f20a911612221476b7956a2a82ab90ca0ab5022ede699c9d9e4afc6d13b"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Drive_Calculations.json",
+      "storage": "git",
+      "size_bytes": 8852,
+      "sha256": "6bfa14347d7fe4da0f4ffccddb3d769a7554af55ba76eea17912ae3a92f28caa"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/LeLovophon_R2.FCStd",
+      "storage": "git",
+      "size_bytes": 7401637,
+      "sha256": "264084afcb461bb55a4e22db9f73d9ee841b749e00c6255b3f3264debac94e67"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Part_Inventory.json",
+      "storage": "git",
+      "size_bytes": 154362,
+      "sha256": "bbc64566e7690b0e30f66f5bb60c65702de5fcf54744d1b2ad0ae3eb984a16bb"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/R2_Assembly_REFERENCE_NOT_FOR_MACHINING.step",
+      "storage": "git",
+      "size_bytes": 50410122,
+      "sha256": "97f1fec5a0da31551a513e949dd97f0ed9bbbb9eb70a855c83c2640250b8c082"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/README.md",
+      "storage": "git",
+      "size_bytes": 6206,
+      "sha256": "c1990974668bebcf6f8647732988e49bf219086a66ba87ce9768fd62fb188291"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/String_Routing.json",
+      "storage": "git",
+      "size_bytes": 3014,
+      "sha256": "43a1565dca8461d4793c9388281f6e67bbb86fd2d0477b9e70c4a16606a5dff2"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Tuning_and_Drive.csv",
+      "storage": "git",
+      "size_bytes": 984,
+      "sha256": "c0de1ff1a1d6ae91ac1e7bcd6d03f7302bc7e84219acc5d21d97848f1ff6c770"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Verification_Summary.json",
+      "storage": "git",
+      "size_bytes": 922,
+      "sha256": "d9950592e04bea8da62306a0fe3a3205927dff756bc520292896dc86e3b34eec"
     },
     {
       "path": "outputs/LeLovophon_Slender_Bank/LeLovophon_Slender_Bank.FCStd",
@@ -1333,6 +1669,12 @@
       "sha256": "6a5c3491f9c7844be19905c576e34dca3a72e267bd1bd35c5a4237a4c56843ad"
     },
     {
+      "path": "scripts/verify_project.py",
+      "storage": "git",
+      "size_bytes": 5561,
+      "sha256": "53602038ebf0f5d285cb1daa6ce4f05856ce729cae408b352def32c38d4d0d0f"
+    },
+    {
       "path": "work/Harpe_d_Amour_Shared_Gantry.FCStd",
       "storage": "git",
       "size_bytes": 1355589,
@@ -1411,6 +1753,24 @@
       "sha256": "6dc8949f5490134365cec319e31e6133922fe685f16430fde6b45821796ec976"
     },
     {
+      "path": "work/audit_direct_gear_motion.py",
+      "storage": "git",
+      "size_bytes": 3071,
+      "sha256": "b6ab382cb9f29e5acc0f24b2c7956399f4f1ddd4c6ce302324496f8cb0a52968"
+    },
+    {
+      "path": "work/audit_direct_gear_static.py",
+      "storage": "git",
+      "size_bytes": 2255,
+      "sha256": "40bf7ad171482e592d99b75168d3a15f9a3d6415d702809286695cbf20068628"
+    },
+    {
+      "path": "work/audit_direct_gear_string_support.py",
+      "storage": "git",
+      "size_bytes": 1884,
+      "sha256": "1a8153e1ceb68a791ece8285340692c50bc0718609172ba597241ef873ff6fb8"
+    },
+    {
       "path": "work/audit_lab_build.py",
       "storage": "git",
       "size_bytes": 9144,
@@ -1457,6 +1817,12 @@
       "storage": "git",
       "size_bytes": 4341,
       "sha256": "680b6b562746f8762d2197a6c54a4c77c28f766b3c313476099316318f89984e"
+    },
+    {
+      "path": "work/build_direct_gear_axle_fix.py",
+      "storage": "git",
+      "size_bytes": 10502,
+      "sha256": "78bcf90088c9f93aaab00442c6f0713b040f98f987859cefa22846defc927b68"
     },
     {
       "path": "work/build_hardware_drive_frame.py",
@@ -1555,6 +1921,30 @@
       "sha256": "f35c483cb09a2aa7dc680016ef9563203854aa0c55d7b037670eb2f66c592a17"
     },
     {
+      "path": "work/check_direct_gear_360_pose_axle_fix.py",
+      "storage": "git",
+      "size_bytes": 1031,
+      "sha256": "60c0d84599d6b58f5ff74869b80455ce02e1cc0d60a4952e6b3fbcdb7f9af36e"
+    },
+    {
+      "path": "work/check_direct_gear_cad_axle_fix.py",
+      "storage": "git",
+      "size_bytes": 2414,
+      "sha256": "22f71dcee94503e1a2dfa5aeabd9a9303daac4728017e7f89ab481d911fccd1e"
+    },
+    {
+      "path": "work/check_direct_gear_math.py",
+      "storage": "git",
+      "size_bytes": 2375,
+      "sha256": "0c496c3dcf98298e70e76a523ef4c95953eba1799cb144a9f40043bba785a2c9"
+    },
+    {
+      "path": "work/check_direct_gear_sound.py",
+      "storage": "git",
+      "size_bytes": 2953,
+      "sha256": "c7b4e8d19c6cf42a557a45ce46aa10301bb4c4b3c344c1523cf98bdebb594b0e"
+    },
+    {
       "path": "work/check_hardware_drive_frame.py",
       "storage": "git",
       "size_bytes": 4841,
@@ -1621,6 +2011,12 @@
       "sha256": "daf42b6b7ff12989093afaa219d1e39bcc1cd077fdadaa5c9cc7806bcf1621bb"
     },
     {
+      "path": "work/check_paris_close_pose.py",
+      "storage": "git",
+      "size_bytes": 1763,
+      "sha256": "37c5929c764f023f6b74380a19f6d107edef1ddbb718b321381f391f38f00b9a"
+    },
+    {
       "path": "work/check_pentatonic.py",
       "storage": "git",
       "size_bytes": 1936,
@@ -1649,6 +2045,12 @@
       "storage": "git",
       "size_bytes": 1861,
       "sha256": "cb5340a414f8b090cfa7307bdb77a99c1b4028ce05ba7f76bcb2c54e22877168"
+    },
+    {
+      "path": "work/check_rod_axles.py",
+      "storage": "git",
+      "size_bytes": 2027,
+      "sha256": "f05a4c6f1a02ac2c0b826b8ccf9ecbc10d60a5de7b00a9cbafa978e9aa92f659"
     },
     {
       "path": "work/check_shared_gantry.py",
@@ -1727,6 +2129,36 @@
       "storage": "git",
       "size_bytes": 9479,
       "sha256": "2601fdbbb1e7ea6aec6258e0b693c43314737b049a8cafed8261013042a4de55"
+    },
+    {
+      "path": "work/convolve_harp_salon.py",
+      "storage": "git",
+      "size_bytes": 2854,
+      "sha256": "db32055a17ec2892c62e35936d5d9d77be42799c2f92909e6c53dadfd4535fdb"
+    },
+    {
+      "path": "work/direct_gear_math.py",
+      "storage": "git",
+      "size_bytes": 3524,
+      "sha256": "df5a8822c527f8ef2fc997d4a0aede7106c41f68cd26d125c77ad943c252d99e"
+    },
+    {
+      "path": "work/direct_gear_studio_materials.py",
+      "storage": "git",
+      "size_bytes": 3507,
+      "sha256": "dbf47767c262e862656a5c26ebc07f043eb04f6cef0921edea32ecc3dc624736"
+    },
+    {
+      "path": "work/encode_direct_gear_360_axle_fix.py",
+      "storage": "git",
+      "size_bytes": 5730,
+      "sha256": "42c0f1386399e6487dd5b4ee6def517858e8533da08340d98432a72fc983fb64"
+    },
+    {
+      "path": "work/encode_paris_close_16min.py",
+      "storage": "git",
+      "size_bytes": 5669,
+      "sha256": "1806d62c701485628dc7f1c9ae420172f97ce67f78ccc23ae3cb87d7a397171f"
     },
     {
       "path": "work/export_koto_rescue.py",
@@ -1939,6 +2371,12 @@
       "sha256": "c02d63003454ba032cf439545e0b748a38ca06f24c9420bbcd0ebd62a7a0c166"
     },
     {
+      "path": "work/lovophon_paris_close_studio.py",
+      "storage": "git",
+      "size_bytes": 11816,
+      "sha256": "97d0eb026b25692ba914f8d92a7f0feb9e373a04213849edc6d78f5363422411"
+    },
+    {
       "path": "work/low_nylon_size.py",
       "storage": "git",
       "size_bytes": 2457,
@@ -1955,6 +2393,18 @@
       "storage": "git",
       "size_bytes": 7497,
       "sha256": "9a252ea9e3a58134fb0c35ab3b5d390247cb2bb87acede7336285c9514ae54b9"
+    },
+    {
+      "path": "work/make_direct_gear_sound.py",
+      "storage": "git",
+      "size_bytes": 7875,
+      "sha256": "d386a29209d7646b16a3b004b6f2afbe3b2401c1b0279da6e94fd134108f89f0"
+    },
+    {
+      "path": "work/make_lovophon_short_edit.py",
+      "storage": "git",
+      "size_bytes": 2586,
+      "sha256": "44e0f39ebe944ba7d094477cbc25c4cd9124c66031c12ebe5f13fa87e5fb2359"
     },
     {
       "path": "work/make_lovophone_midi.py",
@@ -2059,6 +2509,66 @@
       "sha256": "7e1d888b950144baef2c0205a392024c675e6ff428f40980b6b5522a7c802c52"
     },
     {
+      "path": "work/rebuild_mechanical/audit.py",
+      "storage": "git",
+      "size_bytes": 8154,
+      "sha256": "a13acecf9c2abfa224a9cb96e3d0ffe0653a27cf6b03b29e6450400e0e417a50"
+    },
+    {
+      "path": "work/rebuild_mechanical/baseline_builder.py",
+      "storage": "git",
+      "size_bytes": 23420,
+      "sha256": "19ddb3404469482f69bf999b22d7b65dbd2942ad20c62b7575f45da15c186b5f"
+    },
+    {
+      "path": "work/rebuild_mechanical/build.py",
+      "storage": "git",
+      "size_bytes": 23522,
+      "sha256": "2db53dc8bc1361be1cdcb6c7347c113bd0ba8439f94a30f718c0ebde03e6a01c"
+    },
+    {
+      "path": "work/rebuild_mechanical/check_dimensions.py",
+      "storage": "git",
+      "size_bytes": 3780,
+      "sha256": "6a2f7c02e309b749d4e5652527a4a6b90cbf66a252cc77c78d5746ab58229f5a"
+    },
+    {
+      "path": "work/rebuild_mechanical/check_input_envelopes.py",
+      "storage": "git",
+      "size_bytes": 1959,
+      "sha256": "2287bd256f3820448eb9fd0e4ac71336b08d145f3ecab9a26ee69b20db067593"
+    },
+    {
+      "path": "work/rebuild_mechanical/combine_motion.py",
+      "storage": "git",
+      "size_bytes": 2990,
+      "sha256": "c90ea9780d6e240f6f100e5716630b44b83a5edc85d061e968a742063d7fc874"
+    },
+    {
+      "path": "work/rebuild_mechanical/delta_envelopes.py",
+      "storage": "git",
+      "size_bytes": 4540,
+      "sha256": "bede2e556cef8de38a5b2e7505ef5869071ce44c5f0041c223c85b9bcf0f9bab"
+    },
+    {
+      "path": "work/rebuild_mechanical/export_reference.py",
+      "storage": "git",
+      "size_bytes": 397,
+      "sha256": "a3ccf3ab125b78d7532647df2ede445948abfd743d2944a13b628305b03b4841"
+    },
+    {
+      "path": "work/rebuild_mechanical/finalize.py",
+      "storage": "git",
+      "size_bytes": 13399,
+      "sha256": "457a3f271384c49189a1f4244cd902d467a0d88d40c0a3691f1afa0e52671186"
+    },
+    {
+      "path": "work/rebuild_mechanical/inspection_views.py",
+      "storage": "git",
+      "size_bytes": 2021,
+      "sha256": "bb78c38b40aeea3ca8bf66e0aa75fa164d1a5a531ac4708b3c3061cc343763a9"
+    },
+    {
       "path": "work/recover_koto_static.py",
       "storage": "git",
       "size_bytes": 13760,
@@ -2125,6 +2635,12 @@
       "sha256": "78816a550365b702c2a111bcd2e86aa4bcc881899755333d7f812dce4fdb5ec8"
     },
     {
+      "path": "work/render_direct_gear_360_axle_fix.py",
+      "storage": "git",
+      "size_bytes": 5802,
+      "sha256": "9d26f5d71fef79e93aa46c5d5c383bb57e5e01846d19f61e56a0a682e0a2a0ac"
+    },
+    {
       "path": "work/render_koto.py",
       "storage": "git",
       "size_bytes": 1730,
@@ -2135,6 +2651,12 @@
       "storage": "git",
       "size_bytes": 12736,
       "sha256": "aced4aecaaf8fd37d45c8d3c0e48313474fc3d5c4cfa6362b2bba86194843c0f"
+    },
+    {
+      "path": "work/render_lovophon_paris_close.py",
+      "storage": "git",
+      "size_bytes": 7906,
+      "sha256": "740280d3f2b2f5b605e15a5dbbb36d8bcefc4a7155aa8100a8aaf998b8575667"
     },
     {
       "path": "work/render_lovophone_8min.py",
@@ -2171,6 +2693,12 @@
       "storage": "git",
       "size_bytes": 1685,
       "sha256": "ba3f01ae9b971e52911691a6d60eb5a66ae0f55f747a3bdcae1325f1d6c9ce5f"
+    },
+    {
+      "path": "work/render_sampled_harp.py",
+      "storage": "git",
+      "size_bytes": 3996,
+      "sha256": "452378daed4daf12a364bd6f69367603744fb2b92c90cffbb16c143370bb4976"
     },
     {
       "path": "work/render_slender_bank.py",
@@ -2219,6 +2747,12 @@
       "storage": "git",
       "size_bytes": 1626,
       "sha256": "bc554cf6ea9425d6e7f73c9e8a0c2cecfa5f19787786068bdbc94b55575bed8b"
+    },
+    {
+      "path": "work/summarize_reality_audit.py",
+      "storage": "git",
+      "size_bytes": 9590,
+      "sha256": "78a7349ee5d49308c4a5add01757732c370f910ba8c3113cda2975906daaf0aa"
     },
     {
       "path": "work/test_right_denoise.py",

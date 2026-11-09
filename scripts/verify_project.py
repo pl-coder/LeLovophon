@@ -62,7 +62,23 @@ def main():
         require(not result['moving_rigid_to_fixed_intersections'], f'Recorded rigid interference: {name}')
         require(result['physical_test_passed'] is False, 'Do not imply an unperformed physical test passed')
     require(audit['production_released'] is False, 'Known unfinished drive must not be marked released')
+    r2 = ROOT / 'outputs/LeLovophon_Mechanical_Revision_R2'
+    summary = json.loads((r2 / 'Verification_Summary.json').read_text())
+    current_hash = hashlib.sha256((r2 / 'LeLovophon_R2.FCStd').read_bytes()).hexdigest()
+    require(summary['cad_sha256'] == current_hash, 'R2 summary refers to another CAD file')
+    for filename in ['Static_All_Pairs.json', 'Motion_Audit.json', 'Dimensions_and_Tensioners.json',
+                     'Retainer_Refinement_Motion.json', 'Shared_Input_Continuous_Clearance.json']:
+        result = json.loads((r2 / 'Checks' / filename).read_text())
+        require(result['cad_sha256'] == current_hash, f'Stale R2 check: {filename}')
+        require(not result.get('unexpected', []), f'Unresolved R2 contact: {filename}')
+        require(not result.get('tensioner_unexpected_intersections', []), 'R2 tensioner travel failed')
+    with zipfile.ZipFile(r2 / 'LeLovophon_R2.FCStd') as archive:
+        require(archive.testzip() is None, 'R2 native CAD ZIP is damaged')
+        ET.fromstring(archive.read('Document.xml'))
+    require(summary['physical_test_passed'] is False and summary['manufacturing_release'] is False,
+            'Do not turn nominal R2 checks into a physical or fabrication release')
     print(f'PASS: {checked} packaged files, source syntax, native CAD ratios, 480-second mathematics and recorded fixture checks. No media included.')
+    print('PASS: R2 native file integrity, final-file hashes and recorded full-motion/adjustment checks.')
     print('Hardware remains untested; these checks are not manufacturing or physical certification.')
 
 if __name__ == '__main__':

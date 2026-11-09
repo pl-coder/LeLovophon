@@ -1,0 +1,26 @@
+Part family,Quantity,Nominal specification,Procurement route,Release note
+683ZZ shielded miniature bearing,48,3 x 7 x 3 mm,Catalogue,Open 683 is narrower; match NSK abutment dimensions.
+MR105ZZ shielded bearing,4,5 x 10 x 4 mm,Catalogue,Open MR105 is 3 mm wide; EZO ZZ dimensions used.
+Common input shaft,1,5 mm diameter; 327 mm nominal length,Stock shaft + drilling,Cross-pin positions/clocking from CAD; finish fit shop drawing required.
+"Module 0.5, 20 degree spur gears",24,4 mm face; exact counts in Tuning_and_Drive.csv,Matched catalogue/custom family,0.08 mm nominal pair backlash; jig drill 1 mm pin bores after phasing. Supplier tooth geometry governs.
+Flush transverse drive pins,26,1 mm nominal diameter,Stock pin stock cut/fit,24 gear pins plus two common-input retention pins; final fit and retention proof required.
+Paired carrier plates,24,3.5 mm plate; 3 mm bearing pocket,CNC aluminium candidate,"Same concept with voice-specific P/Q locations; local pockets, shoulders and countersinks in CAD."
+Crank shaft / flange,12,3 mm journals; R12 flange; 10 mm crank throw,Custom turning + drilling,Retaining-ring groove and flush gear pin; integral flange avoids rod/axle clash.
+Rocker shaft / lever,12,3 mm journals; 14 mm rocker,Custom machining,One-piece torque path; removable split-clamp visible arm.
+POM connecting links,12,2 mm plate; 3.04 mm journal holes,CNC/laser service + finish ream,Lengths in Drive_Calculations.json; no glued pins.
+Shoulder journals,24,3 mm journal; internal M1.6 end screw,Custom turned pins,Journal stops before washer; fit to flange/rocker must be reviewed.
+Journal washers,24,1.7 mm ID; 5.6 mm OD; 0.5 mm thick,Catalogue/custom shim,"Beyond end of 3 mm journal, over M1.6 screw only."
+Journal end screws,24,M1.6,Catalogue,Socket-head reference; nominal thread core only in CAD.
+Rear shaft E-clips,24,3 mm shaft nominal; reference groove,Catalogue to final drawing,Final clip manufacturer groove/clearance must be substituted/rechecked.
+Bearing outer-race retainers,48,1.2 mm plate; ID6.4,Custom sheet part,Two countersunk M2 screws each; clamp outer race only.
+M2 female standoffs + 0.5 mm shim,24,6 mm length; 6.5 mm assembled gap,Catalogue + shim,Two per carrier pair; M2 countersunk screws from both sides.
+Visible arm assemblies,12,R109 / ratio; 4 mm OD tube,Brass soldered subassembly candidate,Hub/tube/tip block are one removable assembly. Material and solder joint require test; not aluminium-to-brass brazing.
+PET spring tongues,12,0.3 mm sheet; free tongue ~4.85 mm,Cut from stock sheet,Thin direction follows pluck; countersunk M1.6 tip screw. Physical two-way release test essential.
+Rear tube frame,1,8 mm OD / 6 mm ID tube,Stock tube + welded fabrication,Posts behind swing paths; welded module removes from body via eight M3 bolts.
+Soundbox top/bottom,2,355 x 178 x 3 mm,Plywood cut service,"Body walls 6 mm; joints, bottom retention and bridge-seat finish require woodworking drawings."
+Nylon strings,12,0.8 mm nominal unwound nylon,String/leader stock,"Gauge, material density, creep, knot strength and final tension measured on bench."
+Third bridges,12,12 x 8 mm feet; R2 crowns,Custom wood/brass candidate,"Wedge bodies, supported feet, seated 0.1 mm crown grooves; 12 mm back-saddle drop."
+Lead screws,12,M4 x 45 socket-head nominal,Catalogue,"Each with two jam nuts, thrust washer, captured M4 carriage nut."
+Tensioner carriages,12,21.8 mm tested usable travel,CNC/printed-metal candidate,Rounded/hand-finished nylon hole and stopper knot; shop to approve material.
+Slotted tensioner angle,1,3 mm sheet with bottom flange,Laser + brake service,Four spacer mounts outside outer carriage lanes.
+Hand test wheel with stepped hub,1,50 mm diameter; flush 1 mm pin,Machined or fabricated,Manual bench input. 480 seconds requires a regulated 3 rpm input; motor not selected or rated.

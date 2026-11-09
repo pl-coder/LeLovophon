@@ -1,0 +1,122 @@
+[
+  {
+    "note": "C3",
+    "bridge_x": -9.0,
+    "speaking_length_mm": 330.0,
+    "back_break_angle_deg": 38.65980825409009,
+    "speaking_y": -91,
+    "lane_z": -102,
+    "bridge_support_margin_z_mm": 8,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "D3",
+    "bridge_x": 27.666666666666686,
+    "speaking_length_mm": 293.3333333333333,
+    "back_break_angle_deg": 13.075581099089876,
+    "speaking_y": -91,
+    "lane_z": -88,
+    "bridge_support_margin_z_mm": 22,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "E3",
+    "bridge_x": 57.0,
+    "speaking_length_mm": 264.0,
+    "back_break_angle_deg": 8.426969021480673,
+    "speaking_y": -91,
+    "lane_z": -74,
+    "bridge_support_margin_z_mm": 36,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "G3",
+    "bridge_x": 101.0,
+    "speaking_length_mm": 220.0,
+    "back_break_angle_deg": 5.483590444464439,
+    "speaking_y": -91,
+    "lane_z": -60,
+    "bridge_support_margin_z_mm": 50,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "A3",
+    "bridge_x": 123.0,
+    "speaking_length_mm": 198.0,
+    "back_break_angle_deg": 4.666858371438996,
+    "speaking_y": -91,
+    "lane_z": -46,
+    "bridge_support_margin_z_mm": 64,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "C4",
+    "bridge_x": 156.0,
+    "speaking_length_mm": 165.0,
+    "back_break_angle_deg": 3.8140748342903543,
+    "speaking_y": -91,
+    "lane_z": -32,
+    "bridge_support_margin_z_mm": 78,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "D4",
+    "bridge_x": 174.33333333333334,
+    "speaking_length_mm": 146.66666666666666,
+    "back_break_angle_deg": 3.4624144946895763,
+    "speaking_y": -91,
+    "lane_z": -18,
+    "bridge_support_margin_z_mm": 78,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "E4",
+    "bridge_x": 189.0,
+    "speaking_length_mm": 132.0,
+    "back_break_angle_deg": 3.2245226065199075,
+    "speaking_y": -91,
+    "lane_z": -4,
+    "bridge_support_margin_z_mm": 64,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "G4",
+    "bridge_x": 211.0,
+    "speaking_length_mm": 110.0,
+    "back_break_angle_deg": 2.9232029319781776,
+    "speaking_y": -91,
+    "lane_z": 10,
+    "bridge_support_margin_z_mm": 50,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "A4",
+    "bridge_x": 222.0,
+    "speaking_length_mm": 99.0,
+    "back_break_angle_deg": 2.792702365713283,
+    "speaking_y": -91,
+    "lane_z": 24,
+    "bridge_support_margin_z_mm": 36,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "C5",
+    "bridge_x": 238.5,
+    "speaking_length_mm": 82.5,
+    "back_break_angle_deg": 2.6174133632644336,
+    "speaking_y": -91,
+    "lane_z": 38,
+    "bridge_support_margin_z_mm": 22,
+    "anchor_hole_diameter_mm": 2.1
+  },
+  {
+    "note": "D5",
+    "bridge_x": 247.66666666666669,
+    "speaking_length_mm": 73.33333333333331,
+    "back_break_angle_deg": 2.529212419081953,
+    "speaking_y": -91,
+    "lane_z": 52,
+    "bridge_support_margin_z_mm": 8,
+    "anchor_hole_diameter_mm": 2.1
+  }
+]
