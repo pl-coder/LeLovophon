@@ -1285,6 +1285,36 @@
       "sha256": "8b5322026e943034589d3b90ea17b8ebd58bd06830b3c0050511e0693e0f7148"
     },
     {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Paris_Studio_16min/Film_Provenance.json",
+      "storage": "git",
+      "size_bytes": 1083,
+      "sha256": "9c086f924c081d767c442ef1a6ccaf61b640036ec43f189b7f2d645f998f037d"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Paris_Studio_16min/Orbit_360_Details.json",
+      "storage": "git",
+      "size_bytes": 1949,
+      "sha256": "bd817769813f6955dd3470ee9a1b4fa10d9d0f8ff24d80eb60b2565cf1c9404f"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Paris_Studio_16min/Orbit_360_Pose_Verification.json",
+      "storage": "git",
+      "size_bytes": 321,
+      "sha256": "53a711eb586ff2b48bf7b2303604f956ca02489b91c094552725c9dd1438c27b"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Paris_Studio_16min/Paris_Film_Verification.json",
+      "storage": "git",
+      "size_bytes": 1380,
+      "sha256": "0fa4ae3754e088871e6b8ed5b7fe0a6cd1a0db45005db8ca79b1ab9d3f288b1e"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Paris_Studio_16min/Readme.md",
+      "storage": "git",
+      "size_bytes": 1061,
+      "sha256": "824b78375885625d24849e691e5874acad029666e59ecad0e2d8bb8bb8dc05a0"
+    },
+    {
       "path": "outputs/LeLovophon_Pluck_Layout_R5/Part_Inventory.json",
       "storage": "git",
       "size_bytes": 289949,
