@@ -1,0 +1,122 @@
+[
+  {
+    "voice": 1,
+    "note": "C3",
+    "speaking_length_mm": 600.0,
+    "bridge_x": -279.0,
+    "pick_x": -191.0,
+    "speaking_y": -91,
+    "lane_z": -102,
+    "back_break_angle_deg": 14.931417178137554
+  },
+  {
+    "voice": 2,
+    "note": "D3",
+    "speaking_length_mm": 533.3333333333334,
+    "bridge_x": -212.33333333333337,
+    "pick_x": -147.36363636363637,
+    "speaking_y": -91,
+    "lane_z": -88,
+    "back_break_angle_deg": 6.133619853470388
+  },
+  {
+    "voice": 3,
+    "note": "E3",
+    "speaking_length_mm": 480.0,
+    "bridge_x": -159.0,
+    "pick_x": -103.72727272727275,
+    "speaking_y": -91,
+    "lane_z": -74,
+    "back_break_angle_deg": 4.1596422937126425
+  },
+  {
+    "voice": 4,
+    "note": "G3",
+    "speaking_length_mm": 400.0,
+    "bridge_x": -79.0,
+    "pick_x": -60.090909090909065,
+    "speaking_y": -91,
+    "lane_z": -60,
+    "back_break_angle_deg": 2.8040829951222754
+  },
+  {
+    "voice": 5,
+    "note": "A3",
+    "speaking_length_mm": 360.0,
+    "bridge_x": -39.0,
+    "pick_x": -16.45454545454544,
+    "speaking_y": -91,
+    "lane_z": -46,
+    "back_break_angle_deg": 2.4110297466112307
+  },
+  {
+    "voice": 6,
+    "note": "C4",
+    "speaking_length_mm": 300.0,
+    "bridge_x": 21.0,
+    "pick_x": 27.181818181818187,
+    "speaking_y": -91,
+    "lane_z": -32,
+    "back_break_angle_deg": 1.9920935729664446
+  },
+  {
+    "voice": 7,
+    "note": "D4",
+    "speaking_length_mm": 266.6666666666667,
+    "bridge_x": 54.333333333333314,
+    "pick_x": 70.81818181818181,
+    "speaking_y": -91,
+    "lane_z": -18,
+    "back_break_angle_deg": 1.8167020094104607
+  },
+  {
+    "voice": 8,
+    "note": "E4",
+    "speaking_length_mm": 240.0,
+    "bridge_x": 81.0,
+    "pick_x": 114.45454545454547,
+    "speaking_y": -91,
+    "lane_z": -4,
+    "back_break_angle_deg": 1.6971561896002842
+  },
+  {
+    "voice": 9,
+    "note": "G4",
+    "speaking_length_mm": 200.0,
+    "bridge_x": 121.0,
+    "pick_x": 158.0909090909091,
+    "speaking_y": -91,
+    "lane_z": 10,
+    "back_break_angle_deg": 1.5446803803251345
+  },
+  {
+    "voice": 10,
+    "note": "A4",
+    "speaking_length_mm": 180.0,
+    "bridge_x": 141.0,
+    "pick_x": 201.72727272727275,
+    "speaking_y": -91,
+    "lane_z": 24,
+    "back_break_angle_deg": 1.4782726566888706
+  },
+  {
+    "voice": 11,
+    "note": "C5",
+    "speaking_length_mm": 150.0,
+    "bridge_x": 171.0,
+    "pick_x": 245.36363636363637,
+    "speaking_y": -91,
+    "lane_z": 38,
+    "back_break_angle_deg": 1.3887165895513243
+  },
+  {
+    "voice": 12,
+    "note": "D5",
+    "speaking_length_mm": 133.33333333333334,
+    "bridge_x": 187.66666666666666,
+    "pick_x": 289.0,
+    "speaking_y": -91,
+    "lane_z": 52,
+    "back_break_angle_deg": 1.3434983796952535
+  }
+]

@@ -1,0 +1,123 @@
+{
+  "cad_sha256": "8b5322026e943034589d3b90ea17b8ebd58bd06830b3c0050511e0693e0f7148",
+  "scope": "Conservative model-based quasistatic force envelope for bounded tangential tip forces, at constant3rpm. Every arm is allowed its maximum resisting tip force at every phase, including phases when not touching a string. Coincidence is deliberately overestimated; no release force or friction measurement is inferred. Numerical kinematic extrema refined and rounded upward, not a formal interval proof.",
+  "handle_throw_mm": 32,
+  "phase_preserving_input_angle_step_deg": 0.06,
+  "independent_per_voice_global_max_sum_hand_N_per_1N_each_tip": 30.70940625,
+  "phase_preserving_sampled_max_hand_N_per_1N_each_tip": 29.100619158377928,
+  "phase_preserving_max_time_s": 479.9666666666666,
+  "ideal_unloaded_absolute_peak_hand_force_N": 0.363,
+  "friction_torque_to_handforce_N_per_Nm": 31.25,
+  "conservative_conditional_expression": "F_hand <= sum_i(J_i_max * F_tip_i_max)/0.032 + tau_loss_max/0.032 + 0.363 N, within the idealized constant-speed model. Tip force is tangential; loss is total reflected drivetrain drag. No impact, jam or arbitrary acceleration claim.",
+  "per_voice": [
+    {
+      "voice": 1,
+      "note": "C3",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.08348529355928215,
+      "rounded_up_tip_travel_m_per_input_rad": 0.083486,
+      "hand_force_N_per_1N_tangential_tip_force": 2.6089375
+    },
+    {
+      "voice": 2,
+      "note": "D3",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.08390856194020938,
+      "rounded_up_tip_travel_m_per_input_rad": 0.083909,
+      "hand_force_N_per_1N_tangential_tip_force": 2.6221562499999997
+    },
+    {
+      "voice": 3,
+      "note": "E3",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.08440305870848047,
+      "rounded_up_tip_travel_m_per_input_rad": 0.084404,
+      "hand_force_N_per_1N_tangential_tip_force": 2.6376250000000003
+    },
+    {
+      "voice": 4,
+      "note": "G3",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.08370525547394811,
+      "rounded_up_tip_travel_m_per_input_rad": 0.083706,
+      "hand_force_N_per_1N_tangential_tip_force": 2.6158125
+    },
+    {
+      "voice": 5,
+      "note": "A3",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.08276613456342256,
+      "rounded_up_tip_travel_m_per_input_rad": 0.082767,
+      "hand_force_N_per_1N_tangential_tip_force": 2.58646875
+    },
+    {
+      "voice": 6,
+      "note": "C4",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.08199331675985687,
+      "rounded_up_tip_travel_m_per_input_rad": 0.081994,
+      "hand_force_N_per_1N_tangential_tip_force": 2.5623125
+    },
+    {
+      "voice": 7,
+      "note": "D4",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.08155630272690623,
+      "rounded_up_tip_travel_m_per_input_rad": 0.081557,
+      "hand_force_N_per_1N_tangential_tip_force": 2.54865625
+    },
+    {
+      "voice": 8,
+      "note": "E4",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.0811370905995551,
+      "rounded_up_tip_travel_m_per_input_rad": 0.081138,
+      "hand_force_N_per_1N_tangential_tip_force": 2.5355625
+    },
+    {
+      "voice": 9,
+      "note": "G4",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.08039176267851042,
+      "rounded_up_tip_travel_m_per_input_rad": 0.080392,
+      "hand_force_N_per_1N_tangential_tip_force": 2.5122500000000003
+    },
+    {
+      "voice": 10,
+      "note": "A4",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.08025418678592865,
+      "rounded_up_tip_travel_m_per_input_rad": 0.080255,
+      "hand_force_N_per_1N_tangential_tip_force": 2.5079687500000003
+    },
+    {
+      "voice": 11,
+      "note": "C5",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.07968750100886396,
+      "rounded_up_tip_travel_m_per_input_rad": 0.079688,
+      "hand_force_N_per_1N_tangential_tip_force": 2.4902499999999996
+    },
+    {
+      "voice": 12,
+      "note": "D5",
+      "numerically_refined_max_tangential_tip_travel_m_per_input_rad": 0.07940401329685363,
+      "rounded_up_tip_travel_m_per_input_rad": 0.079405,
+      "hand_force_N_per_1N_tangential_tip_force": 2.48140625
+    }
+  ],
+  "scenarios": [
+    {
+      "each_tip_resisting_force_cap_N": 0.05,
+      "assumed_total_reflected_drag_cap_Nm": 0.02,
+      "conditional_hand_force_upper_envelope_N": 2.5234703125
+    },
+    {
+      "each_tip_resisting_force_cap_N": 0.1,
+      "assumed_total_reflected_drag_cap_Nm": 0.02,
+      "conditional_hand_force_upper_envelope_N": 4.058940625
+    },
+    {
+      "each_tip_resisting_force_cap_N": 0.15,
+      "assumed_total_reflected_drag_cap_Nm": 0.02,
+      "conditional_hand_force_upper_envelope_N": 5.594410937499999
+    },
+    {
+      "each_tip_resisting_force_cap_N": 0.1,
+      "assumed_total_reflected_drag_cap_Nm": 0.05,
+      "conditional_hand_force_upper_envelope_N": 4.996440625
+    }
+  ],
+  "measured_force_inputs_available": false,
+  "operating_force_established": false,
+  "physical_test_passed": false
+}

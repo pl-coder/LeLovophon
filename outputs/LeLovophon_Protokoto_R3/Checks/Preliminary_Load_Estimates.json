@@ -1,0 +1,22 @@
+{
+  "scope": "Simple hand calculations only, not an FEA, load test, safety rating or manufacturing release. Density and modulus assumptions; no welded-joint compliance, torsion, local stress, material creep, preload, misalignment, fatigue or acoustic model.",
+  "nominal_mass_kg": 4.417170975213557,
+  "mass_includes_nominal_parts_not_case_or_adhesive": true,
+  "string_material": "PVDF candidate, density assumed 1780 kg/m3",
+  "string_tension_N": 37.979683569383965,
+  "all_12_total_tension_N": 455.7562028326076,
+  "bass_speaking_length_mm": 600,
+  "string_diameter_mm": 1.05,
+  "bridge_downforce_total_N": 27.518221847785487,
+  "rear_beam_I_mm4": 14067.0,
+  "rear_beam_deflection_under_assumed_20N_uniform_load_mm": 0.07574076993161437,
+  "rear_beam_model": "Simply supported 656 mm, E69 GPa, rear beam 30 high x15 wide x1.5 wall; load illustrative, not measured.",
+  "max_input_bearing_span_mm": 87.27272727272731,
+  "input_shaft_deflection_under_assumed_10N_midspan_pointload_mm": 0.022569113185090115,
+  "input_shaft_model": "Simply supported solid 5 mm steel, E200 GPa; 10N illustrative, actual gear force not established.",
+  "thin_link_weak_axis_I_mm4": 0.5625,
+  "thin_link_ideal_euler_load_N": 70.91927165466933,
+  "thin_link_model": "Pinned steel strip 2 wide x1.5 thick, E200 GPa, longest eye-centre span. Not an allowable load. Eye cut-outs, initial crookedness, lateral offset and fatigue not included.",
+  "carrier_mass_removed_kg": 0.09746300876454785,
+  "gear_mass_saving_relative_to_same_shapes_in_brass_kg": 0.26310136193788647
+}

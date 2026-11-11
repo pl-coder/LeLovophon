@@ -1,0 +1,170 @@
+{
+  "cad_sha256": "b99727549b9726cd700485480fa619c277aa907ba96c17816f74f628c54987e7",
+  "poses_per_voice": 360,
+  "gear_pose_interval_deg": 5,
+  "independent_tooth_phase_samples_per_pair": 64,
+  "shared_input_poses": 0,
+  "unexpected": [],
+  "intended_contacts": [
+    {
+      "a": "V05_PETPick",
+      "b": "V05_NylonString",
+      "first_phase_deg": 0,
+      "poses": 2,
+      "max_volume_mm3": 0.07433675602963867,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V06_PETPick",
+      "b": "V06_NylonString",
+      "first_phase_deg": 0,
+      "poses": 2,
+      "max_volume_mm3": 0.07433675602964791,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V07_PETPick",
+      "b": "V07_NylonString",
+      "first_phase_deg": 0,
+      "poses": 3,
+      "max_volume_mm3": 0.07433675602959208,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V08_PETPick",
+      "b": "V08_NylonString",
+      "first_phase_deg": 0,
+      "poses": 3,
+      "max_volume_mm3": 0.07433675602958251,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    }
+  ],
+  "moving_station_x_slabs": [
+    {
+      "voice": 1,
+      "xmin": 22.0,
+      "xmax": 45.0
+    },
+    {
+      "voice": 2,
+      "xmin": 46.0,
+      "xmax": 69.0
+    },
+    {
+      "voice": 3,
+      "xmin": 70.0,
+      "xmax": 93.0
+    },
+    {
+      "voice": 4,
+      "xmin": 94.0,
+      "xmax": 117.0
+    },
+    {
+      "voice": 5,
+      "xmin": 118.0,
+      "xmax": 141.0
+    },
+    {
+      "voice": 6,
+      "xmin": 142.0,
+      "xmax": 165.0
+    },
+    {
+      "voice": 7,
+      "xmin": 166.0,
+      "xmax": 189.0
+    },
+    {
+      "voice": 8,
+      "xmin": 190.0,
+      "xmax": 213.0
+    },
+    {
+      "voice": 9,
+      "xmin": 214.0,
+      "xmax": 237.0
+    },
+    {
+      "voice": 10,
+      "xmin": 238.0,
+      "xmax": 261.0
+    },
+    {
+      "voice": 11,
+      "xmin": 262.0,
+      "xmax": 285.0
+    },
+    {
+      "voice": 12,
+      "xmin": 286.0,
+      "xmax": 309.0
+    }
+  ],
+  "neighbour_moving_slab_gaps": [
+    {
+      "a": 1,
+      "b": 2,
+      "gap_mm": 1.0
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "gap_mm": 1.0
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "gap_mm": 1.0
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "gap_mm": 1.0
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "gap_mm": 1.0
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "gap_mm": 1.0
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "gap_mm": 1.0
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "gap_mm": 1.0
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "gap_mm": 1.0
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "gap_mm": 1.0
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "gap_mm": 1.0
+    }
+  ],
+  "scope": "All moving parts versus all fixed solids; all independently moving local groups; gears sampled every 5 crank degrees, other motion every degree. Neighbouring moving stations have phase-independent axial separation. Nominal thread cores, no elastic deformation/contact forces or race internals. Rigid pick/string contact is intentional and needs flex/release bench test.",
+  "physical_test_passed": false,
+  "checked_voices": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "scope_note": "Baseline per-voice sweeps completed; shared input instead verified by the stronger continuous envelope check on final CAD."
+}

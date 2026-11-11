@@ -1,0 +1,55 @@
+{
+  "cad_sha256": "1eaa9f0972b8fe906b78259f1bb48794cb66ac507e2f8cc8157353e0c2f8c531",
+  "unchanged_moving_geometry_inherits_R3": true,
+  "changed_fixed_parts_count": 179,
+  "voice_envelopes_contain_actual_shapes": true,
+  "continuous_disjoint_bounds_used": true,
+  "fallback_pairs": [
+    {
+      "moving": "V01_PickM1_6Screw",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V01_PendulumAssembly",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V01_PETPick",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V02_PickM1_6Screw",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V02_PendulumAssembly",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V02_PETPick",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V03_PickM1_6Screw",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V03_PendulumAssembly",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V03_PETPick",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    }
+  ],
+  "fallback_phase_samples_per_pair": 360,
+  "shared_input_continuous_bounds": true,
+  "unexpected_motion_intersections": [],
+  "tensioner_travel_mm": 21.8,
+  "tensioner_samples": 23,
+  "tensioner_candidates": 828,
+  "unexpected_tensioner_intersections": [],
+  "physical_test_passed": false,
+  "manufacturing_release": false,
+  "limits": "Exact nominal solids. Conservative continuous envelopes; one-degree samples only for overlapping bounds. R3 local moving pairs unchanged. No flex, friction, torque, preload, wear, manufacturing tolerances or pick release test."
+}

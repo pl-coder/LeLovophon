@@ -1,0 +1,15 @@
+{
+  "updated": "2026-11-11",
+  "goal": "A school-age child should be able to start and continuously hand-crank the complete instrument comfortably.",
+  "scope": [
+    "Plucking loads",
+    "Gear/bearing/bush friction",
+    "Starting and running torque",
+    "Loaded alignment and linkage resistance",
+    "Peak coincidence load"
+  ],
+  "nominal_input_rpm": 3,
+  "full_cycle_seconds": 480,
+  "numerical_hand_force_acceptance_target_N": null,
+  "achieved_by_physical_test": false
+}

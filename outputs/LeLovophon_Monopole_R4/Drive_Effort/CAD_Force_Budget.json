@@ -1,0 +1,181 @@
+{
+  "cad_sha256": "1eaa9f0972b8fe906b78259f1bb48794cb66ac507e2f8cc8157353e0c2f8c531",
+  "method": "One-degree-of-freedom virtual work/inverse dynamics from actual CAD mass properties and exact gear/four-bar kinematics; finite-difference derivatives. Pick forces are sensitivity inputs, not validated contact/release predictions.",
+  "moving_parts": 367,
+  "moving_mass_kg": 0.4399372199566744,
+  "rigid_groups": 37,
+  "input_rpm": 3,
+  "handle_throw_mm": 32,
+  "time_step_s": 0.01,
+  "cycle_s": 480,
+  "ideal_no_pick_no_friction_peak_positive_torque_Nm": 0.011533737818371073,
+  "ideal_no_pick_no_friction_peak_absolute_torque_Nm": 0.01161160955420935,
+  "ideal_no_pick_no_friction_peak_absolute_hand_force_N": 0.3628627985690422,
+  "ideal_gravity_peak_absolute_torque_Nm": 0.011615489020193387,
+  "ideal_inertia_peak_absolute_torque_Nm": 1.0227534778002865e-05,
+  "effective_inertia_range_kg_m2": [
+    0.0001245795535375908,
+    0.00020606494599392414
+  ],
+  "all_12_simultaneous_hand_force_N_per_mm_common_string_deflection": 50.13515669303266,
+  "simultaneous_string_deflection_scenarios": [
+    {
+      "deflection_mm": 0.1,
+      "pluck_only_hand_force_N": 5.013515669303267
+    },
+    {
+      "deflection_mm": 0.2,
+      "pluck_only_hand_force_N": 10.027031338606534
+    },
+    {
+      "deflection_mm": 0.5,
+      "pluck_only_hand_force_N": 25.06757834651633
+    },
+    {
+      "deflection_mm": 1.0,
+      "pluck_only_hand_force_N": 50.13515669303266
+    }
+  ],
+  "per_voice": [
+    {
+      "voice": 1,
+      "note": "C3",
+      "string_stiffness_N_per_mm": 0.5057663827599073,
+      "bridge_to_pick_mm": 88.0,
+      "pick_to_nut_mm": 512.0,
+      "rocker_radians_per_input_radian": 0.7140473374800393,
+      "pick_tangential_travel_mm_per_input_radian": 77.72405268470227,
+      "input_torque_per_1N_tip_force_Nm": 0.07772405268470227,
+      "handle_force_per_1mm_string_deflection_N": 1.2284441556181978
+    },
+    {
+      "voice": 2,
+      "note": "D3",
+      "string_stiffness_N_per_mm": 0.6656655163471451,
+      "bridge_to_pick_mm": 64.969696969697,
+      "pick_to_nut_mm": 468.3636363636364,
+      "rocker_radians_per_input_radian": 0.8032806440017026,
+      "pick_tangential_travel_mm_per_input_radian": 77.7084769666758,
+      "input_torque_per_1N_tip_force_Nm": 0.07770847696667581,
+      "handle_force_per_1mm_string_deflection_N": 1.61649542014289
+    },
+    {
+      "voice": 3,
+      "note": "E3",
+      "string_stiffness_N_per_mm": 0.776553777019105,
+      "bridge_to_pick_mm": 55.27272727272725,
+      "pick_to_nut_mm": 424.72727272727275,
+      "rocker_radians_per_input_radian": 0.8925044874263932,
+      "pick_tangential_travel_mm_per_input_radian": 77.69251563046753,
+      "input_torque_per_1N_tip_force_Nm": 0.07769251563046753,
+      "handle_force_per_1mm_string_deflection_N": 1.8853880143423567
+    },
+    {
+      "voice": 4,
+      "note": "G3",
+      "string_stiffness_N_per_mm": 2.10820138720982,
+      "bridge_to_pick_mm": 18.909090909090935,
+      "pick_to_nut_mm": 381.09090909090907,
+      "rocker_radians_per_input_radian": 1.0710519203760427,
+      "pick_tangential_travel_mm_per_input_radian": 77.66911509260268,
+      "input_torque_per_1N_tip_force_Nm": 0.07766911509260269,
+      "handle_force_per_1mm_string_deflection_N": 5.116941755674504
+    },
+    {
+      "voice": 5,
+      "note": "A3",
+      "string_stiffness_N_per_mm": 1.7971302926454358,
+      "bridge_to_pick_mm": 22.54545454545456,
+      "pick_to_nut_mm": 337.45454545454544,
+      "rocker_radians_per_input_radian": 1.1901274217240854,
+      "pick_tangential_travel_mm_per_input_radian": 77.65581426749655,
+      "input_torque_per_1N_tip_force_Nm": 0.07765581426749656,
+      "handle_force_per_1mm_string_deflection_N": 4.361175506880177
+    },
+    {
+      "voice": 6,
+      "note": "C4",
+      "string_stiffness_N_per_mm": 6.273034879006975,
+      "bridge_to_pick_mm": 6.181818181818187,
+      "pick_to_nut_mm": 293.8181818181818,
+      "rocker_radians_per_input_radian": 1.428218267540693,
+      "pick_tangential_travel_mm_per_input_radian": 77.62366284083666,
+      "input_torque_per_1N_tip_force_Nm": 0.07762366284083666,
+      "handle_force_per_1mm_string_deflection_N": 15.21674826365144
+    },
+    {
+      "voice": 7,
+      "note": "D4",
+      "string_stiffness_N_per_mm": 2.4557229565104826,
+      "bridge_to_pick_mm": 16.4848484848485,
+      "pick_to_nut_mm": 250.18181818181816,
+      "rocker_radians_per_input_radian": 1.6067857748769399,
+      "pick_tangential_travel_mm_per_input_radian": 77.59882633891799,
+      "input_torque_per_1N_tip_force_Nm": 0.07759882633891799,
+      "handle_force_per_1mm_string_deflection_N": 5.955038101210975
+    },
+    {
+      "voice": 8,
+      "note": "E4",
+      "string_stiffness_N_per_mm": 1.3191427908456803,
+      "bridge_to_pick_mm": 33.45454545454547,
+      "pick_to_nut_mm": 206.54545454545453,
+      "rocker_radians_per_input_radian": 1.7853597595873794,
+      "pick_tangential_travel_mm_per_input_radian": 77.57388155407163,
+      "input_torque_per_1N_tip_force_Nm": 0.07757388155407163,
+      "handle_force_per_1mm_string_deflection_N": 3.1978445815615717
+    },
+    {
+      "voice": 9,
+      "note": "G4",
+      "string_stiffness_N_per_mm": 1.2570962753565573,
+      "bridge_to_pick_mm": 37.09090909090909,
+      "pick_to_nut_mm": 162.9090909090909,
+      "rocker_radians_per_input_radian": 2.1425194690616323,
+      "pick_tangential_travel_mm_per_input_radian": 77.5234961222134,
+      "input_torque_per_1N_tip_force_Nm": 0.0775234961222134,
+      "handle_force_per_1mm_string_deflection_N": 3.0454530696204056
+    },
+    {
+      "voice": 10,
+      "note": "A4",
+      "string_stiffness_N_per_mm": 0.9438411760410382,
+      "bridge_to_pick_mm": 60.72727272727275,
+      "pick_to_nut_mm": 119.27272727272725,
+      "rocker_radians_per_input_radian": 2.3805912151564357,
+      "pick_tangential_travel_mm_per_input_radian": 77.48824405334197,
+      "input_torque_per_1N_tip_force_Nm": 0.07748824405334197,
+      "handle_force_per_1mm_string_deflection_N": 2.2855186061456645
+    },
+    {
+      "voice": 11,
+      "note": "C5",
+      "string_stiffness_N_per_mm": 1.012864480652152,
+      "bridge_to_pick_mm": 74.36363636363637,
+      "pick_to_nut_mm": 75.63636363636363,
+      "rocker_radians_per_input_radian": 2.8567910842491884,
+      "pick_tangential_travel_mm_per_input_radian": 77.41903838315302,
+      "input_torque_per_1N_tip_force_Nm": 0.07741903838315302,
+      "handle_force_per_1mm_string_deflection_N": 2.4504685657669154
+    },
+    {
+      "voice": 12,
+      "note": "D5",
+      "string_stiffness_N_per_mm": 1.5616646204516433,
+      "bridge_to_pick_mm": 101.33333333333334,
+      "pick_to_nut_mm": 32.0,
+      "rocker_radians_per_input_radian": 3.213931945689197,
+      "pick_tangential_travel_mm_per_input_radian": 77.3664840037294,
+      "input_torque_per_1N_tip_force_Nm": 0.07736648400372939,
+      "handle_force_per_1mm_string_deflection_N": 3.7756406524175685
+    }
+  ],
+  "unknowns": [
+    "Actual pick/string force versus displacement and release, including friction/contact and PET bending",
+    "Actual bearing/bush/gear starting and running loss under chosen grease, fits and alignment",
+    "Actual crank speed variations and user acceleration"
+  ],
+  "total_required_operating_force_N": null,
+  "physical_test_passed": false,
+  "manufacturing_release": false
+}

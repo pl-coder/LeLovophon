@@ -1,0 +1,38 @@
+{
+  "scope": "Lever-arm conversion only; not a prediction of required machine torque or hand force.",
+  "hand_crank_throw_mm": 32,
+  "input_reference_rpm": 3,
+  "input_turns_per_cycle": 24,
+  "repeat_seconds_at_reference_speed": 480,
+  "total_required_torque_Nm": null,
+  "total_required_hand_force_N": null,
+  "not_yet_established": [
+    "String/pick engagement and elastic release forces",
+    "Bearing and dry-bush breakaway/running friction",
+    "Gear mesh losses and alignment",
+    "Coincident-voice peak torque and inertia"
+  ],
+  "illustrative_conversions": [
+    {
+      "assumed_input_torque_Nm": 0.05,
+      "tangential_hand_force_N": 1.5625,
+      "equivalent_static_weight_g": 159.3306582778013
+    },
+    {
+      "assumed_input_torque_Nm": 0.1,
+      "tangential_hand_force_N": 3.125,
+      "equivalent_static_weight_g": 318.6613165556026
+    },
+    {
+      "assumed_input_torque_Nm": 0.2,
+      "tangential_hand_force_N": 6.25,
+      "equivalent_static_weight_g": 637.3226331112052
+    },
+    {
+      "assumed_input_torque_Nm": 0.3,
+      "tangential_hand_force_N": 9.375,
+      "equivalent_static_weight_g": 955.9839496668078
+    }
+  ],
+  "physical_test_passed": false
+}

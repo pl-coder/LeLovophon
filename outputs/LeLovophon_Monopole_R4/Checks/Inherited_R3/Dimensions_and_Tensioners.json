@@ -1,0 +1,225 @@
+{
+  "cad_sha256": "095157a2efa850ccfac5f76815c4fb74bfeefd49adcc9e901e2b79b2d83d6b32",
+  "part_count": 1031,
+  "invalid_shapes": [],
+  "measured_clearances": [
+    {
+      "voice": 1,
+      "flange_to_fixed_carrier_mm": 0.5,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.10000000000002274,
+      "bridge_length_mm": 600.0,
+      "arm_radius_mm": 109.0,
+      "pick_x": -191.0
+    },
+    {
+      "voice": 2,
+      "flange_to_fixed_carrier_mm": 0.5,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.10000000000002274,
+      "bridge_length_mm": 533.3333333333334,
+      "arm_radius_mm": 96.88888888888889,
+      "pick_x": -147.36363636363637
+    },
+    {
+      "voice": 3,
+      "flange_to_fixed_carrier_mm": 0.4999999999999858,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.09999999999999432,
+      "bridge_length_mm": 480.0,
+      "arm_radius_mm": 87.2,
+      "pick_x": -103.72727272727275
+    },
+    {
+      "voice": 4,
+      "flange_to_fixed_carrier_mm": 0.4999999999999858,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.09999999999999432,
+      "bridge_length_mm": 400.0,
+      "arm_radius_mm": 72.66666666666667,
+      "pick_x": -60.090909090909065
+    },
+    {
+      "voice": 5,
+      "flange_to_fixed_carrier_mm": 0.5,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.10000000000000142,
+      "bridge_length_mm": 360.0,
+      "arm_radius_mm": 65.39999999999999,
+      "pick_x": -16.45454545454544
+    },
+    {
+      "voice": 6,
+      "flange_to_fixed_carrier_mm": 0.5,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.10000000000000142,
+      "bridge_length_mm": 300.0,
+      "arm_radius_mm": 54.5,
+      "pick_x": 27.181818181818187
+    },
+    {
+      "voice": 7,
+      "flange_to_fixed_carrier_mm": 0.5,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.09999999999999432,
+      "bridge_length_mm": 266.6666666666667,
+      "arm_radius_mm": 48.44444444444444,
+      "pick_x": 70.81818181818181
+    },
+    {
+      "voice": 8,
+      "flange_to_fixed_carrier_mm": 0.4999999999999716,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.09999999999999432,
+      "bridge_length_mm": 240.0,
+      "arm_radius_mm": 43.6,
+      "pick_x": 114.45454545454547
+    },
+    {
+      "voice": 9,
+      "flange_to_fixed_carrier_mm": 0.5,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.10000000000002274,
+      "bridge_length_mm": 200.0,
+      "arm_radius_mm": 36.333333333333336,
+      "pick_x": 158.0909090909091
+    },
+    {
+      "voice": 10,
+      "flange_to_fixed_carrier_mm": 0.5,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.10000000000002274,
+      "bridge_length_mm": 180.0,
+      "arm_radius_mm": 32.699999999999996,
+      "pick_x": 201.72727272727275
+    },
+    {
+      "voice": 11,
+      "flange_to_fixed_carrier_mm": 0.5,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.10000000000002274,
+      "bridge_length_mm": 150.0,
+      "arm_radius_mm": 27.25,
+      "pick_x": 245.36363636363637
+    },
+    {
+      "voice": 12,
+      "flange_to_fixed_carrier_mm": 0.5,
+      "rod_rear_to_crank_front_axial_mm": 1.0,
+      "journal_end_to_washer_rear_mm": 0.10000000000002274,
+      "bridge_length_mm": 133.33333333333334,
+      "arm_radius_mm": 24.22222222222222,
+      "pick_x": 289.0
+    }
+  ],
+  "bridge_support": [
+    {
+      "voice": 1,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 2,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 3,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 4,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 5,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 6,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 7,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 8,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 9,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 10,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 11,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    },
+    {
+      "voice": 12,
+      "fully_on_soundboard": true,
+      "foot_plane_y": -112,
+      "soundboard_top_y": -112.0
+    }
+  ],
+  "minimum_back_break_angle_deg": 1.3434983796952535,
+  "maximum_back_break_angle_deg": 14.931417178137554,
+  "max_speaking_length_error_mm": 0.0,
+  "shaft_journal_mm": 3,
+  "washer_bore_mm": 1.7,
+  "end_screw_core_mm": 1.5,
+  "journal_stops_before_washer": true,
+  "bearing_abutments": {
+    "voice_inner_shoulder_od_mm": 4,
+    "voice_outer_shoulder_id_mm": 6.4,
+    "input_inner_shim_od_mm": 5.9,
+    "input_outer_shoulder_id_mm": 8.6
+  },
+  "tensioner_travel_mm": 21.8,
+  "tensioner_poses_per_part": 23,
+  "tensioner_unexpected_intersections": [],
+  "input_rpm": 3,
+  "repeat_seconds": 480,
+  "output_revolutions_per_cycle": [
+    24,
+    27,
+    30,
+    36,
+    40,
+    48,
+    54,
+    60,
+    72,
+    80,
+    96,
+    108
+  ],
+  "all_outputs_return_after_24_input_turns": true,
+  "max_link_closure_error_mm": 4.263256414560601e-14,
+  "minimum_transmission_angle_deg": 40.0155598849525,
+  "physical_test_passed": false
+}

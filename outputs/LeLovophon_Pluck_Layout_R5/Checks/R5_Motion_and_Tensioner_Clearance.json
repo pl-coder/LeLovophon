@@ -1,0 +1,332 @@
+{
+  "moving_station_x_slabs": [
+    {
+      "voice": 1,
+      "xmin": -150.0,
+      "xmax": -127.0
+    },
+    {
+      "voice": 2,
+      "xmin": -100.0,
+      "xmax": -77.0
+    },
+    {
+      "voice": 3,
+      "xmin": -60.0,
+      "xmax": -37.0
+    },
+    {
+      "voice": 4,
+      "xmin": 0.0,
+      "xmax": 23.0
+    },
+    {
+      "voice": 5,
+      "xmin": 30.0,
+      "xmax": 53.0
+    },
+    {
+      "voice": 6,
+      "xmin": 75.0,
+      "xmax": 98.0
+    },
+    {
+      "voice": 7,
+      "xmin": 101.0,
+      "xmax": 124.0
+    },
+    {
+      "voice": 8,
+      "xmin": 129.0,
+      "xmax": 152.0
+    },
+    {
+      "voice": 9,
+      "xmin": 169.0,
+      "xmax": 192.0
+    },
+    {
+      "voice": 10,
+      "xmin": 195.0,
+      "xmax": 218.0
+    },
+    {
+      "voice": 11,
+      "xmin": 221.0,
+      "xmax": 244.0
+    },
+    {
+      "voice": 12,
+      "xmin": 247.0,
+      "xmax": 270.0
+    }
+  ],
+  "neighbour_moving_slab_gaps": [
+    {
+      "a": 1,
+      "b": 2,
+      "gap_mm": 27.0
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "gap_mm": 17.0
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "gap_mm": 37.0
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "gap_mm": 7.0
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "gap_mm": 22.0
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "gap_mm": 3.0
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "gap_mm": 5.0
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "gap_mm": 17.0
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "gap_mm": 3.0
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "gap_mm": 3.0
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "gap_mm": 3.0
+    }
+  ],
+  "intended_contacts": [
+    {
+      "moving": "V01_PETPick",
+      "fixed": "V01_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.115500612089248,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V02_PETPick",
+      "fixed": "V02_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.11550061208914933,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V03_PETPick",
+      "fixed": "V03_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.1155006120891495,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V04_PETPick",
+      "fixed": "V04_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.11550061208914962,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V05_PETPick",
+      "fixed": "V05_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.11550061208919743,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V06_PETPick",
+      "fixed": "V06_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.11550061208920848,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V07_PETPick",
+      "fixed": "V07_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.11550061208914325,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V08_PETPick",
+      "fixed": "V08_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.11550061208913642,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V09_PETPick",
+      "fixed": "V09_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.11550061208913527,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V10_PETPick",
+      "fixed": "V10_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.11550061208913603,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V11_PETPick",
+      "fixed": "V11_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.11550061208914866,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "moving": "V12_PETPick",
+      "fixed": "V12_FluorocarbonString",
+      "phase_deg": 0,
+      "volume_mm3": 0.11550061208913591,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    }
+  ],
+  "cad_sha256": "8b5322026e943034589d3b90ea17b8ebd58bd06830b3c0050511e0693e0f7148",
+  "translated_local_moving_pairs_inherit_R3": true,
+  "changed_fixed_parts_count": 734,
+  "voice_envelopes_contain_actual_shapes": true,
+  "continuous_disjoint_bounds_used": true,
+  "fallback_pairs": [
+    {
+      "moving": "V01_PickM1_6Screw",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V01_PendulumAssembly",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V01_PETPick",
+      "fixed": "V01_FluorocarbonString"
+    },
+    {
+      "moving": "V01_PETPick",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V02_PickM1_6Screw",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V02_PendulumAssembly",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V02_PETPick",
+      "fixed": "V02_FluorocarbonString"
+    },
+    {
+      "moving": "V02_PETPick",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V03_PickM1_6Screw",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V03_PendulumAssembly",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V03_PETPick",
+      "fixed": "V03_FluorocarbonString"
+    },
+    {
+      "moving": "V03_PETPick",
+      "fixed": "R4_SolidRearCarrierRail_8mm"
+    },
+    {
+      "moving": "V04_PETPick",
+      "fixed": "V04_FluorocarbonString"
+    },
+    {
+      "moving": "V05_PETPick",
+      "fixed": "V05_FluorocarbonString"
+    },
+    {
+      "moving": "V06_PETPick",
+      "fixed": "V06_FluorocarbonString"
+    },
+    {
+      "moving": "V07_PETPick",
+      "fixed": "V07_FluorocarbonString"
+    },
+    {
+      "moving": "V08_PETPick",
+      "fixed": "V08_FluorocarbonString"
+    },
+    {
+      "moving": "V09_CrankPinWasher",
+      "fixed": "InputMount05_InputBearingBridge_16"
+    },
+    {
+      "moving": "V09_PETPick",
+      "fixed": "V09_FluorocarbonString"
+    },
+    {
+      "moving": "V09_SteelPushrod",
+      "fixed": "InputMount05_InputBearingRetainer_16"
+    },
+    {
+      "moving": "V09_CrankDryBush_GFM030402",
+      "fixed": "InputMount05_InputBearingRetainer_16"
+    },
+    {
+      "moving": "V09_CrankFrontPTFEWasher",
+      "fixed": "InputMount05_InputBearingBridge_16"
+    },
+    {
+      "moving": "V09_RockerDryBush_GFM030402",
+      "fixed": "InputMount05_InputBearingRetainer_16"
+    },
+    {
+      "moving": "V09_RockerFrontPTFEWasher",
+      "fixed": "InputMount05_InputBearingBridge_16"
+    },
+    {
+      "moving": "V10_PETPick",
+      "fixed": "V10_FluorocarbonString"
+    },
+    {
+      "moving": "V11_PETPick",
+      "fixed": "V11_FluorocarbonString"
+    },
+    {
+      "moving": "V12_PETPick",
+      "fixed": "V12_FluorocarbonString"
+    }
+  ],
+  "fallback_phase_samples_per_pair": 360,
+  "shared_input_continuous_bounds": true,
+  "unexpected_motion_intersections": [],
+  "tensioner_travel_mm": 21.8,
+  "tensioner_samples": 23,
+  "tensioner_candidates": 0,
+  "unexpected_tensioner_intersections": [],
+  "physical_test_passed": false,
+  "manufacturing_release": false,
+  "limits": "Exact nominal solids. Conservative continuous envelopes; one-degree samples only for overlapping bounds. R3 local moving pairs unchanged after pure X translation; fixed-world pairs checked again. No flex, friction, torque, preload, wear, manufacturing tolerances or pick release test."
+}
