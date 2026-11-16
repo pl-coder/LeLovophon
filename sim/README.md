@@ -171,7 +171,11 @@ presentation parts (motor, obsolete tray) are left out. The GLB is 3.2 MB at
 
 ## Before this goes anywhere near `main`
 
-Three things for Paul to decide, none of them blocking a try on this branch.
+Everything on this branch lives under `sim/` plus one workflow file,
+`.github/workflows/sim-tests.yml`; none of the files pinned by
+`docs/asset-manifest.json` is changed, so `scripts/verify_project.py` passes
+unmodified. Three things for Paul to decide, none of them blocking a try on
+this branch.
 
 - **Generated files.** The repository excludes generated meshes and media.
   `page/assets/lovophon.glb` is a generated mesh and `page/dsp/lovophon.wasm`

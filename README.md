@@ -29,7 +29,6 @@ The [verification summary](outputs/LeLovophon_Pluck_Layout_R5/Verification_Summa
 | Prototype bought/custom parts | [BOM](outputs/Lovophone_Prototype_A/Prototype_A_BOM.csv) |
 | Full Lab Frame component inventory | [Procurement inventory](outputs/Lovophone_Lab_Frame_Procurement_Inventory.csv) |
 | What is current, archived or still unproved | [Design status](docs/DESIGN_STATUS.md) |
-| Play the earlier Lab Frame review in a browser, no FreeCAD (a simulation with labelled additions, not a hardware test; it does not model the direct-gear prototype) | [sim/README.md](sim/README.md) |
 
 ## What it does
 
