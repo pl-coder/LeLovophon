@@ -15,14 +15,11 @@ function descriptors() {
     { name: "gain", defaultValue: 0.4, minValue: 0, maxValue: 1, automationRate: "k-rate" },
     { name: "t60", defaultValue: 3.0, minValue: 0.2, maxValue: 12, automationRate: "k-rate" },
     { name: "bright", defaultValue: 5200, minValue: 500, maxValue: 12000, automationRate: "k-rate" },
-    { name: "vibhz", defaultValue: 0, minValue: 0, maxValue: 60, automationRate: "k-rate" },
-    { name: "vibmm", defaultValue: 0, minValue: 0, maxValue: 3, automationRate: "k-rate" },
   ];
   for (let i = 0; i < VOICES; i++) {
     d.push({ name: `freq${i}`, defaultValue: 220, minValue: 20, maxValue: 4000, automationRate: "k-rate" });
     d.push({ name: `trig${i}`, defaultValue: 0, minValue: 0, maxValue: 1, automationRate: "k-rate" });
     d.push({ name: `dir${i}`, defaultValue: 1, minValue: -1, maxValue: 1, automationRate: "k-rate" });
-    d.push({ name: `len${i}`, defaultValue: 330, minValue: 20, maxValue: 400, automationRate: "k-rate" });
   }
   return d;
 }

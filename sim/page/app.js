@@ -54,7 +54,6 @@ const ui = {
   t60: document.getElementById("t60"),
   bright: document.getElementById("bright"),
   preset: document.getElementById("preset"),
-  vibNote: document.getElementById("vib-note"),
   voices: document.getElementById("voices"),
   canvas: document.getElementById("view"),
 };
@@ -73,7 +72,7 @@ const state = {
   voices: [], // per-voice UI state: tuningHz, lengthMm
   nodes: new Map(),
   strings: [], // per voice: {mesh, material, glow}
-  shaftEnd: null, // crank, worm wheel, vibrato train and bell crank groups
+  shaftEnd: null, // crank and worm wheel groups on the tuning end
   audio: null,
   node: null,
   flashTimers: [],
@@ -155,8 +154,7 @@ async function loadMeshes() {
   scene.add(root);
   const staticNode = state.nodes.get("static");
   const extras = (staticNode && staticNode.userData) || {};
-  const floating = state.nodes.get("bridge_float");
-  buildShaftEnd(extras.input_shaft_mm, floating && floating.userData.bbox_mm, floating);
+  buildShaftEnd(extras.input_shaft_mm);
   const box = new THREE.Box3().setFromObject(root);
   const centre = box.getCenter(new THREE.Vector3());
   const size = box.getSize(new THREE.Vector3()).length();
@@ -165,28 +163,20 @@ async function loadMeshes() {
   controls.update();
 }
 
-// Everything on the tuning end of the input shaft, outboard of where the CAD
-// shaft stops (x_max): a brass extension carrying, in order, the worm for the
-// cycle dial, the vibrato train's first wheel, the far cheek bearing and the
-// crank handle. The 30:1 step-up (60/10 then 50/10) turns an eccentric; a bell
-// crank about a vertical pin rides it and pushes a tab on the floating tuner
-// block against a return spring to the lab post. All dimensions in mm; the
-// group is scaled once. Visual aids: the real machine has none of this yet.
+// The tuning end of the input shaft, outboard of where the CAD shaft stops
+// (x_max): a brass extension carrying the worm for the cycle dial, a bearing
+// block, and a crank handle so the shaft speed can be read at a glance. All
+// dimensions in mm; the group is scaled once. Visual aids: the real machine
+// has none of this.
 const WHEEL_TEETH = 24; // worm wheel, one turn per 24-turn cycle
 const WHEEL_PITCH_R = 12;
 const WORM_PITCH_R = 5;
-const GEAR_MODULE = 0.55;
-const STAGES = [[60, 10], [50, 10]]; // wheel teeth, pinion teeth: 6:1 then 5:1
-const VIB_ARM_IN = 17.5; // bell crank pivot to roller, along X
-const VIB_ARM_OUT = 25; // pivot to tab, along Z
-const VIB_DISC_R = 8;
-const VIB_ROLLER_R = 3;
 
-function buildShaftEnd(shaft, bbox, floating) {
+function buildShaftEnd(shaft) {
   if (!shaft) return;
   const brass = new THREE.MeshStandardMaterial({ color: 0xc29645, metalness: 0.4, roughness: 0.45 });
   const steel = new THREE.MeshStandardMaterial({ color: 0x9aa0a6, metalness: 0.6, roughness: 0.4 });
-  const dark = new THREE.MeshStandardMaterial({ color: 0x3a3a3c, roughness: 0.7 });
+  const plate = new THREE.MeshStandardMaterial({ color: 0x6f7378, metalness: 0.3, roughness: 0.6 });
   const knobMat = new THREE.MeshStandardMaterial({ color: 0x2b2622, roughness: 0.8 });
   const x0 = shaft.x_max;
   const ay = shaft.y;
@@ -201,24 +191,9 @@ function buildShaftEnd(shaft, bbox, floating) {
     parent.add(m);
     return m;
   };
-  // Axle positions in the Y-Z plane: A is the input shaft, C the eccentric
-  // axle straight in front of it (+Z), B the compound axle between.
-  const r = (teeth) => (GEAR_MODULE * teeth) / 2;
-  const dAB = r(STAGES[0][0]) + r(STAGES[0][1]);
-  const dBC = r(STAGES[1][0]) + r(STAGES[1][1]);
-  const dAC = 20;
-  const bz = (dAB * dAB - dBC * dBC + dAC * dAC) / (2 * dAC);
-  const by = Math.sqrt(dAB * dAB - bz * bz);
-  const A = { y: ay, z: az };
-  const B = { y: ay + by, z: az + bz };
-  const C = { y: ay, z: az + dAC };
-  // X stations along the extension.
   const xWorm = x0 + 8;
-  const xEcc = x0 + 22;
-  const xW1 = x0 + 27;
-  const xW2 = x0 + 31;
-  const xCheek = x0 + 35.5;
-  const xHub = x0 + 40;
+  const xBearing = x0 + 17.5;
+  const xHub = x0 + 23;
   // Shaft extension and everything keyed to it.
   const shaftGroup = new THREE.Group();
   shaftGroup.position.set(0, ay, az);
@@ -227,65 +202,15 @@ function buildShaftEnd(shaft, bbox, floating) {
   worm.scale.setScalar(1000); // wormGeometry is in metres
   worm.position.x = xWorm;
   shaftGroup.add(worm);
-  shaftGroup.add(gear(STAGES[0][0], 3, brass).at(xW1, 0, 0));
-  // Crank: hub, arm, pin and knob beyond the far cheek.
   mesh(shaftGroup, new THREE.CylinderGeometry(6, 6, 6, 24), brass, xHub, 0, 0, alongX);
   mesh(shaftGroup, new THREE.BoxGeometry(4, 36, 8), brass, xHub + 4, 15, 0);
   mesh(shaftGroup, new THREE.CylinderGeometry(2, 2, 12, 16), brass, xHub + 11, 30, 0, alongX);
   mesh(shaftGroup, new THREE.CylinderGeometry(4, 4.5, 16, 20), knobMat, xHub + 23, 30, 0, alongX);
   g.add(shaftGroup);
-  // Compound axle B: pinion meshing with W1, wheel driving P2.
-  const bGroup = new THREE.Group();
-  bGroup.position.set(0, B.y, B.z);
-  mesh(bGroup, new THREE.CylinderGeometry(1.5, 1.5, xCheek - xW1 + 6, 12), steel, (xW1 + xCheek + 2) / 2, 0, 0, alongX);
-  bGroup.add(gear(STAGES[0][1], 4, steel).at(xW1, 0, 0));
-  bGroup.add(gear(STAGES[1][0], 3, brass).at(xW2, 0, 0));
-  g.add(bGroup);
-  // Axle C: pinion, then the eccentric back toward the dial.
-  const cGroup = new THREE.Group();
-  cGroup.position.set(0, C.y, C.z);
-  mesh(cGroup, new THREE.CylinderGeometry(1.5, 1.5, xCheek - xEcc + 8, 12), steel, (xEcc - 4 + xCheek + 4) / 2, 0, 0, alongX);
-  cGroup.add(gear(STAGES[1][1], 4, steel).at(xW2, 0, 0));
-  // Tooth phases so each mesh interleaves: with tooth 0 on +Y and angles
-  // measured from +Y toward +Z, a wheel tooth at the mesh direction must meet
-  // a pinion gap. betaB and deltaC are the pinions' standing offsets.
-  const ang = (P, Q) => Math.atan2(Q.z - P.z, Q.y - P.y);
-  const aAB = ang(A, B);
-  const aBC = ang(B, C);
-  const [N1, n1] = STAGES[0];
-  const [N2, n2] = STAGES[1];
-  const betaB = (Math.PI + (N1 + n1) * aAB) / n1;
-  const deltaC = ((n2 + 1) * Math.PI + (N2 + n2) * aBC - N2 * betaB) / n2;
-  // The eccentric's throw points along +Y at shaft angle 0 in the world, so
-  // it is placed at -deltaC in the axle's own frame.
-  const throwMm = VIBRATO_DEPTH_MM() * VIB_ARM_IN / VIB_ARM_OUT;
-  const disc = mesh(cGroup, new THREE.CylinderGeometry(VIB_DISC_R, VIB_DISC_R, 5, 48), brass, xEcc, throwMm * Math.cos(deltaC), -throwMm * Math.sin(deltaC), alongX);
-  const mark = new THREE.Mesh(new THREE.BoxGeometry(1.2, 5.2, 1), dark);
-  mark.position.set(VIB_DISC_R - 1.2, 0, 0);
-  disc.add(mark);
-  g.add(cGroup);
-  // Bell crank: roller on the shaft side of the eccentric, pivot 17.5 mm
-  // inboard, output arm forward to the block.
-  const px = xEcc - VIB_ARM_IN;
-  const pz = C.z - VIB_DISC_R - VIB_ROLLER_R;
-  mesh(g, new THREE.CylinderGeometry(1.5, 1.5, 16, 16), steel, px, ay - 6, pz);
-  mesh(g, new THREE.BoxGeometry(6, 10, 6), dark, px, ay - 18, pz);
-  const crank = new THREE.Group();
-  crank.position.set(px, ay, pz);
-  mesh(crank, new THREE.BoxGeometry(VIB_ARM_IN - 2, 3, 2.5), brass, (VIB_ARM_IN - 2) / 2, 0, 0);
-  mesh(crank, new THREE.CylinderGeometry(0.8, 0.8, 7, 12), steel, VIB_ARM_IN, 0, 0, alongX);
-  mesh(crank, new THREE.CylinderGeometry(VIB_ROLLER_R, VIB_ROLLER_R, 4, 24), steel, VIB_ARM_IN, 0, 0, alongX);
-  mesh(crank, new THREE.BoxGeometry(2.5, 3, VIB_ARM_OUT), brass, 0, 0, VIB_ARM_OUT / 2);
-  mesh(crank, new THREE.CylinderGeometry(1.5, 1.5, 3, 16), steel, -1.5, 0, VIB_ARM_OUT, [Math.PI / 2, 0, 0]);
-  mesh(crank, new THREE.CylinderGeometry(3, 3, 3.5, 20), brass, 0, 0, 0);
-  g.add(crank);
-  // Module deck, a post, and a far cheek just big enough for the three
-  // bearings, so the train stays visible from outside.
-  const plate = new THREE.MeshStandardMaterial({ color: 0x6f7378, metalness: 0.3, roughness: 0.6 });
-  mesh(g, new THREE.BoxGeometry(xCheek + 2 - (x0 + 2), 3, 48), plate, (x0 + 2 + xCheek + 2) / 2, ay - 24.5, az + 10);
-  mesh(g, new THREE.BoxGeometry(3, 12, 8), plate, xCheek, ay - 17.5, az);
-  mesh(g, new THREE.BoxGeometry(3, 36, 44), plate, xCheek, (A.y + B.y) / 2 + 2, (A.z + C.z) / 2 + 2);
-  for (const P of [A, B, C]) mesh(g, new THREE.CylinderGeometry(4, 4, 5, 20), steel, xCheek, P.y, P.z, alongX);
+  // Bearing block on a short post between worm and handle.
+  mesh(g, new THREE.CylinderGeometry(4.5, 4.5, 5, 24), steel, xBearing, ay, az, alongX);
+  mesh(g, new THREE.BoxGeometry(5, 14, 10), plate, xBearing, ay - 11, az);
+  mesh(g, new THREE.BoxGeometry(12, 3, 16), plate, xBearing, ay - 19.5, az);
   // Worm wheel and cycle dial above the worm, face toward the front.
   const dial = new THREE.Group();
   dial.position.set(xWorm, ay + WORM_PITCH_R + WHEEL_PITCH_R, az);
@@ -309,46 +234,7 @@ function buildShaftEnd(shaft, bbox, floating) {
   dial.add(rotor);
   g.add(dial);
   scene.add(g);
-  // Lever tab on the block's near end face and the return spring to the lab
-  // post, both carried by the floating block.
-  if (floating && bbox) {
-    const carried = new THREE.Group();
-    carried.scale.setScalar(0.001);
-    mesh(carried, new THREE.BoxGeometry(4, 22, 4), brass, px - 5, ay - 7, bbox[4] - 2);
-    const spring = new THREE.Mesh(springGeometry(13, 2.2, 0.5, 9), steel);
-    spring.scale.setScalar(1000);
-    spring.position.set(px - 3 + 6.5, ay - 14, bbox[4] - 2);
-    carried.add(spring);
-    floating.add(carried);
-  }
-  state.shaftEnd = { shaft: shaftGroup, axleB: bGroup, axleC: cGroup, crank, dial: rotor, bridge: floating, throwMm, betaB, deltaC };
-}
-
-// A spur gear as a disc with box teeth, in mm; tooth 0 points along +Y.
-function gear(teeth, thick, mat) {
-  const pr = (GEAR_MODULE * teeth) / 2;
-  const g = new THREE.Group();
-  const body = new THREE.Mesh(new THREE.CylinderGeometry(pr - GEAR_MODULE * 0.9, pr - GEAR_MODULE * 0.9, thick, Math.max(24, teeth)), mat);
-  body.rotation.z = Math.PI / 2;
-  g.add(body);
-  const pitch = (2 * Math.PI * pr) / teeth;
-  for (let i = 0; i < teeth; i++) {
-    const a = (i / teeth) * 2 * Math.PI;
-    const t = new THREE.Mesh(new THREE.BoxGeometry(thick, GEAR_MODULE * 2.1, pitch * 0.48), mat);
-    t.position.set(0, Math.cos(a) * (pr - GEAR_MODULE * 0.1), Math.sin(a) * (pr - GEAR_MODULE * 0.1));
-    t.rotation.x = a;
-    g.add(t);
-  }
-  g.at = (x, y, z) => { g.position.set(x, y, z); return g; };
-  return g;
-}
-
-function VIBRATO_DEPTH_MM() {
-  return state.model ? state.model.VIBRATO_DEPTH_MM : 0.6;
-}
-
-function VIBRATO_STEP_UP() {
-  return state.model ? state.model.VIBRATO_STEP_UP : 30;
+  state.shaftEnd = { shaft: shaftGroup, dial: rotor };
 }
 
 function wormGeometry(length, rCore, depth, pitch, axial = 96, around = 48) {
@@ -398,33 +284,6 @@ function wormGeometry(length, rCore, depth, pitch, axial = 96, around = 48) {
 // Single-start worm + 24-tooth wheel = 24:1 in one step, which is exactly
 // the ratio denominators' LCM, so no second reduction is needed.
 
-// A coil spring along local X: length, coil radius, wire radius, turns (mm).
-function springGeometry(length, radius, wire, turns) {
-  const pts = [];
-  const n = turns * 24;
-  for (let i = 0; i <= n; i++) {
-    const t = i / n;
-    const a = t * turns * 2 * Math.PI;
-    pts.push(new THREE.Vector3((t - 0.5) * length / 1000, Math.cos(a) * radius / 1000, Math.sin(a) * radius / 1000));
-  }
-  return new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), n, wire / 1000, 8, false);
-}
-
-// Vibrato phase in turns of the eccentric, from machine time. Faust
-// integrates the same rate on the audio clock, so the two agree to a block.
-function vibratoPhase() {
-  return state.model.vibrato_phase(currentT(), REFERENCE_RPM);
-}
-
-function vibratoRate() {
-  return state.playing ? (state.rpm / 60) * VIBRATO_STEP_UP() : 0;
-}
-
-// Push the current rate to Faust: on any change of rpm or play state.
-function setVibratoRate() {
-  if (state.node) param("vibhz").setValueAtTime(vibratoRate(), state.audio.currentTime);
-}
-
 function applyShaftEnd(shaftDeg) {
   const e = state.shaftEnd;
   if (!e) return;
@@ -432,28 +291,6 @@ function applyShaftEnd(shaftDeg) {
   e.shaft.rotation.x = theta;
   // Worm wheel turns 1/24 of the shaft; clockwise seen from the front.
   e.dial.rotation.z = theta / WHEEL_TEETH;
-  // Each external mesh reverses the sense; the eccentric turns with the shaft.
-  const stage1 = STAGES[0][0] / STAGES[0][1];
-  e.axleB.rotation.x = -theta * stage1 + e.betaB;
-  e.axleC.rotation.x = theta * VIBRATO_STEP_UP() + e.deltaC;
-  // The roller follows the disc rim in Z; the crank turns about Y by
-  // -throw sin / arm, and the block follows the model's bridge offset.
-  const phi = 2 * Math.PI * vibratoPhase();
-  e.crank.rotation.y = -(e.throwMm * Math.sin(phi)) / VIB_ARM_IN;
-  if (e.bridge) e.bridge.position.x = state.model.bridge_offset_mm(currentT(), REFERENCE_RPM) / 1000;
-}
-
-function updateVibratoReadouts() {
-  const voices = state.design.voices;
-  if (!voices || state.voices.length < voices.length) return;
-  const hz = (state.rpm / 60) * VIBRATO_STEP_UP();
-  const cents = (v) => {
-    const L = state.voices[v].lengthMm;
-    return 1200 * Math.log2(L / (L - VIBRATO_DEPTH_MM()));
-  };
-  const lo = voices[0].display_note;
-  const hi = voices[voices.length - 1].display_note;
-  ui.vibNote.textContent = `${VIBRATO_STEP_UP()}:1 step-up, ±${VIBRATO_DEPTH_MM().toFixed(1)} mm · ${hz.toFixed(2)} Hz at ${state.rpm.toFixed(1)} rpm · ±${cents(0).toFixed(1)} ¢ on ${lo}, ±${cents(voices.length - 1).toFixed(1)} ¢ on ${hi}`;
 }
 
 // Each speaking string keeps its own nylon material; a transparent coloured
@@ -542,12 +379,7 @@ async function loadAudio() {
   param("gain").value = parseFloat(ui.gain.value);
   param("t60").value = parseFloat(ui.t60.value);
   param("bright").value = parseFloat(ui.bright.value);
-  for (let v = 0; v < 12; v++) {
-    param(`freq${v}`).value = voiceFrequency(v);
-    param(`len${v}`).value = state.voices[v].lengthMm;
-  }
-  param("vibmm").value = VIBRATO_DEPTH_MM();
-  param("vibhz").value = vibratoRate();
+  for (let v = 0; v < 12; v++) param(`freq${v}`).value = voiceFrequency(v);
 }
 
 function param(name) {
@@ -687,11 +519,7 @@ function buildVoiceRows() {
       el.querySelector(`#len-val-${v}`).textContent = `${state.voices[v].lengthMm.toFixed(1)} mm`;
       el.querySelector(`#hz-${v}`).textContent = `${voiceFrequency(v).toFixed(2)} Hz`;
       applyBridge(v);
-      if (state.node) {
-        param(`freq${v}`).setValueAtTime(voiceFrequency(v), state.audio.currentTime);
-        param(`len${v}`).setValueAtTime(state.voices[v].lengthMm, state.audio.currentTime);
-      }
-      updateVibratoReadouts();
+      if (state.node) param(`freq${v}`).setValueAtTime(voiceFrequency(v), state.audio.currentTime);
     };
     tune.addEventListener("input", refresh);
     // A hand-moved tuning slider turns the preset menu to Custom; applyPreset
@@ -733,14 +561,12 @@ ui.play.addEventListener("click", async () => {
     state.T = currentT();
     state.playing = false;
     cancelScheduled();
-    setVibratoRate();
     ui.play.textContent = "Play";
   } else {
     state.T0 = state.T;
     state.wall0 = state.audio.currentTime;
     state.scheduledT = state.T;
     state.playing = true;
-    setVibratoRate();
     ui.play.textContent = "Pause";
     // Schedule from a timer as well as from frames, so a background tab
     // (where requestAnimationFrame stalls) keeps plucking.
@@ -771,8 +597,6 @@ ui.rpm.addEventListener("input", () => {
     rebase();
     state.scheduledT = state.T;
   }
-  setVibratoRate();
-  updateVibratoReadouts();
 });
 
 for (const name of ["gain", "t60", "bright"]) {
@@ -812,7 +636,6 @@ async function main() {
     buildVoiceRows();
     buildStrings();
     applyPoses(0);
-    updateVibratoReadouts();
     ui.rpmValue.textContent = `${state.rpm.toFixed(1)} rpm`;
     setStatus("");
     ui.overlay.classList.add("hidden");

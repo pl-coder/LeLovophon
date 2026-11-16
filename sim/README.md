@@ -56,9 +56,8 @@ Things to try, roughly in order:
    string flashes a halo in that colour when it is plucked.
 3. Move **shaft** from 3 rpm upward. The pattern is the same, only faster; the
    line under the transport shows the repeat time.
-4. Look at the tuning end of the input shaft: the crank handle, the gear
-   step-up for the vibrato, and the small dial whose needle goes round once
-   per 24-turn cycle.
+4. Look at the tuning end of the input shaft: the crank handle and the small
+   dial whose needle goes round once per 24-turn cycle.
 5. Pick a **preset** under Tuning, or move one voice's **tuning** slider.
 6. Move one voice's **bridge** slider. The third bridge slides, the pitch
    follows the speaking length, and the rhythm does not change, because the
@@ -78,7 +77,9 @@ If something is wrong:
 
 Everything that moves in the twelve drivetrains, and when each string is
 plucked, comes from the FreeCAD document. Several things on the page do not,
-and are labelled here so nobody takes them for the design.
+and are labelled here so nobody takes them for the design. (A vibrato
+mechanism was tried on this branch and removed on 16 November; the diary has
+it.)
 
 | On the page | Source |
 |---|---|
@@ -90,7 +91,6 @@ and are labelled here so nobody takes them for the design.
 | Per-voice colours and pluck halos | **Added.** Visual aids |
 | Crank handle on the tuning end | **Added.** A concept, to read shaft speed at a glance |
 | Worm, 24-tooth wheel and cycle dial | **Added.** A concept: one needle turn per 480 s cycle |
-| Vibrato: gear step-up, eccentric, bell crank, floating tuner block | **Added.** A concept, described below |
 | Tuning presets, per-voice tuning and bridge sliders | **Added.** Experiments; the design's values are the defaults |
 
 Belts are static, as in the FreeCAD animation.
@@ -101,37 +101,6 @@ A single-start worm on the input shaft drives a 24-tooth wheel carrying a
 needle over 24 ticks: one tick per shaft turn, one needle turn per cycle. It
 needs no further reduction because 24 is the least common multiple of the
 ratio denominators, so the dial is the repeat by construction.
-
-### The vibrato
-
-This is a proposal to look at and listen to, not a checked mechanism.
-
-The input shaft stops just short of the tuner block. On a brass extension
-beyond it sit, from the machine outward: the worm and dial, the vibrato
-step-up, a cheek with the bearings, and the handle. The step-up is two gear
-stages, 60/10 then 50/10, 30:1 in all, so its output turns 1.5 times a second
-at 3 rpm and scales with shaft speed. The output axle carries an eccentric
-disc. A bell crank on a vertical pin rides the disc with one arm and pushes a
-tab on the tuner block with the other. The block, its saddle rail and the
-twelve saddles float as one piece and slide along the strings by 0.6 mm end to
-end, against a return spring to the lab post.
-
-Every string gets the same millimetres, so the depth in cents is larger on the
-short strings: ±1.6 ¢ on C3, ±7 ¢ on D5. The panel shows the current values.
-
-This is the one place the page departs from "pitch ratio equals rotation
-ratio": the pitch swings around the exact ratio while the rhythm stays exact.
-The average pitch moves by less than a fiftieth of a cent.
-
-What has not been done for it: no slide or guide is designed for the floating
-block; the change in string tension as the block moves is ignored, only the
-length changes; the eccentric's axle hangs from one bearing; 10-tooth pinions
-would be undercut as real involute gears; nothing is checked for clearance or
-strength beyond looking at it. The ratio and depth were chosen by ear, and
-30:1 partly because a higher ratio would be hard to drive by hand.
-
-The constants are `VIBRATO_STEP_UP` and `VIBRATO_DEPTH_MM` in
-`sim/lovophon/model.py`.
 
 ## The controls
 
@@ -175,7 +144,7 @@ should be regenerated, not committed.
 | Layer | Where | Role |
 |---|---|---|
 | Python in the browser (Pyodide) | `sim/lovophon`, unchanged | Poses for the 48 moving groups every frame; plucks in a half-second lookahead |
-| three.js | `page/assets/lovophon.glb` | The CAD: one node per moving group, per third bridge and per string, one for the floating tuner block, one for everything static |
+| three.js | `page/assets/lovophon.glb` | The CAD: one node per moving group, per third bridge and per string, one for everything static |
 | Faust in an AudioWorklet | `page/lovophon.dsp` → `page/dsp/lovophon.wasm` | Twelve Karplus-Strong strings; plucks are scheduled on the audio clock |
 | `page/app.js`, `page/index.html` | | Panel, scheduling, and the added parts drawn in three.js |
 

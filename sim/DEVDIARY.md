@@ -10,6 +10,25 @@ which wrote the code and these entries. Nothing here has touched hardware.
 
 ---
 
+## 2026-11-16 — vibrato removed
+
+**Changed:** Peter asked for the vibrato to go. Removed from all four layers:
+the gear train, eccentric, bell crank, tab and spring from the page; the
+rate, depth and per-voice length parameters from the Faust string (recompiled);
+the constants, `vibrato_phase` and `bridge_offset_mm` from the model with
+their test; the floating-bridge node from the exporter, and the GLB
+re-exported so the tuner block is static again. The crank handle, worm and
+cycle dial stay on the tuning end, now with a plain bearing block.
+
+**Learned:** nothing new; the layering made the removal a list of deletions.
+The history stays in the diary and in git (`7bd43b5` to `dc1a9df`) if the idea
+comes back.
+
+**Now true:** the page is the Lab Frame with three labelled additions: crank,
+cycle dial, colours and halos, plus the synthesised strings.
+
+---
+
 ## 2026-11-09 — packaged for Paul
 
 **Changed:** merged Paul's `main` twice so switching to this branch does not
