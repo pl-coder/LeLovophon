@@ -10,6 +10,41 @@ which wrote the code and these entries. Nothing here has touched hardware.
 
 ---
 
+## 2026-11-16 — Plucking Layout R5 as a second tab
+
+**Changed:** Peter asked for Paul's latest model in the sim as a separate tab.
+That is Plucking Layout R5 (11 Nov), three revisions past the direct-gear
+prototype of the 9th. New: `sim/lovophon/r5.py` (the four-bar closure from
+`work/direct_gear_math.py` ported line for line, rows from a snapshot of
+`Drive_Effort/Reproduction/kinematics.json`), `sim/export_meshes_r5.py`
+(1101 loose world-posed solids grouped by their `Motion` and `Voice`
+properties into one input group, twelve cranks, twelve rocker-plus-pendulum
+groups and twelve couplers, each written about its own rotation centre),
+`sim/glbwriter.py` (the GLB writer both exporters now share; the Lab Frame
+export is byte-identical after the move), and the page refactored around a
+design registry with a tab bar. Strings, tuning, presets, bridge sliders,
+colours and halos are shared; the crank and cycle dial stay Lab Frame only,
+because R5 has Paul's own hand crank.
+
+**Checked:** 26 tests. All 1350 R5 plucks match Paul's event list to 1e-13 s
+with directions; the rows recompute from his formulas; the saved CAD pose is
+the shared centre crossing; the coupler keeps its length. In the browser the
+input shaft angle at 8.5 s was −2π·8.5/20 to three decimals, V01's crank the
+negative of it, V12's 4.5 times it, and the strings sounded.
+
+**Not checked:** anything Paul has not checked either. The picks are rigid
+here; his open question is whether the PET picks release cleanly.
+
+**Learned:** R5 only moves whole stations along X, so the direct-gear maths
+and pluck list still hold, and his `kinematics.json` is the single source for
+every number. Writing each node's vertices relative to its own pivot makes a
+pose a plain rotation and saves a transform chain in the page.
+
+**Now true:** the page opens on R5; the Lab Frame is the second tab. The R5
+mesh file is 10.6 MB.
+
+---
+
 ## 2026-11-16 — vibrato removed
 
 **Changed:** Peter asked for the vibrato to go. Removed from all four layers:

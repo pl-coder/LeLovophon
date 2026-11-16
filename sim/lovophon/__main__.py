@@ -48,6 +48,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--midi", action="store_true", help="write just-intonation and equal-temperament MIDI")
     p.add_argument("--out", type=Path, default=OUTPUTS, help="output directory (default outputs/)")
     p.add_argument("--snapshot", action="store_true", help="regenerate design.json from the FreeCAD file")
+    p.add_argument("--snapshot-r5", action="store_true", help="regenerate r5_design.json from Paul's R5 kinematics.json")
     p.add_argument("--summary", action="store_true", help="print the twelve voices and the repeat time")
     args = p.parse_args(argv)
 
@@ -55,12 +56,18 @@ def main(argv: list[str] | None = None) -> int:
         snapshot = make_snapshot(FCSTD)
         DESIGN_JSON.write_text(json.dumps(snapshot, indent=1) + "\n")
         print(f"wrote {DESIGN_JSON.relative_to(REPO_ROOT)} from {snapshot['source']}")
+    if args.snapshot_r5:
+        from . import r5
+
+        snapshot = r5.make_snapshot()
+        r5.DESIGN_JSON.write_text(json.dumps(snapshot, indent=1) + "\n")
+        print(f"wrote {r5.DESIGN_JSON.relative_to(REPO_ROOT)} from {snapshot['source']}")
 
     design = load_design()
     duration = args.duration if args.duration is not None else repeat_seconds(design, args.rpm)
     tunings = parse_tunings(args.tune)
 
-    if args.summary or not (args.csv or args.midi or args.snapshot):
+    if args.summary or not (args.csv or args.midi or args.snapshot or args.snapshot_r5):
         print(f"input {args.rpm:g} rpm, full repeat {repeat_seconds(design, args.rpm):g} s, schedule {duration:g} s")
         print("voice  ratio  teeth    cam s   string mm   arm mm    Hz")
         for row in design["voices"]:

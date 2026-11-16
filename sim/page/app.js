@@ -1,11 +1,17 @@
 // Le Lovophon in the browser.
 //
 // Three layers, each owned by one place:
-//   - Python (sim/lovophon via Pyodide): the kinematic model. Called once per
-//     frame for the 48 moving-part poses and in a short lookahead for plucks.
-//   - three.js: the exported CAD meshes. Node names match sim/lovophon poses.
+//   - Python (sim/lovophon via Pyodide): the kinematic models. Called once per
+//     frame for the moving-part poses and in a short lookahead for plucks.
+//   - three.js: the exported CAD meshes. Node names match the Python poses.
 //   - Faust (AudioWorklet): twelve plucked strings. Plucks are scheduled on
 //     the audio clock with AudioParam automation.
+//
+// Two designs share the page as tabs: Paul's current Plucking Layout R5
+// (sim/lovophon/r5.py, assets/lovophon_r5.glb) and the earlier Lab Frame
+// Ratio Review (sim/lovophon/model.py, assets/lovophon.glb). Each has its own
+// model, meshes and pose adapter; strings, tuning, presets and transport are
+// shared. Switching tabs returns the machine to turn 0.
 //
 // Time: the model is always evaluated at the reference 3 rpm. "Machine time"
 // T advances at rpm/3 times wall time, so changing the input speed never makes
@@ -16,7 +22,32 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 
 const REFERENCE_RPM = 3;
-const KINDS = ["Driver", "Output", "LongArmRotor", "Rocker"];
+
+// The two designs. `kinds` are the per-voice node suffixes the adapter poses
+// and tints; `minLength` keeps the third bridge on the far side of the pick.
+const DESIGNS = {
+  r5: {
+    key: "r5",
+    label: "Plucking Layout R5",
+    note: "current, 11 Nov 2026",
+    glb: "./assets/lovophon_r5.glb",
+    module: "r5",
+    kinds: ["crank", "rocker", "coupler"],
+    maxLength: 600,
+    minLength: (row) => Math.ceil(321 - row.pick_x + 6),
+  },
+  lab: {
+    key: "lab",
+    label: "Lab Frame review",
+    note: "earlier study, 6 Nov 2026",
+    glb: "./assets/lovophon.glb",
+    module: "model",
+    kinds: ["Driver", "Output", "LongArmRotor", "Rocker"],
+    maxLength: 330,
+    minLength: (row) => Math.max(40, Math.ceil(320 - row.station + 6)),
+  },
+};
+const DEFAULT_DESIGN = "r5";
 
 // Tuning presets as cents offsets per pentatonic degree (C D E G A) from the
 // design's 5-limit just intonation (1, 9/8, 5/4, 3/2, 5/3). Octave voices
@@ -43,6 +74,7 @@ const PYODIDE_URL = "https://cdn.jsdelivr.net/pyodide/v0.27.5/full/";
 const ui = {
   status: document.getElementById("status"),
   overlay: document.getElementById("overlay"),
+  tabs: document.getElementById("tabs"),
   play: document.getElementById("play"),
   reset: document.getElementById("reset"),
   time: document.getElementById("time"),
@@ -59,9 +91,9 @@ const ui = {
 };
 
 const state = {
-  design: null,
   py: null,
-  model: null,
+  designs: {}, // key -> runtime: {cfg, design, model, pyDesign, repeatT, root, nodes, strings, voices, loaded}
+  active: null,
   rpm: 3,
   playing: false,
   T: 0, // machine time at reference rpm
@@ -69,13 +101,10 @@ const state = {
   elapsed: 0, // wall seconds played, for the readout only
   wall0: 0, // audio-context time when T0 was set
   scheduledT: 0,
-  voices: [], // per-voice UI state: tuningHz, lengthMm
-  nodes: new Map(),
-  strings: [], // per voice: {mesh, material, glow}
-  shaftEnd: null, // crank and worm wheel groups on the tuning end
   audio: null,
   node: null,
   flashTimers: [],
+  switching: false,
 };
 
 function setStatus(text) {
@@ -84,32 +113,45 @@ function setStatus(text) {
 
 // ---------------------------------------------------------------- Python
 
-async function loadModel() {
+async function loadModels() {
   setStatus("Loading Pyodide…");
   const pyodide = await loadPyodide({ indexURL: PYODIDE_URL });
   setStatus("Loading sim/lovophon…");
   pyodide.FS.mkdirTree("/sim/lovophon");
-  for (const name of ["__init__.py", "model.py", "design.json"]) {
+  for (const name of ["__init__.py", "model.py", "r5.py", "design.json", "r5_design.json"]) {
     const text = await (await fetch(`../lovophon/${name}`)).text();
     pyodide.FS.writeFile(`/sim/lovophon/${name}`, text);
   }
-  pyodide.runPython("import sys; sys.path.insert(0, '/')\nfrom sim.lovophon import model\ndesign = model.load_design()");
+  pyodide.runPython("import sys, json; sys.path.insert(0, '/')\nfrom sim.lovophon import model, r5");
   state.py = pyodide;
-  state.model = pyodide.globals.get("model");
-  state.design = JSON.parse(pyodide.runPython("import json; json.dumps(design)"));
-  state.pyDesign = pyodide.globals.get("design");
-  state.repeatT = state.model.repeat_seconds(state.pyDesign, REFERENCE_RPM);
+  for (const cfg of Object.values(DESIGNS)) {
+    pyodide.runPython(`design_${cfg.key} = ${cfg.module}.load_design()`);
+    const D = {
+      cfg,
+      model: pyodide.globals.get(cfg.module),
+      pyDesign: pyodide.globals.get(`design_${cfg.key}`),
+      design: JSON.parse(pyodide.runPython(`json.dumps(design_${cfg.key})`)),
+      root: null,
+      nodes: new Map(),
+      strings: [],
+      voices: [],
+      shaftEnd: null,
+      loaded: false,
+    };
+    D.repeatT = D.model.repeat_seconds(D.pyDesign, REFERENCE_RPM);
+    state.designs[cfg.key] = D;
+  }
 }
 
-function posesFlat(T) {
-  const proxy = state.model.poses_flat(state.pyDesign, T, REFERENCE_RPM);
+function posesFlat(D, T) {
+  const proxy = D.model.poses_flat(D.pyDesign, T, REFERENCE_RPM);
   const arr = proxy.toJs();
   proxy.destroy();
   return arr;
 }
 
-function eventsFlat(T0, T1) {
-  const proxy = state.model.events_flat(state.pyDesign, T0, T1, REFERENCE_RPM);
+function eventsFlat(D, T0, T1) {
+  const proxy = D.model.events_flat(D.pyDesign, T0, T1, REFERENCE_RPM);
   const arr = proxy.toJs();
   proxy.destroy();
   return arr;
@@ -142,37 +184,48 @@ function resize() {
   }
 }
 
-async function loadMeshes() {
-  setStatus("Loading CAD meshes…");
-  const gltf = await new GLTFLoader().loadAsync("./assets/lovophon.glb");
+async function loadMeshes(D) {
+  setStatus(`Loading ${D.cfg.label} meshes…`);
+  const gltf = await new GLTFLoader().loadAsync(D.cfg.glb);
   const root = gltf.scene;
   // A glTF node with several primitives becomes a Group named after the node
   // with one Mesh per primitive, so register every named object, not meshes.
   root.traverse((o) => {
-    if (o.name && !state.nodes.has(o.name)) state.nodes.set(o.name, o);
+    if (o.name && !D.nodes.has(o.name)) D.nodes.set(o.name, o);
   });
+  // Nodes placed at their rotation centre keep that as a base position.
+  for (const node of D.nodes.values()) node.userData.base = node.position.clone();
+  root.visible = false;
   scene.add(root);
-  const staticNode = state.nodes.get("static");
-  const extras = (staticNode && staticNode.userData) || {};
-  buildShaftEnd(extras.input_shaft_mm);
-  const box = new THREE.Box3().setFromObject(root);
+  D.root = root;
+  if (D.cfg.key === "lab") {
+    const staticNode = D.nodes.get("static");
+    const extras = (staticNode && staticNode.userData) || {};
+    buildShaftEnd(D, extras.input_shaft_mm);
+  }
+  buildStrings(D);
+  D.loaded = true;
+}
+
+function frameCamera(D) {
+  const box = new THREE.Box3().setFromObject(D.root);
   const centre = box.getCenter(new THREE.Vector3());
   const size = box.getSize(new THREE.Vector3()).length();
-  camera.position.copy(centre).add(new THREE.Vector3(0.45, 0.5, 1.0).multiplyScalar(size * 0.95));
+  camera.position.copy(centre).add(new THREE.Vector3(0.45, 0.5, 1.0).multiplyScalar(size * 1.05));
   controls.target.copy(centre);
   controls.update();
 }
 
-// The tuning end of the input shaft, outboard of where the CAD shaft stops
-// (x_max): a brass extension carrying the worm for the cycle dial, a bearing
-// block, and a crank handle so the shaft speed can be read at a glance. All
-// dimensions in mm; the group is scaled once. Visual aids: the real machine
-// has none of this.
+// The tuning end of the Lab Frame's input shaft, outboard of where the CAD
+// shaft stops (x_max): a brass extension carrying the worm for the cycle
+// dial, a bearing block, and a crank handle so the shaft speed can be read at
+// a glance. All dimensions in mm; the group is scaled once. Visual aids: the
+// real machine has none of this. R5 has Paul's own hand crank and gets none.
 const WHEEL_TEETH = 24; // worm wheel, one turn per 24-turn cycle
 const WHEEL_PITCH_R = 12;
 const WORM_PITCH_R = 5;
 
-function buildShaftEnd(shaft) {
+function buildShaftEnd(D, shaft) {
   if (!shaft) return;
   const brass = new THREE.MeshStandardMaterial({ color: 0xc29645, metalness: 0.4, roughness: 0.45 });
   const steel = new THREE.MeshStandardMaterial({ color: 0x9aa0a6, metalness: 0.6, roughness: 0.4 });
@@ -233,8 +286,8 @@ function buildShaftEnd(shaft) {
   mesh(dial, new THREE.CylinderGeometry(1.5, 1.5, 12, 16), brass, 0, 0, 0, [Math.PI / 2, 0, 0]);
   dial.add(rotor);
   g.add(dial);
-  scene.add(g);
-  state.shaftEnd = { shaft: shaftGroup, dial: rotor };
+  D.root.add(g);
+  D.shaftEnd = { shaft: shaftGroup, dial: rotor };
 }
 
 function wormGeometry(length, rCore, depth, pitch, axial = 96, around = 48) {
@@ -283,9 +336,8 @@ function wormGeometry(length, rCore, depth, pitch, axial = 96, around = 48) {
 // dial with 24 ticks: one tick per shaft turn, one needle turn per cycle.
 // Single-start worm + 24-tooth wheel = 24:1 in one step, which is exactly
 // the ratio denominators' LCM, so no second reduction is needed.
-
-function applyShaftEnd(shaftDeg) {
-  const e = state.shaftEnd;
+function applyShaftEnd(D, shaftDeg) {
+  const e = D.shaftEnd;
   if (!e) return;
   const theta = THREE.MathUtils.degToRad(shaftDeg);
   e.shaft.rotation.x = theta;
@@ -293,18 +345,17 @@ function applyShaftEnd(shaftDeg) {
   e.dial.rotation.z = theta / WHEEL_TEETH;
 }
 
-// Each speaking string keeps its own nylon material; a transparent coloured
-// halo around it, invisible at rest, lights up when the string is plucked.
-function buildStrings() {
-  state.design.voices.forEach((row, v) => {
-    // Tint the whole drivetrain of this voice (driver pulley, driven pulley
-    // and cam, follower, arm and pick) in the string's colour.
+// Each speaking string keeps its own material; a transparent coloured halo
+// around it, invisible at rest, lights up when the string is plucked. The
+// voice's moving groups are tinted in the same colour.
+function buildStrings(D) {
+  D.design.voices.forEach((row, v) => {
     const tint = new THREE.MeshStandardMaterial({ color: voiceColour(v), metalness: 0.25, roughness: 0.5 });
-    for (const kind of KINDS) {
-      const part = state.nodes.get(`${row.note}_${kind}`);
+    for (const kind of D.cfg.kinds) {
+      const part = D.nodes.get(`${row.note}_${kind}`);
       if (part) part.traverse((o) => { if (o.isMesh) o.material = tint; });
     }
-    const node = state.nodes.get(`${row.note}_string`);
+    const node = D.nodes.get(`${row.note}_string`);
     if (!node) return;
     const box = new THREE.Box3().setFromObject(node);
     const centre = box.getCenter(new THREE.Vector3());
@@ -314,13 +365,13 @@ function buildStrings() {
     halo.rotation.z = Math.PI / 2;
     halo.position.copy(centre);
     halo.visible = false;
-    scene.add(halo);
-    state.strings[v] = { halo, material, glow: 0 };
+    D.root.add(halo);
+    D.strings[v] = { halo, material, glow: 0 };
   });
 }
 
-function decayGlow(dt) {
-  for (const s of state.strings) {
+function decayGlow(D, dt) {
+  for (const s of D.strings) {
     if (!s || !s.halo.visible) continue;
     s.glow *= Math.exp(-dt / 0.35);
     s.material.opacity = 0.85 * s.glow;
@@ -330,25 +381,60 @@ function decayGlow(dt) {
   }
 }
 
-function applyPoses(T) {
-  const flat = posesFlat(T);
-  const voices = state.design.voices;
-  applyShaftEnd(flat[3]);
+// Pose adapters: how each design's flat pose array maps onto its nodes.
+const deg = THREE.MathUtils.degToRad;
+
+function applyPosesLab(D, flat) {
+  const voices = D.design.voices;
+  const kinds = D.cfg.kinds;
+  applyShaftEnd(D, flat[3]);
   for (let v = 0; v < voices.length; v++) {
-    for (let k = 0; k < KINDS.length; k++) {
-      const node = state.nodes.get(`${voices[v].note}_${KINDS[k]}`);
+    for (let k = 0; k < kinds.length; k++) {
+      const node = D.nodes.get(`${voices[v].note}_${kinds[k]}`);
       if (!node) continue;
-      const i = (v * KINDS.length + k) * 4;
+      const i = (v * kinds.length + k) * 4;
       node.position.set(flat[i] / 1000, flat[i + 1] / 1000, flat[i + 2] / 1000);
-      node.rotation.set(THREE.MathUtils.degToRad(flat[i + 3]), 0, 0);
+      node.rotation.set(deg(flat[i + 3]), 0, 0);
     }
   }
 }
 
+// R5: per voice [input_deg, crank_deg, rocker_deg, coupler_deg, dy, dz]. Each
+// node sits at its own rotation centre, so a pose is a rotation about X; the
+// coupler also translates with the crank pin.
+function applyPosesR5(D, flat) {
+  const voices = D.design.voices;
+  const input = D.nodes.get("input");
+  if (input) input.rotation.set(deg(flat[0]), 0, 0);
+  for (let v = 0; v < voices.length; v++) {
+    const i = v * 6;
+    const note = voices[v].note;
+    const crank = D.nodes.get(`${note}_crank`);
+    if (crank) crank.rotation.set(deg(flat[i + 1]), 0, 0);
+    const rocker = D.nodes.get(`${note}_rocker`);
+    if (rocker) rocker.rotation.set(deg(flat[i + 2]), 0, 0);
+    const coupler = D.nodes.get(`${note}_coupler`);
+    if (coupler) {
+      coupler.rotation.set(deg(flat[i + 3]), 0, 0);
+      const b = coupler.userData.base;
+      coupler.position.set(b.x, b.y + flat[i + 4] / 1000, b.z + flat[i + 5] / 1000);
+    }
+  }
+}
+
+function applyPoses(T) {
+  const D = state.active;
+  if (!D || !D.loaded) return;
+  const flat = posesFlat(D, T);
+  if (D.cfg.key === "lab") applyPosesLab(D, flat);
+  else applyPosesR5(D, flat);
+}
+
 function applyBridge(v) {
-  const row = state.design.voices[v];
-  const node = state.nodes.get(`${row.note}_bridge`);
-  if (node) node.position.x = (row.speaking_length - state.voices[v].lengthMm) / 1000;
+  const D = state.active;
+  const row = D.design.voices[v];
+  const node = D.nodes.get(`${row.note}_bridge`);
+  if (node) node.position.x = (row.speaking_length - D.voices[v].lengthMm) / 1000;
 }
 
 // ---------------------------------------------------------------- Audio
@@ -387,8 +473,9 @@ function param(name) {
 }
 
 function voiceFrequency(v) {
-  const row = state.design.voices[v];
-  const s = state.voices[v];
+  const D = state.active;
+  const row = D.design.voices[v];
+  const s = D.voices[v];
   return s.tuningHz * row.speaking_length / s.lengthMm;
 }
 
@@ -403,11 +490,12 @@ function currentT() {
 }
 
 function scheduleAhead() {
+  const D = state.active;
   const T = currentT();
   const horizon = T + LOOKAHEAD_WALL * (state.rpm / REFERENCE_RPM);
   if (state.scheduledT >= horizon) return;
   const from = Math.max(state.scheduledT, T);
-  const flat = eventsFlat(from, horizon);
+  const flat = eventsFlat(D, from, horizon);
   for (let i = 0; i < flat.length; i += 3) {
     const Te = flat[i];
     const v = flat[i + 1] | 0;
@@ -449,6 +537,26 @@ function rebase() {
   state.wall0 = state.audio ? state.audio.currentTime : 0;
 }
 
+function pause() {
+  if (!state.playing) return;
+  state.T = currentT();
+  state.playing = false;
+  cancelScheduled();
+  ui.play.textContent = "Play";
+}
+
+function resetTime() {
+  state.T = 0;
+  state.T0 = 0;
+  state.elapsed = 0;
+  if (state.audio) {
+    state.wall0 = state.audio.currentTime;
+    cancelScheduled();
+    state.node.port.postMessage({ type: "clear" });
+  }
+  state.scheduledT = 0;
+}
+
 // ---------------------------------------------------------------- UI
 
 function flash(v) {
@@ -457,7 +565,7 @@ function flash(v) {
     row.classList.add("pluck");
     setTimeout(() => row.classList.remove("pluck"), 180);
   }
-  const s = state.strings[v];
+  const s = state.active.strings[v];
   if (s) {
     s.glow = 1;
     s.material.opacity = 0.85;
@@ -469,7 +577,7 @@ function flash(v) {
 function applyPreset(name) {
   const offsets = PRESETS[name];
   if (!offsets) return;
-  state.design.voices.forEach((row, v) => {
+  state.active.design.voices.forEach((row, v) => {
     const tune = document.getElementById(`tune-${v}`);
     tune.value = String(offsets[DEGREE_OF_VOICE[v]]);
     tune.dispatchEvent(new Event("input", { bubbles: false }));
@@ -491,10 +599,11 @@ function buildPresetMenu() {
 }
 
 function buildVoiceRows() {
+  const D = state.active;
   ui.voices.innerHTML = "";
-  state.design.voices.forEach((row, v) => {
-    state.voices[v] = { tuningHz: row.frequency_hz, lengthMm: row.speaking_length };
-    const minLength = Math.max(40, Math.ceil(320 - row.station + 6));
+  D.design.voices.forEach((row, v) => {
+    D.voices[v] = { tuningHz: row.frequency_hz, lengthMm: row.speaking_length };
+    const minLength = D.cfg.minLength(row);
     const el = document.createElement("div");
     el.className = "voice";
     el.style.setProperty("--voice", `#${voiceColour(v).getHexString()}`);
@@ -507,16 +616,16 @@ function buildVoiceRows() {
         <span class="hz" id="hz-${v}"></span>
       </div>
       <label>tuning <input type="range" id="tune-${v}" min="-150" max="150" step="1" value="0"><span id="tune-val-${v}">0 ¢</span></label>
-      <label>bridge <input type="range" id="len-${v}" min="${minLength}" max="330" step="0.5" value="${row.speaking_length}"><span id="len-val-${v}">${row.speaking_length.toFixed(1)} mm</span></label>`;
+      <label>bridge <input type="range" id="len-${v}" min="${minLength}" max="${D.cfg.maxLength}" step="0.5" value="${row.speaking_length}"><span id="len-val-${v}">${row.speaking_length.toFixed(1)} mm</span></label>`;
     ui.voices.appendChild(el);
     const tune = el.querySelector(`#tune-${v}`);
     const len = el.querySelector(`#len-${v}`);
     const refresh = () => {
       const cents = parseFloat(tune.value);
-      state.voices[v].tuningHz = row.frequency_hz * Math.pow(2, cents / 1200);
-      state.voices[v].lengthMm = parseFloat(len.value);
+      D.voices[v].tuningHz = row.frequency_hz * Math.pow(2, cents / 1200);
+      D.voices[v].lengthMm = parseFloat(len.value);
       el.querySelector(`#tune-val-${v}`).textContent = `${cents >= 0 ? "+" : ""}${cents} ¢`;
-      el.querySelector(`#len-val-${v}`).textContent = `${state.voices[v].lengthMm.toFixed(1)} mm`;
+      el.querySelector(`#len-val-${v}`).textContent = `${D.voices[v].lengthMm.toFixed(1)} mm`;
       el.querySelector(`#hz-${v}`).textContent = `${voiceFrequency(v).toFixed(2)} Hz`;
       applyBridge(v);
       if (state.node) param(`freq${v}`).setValueAtTime(voiceFrequency(v), state.audio.currentTime);
@@ -530,15 +639,62 @@ function buildVoiceRows() {
     len.addEventListener("input", refresh);
     refresh();
   });
+  ui.preset.value = Object.keys(PRESETS)[0];
+}
+
+function buildTabs() {
+  ui.tabs.innerHTML = "";
+  for (const cfg of Object.values(DESIGNS)) {
+    const b = document.createElement("button");
+    b.className = "tab";
+    b.dataset.design = cfg.key;
+    b.innerHTML = `${cfg.label}<small>${cfg.note}</small>`;
+    b.addEventListener("click", () => activate(cfg.key));
+    ui.tabs.appendChild(b);
+  }
+}
+
+// Switch designs: stop, return to turn 0, show the other meshes (loading
+// them on first use), rebuild the voice rows and frame the camera.
+async function activate(key) {
+  if (state.switching) return;
+  const D = state.designs[key];
+  if (!D || D === state.active) return;
+  state.switching = true;
+  try {
+    pause();
+    resetTime();
+    if (state.active && state.active.root) state.active.root.visible = false;
+    state.active = D;
+    if (!D.loaded) {
+      ui.overlay.classList.remove("hidden");
+      await loadMeshes(D);
+      setStatus("");
+      ui.overlay.classList.add("hidden");
+    }
+    D.root.visible = true;
+    buildVoiceRows();
+    applyPoses(0);
+    frameCamera(D);
+    for (const b of ui.tabs.children) b.classList.toggle("active", b.dataset.design === key);
+    document.body.dataset.design = key;
+  } catch (err) {
+    console.error(err);
+    setStatus(`Failed: ${err.message}`);
+  } finally {
+    state.switching = false;
+  }
 }
 
 function updateReadouts() {
+  const D = state.active;
+  if (!D) return;
   const T = currentT();
   const turns = T / (60 / REFERENCE_RPM);
-  const repeatTurns = state.repeatT / (60 / REFERENCE_RPM);
-  const repeatWall = state.repeatT * (REFERENCE_RPM / state.rpm);
+  const repeatTurns = D.repeatT / (60 / REFERENCE_RPM);
+  const repeatWall = D.repeatT * (REFERENCE_RPM / state.rpm);
   ui.time.textContent = `${state.elapsed.toFixed(1)} s · turn ${(turns % repeatTurns).toFixed(2)} / ${repeatTurns}`;
-  ui.cycle.style.width = `${((T % state.repeatT) / state.repeatT) * 100}%`;
+  ui.cycle.style.width = `${((T % D.repeatT) / D.repeatT) * 100}%`;
   ui.repeat.textContent = `repeat ${repeatWall.toFixed(0)} s at ${state.rpm} rpm`;
 }
 
@@ -550,7 +706,7 @@ async function ensureAudio() {
 }
 
 ui.play.addEventListener("click", async () => {
-  if (state.busy) return;
+  if (state.busy || state.switching) return;
   state.busy = true;
   try {
     await ensureAudio();
@@ -558,10 +714,7 @@ ui.play.addEventListener("click", async () => {
     state.busy = false;
   }
   if (state.playing) {
-    state.T = currentT();
-    state.playing = false;
-    cancelScheduled();
-    ui.play.textContent = "Play";
+    pause();
   } else {
     state.T0 = state.T;
     state.wall0 = state.audio.currentTime;
@@ -574,17 +727,7 @@ ui.play.addEventListener("click", async () => {
   }
 });
 
-ui.reset.addEventListener("click", () => {
-  state.T = 0;
-  state.T0 = 0;
-  state.elapsed = 0;
-  if (state.audio) {
-    state.wall0 = state.audio.currentTime;
-    cancelScheduled();
-    state.node.port.postMessage({ type: "clear" });
-  }
-  state.scheduledT = 0;
-});
+ui.reset.addEventListener("click", resetTime);
 
 ui.rpm.addEventListener("input", () => {
   if (state.audio) {
@@ -617,7 +760,7 @@ function frame(now) {
     }
     const dt = state.lastFrame === undefined ? 0 : (now - state.lastFrame) / 1000;
     state.lastFrame = now;
-    decayGlow(Math.min(dt, 0.1));
+    if (state.active) decayGlow(state.active, Math.min(dt, 0.1));
     applyPoses(currentT());
     updateReadouts();
     controls.update();
@@ -630,12 +773,10 @@ function frame(now) {
 
 async function main() {
   try {
-    await loadModel();
-    await loadMeshes();
+    buildTabs();
     buildPresetMenu();
-    buildVoiceRows();
-    buildStrings();
-    applyPoses(0);
+    await loadModels();
+    await activate(DEFAULT_DESIGN);
     ui.rpmValue.textContent = `${state.rpm.toFixed(1)} rpm`;
     setStatus("");
     ui.overlay.classList.add("hidden");
@@ -657,6 +798,7 @@ state.peak = () => {
   for (const x of buf) peak = Math.max(peak, Math.abs(x));
   return peak;
 };
+state.activate = activate;
 state.camera = camera;
 state.controls = controls;
 window.lovophon = state;
