@@ -1,0 +1,7128 @@
+[
+  {
+    "name": "Baseplate_310x170x6",
+    "volume_mm3": 152837.57394394357,
+    "bounds_mm": [
+      -30.0,
+      340.0,
+      -112.00000000000013,
+      -109.0,
+      -95.0,
+      45.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "SoundboxShell",
+    "volume_mm3": 402510.6691490939,
+    "bounds_mm": [
+      -30.0,
+      340.0,
+      -157.0,
+      -111.9999999999997,
+      -95.0,
+      45.00000000000002
+    ],
+    "solids": 5,
+    "valid": true
+  },
+  {
+    "name": "SoundboxEndBlock0",
+    "volume_mm3": 72324.62401529061,
+    "bounds_mm": [
+      -24.0,
+      -10.0,
+      -153.0,
+      -112.0,
+      -89.0,
+      39.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "SoundboxEndBlock1",
+    "volume_mm3": 72376.00255508999,
+    "bounds_mm": [
+      326.0,
+      340.0,
+      -153.0,
+      -112.0,
+      -89.0,
+      39.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "SoundboxFoot1",
+    "volume_mm3": 2399.9999999999995,
+    "bounds_mm": [
+      -18.0,
+      2.0,
+      -163.0,
+      -157.0,
+      22.0,
+      42.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "SoundboxFoot3",
+    "volume_mm3": 2399.9999999999995,
+    "bounds_mm": [
+      310.0,
+      330.0,
+      -163.0,
+      -157.0,
+      22.0,
+      42.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "KotoAnchorBlock",
+    "volume_mm3": 46182.40000000002,
+    "bounds_mm": [
+      -30.0,
+      -14.0,
+      -109.0,
+      -92.6,
+      -113.0,
+      63.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "KotoAnchorSaddleRail",
+    "volume_mm3": 835.2000000000021,
+    "bounds_mm": [
+      -24.0,
+      -20.0,
+      -92.6,
+      -91.39999999999999,
+      -112.0,
+      62.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "KotoTunerBlock",
+    "volume_mm3": 46182.40000000002,
+    "bounds_mm": [
+      312.0,
+      328.0,
+      -109.0,
+      -92.6,
+      -113.0,
+      63.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "KotoTunerSaddleRail",
+    "volume_mm3": 835.2000000000021,
+    "bounds_mm": [
+      318.0,
+      322.0,
+      -92.6,
+      -91.39999999999999,
+      -112.0,
+      62.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_KotoSpeakingString",
+    "volume_mm3": 165.87609210954136,
+    "bounds_mm": [
+      -10.0,
+      320.0,
+      -91.4,
+      -90.6,
+      -102.4,
+      -101.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_KotoBackString",
+    "volume_mm3": 6.031857894892411,
+    "bounds_mm": [
+      -22.0,
+      -10.0,
+      -91.4,
+      -90.6,
+      -102.4,
+      -101.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_KotoThirdBridge",
+    "volume_mm3": 475.20000000000033,
+    "bounds_mm": [
+      -16.0,
+      -4.0,
+      -109.0,
+      -91.6,
+      -105.0,
+      -99.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_KotoSpeakingString",
+    "volume_mm3": 132.70087368763328,
+    "bounds_mm": [
+      56.0,
+      320.0,
+      -91.4,
+      -90.6,
+      -74.4,
+      -73.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_KotoBackString",
+    "volume_mm3": 39.20707631680074,
+    "bounds_mm": [
+      -22.0,
+      56.0,
+      -91.4,
+      -90.6,
+      -74.4,
+      -73.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_KotoThirdBridge",
+    "volume_mm3": 475.20000000000033,
+    "bounds_mm": [
+      50.0,
+      62.0,
+      -109.0,
+      -91.6,
+      -77.0,
+      -71.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_KotoSpeakingString",
+    "volume_mm3": 99.52565526572475,
+    "bounds_mm": [
+      122.0,
+      320.0,
+      -91.4,
+      -90.6,
+      -46.4,
+      -45.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_KotoBackString",
+    "volume_mm3": 72.38229473870891,
+    "bounds_mm": [
+      -22.0,
+      122.0,
+      -91.4,
+      -90.6,
+      -46.4,
+      -45.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_KotoThirdBridge",
+    "volume_mm3": 475.2000000000004,
+    "bounds_mm": [
+      116.0,
+      128.0,
+      -109.0,
+      -91.6,
+      -49.0,
+      -43.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_KotoSpeakingString",
+    "volume_mm3": 82.9380460547706,
+    "bounds_mm": [
+      155.0,
+      320.0,
+      -91.4,
+      -90.6,
+      -32.4,
+      -31.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_KotoBackString",
+    "volume_mm3": 88.96990394966299,
+    "bounds_mm": [
+      -22.0,
+      155.0,
+      -91.4,
+      -90.6,
+      -32.4,
+      -31.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_KotoThirdBridge",
+    "volume_mm3": 475.19999999999976,
+    "bounds_mm": [
+      149.0,
+      161.0,
+      -109.0,
+      -91.6,
+      -35.0,
+      -29.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_KotoSpeakingString",
+    "volume_mm3": 66.35043684381647,
+    "bounds_mm": [
+      188.0,
+      320.0,
+      -91.4,
+      -90.6,
+      -4.4,
+      -3.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_KotoBackString",
+    "volume_mm3": 105.55751316061712,
+    "bounds_mm": [
+      -22.0,
+      188.0,
+      -91.4,
+      -90.6,
+      -4.4,
+      -3.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_KotoThirdBridge",
+    "volume_mm3": 475.1999999999993,
+    "bounds_mm": [
+      182.0,
+      194.0,
+      -109.0,
+      -91.6,
+      -7.0,
+      -0.9999999999999973
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_KotoSpeakingString",
+    "volume_mm3": 49.76282763286238,
+    "bounds_mm": [
+      221.0,
+      320.0,
+      -91.4,
+      -90.6,
+      23.6,
+      24.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_KotoBackString",
+    "volume_mm3": 122.14512237157128,
+    "bounds_mm": [
+      -22.0,
+      221.0,
+      -91.4,
+      -90.6,
+      23.6,
+      24.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_KotoThirdBridge",
+    "volume_mm3": 475.1999999999999,
+    "bounds_mm": [
+      215.0,
+      227.0,
+      -109.0,
+      -91.6,
+      21.0,
+      27.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "SoundboxMountRib0",
+    "volume_mm3": 14609.853105562728,
+    "bounds_mm": [
+      66.35,
+      72.35,
+      -153.0,
+      -112.0,
+      -89.0,
+      39.0
+    ],
+    "solids": 2,
+    "valid": true
+  },
+  {
+    "name": "SoundboxMountRib1",
+    "volume_mm3": 14609.85310556273,
+    "bounds_mm": [
+      214.35,
+      220.35000000000002,
+      -153.0,
+      -112.0,
+      -89.0,
+      39.0
+    ],
+    "solids": 2,
+    "valid": true
+  },
+  {
+    "name": "C_NylonBridgeCrown",
+    "volume_mm3": 7.963937376850114,
+    "bounds_mm": [
+      -10.65,
+      -9.35,
+      -92.7,
+      -91.39999999999999,
+      -105.0,
+      -99.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      -105.5,
+      -98.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_LeftNylonOverEdge",
+    "volume_mm3": 24.843603095497578,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      -102.4,
+      -101.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      -105.5,
+      -98.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_RightNylonOverEdge",
+    "volume_mm3": 30.875460990390145,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      -102.4,
+      -101.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_NylonTieShuttle",
+    "volume_mm3": 325.91682072169095,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      -105.0,
+      -99.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_NylonTensionScrew",
+    "volume_mm3": 611.2282666824311,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      -106.2,
+      -97.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572482,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      -103.2,
+      -100.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_NylonBridgeCrown",
+    "volume_mm3": 7.963937376850116,
+    "bounds_mm": [
+      55.35,
+      56.65,
+      -92.7,
+      -91.39999999999999,
+      -77.0,
+      -71.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      -77.5,
+      -70.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_LeftNylonOverEdge",
+    "volume_mm3": 24.843603095497585,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      -74.4,
+      -73.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      -77.5,
+      -70.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_RightNylonOverEdge",
+    "volume_mm3": 30.875460990390145,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      -74.4,
+      -73.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_NylonTieShuttle",
+    "volume_mm3": 325.916820721691,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      -77.0,
+      -71.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_NylonTensionScrew",
+    "volume_mm3": 611.2282666824311,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      -78.2,
+      -69.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572482,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      -75.2,
+      -72.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_NylonBridgeCrown",
+    "volume_mm3": 7.96393737685011,
+    "bounds_mm": [
+      121.35,
+      122.65,
+      -92.7,
+      -91.39999999999999,
+      -49.0,
+      -43.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      -49.5,
+      -42.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_LeftNylonOverEdge",
+    "volume_mm3": 24.843603095497578,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      -46.4,
+      -45.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      -49.5,
+      -42.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_RightNylonOverEdge",
+    "volume_mm3": 30.87546099039013,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      -46.4,
+      -45.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_NylonTieShuttle",
+    "volume_mm3": 325.91682072169107,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      -49.0,
+      -43.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_NylonTensionScrew",
+    "volume_mm3": 611.2282666824311,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      -50.2,
+      -41.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572485,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      -47.2,
+      -44.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_NylonBridgeCrown",
+    "volume_mm3": 7.963937376850113,
+    "bounds_mm": [
+      154.35,
+      155.65,
+      -92.7,
+      -91.39999999999999,
+      -35.0,
+      -29.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      -35.5,
+      -28.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_LeftNylonOverEdge",
+    "volume_mm3": 24.84360309549757,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      -32.4,
+      -31.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      -35.5,
+      -28.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_RightNylonOverEdge",
+    "volume_mm3": 30.87546099039014,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      -32.4,
+      -31.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_NylonTieShuttle",
+    "volume_mm3": 325.916820721691,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      -35.0,
+      -29.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_NylonTensionScrew",
+    "volume_mm3": 611.2282666824311,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      -36.2,
+      -27.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572485,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      -33.2,
+      -30.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_NylonBridgeCrown",
+    "volume_mm3": 7.963937376850113,
+    "bounds_mm": [
+      187.35,
+      188.65,
+      -92.7,
+      -91.39999999999999,
+      -7.0,
+      -1.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      -7.5,
+      -0.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_LeftNylonOverEdge",
+    "volume_mm3": 24.84360309549757,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      -4.4,
+      -3.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      -7.5,
+      -0.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_RightNylonOverEdge",
+    "volume_mm3": 30.875460990390124,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      -4.4,
+      -3.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_NylonTieShuttle",
+    "volume_mm3": 325.91682072169107,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      -7.0,
+      -1.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_NylonTensionScrew",
+    "volume_mm3": 611.2282666824311,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      -8.2,
+      0.20000000000000018
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572485,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      -5.2,
+      -2.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_NylonBridgeCrown",
+    "volume_mm3": 7.963937376850113,
+    "bounds_mm": [
+      220.35,
+      221.65,
+      -92.7,
+      -91.39999999999999,
+      21.0,
+      27.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      20.5,
+      27.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_LeftNylonOverEdge",
+    "volume_mm3": 24.843603095497564,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      23.6,
+      24.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      20.5,
+      27.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_RightNylonOverEdge",
+    "volume_mm3": 30.87546099039011,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      23.6,
+      24.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_NylonTieShuttle",
+    "volume_mm3": 325.916820721691,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      21.0,
+      27.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_NylonTensionScrew",
+    "volume_mm3": 611.228266682431,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      19.8,
+      28.2
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572485,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      22.8,
+      25.2
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      -105.0,
+      -99.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      -77.0,
+      -71.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      -49.0,
+      -43.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      -35.0,
+      -29.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      -7.0,
+      -1.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      21.0,
+      27.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "C_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      -105.0,
+      -99.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "D_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      -77.0,
+      -71.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "E_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      -49.0,
+      -43.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "F_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      -35.0,
+      -29.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "G_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      -7.0,
+      -1.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "A_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      21.0,
+      27.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "NylonTensionerEndPlate",
+    "volume_mm3": 31274.60233043709,
+    "bounds_mm": [
+      340.0,
+      356.0,
+      -153.0,
+      -112.0,
+      -112.0,
+      64.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "NylonAnchorEndPlate",
+    "volume_mm3": 21607.355770608472,
+    "bounds_mm": [
+      -38.0,
+      -30.0,
+      -143.0,
+      -112.0,
+      -112.0,
+      64.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "NylonRightGuidePedestal",
+    "volume_mm3": 20880.0,
+    "bounds_mm": [
+      330.0,
+      340.0,
+      -109.0,
+      -97.0,
+      -112.0,
+      62.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "NylonLeftGuidePedestal",
+    "volume_mm3": 16704.0,
+    "bounds_mm": [
+      -30.0,
+      -22.0,
+      -109.0,
+      -97.0,
+      -112.0,
+      62.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_KotoSpeakingString",
+    "volume_mm3": 147.44541520848117,
+    "bounds_mm": [
+      26.666666666666686,
+      320.0,
+      -91.4,
+      -90.6,
+      -88.4,
+      -87.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_KotoBackString",
+    "volume_mm3": 24.46253479595257,
+    "bounds_mm": [
+      -22.0,
+      26.666666666666686,
+      -91.4,
+      -90.6,
+      -88.4,
+      -87.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_KotoThirdBridge",
+    "volume_mm3": 475.2000000000003,
+    "bounds_mm": [
+      20.666666666666686,
+      32.666666666666686,
+      -109.0,
+      -91.6,
+      -91.0,
+      -85.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_NylonBridgeCrown",
+    "volume_mm3": 7.963937376850116,
+    "bounds_mm": [
+      26.016666666666687,
+      27.316666666666684,
+      -92.7,
+      -91.39999999999999,
+      -91.0,
+      -85.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      -91.5,
+      -84.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_LeftNylonOverEdge",
+    "volume_mm3": 24.843603095497578,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      -88.4,
+      -87.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      -91.5,
+      -84.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_RightNylonOverEdge",
+    "volume_mm3": 30.875460990390145,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      -88.4,
+      -87.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_NylonTieShuttle",
+    "volume_mm3": 325.916820721691,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      -91.0,
+      -85.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_NylonTensionScrew",
+    "volume_mm3": 611.2282666824311,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      -92.2,
+      -83.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572482,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      -89.2,
+      -86.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      -91.0,
+      -85.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Cs_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      -91.0,
+      -85.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_KotoSpeakingString",
+    "volume_mm3": 110.58406140636083,
+    "bounds_mm": [
+      100.0,
+      320.0,
+      -91.4,
+      -90.6,
+      -60.4,
+      -59.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_KotoBackString",
+    "volume_mm3": 61.32388859807281,
+    "bounds_mm": [
+      -22.0,
+      100.0,
+      -91.4,
+      -90.6,
+      -60.4,
+      -59.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_KotoThirdBridge",
+    "volume_mm3": 475.20000000000044,
+    "bounds_mm": [
+      94.0,
+      106.0,
+      -109.0,
+      -91.6,
+      -63.0,
+      -57.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_NylonBridgeCrown",
+    "volume_mm3": 7.96393737685011,
+    "bounds_mm": [
+      99.35,
+      100.65,
+      -92.7,
+      -91.39999999999999,
+      -63.0,
+      -57.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      -63.5,
+      -56.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_LeftNylonOverEdge",
+    "volume_mm3": 24.843603095497578,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      -60.4,
+      -59.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      -63.5,
+      -56.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_RightNylonOverEdge",
+    "volume_mm3": 30.875460990390145,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      -60.4,
+      -59.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_NylonTieShuttle",
+    "volume_mm3": 325.916820721691,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      -63.0,
+      -57.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_NylonTensionScrew",
+    "volume_mm3": 611.2282666824311,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      -64.2,
+      -55.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572482,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      -61.2,
+      -58.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      -63.0,
+      -57.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Eb_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      -63.0,
+      -57.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_KotoSpeakingString",
+    "volume_mm3": 73.72270760424051,
+    "bounds_mm": [
+      173.33333333333334,
+      320.0,
+      -91.4,
+      -90.6,
+      -18.4,
+      -17.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_KotoBackString",
+    "volume_mm3": 98.18524240019306,
+    "bounds_mm": [
+      -22.0,
+      173.33333333333334,
+      -91.4,
+      -90.6,
+      -18.4,
+      -17.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_KotoThirdBridge",
+    "volume_mm3": 475.1999999999998,
+    "bounds_mm": [
+      167.33333333333334,
+      179.33333333333334,
+      -109.0,
+      -91.6,
+      -21.0,
+      -15.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_NylonBridgeCrown",
+    "volume_mm3": 7.963937376850113,
+    "bounds_mm": [
+      172.68333333333334,
+      173.98333333333335,
+      -92.7,
+      -91.39999999999999,
+      -21.0,
+      -15.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      -21.5,
+      -14.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_LeftNylonOverEdge",
+    "volume_mm3": 24.843603095497585,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      -18.4,
+      -17.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      -21.5,
+      -14.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_RightNylonOverEdge",
+    "volume_mm3": 30.875460990390145,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      -18.4,
+      -17.6
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_NylonTieShuttle",
+    "volume_mm3": 325.916820721691,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      -21.0,
+      -15.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_NylonTensionScrew",
+    "volume_mm3": 611.228266682431,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      -22.2,
+      -13.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572482,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      -19.2,
+      -16.8
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      -21.0,
+      -15.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Fs_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      -21.0,
+      -15.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_KotoSpeakingString",
+    "volume_mm3": 55.292030703180394,
+    "bounds_mm": [
+      210.0,
+      320.0,
+      -91.4,
+      -90.6,
+      9.6,
+      10.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_KotoBackString",
+    "volume_mm3": 116.61591930125317,
+    "bounds_mm": [
+      -22.0,
+      210.0,
+      -91.4,
+      -90.6,
+      9.6,
+      10.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_KotoThirdBridge",
+    "volume_mm3": 475.1999999999993,
+    "bounds_mm": [
+      204.0,
+      216.0,
+      -109.0,
+      -91.6,
+      7.0,
+      13.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_NylonBridgeCrown",
+    "volume_mm3": 7.963937376850113,
+    "bounds_mm": [
+      209.35,
+      210.65,
+      -92.7,
+      -91.39999999999999,
+      7.0,
+      13.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      6.5,
+      13.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_LeftNylonOverEdge",
+    "volume_mm3": 24.843603095497578,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      9.6,
+      10.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      6.5,
+      13.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_RightNylonOverEdge",
+    "volume_mm3": 30.875460990390145,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      9.6,
+      10.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_NylonTieShuttle",
+    "volume_mm3": 325.91682072169107,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      7.0,
+      13.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_NylonTensionScrew",
+    "volume_mm3": 611.228266682431,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      5.8,
+      14.2
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572482,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      8.8,
+      11.2
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      7.0,
+      13.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Ab_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      7.0,
+      13.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_KotoSpeakingString",
+    "volume_mm3": 41.46902302738531,
+    "bounds_mm": [
+      237.5,
+      320.0,
+      -91.4,
+      -90.6,
+      37.6,
+      38.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_KotoBackString",
+    "volume_mm3": 130.4389269770483,
+    "bounds_mm": [
+      -22.0,
+      237.5,
+      -91.4,
+      -90.6,
+      37.6,
+      38.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_KotoThirdBridge",
+    "volume_mm3": 475.1999999999992,
+    "bounds_mm": [
+      231.5,
+      243.5,
+      -109.0,
+      -91.6,
+      35.0,
+      41.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_NylonBridgeCrown",
+    "volume_mm3": 7.963937376850113,
+    "bounds_mm": [
+      236.85,
+      238.15,
+      -92.7,
+      -91.39999999999999,
+      35.0,
+      41.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      34.5,
+      41.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_LeftNylonOverEdge",
+    "volume_mm3": 24.843603095497578,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      37.6,
+      38.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      34.5,
+      41.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_RightNylonOverEdge",
+    "volume_mm3": 30.875460990390145,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      37.6,
+      38.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_NylonTieShuttle",
+    "volume_mm3": 325.916820721691,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      35.0,
+      41.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_NylonTensionScrew",
+    "volume_mm3": 611.2282666824311,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      33.8,
+      42.2
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572482,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      36.8,
+      39.2
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      35.0,
+      41.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Bb_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      35.0,
+      41.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_KotoSpeakingString",
+    "volume_mm3": 36.86135380212026,
+    "bounds_mm": [
+      246.66666666666669,
+      320.0,
+      -91.4,
+      -90.6,
+      51.6,
+      52.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_KotoBackString",
+    "volume_mm3": 135.04659620231337,
+    "bounds_mm": [
+      -22.0,
+      246.66666666666669,
+      -91.4,
+      -90.6,
+      51.6,
+      52.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_KotoThirdBridge",
+    "volume_mm3": 475.19999999999914,
+    "bounds_mm": [
+      240.66666666666669,
+      252.66666666666669,
+      -109.0,
+      -91.6,
+      49.0,
+      55.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_NylonBridgeCrown",
+    "volume_mm3": 7.963937376850113,
+    "bounds_mm": [
+      246.01666666666668,
+      247.3166666666667,
+      -92.7,
+      -91.39999999999999,
+      49.0,
+      55.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_LeftNylonGuide",
+    "volume_mm3": 689.6424193160315,
+    "bounds_mm": [
+      -35.6,
+      -24.4,
+      -102.6,
+      -91.4,
+      48.5,
+      55.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_LeftNylonOverEdge",
+    "volume_mm3": 24.843603095497578,
+    "bounds_mm": [
+      -36.92731008187132,
+      -22.0,
+      -129.0,
+      -90.07268991812867,
+      51.6,
+      52.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_RightNylonGuide",
+    "volume_mm3": 689.6424193160312,
+    "bounds_mm": [
+      334.4,
+      345.6,
+      -102.6,
+      -91.4,
+      48.5,
+      55.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_RightNylonOverEdge",
+    "volume_mm3": 30.875460990390145,
+    "bounds_mm": [
+      320.0,
+      346.9273100818713,
+      -129.0,
+      -90.07268991812867,
+      51.6,
+      52.4
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_NylonTieShuttle",
+    "volume_mm3": 325.9168207216909,
+    "bounds_mm": [
+      342.0,
+      354.0,
+      -133.0,
+      -127.0,
+      49.0,
+      55.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_NylonTensionScrew",
+    "volume_mm3": 611.2282666824311,
+    "bounds_mm": [
+      346.8,
+      355.2,
+      -157.0,
+      -122.0,
+      47.8,
+      56.2
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_NylonTieKnotEnvelope",
+    "volume_mm3": 9.952565526572482,
+    "bounds_mm": [
+      -37.1,
+      -34.9,
+      -131.2,
+      -128.8,
+      50.8,
+      53.2
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_AnchorNylonSaddle",
+    "volume_mm3": 3.015928947446203,
+    "bounds_mm": [
+      -22.4,
+      -21.6,
+      -92.20000000000002,
+      -91.4,
+      49.0,
+      55.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "B_TunerNylonSaddle",
+    "volume_mm3": 3.015928947446178,
+    "bounds_mm": [
+      319.6,
+      320.4,
+      -92.20000000000002,
+      -91.4,
+      49.0,
+      55.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabBaseTransom0",
+    "volume_mm3": 4244.2916749998085,
+    "bounds_mm": [
+      -2.65,
+      5.35,
+      -118.0,
+      -110.0,
+      -151.0,
+      42.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabBaseTransom1",
+    "volume_mm3": 4244.291674999824,
+    "bounds_mm": [
+      310.35,
+      318.35,
+      -118.0,
+      -110.0,
+      -151.0,
+      42.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabBaseLongeron0",
+    "volume_mm3": 7608.93740699448,
+    "bounds_mm": [
+      -17.0,
+      329.0,
+      -122.0,
+      -114.0,
+      -152.0,
+      -144.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabBaseLongeron1",
+    "volume_mm3": 7608.937406994472,
+    "bounds_mm": [
+      -17.0,
+      329.0,
+      -122.0,
+      -114.0,
+      34.0,
+      42.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabBaseClamp00",
+    "volume_mm3": 558.4677931699725,
+    "bounds_mm": [
+      -4.65,
+      7.35,
+      -123.0,
+      -112.99999999999993,
+      -154.0,
+      -142.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabBaseClamp01",
+    "volume_mm3": 558.4677927490028,
+    "bounds_mm": [
+      -4.65,
+      7.35,
+      -123.0,
+      -112.99999999999993,
+      32.0,
+      44.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabBaseClamp10",
+    "volume_mm3": 558.4677927502191,
+    "bounds_mm": [
+      308.35,
+      320.35,
+      -123.0,
+      -112.99999999999993,
+      -154.0,
+      -142.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabBaseClamp11",
+    "volume_mm3": 558.4677927488322,
+    "bounds_mm": [
+      308.35,
+      320.35,
+      -123.0,
+      -112.99999999999993,
+      32.0,
+      44.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabRearFootStem0",
+    "volume_mm3": 1102.6990214100174,
+    "bounds_mm": [
+      -11.0,
+      -5.0,
+      -157.0,
+      -118.0,
+      -151.0,
+      -145.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabRearFootPad0",
+    "volume_mm3": 678.5840131753952,
+    "bounds_mm": [
+      -14.0,
+      -2.0,
+      -163.0,
+      -157.0,
+      -154.0,
+      -142.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabRearFootStem1",
+    "volume_mm3": 1102.699021410018,
+    "bounds_mm": [
+      317.0,
+      323.0,
+      -157.0,
+      -118.0,
+      -151.0,
+      -145.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "LabRearFootPad1",
+    "volume_mm3": 678.5840131753954,
+    "bounds_mm": [
+      314.0,
+      326.0,
+      -163.0,
+      -157.0,
+      -154.0,
+      -142.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Common5mmInputShaft",
+    "volume_mm3": 6283.185307179586,
+    "bounds_mm": [
+      10.0,
+      330.0,
+      62.5,
+      67.5,
+      -27.5,
+      -22.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "InputBearingBlock_16",
+    "volume_mm3": 301.59289474462014,
+    "bounds_mm": [
+      16.0,
+      20.0,
+      58.0,
+      72.0,
+      -32.0,
+      -18.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Input105Bearing_16",
+    "volume_mm3": 235.61944901923448,
+    "bounds_mm": [
+      16.0,
+      20.0,
+      60.0,
+      70.0,
+      -30.0,
+      -20.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "RearStay_16",
+    "volume_mm3": 2733.1856086231182,
+    "bounds_mm": [
+      13.0,
+      19.0,
+      -109.0,
+      65.0,
+      -118.0,
+      -112.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "InputBearingShelf_16",
+    "volume_mm3": 1413.7166941154073,
+    "bounds_mm": [
+      13.0,
+      19.0,
+      62.0,
+      68.0,
+      -115.0,
+      -25.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "StayFoot_16",
+    "volume_mm3": 476.76239169337657,
+    "bounds_mm": [
+      9.0,
+      23.0,
+      -112.0,
+      -109.0,
+      -121.0,
+      -109.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "InputBearingBlock_112",
+    "volume_mm3": 301.59289474462014,
+    "bounds_mm": [
+      112.0,
+      116.0,
+      58.0,
+      72.0,
+      -32.0,
+      -18.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Input105Bearing_112",
+    "volume_mm3": 235.61944901923448,
+    "bounds_mm": [
+      112.0,
+      116.0,
+      60.0,
+      70.0,
+      -30.0,
+      -20.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "RearStay_112",
+    "volume_mm3": 2733.185608623122,
+    "bounds_mm": [
+      109.0,
+      115.0,
+      -109.0,
+      65.0,
+      -118.0,
+      -112.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "InputBearingShelf_112",
+    "volume_mm3": 1413.7166941154069,
+    "bounds_mm": [
+      109.0,
+      115.0,
+      62.0,
+      68.0,
+      -115.0,
+      -25.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "StayFoot_112",
+    "volume_mm3": 476.76239169337657,
+    "bounds_mm": [
+      105.0,
+      119.0,
+      -112.0,
+      -109.0,
+      -121.0,
+      -109.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "InputBearingBlock_208",
+    "volume_mm3": 301.59289474462014,
+    "bounds_mm": [
+      208.0,
+      212.0,
+      58.0,
+      72.0,
+      -32.0,
+      -18.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Input105Bearing_208",
+    "volume_mm3": 235.61944901923448,
+    "bounds_mm": [
+      208.0,
+      212.0,
+      60.0,
+      70.0,
+      -30.0,
+      -20.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "RearStay_208",
+    "volume_mm3": 2733.185608623122,
+    "bounds_mm": [
+      205.0,
+      211.0,
+      -109.0,
+      65.0,
+      -118.0,
+      -112.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "InputBearingShelf_208",
+    "volume_mm3": 1413.7166941154055,
+    "bounds_mm": [
+      205.0,
+      211.0,
+      62.0,
+      68.0,
+      -115.0,
+      -25.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "StayFoot_208",
+    "volume_mm3": 476.76239169337657,
+    "bounds_mm": [
+      201.0,
+      215.0,
+      -112.0,
+      -109.0,
+      -121.0,
+      -109.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "InputBearingBlock_320",
+    "volume_mm3": 301.59289474462014,
+    "bounds_mm": [
+      320.0,
+      324.0,
+      58.0,
+      72.0,
+      -32.0,
+      -18.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "Input105Bearing_320",
+    "volume_mm3": 235.61944901923448,
+    "bounds_mm": [
+      320.0,
+      324.0,
+      60.0,
+      70.0,
+      -30.0,
+      -20.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "RearStay_320",
+    "volume_mm3": 2733.1856086231182,
+    "bounds_mm": [
+      317.0,
+      323.0,
+      -109.0,
+      65.0,
+      -118.0,
+      -112.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "InputBearingShelf_320",
+    "volume_mm3": 1413.7166941154028,
+    "bounds_mm": [
+      317.0,
+      323.0,
+      62.0,
+      68.0,
+      -115.0,
+      -25.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "StayFoot_320",
+    "volume_mm3": 476.7623916933766,
+    "bounds_mm": [
+      313.0,
+      327.0,
+      -112.0,
+      -109.0,
+      -121.0,
+      -109.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "RearBackbone",
+    "volume_mm3": 4900.884539600082,
+    "bounds_mm": [
+      12.0,
+      324.0,
+      -109.0,
+      -103.0,
+      -118.0,
+      -112.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "HandInputWheel",
+    "volume_mm3": 5928.185337323941,
+    "bounds_mm": [
+      330.0,
+      334.0,
+      40.0,
+      90.0,
+      -50.0,
+      0.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "HandleJournal",
+    "volume_mm3": 175.9291886010283,
+    "bounds_mm": [
+      334.0,
+      348.0,
+      83.0,
+      87.0,
+      -27.0,
+      -23.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "FreeTurningHandGrip",
+    "volume_mm3": 711.5393201115523,
+    "bounds_mm": [
+      337.0,
+      348.0,
+      80.0,
+      90.0,
+      -30.0,
+      -20.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_Carrier0",
+    "volume_mm3": 2309.493668599983,
+    "bounds_mm": [
+      22.999999999999996,
+      26.0,
+      13.5,
+      69.5,
+      -106.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_683Bearing_0_0",
+    "volume_mm3": 94.24777960769383,
+    "bounds_mm": [
+      23.0,
+      26.0,
+      14.5,
+      21.5,
+      -105.5,
+      -98.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_BearingRetainer_0_0",
+    "volume_mm3": 61.95220712879073,
+    "bounds_mm": [
+      22.0,
+      23.0,
+      13.0,
+      23.0,
+      -107.0,
+      -97.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_683Bearing_0_1",
+    "volume_mm3": 94.2477796076938,
+    "bounds_mm": [
+      23.0,
+      26.0,
+      52.12197210361568,
+      59.12197210361568,
+      -43.864003149395586,
+      -36.864003149395586
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_BearingRetainer_0_1",
+    "volume_mm3": 61.95220712879072,
+    "bounds_mm": [
+      22.0,
+      23.0,
+      50.62197210361568,
+      60.62197210361568,
+      -45.364003149395586,
+      -35.364003149395586
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_Carrier1",
+    "volume_mm3": 2309.493668599983,
+    "bounds_mm": [
+      34.0,
+      37.0,
+      13.5,
+      69.5,
+      -106.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_683Bearing_1_0",
+    "volume_mm3": 94.24777960769383,
+    "bounds_mm": [
+      34.0,
+      37.0,
+      14.5,
+      21.5,
+      -105.5,
+      -98.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_BearingRetainer_1_0",
+    "volume_mm3": 61.95220712879073,
+    "bounds_mm": [
+      33.0,
+      34.0,
+      13.0,
+      23.0,
+      -107.0,
+      -97.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_683Bearing_1_1",
+    "volume_mm3": 94.2477796076938,
+    "bounds_mm": [
+      34.0,
+      37.0,
+      52.12197210361568,
+      59.12197210361568,
+      -43.864003149395586,
+      -36.864003149395586
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_BearingRetainer_1_1",
+    "volume_mm3": 61.95220712879072,
+    "bounds_mm": [
+      33.0,
+      34.0,
+      50.62197210361568,
+      60.62197210361568,
+      -45.364003149395586,
+      -35.364003149395586
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_3mmShaft_0",
+    "volume_mm3": 183.78317023500287,
+    "bounds_mm": [
+      21.0,
+      47.0,
+      16.5,
+      19.5,
+      -103.5,
+      -100.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_DriverGear",
+    "volume_mm3": 928.4120799708995,
+    "bounds_mm": [
+      27.99999999999995,
+      32.0,
+      55.50010122463454,
+      74.49989877536547,
+      -34.49989877536546,
+      -15.50010122463454
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_OutputGear",
+    "volume_mm3": 978.6775624283355,
+    "bounds_mm": [
+      27.999999999999957,
+      32.0,
+      46.130766781385695,
+      65.11317742584566,
+      -49.85520847162557,
+      -30.872797827165602
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_CrankShaftOnePiece",
+    "volume_mm3": 1017.8760197630929,
+    "bounds_mm": [
+      21.0,
+      39.0,
+      43.62197210361568,
+      67.62197210361569,
+      -52.364003149395586,
+      -28.364003149395586
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      38.0,
+      45.0,
+      46.054854636303844,
+      49.054854636303844,
+      -35.95455175619569,
+      -32.95455175619569
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_Rocker",
+    "volume_mm3": 258.83185307179576,
+    "bounds_mm": [
+      37.0,
+      39.0,
+      3.073933825823792,
+      21.5,
+      -105.5,
+      -90.41019086854664
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_RockerPin",
+    "volume_mm3": 49.48008429403924,
+    "bounds_mm": [
+      38.0,
+      45.0,
+      5.073933825823792,
+      8.073933825823792,
+      -95.41019086854664,
+      -92.41019086854664
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_POMCoupler",
+    "volume_mm3": 573.7863112873105,
+    "bounds_mm": [
+      40.0,
+      42.0,
+      4.573933825823792,
+      49.554854636303844,
+      -95.91019086854664,
+      -32.45455175619569
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962673,
+    "bounds_mm": [
+      42.2,
+      42.7,
+      44.75485463630385,
+      50.35485463630384,
+      -37.25455175619569,
+      -31.65455175619569
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962671,
+    "bounds_mm": [
+      42.2,
+      42.7,
+      3.773933825823792,
+      9.37393382582379,
+      -96.71019086854663,
+      -91.11019086854664
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_PendulumHub",
+    "volume_mm3": 285.8849314766711,
+    "bounds_mm": [
+      42.0,
+      46.0,
+      13.0,
+      23.0,
+      -107.0,
+      -97.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_TubeArm",
+    "volume_mm3": 978.2919523278615,
+    "bounds_mm": [
+      42.0,
+      46.0,
+      -89.8,
+      14.0,
+      -104.0,
+      -99.99999999999997
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_TipSocket",
+    "volume_mm3": 60.28716302238816,
+    "bounds_mm": [
+      41.0,
+      47.0,
+      -89.0,
+      -85.0,
+      -104.99999999999997,
+      -98.99999999999997
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_PETPick",
+    "volume_mm3": 10.237499999999992,
+    "bounds_mm": [
+      43.75,
+      44.25,
+      -90.85,
+      -85.0,
+      -104.99999999999997,
+      -98.99999999999997
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V01_RearPivotStay",
+    "volume_mm3": 1168.8244697980915,
+    "bounds_mm": [
+      23.0,
+      27.0,
+      -106.03225386943652,
+      18.032253869436534,
+      -103.99973990506425,
+      -98.00026009493575
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_Carrier0",
+    "volume_mm3": 2206.3133606213914,
+    "bounds_mm": [
+      47.0,
+      50.0,
+      1.3888888888888857,
+      69.5,
+      -92.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_683Bearing_0_0",
+    "volume_mm3": 94.24777960769383,
+    "bounds_mm": [
+      47.0,
+      50.0,
+      2.3888888888888857,
+      9.388888888888886,
+      -91.5,
+      -84.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_BearingRetainer_0_0",
+    "volume_mm3": 61.95220712879072,
+    "bounds_mm": [
+      46.0,
+      47.0,
+      0.8888888888888857,
+      10.888888888888886,
+      -93.0,
+      -83.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_683Bearing_0_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      47.0,
+      50.0,
+      49.86791060173841,
+      56.86791060173841,
+      -40.89735843762091,
+      -33.89735843762091
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_BearingRetainer_0_1",
+    "volume_mm3": 61.952207128790704,
+    "bounds_mm": [
+      46.0,
+      47.0,
+      48.36791060173841,
+      58.36791060173841,
+      -42.39735843762091,
+      -32.39735843762091
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_Carrier1",
+    "volume_mm3": 2206.3133606213914,
+    "bounds_mm": [
+      58.0,
+      61.0,
+      1.3888888888888857,
+      69.5,
+      -92.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_683Bearing_1_0",
+    "volume_mm3": 94.24777960769383,
+    "bounds_mm": [
+      58.0,
+      61.0,
+      2.3888888888888857,
+      9.388888888888886,
+      -91.5,
+      -84.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_BearingRetainer_1_0",
+    "volume_mm3": 61.95220712879072,
+    "bounds_mm": [
+      57.0,
+      58.0,
+      0.8888888888888857,
+      10.888888888888886,
+      -93.0,
+      -83.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_683Bearing_1_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      58.0,
+      61.0,
+      49.86791060173841,
+      56.86791060173841,
+      -40.89735843762091,
+      -33.89735843762091
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_BearingRetainer_1_1",
+    "volume_mm3": 61.952207128790704,
+    "bounds_mm": [
+      57.0,
+      58.0,
+      48.36791060173841,
+      58.36791060173841,
+      -42.39735843762091,
+      -32.39735843762091
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_3mmShaft_0",
+    "volume_mm3": 183.7831702350029,
+    "bounds_mm": [
+      45.0,
+      71.0,
+      4.388888888888886,
+      7.388888888888886,
+      -89.5,
+      -86.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_DriverGear",
+    "volume_mm3": 928.4120799709004,
+    "bounds_mm": [
+      51.99999999999992,
+      56.0,
+      55.5060265206389,
+      74.4939734793611,
+      -34.4939734793611,
+      -15.506026520638896
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_OutputGear",
+    "volume_mm3": 765.6312774974738,
+    "bounds_mm": [
+      51.99999999999967,
+      56.0,
+      44.876318968856964,
+      61.85950223461985,
+      -45.888950070502354,
+      -28.905766804739464
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_CrankShaftOnePiece",
+    "volume_mm3": 1017.876019763093,
+    "bounds_mm": [
+      45.0,
+      63.0,
+      41.36791060173841,
+      65.3679106017384,
+      -49.39735843762091,
+      -25.39735843762091
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      62.0,
+      69.0,
+      45.20236040395355,
+      48.20236040395355,
+      -31.44280006298796,
+      -28.44280006298796
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_Rocker",
+    "volume_mm3": 258.8318530717958,
+    "bounds_mm": [
+      61.0,
+      63.0,
+      -7.116992284206649,
+      9.388888888888886,
+      -91.5,
+      -74.22195431402507
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_RockerPin",
+    "volume_mm3": 49.48008429403924,
+    "bounds_mm": [
+      62.0,
+      69.0,
+      -5.116992284206649,
+      -2.116992284206649,
+      -79.22195431402507,
+      -76.22195431402507
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_POMCoupler",
+    "volume_mm3": 551.2143681825453,
+    "bounds_mm": [
+      64.0,
+      66.0,
+      -5.616992284206649,
+      48.70236040395355,
+      -79.72195431402507,
+      -27.94280006298796
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_PinRetainingWasher_0",
+    "volume_mm3": 11.18014285596268,
+    "bounds_mm": [
+      66.2,
+      66.7,
+      43.90236040395355,
+      49.502360403953546,
+      -32.74280006298796,
+      -27.14280006298796
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962679,
+    "bounds_mm": [
+      66.2,
+      66.7,
+      -6.416992284206649,
+      -0.8169922842066493,
+      -80.52195431402507,
+      -74.92195431402507
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_PendulumHub",
+    "volume_mm3": 285.8849314766711,
+    "bounds_mm": [
+      66.0,
+      70.0,
+      0.8888888888888857,
+      10.888888888888886,
+      -93.0,
+      -83.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_TubeArm",
+    "volume_mm3": 864.1474192474323,
+    "bounds_mm": [
+      66.0,
+      70.0,
+      -89.8,
+      1.8888888888888862,
+      -90.0,
+      -85.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_TipSocket",
+    "volume_mm3": 60.28716302238815,
+    "bounds_mm": [
+      65.0,
+      71.0,
+      -89.0,
+      -85.0,
+      -90.99999999999999,
+      -84.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_PETPick",
+    "volume_mm3": 10.237499999999988,
+    "bounds_mm": [
+      67.75,
+      68.25,
+      -90.85,
+      -85.0,
+      -90.99999999999999,
+      -84.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V02_RearPivotStay",
+    "volume_mm3": 1060.5753961911732,
+    "bounds_mm": [
+      47.0,
+      51.0,
+      -106.21327542753754,
+      6.102164316426423,
+      -101.98859588453982,
+      -86.01140411546018
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_Carrier0",
+    "volume_mm3": 2154.371924397325,
+    "bounds_mm": [
+      71.0,
+      74.00000000000001,
+      -8.299999999999997,
+      69.5,
+      -78.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_683Bearing_0_0",
+    "volume_mm3": 94.24777960769383,
+    "bounds_mm": [
+      71.0,
+      74.0,
+      -7.299999999999997,
+      -0.29999999999999716,
+      -77.5,
+      -70.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_BearingRetainer_0_0",
+    "volume_mm3": 61.95220712879072,
+    "bounds_mm": [
+      70.0,
+      71.0,
+      -8.799999999999997,
+      1.2000000000000028,
+      -79.0,
+      -69.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_683Bearing_0_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      71.0,
+      74.0,
+      46.83841243939385,
+      53.83841243939385,
+      -38.942119047524734,
+      -31.942119047524734
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_BearingRetainer_0_1",
+    "volume_mm3": 61.952207128790704,
+    "bounds_mm": [
+      70.0,
+      71.0,
+      45.33841243939385,
+      55.33841243939385,
+      -40.442119047524734,
+      -30.442119047524734
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_Carrier1",
+    "volume_mm3": 2154.371924397325,
+    "bounds_mm": [
+      82.0,
+      85.00000000000001,
+      -8.299999999999997,
+      69.5,
+      -78.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_683Bearing_1_0",
+    "volume_mm3": 94.24777960769383,
+    "bounds_mm": [
+      82.0,
+      85.0,
+      -7.299999999999997,
+      -0.29999999999999716,
+      -77.5,
+      -70.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_BearingRetainer_1_0",
+    "volume_mm3": 61.95220712879072,
+    "bounds_mm": [
+      81.0,
+      82.0,
+      -8.799999999999997,
+      1.2000000000000028,
+      -79.0,
+      -69.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_683Bearing_1_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      82.0,
+      85.0,
+      46.83841243939385,
+      53.83841243939385,
+      -38.942119047524734,
+      -31.942119047524734
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_BearingRetainer_1_1",
+    "volume_mm3": 61.952207128790704,
+    "bounds_mm": [
+      81.0,
+      82.0,
+      45.33841243939385,
+      55.33841243939385,
+      -40.442119047524734,
+      -30.442119047524734
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_3mmShaft_0",
+    "volume_mm3": 183.7831702350029,
+    "bounds_mm": [
+      69.0,
+      95.0,
+      -5.299999999999997,
+      -2.299999999999997,
+      -75.5,
+      -72.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_DriverGear",
+    "volume_mm3": 1166.5635128461288,
+    "bounds_mm": [
+      76.0,
+      80.00000000000004,
+      54.5000609865133,
+      75.49993901348671,
+      -35.4999390134867,
+      -14.500060986513297
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_OutputGear",
+    "volume_mm3": 765.6312774974747,
+    "bounds_mm": [
+      76.0,
+      80.00000000000016,
+      41.84759841037086,
+      58.82922646841684,
+      -43.93293307654773,
+      -26.951305018501742
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_CrankShaftOnePiece",
+    "volume_mm3": 1017.8760197630929,
+    "bounds_mm": [
+      69.0,
+      87.0,
+      38.33841243939385,
+      62.33841243939385,
+      -47.442119047524734,
+      -23.442119047524734
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      86.0,
+      93.0,
+      43.80615248039296,
+      46.80615248039296,
+      -28.30057059223986,
+      -25.30057059223986
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_Rocker",
+    "volume_mm3": 258.8318530717958,
+    "bounds_mm": [
+      85.0,
+      87.0,
+      -14.556499665019746,
+      -0.29999999999999716,
+      -77.5,
+      -58.52739741695365
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_RockerPin",
+    "volume_mm3": 49.48008429403924,
+    "bounds_mm": [
+      86.0,
+      93.0,
+      -12.556499665019746,
+      -9.556499665019746,
+      -63.52739741695365,
+      -60.52739741695365
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_POMCoupler",
+    "volume_mm3": 527.8243130050425,
+    "bounds_mm": [
+      88.0,
+      90.0,
+      -13.056499665019746,
+      47.30615248039296,
+      -64.02739741695365,
+      -24.80057059223986
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962673,
+    "bounds_mm": [
+      90.2,
+      90.7,
+      42.50615248039296,
+      48.10615248039296,
+      -29.600570592239862,
+      -24.00057059223986
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_PinRetainingWasher_1",
+    "volume_mm3": 11.18014285596267,
+    "bounds_mm": [
+      90.2,
+      90.7,
+      -13.856499665019747,
+      -8.256499665019746,
+      -64.82739741695364,
+      -59.22739741695365
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_PendulumHub",
+    "volume_mm3": 285.8849314766711,
+    "bounds_mm": [
+      90.0,
+      94.0,
+      -8.799999999999997,
+      1.2000000000000028,
+      -79.0,
+      -69.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_TubeArm",
+    "volume_mm3": 772.8317927830888,
+    "bounds_mm": [
+      90.0,
+      94.0,
+      -89.8,
+      -7.799999999999997,
+      -76.0,
+      -71.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_TipSocket",
+    "volume_mm3": 60.28716302238808,
+    "bounds_mm": [
+      89.0,
+      95.0,
+      -89.0,
+      -85.0,
+      -76.99999999999999,
+      -70.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_PETPick",
+    "volume_mm3": 10.237499999999992,
+    "bounds_mm": [
+      91.75,
+      92.25,
+      -90.85,
+      -85.0,
+      -76.99999999999999,
+      -70.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V03_RearPivotStay",
+    "volume_mm3": 993.893667687995,
+    "bounds_mm": [
+      71.0,
+      75.0,
+      -106.49309948326771,
+      -3.3069005167322647,
+      -101.93826027653695,
+      -72.06173972346305
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_Carrier0",
+    "volume_mm3": 2314.194773481829,
+    "bounds_mm": [
+      94.99999999999999,
+      98.00000000000003,
+      -22.83333333333333,
+      69.5,
+      -64.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_683Bearing_0_0",
+    "volume_mm3": 94.24777960769381,
+    "bounds_mm": [
+      95.0,
+      98.0,
+      -21.83333333333333,
+      -14.833333333333329,
+      -63.5,
+      -56.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_BearingRetainer_0_0",
+    "volume_mm3": 61.952207128790704,
+    "bounds_mm": [
+      94.0,
+      95.0,
+      -23.33333333333333,
+      -13.333333333333329,
+      -65.0,
+      -55.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_683Bearing_0_1",
+    "volume_mm3": 94.2477796076938,
+    "bounds_mm": [
+      95.0,
+      98.0,
+      43.060357887852774,
+      50.060357887852774,
+      -36.244649687101834,
+      -29.244649687101834
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_BearingRetainer_0_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      94.0,
+      95.0,
+      41.560357887852774,
+      51.560357887852774,
+      -37.744649687101834,
+      -27.744649687101834
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_Carrier1",
+    "volume_mm3": 2314.19477348183,
+    "bounds_mm": [
+      106.0,
+      109.00000000000001,
+      -22.83333333333333,
+      69.5,
+      -64.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_683Bearing_1_0",
+    "volume_mm3": 94.24777960769381,
+    "bounds_mm": [
+      106.0,
+      109.0,
+      -21.83333333333333,
+      -14.833333333333329,
+      -63.5,
+      -56.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_BearingRetainer_1_0",
+    "volume_mm3": 61.952207128790704,
+    "bounds_mm": [
+      105.0,
+      106.0,
+      -23.33333333333333,
+      -13.333333333333329,
+      -65.0,
+      -55.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_683Bearing_1_1",
+    "volume_mm3": 94.2477796076938,
+    "bounds_mm": [
+      106.0,
+      109.0,
+      43.060357887852774,
+      50.060357887852774,
+      -36.244649687101834,
+      -29.244649687101834
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_BearingRetainer_1_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      105.0,
+      106.0,
+      41.560357887852774,
+      51.560357887852774,
+      -37.744649687101834,
+      -27.744649687101834
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_3mmShaft_0",
+    "volume_mm3": 183.78317023500287,
+    "bounds_mm": [
+      93.0,
+      119.0,
+      -19.83333333333333,
+      -16.83333333333333,
+      -61.5,
+      -58.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_DriverGear",
+    "volume_mm3": 1718.3990880493568,
+    "bounds_mm": [
+      100.0,
+      104.00000000000017,
+      52.50000031333818,
+      77.49999968666182,
+      -37.49999968666182,
+      -12.500000313338177
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_OutputGear",
+    "volume_mm3": 765.6312774974739,
+    "bounds_mm": [
+      99.99999999999996,
+      104.0,
+      38.0820094254661,
+      55.03870635023945,
+      -41.22299814948852,
+      -24.266301224715153
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_CrankShaftOnePiece",
+    "volume_mm3": 1017.8760197630929,
+    "bounds_mm": [
+      93.0,
+      111.0,
+      34.560357887852774,
+      58.560357887852774,
+      -44.744649687101834,
+      -20.744649687101834
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      110.0,
+      117.0,
+      41.998146752177014,
+      44.998146752177014,
+      -24.725045548244832,
+      -21.725045548244832
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_Rocker",
+    "volume_mm3": 258.8318530717959,
+    "bounds_mm": [
+      109.0,
+      111.0,
+      -26.34066127805724,
+      -14.833333333333329,
+      -63.5,
+      -43.245416083531296
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_RockerPin",
+    "volume_mm3": 49.48008429403924,
+    "bounds_mm": [
+      110.0,
+      117.0,
+      -24.34066127805724,
+      -21.34066127805724,
+      -48.245416083531296,
+      -45.245416083531296
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_POMCoupler",
+    "volume_mm3": 559.1792312523033,
+    "bounds_mm": [
+      112.0,
+      114.0,
+      -24.84066127805724,
+      45.498146752177014,
+      -48.745416083531296,
+      -21.225045548244832
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962673,
+    "bounds_mm": [
+      114.2,
+      114.7,
+      40.69814675217702,
+      46.29814675217701,
+      -26.025045548244833,
+      -20.42504554824483
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962671,
+    "bounds_mm": [
+      114.2,
+      114.7,
+      -25.64066127805724,
+      -20.04066127805724,
+      -49.54541608353129,
+      -43.9454160835313
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_PendulumHub",
+    "volume_mm3": 285.88493147667117,
+    "bounds_mm": [
+      114.0,
+      118.0,
+      -23.33333333333333,
+      -13.333333333333329,
+      -65.0,
+      -55.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_TubeArm",
+    "volume_mm3": 635.858353086574,
+    "bounds_mm": [
+      114.0,
+      118.0,
+      -89.8,
+      -22.33333333333333,
+      -62.0,
+      -57.999999999999986
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_TipSocket",
+    "volume_mm3": 60.28716302238807,
+    "bounds_mm": [
+      113.0,
+      119.0,
+      -89.0,
+      -85.0,
+      -62.999999999999986,
+      -56.999999999999986
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_PETPick",
+    "volume_mm3": 10.237499999999992,
+    "bounds_mm": [
+      115.75,
+      116.25,
+      -90.85,
+      -85.0,
+      -62.999999999999986,
+      -56.999999999999986
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V04_RearPivotStay",
+    "volume_mm3": 908.1811329215308,
+    "bounds_mm": [
+      95.0,
+      99.0,
+      -106.83021129764727,
+      -17.50312203568606,
+      -101.8195464273436,
+      -58.180453572656404
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_Carrier0",
+    "volume_mm3": 2384.852595670447,
+    "bounds_mm": [
+      118.99999999999999,
+      122.0,
+      -30.10000000000001,
+      69.5,
+      -50.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_683Bearing_0_0",
+    "volume_mm3": 94.24777960769381,
+    "bounds_mm": [
+      119.0,
+      122.0,
+      -29.10000000000001,
+      -22.10000000000001,
+      -49.5,
+      -42.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_BearingRetainer_0_0",
+    "volume_mm3": 61.952207128790704,
+    "bounds_mm": [
+      118.0,
+      119.0,
+      -30.60000000000001,
+      -20.60000000000001,
+      -51.0,
+      -41.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_683Bearing_0_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      119.0,
+      122.0,
+      45.9132276089532,
+      52.9132276089532,
+      -32.11282803765985,
+      -25.112828037659852
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_BearingRetainer_0_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      118.0,
+      119.0,
+      44.4132276089532,
+      54.4132276089532,
+      -33.61282803765985,
+      -23.612828037659852
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_Carrier1",
+    "volume_mm3": 2384.8525956704457,
+    "bounds_mm": [
+      130.0,
+      133.0,
+      -30.10000000000001,
+      69.5,
+      -50.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_683Bearing_1_0",
+    "volume_mm3": 94.24777960769381,
+    "bounds_mm": [
+      130.0,
+      133.0,
+      -29.10000000000001,
+      -22.10000000000001,
+      -49.5,
+      -42.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_BearingRetainer_1_0",
+    "volume_mm3": 61.952207128790704,
+    "bounds_mm": [
+      129.0,
+      130.0,
+      -30.60000000000001,
+      -20.60000000000001,
+      -51.0,
+      -41.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_683Bearing_1_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      130.0,
+      133.0,
+      45.9132276089532,
+      52.9132276089532,
+      -32.11282803765985,
+      -25.112828037659852
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_BearingRetainer_1_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      129.0,
+      130.0,
+      44.4132276089532,
+      54.4132276089532,
+      -33.61282803765985,
+      -23.612828037659852
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_3mmShaft_0",
+    "volume_mm3": 183.78317023500287,
+    "bounds_mm": [
+      117.0,
+      143.0,
+      -27.10000000000001,
+      -24.10000000000001,
+      -47.5,
+      -44.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_DriverGear",
+    "volume_mm3": 1166.5635128461283,
+    "bounds_mm": [
+      123.99999999999969,
+      128.0,
+      54.514508494582934,
+      75.48549150541706,
+      -35.485491505417066,
+      -14.514508494582934
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_OutputGear",
+    "volume_mm3": 415.1365620605419,
+    "bounds_mm": [
+      124.0,
+      128.0000000000001,
+      42.928849762205374,
+      55.897605455701026,
+      -35.09720588440768,
+      -22.128450190912027
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_CrankShaftOnePiece",
+    "volume_mm3": 1017.876019763093,
+    "bounds_mm": [
+      117.0,
+      135.0,
+      37.4132276089532,
+      61.4132276089532,
+      -40.61282803765985,
+      -16.612828037659852
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      134.0,
+      141.0,
+      46.43037509982123,
+      49.43037509982123,
+      -20.223381721704595,
+      -17.223381721704595
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_Rocker",
+    "volume_mm3": 258.8318530717959,
+    "bounds_mm": [
+      133.0,
+      135.0,
+      -31.385245135267176,
+      -22.10000000000001,
+      -49.5,
+      -28.687771553013697
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_RockerPin",
+    "volume_mm3": 49.48008429403922,
+    "bounds_mm": [
+      134.0,
+      141.0,
+      -29.385245135267176,
+      -26.385245135267176,
+      -33.6877715530137,
+      -30.687771553013697
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_POMCoupler",
+    "volume_mm3": 612.1148822711514,
+    "bounds_mm": [
+      136.0,
+      138.0,
+      -29.885245135267176,
+      49.93037509982123,
+      -34.1877715530137,
+      -16.723381721704595
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962673,
+    "bounds_mm": [
+      138.2,
+      138.7,
+      45.13037509982123,
+      50.730375099821224,
+      -21.523381721704595,
+      -15.923381721704594
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962673,
+    "bounds_mm": [
+      138.2,
+      138.7,
+      -30.685245135267177,
+      -25.085245135267176,
+      -34.987771553013694,
+      -29.387771553013696
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_PendulumHub",
+    "volume_mm3": 285.8849314766711,
+    "bounds_mm": [
+      138.0,
+      142.0,
+      -30.60000000000001,
+      -20.60000000000001,
+      -51.0,
+      -41.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_TubeArm",
+    "volume_mm3": 567.371633238317,
+    "bounds_mm": [
+      138.0,
+      142.0,
+      -89.8,
+      -29.60000000000001,
+      -48.0,
+      -43.999999999999986
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_TipSocket",
+    "volume_mm3": 60.287163022388164,
+    "bounds_mm": [
+      137.0,
+      143.0,
+      -89.0,
+      -85.0,
+      -48.999999999999986,
+      -42.999999999999986
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_PETPick",
+    "volume_mm3": 10.237499999999992,
+    "bounds_mm": [
+      139.75,
+      140.25,
+      -90.85,
+      -85.0,
+      -48.999999999999986,
+      -42.999999999999986
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V05_RearPivotStay",
+    "volume_mm3": 912.8013013631721,
+    "bounds_mm": [
+      119.0,
+      123.0,
+      -107.11511236699926,
+      -24.484887633000746,
+      -101.6602784130878,
+      -44.33972158691221
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_Carrier0",
+    "volume_mm3": 2620.8098485081982,
+    "bounds_mm": [
+      143.0,
+      146.0,
+      -41.0,
+      69.5,
+      -36.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_683Bearing_0_0",
+    "volume_mm3": 94.2477796076938,
+    "bounds_mm": [
+      143.0,
+      146.0,
+      -40.0,
+      -33.0,
+      -35.5,
+      -28.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_BearingRetainer_0_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      142.0,
+      143.0,
+      -41.5,
+      -31.5,
+      -37.0,
+      -27.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_683Bearing_0_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      143.0,
+      146.0,
+      43.54265408838631,
+      50.54265408838631,
+      -29.738437649076808,
+      -22.738437649076808
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_BearingRetainer_0_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      142.0,
+      143.0,
+      42.04265408838631,
+      52.04265408838631,
+      -31.238437649076808,
+      -21.238437649076808
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_Carrier1",
+    "volume_mm3": 2620.8098485081982,
+    "bounds_mm": [
+      154.0,
+      157.0,
+      -41.0,
+      69.5,
+      -36.5,
+      -20.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_683Bearing_1_0",
+    "volume_mm3": 94.2477796076938,
+    "bounds_mm": [
+      154.0,
+      157.0,
+      -40.0,
+      -33.0,
+      -35.5,
+      -28.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_BearingRetainer_1_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      153.0,
+      154.0,
+      -41.5,
+      -31.5,
+      -37.0,
+      -27.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_683Bearing_1_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      154.0,
+      157.0,
+      43.54265408838631,
+      50.54265408838631,
+      -29.738437649076808,
+      -22.738437649076808
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_BearingRetainer_1_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      153.0,
+      154.0,
+      42.04265408838631,
+      52.04265408838631,
+      -31.238437649076808,
+      -21.238437649076808
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_3mmShaft_0",
+    "volume_mm3": 183.7831702350029,
+    "bounds_mm": [
+      141.0,
+      167.0,
+      -38.0,
+      -35.0,
+      -33.5,
+      -30.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_DriverGear",
+    "volume_mm3": 1718.3990880493545,
+    "bounds_mm": [
+      147.99999999999827,
+      152.0,
+      52.513560918964394,
+      77.4864390810356,
+      -37.486439081035606,
+      -12.513560918964396
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_OutputGear",
+    "volume_mm3": 415.1365620605421,
+    "bounds_mm": [
+      148.0,
+      152.00000000000097,
+      40.546526958952214,
+      53.5387812178204,
+      -32.7345647785109,
+      -19.742310519642718
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_CrankShaftOnePiece",
+    "volume_mm3": 1017.8760197630929,
+    "bounds_mm": [
+      141.0,
+      159.0,
+      35.04265408838631,
+      59.04265408838631,
+      -38.23843764907681,
+      -14.238437649076808
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_CrankPin",
+    "volume_mm3": 49.48008429403925,
+    "bounds_mm": [
+      158.0,
+      165.0,
+      45.57952669096885,
+      48.57952669096885,
+      -17.738505628748932,
+      -14.738505628748932
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_Rocker",
+    "volume_mm3": 258.8318530717931,
+    "bounds_mm": [
+      157.0,
+      159.0,
+      -40.14302233924406,
+      -33.0,
+      -35.5,
+      -14.500730568687622
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_RockerPin",
+    "volume_mm3": 49.48008429403925,
+    "bounds_mm": [
+      158.0,
+      165.0,
+      -38.14302233924406,
+      -35.14302233924406,
+      -19.500730568687622,
+      -16.500730568687622
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_POMCoupler",
+    "volume_mm3": 666.0281423712261,
+    "bounds_mm": [
+      160.0,
+      162.0,
+      -38.64302233924406,
+      49.07952669096885,
+      -20.000730568687622,
+      -14.238505628748932
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962677,
+    "bounds_mm": [
+      162.2,
+      162.7,
+      44.27952669096885,
+      49.879526690968845,
+      -19.038505628748933,
+      -13.438505628748931
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962673,
+    "bounds_mm": [
+      162.2,
+      162.7,
+      -39.44302233924406,
+      -33.843022339244065,
+      -20.800730568687623,
+      -15.200730568687622
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_PendulumHub",
+    "volume_mm3": 285.8849314766711,
+    "bounds_mm": [
+      162.0,
+      166.0,
+      -41.5,
+      -31.5,
+      -37.0,
+      -27.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_TubeArm",
+    "volume_mm3": 464.6415534659308,
+    "bounds_mm": [
+      162.0,
+      166.0,
+      -89.8,
+      -40.5,
+      -34.0,
+      -29.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_TipSocket",
+    "volume_mm3": 60.2871630223882,
+    "bounds_mm": [
+      161.0,
+      167.0,
+      -89.0,
+      -85.0,
+      -34.999999999999986,
+      -28.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_PETPick",
+    "volume_mm3": 10.237499999999999,
+    "bounds_mm": [
+      163.75,
+      164.25,
+      -90.85000000000001,
+      -85.0,
+      -34.999999999999986,
+      -28.999999999999986
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V06_RearPivotStay",
+    "volume_mm3": 916.3991306635927,
+    "bounds_mm": [
+      143.0,
+      147.0,
+      -107.39870255195076,
+      -35.10129744804923,
+      -101.4295562847144,
+      -30.57044371528561
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_Carrier0",
+    "volume_mm3": 2783.944149029161,
+    "bounds_mm": [
+      167.0,
+      170.0,
+      -47.05555555555556,
+      69.5,
+      -29.5,
+      -13.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_683Bearing_0_0",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      167.0,
+      170.0,
+      -46.05555555555556,
+      -39.05555555555556,
+      -21.5,
+      -14.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_BearingRetainer_0_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      166.0,
+      167.0,
+      -47.55555555555556,
+      -37.55555555555556,
+      -23.0,
+      -13.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_683Bearing_0_1",
+    "volume_mm3": 94.24777960769377,
+    "bounds_mm": [
+      167.0,
+      170.0,
+      42.04116783222241,
+      49.04116783222241,
+      -27.233567741146707,
+      -20.233567741146707
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_BearingRetainer_0_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      166.0,
+      167.0,
+      40.54116783222241,
+      50.54116783222241,
+      -28.733567741146707,
+      -18.733567741146707
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_Carrier1",
+    "volume_mm3": 2783.944149029161,
+    "bounds_mm": [
+      178.0,
+      181.0,
+      -47.05555555555556,
+      69.5,
+      -29.5,
+      -13.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_683Bearing_1_0",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      178.0,
+      181.0,
+      -46.05555555555556,
+      -39.05555555555556,
+      -21.5,
+      -14.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_BearingRetainer_1_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      177.0,
+      178.0,
+      -47.55555555555556,
+      -37.55555555555556,
+      -23.0,
+      -13.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_683Bearing_1_1",
+    "volume_mm3": 94.24777960769377,
+    "bounds_mm": [
+      178.0,
+      181.0,
+      42.04116783222241,
+      49.04116783222241,
+      -27.233567741146707,
+      -20.233567741146707
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_BearingRetainer_1_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      177.0,
+      178.0,
+      40.54116783222241,
+      50.54116783222241,
+      -28.733567741146707,
+      -18.733567741146707
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_3mmShaft_0",
+    "volume_mm3": 183.78317023500293,
+    "bounds_mm": [
+      165.0,
+      191.0,
+      -44.05555555555556,
+      -41.05555555555556,
+      -19.5,
+      -16.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_DriverGear",
+    "volume_mm3": 2198.339499034666,
+    "bounds_mm": [
+      172.0,
+      176.00000000000128,
+      51.009809479876346,
+      78.99019052012365,
+      -38.99996701149134,
+      -11.000032988508659
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_OutputGear",
+    "volume_mm3": 415.13656206054134,
+    "bounds_mm": [
+      172.0,
+      176.00000000000094,
+      39.04595645392582,
+      52.03637921051901,
+      -30.228779119443303,
+      -17.238356362850112
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_CrankShaftOnePiece",
+    "volume_mm3": 1017.8760197630929,
+    "bounds_mm": [
+      165.0,
+      183.0,
+      33.54116783222241,
+      57.54116783222241,
+      -35.73356774114671,
+      -11.733567741146707
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      182.0,
+      189.0,
+      45.37501830197144,
+      48.37501830197144,
+      -15.32292482939016,
+      -12.32292482939016
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_Rocker",
+    "volume_mm3": 258.83185307179593,
+    "bounds_mm": [
+      180.99999999999997,
+      183.0,
+      -46.05555555555556,
+      -37.371229743846015,
+      -21.5,
+      -0.6016890752865578
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_RockerPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      182.0,
+      189.0,
+      -42.371229743846015,
+      -39.371229743846015,
+      -5.601689075286558,
+      -2.601689075286558
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_POMCoupler",
+    "volume_mm3": 702.3642314144751,
+    "bounds_mm": [
+      183.99999999999997,
+      186.0,
+      -42.871229743846015,
+      48.87501830197144,
+      -15.82292482939016,
+      -2.101689075286558
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962675,
+    "bounds_mm": [
+      186.2,
+      186.7,
+      44.07501830197144,
+      49.675018301971434,
+      -16.62292482939016,
+      -11.02292482939016
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962675,
+    "bounds_mm": [
+      186.2,
+      186.7,
+      -43.67122974384601,
+      -38.07122974384602,
+      -6.901689075286558,
+      -1.301689075286558
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_PendulumHub",
+    "volume_mm3": 285.8849314766711,
+    "bounds_mm": [
+      186.0,
+      190.0,
+      -47.55555555555556,
+      -37.55555555555556,
+      -23.0,
+      -13.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_TubeArm",
+    "volume_mm3": 407.56928692571614,
+    "bounds_mm": [
+      186.0,
+      190.0,
+      -89.8,
+      -46.55555555555556,
+      -20.0,
+      -15.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_TipSocket",
+    "volume_mm3": 60.28716302238819,
+    "bounds_mm": [
+      185.0,
+      191.0,
+      -89.0,
+      -85.0,
+      -20.99999999999999,
+      -14.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_PETPick",
+    "volume_mm3": 10.2375,
+    "bounds_mm": [
+      187.75,
+      188.25,
+      -90.85000000000001,
+      -85.0,
+      -20.99999999999999,
+      -14.99999999999999
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V07_RearPivotStay",
+    "volume_mm3": 977.1453041022933,
+    "bounds_mm": [
+      167.0,
+      171.0,
+      -107.58181549773315,
+      -40.973740057822404,
+      -101.22387079838161,
+      -16.776129201618392
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_Carrier0",
+    "volume_mm3": 2961.1130919859625,
+    "bounds_mm": [
+      190.99999999999997,
+      194.00000000000003,
+      -51.9,
+      69.5,
+      -29.5,
+      0.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_683Bearing_0_0",
+    "volume_mm3": 94.2477796076938,
+    "bounds_mm": [
+      191.0,
+      194.0,
+      -50.9,
+      -43.9,
+      -7.5,
+      -0.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_BearingRetainer_0_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      190.0,
+      191.0,
+      -52.4,
+      -42.4,
+      -9.0,
+      1.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_683Bearing_0_1",
+    "volume_mm3": 94.24777960769377,
+    "bounds_mm": [
+      191.0,
+      194.0,
+      40.85719342952575,
+      47.85719342952575,
+      -24.643247882740575,
+      -17.643247882740575
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_BearingRetainer_0_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      190.0,
+      191.0,
+      39.35719342952575,
+      49.35719342952575,
+      -26.143247882740575,
+      -16.143247882740575
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_Carrier1",
+    "volume_mm3": 2961.1130919859625,
+    "bounds_mm": [
+      201.99999999999997,
+      205.0,
+      -51.9,
+      69.5,
+      -29.5,
+      0.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_683Bearing_1_0",
+    "volume_mm3": 94.2477796076938,
+    "bounds_mm": [
+      202.0,
+      205.0,
+      -50.9,
+      -43.9,
+      -7.5,
+      -0.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_BearingRetainer_1_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      201.0,
+      202.0,
+      -52.4,
+      -42.4,
+      -9.0,
+      1.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_683Bearing_1_1",
+    "volume_mm3": 94.24777960769377,
+    "bounds_mm": [
+      202.0,
+      205.0,
+      40.85719342952575,
+      47.85719342952575,
+      -24.643247882740575,
+      -17.643247882740575
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_BearingRetainer_1_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      201.0,
+      202.0,
+      39.35719342952575,
+      49.35719342952575,
+      -26.143247882740575,
+      -16.143247882740575
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_3mmShaft_0",
+    "volume_mm3": 183.78317023500296,
+    "bounds_mm": [
+      189.0,
+      215.0,
+      -48.9,
+      -45.9,
+      -5.5,
+      -2.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_DriverGear",
+    "volume_mm3": 2734.9050710789056,
+    "bounds_mm": [
+      196.0,
+      200.0,
+      49.501127972553135,
+      80.49887202744686,
+      -40.498872027446865,
+      -9.501127972553137
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_OutputGear",
+    "volume_mm3": 415.1365620605413,
+    "bounds_mm": [
+      196.0,
+      200.00000000000074,
+      37.85943828672823,
+      50.85494857232327,
+      -27.641003025538097,
+      -14.645492739943052
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_CrankShaftOnePiece",
+    "volume_mm3": 1017.8760197630929,
+    "bounds_mm": [
+      189.0,
+      207.0,
+      32.35719342952575,
+      56.35719342952575,
+      -33.143247882740575,
+      -9.143247882740575
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      206.0,
+      213.0,
+      45.32880031067128,
+      48.32880031067128,
+      -12.953502817720851,
+      -9.953502817720851
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_Rocker",
+    "volume_mm3": 258.8318530717958,
+    "bounds_mm": [
+      205.0,
+      207.0,
+      -50.9,
+      -40.60908322071247,
+      -7.5,
+      13.107713501973937
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_RockerPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      206.0,
+      213.0,
+      -45.60908322071247,
+      -42.60908322071247,
+      8.107713501973937,
+      11.107713501973937
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_POMCoupler",
+    "volume_mm3": 742.8587330313048,
+    "bounds_mm": [
+      208.0,
+      210.0,
+      -46.10908322071247,
+      48.82880031067128,
+      -13.453502817720851,
+      11.607713501973937
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962673,
+    "bounds_mm": [
+      210.2,
+      210.7,
+      44.02880031067128,
+      49.628800310671274,
+      -14.25350281772085,
+      -8.653502817720852
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962671,
+    "bounds_mm": [
+      210.2,
+      210.7,
+      -46.90908322071247,
+      -41.30908322071247,
+      6.807713501973937,
+      12.407713501973937
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_PendulumHub",
+    "volume_mm3": 285.8849314766711,
+    "bounds_mm": [
+      210.0,
+      214.0,
+      -52.4,
+      -42.4,
+      -9.0,
+      1.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_TubeArm",
+    "volume_mm3": 361.9114736935444,
+    "bounds_mm": [
+      210.0,
+      214.0,
+      -89.8,
+      -51.4,
+      -5.999999999999999,
+      -1.9999999999999907
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_TipSocket",
+    "volume_mm3": 60.28716302238819,
+    "bounds_mm": [
+      209.0,
+      215.0,
+      -89.0,
+      -85.0,
+      -6.999999999999991,
+      -0.9999999999999907
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_PETPick",
+    "volume_mm3": 10.237499999999999,
+    "bounds_mm": [
+      211.75,
+      212.25,
+      -90.85000000000001,
+      -85.0,
+      -6.999999999999992,
+      -0.9999999999999911
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V08_RearPivotStay",
+    "volume_mm3": 1060.024012938592,
+    "bounds_mm": [
+      191.0,
+      195.0,
+      -107.70709092094175,
+      -45.692909079058225,
+      -101.0420367496582,
+      -2.9579632503417876
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_Carrier0",
+    "volume_mm3": 3240.1612813642028,
+    "bounds_mm": [
+      215.0,
+      218.0,
+      -59.166666666666664,
+      69.5,
+      -29.5,
+      14.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_683Bearing_0_0",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      215.0,
+      218.0,
+      -58.166666666666664,
+      -51.166666666666664,
+      6.5,
+      13.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_BearingRetainer_0_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      214.0,
+      215.0,
+      -59.666666666666664,
+      -49.666666666666664,
+      5.0,
+      15.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_683Bearing_0_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      215.0,
+      218.0,
+      42.304197443457994,
+      49.304197443457994,
+      -22.885628778727266,
+      -15.885628778727266
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_BearingRetainer_0_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      214.0,
+      215.0,
+      40.804197443457994,
+      50.804197443457994,
+      -24.385628778727266,
+      -14.385628778727266
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_Carrier1",
+    "volume_mm3": 3240.1612813642028,
+    "bounds_mm": [
+      226.0,
+      229.0,
+      -59.166666666666664,
+      69.5,
+      -29.5,
+      14.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_683Bearing_1_0",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      226.0,
+      229.0,
+      -58.166666666666664,
+      -51.166666666666664,
+      6.5,
+      13.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_BearingRetainer_1_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      225.0,
+      226.0,
+      -59.666666666666664,
+      -49.666666666666664,
+      5.0,
+      15.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_683Bearing_1_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      226.0,
+      229.0,
+      42.304197443457994,
+      49.304197443457994,
+      -22.885628778727266,
+      -15.885628778727266
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_BearingRetainer_1_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      225.0,
+      226.0,
+      40.804197443457994,
+      50.804197443457994,
+      -24.385628778727266,
+      -14.385628778727266
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_3mmShaft_0",
+    "volume_mm3": 183.78317023500296,
+    "bounds_mm": [
+      213.0,
+      239.0,
+      -56.166666666666664,
+      -53.166666666666664,
+      8.5,
+      11.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_DriverGear",
+    "volume_mm3": 2734.9050710789033,
+    "bounds_mm": [
+      220.0,
+      224.00000000000173,
+      49.50222512449885,
+      80.49777487550115,
+      -40.49777487550115,
+      -9.502225124498846
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_OutputGear",
+    "volume_mm3": 277.8324545270421,
+    "bounds_mm": [
+      220.0,
+      224.0000000000002,
+      40.329457501216496,
+      51.27893738569949,
+      -24.860368720968765,
+      -13.910888836485768
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_CrankShaftOnePiece",
+    "volume_mm3": 1017.8760197630929,
+    "bounds_mm": [
+      213.0,
+      231.0,
+      33.804197443457994,
+      57.804197443457994,
+      -31.385628778727266,
+      -7.385628778727266
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      230.0,
+      237.0,
+      47.66280721955731,
+      50.66280721955731,
+      -11.466513089242921,
+      -8.466513089242921
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_Rocker",
+    "volume_mm3": 258.8318530717959,
+    "bounds_mm": [
+      229.0,
+      231.00000000000006,
+      -58.166666666666664,
+      -46.61135262287657,
+      6.5,
+      26.73816882965498
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_RockerPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      230.0,
+      237.0,
+      -51.61135262287657,
+      -48.61135262287657,
+      21.73816882965498,
+      24.73816882965498
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_POMCoupler",
+    "volume_mm3": 833.5396780322645,
+    "bounds_mm": [
+      232.0,
+      234.0,
+      -52.11135262287657,
+      51.16280721955731,
+      -11.966513089242921,
+      25.23816882965498
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962677,
+    "bounds_mm": [
+      234.2,
+      234.7,
+      46.36280721955731,
+      51.962807219557305,
+      -12.76651308924292,
+      -7.166513089242922
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962673,
+    "bounds_mm": [
+      234.2,
+      234.7,
+      -52.91135262287657,
+      -47.311352622876576,
+      20.43816882965498,
+      26.038168829654982
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_PendulumHub",
+    "volume_mm3": 285.8849314766711,
+    "bounds_mm": [
+      234.0,
+      238.0,
+      -59.666666666666664,
+      -49.666666666666664,
+      5.0,
+      15.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_TubeArm",
+    "volume_mm3": 293.42475384528694,
+    "bounds_mm": [
+      234.0,
+      238.0,
+      -89.8,
+      -58.666666666666664,
+      8.0,
+      12.000000000000007
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_TipSocket",
+    "volume_mm3": 60.287163022388185,
+    "bounds_mm": [
+      233.0,
+      239.0,
+      -89.0,
+      -85.0,
+      7.000000000000007,
+      13.000000000000007
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_PETPick",
+    "volume_mm3": 10.2375,
+    "bounds_mm": [
+      235.75,
+      236.25,
+      -90.85000000000001,
+      -85.0,
+      7.000000000000007,
+      13.000000000000007
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V09_RearPivotStay",
+    "volume_mm3": 1144.0574536511976,
+    "bounds_mm": [
+      215.0,
+      219.0,
+      -107.81236627999053,
+      -52.85430038667614,
+      -100.84577093066225,
+      10.845770930662248
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_Carrier0",
+    "volume_mm3": 3456.1509365696884,
+    "bounds_mm": [
+      239.0,
+      242.0,
+      -62.800000000000004,
+      69.5,
+      -29.5,
+      28.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_683Bearing_0_0",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      239.0,
+      242.0,
+      -61.800000000000004,
+      -54.800000000000004,
+      20.5,
+      27.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_BearingRetainer_0_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      238.0,
+      239.0,
+      -63.300000000000004,
+      -53.300000000000004,
+      19.0,
+      29.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_683Bearing_0_1",
+    "volume_mm3": 94.24777960769377,
+    "bounds_mm": [
+      239.0,
+      242.0,
+      37.338043312071036,
+      44.338043312071036,
+      -18.897924754999842,
+      -11.897924754999844
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_BearingRetainer_0_1",
+    "volume_mm3": 61.952207128790725,
+    "bounds_mm": [
+      238.0,
+      239.0,
+      35.838043312071036,
+      45.838043312071036,
+      -20.397924754999842,
+      -10.397924754999844
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_Carrier1",
+    "volume_mm3": 3456.1509365696884,
+    "bounds_mm": [
+      250.0,
+      253.0,
+      -62.800000000000004,
+      69.5,
+      -29.5,
+      28.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_683Bearing_1_0",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      250.0,
+      253.0,
+      -61.800000000000004,
+      -54.800000000000004,
+      20.5,
+      27.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_BearingRetainer_1_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      249.0,
+      250.0,
+      -63.300000000000004,
+      -53.300000000000004,
+      19.0,
+      29.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_683Bearing_1_1",
+    "volume_mm3": 94.24777960769377,
+    "bounds_mm": [
+      250.0,
+      253.0,
+      37.338043312071036,
+      44.338043312071036,
+      -18.897924754999842,
+      -11.897924754999844
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_BearingRetainer_1_1",
+    "volume_mm3": 61.952207128790725,
+    "bounds_mm": [
+      249.0,
+      250.0,
+      35.838043312071036,
+      45.838043312071036,
+      -20.397924754999842,
+      -10.397924754999844
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_3mmShaft_0",
+    "volume_mm3": 183.7831702350029,
+    "bounds_mm": [
+      237.0,
+      263.0,
+      -59.800000000000004,
+      -56.800000000000004,
+      22.5,
+      25.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_DriverGear",
+    "volume_mm3": 4932.498955918394,
+    "bounds_mm": [
+      243.99999999999886,
+      248.0,
+      44.50022534642993,
+      85.49977465357007,
+      -45.49977465357007,
+      -4.500225346429925
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_OutputGear",
+    "volume_mm3": 415.1365620605416,
+    "bounds_mm": [
+      244.0,
+      248.00000000000213,
+      34.33813317363966,
+      47.33795345050241,
+      -21.897834893431217,
+      -8.89801461656847
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_CrankShaftOnePiece",
+    "volume_mm3": 1017.8760197630929,
+    "bounds_mm": [
+      237.0,
+      255.0,
+      28.838043312071036,
+      52.838043312071036,
+      -27.397924754999842,
+      -3.3979247549998437
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      254.0,
+      261.0,
+      43.55353620412412,
+      46.55353620412412,
+      -7.82986985457881,
+      -4.82986985457881
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_Rocker",
+    "volume_mm3": 258.8318530717958,
+    "bounds_mm": [
+      253.0,
+      255.0,
+      -61.800000000000004,
+      -49.036995718545725,
+      20.5,
+      40.258831515931995
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_RockerPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      254.0,
+      261.0,
+      -54.036995718545725,
+      -51.036995718545725,
+      35.258831515931995,
+      38.258831515931995
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_POMCoupler",
+    "volume_mm3": 849.5366129079644,
+    "bounds_mm": [
+      256.0,
+      258.0,
+      -54.536995718545725,
+      47.05353620412412,
+      -8.32986985457881,
+      38.758831515931995
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962673,
+    "bounds_mm": [
+      258.2,
+      258.7,
+      42.253536204124124,
+      47.85353620412412,
+      -9.12986985457881,
+      -3.52986985457881
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962675,
+    "bounds_mm": [
+      258.2,
+      258.7,
+      -55.33699571854572,
+      -49.73699571854573,
+      33.958831515932,
+      39.55883151593199
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_PendulumHub",
+    "volume_mm3": 285.8849314766711,
+    "bounds_mm": [
+      258.0,
+      262.0,
+      -63.300000000000004,
+      -53.300000000000004,
+      19.0,
+      29.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_TubeArm",
+    "volume_mm3": 259.1813939211587,
+    "bounds_mm": [
+      258.0,
+      262.0,
+      -89.8,
+      -62.300000000000004,
+      22.0,
+      26.000000000000007
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_TipSocket",
+    "volume_mm3": 60.28716302238799,
+    "bounds_mm": [
+      257.0,
+      263.0,
+      -89.0,
+      -85.0,
+      21.000000000000007,
+      27.000000000000007
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_PETPick",
+    "volume_mm3": 10.237500000000002,
+    "bounds_mm": [
+      259.75,
+      260.25,
+      -90.85000000000001,
+      -85.0,
+      21.000000000000007,
+      27.000000000000007
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V10_RearPivotStay",
+    "volume_mm3": 1252.1586342073986,
+    "bounds_mm": [
+      239.0,
+      243.0,
+      -107.86665241161741,
+      -56.43334758838259,
+      -100.71805903253347,
+      24.718059032533485
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_Carrier0",
+    "volume_mm3": 3743.9056419495923,
+    "bounds_mm": [
+      263.0,
+      266.0,
+      -68.25,
+      69.5,
+      -29.5,
+      42.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_683Bearing_0_0",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      263.0,
+      266.0,
+      -67.25,
+      -60.25,
+      34.5,
+      41.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_BearingRetainer_0_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      262.0,
+      263.0,
+      -68.75,
+      -58.75,
+      33.0,
+      43.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_683Bearing_0_1",
+    "volume_mm3": 94.24777960769377,
+    "bounds_mm": [
+      263.0,
+      266.0,
+      39.04421567943626,
+      46.04421567943626,
+      -17.511926895568813,
+      -10.511926895568815
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_BearingRetainer_0_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      262.0,
+      263.0,
+      37.54421567943626,
+      47.54421567943626,
+      -19.011926895568813,
+      -9.011926895568815
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_Carrier1",
+    "volume_mm3": 3743.9056419495923,
+    "bounds_mm": [
+      274.0,
+      277.0,
+      -68.25,
+      69.5,
+      -29.5,
+      42.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_683Bearing_1_0",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      274.0,
+      277.0,
+      -67.25,
+      -60.25,
+      34.5,
+      41.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_BearingRetainer_1_0",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      273.0,
+      274.0,
+      -68.75,
+      -58.75,
+      33.0,
+      43.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_683Bearing_1_1",
+    "volume_mm3": 94.24777960769377,
+    "bounds_mm": [
+      274.0,
+      277.0,
+      39.04421567943626,
+      46.04421567943626,
+      -17.511926895568813,
+      -10.511926895568815
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_BearingRetainer_1_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      273.0,
+      274.0,
+      37.54421567943626,
+      47.54421567943626,
+      -19.011926895568813,
+      -9.011926895568815
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_3mmShaft_0",
+    "volume_mm3": 183.78317023500296,
+    "bounds_mm": [
+      261.0,
+      287.0,
+      -65.25,
+      -62.25,
+      36.5,
+      39.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_DriverGear",
+    "volume_mm3": 4932.498955918408,
+    "bounds_mm": [
+      267.9999999999977,
+      272.0,
+      44.50042354854847,
+      85.49957645145153,
+      -45.49957645145153,
+      -4.5004235485484685
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_OutputGear",
+    "volume_mm3": 277.8324545270423,
+    "bounds_mm": [
+      268.0,
+      272.0000000000002,
+      37.04430324673577,
+      48.044128112136754,
+      -19.511839328269303,
+      -8.512014462868326
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_CrankShaftOnePiece",
+    "volume_mm3": 1017.8760197630929,
+    "bounds_mm": [
+      261.0,
+      279.0,
+      30.544215679436263,
+      54.54421567943626,
+      -26.011926895568813,
+      -2.0119268955688145
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      278.0,
+      285.0,
+      45.89395819031022,
+      48.89395819031022,
+      -6.766642590400574,
+      -3.766642590400574
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_Rocker",
+    "volume_mm3": 258.83185307179576,
+    "bounds_mm": [
+      277.0,
+      279.0,
+      -67.25,
+      -53.58090111513583,
+      34.5,
+      53.809472777658
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_RockerPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      278.0,
+      285.0,
+      -58.58090111513583,
+      -55.58090111513583,
+      48.809472777658,
+      51.809472777658
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_POMCoupler",
+    "volume_mm3": 942.7972663538613,
+    "bounds_mm": [
+      280.0,
+      282.0,
+      -59.08090111513583,
+      49.39395819031022,
+      -7.266642590400574,
+      52.309472777658
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962673,
+    "bounds_mm": [
+      282.2,
+      282.7,
+      44.593958190310225,
+      50.19395819031022,
+      -8.066642590400573,
+      -2.466642590400574
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962675,
+    "bounds_mm": [
+      282.2,
+      282.7,
+      -59.88090111513583,
+      -54.28090111513583,
+      47.509472777658004,
+      53.109472777658
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_PendulumHub",
+    "volume_mm3": 285.88493147667117,
+    "bounds_mm": [
+      282.0,
+      286.0,
+      -68.75,
+      -58.75,
+      33.0,
+      43.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_TubeArm",
+    "volume_mm3": 207.81635403496543,
+    "bounds_mm": [
+      282.0,
+      286.0,
+      -89.8,
+      -67.75,
+      36.0,
+      40.00000000000001
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_TipSocket",
+    "volume_mm3": 60.287163022387986,
+    "bounds_mm": [
+      281.0,
+      287.0,
+      -89.0,
+      -85.0,
+      35.00000000000001,
+      41.00000000000001
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_PETPick",
+    "volume_mm3": 10.237500000000002,
+    "bounds_mm": [
+      283.75,
+      284.25,
+      -90.85000000000001,
+      -85.0,
+      35.00000000000001,
+      41.00000000000001
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V11_RearPivotStay",
+    "volume_mm3": 1360.2100802027237,
+    "bounds_mm": [
+      263.0,
+      267.0,
+      -107.9123801205654,
+      -61.8376198794346,
+      -100.58549318908615,
+      38.585493189086144
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_Carrier0",
+    "volume_mm3": 3994.674638586448,
+    "bounds_mm": [
+      287.0,
+      290.0,
+      -71.27777777777777,
+      69.5,
+      -29.5,
+      56.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_683Bearing_0_0",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      287.0,
+      290.0,
+      -70.27777777777777,
+      -63.27777777777777,
+      48.5,
+      55.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_BearingRetainer_0_0",
+    "volume_mm3": 61.95220712879072,
+    "bounds_mm": [
+      286.0,
+      287.0,
+      -71.77777777777777,
+      -61.77777777777777,
+      47.0,
+      57.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_683Bearing_0_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      287.0,
+      290.0,
+      37.756252225497356,
+      44.756252225497356,
+      -14.626123770885048,
+      -7.626123770885048
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_BearingRetainer_0_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      286.0,
+      287.0,
+      36.256252225497356,
+      46.256252225497356,
+      -16.126123770885048,
+      -6.126123770885048
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_Carrier1",
+    "volume_mm3": 3994.674638586448,
+    "bounds_mm": [
+      298.0,
+      301.00000000000006,
+      -71.27777777777777,
+      69.5,
+      -29.5,
+      56.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_683Bearing_1_0",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      298.0,
+      301.0,
+      -70.27777777777777,
+      -63.27777777777777,
+      48.5,
+      55.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_BearingRetainer_1_0",
+    "volume_mm3": 61.95220712879072,
+    "bounds_mm": [
+      297.0,
+      298.0,
+      -71.77777777777777,
+      -61.77777777777777,
+      47.0,
+      57.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_683Bearing_1_1",
+    "volume_mm3": 94.24777960769379,
+    "bounds_mm": [
+      298.0,
+      301.0,
+      37.756252225497356,
+      44.756252225497356,
+      -14.626123770885048,
+      -7.626123770885048
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_BearingRetainer_1_1",
+    "volume_mm3": 61.95220712879071,
+    "bounds_mm": [
+      297.0,
+      298.0,
+      36.256252225497356,
+      46.256252225497356,
+      -16.126123770885048,
+      -6.126123770885048
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_3mmShaft_0",
+    "volume_mm3": 183.78317023500296,
+    "bounds_mm": [
+      285.0,
+      311.0,
+      -68.27777777777777,
+      -65.27777777777777,
+      50.5,
+      53.5
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_DriverGear",
+    "volume_mm3": 6267.302952927639,
+    "bounds_mm": [
+      292.0,
+      296.00000000000585,
+      42.00505372627542,
+      87.99494627372458,
+      -47.999939267119856,
+      -2.0000607328801436
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_OutputGear",
+    "volume_mm3": 277.83245452704233,
+    "bounds_mm": [
+      291.9999999999993,
+      296.0,
+      35.75810879568186,
+      46.75439565531285,
+      -16.624267200700537,
+      -5.6279803410695575
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_CrankShaftOnePiece",
+    "volume_mm3": 1017.8760197630929,
+    "bounds_mm": [
+      285.0,
+      303.0,
+      29.256252225497356,
+      53.256252225497356,
+      -23.126123770885048,
+      0.873876229114952
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_CrankPin",
+    "volume_mm3": 49.48008429403926,
+    "bounds_mm": [
+      302.0,
+      309.0,
+      45.21377294665969,
+      48.21377294665969,
+      -4.246656748568903,
+      -1.2466567485689026
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_Rocker",
+    "volume_mm3": 258.83185307179576,
+    "bounds_mm": [
+      301.0,
+      303.0,
+      -70.27777777777777,
+      -55.74649131778983,
+      48.5,
+      67.30168311121776
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_RockerPin",
+    "volume_mm3": 49.480084294039244,
+    "bounds_mm": [
+      302.0,
+      309.0,
+      -60.74649131778983,
+      -57.74649131778983,
+      62.30168311121775,
+      65.30168311121776
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_POMCoupler",
+    "volume_mm3": 997.0991912832988,
+    "bounds_mm": [
+      304.0,
+      306.00000000000006,
+      -61.24649131778983,
+      48.71377294665969,
+      -4.746656748568903,
+      65.80168311121776
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_PinRetainingWasher_0",
+    "volume_mm3": 11.180142855962677,
+    "bounds_mm": [
+      306.2,
+      306.7,
+      43.91377294665969,
+      49.513772946659685,
+      -5.5466567485689025,
+      0.053343251431097194
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_PinRetainingWasher_1",
+    "volume_mm3": 11.180142855962677,
+    "bounds_mm": [
+      306.2,
+      306.7,
+      -62.04649131778983,
+      -56.446491317789835,
+      61.00168311121775,
+      66.60168311121775
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_PendulumHub",
+    "volume_mm3": 285.88493147667117,
+    "bounds_mm": [
+      306.0,
+      310.0,
+      -71.77777777777777,
+      -61.77777777777777,
+      47.0,
+      57.0
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_TubeArm",
+    "volume_mm3": 179.28022076485806,
+    "bounds_mm": [
+      306.0,
+      310.0,
+      -89.8,
+      -70.77777777777777,
+      50.0,
+      54.00000000000001
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_TipSocket",
+    "volume_mm3": 60.28716302238799,
+    "bounds_mm": [
+      305.0,
+      311.0,
+      -89.0,
+      -85.0,
+      49.00000000000001,
+      55.00000000000001
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_PETPick",
+    "volume_mm3": 10.237499999999995,
+    "bounds_mm": [
+      307.75,
+      308.25,
+      -90.85000000000001,
+      -85.0,
+      49.00000000000001,
+      55.00000000000001
+    ],
+    "solids": 1,
+    "valid": true
+  },
+  {
+    "name": "V12_RearPivotStay",
+    "volume_mm3": 1479.4915072986598,
+    "bounds_mm": [
+      287.0,
+      291.0,
+      -107.93656569567285,
+      -64.84121208210492,
+      -100.49971322410272,
+      52.49971322410274
+    ],
+    "solids": 1,
+    "valid": true
+  }
+]

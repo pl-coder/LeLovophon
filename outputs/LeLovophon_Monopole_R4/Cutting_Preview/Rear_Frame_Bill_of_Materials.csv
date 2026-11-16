@@ -1,0 +1,15 @@
+Part,Quantity,Material,Specification,File or reference,Notes
+Curved support rib,4,5083 aluminium plate,8mm; same profile x4,R4_CurvedRib_8mm_x4.step / .dxf,Flat profile; no bearing fits or welding
+Crank outrigger,1,Aluminium plate,6mm,R4_CrankOuTrigger_6mm_x1.step / .dxf,Retains R3 precision bearing console
+Rear backing plate,4,Stainless steel sheet,30x48x2mm,R4_BackingPlate_2mm_x4.step / .dxf,Four4.4mm through-holes
+Stock angle foot,4,Aluminium equal angle,30x30x3mm;48mm cut length,3 right +1 left STEP; two face drilling templates,Cut and drill stock angle; not a sheet-metal bend development
+Fixed structural rear rail,1,Ground steel shaft,8mm diameter;629mm length,https://www.damencnc.com/en/8mm-linear-motion-shaft-precision/a165,Deburr ends; this rail does not rotate
+SHF8 flange shaft clamp,5,Purchased aluminium clamp,8mm bore;32mm mounting pitch;43x24x10mm nominal,https://www.damencnc.com/en/shf8-flanged-shaft-support-8mm/a155,4 stand clamps +1 crank outrigger clamp; confirm exact purchased drawing. Pinch screws supplied with clamp
+Socket cap screw M5x20,18,A2 stainless or suitable supplier-rated steel,ISO4762 nominal,Metric hardware supplier,8 rib/flange +8 roots +2 crank flange
+M5 hex nut,18,Match screw material,Standard8mm AF,Metric hardware supplier,Use serviceable locking method chosen after prototype; CAD depicts plain nuts
+M5 plain washer,18,Steel/stainless,Nominal10mm OD;5.3mm ID;1mm thick,Metric hardware supplier,Washer locations shown in CAD
+Socket cap screw M4x25,18,A2 stainless or suitable supplier-rated steel,ISO4762 nominal,Metric hardware supplier,16 rear rim +2 crank-console bolts
+M4 hex nut,18,Match screw material,Standard7mm AF,Metric hardware supplier,Accessible with bottom panel removed
+M4 plain washer,36,Steel/stainless,Nominal9mm OD;4.3mm ID;1mm thick,Metric hardware supplier,Both sides of rear wall and crank console
+Rear-rim compression sleeve,16,Stainless steel,6mm OD;4.3-4.4mm ID;12mm nominal length,https://www.mwcomponents.com/shop/m0541-4-ss,RAF M0541-4-SS size example; CAD bore4.4mm. Fit length to measured structural rim thickness; sleeves transfer clamp preload
+Crank console spacer,2,Steel/aluminium tubular spacer,4mm length;M4 clearance;6-8mm OD,Metric hardware supplier,CAD shows8mm OD and4.4mm ID; preserve4mm bearing-console stand-off

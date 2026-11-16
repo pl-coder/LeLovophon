@@ -1,0 +1,12 @@
+{
+  "cad_sha256": "8b5322026e943034589d3b90ea17b8ebd58bd06830b3c0050511e0693e0f7148",
+  "source": "Exact tessellated saved CAD geometry",
+  "engine": "Blender4.5.15 EEVEE",
+  "views": [
+    "R5_Studio_Overview.png",
+    "R5_Studio_Rear.png"
+  ],
+  "cosmetic_bevel_mm": 0.22,
+  "materials": "Illustrative procedural woods and metals, not material approval",
+  "physical_validation": false
+}

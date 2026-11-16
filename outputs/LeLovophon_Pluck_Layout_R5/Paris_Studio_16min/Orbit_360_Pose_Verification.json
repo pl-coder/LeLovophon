@@ -1,0 +1,13 @@
+{
+  "parent_and_camera_objects_checked": 38,
+  "maximum_world_matrix_endpoint_error": 0.0,
+  "opening_closing_pose_exact": true,
+  "subject_screen_bounds": [
+    0.130222350358963,
+    0.031807221472263336,
+    0.868615984916687,
+    0.7943236827850342
+  ],
+  "framing_poses_checked": 97,
+  "cropped_subject_bounds": []
+}

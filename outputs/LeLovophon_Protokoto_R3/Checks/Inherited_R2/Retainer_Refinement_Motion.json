@@ -1,0 +1,3998 @@
+{
+  "cad_sha256": "264084afcb461bb55a4e22db9f73d9ee841b749e00c6255b3f3264debac94e67",
+  "baseline_cad_sha256": "b99727549b9726cd700485480fa619c277aa907ba96c17816f74f628c54987e7",
+  "all_moving_geometry_unchanged": true,
+  "moving_identity": [
+    {
+      "name": "Common5mmInputShaft",
+      "baseline_brep_sha256": "02e1070d83b6cda951c4b54427d905368ccdb1bf729ffd06d441b4d6fdca61a1",
+      "current_brep_sha256": "02e1070d83b6cda951c4b54427d905368ccdb1bf729ffd06d441b4d6fdca61a1",
+      "geometrically_identical": true
+    },
+    {
+      "name": "HandInputWheelWithHub",
+      "baseline_brep_sha256": "aea494c5a3e5cc9a081bee173fda416a2f06d2938733617c504fa1ba29ebf93c",
+      "current_brep_sha256": "aea494c5a3e5cc9a081bee173fda416a2f06d2938733617c504fa1ba29ebf93c",
+      "geometrically_identical": true
+    },
+    {
+      "name": "HandWheelFlushPin",
+      "baseline_brep_sha256": "272af82b4103aebb1cc17df0ea88ee269ede2f4b15e8e0281e910b2da2ea4f65",
+      "current_brep_sha256": "272af82b4103aebb1cc17df0ea88ee269ede2f4b15e8e0281e910b2da2ea4f65",
+      "geometrically_identical": true
+    },
+    {
+      "name": "InputRearPinnedCollar",
+      "baseline_brep_sha256": "580c27f563b87591fb0453782c4eb4ca682ee6ae997cac7a94bca46c055465f2",
+      "current_brep_sha256": "580c27f563b87591fb0453782c4eb4ca682ee6ae997cac7a94bca46c055465f2",
+      "geometrically_identical": true
+    },
+    {
+      "name": "InputRearCollarFlushPin",
+      "baseline_brep_sha256": "6e08df25dd95438727ea4b55e13d0acce841722383cf142a2277f88a668568cc",
+      "current_brep_sha256": "6e08df25dd95438727ea4b55e13d0acce841722383cf142a2277f88a668568cc",
+      "geometrically_identical": true
+    },
+    {
+      "name": "InputRearThrustShim",
+      "baseline_brep_sha256": "b7d36b698ebe581405da58f454875831996cc39fdf48325d6ea53b82bfd4ea40",
+      "current_brep_sha256": "b7d36b698ebe581405da58f454875831996cc39fdf48325d6ea53b82bfd4ea40",
+      "geometrically_identical": true
+    },
+    {
+      "name": "InputFrontThrustShim",
+      "baseline_brep_sha256": "451e06423d33c4b65efd0ef173fcce5c39d8cc347fc80102376d7ead5872b711",
+      "current_brep_sha256": "451e06423d33c4b65efd0ef173fcce5c39d8cc347fc80102376d7ead5872b711",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_RockerShaftOnePiece",
+      "baseline_brep_sha256": "2fde2dacf8217974fd35d20d9fe8ab8e14b51ba8e1e67491b30eddf3c4fbac01",
+      "current_brep_sha256": "2fde2dacf8217974fd35d20d9fe8ab8e14b51ba8e1e67491b30eddf3c4fbac01",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_CrankShaftOnePiece",
+      "baseline_brep_sha256": "11034019dcde784f98cdfaa3ee2b35a526c36e734d3316970d824ed7fc39dbde",
+      "current_brep_sha256": "11034019dcde784f98cdfaa3ee2b35a526c36e734d3316970d824ed7fc39dbde",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_DriverGear",
+      "baseline_brep_sha256": "a9b98d4a07ba0c6f6ee11d7a409b472fdff0669d85ae7869162240428de93739",
+      "current_brep_sha256": "a9b98d4a07ba0c6f6ee11d7a409b472fdff0669d85ae7869162240428de93739",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_DriverFlushCrossPin",
+      "baseline_brep_sha256": "3fce778b2eaca2673e945d76ced0d2ff131bdf394bdcb5be81aa1c462e5876ed",
+      "current_brep_sha256": "3fce778b2eaca2673e945d76ced0d2ff131bdf394bdcb5be81aa1c462e5876ed",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_OutputGear",
+      "baseline_brep_sha256": "2c05e13c67f75238e583baf11a8869871b19a89b89d5f312207b49fb18e12026",
+      "current_brep_sha256": "2c05e13c67f75238e583baf11a8869871b19a89b89d5f312207b49fb18e12026",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_OutputFlushCrossPin",
+      "baseline_brep_sha256": "a8d41bca7d8fb208c3f82f5709b73a724cd6b24da6d19086adcdb15e215eafd6",
+      "current_brep_sha256": "a8d41bca7d8fb208c3f82f5709b73a724cd6b24da6d19086adcdb15e215eafd6",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_PivotRearEClip",
+      "baseline_brep_sha256": "ab91eb9d5a1465eaae8b5ba1a9549c8039c70395ce05a22e3e41e24be99d620d",
+      "current_brep_sha256": "ab91eb9d5a1465eaae8b5ba1a9549c8039c70395ce05a22e3e41e24be99d620d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_PivotRearShim",
+      "baseline_brep_sha256": "5dbc7fffb6c1fc6a59787a93a78c997251eddeedc8a90f8753d4e76933f0321e",
+      "current_brep_sha256": "5dbc7fffb6c1fc6a59787a93a78c997251eddeedc8a90f8753d4e76933f0321e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_PivotFrontThrustShim",
+      "baseline_brep_sha256": "87db1e7edb51327fbb2aaa8276af6ad81f033c6fd517dea1627f902844a4a63b",
+      "current_brep_sha256": "87db1e7edb51327fbb2aaa8276af6ad81f033c6fd517dea1627f902844a4a63b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_CrankRearEClip",
+      "baseline_brep_sha256": "c86bae1cace1ca0bc50df2fcad1525caea750b66824e43c8eebf037b205352ba",
+      "current_brep_sha256": "c86bae1cace1ca0bc50df2fcad1525caea750b66824e43c8eebf037b205352ba",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_CrankRearShim",
+      "baseline_brep_sha256": "75b31adcf2529abf21a2828ced70d545b33510704fcd7f031ce4771e9f98dd4b",
+      "current_brep_sha256": "75b31adcf2529abf21a2828ced70d545b33510704fcd7f031ce4771e9f98dd4b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_CrankFrontThrustShim",
+      "baseline_brep_sha256": "69dc84e806876d8ed404c3297fea7e6ea454f62c5dc6beaae998093071d4e3d2",
+      "current_brep_sha256": "69dc84e806876d8ed404c3297fea7e6ea454f62c5dc6beaae998093071d4e3d2",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_CrankShoulderJournal",
+      "baseline_brep_sha256": "8e6bdc695d391d541fb615513f05766f88c2264ee80199774bf640d39a6ef91e",
+      "current_brep_sha256": "8e6bdc695d391d541fb615513f05766f88c2264ee80199774bf640d39a6ef91e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_CrankPinEndScrew",
+      "baseline_brep_sha256": "2d5578a599b509b86c81f338728732559a47e1695259934d39bdb9902df89b27",
+      "current_brep_sha256": "2d5578a599b509b86c81f338728732559a47e1695259934d39bdb9902df89b27",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_CrankPinWasher",
+      "baseline_brep_sha256": "baf113dad933db3a3100209ee2fc39b52340c3d4219d30a52f6b2d36424078de",
+      "current_brep_sha256": "baf113dad933db3a3100209ee2fc39b52340c3d4219d30a52f6b2d36424078de",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_RockerShoulderJournal",
+      "baseline_brep_sha256": "fc2743f34bbba508a08e770637b484e94fc107d3018bb9a326fee81572deda9a",
+      "current_brep_sha256": "fc2743f34bbba508a08e770637b484e94fc107d3018bb9a326fee81572deda9a",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_RockerPinEndScrew",
+      "baseline_brep_sha256": "09ca68c0f86be63b6ef5eed88442812ec0c2aa1a112474096bca7c38e61ca7a4",
+      "current_brep_sha256": "09ca68c0f86be63b6ef5eed88442812ec0c2aa1a112474096bca7c38e61ca7a4",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_RockerPinWasher",
+      "baseline_brep_sha256": "c3e9d6d50e14621fa75b25cfed3843712132b93907ef0ccf6bdb40d30d40d306",
+      "current_brep_sha256": "c3e9d6d50e14621fa75b25cfed3843712132b93907ef0ccf6bdb40d30d40d306",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_POMCoupler",
+      "baseline_brep_sha256": "6fc212b4152ff92c8c1802e20e053f89530d6efd12e4d6c1252960865c8cbf68",
+      "current_brep_sha256": "6fc212b4152ff92c8c1802e20e053f89530d6efd12e4d6c1252960865c8cbf68",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_PickM1_6Screw",
+      "baseline_brep_sha256": "8caf7674ace9bd348477d0170a9d828328f1c0ff80a357595bfe823c68fbc9cb",
+      "current_brep_sha256": "8caf7674ace9bd348477d0170a9d828328f1c0ff80a357595bfe823c68fbc9cb",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_PendulumAssembly",
+      "baseline_brep_sha256": "c981c7afcfab9ce83befce679580e13af82abd662a5fc60a483af29d9a03a405",
+      "current_brep_sha256": "c981c7afcfab9ce83befce679580e13af82abd662a5fc60a483af29d9a03a405",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_PETPick",
+      "baseline_brep_sha256": "8901285d246ec76e98872ba58befeab7dd23e8bb30efd8ca5039e08e39d4027c",
+      "current_brep_sha256": "8901285d246ec76e98872ba58befeab7dd23e8bb30efd8ca5039e08e39d4027c",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V01_ArmClampM2",
+      "baseline_brep_sha256": "ff515de7cd8ce21a95b589478ec582eeb9d48d8e789369137a0d40bf51648f1a",
+      "current_brep_sha256": "ff515de7cd8ce21a95b589478ec582eeb9d48d8e789369137a0d40bf51648f1a",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_RockerShaftOnePiece",
+      "baseline_brep_sha256": "fa11a21a09f7eb0c3c1bfee23e424e63326a77ced70b654753ab4d582a7d9b9b",
+      "current_brep_sha256": "fa11a21a09f7eb0c3c1bfee23e424e63326a77ced70b654753ab4d582a7d9b9b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_CrankShaftOnePiece",
+      "baseline_brep_sha256": "ccbfff5fe9d1ee3083d3b4ecb0c9e5b0ab9ca8960178775fe5a7fbcd688abe93",
+      "current_brep_sha256": "ccbfff5fe9d1ee3083d3b4ecb0c9e5b0ab9ca8960178775fe5a7fbcd688abe93",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_DriverGear",
+      "baseline_brep_sha256": "d69bc890fdbe92cab3daba6055b8b34ae3d67183b2e1fb582dcdb0b61b5d5a78",
+      "current_brep_sha256": "d69bc890fdbe92cab3daba6055b8b34ae3d67183b2e1fb582dcdb0b61b5d5a78",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_DriverFlushCrossPin",
+      "baseline_brep_sha256": "200f1448519f20e272225637587e39ee2b732ac6a95b9a64ac66512e71771bce",
+      "current_brep_sha256": "200f1448519f20e272225637587e39ee2b732ac6a95b9a64ac66512e71771bce",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_OutputGear",
+      "baseline_brep_sha256": "d92141aed3e33721b74774d1438a142c794135753c6eddf3ea8b458b1d1f8673",
+      "current_brep_sha256": "d92141aed3e33721b74774d1438a142c794135753c6eddf3ea8b458b1d1f8673",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_OutputFlushCrossPin",
+      "baseline_brep_sha256": "d825fa98c2d25a0054a62eebddbfe3b93654c06182ee0de4bfb11e166cc0bcfb",
+      "current_brep_sha256": "d825fa98c2d25a0054a62eebddbfe3b93654c06182ee0de4bfb11e166cc0bcfb",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_PivotRearEClip",
+      "baseline_brep_sha256": "970f939fc62da90f1c3aab5aa56e178d95792a94edfff435ff542e6d18d1eab6",
+      "current_brep_sha256": "970f939fc62da90f1c3aab5aa56e178d95792a94edfff435ff542e6d18d1eab6",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_PivotRearShim",
+      "baseline_brep_sha256": "0d9f144ab69339ce97eb776242144d9986c55d3d1a5fb32c0112d112b12ca82d",
+      "current_brep_sha256": "0d9f144ab69339ce97eb776242144d9986c55d3d1a5fb32c0112d112b12ca82d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_PivotFrontThrustShim",
+      "baseline_brep_sha256": "391196317556f30a1682f2bfd35a10c339026220b2f15f5a30786b3dbf29f1fd",
+      "current_brep_sha256": "391196317556f30a1682f2bfd35a10c339026220b2f15f5a30786b3dbf29f1fd",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_CrankRearEClip",
+      "baseline_brep_sha256": "da9fcd53c9d3b3d22296b3a7a4daa16ec945d5b1328f1eb1d3d207ea1229437e",
+      "current_brep_sha256": "da9fcd53c9d3b3d22296b3a7a4daa16ec945d5b1328f1eb1d3d207ea1229437e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_CrankRearShim",
+      "baseline_brep_sha256": "6794791448d3964eae4b754c03499d00ecdca13ea669627692492f61edd0d1b8",
+      "current_brep_sha256": "6794791448d3964eae4b754c03499d00ecdca13ea669627692492f61edd0d1b8",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_CrankFrontThrustShim",
+      "baseline_brep_sha256": "d481d628ca25548ae040520acf2bc4dc6c04a90ec1a41d9601677b12405f57b2",
+      "current_brep_sha256": "d481d628ca25548ae040520acf2bc4dc6c04a90ec1a41d9601677b12405f57b2",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_CrankShoulderJournal",
+      "baseline_brep_sha256": "f9390fd3e751c7623b46daf7a81de8bbc646d738b134007440b685680f8d34dd",
+      "current_brep_sha256": "f9390fd3e751c7623b46daf7a81de8bbc646d738b134007440b685680f8d34dd",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_CrankPinEndScrew",
+      "baseline_brep_sha256": "3c02400b275c5a512f3da2dbc6a528d32601688f93f5b782f6fb9e4ef754c12a",
+      "current_brep_sha256": "3c02400b275c5a512f3da2dbc6a528d32601688f93f5b782f6fb9e4ef754c12a",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_CrankPinWasher",
+      "baseline_brep_sha256": "d19ed4dfba35e49f0b9e20b7df9acdd64c3eb05fe88b3efd56d975ec1006c70d",
+      "current_brep_sha256": "d19ed4dfba35e49f0b9e20b7df9acdd64c3eb05fe88b3efd56d975ec1006c70d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_RockerShoulderJournal",
+      "baseline_brep_sha256": "98f7765f39037ec19f0bfb5038f0b6e7b6eae8b3f3d75ee0e0d6e1a3af265874",
+      "current_brep_sha256": "98f7765f39037ec19f0bfb5038f0b6e7b6eae8b3f3d75ee0e0d6e1a3af265874",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_RockerPinEndScrew",
+      "baseline_brep_sha256": "def4a7490aba9f840c83d8830e5d322a7124d3936651f5808ac3df751881758a",
+      "current_brep_sha256": "def4a7490aba9f840c83d8830e5d322a7124d3936651f5808ac3df751881758a",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_RockerPinWasher",
+      "baseline_brep_sha256": "57da6913fc045cbb87749415abdc229ab83525a5b59e4ce10f9af6a26a49757b",
+      "current_brep_sha256": "57da6913fc045cbb87749415abdc229ab83525a5b59e4ce10f9af6a26a49757b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_POMCoupler",
+      "baseline_brep_sha256": "ebcb68028c6df7163ceac2a57bd5ae77ccec9eff13e3ba6a7a40251dbf569d93",
+      "current_brep_sha256": "ebcb68028c6df7163ceac2a57bd5ae77ccec9eff13e3ba6a7a40251dbf569d93",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_PickM1_6Screw",
+      "baseline_brep_sha256": "2304f2134b27cf5b7fa09c5f96ea6e53dad88afa3d64430ab2d75c36bd5ea8a0",
+      "current_brep_sha256": "2304f2134b27cf5b7fa09c5f96ea6e53dad88afa3d64430ab2d75c36bd5ea8a0",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_PendulumAssembly",
+      "baseline_brep_sha256": "57db185bf2b8ce07b761eccad3a83501dc98e3e04b9f39e0faa621026afb8dc5",
+      "current_brep_sha256": "57db185bf2b8ce07b761eccad3a83501dc98e3e04b9f39e0faa621026afb8dc5",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_PETPick",
+      "baseline_brep_sha256": "0c4f4fce61406e602943fc6450b7307c1136b63016a5c422ee25b4c20652ee8b",
+      "current_brep_sha256": "0c4f4fce61406e602943fc6450b7307c1136b63016a5c422ee25b4c20652ee8b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V02_ArmClampM2",
+      "baseline_brep_sha256": "b3027b17700614b295ff51d1e7d73b5d4437643c260a10853a111fe91171ad54",
+      "current_brep_sha256": "b3027b17700614b295ff51d1e7d73b5d4437643c260a10853a111fe91171ad54",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_RockerShaftOnePiece",
+      "baseline_brep_sha256": "d64c43b435ac3b6bc0c883ae7f9321eb3b3617086ce5575aa776e3165a3bf592",
+      "current_brep_sha256": "d64c43b435ac3b6bc0c883ae7f9321eb3b3617086ce5575aa776e3165a3bf592",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_CrankShaftOnePiece",
+      "baseline_brep_sha256": "b41f810ea04777790c4013d1aa358a7f8a3878af0a070b046bd13325b6751211",
+      "current_brep_sha256": "b41f810ea04777790c4013d1aa358a7f8a3878af0a070b046bd13325b6751211",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_DriverGear",
+      "baseline_brep_sha256": "44f796e196d543dc43dcbd25df5ba8eece43d49f44009fc99ebf16f2f65f55d2",
+      "current_brep_sha256": "44f796e196d543dc43dcbd25df5ba8eece43d49f44009fc99ebf16f2f65f55d2",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_DriverFlushCrossPin",
+      "baseline_brep_sha256": "8856ff350bd8a87a7782a803c97d70963e5aa2a9529769f6ff9074c83f1c435c",
+      "current_brep_sha256": "8856ff350bd8a87a7782a803c97d70963e5aa2a9529769f6ff9074c83f1c435c",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_OutputGear",
+      "baseline_brep_sha256": "88c0ed5320c59e0f7c371db79fd720d490fc30f5b9e881fe3f821b86e584d1f3",
+      "current_brep_sha256": "88c0ed5320c59e0f7c371db79fd720d490fc30f5b9e881fe3f821b86e584d1f3",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_OutputFlushCrossPin",
+      "baseline_brep_sha256": "7af03ef51254d77c32579dce2e4198d55acf6659ba1d1df0d837f0d3194ad877",
+      "current_brep_sha256": "7af03ef51254d77c32579dce2e4198d55acf6659ba1d1df0d837f0d3194ad877",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_PivotRearEClip",
+      "baseline_brep_sha256": "e232ddebc251ffb1c35c1e2402b5623233250dfda934a6a20aa5f55315741eb7",
+      "current_brep_sha256": "e232ddebc251ffb1c35c1e2402b5623233250dfda934a6a20aa5f55315741eb7",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_PivotRearShim",
+      "baseline_brep_sha256": "22184b14803439dc62f97fffdeb463ec4171b69bad91e247bb66b594e04b0098",
+      "current_brep_sha256": "22184b14803439dc62f97fffdeb463ec4171b69bad91e247bb66b594e04b0098",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_PivotFrontThrustShim",
+      "baseline_brep_sha256": "f0557f3c6ae0d9067285f62efa44727d2cc81e07abacf7f2eda1f0633768ef9f",
+      "current_brep_sha256": "f0557f3c6ae0d9067285f62efa44727d2cc81e07abacf7f2eda1f0633768ef9f",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_CrankRearEClip",
+      "baseline_brep_sha256": "e812e98e081a020b6871123c803e120fda18569ec356723fee4384f7c5a6b00a",
+      "current_brep_sha256": "e812e98e081a020b6871123c803e120fda18569ec356723fee4384f7c5a6b00a",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_CrankRearShim",
+      "baseline_brep_sha256": "b18335169f7fb6539ef0bc6454f9b03baf872e269be7bc970416160f724b4dd0",
+      "current_brep_sha256": "b18335169f7fb6539ef0bc6454f9b03baf872e269be7bc970416160f724b4dd0",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_CrankFrontThrustShim",
+      "baseline_brep_sha256": "358276abb4e9d548c3fea26e198ef184c66c269d06c50e5aa498cbe188ad322f",
+      "current_brep_sha256": "358276abb4e9d548c3fea26e198ef184c66c269d06c50e5aa498cbe188ad322f",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_CrankShoulderJournal",
+      "baseline_brep_sha256": "cdcf6e355af9aca772620845014d72422c59470836886c47d7d4b0e159db9978",
+      "current_brep_sha256": "cdcf6e355af9aca772620845014d72422c59470836886c47d7d4b0e159db9978",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_CrankPinEndScrew",
+      "baseline_brep_sha256": "7dd970404c506b1e6de5137ae9c7c8bef15ff5d4c19c1f9e44a847b478c1bf13",
+      "current_brep_sha256": "7dd970404c506b1e6de5137ae9c7c8bef15ff5d4c19c1f9e44a847b478c1bf13",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_CrankPinWasher",
+      "baseline_brep_sha256": "718d7774f6b3a4c38240a004f0d20257b052e3500bab9c061a838ab469f808c6",
+      "current_brep_sha256": "718d7774f6b3a4c38240a004f0d20257b052e3500bab9c061a838ab469f808c6",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_RockerShoulderJournal",
+      "baseline_brep_sha256": "5e6368afc8a72b2276cea18f253f73490a6a37d9cd9e50691a374268b5552fa5",
+      "current_brep_sha256": "5e6368afc8a72b2276cea18f253f73490a6a37d9cd9e50691a374268b5552fa5",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_RockerPinEndScrew",
+      "baseline_brep_sha256": "ce0aace2f9ba5669a9c27f8c0dd4ef63e65b17c7576371fbd0da68a62e06ef63",
+      "current_brep_sha256": "ce0aace2f9ba5669a9c27f8c0dd4ef63e65b17c7576371fbd0da68a62e06ef63",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_RockerPinWasher",
+      "baseline_brep_sha256": "7970fb6123935f145de37c146f78395110f7b7d176fb146646b248f159a84737",
+      "current_brep_sha256": "7970fb6123935f145de37c146f78395110f7b7d176fb146646b248f159a84737",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_POMCoupler",
+      "baseline_brep_sha256": "2c29cb61cbffaa36d8aceb327a3c23bd7ff12bcbd4761b004dcb6b46f3fb803b",
+      "current_brep_sha256": "2c29cb61cbffaa36d8aceb327a3c23bd7ff12bcbd4761b004dcb6b46f3fb803b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_PickM1_6Screw",
+      "baseline_brep_sha256": "68898ca2c727b00059c70ad5c9f1c43c71ad4ac9fd32a9d0470bea2b3ca98a6c",
+      "current_brep_sha256": "68898ca2c727b00059c70ad5c9f1c43c71ad4ac9fd32a9d0470bea2b3ca98a6c",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_PendulumAssembly",
+      "baseline_brep_sha256": "fa0fd90100cdd6ca5b1bad2a79190007d9bf0e837a57c7dd8c96a24ac9c7853f",
+      "current_brep_sha256": "fa0fd90100cdd6ca5b1bad2a79190007d9bf0e837a57c7dd8c96a24ac9c7853f",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_PETPick",
+      "baseline_brep_sha256": "4f4f4d5d49ed9df34fd72cfa46befd327fbab34400d077826b0219937949a265",
+      "current_brep_sha256": "4f4f4d5d49ed9df34fd72cfa46befd327fbab34400d077826b0219937949a265",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V03_ArmClampM2",
+      "baseline_brep_sha256": "0b02da11efd20d44a941c9c93c4b84b2d122eab5c8a131c554e8a68420bc1e51",
+      "current_brep_sha256": "0b02da11efd20d44a941c9c93c4b84b2d122eab5c8a131c554e8a68420bc1e51",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_RockerShaftOnePiece",
+      "baseline_brep_sha256": "2e275ba3d26be9b71bfde8937a8fe0ab71819c8e0637269566577e81f1e18773",
+      "current_brep_sha256": "2e275ba3d26be9b71bfde8937a8fe0ab71819c8e0637269566577e81f1e18773",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_CrankShaftOnePiece",
+      "baseline_brep_sha256": "2c493bebdccf0493a81e31f5dfe030275c8dcf3fbfbc7601932871034bb53b67",
+      "current_brep_sha256": "2c493bebdccf0493a81e31f5dfe030275c8dcf3fbfbc7601932871034bb53b67",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_DriverGear",
+      "baseline_brep_sha256": "a9d9b8e332baf29dbae2f239d325e5dc55b7d7cda5f6f0a7e81ee498bde86411",
+      "current_brep_sha256": "a9d9b8e332baf29dbae2f239d325e5dc55b7d7cda5f6f0a7e81ee498bde86411",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_DriverFlushCrossPin",
+      "baseline_brep_sha256": "8e867de19902d9b856e42de718513dba854e00a80c1d8f9ee097d1886f8b0beb",
+      "current_brep_sha256": "8e867de19902d9b856e42de718513dba854e00a80c1d8f9ee097d1886f8b0beb",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_OutputGear",
+      "baseline_brep_sha256": "e061b0a17392b68e5851481899700238446932888b94c70370f145f42d0c5917",
+      "current_brep_sha256": "e061b0a17392b68e5851481899700238446932888b94c70370f145f42d0c5917",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_OutputFlushCrossPin",
+      "baseline_brep_sha256": "65a399ab1165af7c998193de83bf8444ba09d977f1bba0bfe0b64d527ce65458",
+      "current_brep_sha256": "65a399ab1165af7c998193de83bf8444ba09d977f1bba0bfe0b64d527ce65458",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_PivotRearEClip",
+      "baseline_brep_sha256": "8362e4d34328a589f540daa91d883bf1212c245a84ea54b976ecff711007cb08",
+      "current_brep_sha256": "8362e4d34328a589f540daa91d883bf1212c245a84ea54b976ecff711007cb08",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_PivotRearShim",
+      "baseline_brep_sha256": "6674b21684227ddf78acfdb6379ec981af5e869e52f42e84bda52fe68e0fdc29",
+      "current_brep_sha256": "6674b21684227ddf78acfdb6379ec981af5e869e52f42e84bda52fe68e0fdc29",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_PivotFrontThrustShim",
+      "baseline_brep_sha256": "3675ce9de9c9844c784e8480b72fdb8a33018957523b5b14ba6b451a18016832",
+      "current_brep_sha256": "3675ce9de9c9844c784e8480b72fdb8a33018957523b5b14ba6b451a18016832",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_CrankRearEClip",
+      "baseline_brep_sha256": "5b82e8ad7f6857c6620473125b5c3a1dd021210cdc93ca62f8f738ee1cfcc797",
+      "current_brep_sha256": "5b82e8ad7f6857c6620473125b5c3a1dd021210cdc93ca62f8f738ee1cfcc797",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_CrankRearShim",
+      "baseline_brep_sha256": "239ad43e42d145ba1a9b17f6017140441aa0641c7c041e3528f9267d68f41482",
+      "current_brep_sha256": "239ad43e42d145ba1a9b17f6017140441aa0641c7c041e3528f9267d68f41482",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_CrankFrontThrustShim",
+      "baseline_brep_sha256": "23b1edbc523bc71fb07a0400319083966cfcee9479b1d125d5dadc37c3800d6a",
+      "current_brep_sha256": "23b1edbc523bc71fb07a0400319083966cfcee9479b1d125d5dadc37c3800d6a",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_CrankShoulderJournal",
+      "baseline_brep_sha256": "06c8dfeb3e61341fb2046f7af7b723f33c142033ec3544ced275789cd541e719",
+      "current_brep_sha256": "06c8dfeb3e61341fb2046f7af7b723f33c142033ec3544ced275789cd541e719",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_CrankPinEndScrew",
+      "baseline_brep_sha256": "c6bdc8ef8ddd125946b46c132e6338d4b7127f6da281aeb84a1573cce7819490",
+      "current_brep_sha256": "c6bdc8ef8ddd125946b46c132e6338d4b7127f6da281aeb84a1573cce7819490",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_CrankPinWasher",
+      "baseline_brep_sha256": "11929dfbc6cc396c23e417f85d97e9b683719faf53d0d1cb8cd3de96e0e31918",
+      "current_brep_sha256": "11929dfbc6cc396c23e417f85d97e9b683719faf53d0d1cb8cd3de96e0e31918",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_RockerShoulderJournal",
+      "baseline_brep_sha256": "4054464308e95e1576b5e6062fe49b2f92f295f230d0d71a01f9def777c860dc",
+      "current_brep_sha256": "4054464308e95e1576b5e6062fe49b2f92f295f230d0d71a01f9def777c860dc",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_RockerPinEndScrew",
+      "baseline_brep_sha256": "4a8e7e368a203e192573d1c2c8de0a1bb6ba0b5c04c4c9ffa896e04ea21e1df4",
+      "current_brep_sha256": "4a8e7e368a203e192573d1c2c8de0a1bb6ba0b5c04c4c9ffa896e04ea21e1df4",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_RockerPinWasher",
+      "baseline_brep_sha256": "1df4cd3e3b0d6bcb6652d6d4f9f21185ce6028a9dc846126beaccb75ebd6bd79",
+      "current_brep_sha256": "1df4cd3e3b0d6bcb6652d6d4f9f21185ce6028a9dc846126beaccb75ebd6bd79",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_POMCoupler",
+      "baseline_brep_sha256": "b49a10c55e199f9cc50b400ee5d399ba1dfceed2cc134b1a8a074d65de29e7eb",
+      "current_brep_sha256": "b49a10c55e199f9cc50b400ee5d399ba1dfceed2cc134b1a8a074d65de29e7eb",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_PickM1_6Screw",
+      "baseline_brep_sha256": "68ea456d97d03970bdf4f519356a82432de2a3e9a2e1ac59fa01f49df316b5e3",
+      "current_brep_sha256": "68ea456d97d03970bdf4f519356a82432de2a3e9a2e1ac59fa01f49df316b5e3",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_PendulumAssembly",
+      "baseline_brep_sha256": "d6afd967f4a8e83ec49eaf3c876e3b4a3d2450747bed7a138bf591fb8a468961",
+      "current_brep_sha256": "d6afd967f4a8e83ec49eaf3c876e3b4a3d2450747bed7a138bf591fb8a468961",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_PETPick",
+      "baseline_brep_sha256": "ac778cb784a7f619343bc83e8c7266a842e3e97a8d629245781069a8653dd3b9",
+      "current_brep_sha256": "ac778cb784a7f619343bc83e8c7266a842e3e97a8d629245781069a8653dd3b9",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V04_ArmClampM2",
+      "baseline_brep_sha256": "23bb9d56024f52814d2ea1df3bbf9c52c8070d1a64931e97fb99756270bf2bc3",
+      "current_brep_sha256": "23bb9d56024f52814d2ea1df3bbf9c52c8070d1a64931e97fb99756270bf2bc3",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_RockerShaftOnePiece",
+      "baseline_brep_sha256": "3f37c4460c2e77a71fd29ec6898d09d492c7a0c818522da3fa737f73be0de3bd",
+      "current_brep_sha256": "3f37c4460c2e77a71fd29ec6898d09d492c7a0c818522da3fa737f73be0de3bd",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_CrankShaftOnePiece",
+      "baseline_brep_sha256": "93a0f2d68d1d28c41aa2accc4c38df769dd82a684b78a848563e36f51664aa01",
+      "current_brep_sha256": "93a0f2d68d1d28c41aa2accc4c38df769dd82a684b78a848563e36f51664aa01",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_DriverGear",
+      "baseline_brep_sha256": "358a353aeb91e4f7a245b1a2c49c6355a2277f831695b502a849ed8fbed44643",
+      "current_brep_sha256": "358a353aeb91e4f7a245b1a2c49c6355a2277f831695b502a849ed8fbed44643",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_DriverFlushCrossPin",
+      "baseline_brep_sha256": "236a8e1dc396c05295b1a40338f3f711993b1e16ad530f6d3bca091049521249",
+      "current_brep_sha256": "236a8e1dc396c05295b1a40338f3f711993b1e16ad530f6d3bca091049521249",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_OutputGear",
+      "baseline_brep_sha256": "b514ea7665fce301aac55fcd05307b6cacbfdf2e865bafb061c174b7b0c39124",
+      "current_brep_sha256": "b514ea7665fce301aac55fcd05307b6cacbfdf2e865bafb061c174b7b0c39124",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_OutputFlushCrossPin",
+      "baseline_brep_sha256": "ba7a8f20f64c472fe0bfad62fb7cef21ad9815356b21c59b6f1d085c723f1463",
+      "current_brep_sha256": "ba7a8f20f64c472fe0bfad62fb7cef21ad9815356b21c59b6f1d085c723f1463",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_PivotRearEClip",
+      "baseline_brep_sha256": "6037bcbff0f334ff190784a89f5ef3a770c8318a146b23808c8e3a63e3df3708",
+      "current_brep_sha256": "6037bcbff0f334ff190784a89f5ef3a770c8318a146b23808c8e3a63e3df3708",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_PivotRearShim",
+      "baseline_brep_sha256": "d06a3d3edf02d2126f9d46519ce408d5f7440551ba04c247449a631eb928d580",
+      "current_brep_sha256": "d06a3d3edf02d2126f9d46519ce408d5f7440551ba04c247449a631eb928d580",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_PivotFrontThrustShim",
+      "baseline_brep_sha256": "575e8d6056d34fb4869d2cc29b75e77b115f9f1ffded87ebe494e93ca1f61990",
+      "current_brep_sha256": "575e8d6056d34fb4869d2cc29b75e77b115f9f1ffded87ebe494e93ca1f61990",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_CrankRearEClip",
+      "baseline_brep_sha256": "0297c9757d43ca14374dac6945d42a12134a6a58e6f0cd876035e81a17c82677",
+      "current_brep_sha256": "0297c9757d43ca14374dac6945d42a12134a6a58e6f0cd876035e81a17c82677",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_CrankRearShim",
+      "baseline_brep_sha256": "bb2dea20515102936b7ca222c1e795d1fbd463f2c084586da3dc1f1f843761e1",
+      "current_brep_sha256": "bb2dea20515102936b7ca222c1e795d1fbd463f2c084586da3dc1f1f843761e1",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_CrankFrontThrustShim",
+      "baseline_brep_sha256": "7e2fcaf9ba941f2b35c3f16e41f3420931765757a6e05f6f8aab1f595f3f8eac",
+      "current_brep_sha256": "7e2fcaf9ba941f2b35c3f16e41f3420931765757a6e05f6f8aab1f595f3f8eac",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_CrankShoulderJournal",
+      "baseline_brep_sha256": "2b4d675de17f85e45e56343221868e8bfe00b0925f0424633ed0f326ccc3ebaf",
+      "current_brep_sha256": "2b4d675de17f85e45e56343221868e8bfe00b0925f0424633ed0f326ccc3ebaf",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_CrankPinEndScrew",
+      "baseline_brep_sha256": "f3c2df77eb978784d24a96ec374482289d7db72aff0c9ead5893d088e17c457d",
+      "current_brep_sha256": "f3c2df77eb978784d24a96ec374482289d7db72aff0c9ead5893d088e17c457d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_CrankPinWasher",
+      "baseline_brep_sha256": "fcbf60d05dd3a03aa8eb7f1d12c8f09f648d31c333f533f35f49cca1a8057138",
+      "current_brep_sha256": "fcbf60d05dd3a03aa8eb7f1d12c8f09f648d31c333f533f35f49cca1a8057138",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_RockerShoulderJournal",
+      "baseline_brep_sha256": "cd4261ff07218456acecabea1de1a289cff7139ffd6a4411c96e998f56fda3e1",
+      "current_brep_sha256": "cd4261ff07218456acecabea1de1a289cff7139ffd6a4411c96e998f56fda3e1",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_RockerPinEndScrew",
+      "baseline_brep_sha256": "6f049b91c1f8f2272d5c5df0941f1119b696a917b10aa99c974a6f30a10a9191",
+      "current_brep_sha256": "6f049b91c1f8f2272d5c5df0941f1119b696a917b10aa99c974a6f30a10a9191",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_RockerPinWasher",
+      "baseline_brep_sha256": "607b9e8428165c80ef731d8212b01afe3fef7559110cca9a0925e32e497e7234",
+      "current_brep_sha256": "607b9e8428165c80ef731d8212b01afe3fef7559110cca9a0925e32e497e7234",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_POMCoupler",
+      "baseline_brep_sha256": "a0e3d1234396b1779c03eb668dc5068614bdf9fc855b1864b1a576d2fb7c0ada",
+      "current_brep_sha256": "a0e3d1234396b1779c03eb668dc5068614bdf9fc855b1864b1a576d2fb7c0ada",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_PickM1_6Screw",
+      "baseline_brep_sha256": "ee85e42905663c9aaeca0ab8a8a2a1642caeb04cf384e377a3655d117ec8f84b",
+      "current_brep_sha256": "ee85e42905663c9aaeca0ab8a8a2a1642caeb04cf384e377a3655d117ec8f84b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_PendulumAssembly",
+      "baseline_brep_sha256": "36057d04e75f06aee46ab58bf3bb9fd99fa3104ec78c621c33dddb449d18c691",
+      "current_brep_sha256": "36057d04e75f06aee46ab58bf3bb9fd99fa3104ec78c621c33dddb449d18c691",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_PETPick",
+      "baseline_brep_sha256": "631ba276421fca9c6a23d39cfb7db726933c6aa53ad5ed0e3bedbe8ec265a4dc",
+      "current_brep_sha256": "631ba276421fca9c6a23d39cfb7db726933c6aa53ad5ed0e3bedbe8ec265a4dc",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V05_ArmClampM2",
+      "baseline_brep_sha256": "a427a1fc293d5a63b9f5acf4dad15d81c1e95b09670fe5954fa67924f04ac76e",
+      "current_brep_sha256": "a427a1fc293d5a63b9f5acf4dad15d81c1e95b09670fe5954fa67924f04ac76e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_RockerShaftOnePiece",
+      "baseline_brep_sha256": "be4d5a70f1ae4949b0629d8835fa4ff4dfd5a742a645b9a78eaad5dfaa67bcea",
+      "current_brep_sha256": "be4d5a70f1ae4949b0629d8835fa4ff4dfd5a742a645b9a78eaad5dfaa67bcea",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_CrankShaftOnePiece",
+      "baseline_brep_sha256": "3f27022fa443a3b9f48700814229843bebacc7b6fe2a8578f4b1381d8f3aa6db",
+      "current_brep_sha256": "3f27022fa443a3b9f48700814229843bebacc7b6fe2a8578f4b1381d8f3aa6db",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_DriverGear",
+      "baseline_brep_sha256": "d98c055e3cb1b757dcd5ead86ac2694f297d6e3e904816a22772563d83890221",
+      "current_brep_sha256": "d98c055e3cb1b757dcd5ead86ac2694f297d6e3e904816a22772563d83890221",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_DriverFlushCrossPin",
+      "baseline_brep_sha256": "3dd5ebe2fd156313cdbc4860dee073b56d6cabef56ec7dbf1dfc1237c86522f8",
+      "current_brep_sha256": "3dd5ebe2fd156313cdbc4860dee073b56d6cabef56ec7dbf1dfc1237c86522f8",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_OutputGear",
+      "baseline_brep_sha256": "e15b1d15b0f8865f678723a8fb410fe53d7948d4e64c0c7a4e93aeba75fe173d",
+      "current_brep_sha256": "e15b1d15b0f8865f678723a8fb410fe53d7948d4e64c0c7a4e93aeba75fe173d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_OutputFlushCrossPin",
+      "baseline_brep_sha256": "1b7734c690877865f9205f3ce24be5a1b3070ed130802cdca260d379c603bb45",
+      "current_brep_sha256": "1b7734c690877865f9205f3ce24be5a1b3070ed130802cdca260d379c603bb45",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_PivotRearEClip",
+      "baseline_brep_sha256": "4928cb27e27489fc5e4dd629c01fd4a1278f3a8479dfec1f543d5ba42bfd76fe",
+      "current_brep_sha256": "4928cb27e27489fc5e4dd629c01fd4a1278f3a8479dfec1f543d5ba42bfd76fe",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_PivotRearShim",
+      "baseline_brep_sha256": "e8870fbe6b325e1ba9f6e5fe6bbbfb1759a9c56808bfdaa4c4abfdd6036b6f81",
+      "current_brep_sha256": "e8870fbe6b325e1ba9f6e5fe6bbbfb1759a9c56808bfdaa4c4abfdd6036b6f81",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_PivotFrontThrustShim",
+      "baseline_brep_sha256": "a77ce5548ccb1b6262a411a8426a63f492fc3869b4733a462983d4909d002c08",
+      "current_brep_sha256": "a77ce5548ccb1b6262a411a8426a63f492fc3869b4733a462983d4909d002c08",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_CrankRearEClip",
+      "baseline_brep_sha256": "36670aa03c852e1909625ed53c7c4ad7fe689222da488274169d032f36b97ce1",
+      "current_brep_sha256": "36670aa03c852e1909625ed53c7c4ad7fe689222da488274169d032f36b97ce1",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_CrankRearShim",
+      "baseline_brep_sha256": "c220bae5f72c28e17e43b91d5e6559e4038199db36fcf29484fa06dab28cf1a6",
+      "current_brep_sha256": "c220bae5f72c28e17e43b91d5e6559e4038199db36fcf29484fa06dab28cf1a6",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_CrankFrontThrustShim",
+      "baseline_brep_sha256": "4598148ce3e5c071df003da3037910b47770553cff302d9ffa502d0cbf75e024",
+      "current_brep_sha256": "4598148ce3e5c071df003da3037910b47770553cff302d9ffa502d0cbf75e024",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_CrankShoulderJournal",
+      "baseline_brep_sha256": "77a921d4b193b35625f65b43d4fc030ef616b201aeb643786879bc866ba53573",
+      "current_brep_sha256": "77a921d4b193b35625f65b43d4fc030ef616b201aeb643786879bc866ba53573",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_CrankPinEndScrew",
+      "baseline_brep_sha256": "5024841012196b9cf78cf65784edcb2c5afe2954763d1c7f1bd2244535dfae0f",
+      "current_brep_sha256": "5024841012196b9cf78cf65784edcb2c5afe2954763d1c7f1bd2244535dfae0f",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_CrankPinWasher",
+      "baseline_brep_sha256": "628d43fca4a0ae2301ac097d72ca0b9800dbcf543d83cf2febc057053e960f35",
+      "current_brep_sha256": "628d43fca4a0ae2301ac097d72ca0b9800dbcf543d83cf2febc057053e960f35",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_RockerShoulderJournal",
+      "baseline_brep_sha256": "03ede77dbb9a7d4b6951d8fe3faec4d5188b022cf8d2f5fe27aaafc7b1895cdf",
+      "current_brep_sha256": "03ede77dbb9a7d4b6951d8fe3faec4d5188b022cf8d2f5fe27aaafc7b1895cdf",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_RockerPinEndScrew",
+      "baseline_brep_sha256": "a3e61c86e84609773c1f8799d11bdaeaeee4916327df55f71c5c3330c27d7661",
+      "current_brep_sha256": "a3e61c86e84609773c1f8799d11bdaeaeee4916327df55f71c5c3330c27d7661",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_RockerPinWasher",
+      "baseline_brep_sha256": "e6bcfc322798dd8aede64d09d87d542784328cffd9e4ac00c18652432960ba7f",
+      "current_brep_sha256": "e6bcfc322798dd8aede64d09d87d542784328cffd9e4ac00c18652432960ba7f",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_POMCoupler",
+      "baseline_brep_sha256": "040ab22285fbf177ab9c95a425b51f6ef1ec6cc53a721bf3bd43a9d2a055390f",
+      "current_brep_sha256": "040ab22285fbf177ab9c95a425b51f6ef1ec6cc53a721bf3bd43a9d2a055390f",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_PickM1_6Screw",
+      "baseline_brep_sha256": "2373c3e40e314f3c1873560e81ff9c1c0871e76e4951bd2ee73d20ba3b1584b7",
+      "current_brep_sha256": "2373c3e40e314f3c1873560e81ff9c1c0871e76e4951bd2ee73d20ba3b1584b7",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_PendulumAssembly",
+      "baseline_brep_sha256": "9207f71f1db70a172ac2789d2aeac366923f9dbc9a37ad0ac5725030bdb93bef",
+      "current_brep_sha256": "9207f71f1db70a172ac2789d2aeac366923f9dbc9a37ad0ac5725030bdb93bef",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_PETPick",
+      "baseline_brep_sha256": "acf56dd4b51c2a8fac7eeb59d42e4921390c014711546a8a6171ce04baf75b09",
+      "current_brep_sha256": "acf56dd4b51c2a8fac7eeb59d42e4921390c014711546a8a6171ce04baf75b09",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V06_ArmClampM2",
+      "baseline_brep_sha256": "927836d9ff090218834360fd991b41b73ff6fd54a980c9fe03ae7d4d571aec6e",
+      "current_brep_sha256": "927836d9ff090218834360fd991b41b73ff6fd54a980c9fe03ae7d4d571aec6e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_RockerShaftOnePiece",
+      "baseline_brep_sha256": "3a804696c82090f9bfe3c4eb6e288eec53ad659c86f6f0d35774397006642f85",
+      "current_brep_sha256": "3a804696c82090f9bfe3c4eb6e288eec53ad659c86f6f0d35774397006642f85",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_CrankShaftOnePiece",
+      "baseline_brep_sha256": "cff507cba01906a923c747752a4c133db690233ecd8ac80cee94ca53192fbd66",
+      "current_brep_sha256": "cff507cba01906a923c747752a4c133db690233ecd8ac80cee94ca53192fbd66",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_DriverGear",
+      "baseline_brep_sha256": "e52d35fe05236ca14a089279cbf7c767ac8b66820435acc67e67ab7270424798",
+      "current_brep_sha256": "e52d35fe05236ca14a089279cbf7c767ac8b66820435acc67e67ab7270424798",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_DriverFlushCrossPin",
+      "baseline_brep_sha256": "746b7beb7992fe3b79b111a4cbb00fe7469c28c4d053970e217c6be484dfe90d",
+      "current_brep_sha256": "746b7beb7992fe3b79b111a4cbb00fe7469c28c4d053970e217c6be484dfe90d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_OutputGear",
+      "baseline_brep_sha256": "b3ef78b57450ca79537fcd271f4c83fda90f7a748e8d65b3af780442b3034d2f",
+      "current_brep_sha256": "b3ef78b57450ca79537fcd271f4c83fda90f7a748e8d65b3af780442b3034d2f",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_OutputFlushCrossPin",
+      "baseline_brep_sha256": "f53255a266689ad5c999604b3b5b572473f13392f55c5e27e86ee02772534973",
+      "current_brep_sha256": "f53255a266689ad5c999604b3b5b572473f13392f55c5e27e86ee02772534973",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_PivotRearEClip",
+      "baseline_brep_sha256": "7a9ab292d63917511e5372238e7970ece4a7fb5b6b748b7dd0fc708f2b0047e7",
+      "current_brep_sha256": "7a9ab292d63917511e5372238e7970ece4a7fb5b6b748b7dd0fc708f2b0047e7",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_PivotRearShim",
+      "baseline_brep_sha256": "7f3068e3e54f8a8961fa0b2f32bf12d87b3485cc0ff85cf0236e5fd73a5a177e",
+      "current_brep_sha256": "7f3068e3e54f8a8961fa0b2f32bf12d87b3485cc0ff85cf0236e5fd73a5a177e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_PivotFrontThrustShim",
+      "baseline_brep_sha256": "af457bd94bf8bc58cf5a95ddc9532f9514ba7ae2e0fecbfa58821e23fe410836",
+      "current_brep_sha256": "af457bd94bf8bc58cf5a95ddc9532f9514ba7ae2e0fecbfa58821e23fe410836",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_CrankRearEClip",
+      "baseline_brep_sha256": "c07832f96a926cc9daff13aaa1253452e7770ef735f6f0f5bfafcd941de4b6bb",
+      "current_brep_sha256": "c07832f96a926cc9daff13aaa1253452e7770ef735f6f0f5bfafcd941de4b6bb",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_CrankRearShim",
+      "baseline_brep_sha256": "ebce730b910bb5f420c1f393b22a1b194cfa3db904a560444b8d41176b26c122",
+      "current_brep_sha256": "ebce730b910bb5f420c1f393b22a1b194cfa3db904a560444b8d41176b26c122",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_CrankFrontThrustShim",
+      "baseline_brep_sha256": "e1a1dfae3fa6b1b49edc199c1e0d7880eb7222d7d4d5d8066756e95f3e205fc5",
+      "current_brep_sha256": "e1a1dfae3fa6b1b49edc199c1e0d7880eb7222d7d4d5d8066756e95f3e205fc5",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_CrankShoulderJournal",
+      "baseline_brep_sha256": "20735c36792c4e5e1fa2114ea561f274b5e1444dbaf85c51874abed83cdef08a",
+      "current_brep_sha256": "20735c36792c4e5e1fa2114ea561f274b5e1444dbaf85c51874abed83cdef08a",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_CrankPinEndScrew",
+      "baseline_brep_sha256": "06e75701507c2254d4e78d959cfe6fdb325c3bf3c5d78458de81e0d86c41b057",
+      "current_brep_sha256": "06e75701507c2254d4e78d959cfe6fdb325c3bf3c5d78458de81e0d86c41b057",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_CrankPinWasher",
+      "baseline_brep_sha256": "c81d94db3bcff6c395c01b4112a673cfa8e4c5ab92923ec1972720f3e3b40a89",
+      "current_brep_sha256": "c81d94db3bcff6c395c01b4112a673cfa8e4c5ab92923ec1972720f3e3b40a89",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_RockerShoulderJournal",
+      "baseline_brep_sha256": "a59a4aaf2fdcac94374a941483dfce8ab7ead505bbf9abc176d8d3da65dccaf5",
+      "current_brep_sha256": "a59a4aaf2fdcac94374a941483dfce8ab7ead505bbf9abc176d8d3da65dccaf5",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_RockerPinEndScrew",
+      "baseline_brep_sha256": "d346f3154e1caab9867a0bed15b6f3b3d6a2f390a650a2021f43f4a180825504",
+      "current_brep_sha256": "d346f3154e1caab9867a0bed15b6f3b3d6a2f390a650a2021f43f4a180825504",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_RockerPinWasher",
+      "baseline_brep_sha256": "68fba9ae4edb8a1e92c83e6a96f62c3618a4d30d66bd5a73dc8294f213b63534",
+      "current_brep_sha256": "68fba9ae4edb8a1e92c83e6a96f62c3618a4d30d66bd5a73dc8294f213b63534",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_POMCoupler",
+      "baseline_brep_sha256": "96327c841b4bd1b309d8564baac5a64533dd1c7039c85dc2dbc8f47a84e2b33d",
+      "current_brep_sha256": "96327c841b4bd1b309d8564baac5a64533dd1c7039c85dc2dbc8f47a84e2b33d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_PickM1_6Screw",
+      "baseline_brep_sha256": "e5cb6bca96ffc0b9d6b09a4ccef0cbf7caac5160f544740ee7f36f8cce41216d",
+      "current_brep_sha256": "e5cb6bca96ffc0b9d6b09a4ccef0cbf7caac5160f544740ee7f36f8cce41216d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_PendulumAssembly",
+      "baseline_brep_sha256": "33e88a096cb08437c45fda28c3c3c0ab6fc8fcb15bf06913469be8a0ee3e2e61",
+      "current_brep_sha256": "33e88a096cb08437c45fda28c3c3c0ab6fc8fcb15bf06913469be8a0ee3e2e61",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_PETPick",
+      "baseline_brep_sha256": "3e0b672439a0f7d0ec421b4c4ad5885eff6e99f8c48e68baf81f1eb4924e0956",
+      "current_brep_sha256": "3e0b672439a0f7d0ec421b4c4ad5885eff6e99f8c48e68baf81f1eb4924e0956",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V07_ArmClampM2",
+      "baseline_brep_sha256": "ead17e00236c6e6541c70f74a605cff7cdb8e821b233cb695afd69074d62645d",
+      "current_brep_sha256": "ead17e00236c6e6541c70f74a605cff7cdb8e821b233cb695afd69074d62645d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_RockerShaftOnePiece",
+      "baseline_brep_sha256": "850e0504cf8b419dfe1899dc23bedb2232fea5efdc55b6ac132d987f4ff0e390",
+      "current_brep_sha256": "850e0504cf8b419dfe1899dc23bedb2232fea5efdc55b6ac132d987f4ff0e390",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_CrankShaftOnePiece",
+      "baseline_brep_sha256": "86d10b21e34bca04db4ad8328d246eee21b04a0f26a55eb79c650251ec9cdb0b",
+      "current_brep_sha256": "86d10b21e34bca04db4ad8328d246eee21b04a0f26a55eb79c650251ec9cdb0b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_DriverGear",
+      "baseline_brep_sha256": "0d0d4562316b9c192840438ee5a9d98f86d6233d4d01618c699edc002b995adb",
+      "current_brep_sha256": "0d0d4562316b9c192840438ee5a9d98f86d6233d4d01618c699edc002b995adb",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_DriverFlushCrossPin",
+      "baseline_brep_sha256": "f4b8535317290aab4cfaffec1676b940488f8af6d1a1c6afbfd411a0e7c7e88c",
+      "current_brep_sha256": "f4b8535317290aab4cfaffec1676b940488f8af6d1a1c6afbfd411a0e7c7e88c",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_OutputGear",
+      "baseline_brep_sha256": "ff05bbe4b58b3af7ef3f9c271e8d2ce41952af59ca1ba7ba476b028bde85bf55",
+      "current_brep_sha256": "ff05bbe4b58b3af7ef3f9c271e8d2ce41952af59ca1ba7ba476b028bde85bf55",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_OutputFlushCrossPin",
+      "baseline_brep_sha256": "f24ead883990ef54932f7508962149b6d98dc0e6d088d9090ba66f7f3a591780",
+      "current_brep_sha256": "f24ead883990ef54932f7508962149b6d98dc0e6d088d9090ba66f7f3a591780",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_PivotRearEClip",
+      "baseline_brep_sha256": "f93be735e2b6530ff34364159c9f231b4a554cbb5e8403e7022deaf76cdd694e",
+      "current_brep_sha256": "f93be735e2b6530ff34364159c9f231b4a554cbb5e8403e7022deaf76cdd694e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_PivotRearShim",
+      "baseline_brep_sha256": "d3e26ab1533962a79494c671b0a24fae892d63255e1649f34427239b09ee8f15",
+      "current_brep_sha256": "d3e26ab1533962a79494c671b0a24fae892d63255e1649f34427239b09ee8f15",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_PivotFrontThrustShim",
+      "baseline_brep_sha256": "204a8d14412a4f69cd8f1a6175596f5affdf6a03a67b78dae1f4f8fd1a91e024",
+      "current_brep_sha256": "204a8d14412a4f69cd8f1a6175596f5affdf6a03a67b78dae1f4f8fd1a91e024",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_CrankRearEClip",
+      "baseline_brep_sha256": "575223a62dc4854f5a0531f70a0bed543a4ca7509449b6240c936aae96386309",
+      "current_brep_sha256": "575223a62dc4854f5a0531f70a0bed543a4ca7509449b6240c936aae96386309",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_CrankRearShim",
+      "baseline_brep_sha256": "a665b35b7d442e26b529977690c7414c36f712938a32f3a8b2ee4efdb073c2e3",
+      "current_brep_sha256": "a665b35b7d442e26b529977690c7414c36f712938a32f3a8b2ee4efdb073c2e3",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_CrankFrontThrustShim",
+      "baseline_brep_sha256": "a6d1816e998c4ed63b22ba59567c9932891dde89c07707d6a755b2c142b2ba5e",
+      "current_brep_sha256": "a6d1816e998c4ed63b22ba59567c9932891dde89c07707d6a755b2c142b2ba5e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_CrankShoulderJournal",
+      "baseline_brep_sha256": "eb9496f710f532fd524b3533f3a67dcd03e76c6981e28916e4c9c52e473552e0",
+      "current_brep_sha256": "eb9496f710f532fd524b3533f3a67dcd03e76c6981e28916e4c9c52e473552e0",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_CrankPinEndScrew",
+      "baseline_brep_sha256": "f77a724148271b1c814eb837c6a6c7cc1658921c520df5fa80f4ebfc3afd8fdd",
+      "current_brep_sha256": "f77a724148271b1c814eb837c6a6c7cc1658921c520df5fa80f4ebfc3afd8fdd",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_CrankPinWasher",
+      "baseline_brep_sha256": "79660888f1d751cfdb345f73c5cae283ab96a48243efec72f3229f0ebb21beda",
+      "current_brep_sha256": "79660888f1d751cfdb345f73c5cae283ab96a48243efec72f3229f0ebb21beda",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_RockerShoulderJournal",
+      "baseline_brep_sha256": "7d9da9e7eeb6b8dcec7f4d0a02b1a85d192c68c1c0bffa36b3e2f1d4167ef120",
+      "current_brep_sha256": "7d9da9e7eeb6b8dcec7f4d0a02b1a85d192c68c1c0bffa36b3e2f1d4167ef120",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_RockerPinEndScrew",
+      "baseline_brep_sha256": "3566acc32b214c95ec1aafcc962f9944c2835ece1d77f2d35788a2656ec6f935",
+      "current_brep_sha256": "3566acc32b214c95ec1aafcc962f9944c2835ece1d77f2d35788a2656ec6f935",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_RockerPinWasher",
+      "baseline_brep_sha256": "df75c4515fc31a4ac0275e5a75c831e55425fafdba816d2212bee19db3f4847d",
+      "current_brep_sha256": "df75c4515fc31a4ac0275e5a75c831e55425fafdba816d2212bee19db3f4847d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_POMCoupler",
+      "baseline_brep_sha256": "4389e3e1150084e5d060db071c505b37e7220ee405f907debf41e5a6af97dc21",
+      "current_brep_sha256": "4389e3e1150084e5d060db071c505b37e7220ee405f907debf41e5a6af97dc21",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_PickM1_6Screw",
+      "baseline_brep_sha256": "5f05c8597525be0bfb8541d7ea9984e670663fb479447faa4dfd9b24a104ed37",
+      "current_brep_sha256": "5f05c8597525be0bfb8541d7ea9984e670663fb479447faa4dfd9b24a104ed37",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_PendulumAssembly",
+      "baseline_brep_sha256": "6c9e38a00e4dac636a4d19cee06e502d1adc72e1ed5c99005989bc5944be115d",
+      "current_brep_sha256": "6c9e38a00e4dac636a4d19cee06e502d1adc72e1ed5c99005989bc5944be115d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_PETPick",
+      "baseline_brep_sha256": "f00647627c3bcac4036bfeaf16ba48aa6e687918461f0479e98fbf613b11952d",
+      "current_brep_sha256": "f00647627c3bcac4036bfeaf16ba48aa6e687918461f0479e98fbf613b11952d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V08_ArmClampM2",
+      "baseline_brep_sha256": "d9d8d90381002a2db1ce6a218dad8586d3c285df12c997085a8161d15bd99ff5",
+      "current_brep_sha256": "d9d8d90381002a2db1ce6a218dad8586d3c285df12c997085a8161d15bd99ff5",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_RockerShaftOnePiece",
+      "baseline_brep_sha256": "73dea509f95cf119b67debf4014d9b3e3c5388a367993ab04acfdcb3916181ff",
+      "current_brep_sha256": "73dea509f95cf119b67debf4014d9b3e3c5388a367993ab04acfdcb3916181ff",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_CrankShaftOnePiece",
+      "baseline_brep_sha256": "802f4365e9b36e3cf80325992773214162a39c7da68f14e9d7b6728fd93f768c",
+      "current_brep_sha256": "802f4365e9b36e3cf80325992773214162a39c7da68f14e9d7b6728fd93f768c",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_DriverGear",
+      "baseline_brep_sha256": "237b26264c5781d42316b439ec41c555a6d038583439773db8845c122d7abc24",
+      "current_brep_sha256": "237b26264c5781d42316b439ec41c555a6d038583439773db8845c122d7abc24",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_DriverFlushCrossPin",
+      "baseline_brep_sha256": "79be0527cad88d5b85393039c989fba68ffa7737cda0f77c3144355d11af8042",
+      "current_brep_sha256": "79be0527cad88d5b85393039c989fba68ffa7737cda0f77c3144355d11af8042",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_OutputGear",
+      "baseline_brep_sha256": "4b5e2b7f01c7e79853e4f54c3b37d0c0a975bf2b3108dbeeb44fda5966f37288",
+      "current_brep_sha256": "4b5e2b7f01c7e79853e4f54c3b37d0c0a975bf2b3108dbeeb44fda5966f37288",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_OutputFlushCrossPin",
+      "baseline_brep_sha256": "286832afb0ca0bac3b84f97eccdd99a1e84e5ad0a53c6a70e62b81db1eef70d4",
+      "current_brep_sha256": "286832afb0ca0bac3b84f97eccdd99a1e84e5ad0a53c6a70e62b81db1eef70d4",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_PivotRearEClip",
+      "baseline_brep_sha256": "d8bccaedb0af3e35a75aebb7126478a079cd02d065e0ed7e5d96834577ded27c",
+      "current_brep_sha256": "d8bccaedb0af3e35a75aebb7126478a079cd02d065e0ed7e5d96834577ded27c",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_PivotRearShim",
+      "baseline_brep_sha256": "6959a9af5dd8a45810f595ed81e5e2001e7ee246d1f332c14ee529898b1a840b",
+      "current_brep_sha256": "6959a9af5dd8a45810f595ed81e5e2001e7ee246d1f332c14ee529898b1a840b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_PivotFrontThrustShim",
+      "baseline_brep_sha256": "b91c02d5d49a904c2d33475c9ca40be7933b73a5938b678b5f31af3666335a26",
+      "current_brep_sha256": "b91c02d5d49a904c2d33475c9ca40be7933b73a5938b678b5f31af3666335a26",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_CrankRearEClip",
+      "baseline_brep_sha256": "834408d14cd47460c0dc32c4af839f205e68d6615499851a3f1d44209c5b82dd",
+      "current_brep_sha256": "834408d14cd47460c0dc32c4af839f205e68d6615499851a3f1d44209c5b82dd",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_CrankRearShim",
+      "baseline_brep_sha256": "6e31a46073ef64ee135e5cea238e7a084d3982d4065260e88e838edcaf93deb5",
+      "current_brep_sha256": "6e31a46073ef64ee135e5cea238e7a084d3982d4065260e88e838edcaf93deb5",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_CrankFrontThrustShim",
+      "baseline_brep_sha256": "c30d5021e5236b087b5dff3dbe21627161ff450e081de5a158234118f2650d58",
+      "current_brep_sha256": "c30d5021e5236b087b5dff3dbe21627161ff450e081de5a158234118f2650d58",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_CrankShoulderJournal",
+      "baseline_brep_sha256": "31306fda8eed020744270c67efe2f81dd309c8980528783da403b267552fce23",
+      "current_brep_sha256": "31306fda8eed020744270c67efe2f81dd309c8980528783da403b267552fce23",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_CrankPinEndScrew",
+      "baseline_brep_sha256": "4974beee67775ebbe2d701f72f6c94fdcbff2a1e954fbf82a020578331e2d154",
+      "current_brep_sha256": "4974beee67775ebbe2d701f72f6c94fdcbff2a1e954fbf82a020578331e2d154",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_CrankPinWasher",
+      "baseline_brep_sha256": "c82361f4079a1df6138d1906986ee4c50b9d8bb8e325e233e6b8543d98b81591",
+      "current_brep_sha256": "c82361f4079a1df6138d1906986ee4c50b9d8bb8e325e233e6b8543d98b81591",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_RockerShoulderJournal",
+      "baseline_brep_sha256": "bf39f9aa33842e9f0c37c59fe2b68421c1ab5a65b2826ef6012376d70a835f79",
+      "current_brep_sha256": "bf39f9aa33842e9f0c37c59fe2b68421c1ab5a65b2826ef6012376d70a835f79",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_RockerPinEndScrew",
+      "baseline_brep_sha256": "745a8add9cebbfa3d320d1edadbe02897e3214d009bfb05b8788e5d6a7b79dbb",
+      "current_brep_sha256": "745a8add9cebbfa3d320d1edadbe02897e3214d009bfb05b8788e5d6a7b79dbb",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_RockerPinWasher",
+      "baseline_brep_sha256": "68d51501c89f5119118a180228dcb6b7c7801120c524bc8fce89b2b493d3ee31",
+      "current_brep_sha256": "68d51501c89f5119118a180228dcb6b7c7801120c524bc8fce89b2b493d3ee31",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_POMCoupler",
+      "baseline_brep_sha256": "f5af8cf49566584c81bf0a7b120e332d6538a78e942630391e16b097d14bacdd",
+      "current_brep_sha256": "f5af8cf49566584c81bf0a7b120e332d6538a78e942630391e16b097d14bacdd",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_PickM1_6Screw",
+      "baseline_brep_sha256": "00d81cae3d390224088ca6ea5ec695b45189b933774595b395e15d322e040bbe",
+      "current_brep_sha256": "00d81cae3d390224088ca6ea5ec695b45189b933774595b395e15d322e040bbe",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_PendulumAssembly",
+      "baseline_brep_sha256": "3b5473f98f288b53cdd49b2237a0752ada80fa5bdab9dbe4591dd3d82479626b",
+      "current_brep_sha256": "3b5473f98f288b53cdd49b2237a0752ada80fa5bdab9dbe4591dd3d82479626b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_PETPick",
+      "baseline_brep_sha256": "e24d153447a9ae6cd3d03ca55cf865a9af8cd2a6161eb074c2602c7f54240ebf",
+      "current_brep_sha256": "e24d153447a9ae6cd3d03ca55cf865a9af8cd2a6161eb074c2602c7f54240ebf",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V09_ArmClampM2",
+      "baseline_brep_sha256": "5847990b87e4ba585c8aefec6cbabd4ee9a0059f5c10cca8a0d89163180c04af",
+      "current_brep_sha256": "5847990b87e4ba585c8aefec6cbabd4ee9a0059f5c10cca8a0d89163180c04af",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_RockerShaftOnePiece",
+      "baseline_brep_sha256": "fa325f099a81d19a057034b68003048704b2f13a21facb649fdf408e37b559af",
+      "current_brep_sha256": "fa325f099a81d19a057034b68003048704b2f13a21facb649fdf408e37b559af",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_CrankShaftOnePiece",
+      "baseline_brep_sha256": "be587d6d9f5c1ea9000e86636f81a021e0b2f2e823017cda07631ce32d9ae793",
+      "current_brep_sha256": "be587d6d9f5c1ea9000e86636f81a021e0b2f2e823017cda07631ce32d9ae793",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_DriverGear",
+      "baseline_brep_sha256": "c8d0066c61dfed002c93f312c33bf42902dd459f47dcb29e946d1514265a0c07",
+      "current_brep_sha256": "c8d0066c61dfed002c93f312c33bf42902dd459f47dcb29e946d1514265a0c07",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_DriverFlushCrossPin",
+      "baseline_brep_sha256": "6de1f136985a8b0c6b7f820150ef33e4a9a947d952db1af6bba5f8a091c5aaa0",
+      "current_brep_sha256": "6de1f136985a8b0c6b7f820150ef33e4a9a947d952db1af6bba5f8a091c5aaa0",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_OutputGear",
+      "baseline_brep_sha256": "3c6e5046b2e36df084a0640ad6c5239347ce169e01b0a6f781fae8b37e684200",
+      "current_brep_sha256": "3c6e5046b2e36df084a0640ad6c5239347ce169e01b0a6f781fae8b37e684200",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_OutputFlushCrossPin",
+      "baseline_brep_sha256": "f2f12e6efb010ff396d2f706d676caea874bd17f0bb8e7de8f67b48851ebf046",
+      "current_brep_sha256": "f2f12e6efb010ff396d2f706d676caea874bd17f0bb8e7de8f67b48851ebf046",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_PivotRearEClip",
+      "baseline_brep_sha256": "58fe665aa9db81abad6bc2f43e8b2ed2c3612e747356b308e32865cb75d6d678",
+      "current_brep_sha256": "58fe665aa9db81abad6bc2f43e8b2ed2c3612e747356b308e32865cb75d6d678",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_PivotRearShim",
+      "baseline_brep_sha256": "aa310dc918b723d67f4e3cbacee45fb796d8299617430643fdc05fc319af8b6b",
+      "current_brep_sha256": "aa310dc918b723d67f4e3cbacee45fb796d8299617430643fdc05fc319af8b6b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_PivotFrontThrustShim",
+      "baseline_brep_sha256": "66596aa0bb203fe86eab686e899e200d5867bbaf32346df38fc797b4ec3e5a8e",
+      "current_brep_sha256": "66596aa0bb203fe86eab686e899e200d5867bbaf32346df38fc797b4ec3e5a8e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_CrankRearEClip",
+      "baseline_brep_sha256": "9a93a792137d0afd27f052eb4bc0a067219c481ffb3a8166ac00fc53024c5e12",
+      "current_brep_sha256": "9a93a792137d0afd27f052eb4bc0a067219c481ffb3a8166ac00fc53024c5e12",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_CrankRearShim",
+      "baseline_brep_sha256": "226a9eda251a3496d96b87b4243d9948244db56b6611d2f4f34f72f1cf91fb79",
+      "current_brep_sha256": "226a9eda251a3496d96b87b4243d9948244db56b6611d2f4f34f72f1cf91fb79",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_CrankFrontThrustShim",
+      "baseline_brep_sha256": "8c1215ebb0993bd1e7dad06690d30889637c5bf5e0f9e8d461157e5f8777c815",
+      "current_brep_sha256": "8c1215ebb0993bd1e7dad06690d30889637c5bf5e0f9e8d461157e5f8777c815",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_CrankShoulderJournal",
+      "baseline_brep_sha256": "8110357826469a48547298d83dc18495b2732c720c34bec085d8ee4df6b79088",
+      "current_brep_sha256": "8110357826469a48547298d83dc18495b2732c720c34bec085d8ee4df6b79088",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_CrankPinEndScrew",
+      "baseline_brep_sha256": "39818b2ee5bb3432694b94c263136950167a31627392d80734a245ce1d4b203c",
+      "current_brep_sha256": "39818b2ee5bb3432694b94c263136950167a31627392d80734a245ce1d4b203c",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_CrankPinWasher",
+      "baseline_brep_sha256": "7e0051d28671be844c32e3d9dc5814307898d6eb672755dbeeb00543d8e3213d",
+      "current_brep_sha256": "7e0051d28671be844c32e3d9dc5814307898d6eb672755dbeeb00543d8e3213d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_RockerShoulderJournal",
+      "baseline_brep_sha256": "0b18826f690cb8e61560f345c091f8323ed46616a09c763611dfefd6c4bc380b",
+      "current_brep_sha256": "0b18826f690cb8e61560f345c091f8323ed46616a09c763611dfefd6c4bc380b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_RockerPinEndScrew",
+      "baseline_brep_sha256": "f35874a4342d5cc4522f890f920138ac1806a9f216fa797e13f1bd53fb0a8d24",
+      "current_brep_sha256": "f35874a4342d5cc4522f890f920138ac1806a9f216fa797e13f1bd53fb0a8d24",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_RockerPinWasher",
+      "baseline_brep_sha256": "aae249de1d9fb2646799e3878258e440a75fe32e55ae303590d356802e54f9c9",
+      "current_brep_sha256": "aae249de1d9fb2646799e3878258e440a75fe32e55ae303590d356802e54f9c9",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_POMCoupler",
+      "baseline_brep_sha256": "42a3c69428cc88d852439f72dccafd9910ba2b5995ee7e0a6b3971df5f23f2c6",
+      "current_brep_sha256": "42a3c69428cc88d852439f72dccafd9910ba2b5995ee7e0a6b3971df5f23f2c6",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_PickM1_6Screw",
+      "baseline_brep_sha256": "3ba2fd60580c0a1065f7931b1318c243866009c83b9276c80bb50563a1a35237",
+      "current_brep_sha256": "3ba2fd60580c0a1065f7931b1318c243866009c83b9276c80bb50563a1a35237",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_PendulumAssembly",
+      "baseline_brep_sha256": "0f1371f8423ce482733fa2627a9ed8e7969b45dca962b26d6d14ed6395276bcb",
+      "current_brep_sha256": "0f1371f8423ce482733fa2627a9ed8e7969b45dca962b26d6d14ed6395276bcb",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_PETPick",
+      "baseline_brep_sha256": "76a31fdc2bfd94da1f311bafbb1cb6bd8cbf9ea72214bc4c1afeee2036620044",
+      "current_brep_sha256": "76a31fdc2bfd94da1f311bafbb1cb6bd8cbf9ea72214bc4c1afeee2036620044",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V10_ArmClampM2",
+      "baseline_brep_sha256": "e76c6bd0ef786ad256e7c373f2d416b7b77f65d24b81da28c6200fe58802eb37",
+      "current_brep_sha256": "e76c6bd0ef786ad256e7c373f2d416b7b77f65d24b81da28c6200fe58802eb37",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_RockerShaftOnePiece",
+      "baseline_brep_sha256": "3d38b97098f282c8dc07136046e3487ee9e042efe82fd3ff6df20fa75f800c23",
+      "current_brep_sha256": "3d38b97098f282c8dc07136046e3487ee9e042efe82fd3ff6df20fa75f800c23",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_CrankShaftOnePiece",
+      "baseline_brep_sha256": "47aeea3fad74613fa14a0ff285f864e4df5efbc02643bc8f62a17fbaec54e32e",
+      "current_brep_sha256": "47aeea3fad74613fa14a0ff285f864e4df5efbc02643bc8f62a17fbaec54e32e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_DriverGear",
+      "baseline_brep_sha256": "f945687d0ea1eccdeea2baf4bda7b9fe78957f8490c6a8ef508bb572434cc7cc",
+      "current_brep_sha256": "f945687d0ea1eccdeea2baf4bda7b9fe78957f8490c6a8ef508bb572434cc7cc",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_DriverFlushCrossPin",
+      "baseline_brep_sha256": "26ff3602b77db7aca1bc39df5fed2fcde7aada9e05b3e53bba30a2da17f650b9",
+      "current_brep_sha256": "26ff3602b77db7aca1bc39df5fed2fcde7aada9e05b3e53bba30a2da17f650b9",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_OutputGear",
+      "baseline_brep_sha256": "36ad9760991c6a1cc05fe20700b4c2d10d2afda7d9723f06f34c8a30be1083ef",
+      "current_brep_sha256": "36ad9760991c6a1cc05fe20700b4c2d10d2afda7d9723f06f34c8a30be1083ef",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_OutputFlushCrossPin",
+      "baseline_brep_sha256": "589f9f31cfebe776e7f51f03050414973427be0f5d53aff82dc1c5a93f1ce659",
+      "current_brep_sha256": "589f9f31cfebe776e7f51f03050414973427be0f5d53aff82dc1c5a93f1ce659",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_PivotRearEClip",
+      "baseline_brep_sha256": "734889b61d0dfd6bc2bd73b52b1fd0c6765ad5429a2615d519e16fa705d6a91f",
+      "current_brep_sha256": "734889b61d0dfd6bc2bd73b52b1fd0c6765ad5429a2615d519e16fa705d6a91f",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_PivotRearShim",
+      "baseline_brep_sha256": "35d1af0ead12f2cc4b996824e080cf737a791083f81791527d887f3cac2fd2b2",
+      "current_brep_sha256": "35d1af0ead12f2cc4b996824e080cf737a791083f81791527d887f3cac2fd2b2",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_PivotFrontThrustShim",
+      "baseline_brep_sha256": "abbe7f448e74fad532475d17a86d17168051e0692727798c2e15fd5ba9a7181a",
+      "current_brep_sha256": "abbe7f448e74fad532475d17a86d17168051e0692727798c2e15fd5ba9a7181a",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_CrankRearEClip",
+      "baseline_brep_sha256": "320deab720380713b7742300ed7c1b605662b7de9d6d51d718c45205cc0364a8",
+      "current_brep_sha256": "320deab720380713b7742300ed7c1b605662b7de9d6d51d718c45205cc0364a8",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_CrankRearShim",
+      "baseline_brep_sha256": "53568b18ebc8552097879ec3b25baf8f67d952d056e93150f141ededef999582",
+      "current_brep_sha256": "53568b18ebc8552097879ec3b25baf8f67d952d056e93150f141ededef999582",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_CrankFrontThrustShim",
+      "baseline_brep_sha256": "c7852d5cbcbae97bdeb7b40c45245d7b0e5e5a949284d8aff01637b0aa545650",
+      "current_brep_sha256": "c7852d5cbcbae97bdeb7b40c45245d7b0e5e5a949284d8aff01637b0aa545650",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_CrankShoulderJournal",
+      "baseline_brep_sha256": "a069011dbc1c31ed1e89f939be489dd00d9281ff4d05a3602f1d7eaaace7d815",
+      "current_brep_sha256": "a069011dbc1c31ed1e89f939be489dd00d9281ff4d05a3602f1d7eaaace7d815",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_CrankPinEndScrew",
+      "baseline_brep_sha256": "c7b37d8b18a388d8cf1c201ced55ed34e69767285b201a1be0bbc6530eac570b",
+      "current_brep_sha256": "c7b37d8b18a388d8cf1c201ced55ed34e69767285b201a1be0bbc6530eac570b",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_CrankPinWasher",
+      "baseline_brep_sha256": "d6ac6eb24491390375c4c1abeab9272c8ecac8822710b4c693c389132c2e64a7",
+      "current_brep_sha256": "d6ac6eb24491390375c4c1abeab9272c8ecac8822710b4c693c389132c2e64a7",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_RockerShoulderJournal",
+      "baseline_brep_sha256": "3a330479bd8e4bb95ae74a506acd2ccf15fb5be5679451a36477f564857c4779",
+      "current_brep_sha256": "3a330479bd8e4bb95ae74a506acd2ccf15fb5be5679451a36477f564857c4779",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_RockerPinEndScrew",
+      "baseline_brep_sha256": "49a0c337f5968da98a8782aa59107f1c97d66700e179ea4c710794af33f01789",
+      "current_brep_sha256": "49a0c337f5968da98a8782aa59107f1c97d66700e179ea4c710794af33f01789",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_RockerPinWasher",
+      "baseline_brep_sha256": "93f0d4ee51f9a9fc76d4cedff02277cc3527830cc6c9d1b46a85a8396b759bc0",
+      "current_brep_sha256": "93f0d4ee51f9a9fc76d4cedff02277cc3527830cc6c9d1b46a85a8396b759bc0",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_POMCoupler",
+      "baseline_brep_sha256": "13b6bc77807fd49787a1171cca520586bdde9d8678cf90d992095496a7266d14",
+      "current_brep_sha256": "13b6bc77807fd49787a1171cca520586bdde9d8678cf90d992095496a7266d14",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_PickM1_6Screw",
+      "baseline_brep_sha256": "79e063579547a8005170823dcaf8e6e00dc6b02ed93782257587e838b16bb393",
+      "current_brep_sha256": "79e063579547a8005170823dcaf8e6e00dc6b02ed93782257587e838b16bb393",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_PendulumAssembly",
+      "baseline_brep_sha256": "adbaca8164b7876a50924016af8f2fc530570771afa1854106195516a1ff3ef7",
+      "current_brep_sha256": "adbaca8164b7876a50924016af8f2fc530570771afa1854106195516a1ff3ef7",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_PETPick",
+      "baseline_brep_sha256": "43141d2f9bcc55b28cd3967c28aa77b6ae0c75a05ca4eb09ca280a18367ab7ab",
+      "current_brep_sha256": "43141d2f9bcc55b28cd3967c28aa77b6ae0c75a05ca4eb09ca280a18367ab7ab",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V11_ArmClampM2",
+      "baseline_brep_sha256": "61ffab263fb2cb5ee51f3cc2557e469f83823117d0da64785561be7e44534747",
+      "current_brep_sha256": "61ffab263fb2cb5ee51f3cc2557e469f83823117d0da64785561be7e44534747",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_RockerShaftOnePiece",
+      "baseline_brep_sha256": "54393ac2f1ea9e1f5353edcc4381ff4a6296e15d0e94a27529d5cb9f68ddd743",
+      "current_brep_sha256": "54393ac2f1ea9e1f5353edcc4381ff4a6296e15d0e94a27529d5cb9f68ddd743",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_CrankShaftOnePiece",
+      "baseline_brep_sha256": "baaf7ca2013cba945370afb243a811a81bad144a44819bf7ccb7bdf6d0a5c52e",
+      "current_brep_sha256": "baaf7ca2013cba945370afb243a811a81bad144a44819bf7ccb7bdf6d0a5c52e",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_DriverGear",
+      "baseline_brep_sha256": "8e022e118596561e271a3ce53c1b77a40ed36d76f3c0ea63a67e33d297d844a8",
+      "current_brep_sha256": "8e022e118596561e271a3ce53c1b77a40ed36d76f3c0ea63a67e33d297d844a8",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_DriverFlushCrossPin",
+      "baseline_brep_sha256": "460311202ba8ad9c6425303507e3cb1fa73242ac7d5b88e5072ae231ea2882e3",
+      "current_brep_sha256": "460311202ba8ad9c6425303507e3cb1fa73242ac7d5b88e5072ae231ea2882e3",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_OutputGear",
+      "baseline_brep_sha256": "96569baa6bf7153edb31a22188d7e5d00eff7b9db24d89bd5d04d1d025652a78",
+      "current_brep_sha256": "96569baa6bf7153edb31a22188d7e5d00eff7b9db24d89bd5d04d1d025652a78",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_OutputFlushCrossPin",
+      "baseline_brep_sha256": "cc5f8e44ee55bca1bfcf185ac7bbc15f178f9a5fc6df0618930892a15d5ead4d",
+      "current_brep_sha256": "cc5f8e44ee55bca1bfcf185ac7bbc15f178f9a5fc6df0618930892a15d5ead4d",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_PivotRearEClip",
+      "baseline_brep_sha256": "aa50495b3b05601ba5247dc9277123bed509e689e548a1662ce17ae314f654e0",
+      "current_brep_sha256": "aa50495b3b05601ba5247dc9277123bed509e689e548a1662ce17ae314f654e0",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_PivotRearShim",
+      "baseline_brep_sha256": "4dcab8dacb6df7e4d7754d283020b1e52147a6531d84467367d17a0f5d73ce4c",
+      "current_brep_sha256": "4dcab8dacb6df7e4d7754d283020b1e52147a6531d84467367d17a0f5d73ce4c",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_PivotFrontThrustShim",
+      "baseline_brep_sha256": "e2d3f6782abb9e06e200e44c634fef460bd7fa12ebcee80cd69292fa801b9d0a",
+      "current_brep_sha256": "e2d3f6782abb9e06e200e44c634fef460bd7fa12ebcee80cd69292fa801b9d0a",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_CrankRearEClip",
+      "baseline_brep_sha256": "58f2116ddf73c62fe7800d7051719b64deca61e2e0f53246936a521a3cce41b4",
+      "current_brep_sha256": "58f2116ddf73c62fe7800d7051719b64deca61e2e0f53246936a521a3cce41b4",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_CrankRearShim",
+      "baseline_brep_sha256": "37511e781af0078d68db4e40173444e3225458e17c4e784d1bbf74a1ea5b1092",
+      "current_brep_sha256": "37511e781af0078d68db4e40173444e3225458e17c4e784d1bbf74a1ea5b1092",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_CrankFrontThrustShim",
+      "baseline_brep_sha256": "c7c15f9c144254bb439d67c1d5cdc70b2006ea6571f8434baf0f0325322af687",
+      "current_brep_sha256": "c7c15f9c144254bb439d67c1d5cdc70b2006ea6571f8434baf0f0325322af687",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_CrankShoulderJournal",
+      "baseline_brep_sha256": "fc17254e593ee5c31c7769790bf8933ff567f5f1eb7affe5f13e9bee9bb7e600",
+      "current_brep_sha256": "fc17254e593ee5c31c7769790bf8933ff567f5f1eb7affe5f13e9bee9bb7e600",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_CrankPinEndScrew",
+      "baseline_brep_sha256": "9facd3660931607a51a3e80096e505ea145b2b8c0d5d78d6a587afa71fe31e64",
+      "current_brep_sha256": "9facd3660931607a51a3e80096e505ea145b2b8c0d5d78d6a587afa71fe31e64",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_CrankPinWasher",
+      "baseline_brep_sha256": "88529cd28f65886e396a79e3e98328251b89bce6d71c45667bacc949987ba296",
+      "current_brep_sha256": "88529cd28f65886e396a79e3e98328251b89bce6d71c45667bacc949987ba296",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_RockerShoulderJournal",
+      "baseline_brep_sha256": "488238f92644aa98993bd6eacd05201a71806b4cc0de247dc5eb3dbc85832a0f",
+      "current_brep_sha256": "488238f92644aa98993bd6eacd05201a71806b4cc0de247dc5eb3dbc85832a0f",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_RockerPinEndScrew",
+      "baseline_brep_sha256": "88f20de0bc1eade3e9c8216a8f86a5a236280d333a266036cc54f951af89a7ad",
+      "current_brep_sha256": "88f20de0bc1eade3e9c8216a8f86a5a236280d333a266036cc54f951af89a7ad",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_RockerPinWasher",
+      "baseline_brep_sha256": "7ab82b2d7a3b40badae74b5750572922ae2dbc6686636f5e640d42d7ebdf8c61",
+      "current_brep_sha256": "7ab82b2d7a3b40badae74b5750572922ae2dbc6686636f5e640d42d7ebdf8c61",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_POMCoupler",
+      "baseline_brep_sha256": "a9428475c1049bdc30889c129213b1cf9de4596964de0adff81cb33250df0755",
+      "current_brep_sha256": "a9428475c1049bdc30889c129213b1cf9de4596964de0adff81cb33250df0755",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_PickM1_6Screw",
+      "baseline_brep_sha256": "23610d921a870f18fbc203e40d6bf59ea06cbae6b90559813288556aa016b8f9",
+      "current_brep_sha256": "23610d921a870f18fbc203e40d6bf59ea06cbae6b90559813288556aa016b8f9",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_PendulumAssembly",
+      "baseline_brep_sha256": "45b6702cfbb37314ce2524b4d22ca02891ed8812315621a561a9610bbff510b5",
+      "current_brep_sha256": "45b6702cfbb37314ce2524b4d22ca02891ed8812315621a561a9610bbff510b5",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_PETPick",
+      "baseline_brep_sha256": "1ff413ad03406b2fd7caef173801b3ce4ef70e180d0af2fe45aafbaa260c6351",
+      "current_brep_sha256": "1ff413ad03406b2fd7caef173801b3ce4ef70e180d0af2fe45aafbaa260c6351",
+      "geometrically_identical": true
+    },
+    {
+      "name": "V12_ArmClampM2",
+      "baseline_brep_sha256": "e62d35739daaff3a3ad50553f7a2cf572653e2482a3074a7b1b70e94f4e54466",
+      "current_brep_sha256": "e62d35739daaff3a3ad50553f7a2cf572653e2482a3074a7b1b70e94f4e54466",
+      "geometrically_identical": true
+    }
+  ],
+  "unchanged_part_names": [
+    "Soundboard_355x178x3",
+    "RemovableBottom_355x178x3",
+    "SoundboxWalls_6mm",
+    "RubberFoot",
+    "RubberFoot001",
+    "RubberFoot002",
+    "RubberFoot003",
+    "LeftSaddlePedestal",
+    "RightNutPedestal",
+    "TwelveStringAnchorBar",
+    "AnchorBarSideScrew",
+    "AnchorBarSideScrew001",
+    "V01_NylonString",
+    "V01_ThirdBridge",
+    "V01_AnchorStopperKnot",
+    "V01_TunerStopperKnot",
+    "V02_NylonString",
+    "V02_ThirdBridge",
+    "V02_AnchorStopperKnot",
+    "V02_TunerStopperKnot",
+    "V03_NylonString",
+    "V03_ThirdBridge",
+    "V03_AnchorStopperKnot",
+    "V03_TunerStopperKnot",
+    "V04_NylonString",
+    "V04_ThirdBridge",
+    "V04_AnchorStopperKnot",
+    "V04_TunerStopperKnot",
+    "V05_NylonString",
+    "V05_ThirdBridge",
+    "V05_AnchorStopperKnot",
+    "V05_TunerStopperKnot",
+    "V06_NylonString",
+    "V06_ThirdBridge",
+    "V06_AnchorStopperKnot",
+    "V06_TunerStopperKnot",
+    "V07_NylonString",
+    "V07_ThirdBridge",
+    "V07_AnchorStopperKnot",
+    "V07_TunerStopperKnot",
+    "V08_NylonString",
+    "V08_ThirdBridge",
+    "V08_AnchorStopperKnot",
+    "V08_TunerStopperKnot",
+    "V09_NylonString",
+    "V09_ThirdBridge",
+    "V09_AnchorStopperKnot",
+    "V09_TunerStopperKnot",
+    "V10_NylonString",
+    "V10_ThirdBridge",
+    "V10_AnchorStopperKnot",
+    "V10_TunerStopperKnot",
+    "V11_NylonString",
+    "V11_ThirdBridge",
+    "V11_AnchorStopperKnot",
+    "V11_TunerStopperKnot",
+    "V12_NylonString",
+    "V12_ThirdBridge",
+    "V12_AnchorStopperKnot",
+    "V12_TunerStopperKnot",
+    "LowerBackSaddleGrooved",
+    "SpeakingEndNutGrooved",
+    "TunerMountSpacer",
+    "TunerMountM3Screw",
+    "TunerMountSpacer001",
+    "TunerMountM3Screw001",
+    "TunerMountSpacer002",
+    "TunerMountM3Screw002",
+    "TunerMountSpacer003",
+    "TunerMountM3Screw003",
+    "SlottedTensionerAngle",
+    "V01_TunerCarriage",
+    "V01_CapturedM4Nut",
+    "V01_M4TensionScrew",
+    "V01_TensionThrustWasher",
+    "V01_TensionJamNut",
+    "V01_TensionJamNut001",
+    "V02_TunerCarriage",
+    "V02_CapturedM4Nut",
+    "V02_M4TensionScrew",
+    "V02_TensionThrustWasher",
+    "V02_TensionJamNut",
+    "V02_TensionJamNut001",
+    "V03_TunerCarriage",
+    "V03_CapturedM4Nut",
+    "V03_M4TensionScrew",
+    "V03_TensionThrustWasher",
+    "V03_TensionJamNut",
+    "V03_TensionJamNut001",
+    "V04_TunerCarriage",
+    "V04_CapturedM4Nut",
+    "V04_M4TensionScrew",
+    "V04_TensionThrustWasher",
+    "V04_TensionJamNut",
+    "V04_TensionJamNut001",
+    "V05_TunerCarriage",
+    "V05_CapturedM4Nut",
+    "V05_M4TensionScrew",
+    "V05_TensionThrustWasher",
+    "V05_TensionJamNut",
+    "V05_TensionJamNut001",
+    "V06_TunerCarriage",
+    "V06_CapturedM4Nut",
+    "V06_M4TensionScrew",
+    "V06_TensionThrustWasher",
+    "V06_TensionJamNut",
+    "V06_TensionJamNut001",
+    "V07_TunerCarriage",
+    "V07_CapturedM4Nut",
+    "V07_M4TensionScrew",
+    "V07_TensionThrustWasher",
+    "V07_TensionJamNut",
+    "V07_TensionJamNut001",
+    "V08_TunerCarriage",
+    "V08_CapturedM4Nut",
+    "V08_M4TensionScrew",
+    "V08_TensionThrustWasher",
+    "V08_TensionJamNut",
+    "V08_TensionJamNut001",
+    "V09_TunerCarriage",
+    "V09_CapturedM4Nut",
+    "V09_M4TensionScrew",
+    "V09_TensionThrustWasher",
+    "V09_TensionJamNut",
+    "V09_TensionJamNut001",
+    "V10_TunerCarriage",
+    "V10_CapturedM4Nut",
+    "V10_M4TensionScrew",
+    "V10_TensionThrustWasher",
+    "V10_TensionJamNut",
+    "V10_TensionJamNut001",
+    "V11_TunerCarriage",
+    "V11_CapturedM4Nut",
+    "V11_M4TensionScrew",
+    "V11_TensionThrustWasher",
+    "V11_TensionJamNut",
+    "V11_TensionJamNut001",
+    "V12_TunerCarriage",
+    "V12_CapturedM4Nut",
+    "V12_M4TensionScrew",
+    "V12_TensionThrustWasher",
+    "V12_TensionJamNut",
+    "V12_TensionJamNut001",
+    "FrameWallM3Screw",
+    "FrameWallM3Nut",
+    "FrameWallM3Screw001",
+    "FrameWallM3Nut001",
+    "FrameWallM3Screw002",
+    "FrameWallM3Nut002",
+    "FrameWallM3Screw003",
+    "FrameWallM3Nut003",
+    "FrameWallM3Screw004",
+    "FrameWallM3Nut004",
+    "FrameWallM3Screw005",
+    "FrameWallM3Nut005",
+    "FrameWallM3Screw006",
+    "FrameWallM3Nut006",
+    "FrameWallM3Screw007",
+    "FrameWallM3Nut007",
+    "WeldedRearFrame_8x1Tube",
+    "Input105Bearing_16",
+    "InputRailClampM2_16",
+    "Input105Bearing_112",
+    "InputRailClampM2_112",
+    "Input105Bearing_208",
+    "InputRailClampM2_208",
+    "Input105Bearing_320",
+    "InputRailClampM2_320",
+    "Common5mmInputShaft",
+    "HandInputWheelWithHub",
+    "HandWheelFlushPin",
+    "InputRearPinnedCollar",
+    "InputRearCollarFlushPin",
+    "InputRearThrustShim",
+    "InputFrontThrustShim",
+    "V01_RailLock0",
+    "V01_683Bearing_0_0",
+    "V01_683Bearing_0_1",
+    "V01_RailLock1",
+    "V01_683Bearing_1_0",
+    "V01_683Bearing_1_1",
+    "V01_M2Standoff",
+    "V01_StandoffShim",
+    "V01_CarrierM2CSKScrew",
+    "V01_CarrierM2CSKScrew001",
+    "V01_M2Standoff001",
+    "V01_StandoffShim001",
+    "V01_CarrierM2CSKScrew002",
+    "V01_CarrierM2CSKScrew003",
+    "V01_RockerShaftOnePiece",
+    "V01_CrankShaftOnePiece",
+    "V01_DriverGear",
+    "V01_DriverFlushCrossPin",
+    "V01_OutputGear",
+    "V01_OutputFlushCrossPin",
+    "V01_PivotRearEClip",
+    "V01_PivotRearShim",
+    "V01_PivotFrontThrustShim",
+    "V01_CrankRearEClip",
+    "V01_CrankRearShim",
+    "V01_CrankFrontThrustShim",
+    "V01_CrankShoulderJournal",
+    "V01_CrankPinEndScrew",
+    "V01_CrankPinWasher",
+    "V01_RockerShoulderJournal",
+    "V01_RockerPinEndScrew",
+    "V01_RockerPinWasher",
+    "V01_POMCoupler",
+    "V01_PickM1_6Screw",
+    "V01_PendulumAssembly",
+    "V01_PETPick",
+    "V01_ArmClampM2",
+    "V02_RailLock0",
+    "V02_683Bearing_0_0",
+    "V02_683Bearing_0_1",
+    "V02_RailLock1",
+    "V02_683Bearing_1_0",
+    "V02_683Bearing_1_1",
+    "V02_M2Standoff",
+    "V02_StandoffShim",
+    "V02_CarrierM2CSKScrew",
+    "V02_CarrierM2CSKScrew001",
+    "V02_M2Standoff001",
+    "V02_StandoffShim001",
+    "V02_CarrierM2CSKScrew002",
+    "V02_CarrierM2CSKScrew003",
+    "V02_RockerShaftOnePiece",
+    "V02_CrankShaftOnePiece",
+    "V02_DriverGear",
+    "V02_DriverFlushCrossPin",
+    "V02_OutputGear",
+    "V02_OutputFlushCrossPin",
+    "V02_PivotRearEClip",
+    "V02_PivotRearShim",
+    "V02_PivotFrontThrustShim",
+    "V02_CrankRearEClip",
+    "V02_CrankRearShim",
+    "V02_CrankFrontThrustShim",
+    "V02_CrankShoulderJournal",
+    "V02_CrankPinEndScrew",
+    "V02_CrankPinWasher",
+    "V02_RockerShoulderJournal",
+    "V02_RockerPinEndScrew",
+    "V02_RockerPinWasher",
+    "V02_POMCoupler",
+    "V02_PickM1_6Screw",
+    "V02_PendulumAssembly",
+    "V02_PETPick",
+    "V02_ArmClampM2",
+    "V03_RailLock0",
+    "V03_683Bearing_0_0",
+    "V03_683Bearing_0_1",
+    "V03_RailLock1",
+    "V03_683Bearing_1_0",
+    "V03_683Bearing_1_1",
+    "V03_M2Standoff",
+    "V03_StandoffShim",
+    "V03_CarrierM2CSKScrew",
+    "V03_CarrierM2CSKScrew001",
+    "V03_M2Standoff001",
+    "V03_StandoffShim001",
+    "V03_CarrierM2CSKScrew002",
+    "V03_CarrierM2CSKScrew003",
+    "V03_RockerShaftOnePiece",
+    "V03_CrankShaftOnePiece",
+    "V03_DriverGear",
+    "V03_DriverFlushCrossPin",
+    "V03_OutputGear",
+    "V03_OutputFlushCrossPin",
+    "V03_PivotRearEClip",
+    "V03_PivotRearShim",
+    "V03_PivotFrontThrustShim",
+    "V03_CrankRearEClip",
+    "V03_CrankRearShim",
+    "V03_CrankFrontThrustShim",
+    "V03_CrankShoulderJournal",
+    "V03_CrankPinEndScrew",
+    "V03_CrankPinWasher",
+    "V03_RockerShoulderJournal",
+    "V03_RockerPinEndScrew",
+    "V03_RockerPinWasher",
+    "V03_POMCoupler",
+    "V03_PickM1_6Screw",
+    "V03_PendulumAssembly",
+    "V03_PETPick",
+    "V03_ArmClampM2",
+    "V04_RailLock0",
+    "V04_683Bearing_0_0",
+    "V04_683Bearing_0_1",
+    "V04_RailLock1",
+    "V04_683Bearing_1_0",
+    "V04_683Bearing_1_1",
+    "V04_M2Standoff",
+    "V04_StandoffShim",
+    "V04_CarrierM2CSKScrew",
+    "V04_CarrierM2CSKScrew001",
+    "V04_M2Standoff001",
+    "V04_StandoffShim001",
+    "V04_CarrierM2CSKScrew002",
+    "V04_CarrierM2CSKScrew003",
+    "V04_RockerShaftOnePiece",
+    "V04_CrankShaftOnePiece",
+    "V04_DriverGear",
+    "V04_DriverFlushCrossPin",
+    "V04_OutputGear",
+    "V04_OutputFlushCrossPin",
+    "V04_PivotRearEClip",
+    "V04_PivotRearShim",
+    "V04_PivotFrontThrustShim",
+    "V04_CrankRearEClip",
+    "V04_CrankRearShim",
+    "V04_CrankFrontThrustShim",
+    "V04_CrankShoulderJournal",
+    "V04_CrankPinEndScrew",
+    "V04_CrankPinWasher",
+    "V04_RockerShoulderJournal",
+    "V04_RockerPinEndScrew",
+    "V04_RockerPinWasher",
+    "V04_POMCoupler",
+    "V04_PickM1_6Screw",
+    "V04_PendulumAssembly",
+    "V04_PETPick",
+    "V04_ArmClampM2",
+    "V05_RailLock0",
+    "V05_683Bearing_0_0",
+    "V05_683Bearing_0_1",
+    "V05_RailLock1",
+    "V05_683Bearing_1_0",
+    "V05_683Bearing_1_1",
+    "V05_M2Standoff",
+    "V05_StandoffShim",
+    "V05_CarrierM2CSKScrew",
+    "V05_CarrierM2CSKScrew001",
+    "V05_M2Standoff001",
+    "V05_StandoffShim001",
+    "V05_CarrierM2CSKScrew002",
+    "V05_CarrierM2CSKScrew003",
+    "V05_RockerShaftOnePiece",
+    "V05_CrankShaftOnePiece",
+    "V05_DriverGear",
+    "V05_DriverFlushCrossPin",
+    "V05_OutputGear",
+    "V05_OutputFlushCrossPin",
+    "V05_PivotRearEClip",
+    "V05_PivotRearShim",
+    "V05_PivotFrontThrustShim",
+    "V05_CrankRearEClip",
+    "V05_CrankRearShim",
+    "V05_CrankFrontThrustShim",
+    "V05_CrankShoulderJournal",
+    "V05_CrankPinEndScrew",
+    "V05_CrankPinWasher",
+    "V05_RockerShoulderJournal",
+    "V05_RockerPinEndScrew",
+    "V05_RockerPinWasher",
+    "V05_POMCoupler",
+    "V05_PickM1_6Screw",
+    "V05_PendulumAssembly",
+    "V05_PETPick",
+    "V05_ArmClampM2",
+    "V06_RailLock0",
+    "V06_683Bearing_0_0",
+    "V06_683Bearing_0_1",
+    "V06_RailLock1",
+    "V06_683Bearing_1_0",
+    "V06_683Bearing_1_1",
+    "V06_M2Standoff",
+    "V06_StandoffShim",
+    "V06_CarrierM2CSKScrew",
+    "V06_CarrierM2CSKScrew001",
+    "V06_M2Standoff001",
+    "V06_StandoffShim001",
+    "V06_CarrierM2CSKScrew002",
+    "V06_CarrierM2CSKScrew003",
+    "V06_RockerShaftOnePiece",
+    "V06_CrankShaftOnePiece",
+    "V06_DriverGear",
+    "V06_DriverFlushCrossPin",
+    "V06_OutputGear",
+    "V06_OutputFlushCrossPin",
+    "V06_PivotRearEClip",
+    "V06_PivotRearShim",
+    "V06_PivotFrontThrustShim",
+    "V06_CrankRearEClip",
+    "V06_CrankRearShim",
+    "V06_CrankFrontThrustShim",
+    "V06_CrankShoulderJournal",
+    "V06_CrankPinEndScrew",
+    "V06_CrankPinWasher",
+    "V06_RockerShoulderJournal",
+    "V06_RockerPinEndScrew",
+    "V06_RockerPinWasher",
+    "V06_POMCoupler",
+    "V06_PickM1_6Screw",
+    "V06_PendulumAssembly",
+    "V06_PETPick",
+    "V06_ArmClampM2",
+    "V07_RailLock0",
+    "V07_683Bearing_0_0",
+    "V07_683Bearing_0_1",
+    "V07_RailLock1",
+    "V07_683Bearing_1_0",
+    "V07_683Bearing_1_1",
+    "V07_M2Standoff",
+    "V07_StandoffShim",
+    "V07_CarrierM2CSKScrew",
+    "V07_CarrierM2CSKScrew001",
+    "V07_M2Standoff001",
+    "V07_StandoffShim001",
+    "V07_CarrierM2CSKScrew002",
+    "V07_CarrierM2CSKScrew003",
+    "V07_RockerShaftOnePiece",
+    "V07_CrankShaftOnePiece",
+    "V07_DriverGear",
+    "V07_DriverFlushCrossPin",
+    "V07_OutputGear",
+    "V07_OutputFlushCrossPin",
+    "V07_PivotRearEClip",
+    "V07_PivotRearShim",
+    "V07_PivotFrontThrustShim",
+    "V07_CrankRearEClip",
+    "V07_CrankRearShim",
+    "V07_CrankFrontThrustShim",
+    "V07_CrankShoulderJournal",
+    "V07_CrankPinEndScrew",
+    "V07_CrankPinWasher",
+    "V07_RockerShoulderJournal",
+    "V07_RockerPinEndScrew",
+    "V07_RockerPinWasher",
+    "V07_POMCoupler",
+    "V07_PickM1_6Screw",
+    "V07_PendulumAssembly",
+    "V07_PETPick",
+    "V07_ArmClampM2",
+    "V08_RailLock0",
+    "V08_683Bearing_0_0",
+    "V08_683Bearing_0_1",
+    "V08_RailLock1",
+    "V08_683Bearing_1_0",
+    "V08_683Bearing_1_1",
+    "V08_M2Standoff",
+    "V08_StandoffShim",
+    "V08_CarrierM2CSKScrew",
+    "V08_CarrierM2CSKScrew001",
+    "V08_M2Standoff001",
+    "V08_StandoffShim001",
+    "V08_CarrierM2CSKScrew002",
+    "V08_CarrierM2CSKScrew003",
+    "V08_RockerShaftOnePiece",
+    "V08_CrankShaftOnePiece",
+    "V08_DriverGear",
+    "V08_DriverFlushCrossPin",
+    "V08_OutputGear",
+    "V08_OutputFlushCrossPin",
+    "V08_PivotRearEClip",
+    "V08_PivotRearShim",
+    "V08_PivotFrontThrustShim",
+    "V08_CrankRearEClip",
+    "V08_CrankRearShim",
+    "V08_CrankFrontThrustShim",
+    "V08_CrankShoulderJournal",
+    "V08_CrankPinEndScrew",
+    "V08_CrankPinWasher",
+    "V08_RockerShoulderJournal",
+    "V08_RockerPinEndScrew",
+    "V08_RockerPinWasher",
+    "V08_POMCoupler",
+    "V08_PickM1_6Screw",
+    "V08_PendulumAssembly",
+    "V08_PETPick",
+    "V08_ArmClampM2",
+    "V09_RailLock0",
+    "V09_683Bearing_0_0",
+    "V09_683Bearing_0_1",
+    "V09_RailLock1",
+    "V09_683Bearing_1_0",
+    "V09_683Bearing_1_1",
+    "V09_M2Standoff",
+    "V09_StandoffShim",
+    "V09_CarrierM2CSKScrew",
+    "V09_CarrierM2CSKScrew001",
+    "V09_M2Standoff001",
+    "V09_StandoffShim001",
+    "V09_CarrierM2CSKScrew002",
+    "V09_CarrierM2CSKScrew003",
+    "V09_RockerShaftOnePiece",
+    "V09_CrankShaftOnePiece",
+    "V09_DriverGear",
+    "V09_DriverFlushCrossPin",
+    "V09_OutputGear",
+    "V09_OutputFlushCrossPin",
+    "V09_PivotRearEClip",
+    "V09_PivotRearShim",
+    "V09_PivotFrontThrustShim",
+    "V09_CrankRearEClip",
+    "V09_CrankRearShim",
+    "V09_CrankFrontThrustShim",
+    "V09_CrankShoulderJournal",
+    "V09_CrankPinEndScrew",
+    "V09_CrankPinWasher",
+    "V09_RockerShoulderJournal",
+    "V09_RockerPinEndScrew",
+    "V09_RockerPinWasher",
+    "V09_POMCoupler",
+    "V09_PickM1_6Screw",
+    "V09_PendulumAssembly",
+    "V09_PETPick",
+    "V09_ArmClampM2",
+    "V10_RailLock0",
+    "V10_683Bearing_0_0",
+    "V10_683Bearing_0_1",
+    "V10_RailLock1",
+    "V10_683Bearing_1_0",
+    "V10_683Bearing_1_1",
+    "V10_M2Standoff",
+    "V10_StandoffShim",
+    "V10_CarrierM2CSKScrew",
+    "V10_CarrierM2CSKScrew001",
+    "V10_M2Standoff001",
+    "V10_StandoffShim001",
+    "V10_CarrierM2CSKScrew002",
+    "V10_CarrierM2CSKScrew003",
+    "V10_RockerShaftOnePiece",
+    "V10_CrankShaftOnePiece",
+    "V10_DriverGear",
+    "V10_DriverFlushCrossPin",
+    "V10_OutputGear",
+    "V10_OutputFlushCrossPin",
+    "V10_PivotRearEClip",
+    "V10_PivotRearShim",
+    "V10_PivotFrontThrustShim",
+    "V10_CrankRearEClip",
+    "V10_CrankRearShim",
+    "V10_CrankFrontThrustShim",
+    "V10_CrankShoulderJournal",
+    "V10_CrankPinEndScrew",
+    "V10_CrankPinWasher",
+    "V10_RockerShoulderJournal",
+    "V10_RockerPinEndScrew",
+    "V10_RockerPinWasher",
+    "V10_POMCoupler",
+    "V10_PickM1_6Screw",
+    "V10_PendulumAssembly",
+    "V10_PETPick",
+    "V10_ArmClampM2",
+    "V11_RailLock0",
+    "V11_683Bearing_0_0",
+    "V11_683Bearing_0_1",
+    "V11_RailLock1",
+    "V11_683Bearing_1_0",
+    "V11_683Bearing_1_1",
+    "V11_M2Standoff",
+    "V11_StandoffShim",
+    "V11_CarrierM2CSKScrew",
+    "V11_CarrierM2CSKScrew001",
+    "V11_M2Standoff001",
+    "V11_StandoffShim001",
+    "V11_CarrierM2CSKScrew002",
+    "V11_CarrierM2CSKScrew003",
+    "V11_RockerShaftOnePiece",
+    "V11_CrankShaftOnePiece",
+    "V11_DriverGear",
+    "V11_DriverFlushCrossPin",
+    "V11_OutputGear",
+    "V11_OutputFlushCrossPin",
+    "V11_PivotRearEClip",
+    "V11_PivotRearShim",
+    "V11_PivotFrontThrustShim",
+    "V11_CrankRearEClip",
+    "V11_CrankRearShim",
+    "V11_CrankFrontThrustShim",
+    "V11_CrankShoulderJournal",
+    "V11_CrankPinEndScrew",
+    "V11_CrankPinWasher",
+    "V11_RockerShoulderJournal",
+    "V11_RockerPinEndScrew",
+    "V11_RockerPinWasher",
+    "V11_POMCoupler",
+    "V11_PickM1_6Screw",
+    "V11_PendulumAssembly",
+    "V11_PETPick",
+    "V11_ArmClampM2",
+    "V12_RailLock0",
+    "V12_683Bearing_0_0",
+    "V12_683Bearing_0_1",
+    "V12_RailLock1",
+    "V12_683Bearing_1_0",
+    "V12_683Bearing_1_1",
+    "V12_M2Standoff",
+    "V12_StandoffShim",
+    "V12_CarrierM2CSKScrew",
+    "V12_CarrierM2CSKScrew001",
+    "V12_M2Standoff001",
+    "V12_StandoffShim001",
+    "V12_CarrierM2CSKScrew002",
+    "V12_CarrierM2CSKScrew003",
+    "V12_RockerShaftOnePiece",
+    "V12_CrankShaftOnePiece",
+    "V12_DriverGear",
+    "V12_DriverFlushCrossPin",
+    "V12_OutputGear",
+    "V12_OutputFlushCrossPin",
+    "V12_PivotRearEClip",
+    "V12_PivotRearShim",
+    "V12_PivotFrontThrustShim",
+    "V12_CrankRearEClip",
+    "V12_CrankRearShim",
+    "V12_CrankFrontThrustShim",
+    "V12_CrankShoulderJournal",
+    "V12_CrankPinEndScrew",
+    "V12_CrankPinWasher",
+    "V12_RockerShoulderJournal",
+    "V12_RockerPinEndScrew",
+    "V12_RockerPinWasher",
+    "V12_POMCoupler",
+    "V12_PickM1_6Screw",
+    "V12_PendulumAssembly",
+    "V12_PETPick",
+    "V12_ArmClampM2"
+  ],
+  "changed_fixed_part_names": [
+    "InputBearingBridge_16",
+    "InputRetainerScrew",
+    "InputRetainerScrew001",
+    "InputBearingRetainer_16",
+    "InputBearingBridge_112",
+    "InputRetainerScrew002",
+    "InputRetainerScrew003",
+    "InputBearingRetainer_112",
+    "InputBearingBridge_208",
+    "InputRetainerScrew004",
+    "InputRetainerScrew005",
+    "InputBearingRetainer_208",
+    "InputBearingBridge_320",
+    "InputRetainerScrew006",
+    "InputRetainerScrew007",
+    "InputBearingRetainer_320",
+    "V01_Carrier0",
+    "V01_RetainerScrew_0_0",
+    "V01_RetainerScrew_0_001",
+    "V01_OuterRaceRetainer_0_0",
+    "V01_RetainerScrew_0_1",
+    "V01_RetainerScrew_0_002",
+    "V01_OuterRaceRetainer_0_1",
+    "V01_Carrier1",
+    "V01_RetainerScrew_1_0",
+    "V01_RetainerScrew_1_001",
+    "V01_OuterRaceRetainer_1_0",
+    "V01_RetainerScrew_1_1",
+    "V01_RetainerScrew_1_002",
+    "V01_OuterRaceRetainer_1_1",
+    "V02_Carrier0",
+    "V02_RetainerScrew_0_0",
+    "V02_RetainerScrew_0_001",
+    "V02_OuterRaceRetainer_0_0",
+    "V02_RetainerScrew_0_1",
+    "V02_RetainerScrew_0_002",
+    "V02_OuterRaceRetainer_0_1",
+    "V02_Carrier1",
+    "V02_RetainerScrew_1_0",
+    "V02_RetainerScrew_1_001",
+    "V02_OuterRaceRetainer_1_0",
+    "V02_RetainerScrew_1_1",
+    "V02_RetainerScrew_1_002",
+    "V02_OuterRaceRetainer_1_1",
+    "V03_Carrier0",
+    "V03_RetainerScrew_0_0",
+    "V03_RetainerScrew_0_001",
+    "V03_OuterRaceRetainer_0_0",
+    "V03_RetainerScrew_0_1",
+    "V03_RetainerScrew_0_002",
+    "V03_OuterRaceRetainer_0_1",
+    "V03_Carrier1",
+    "V03_RetainerScrew_1_0",
+    "V03_RetainerScrew_1_001",
+    "V03_OuterRaceRetainer_1_0",
+    "V03_RetainerScrew_1_1",
+    "V03_RetainerScrew_1_002",
+    "V03_OuterRaceRetainer_1_1",
+    "V04_Carrier0",
+    "V04_RetainerScrew_0_0",
+    "V04_RetainerScrew_0_001",
+    "V04_OuterRaceRetainer_0_0",
+    "V04_RetainerScrew_0_1",
+    "V04_RetainerScrew_0_002",
+    "V04_OuterRaceRetainer_0_1",
+    "V04_Carrier1",
+    "V04_RetainerScrew_1_0",
+    "V04_RetainerScrew_1_001",
+    "V04_OuterRaceRetainer_1_0",
+    "V04_RetainerScrew_1_1",
+    "V04_RetainerScrew_1_002",
+    "V04_OuterRaceRetainer_1_1",
+    "V05_Carrier0",
+    "V05_RetainerScrew_0_0",
+    "V05_RetainerScrew_0_001",
+    "V05_OuterRaceRetainer_0_0",
+    "V05_RetainerScrew_0_1",
+    "V05_RetainerScrew_0_002",
+    "V05_OuterRaceRetainer_0_1",
+    "V05_Carrier1",
+    "V05_RetainerScrew_1_0",
+    "V05_RetainerScrew_1_001",
+    "V05_OuterRaceRetainer_1_0",
+    "V05_RetainerScrew_1_1",
+    "V05_RetainerScrew_1_002",
+    "V05_OuterRaceRetainer_1_1",
+    "V06_Carrier0",
+    "V06_RetainerScrew_0_0",
+    "V06_RetainerScrew_0_001",
+    "V06_OuterRaceRetainer_0_0",
+    "V06_RetainerScrew_0_1",
+    "V06_RetainerScrew_0_002",
+    "V06_OuterRaceRetainer_0_1",
+    "V06_Carrier1",
+    "V06_RetainerScrew_1_0",
+    "V06_RetainerScrew_1_001",
+    "V06_OuterRaceRetainer_1_0",
+    "V06_RetainerScrew_1_1",
+    "V06_RetainerScrew_1_002",
+    "V06_OuterRaceRetainer_1_1",
+    "V07_Carrier0",
+    "V07_RetainerScrew_0_0",
+    "V07_RetainerScrew_0_001",
+    "V07_OuterRaceRetainer_0_0",
+    "V07_RetainerScrew_0_1",
+    "V07_RetainerScrew_0_002",
+    "V07_OuterRaceRetainer_0_1",
+    "V07_Carrier1",
+    "V07_RetainerScrew_1_0",
+    "V07_RetainerScrew_1_001",
+    "V07_OuterRaceRetainer_1_0",
+    "V07_RetainerScrew_1_1",
+    "V07_RetainerScrew_1_002",
+    "V07_OuterRaceRetainer_1_1",
+    "V08_Carrier0",
+    "V08_RetainerScrew_0_0",
+    "V08_RetainerScrew_0_001",
+    "V08_OuterRaceRetainer_0_0",
+    "V08_RetainerScrew_0_1",
+    "V08_RetainerScrew_0_002",
+    "V08_OuterRaceRetainer_0_1",
+    "V08_Carrier1",
+    "V08_RetainerScrew_1_0",
+    "V08_RetainerScrew_1_001",
+    "V08_OuterRaceRetainer_1_0",
+    "V08_RetainerScrew_1_1",
+    "V08_RetainerScrew_1_002",
+    "V08_OuterRaceRetainer_1_1",
+    "V09_Carrier0",
+    "V09_RetainerScrew_0_0",
+    "V09_RetainerScrew_0_001",
+    "V09_OuterRaceRetainer_0_0",
+    "V09_RetainerScrew_0_1",
+    "V09_RetainerScrew_0_002",
+    "V09_OuterRaceRetainer_0_1",
+    "V09_Carrier1",
+    "V09_RetainerScrew_1_0",
+    "V09_RetainerScrew_1_001",
+    "V09_OuterRaceRetainer_1_0",
+    "V09_RetainerScrew_1_1",
+    "V09_RetainerScrew_1_002",
+    "V09_OuterRaceRetainer_1_1",
+    "V10_Carrier0",
+    "V10_RetainerScrew_0_0",
+    "V10_RetainerScrew_0_001",
+    "V10_OuterRaceRetainer_0_0",
+    "V10_RetainerScrew_0_1",
+    "V10_RetainerScrew_0_002",
+    "V10_OuterRaceRetainer_0_1",
+    "V10_Carrier1",
+    "V10_RetainerScrew_1_0",
+    "V10_RetainerScrew_1_001",
+    "V10_OuterRaceRetainer_1_0",
+    "V10_RetainerScrew_1_1",
+    "V10_RetainerScrew_1_002",
+    "V10_OuterRaceRetainer_1_1",
+    "V11_Carrier0",
+    "V11_RetainerScrew_0_0",
+    "V11_RetainerScrew_0_001",
+    "V11_OuterRaceRetainer_0_0",
+    "V11_RetainerScrew_0_1",
+    "V11_RetainerScrew_0_002",
+    "V11_OuterRaceRetainer_0_1",
+    "V11_Carrier1",
+    "V11_RetainerScrew_1_0",
+    "V11_RetainerScrew_1_001",
+    "V11_OuterRaceRetainer_1_0",
+    "V11_RetainerScrew_1_1",
+    "V11_RetainerScrew_1_002",
+    "V11_OuterRaceRetainer_1_1",
+    "V12_Carrier0",
+    "V12_RetainerScrew_0_0",
+    "V12_RetainerScrew_0_001",
+    "V12_OuterRaceRetainer_0_0",
+    "V12_RetainerScrew_0_1",
+    "V12_RetainerScrew_0_002",
+    "V12_OuterRaceRetainer_0_1",
+    "V12_Carrier1",
+    "V12_RetainerScrew_1_0",
+    "V12_RetainerScrew_1_001",
+    "V12_OuterRaceRetainer_1_0",
+    "V12_RetainerScrew_1_1",
+    "V12_RetainerScrew_1_002",
+    "V12_OuterRaceRetainer_1_1"
+  ],
+  "continuous_envelope_containment": [
+    {
+      "name": "V01_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V01_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V02_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V03_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V04_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V05_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V06_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V07_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V08_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V09_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V10_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V11_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerShaftOnePiece",
+      "method": "shaft + full 14+3.5 mm lever disk",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankShaftOnePiece",
+      "method": "piecewise circular shaft/flange superset",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_DriverGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_DriverFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_OutputGear",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_OutputFlushCrossPin",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_PivotRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_PivotRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_PivotFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankRearEClip",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankRearShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankFrontThrustShim",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerShoulderJournal",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerPinEndScrew",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerPinWasher",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_POMCoupler",
+      "method": "convex hull of circumscribed Q12 / P16 disks",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_PickM1_6Screw",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_PendulumAssembly",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_PETPick",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "V12_ArmClampM2",
+      "method": "axisymmetric bound about motion axis",
+      "base_volume_outside_envelope_mm3": 0.0
+    }
+  ],
+  "envelope_fixed_pairs_tested": 269,
+  "conservative_envelope_overlap_pairs": [
+    {
+      "a": "V01_PivotRearEClip",
+      "b": "V01_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V01_CrankRearEClip",
+      "b": "V01_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V02_PivotRearEClip",
+      "b": "V02_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V02_CrankRearEClip",
+      "b": "V02_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V03_PivotRearEClip",
+      "b": "V03_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V03_CrankRearEClip",
+      "b": "V03_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V04_PivotRearEClip",
+      "b": "V04_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V04_CrankRearEClip",
+      "b": "V04_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V05_PivotRearEClip",
+      "b": "V05_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V05_CrankRearEClip",
+      "b": "V05_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V06_PivotRearEClip",
+      "b": "V06_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V06_CrankRearEClip",
+      "b": "V06_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V07_PivotRearEClip",
+      "b": "V07_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V07_CrankRearEClip",
+      "b": "V07_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V08_PivotRearEClip",
+      "b": "V08_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V08_CrankRearEClip",
+      "b": "V08_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V09_PivotRearEClip",
+      "b": "V09_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V09_CrankRearEClip",
+      "b": "V09_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V10_PivotRearEClip",
+      "b": "V10_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V10_CrankRearEClip",
+      "b": "V10_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V11_PivotRearEClip",
+      "b": "V11_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V11_CrankRearEClip",
+      "b": "V11_OuterRaceRetainer_0_1"
+    },
+    {
+      "a": "V12_PivotRearEClip",
+      "b": "V12_OuterRaceRetainer_0_0"
+    },
+    {
+      "a": "V12_CrankRearEClip",
+      "b": "V12_OuterRaceRetainer_0_1"
+    }
+  ],
+  "fallback_actual_poses_per_pair": 360,
+  "unexpected": [],
+  "intended_contacts": [],
+  "scope": "Continuous conservative sweep bounds at revised fixed mounts.\n\nSaved moving BREP identities inherit the completed full-motion/gear baseline.\nAn axisymmetric containing solid contains every rigid rotation of its source.\nThe rod bound is the convex hull of circumscribed endpoint-motion disks:\nQ radius 10+2 and P radius 14+2. Every capsule joining A and B is inside it.\nOnly envelope intersections fall back to actual 1-degree poses.\n",
+  "physical_test_passed": false
+}

@@ -62,7 +62,52 @@ def main():
         require(not result['moving_rigid_to_fixed_intersections'], f'Recorded rigid interference: {name}')
         require(result['physical_test_passed'] is False, 'Do not imply an unperformed physical test passed')
     require(audit['production_released'] is False, 'Known unfinished drive must not be marked released')
+    r2 = ROOT / 'outputs/LeLovophon_Mechanical_Revision_R2'
+    summary = json.loads((r2 / 'Verification_Summary.json').read_text())
+    current_hash = hashlib.sha256((r2 / 'LeLovophon_R2.FCStd').read_bytes()).hexdigest()
+    require(summary['cad_sha256'] == current_hash, 'R2 summary refers to another CAD file')
+    for filename in ['Static_All_Pairs.json', 'Motion_Audit.json', 'Dimensions_and_Tensioners.json',
+                     'Retainer_Refinement_Motion.json', 'Shared_Input_Continuous_Clearance.json']:
+        result = json.loads((r2 / 'Checks' / filename).read_text())
+        require(result['cad_sha256'] == current_hash, f'Stale R2 check: {filename}')
+        require(not result.get('unexpected', []), f'Unresolved R2 contact: {filename}')
+        require(not result.get('tensioner_unexpected_intersections', []), 'R2 tensioner travel failed')
+    with zipfile.ZipFile(r2 / 'LeLovophon_R2.FCStd') as archive:
+        require(archive.testzip() is None, 'R2 native CAD ZIP is damaged')
+        ET.fromstring(archive.read('Document.xml'))
+    require(summary['physical_test_passed'] is False and summary['manufacturing_release'] is False,
+            'Do not turn nominal R2 checks into a physical or fabrication release')
+    r5 = ROOT / 'outputs/LeLovophon_Pluck_Layout_R5'
+    current = json.loads((r5 / 'Verification_Summary.json').read_text())
+    expected_hash = hashlib.sha256((r5 / 'LeLovophon_Pluck_Layout_R5.FCStd').read_bytes()).hexdigest()
+    require(current['cad_sha256'] == expected_hash, 'R5 summary does not identify the saved native CAD')
+    require(current['parts'] ==1101 and current['invalid_parts'] ==0, 'R5 part record differs')
+    require(not current['physical_test_passed'] and not current['manufacturing_release'], 'R5 remains unbuilt')
+    require(not current['child_hand_drive_goal_verified'], 'Child effort goal has no physical pass')
+    require(current['operating_crank_force_N'] is None, 'Actual force must remain unmeasured')
+    requirements = json.loads((r5 / 'Design_Requirements.json').read_text())
+    require(requirements['nominal_input_rpm'] ==3 and requirements['full_cycle_seconds'] ==480, 'Drive goal changed')
+    require(not requirements['achieved_by_physical_test'], 'Do not claim achieved child-powered effort')
+    layout = json.loads((r5 / 'Plucking_Layout.json').read_text())
+    require(layout['cad_sha256'] ==expected_hash, 'Stale plucking layout')
+    for row, ratio in zip(layout['voices'],wanted):
+        require(Fraction(row['ratio']) ==ratio, 'R5 pitch/drive ratio differs')
+        require(math.isclose(row['speaking_length_mm']*float(ratio),600,abs_tol=1e-7), 'R5 string length differs')
+        require(.249999 <=row['fraction_from_nearest_end'] <=.5, 'R5 pick outside chosen middle half')
+    for name, key in [('Static_All_Pairs.json','unexpected'),('R5_Motion_and_Tensioner_Clearance.json','unexpected_motion_intersections')]:
+        result = json.loads((r5/'Checks'/name).read_text())
+        require(result['cad_sha256'] ==expected_hash and not result[key], 'R5 nominal contact check failed or stale')
+    inherited = json.loads((r5/'Checks/R3_Local_Geometry_Inheritance.json').read_text())
+    require(inherited['source_sha256'] ==hashlib.sha256((ROOT/'outputs/LeLovophon_Protokoto_R3/LeLovophon_Protokoto_R3.FCStd').read_bytes()).hexdigest(), 'R5 geometry source differs')
+    for name in ['Drive_Effort/CAD_Force_Budget.json','Drivetrain_Assessment/Drivetrain_Loads.json']:
+        result = json.loads((r5/name).read_text())
+        require(result['cad_sha256'] ==expected_hash and not result['physical_test_passed'], 'R5 force source/status differs')
+    with zipfile.ZipFile(r5/'LeLovophon_Pluck_Layout_R5.FCStd') as archive:
+        require(archive.testzip() is None, 'R5 native CAD archive is damaged')
+        ET.fromstring(archive.read('Document.xml'))
+    print('PASS: R5 native CAD, recorded checks, 600mm inverse-ratio scale and unverified child-powered drive requirement.')
     print(f'PASS: {checked} packaged files, source syntax, native CAD ratios, 480-second mathematics and recorded fixture checks. No media included.')
+    print('PASS: R2 native file integrity, final-file hashes and recorded full-motion/adjustment checks.')
     print('Hardware remains untested; these checks are not manufacturing or physical certification.')
 
 if __name__ == '__main__':

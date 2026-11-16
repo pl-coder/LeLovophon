@@ -1,0 +1,50 @@
+{
+  "source_cad_sha256": "8b5322026e943034589d3b90ea17b8ebd58bd06830b3c0050511e0693e0f7148",
+  "render_parts": 1101,
+  "physical_test_passed": false,
+  "export": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1600,
+        "height": 900,
+        "r_frame_rate": "24/1",
+        "duration": "960.000000",
+        "nb_frames": "23040"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "960.000000",
+        "nb_frames": "45001"
+      }
+    ],
+    "format": {
+      "duration": "960.000000",
+      "size": "376755791"
+    }
+  },
+  "full_decode_passed": true,
+  "rendered_first_last_identical": true,
+  "camera_and_mechanism_pose_check": {
+    "parent_and_camera_objects_checked": 38,
+    "maximum_world_matrix_endpoint_error": 0.0,
+    "opening_closing_pose_exact": true,
+    "subject_screen_bounds": [
+      0.130222350358963,
+      0.031807221472263336,
+      0.868615984916687,
+      0.7943236827850342
+    ],
+    "framing_poses_checked": 97,
+    "cropped_subject_bounds": []
+  },
+  "rotations": 2,
+  "identical_eight_minute_cycles": true,
+  "no_people": true,
+  "child_drive_goal": "Comfortable child-powered starting/running effort is a mechanical design requirement, not verified by animation."
+}

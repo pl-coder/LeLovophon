@@ -1,0 +1,34 @@
+{
+  "cad_sha256": "7b2298082c295d9029f626de26fd0f8c8596d45e8ed3974a5baf7ac676a403c2",
+  "baseline_cad_sha256": "095157a2efa850ccfac5f76815c4fb74bfeefd49adcc9e901e2b79b2d83d6b32",
+  "baseline_report": "Motion_Baseline_Before_Compact_Eye.json",
+  "final_refinement_proof": "Final_Refinement_Inheritance.json",
+  "unexpected": [],
+  "resolved_baseline_intersections": [
+    {
+      "a": "V05_CrankDryBush_GFM030402",
+      "b": "COMMON_SHAFT_ENVELOPE",
+      "first_phase_deg": 267,
+      "poses": 16,
+      "max_volume_mm3": 0.1425267541004347,
+      "reason": null
+    }
+  ],
+  "poses_per_changed_joint": 360,
+  "continuous_compact_eye_shaft_clearance_mm": 0.1999999999999984,
+  "neighbour_moving_axial_gaps_mm": [
+    20.636363636363626,
+    20.636363636363626,
+    20.636363636363683,
+    20.636363636363626,
+    20.636363636363626,
+    20.636363636363626,
+    20.636363636363654,
+    20.636363636363626,
+    20.636363636363654,
+    20.636363636363626,
+    20.636363636363626
+  ],
+  "scope": "Inherited complete R3 baseline results with all known clashes closed. Two revised moving shapes are material subsets at identical kinematic poses; the one former bush/shaft clash is closed by a continuous half-plane clearance proof. Two moved fixed saddle screws are continuously axially separated from local moving stations and tensioner travel. All other shapes match complete BREP topology and parameters within 1e-10 round-trip precision. Final all-pairs static test run on this exact CAD. See named reports for full scope and evidence.",
+  "physical_test_passed": false
+}

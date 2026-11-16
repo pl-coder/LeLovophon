@@ -1,0 +1,64 @@
+{
+  "revision": "Plucking Layout R5",
+  "status": "Nominal geometry checks recorded; operating force and physical release unverified",
+  "cad_sha256": "8b5322026e943034589d3b90ea17b8ebd58bd06830b3c0050511e0693e0f7148",
+  "parts": 1101,
+  "invalid_parts": 0,
+  "disconnected_part_shapes": 0,
+  "static_pairs": 605550,
+  "unexpected_saved_pose_intersections": 0,
+  "unexpected_motion_intersections": 0,
+  "unexpected_tensioner_intersections": 0,
+  "local_station_geometry_copied_and_translated": true,
+  "minimum_phase_independent_neighbour_moving_gap_mm": 3.0,
+  "rear_support_ribs": 4,
+  "front_support_posts": 0,
+  "rear_rib_x_mm": [
+    -210,
+    -28,
+    150,
+    272
+  ],
+  "largest_rear_support_span_mm": 182,
+  "nominal_mass_kg": 4.686525154312848,
+  "input_shaft_cut_length_mm": 575,
+  "rear_carrier_rail_cut_length_mm": 590,
+  "input_bearing_x_mm": [
+    -186,
+    -122,
+    -5,
+    60,
+    123.3,
+    189,
+    241,
+    300
+  ],
+  "handle_throw_mm": 32,
+  "input_rpm": 3,
+  "ideal_repeat_seconds": 480,
+  "body_length_width_height_mm": [
+    700,
+    220,
+    60
+  ],
+  "saved_pose_length_width_height_mm": [
+    768.5,
+    281.7327573490143,
+    293.0
+  ],
+  "first_six_pluck_fraction_from_third_bridge": 0.25,
+  "all_pluck_nearest_end_fraction_range": [
+    0.25,
+    0.47333333333333333
+  ],
+  "shared_zero_crossing_hand_force_N_per_mm_common_string_deflection": 20.166677577428796,
+  "operating_crank_force_N": null,
+  "force_status": "Actual peak force unresolved: measured pick release and loaded drivetrain friction required. Conditional scenarios in Drive_Effort are not measured force.",
+  "physical_test_passed": false,
+  "manufacturing_release": false,
+  "limits": "Exact nominal solids. Conservative continuous envelopes; one-degree samples only for overlapping bounds. R3 local moving pairs unchanged after pure X translation; fixed-world pairs checked again. No flex, friction, torque, preload, wear, manufacturing tolerances or pick release test.",
+  "drivetrain_assessment": "Drivetrain_Assessment/README.md: conditional loads and bearing-drag sensitivity; actual friction, material/gear ratings, connections and load limits unresolved.",
+  "child_hand_drive_design_goal": "A school-age child should be able to start and continuously hand-crank the complete instrument comfortably at its nominal operating speed. Size the drivetrain for combined plucking load, starting/running gear and bearing friction, linkage resistance and alignment sensitivity.",
+  "child_hand_drive_goal_verified": false,
+  "hand_force_acceptance_target_N": null
+}

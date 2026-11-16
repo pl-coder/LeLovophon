@@ -1,6 +1,66 @@
 {
   "files": [
     {
+      "path": ".gitattributes",
+      "storage": "git",
+      "size_bytes": 153,
+      "sha256": "57af1ac58c8839868730eff00abc62bc15b047c0f460e9d11144b01f08faeeba"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "storage": "git",
+      "size_bytes": 300,
+      "sha256": "873ff35f0b6d78e252cec1e137f1384281999b3c0236df7d90cfeeede720227f"
+    },
+    {
+      "path": ".gitignore",
+      "storage": "git",
+      "size_bytes": 805,
+      "sha256": "16f874cd9995d999a1ecd06dfa0ed89482bf17ae7d8fc73611fe493159cedb17"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "storage": "git",
+      "size_bytes": 818,
+      "sha256": "e1c146b28fd20b691a33cdfc0d2948243cc6dd29577337c97d024bc0af0a1141"
+    },
+    {
+      "path": "README.md",
+      "storage": "git",
+      "size_bytes": 8578,
+      "sha256": "b3884e25d41817868bfc0683bfe2225e254870ef23f9e34eb2ae2342bbbbfb28"
+    },
+    {
+      "path": "docs/DESIGN_STATUS.md",
+      "storage": "git",
+      "size_bytes": 7284,
+      "sha256": "1118bfee9986b32165d054a8ed77e9e9aefd4b9aae7a43251cc87f42c7f3f42d"
+    },
+    {
+      "path": "docs/DIRECT_GEAR_REPRODUCTION.md",
+      "storage": "git",
+      "size_bytes": 7320,
+      "sha256": "f8e146e42ceea910516169eeb54f8bde65161d0dad66e4ba01223e4404e8bb10"
+    },
+    {
+      "path": "docs/Next_Prototype_Requirements.md",
+      "storage": "git",
+      "size_bytes": 5153,
+      "sha256": "dca40125fbdd7b8949b854e4b35a7a24295cbf81ea447348b9d0c04cf1727f3a"
+    },
+    {
+      "path": "docs/R2_REPRODUCTION.md",
+      "storage": "git",
+      "size_bytes": 2461,
+      "sha256": "cfa046a4f73985cb0703d34b007bd9cebe6cbee94cd99d25980b3b307454910e"
+    },
+    {
+      "path": "docs/R5_REPRODUCTION.md",
+      "storage": "git",
+      "size_bytes": 5730,
+      "sha256": "f624a779719da7979024c074f3ab3ba420695dd0cba9cc41515525d5b2f7256b"
+    },
+    {
       "path": "outputs/Animate_Lovophone_Lab_Ratio_Review.FCMacro",
       "storage": "git",
       "size_bytes": 4034,
@@ -317,6 +377,1110 @@
       "storage": "excluded-media-or-bundle",
       "size_bytes": 50909,
       "sha256": "a90ab601632e912d41c372b40c0e4e154f341daa92f33a908870ce1f69f252ed"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Assembly_REFERENCE_NOT_FOR_MACHINING.step",
+      "storage": "git",
+      "size_bytes": 32740031,
+      "sha256": "6cbf4fd75428015e147cae36c11805e10a82909172fe0652072504c2da1d89d5"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/BOM_Engineering_Candidates.csv",
+      "storage": "git",
+      "size_bytes": 1521,
+      "sha256": "8a2f7268d99e470d61029550a52e54f3f9fa1f6acbef8855fdf35d91d8e8d3f1"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Drive_CAD_Check.json",
+      "storage": "git",
+      "size_bytes": 376,
+      "sha256": "8430912901502b028c906582a68fc91e67de471065dd0e916cca1bafdbefc666"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Drive_Calculations.json",
+      "storage": "git",
+      "size_bytes": 8134,
+      "sha256": "15c9e569942c764aead508108a6ee99d5d534ec66ce783073f2c47b4a89befa2"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Drive_Mathematical_Check.json",
+      "storage": "git",
+      "size_bytes": 2448,
+      "sha256": "d4aa72c37620729adf3e7653200ea8eca750e9ad676fc4cd2c78c32922efbd49"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/LeLovophon_Direct_Gear_Prototype.FCStd",
+      "storage": "git",
+      "size_bytes": 4126727,
+      "sha256": "5bb40f80e5d8582394893421a41c546a709f5cb284c1e173ec5228e985b67105"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Paris_Close_Studio/Orbit_360_Details.json",
+      "storage": "git",
+      "size_bytes": 1926,
+      "sha256": "d0f2a61996a7e8f7f65095a7087bfdecaf39fd1589b935141a0260e510a61195"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Paris_Close_Studio/Orbit_360_Pose_Verification.json",
+      "storage": "git",
+      "size_bytes": 430,
+      "sha256": "9849690920aa16827465661cc4ea2e9562a7b59cbe44a815c3c7c85b167d316a"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Paris_Close_Studio/Paris_Film_Verification.json",
+      "storage": "git",
+      "size_bytes": 1301,
+      "sha256": "071c004178e24683f771cccbc680fb2e8777e4825d004556349d9ecef3fc7f60"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Paris_Close_Studio/Readme.md",
+      "storage": "git",
+      "size_bytes": 3086,
+      "sha256": "34dab92e7954baad2ea87050d8bdda8b6ea0adb4c8d9edf18e7fa5991b0a8418"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Paris_Close_Studio/Salon_Reverb_Details.json",
+      "storage": "git",
+      "size_bytes": 680,
+      "sha256": "a0ba9bdd909b2a5b683796d9a2c40f6d7c1852f61894c8a00c584bb1c9adb807"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/README.md",
+      "storage": "git",
+      "size_bytes": 2063,
+      "sha256": "939792cadd8f3ccd61262651efef7f687b4cb7706e60fa5957e3676a5596b919"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Rod_Axle_Clearance.json",
+      "storage": "git",
+      "size_bytes": 1944,
+      "sha256": "44d4f8e45e7d8ecd19bcda8d7218b5aa304da91ffb96bd8c6c65922256d4cba4"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Rod_Axle_Clearance_Before.json",
+      "storage": "git",
+      "size_bytes": 70015,
+      "sha256": "da6761a0703e6e6f16f8f6a27c0a13ee03e423b8365b0b27d6a9bb1415ab2d73"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/Concert_Harp_Sample_Credits.txt",
+      "storage": "git",
+      "size_bytes": 964,
+      "sha256": "9fbe9eac9b1568423644cddb3aef1d7951cb4af74bbecafed07d09aac4644d07"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/LeLovophon_8min_Pluck_Times.csv",
+      "storage": "git",
+      "size_bytes": 85997,
+      "sha256": "0f83f1b4c795a0dbaa4dbe850a6e0324e64a410e6e278f742dbe88a68d0fdd06"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/LeLovophon_Pentatonic.scl",
+      "storage": "git",
+      "size_bytes": 269,
+      "sha256": "14bbc6bb60c6c3fd9edf676ec8d3266cb25ba2af68d041d42487750537559a9c"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/Readme.md",
+      "storage": "git",
+      "size_bytes": 2196,
+      "sha256": "5bba0b5c496378fa854f46d848601e0b743136c3a332bb09f44ad1391f00aeca"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/Sampled_Harp_Details.json",
+      "storage": "git",
+      "size_bytes": 3752,
+      "sha256": "7d8d99e645e2aa75c8b922802b3087ff6073f897ec8a934f6f505e0338108d85"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/Sound_Details.json",
+      "storage": "git",
+      "size_bytes": 4525,
+      "sha256": "5ecf75a44ea43d4b3c85b84ef4a40195c4c1e307136c166e3d42170e9444908f"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Sound/Sound_Verification.json",
+      "storage": "git",
+      "size_bytes": 682,
+      "sha256": "08a9a8e43046372c94bf5d005823211806d52fc7489cf879882ce9ac8f9ca8e2"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/Voice_Dimensions.csv",
+      "storage": "git",
+      "size_bytes": 1660,
+      "sha256": "09ca96a74e75d6537eaa662a4ddb96d317ca5ed7c62b9f6f83c4d57917f92268"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/README.md",
+      "storage": "git",
+      "size_bytes": 7222,
+      "sha256": "0822d7820739a8da4eff5d2f21029927482469cfe976ed39dcf977071f1e0c7b"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Audit_Summary.json",
+      "storage": "git",
+      "size_bytes": 3925,
+      "sha256": "72e246b6a25e21923a5afd2298ffbe9f27c077fef7b0242d9972873fc22db02d"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Confirmed_Findings.csv",
+      "storage": "git",
+      "size_bytes": 1996,
+      "sha256": "44c46e3599caa4add37c7233c7bb0ad37a34412b147fd2675436112149ac3715"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Critical_Face_Clearances.json",
+      "storage": "git",
+      "size_bytes": 6053,
+      "sha256": "e17180ae20799d6cc2e0e864297e4a235f10e34dc945fbcb912951d43488d379"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Motion_to_Stationary_Audit.json",
+      "storage": "git",
+      "size_bytes": 4458,
+      "sha256": "b8364bb219a0709bb8ff0a5f35906d4d0b64212eecf4c9b5d2825a8b262463f1"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Part_Inventory.json",
+      "storage": "git",
+      "size_bytes": 123444,
+      "sha256": "1736998a8799c1aa55bc925f50f2e78ef8b70c5aedd36ef499d39fa99b8f58e8"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/README.md",
+      "storage": "git",
+      "size_bytes": 6977,
+      "sha256": "9357082828c5e501ba06eb1bc0275748464a7fe8270ab7ff7762f489a4f20271"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/Static_All_Pairs_Raw.json",
+      "storage": "git",
+      "size_bytes": 67348,
+      "sha256": "eb1c0ee73d88eeeff97b130c24fac189188cdaae1179c37360631f1035005c13"
+    },
+    {
+      "path": "outputs/LeLovophon_Direct_Gear_Prototype/Reality_Audit/String_Support_and_Height_Audit.json",
+      "storage": "git",
+      "size_bytes": 6330,
+      "sha256": "44cb542662674d1e2c1cf1fb47640855950c7f5f66efbdbbcc0bca720570a678"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Candidate_BOM.csv",
+      "storage": "git",
+      "size_bytes": 3844,
+      "sha256": "391380317fb13a706e5195767acb50c2b5f072e0b39fdd7409b333026d65bb43"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Baseline_Motion_01_04.json",
+      "storage": "git",
+      "size_bytes": 1787,
+      "sha256": "30792425aea977ba3381bd129951ad1956be8265c965d5fd8c56ac4e6f4e37de"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Baseline_Motion_05_08.json",
+      "storage": "git",
+      "size_bytes": 3422,
+      "sha256": "e0d0253ef373b5493635257881a15dda1dd5bf67ce70867649b99c526aa307df"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Baseline_Motion_09_12.json",
+      "storage": "git",
+      "size_bytes": 1385,
+      "sha256": "0fccdb43fb77fd09574fb85a66d6c82377c009615070f919fcbd80d182b5747b"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Dimensions_and_Tensioners.json",
+      "storage": "git",
+      "size_bytes": 5939,
+      "sha256": "18a17093ea1803c52428259c419f96214c8df850f16d2f5fb89afa8f7d143bb6"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Motion_Audit.json",
+      "storage": "git",
+      "size_bytes": 11507,
+      "sha256": "c546e30fd218fff3a1a150fb1369419ff5f9ca92cc42a5124a00e18a1f369195"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Retainer_Refinement_Motion.json",
+      "storage": "git",
+      "size_bytes": 147236,
+      "sha256": "0aff88e794bb736a2149e078bc9df2c0571dfe48608530115c3b5cf2b9169f93"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Shared_Input_Continuous_Clearance.json",
+      "storage": "git",
+      "size_bytes": 1210,
+      "sha256": "39d8e1d3bfd72370d087e042c1ad1f517e735637fdef4fad61c3012a5bf8a4a8"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Checks/Static_All_Pairs.json",
+      "storage": "git",
+      "size_bytes": 6512,
+      "sha256": "8cc86f20a911612221476b7956a2a82ab90ca0ab5022ede699c9d9e4afc6d13b"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Drive_Calculations.json",
+      "storage": "git",
+      "size_bytes": 8852,
+      "sha256": "6bfa14347d7fe4da0f4ffccddb3d769a7554af55ba76eea17912ae3a92f28caa"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/LeLovophon_R2.FCStd",
+      "storage": "git",
+      "size_bytes": 7401637,
+      "sha256": "264084afcb461bb55a4e22db9f73d9ee841b749e00c6255b3f3264debac94e67"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Part_Inventory.json",
+      "storage": "git",
+      "size_bytes": 154362,
+      "sha256": "bbc64566e7690b0e30f66f5bb60c65702de5fcf54744d1b2ad0ae3eb984a16bb"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/R2_Assembly_REFERENCE_NOT_FOR_MACHINING.step",
+      "storage": "git",
+      "size_bytes": 50410122,
+      "sha256": "97f1fec5a0da31551a513e949dd97f0ed9bbbb9eb70a855c83c2640250b8c082"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/README.md",
+      "storage": "git",
+      "size_bytes": 6206,
+      "sha256": "c1990974668bebcf6f8647732988e49bf219086a66ba87ce9768fd62fb188291"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/String_Routing.json",
+      "storage": "git",
+      "size_bytes": 3014,
+      "sha256": "43a1565dca8461d4793c9388281f6e67bbb86fd2d0477b9e70c4a16606a5dff2"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Tuning_and_Drive.csv",
+      "storage": "git",
+      "size_bytes": 984,
+      "sha256": "c0de1ff1a1d6ae91ac1e7bcd6d03f7302bc7e84219acc5d21d97848f1ff6c770"
+    },
+    {
+      "path": "outputs/LeLovophon_Mechanical_Revision_R2/Verification_Summary.json",
+      "storage": "git",
+      "size_bytes": 922,
+      "sha256": "d9950592e04bea8da62306a0fe3a3205927dff756bc520292896dc86e3b34eec"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Assembly_Guide.md",
+      "storage": "git",
+      "size_bytes": 3362,
+      "sha256": "c76b85a022b20b17723d847d630eddcde1d2936e8e8d7d2d75ec9d9e0256f27f"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/Crank_Effort_Status.json",
+      "storage": "git",
+      "size_bytes": 1188,
+      "sha256": "eade2c91af74ee6f5d8605b98e95631066a74f1314c63dd9ce2ef0974f3a6836"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/Inherited_R3/Dimensions_and_Tensioners.json",
+      "storage": "git",
+      "size_bytes": 6108,
+      "sha256": "4d4a8b713360746fd776c8981a51c821161f8f5d2f7f700a8f11e77ce7c673a8"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/Inherited_R3/Drive_Calculations.json",
+      "storage": "git",
+      "size_bytes": 8597,
+      "sha256": "2bc487688862f09fae14f9a73bfd364ded95d62eb3df674e10e1c56d2fa238b3"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/Inherited_R3/Final_Refinement_Inheritance.json",
+      "storage": "git",
+      "size_bytes": 30918,
+      "sha256": "c2a9d3536af99a64eb0ac430e567d30503094f391c795580e9d142dd215624bd"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/Inherited_R3/Motion_Clearance_R3.json",
+      "storage": "git",
+      "size_bytes": 1570,
+      "sha256": "4458ad62685b2c51d61be0d31f4a7b966408a47770267372ce261260969d9df4"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/Inherited_R3/String_Routing.json",
+      "storage": "git",
+      "size_bytes": 2717,
+      "sha256": "cb6faa8744b7e918233b2b81fbbc1fe17dee0b0135cb1ac6ba7bc48ccb46297d"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/Inherited_R3/Verification_Summary.json",
+      "storage": "git",
+      "size_bytes": 2054,
+      "sha256": "c97e5c59034613f081a16cc09c68e673515ea87025b3b6f113cc3346bc14560b"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/Preliminary_Stiffness_and_Mass.json",
+      "storage": "git",
+      "size_bytes": 1295,
+      "sha256": "fe5aba782884ec17b15eb6b87a600af1e5fa44759b5f7283e7bb9531cd44d1a6"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/R3_Geometry_Inheritance.json",
+      "storage": "git",
+      "size_bytes": 31504,
+      "sha256": "0bca0a23e3eb5529618ee4e6e940213593d1f61600268007d5c375720dbbb927"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/R4_Motion_and_Tensioner_Clearance.json",
+      "storage": "git",
+      "size_bytes": 1702,
+      "sha256": "78439ac2a92d4484f76255cae05d9bf236e82c49c84b1dfeca8d675b184a6d1a"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Checks/Static_All_Pairs.json",
+      "storage": "git",
+      "size_bytes": 6760,
+      "sha256": "40f3cd047fc54fa0dfb767110236dee4dae484e4657d18576e7b311475db5f4f"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/Profile_Verification.json",
+      "storage": "git",
+      "size_bytes": 68512,
+      "sha256": "1b50f6d71540912502e289ae6f6b2a1a58b5250f4925659d722ad73a775f12b2"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/Profiles.json",
+      "storage": "git",
+      "size_bytes": 394,
+      "sha256": "325acfac5f2c7a28ba3404f876daac687bb8638cfa6871c69dbb498fb2ea6b63"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_Angle_BodyFace_DrillingTemplate.dxf",
+      "storage": "git",
+      "size_bytes": 550,
+      "sha256": "e713f3c84567d2ef8acd4fbc0b9ceb0793e6d003a88766261c667bd5b77ad978"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_Angle_BodyFace_DrillingTemplate.step",
+      "storage": "git",
+      "size_bytes": 12640,
+      "sha256": "dbb1af0c3fcd8ab7654bc7be624cb032b58c43b69599605532cdc923c4e541c8"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_Angle_RibFace_DrillingTemplate.dxf",
+      "storage": "git",
+      "size_bytes": 418,
+      "sha256": "4bd31a62333bde56244eeb95ac430fd4131d78dca98b061695f4a52ba330cc52"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_Angle_RibFace_DrillingTemplate.step",
+      "storage": "git",
+      "size_bytes": 9763,
+      "sha256": "e5b0e30f2bbc9272081f1b1617dffaf4c378abca574e1b6812bfd9e4d367f5dd"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_BackingPlate_2mm_x4.dxf",
+      "storage": "git",
+      "size_bytes": 550,
+      "sha256": "e713f3c84567d2ef8acd4fbc0b9ceb0793e6d003a88766261c667bd5b77ad978"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_BackingPlate_2mm_x4.step",
+      "storage": "git",
+      "size_bytes": 12640,
+      "sha256": "563e2ce99d7ed01e32a63ff1f74eb88ccfd42a484ee2d3e8be726108a33a8660"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_CrankOuTrigger_6mm_x1.dxf",
+      "storage": "git",
+      "size_bytes": 2015,
+      "sha256": "1c6cd819a40caeabd7e7086c3a0de39834009d35eb0ececb53e1c4ba7fbe4a04"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_CrankOuTrigger_6mm_x1.step",
+      "storage": "git",
+      "size_bytes": 89425,
+      "sha256": "57fc831660108d1d307db2360d6b133fa330b850399a12c268a4fe209883a756"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_CurvedRib_8mm_x4.dxf",
+      "storage": "git",
+      "size_bytes": 14242,
+      "sha256": "aa313004725a7a66086325e8e4950d431a877cb4565fd14cfa8f35e9081ea491"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_CurvedRib_8mm_x4.step",
+      "storage": "git",
+      "size_bytes": 310694,
+      "sha256": "f50b55181956efffb9d7d7900068eaab68d59f4779efbeaf597e349f28de4ff2"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_StockAngle_Left_x1.step",
+      "storage": "git",
+      "size_bytes": 17969,
+      "sha256": "5cf53bf22e207388ebd5659c70701f29eac61b8f3239b51492ea120a23cf9a81"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/R4_StockAngle_Right_x3.step",
+      "storage": "git",
+      "size_bytes": 17945,
+      "sha256": "7d6c8eacce3234495c81d405840ed154b94ed9b8e5614ded387d38325b72aeff"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/README.md",
+      "storage": "git",
+      "size_bytes": 5133,
+      "sha256": "046fdf276baddf7a1c8a431c175a05a6af10b5ca7e3ce2a5551237b9855bdcce"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/Rear_Frame_Bill_of_Materials.csv",
+      "storage": "git",
+      "size_bytes": 2309,
+      "sha256": "9775215cf366553a3286ffea2047d946eb056e1e37feeadd88a98cc3dbc43dbb"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Cutting_Preview/Rear_Rim_Mounting_Locations.csv",
+      "storage": "git",
+      "size_bytes": 696,
+      "sha256": "370f278708b5011a8401c3dd4d375d8d545f82162919625d792c24ea93349acd"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/CAD_Force_Budget.json",
+      "storage": "git",
+      "size_bytes": 7347,
+      "sha256": "3cb0977565153e827171ec31b7dd37e74f3d8cd4258c526a967bf6e07be91a1f"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/Exudyn_Ideal_Dynamics_Verification.json",
+      "storage": "git",
+      "size_bytes": 703,
+      "sha256": "652af76be27cae6ca5aaef1b1f02dd3a45a03f1d639211568a4cc90008810106"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/Exudyn_Simultaneous_Load_Transfer_Verification.json",
+      "storage": "git",
+      "size_bytes": 632,
+      "sha256": "90cb43e57d4e8dc9f3c3e03b68cec262762ce376ba8135901a40a569b254b0a1"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/Per_Voice_Force_Transfer.csv",
+      "storage": "git",
+      "size_bytes": 1804,
+      "sha256": "5ab5ffbfe684c206ba62343c1e602b2d27ef77f3c810d5f6907f241ab650afa4"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/README.md",
+      "storage": "git",
+      "size_bytes": 6858,
+      "sha256": "e238eccbb531c972835a1c1333834f76fb336414465f25f9a4824b22b59ffbf0"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/Reproduction/README.md",
+      "storage": "git",
+      "size_bytes": 551,
+      "sha256": "a4bd6b0c9c42708e5676e90410d29f6ada9d6f81556ce602217e6e0613e45ceb"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/Reproduction/exudyn_check.py",
+      "storage": "git",
+      "size_bytes": 4880,
+      "sha256": "33277c7ac29909d8b99496ef9fd01f44081d8ae74ee2920b8d8d8b88ef05946d"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/Reproduction/exudyn_coincidence.py",
+      "storage": "git",
+      "size_bytes": 3733,
+      "sha256": "fb2c90eeeba5b62c0fbb532321d567c54924a9540931233dbc9fa363c12b1712"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/Reproduction/kinematics.json",
+      "storage": "git",
+      "size_bytes": 8111,
+      "sha256": "b4a75152858e6acd930b75a4ad23a3f1750f568ebc884fadccf82f464ca53cbf"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/Reproduction/mass_properties.json",
+      "storage": "git",
+      "size_bytes": 191650,
+      "sha256": "aa4c7b4b8426fc492d741b112ecb4ceb4b9d4f8a07569a4a43aec24a1f641361"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/Reproduction/model.py",
+      "storage": "git",
+      "size_bytes": 5434,
+      "sha256": "fcb18e6f2cd98627521253c746dbfbe0327559f7b4317dfdcb099f79a49dae7c"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Drive_Effort/Reproduction/requirements.txt",
+      "storage": "git",
+      "size_bytes": 215,
+      "sha256": "93d4999d4ae854b72d05215e360596aea92f079d494923dcf176d4a5b43d88fa"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/LeLovophon_Monopole_R4.FCStd",
+      "storage": "git",
+      "size_bytes": 12818623,
+      "sha256": "1eaa9f0972b8fe906b78259f1bb48794cb66ac507e2f8cc8157353e0c2f8c531"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Part_Inventory.json",
+      "storage": "git",
+      "size_bytes": 288357,
+      "sha256": "13ff05feeb740aa53ccd3f058567d7fc97d732fcb376617db56733acf2ac0243"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/README.md",
+      "storage": "git",
+      "size_bytes": 2355,
+      "sha256": "614253ca6a169583dcab6532b04630b5fc0c9113b4dfcb789cf6a3f72e67fc9a"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Render_Metadata.json",
+      "storage": "git",
+      "size_bytes": 514,
+      "sha256": "f2382c3893baa96d2d434d9d790ad6cdaaab5c133b2366f9e412bcd2059cccb0"
+    },
+    {
+      "path": "outputs/LeLovophon_Monopole_R4/Verification_Summary.json",
+      "storage": "git",
+      "size_bytes": 1391,
+      "sha256": "05eae59f0db421e661eba1a6e002ca246dff50ba906a9d2503402dd6b71abaf7"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Assembly_Guide.md",
+      "storage": "git",
+      "size_bytes": 2671,
+      "sha256": "d256bdf0ccf225824cd8dc49bb6859ed6a1ca1270b4bfef663e68dc8351e8e9c"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Final_Refinement_Inheritance.json",
+      "storage": "git",
+      "size_bytes": 30918,
+      "sha256": "c2a9d3536af99a64eb0ac430e567d30503094f391c795580e9d142dd215624bd"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Inherited_R2/Baseline_Motion_01_04.json",
+      "storage": "git",
+      "size_bytes": 1787,
+      "sha256": "30792425aea977ba3381bd129951ad1956be8265c965d5fd8c56ac4e6f4e37de"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Inherited_R2/Baseline_Motion_05_08.json",
+      "storage": "git",
+      "size_bytes": 3422,
+      "sha256": "e0d0253ef373b5493635257881a15dda1dd5bf67ce70867649b99c526aa307df"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Inherited_R2/Baseline_Motion_09_12.json",
+      "storage": "git",
+      "size_bytes": 1385,
+      "sha256": "0fccdb43fb77fd09574fb85a66d6c82377c009615070f919fcbd80d182b5747b"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Inherited_R2/Dimensions_and_Tensioners.json",
+      "storage": "git",
+      "size_bytes": 5939,
+      "sha256": "18a17093ea1803c52428259c419f96214c8df850f16d2f5fb89afa8f7d143bb6"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Inherited_R2/Motion_Audit.json",
+      "storage": "git",
+      "size_bytes": 11507,
+      "sha256": "c546e30fd218fff3a1a150fb1369419ff5f9ca92cc42a5124a00e18a1f369195"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Inherited_R2/Retainer_Refinement_Motion.json",
+      "storage": "git",
+      "size_bytes": 147236,
+      "sha256": "0aff88e794bb736a2149e078bc9df2c0571dfe48608530115c3b5cf2b9169f93"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Inherited_R2/Shared_Input_Continuous_Clearance.json",
+      "storage": "git",
+      "size_bytes": 1210,
+      "sha256": "39d8e1d3bfd72370d087e042c1ad1f517e735637fdef4fad61c3012a5bf8a4a8"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Inherited_R2/Static_All_Pairs.json",
+      "storage": "git",
+      "size_bytes": 6512,
+      "sha256": "8cc86f20a911612221476b7956a2a82ab90ca0ab5022ede699c9d9e4afc6d13b"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Inherited_R2/Verification_Summary.json",
+      "storage": "git",
+      "size_bytes": 922,
+      "sha256": "d9950592e04bea8da62306a0fe3a3205927dff756bc520292896dc86e3b34eec"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Motion_Baseline_Before_Compact_Eye.json",
+      "storage": "git",
+      "size_bytes": 37091,
+      "sha256": "730e010a8ece4f717b7ae668cb0403c7d01617e84a44973a4012a34bfb8a6923"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Motion_Clearance_R3.json",
+      "storage": "git",
+      "size_bytes": 1570,
+      "sha256": "4458ad62685b2c51d61be0d31f4a7b966408a47770267372ce261260969d9df4"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Inherited_R3/Source_Geometry_Identity.json",
+      "storage": "git",
+      "size_bytes": 202160,
+      "sha256": "c0e38e58ae8c8c3663a71b644cc11ba80da52ca8285015e4fcb1c223ba088395"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Preliminary_Stiffness_and_Mass.json",
+      "storage": "git",
+      "size_bytes": 1413,
+      "sha256": "febbbd702226520b9328a91efc9b1083a9420d8440965cf6265430d01f6eaec5"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/R3_Local_Geometry_Inheritance.json",
+      "storage": "git",
+      "size_bytes": 31811,
+      "sha256": "0bd9be261cd64f3a1ea670de98ceeef4fe5018a6d26a6522d6ec26adf13d3d36"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/R5_Motion_and_Tensioner_Clearance.json",
+      "storage": "git",
+      "size_bytes": 7715,
+      "sha256": "43db3612b18175f67ed70006d1bbdfbe3cfb1d618748ca7445eee0e4608729bc"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Checks/Static_All_Pairs.json",
+      "storage": "git",
+      "size_bytes": 6761,
+      "sha256": "4819abbd0e52f9eb5579703bb2e7cc255b43bc9a9432924dddaec89063063198"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/Profile_Verification.json",
+      "storage": "git",
+      "size_bytes": 68512,
+      "sha256": "698b1bfb4020db99550c6caf383fe9d1ab37da6b23209207767d036fe4dd6244"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/Profiles.json",
+      "storage": "git",
+      "size_bytes": 394,
+      "sha256": "2fb28109f5bae0eeb427cd9d5622b7fb642fa226ee0a23652392c2751db511e3"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_Angle_BodyFace_DrillingTemplate.dxf",
+      "storage": "git",
+      "size_bytes": 550,
+      "sha256": "e713f3c84567d2ef8acd4fbc0b9ceb0793e6d003a88766261c667bd5b77ad978"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_Angle_BodyFace_DrillingTemplate.step",
+      "storage": "git",
+      "size_bytes": 12640,
+      "sha256": "057620bd55eab7e90b67b80fb246372321f94142b92b027e769fea0bca33c078"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_Angle_RibFace_DrillingTemplate.dxf",
+      "storage": "git",
+      "size_bytes": 418,
+      "sha256": "4bd31a62333bde56244eeb95ac430fd4131d78dca98b061695f4a52ba330cc52"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_Angle_RibFace_DrillingTemplate.step",
+      "storage": "git",
+      "size_bytes": 9763,
+      "sha256": "49a5f2c4262c7d0a06b5dca4f3a2ee5df19668204f641806f48d241fde7568ce"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_BackingPlate_2mm_x4.dxf",
+      "storage": "git",
+      "size_bytes": 550,
+      "sha256": "e713f3c84567d2ef8acd4fbc0b9ceb0793e6d003a88766261c667bd5b77ad978"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_BackingPlate_2mm_x4.step",
+      "storage": "git",
+      "size_bytes": 12640,
+      "sha256": "78a80c7309ad998fa9e3769b9183be2ae6d881cfb4300d879ab5ddb560b8c2d2"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_CrankOuTrigger_6mm_x1.dxf",
+      "storage": "git",
+      "size_bytes": 8461,
+      "sha256": "9ce10ffa0b788932f27b630ec050f5600e06cf6d6994812543b824ea415ac515"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_CrankOuTrigger_6mm_x1.step",
+      "storage": "git",
+      "size_bytes": 36330,
+      "sha256": "12442ee42185abea1c4328c4115beaf46b0b7c5df0ddb41c5eee9c5d95260181"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_CurvedRib_8mm_x4.dxf",
+      "storage": "git",
+      "size_bytes": 14056,
+      "sha256": "d4b2979dbabbddedfe014344bb4caf362e86e6c5ce33959764cbe212e9dc7226"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_CurvedRib_8mm_x4.step",
+      "storage": "git",
+      "size_bytes": 327429,
+      "sha256": "8fe0a5d22e6c8dc4e1a0c6b79c9d83fb8332e506c090fbbd40b5dc0465df1ffe"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_StockAngle_Left_x1.step",
+      "storage": "git",
+      "size_bytes": 17969,
+      "sha256": "9633b1685ee56ebbbba8e0d9ea14c92c3419e6c48882838460ab85559d61152d"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R4_StockAngle_Right_x3.step",
+      "storage": "git",
+      "size_bytes": 17945,
+      "sha256": "5c81486edaa76f0ecc2329def3c492ba25a41a18f2569698a3635f56a0cff4ee"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R5_Body_Mounting_Coordinates.csv",
+      "storage": "git",
+      "size_bytes": 517,
+      "sha256": "ec7a8115452472c9c1ba4e79e8136d3d8468bc13340d3735c2f4289676e40ba4"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/R5_Input_Bearing_Locations.csv",
+      "storage": "git",
+      "size_bytes": 153,
+      "sha256": "890909e4a8ae24e713bd34c74a68ec65e0e121014eadfd5af1599a382058ee8b"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Cutting_Preview/README.md",
+      "storage": "git",
+      "size_bytes": 1094,
+      "sha256": "b1ea7a8498121ba8a5d341ab955ab07e1b921e38bbeaf6ad565d9af6e57d7ecc"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Design_Requirements.json",
+      "storage": "git",
+      "size_bytes": 479,
+      "sha256": "8aae843fcb265798184e763c09bfc074fef58b7467d9ea8e9f84f59b73c50b95"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/CAD_Force_Budget.json",
+      "storage": "git",
+      "size_bytes": 7133,
+      "sha256": "97441046f7c5ec0237f1c68733942219b105abe7bcd1068db8145eda5185553f"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Conditional_Force_Envelope.json",
+      "storage": "git",
+      "size_bytes": 5181,
+      "sha256": "1554341879dd486ab874f19eefe2e805cffcff6a850244f2608188a0dbb213ab"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Exudyn_Ideal_Dynamics_Verification.json",
+      "storage": "git",
+      "size_bytes": 618,
+      "sha256": "e19c6527c35d49b8885809ef3095ff470805181535a6a417dcaa56745efc5601"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Exudyn_Simultaneous_Load_Transfer_Verification.json",
+      "storage": "git",
+      "size_bytes": 548,
+      "sha256": "54e2e1b084a8345d1cbd91b647f7a054d3fa5888968be5753444ac0024f3056c"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Per_Voice_Force_Transfer.csv",
+      "storage": "git",
+      "size_bytes": 1585,
+      "sha256": "ff657e5751cb5dbd90ba0df7ba0faf4d3b870c2e0316a702fdf12c6653bb6999"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Pick_Test_Record.csv",
+      "storage": "git",
+      "size_bytes": 732,
+      "sha256": "7e0b638ec990944ec8da94e5b6f81d2584ce5ca1d462d7c16b926512843084c1"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/README.md",
+      "storage": "git",
+      "size_bytes": 7216,
+      "sha256": "fa897a9595d02b2a78dbc9c01bdbb650bcf0a0c6a3f78647c0f3efb2cd7beedb"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Reproduction/README.md",
+      "storage": "git",
+      "size_bytes": 551,
+      "sha256": "a4bd6b0c9c42708e5676e90410d29f6ada9d6f81556ce602217e6e0613e45ceb"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Reproduction/exudyn_check.py",
+      "storage": "git",
+      "size_bytes": 4880,
+      "sha256": "33277c7ac29909d8b99496ef9fd01f44081d8ae74ee2920b8d8d8b88ef05946d"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Reproduction/exudyn_coincidence.py",
+      "storage": "git",
+      "size_bytes": 3733,
+      "sha256": "fb2c90eeeba5b62c0fbb532321d567c54924a9540931233dbc9fa363c12b1712"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Reproduction/force_envelope.py",
+      "storage": "git",
+      "size_bytes": 2976,
+      "sha256": "c7acfb33267b5bdb6b42d4efd1c9e2a817810d10a9086764a45b850a49ddcfcf"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Reproduction/kinematics.json",
+      "storage": "git",
+      "size_bytes": 7792,
+      "sha256": "b72359a980634231b56a3458e99cdb71dfdbf5082d0f176d880a5badef72c1ec"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Reproduction/mass_properties.json",
+      "storage": "git",
+      "size_bytes": 184093,
+      "sha256": "dd3372ac23716d994cff3ac97aea65bfff3f90814550e1788686dcf03e9127a3"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Reproduction/model.py",
+      "storage": "git",
+      "size_bytes": 5434,
+      "sha256": "fcb18e6f2cd98627521253c746dbfbe0327559f7b4317dfdcb099f79a49dae7c"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drive_Effort/Reproduction/requirements.txt",
+      "storage": "git",
+      "size_bytes": 215,
+      "sha256": "93d4999d4ae854b72d05215e360596aea92f079d494923dcf176d4a5b43d88fa"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drivetrain_Assessment/Drivetrain_Loads.json",
+      "storage": "git",
+      "size_bytes": 18353,
+      "sha256": "e97581e22b761094cec8f6b11205b148c9eec7c7cfcc422d53a62562226f0d96"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drivetrain_Assessment/Exudyn_Shared_Crossing_Reactions.json",
+      "storage": "git",
+      "size_bytes": 4348,
+      "sha256": "70b4764b761cc03fe7426211819448d1029a8a598706c2993470f793670e80ed"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drivetrain_Assessment/Per_Voice_Loads.csv",
+      "storage": "git",
+      "size_bytes": 4868,
+      "sha256": "60fc8248212a76da91d6bf810f55e6c96d133891599421ee9de3df66eb25c3c4"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Drivetrain_Assessment/README.md",
+      "storage": "git",
+      "size_bytes": 8242,
+      "sha256": "346da1367b2aa874df6cd4eee01c69f4c824996bce625ea4baeacd9692bc27e3"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Geometry_Summary.json",
+      "storage": "git",
+      "size_bytes": 229,
+      "sha256": "9f9ff5ec39587b4636317c7357482c2fbcc17beca12017af124292ca5590de3c"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/LeLovophon_Pluck_Layout_R5.FCStd",
+      "storage": "git",
+      "size_bytes": 12857222,
+      "sha256": "8b5322026e943034589d3b90ea17b8ebd58bd06830b3c0050511e0693e0f7148"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Paris_Studio_16min/Film_Provenance.json",
+      "storage": "git",
+      "size_bytes": 1083,
+      "sha256": "9c086f924c081d767c442ef1a6ccaf61b640036ec43f189b7f2d645f998f037d"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Paris_Studio_16min/Orbit_360_Details.json",
+      "storage": "git",
+      "size_bytes": 1949,
+      "sha256": "bd817769813f6955dd3470ee9a1b4fa10d9d0f8ff24d80eb60b2565cf1c9404f"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Paris_Studio_16min/Orbit_360_Pose_Verification.json",
+      "storage": "git",
+      "size_bytes": 321,
+      "sha256": "53a711eb586ff2b48bf7b2303604f956ca02489b91c094552725c9dd1438c27b"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Paris_Studio_16min/Paris_Film_Verification.json",
+      "storage": "git",
+      "size_bytes": 1380,
+      "sha256": "0fa4ae3754e088871e6b8ed5b7fe0a6cd1a0db45005db8ca79b1ab9d3f288b1e"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Paris_Studio_16min/Readme.md",
+      "storage": "git",
+      "size_bytes": 1061,
+      "sha256": "824b78375885625d24849e691e5874acad029666e59ecad0e2d8bb8bb8dc05a0"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Part_Inventory.json",
+      "storage": "git",
+      "size_bytes": 289949,
+      "sha256": "977925c511810b55f5f2921cdfabb6213f167bb8fd44207f3923cb58c99c38e7"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Plucking_Layout.json",
+      "storage": "git",
+      "size_bytes": 5887,
+      "sha256": "c41cc3a63fba8889869cee6d4334f24f772ab51eab1f088fa1a8e84e0fe8b96b"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Plucking_Positions.csv",
+      "storage": "git",
+      "size_bytes": 1492,
+      "sha256": "eb89ce7a6b5fa25f50ea13a9df2d5ef8c1558c0dcb6fd7a0a4b461520b52e18c"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/README.md",
+      "storage": "git",
+      "size_bytes": 5357,
+      "sha256": "ababd7f2ce72ae943e1f4422604bb986b847a18e4e79a5cfa76aa53fcad8c350"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Render_Metadata.json",
+      "storage": "git",
+      "size_bytes": 389,
+      "sha256": "af930e852f77b279997c4da8bc6cb54abdd644d63f82015f037695f61b9c5ffc"
+    },
+    {
+      "path": "outputs/LeLovophon_Pluck_Layout_R5/Verification_Summary.json",
+      "storage": "git",
+      "size_bytes": 2562,
+      "sha256": "790184814491ad6e3f68f469f087a10352a7032035901bda5e7acc3af8e23679"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Dimensions_and_Tensioners.json",
+      "storage": "git",
+      "size_bytes": 6108,
+      "sha256": "4d4a8b713360746fd776c8981a51c821161f8f5d2f7f700a8f11e77ce7c673a8"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Final_Refinement_Inheritance.json",
+      "storage": "git",
+      "size_bytes": 30918,
+      "sha256": "c2a9d3536af99a64eb0ac430e567d30503094f391c795580e9d142dd215624bd"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Inherited_R2/Baseline_Motion_01_04.json",
+      "storage": "git",
+      "size_bytes": 1787,
+      "sha256": "30792425aea977ba3381bd129951ad1956be8265c965d5fd8c56ac4e6f4e37de"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Inherited_R2/Baseline_Motion_05_08.json",
+      "storage": "git",
+      "size_bytes": 3422,
+      "sha256": "e0d0253ef373b5493635257881a15dda1dd5bf67ce70867649b99c526aa307df"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Inherited_R2/Baseline_Motion_09_12.json",
+      "storage": "git",
+      "size_bytes": 1385,
+      "sha256": "0fccdb43fb77fd09574fb85a66d6c82377c009615070f919fcbd80d182b5747b"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Inherited_R2/Dimensions_and_Tensioners.json",
+      "storage": "git",
+      "size_bytes": 5939,
+      "sha256": "18a17093ea1803c52428259c419f96214c8df850f16d2f5fb89afa8f7d143bb6"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Inherited_R2/Motion_Audit.json",
+      "storage": "git",
+      "size_bytes": 11507,
+      "sha256": "c546e30fd218fff3a1a150fb1369419ff5f9ca92cc42a5124a00e18a1f369195"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Inherited_R2/Retainer_Refinement_Motion.json",
+      "storage": "git",
+      "size_bytes": 147236,
+      "sha256": "0aff88e794bb736a2149e078bc9df2c0571dfe48608530115c3b5cf2b9169f93"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Inherited_R2/Shared_Input_Continuous_Clearance.json",
+      "storage": "git",
+      "size_bytes": 1210,
+      "sha256": "39d8e1d3bfd72370d087e042c1ad1f517e735637fdef4fad61c3012a5bf8a4a8"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Inherited_R2/Static_All_Pairs.json",
+      "storage": "git",
+      "size_bytes": 6512,
+      "sha256": "8cc86f20a911612221476b7956a2a82ab90ca0ab5022ede699c9d9e4afc6d13b"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Inherited_R2/Verification_Summary.json",
+      "storage": "git",
+      "size_bytes": 922,
+      "sha256": "d9950592e04bea8da62306a0fe3a3205927dff756bc520292896dc86e3b34eec"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Motion_Baseline_Before_Compact_Eye.json",
+      "storage": "git",
+      "size_bytes": 37091,
+      "sha256": "730e010a8ece4f717b7ae668cb0403c7d01617e84a44973a4012a34bfb8a6923"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Motion_Clearance_R3.json",
+      "storage": "git",
+      "size_bytes": 1570,
+      "sha256": "4458ad62685b2c51d61be0d31f4a7b966408a47770267372ce261260969d9df4"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Preliminary_Load_Estimates.json",
+      "storage": "git",
+      "size_bytes": 1550,
+      "sha256": "2ad4be7f93b5120467e29fa0807b3f86f619cad37e973a71faefa5f33ab151bb"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Source_Geometry_Identity.json",
+      "storage": "git",
+      "size_bytes": 202160,
+      "sha256": "c0e38e58ae8c8c3663a71b644cc11ba80da52ca8285015e4fcb1c223ba088395"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Checks/Static_All_Pairs.json",
+      "storage": "git",
+      "size_bytes": 6760,
+      "sha256": "0432a1a2f4d45ec90d353f76173b47fcf31454a9a0905ab00276d0b0fac99ba4"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Drive_Calculations.json",
+      "storage": "git",
+      "size_bytes": 8597,
+      "sha256": "2bc487688862f09fae14f9a73bfd364ded95d62eb3df674e10e1c56d2fa238b3"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/LeLovophon_Protokoto_R3.FCStd",
+      "storage": "git",
+      "size_bytes": 12990238,
+      "sha256": "7b2298082c295d9029f626de26fd0f8c8596d45e8ed3974a5baf7ac676a403c2"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Part_Inventory.json",
+      "storage": "git",
+      "size_bytes": 252110,
+      "sha256": "5e693163a6152b2c34976642f38d2bf719da40e795ab569f2cad84d95d686f26"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/README.md",
+      "storage": "git",
+      "size_bytes": 5313,
+      "sha256": "75cad43ca862a98e11c6be26d68dab226bd90962dbb34158f1d6921a68d7044f"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/String_Routing.json",
+      "storage": "git",
+      "size_bytes": 2717,
+      "sha256": "cb6faa8744b7e918233b2b81fbbc1fe17dee0b0135cb1ac6ba7bc48ccb46297d"
+    },
+    {
+      "path": "outputs/LeLovophon_Protokoto_R3/Verification_Summary.json",
+      "storage": "git",
+      "size_bytes": 2054,
+      "sha256": "c97e5c59034613f081a16cc09c68e673515ea87025b3b6f113cc3346bc14560b"
     },
     {
       "path": "outputs/LeLovophon_Slender_Bank/LeLovophon_Slender_Bank.FCStd",
@@ -1333,6 +2497,12 @@
       "sha256": "6a5c3491f9c7844be19905c576e34dca3a72e267bd1bd35c5a4237a4c56843ad"
     },
     {
+      "path": "scripts/verify_project.py",
+      "storage": "git",
+      "size_bytes": 8294,
+      "sha256": "c74add9b337c9273bb60fbf776b55de51e10f44dd1d9a49b7f31480279262fea"
+    },
+    {
       "path": "work/Harpe_d_Amour_Shared_Gantry.FCStd",
       "storage": "git",
       "size_bytes": 1355589,
@@ -1411,6 +2581,24 @@
       "sha256": "6dc8949f5490134365cec319e31e6133922fe685f16430fde6b45821796ec976"
     },
     {
+      "path": "work/audit_direct_gear_motion.py",
+      "storage": "git",
+      "size_bytes": 3071,
+      "sha256": "b6ab382cb9f29e5acc0f24b2c7956399f4f1ddd4c6ce302324496f8cb0a52968"
+    },
+    {
+      "path": "work/audit_direct_gear_static.py",
+      "storage": "git",
+      "size_bytes": 2255,
+      "sha256": "40bf7ad171482e592d99b75168d3a15f9a3d6415d702809286695cbf20068628"
+    },
+    {
+      "path": "work/audit_direct_gear_string_support.py",
+      "storage": "git",
+      "size_bytes": 1884,
+      "sha256": "1a8153e1ceb68a791ece8285340692c50bc0718609172ba597241ef873ff6fb8"
+    },
+    {
       "path": "work/audit_lab_build.py",
       "storage": "git",
       "size_bytes": 9144,
@@ -1457,6 +2645,12 @@
       "storage": "git",
       "size_bytes": 4341,
       "sha256": "680b6b562746f8762d2197a6c54a4c77c28f766b3c313476099316318f89984e"
+    },
+    {
+      "path": "work/build_direct_gear_axle_fix.py",
+      "storage": "git",
+      "size_bytes": 10502,
+      "sha256": "78bcf90088c9f93aaab00442c6f0713b040f98f987859cefa22846defc927b68"
     },
     {
       "path": "work/build_hardware_drive_frame.py",
@@ -1555,6 +2749,30 @@
       "sha256": "f35c483cb09a2aa7dc680016ef9563203854aa0c55d7b037670eb2f66c592a17"
     },
     {
+      "path": "work/check_direct_gear_360_pose_axle_fix.py",
+      "storage": "git",
+      "size_bytes": 1031,
+      "sha256": "60c0d84599d6b58f5ff74869b80455ce02e1cc0d60a4952e6b3fbcdb7f9af36e"
+    },
+    {
+      "path": "work/check_direct_gear_cad_axle_fix.py",
+      "storage": "git",
+      "size_bytes": 2414,
+      "sha256": "22f71dcee94503e1a2dfa5aeabd9a9303daac4728017e7f89ab481d911fccd1e"
+    },
+    {
+      "path": "work/check_direct_gear_math.py",
+      "storage": "git",
+      "size_bytes": 2375,
+      "sha256": "0c496c3dcf98298e70e76a523ef4c95953eba1799cb144a9f40043bba785a2c9"
+    },
+    {
+      "path": "work/check_direct_gear_sound.py",
+      "storage": "git",
+      "size_bytes": 2953,
+      "sha256": "c7b4e8d19c6cf42a557a45ce46aa10301bb4c4b3c344c1523cf98bdebb594b0e"
+    },
+    {
       "path": "work/check_hardware_drive_frame.py",
       "storage": "git",
       "size_bytes": 4841,
@@ -1621,6 +2839,12 @@
       "sha256": "daf42b6b7ff12989093afaa219d1e39bcc1cd077fdadaa5c9cc7806bcf1621bb"
     },
     {
+      "path": "work/check_paris_close_pose.py",
+      "storage": "git",
+      "size_bytes": 1763,
+      "sha256": "37c5929c764f023f6b74380a19f6d107edef1ddbb718b321381f391f38f00b9a"
+    },
+    {
       "path": "work/check_pentatonic.py",
       "storage": "git",
       "size_bytes": 1936,
@@ -1649,6 +2873,12 @@
       "storage": "git",
       "size_bytes": 1861,
       "sha256": "cb5340a414f8b090cfa7307bdb77a99c1b4028ce05ba7f76bcb2c54e22877168"
+    },
+    {
+      "path": "work/check_rod_axles.py",
+      "storage": "git",
+      "size_bytes": 2027,
+      "sha256": "f05a4c6f1a02ac2c0b826b8ccf9ecbc10d60a5de7b00a9cbafa978e9aa92f659"
     },
     {
       "path": "work/check_shared_gantry.py",
@@ -1727,6 +2957,60 @@
       "storage": "git",
       "size_bytes": 9479,
       "sha256": "2601fdbbb1e7ea6aec6258e0b693c43314737b049a8cafed8261013042a4de55"
+    },
+    {
+      "path": "work/convolve_harp_salon.py",
+      "storage": "git",
+      "size_bytes": 2854,
+      "sha256": "db32055a17ec2892c62e35936d5d9d77be42799c2f92909e6c53dadfd4535fdb"
+    },
+    {
+      "path": "work/direct_gear_math.py",
+      "storage": "git",
+      "size_bytes": 3524,
+      "sha256": "df5a8822c527f8ef2fc997d4a0aede7106c41f68cd26d125c77ad943c252d99e"
+    },
+    {
+      "path": "work/direct_gear_studio_materials.py",
+      "storage": "git",
+      "size_bytes": 3507,
+      "sha256": "dbf47767c262e862656a5c26ebc07f043eb04f6cef0921edea32ecc3dc624736"
+    },
+    {
+      "path": "work/drivetrain_r5/assess.py",
+      "storage": "git",
+      "size_bytes": 6916,
+      "sha256": "ba0db6b71b4079d209bbdf3d68de7b3c06d15c0de8383c59bee23c3a4fe39f28"
+    },
+    {
+      "path": "work/drivetrain_r5/reactions.py",
+      "storage": "git",
+      "size_bytes": 4196,
+      "sha256": "9b583bfd33c62bed0bb05a69a2a6e3be48a47508a8db60c9de358d6af79a7302"
+    },
+    {
+      "path": "work/drivetrain_r5/report.py",
+      "storage": "git",
+      "size_bytes": 9221,
+      "sha256": "15d640d8231fdbbd4291eeefc3cacf962edb92228c42b8c090effb20a49a081c"
+    },
+    {
+      "path": "work/encode_direct_gear_360_axle_fix.py",
+      "storage": "git",
+      "size_bytes": 5730,
+      "sha256": "42c0f1386399e6487dd5b4ee6def517858e8533da08340d98432a72fc983fb64"
+    },
+    {
+      "path": "work/encode_paris_close_16min.py",
+      "storage": "git",
+      "size_bytes": 5669,
+      "sha256": "1806d62c701485628dc7f1c9ae420172f97ce67f78ccc23ae3cb87d7a397171f"
+    },
+    {
+      "path": "work/encode_r5_paris_16min.py",
+      "storage": "git",
+      "size_bytes": 3520,
+      "sha256": "f9e52436ef5ed8c2e26977cb73c38115924ded78846484645036018639d5caea"
     },
     {
       "path": "work/export_koto_rescue.py",
@@ -1939,6 +3223,12 @@
       "sha256": "c02d63003454ba032cf439545e0b748a38ca06f24c9420bbcd0ebd62a7a0c166"
     },
     {
+      "path": "work/lovophon_paris_close_studio.py",
+      "storage": "git",
+      "size_bytes": 11816,
+      "sha256": "97d0eb026b25692ba914f8d92a7f0feb9e373a04213849edc6d78f5363422411"
+    },
+    {
       "path": "work/low_nylon_size.py",
       "storage": "git",
       "size_bytes": 2457,
@@ -1955,6 +3245,18 @@
       "storage": "git",
       "size_bytes": 7497,
       "sha256": "9a252ea9e3a58134fb0c35ab3b5d390247cb2bb87acede7336285c9514ae54b9"
+    },
+    {
+      "path": "work/make_direct_gear_sound.py",
+      "storage": "git",
+      "size_bytes": 7875,
+      "sha256": "d386a29209d7646b16a3b004b6f2afbe3b2401c1b0279da6e94fd134108f89f0"
+    },
+    {
+      "path": "work/make_lovophon_short_edit.py",
+      "storage": "git",
+      "size_bytes": 2586,
+      "sha256": "44e0f39ebe944ba7d094477cbc25c4cd9124c66031c12ebe5f13fa87e5fb2359"
     },
     {
       "path": "work/make_lovophone_midi.py",
@@ -1979,6 +3281,54 @@
       "storage": "git",
       "size_bytes": 7093,
       "sha256": "bff385b6de11cd126aaf8c2d57f2105813a27af556d51ab33dea6ec864ac3697"
+    },
+    {
+      "path": "work/monopole_r4/build.py",
+      "storage": "git",
+      "size_bytes": 13519,
+      "sha256": "f09bf3cf975a11b56d7a324456fc48a8fa42f5bf14aaaf1b0f092d176aa45b98"
+    },
+    {
+      "path": "work/monopole_r4/check.py",
+      "storage": "git",
+      "size_bytes": 8108,
+      "sha256": "fda8782c4a713f710b43d84027eb5ddad59f6aef99b25d276f4298d6f79ca1cc"
+    },
+    {
+      "path": "work/monopole_r4/estimates.py",
+      "storage": "git",
+      "size_bytes": 2734,
+      "sha256": "df9a226c2d290780fe503ecdd8427a62a0bff6da1d36cad0bfb42b11b5617577"
+    },
+    {
+      "path": "work/monopole_r4/export_parts.py",
+      "storage": "git",
+      "size_bytes": 3633,
+      "sha256": "42e58b7072c9c4440574e54983eb518da04ad3d0b9242a399b2c36158d8cbdbe"
+    },
+    {
+      "path": "work/monopole_r4/hero.py",
+      "storage": "git",
+      "size_bytes": 4997,
+      "sha256": "2b411860cfc3be3a85fbce839073d0bf2d2efa59ed4d918a5f68ba957ed7d2fc"
+    },
+    {
+      "path": "work/monopole_r4/motion.py",
+      "storage": "git",
+      "size_bytes": 6065,
+      "sha256": "5ec75a4549d75c72ebbfab7efab85874a14921b5002e46032e7dff6f3ca83bd8"
+    },
+    {
+      "path": "work/monopole_r4/package.py",
+      "storage": "git",
+      "size_bytes": 20059,
+      "sha256": "c57bb08e2b672480947c7e2580a0c289456db6cb16c9105364eeef8cdebe3fb4"
+    },
+    {
+      "path": "work/monopole_r4/views.py",
+      "storage": "git",
+      "size_bytes": 2039,
+      "sha256": "3262340e82577c055bb2c64d6ccf6ee9152b9abea660bd698c3049fa443b3452"
     },
     {
       "path": "work/motor_colors.json",
@@ -2011,6 +3361,96 @@
       "sha256": "8db4a1282220f762340c605d0fad003a0151ecfe7dd5ac2eb4bf6ee0a9708e0f"
     },
     {
+      "path": "work/pluck_r5/build.py",
+      "storage": "git",
+      "size_bytes": 15347,
+      "sha256": "a7bd3a26518a92419233a1c95d9b6147c56330205dcd980676d8320ecbea67f7"
+    },
+    {
+      "path": "work/pluck_r5/check.py",
+      "storage": "git",
+      "size_bytes": 8101,
+      "sha256": "18243b96877241f6cc8a08c5a14b96b1f645fc35883e23bf57db6df3d31544bc"
+    },
+    {
+      "path": "work/pluck_r5/config.py",
+      "storage": "git",
+      "size_bytes": 679,
+      "sha256": "5a3ae902f2444345150824923a510174be910e414facd1165c3784fb53546cd1"
+    },
+    {
+      "path": "work/pluck_r5/estimates.py",
+      "storage": "git",
+      "size_bytes": 2938,
+      "sha256": "af6c2b08f6cf78cc4909a15cdbcd20a5842b0fede1c5523fe5a901c960b7af4e"
+    },
+    {
+      "path": "work/pluck_r5/export_parts.py",
+      "storage": "git",
+      "size_bytes": 3645,
+      "sha256": "bd3dfb7de654bb1a93c76dc2df01bcb9405d985d0175969959d9245d78e075d3"
+    },
+    {
+      "path": "work/pluck_r5/extract.py",
+      "storage": "git",
+      "size_bytes": 1761,
+      "sha256": "eba8b364d594726566424c548c4b8a96c35bd6049e114ed812c8d938f6c06d07"
+    },
+    {
+      "path": "work/pluck_r5/exudyn_check.py",
+      "storage": "git",
+      "size_bytes": 4886,
+      "sha256": "5af8f598dc6f067361f4e28647035050bdc73b3cb4b31162fd8f6e634f1fe713"
+    },
+    {
+      "path": "work/pluck_r5/exudyn_coincidence.py",
+      "storage": "git",
+      "size_bytes": 3739,
+      "sha256": "754e9ac05d7eb455b0511c7373aaf5349e0f6463c8684a6cf4deb638bb725bcf"
+    },
+    {
+      "path": "work/pluck_r5/force_envelope.py",
+      "storage": "git",
+      "size_bytes": 2982,
+      "sha256": "a00574ab807b686a0ce5db815ff28d9d4b28bbcded193f302823f64ec8b402d1"
+    },
+    {
+      "path": "work/pluck_r5/force_model.py",
+      "storage": "git",
+      "size_bytes": 5262,
+      "sha256": "d4f815f0aaca7996b6b0d4d14758acc52d21d03af03267246bbc4d1c66dfc401"
+    },
+    {
+      "path": "work/pluck_r5/hero.py",
+      "storage": "git",
+      "size_bytes": 4998,
+      "sha256": "47159d76da6a2dfb6c8d39b36475b8eb1798bb62d8ad4c7b33b9783716255207"
+    },
+    {
+      "path": "work/pluck_r5/motion.py",
+      "storage": "git",
+      "size_bytes": 8374,
+      "sha256": "dd125aeacf20205fa159353c7e900f29666415496103c039cf77b57faa14e1a4"
+    },
+    {
+      "path": "work/pluck_r5/package.py",
+      "storage": "git",
+      "size_bytes": 14553,
+      "sha256": "fe9f5c832503ea1c5865e3107e4767962c1f0b7358df2bab9d979d1920395ec2"
+    },
+    {
+      "path": "work/pluck_r5/report.py",
+      "storage": "git",
+      "size_bytes": 14233,
+      "sha256": "57a2bb4988e344f66679edd62d415c55005d272dde0c0c3dd7e8f421e386e1f2"
+    },
+    {
+      "path": "work/pluck_r5/views.py",
+      "storage": "git",
+      "size_bytes": 2040,
+      "sha256": "c0a7f6e28286f3811f8f32dfe0b06208f74285c389fc8205381848608414689c"
+    },
+    {
       "path": "work/polish_unified_labels.py",
       "storage": "git",
       "size_bytes": 903,
@@ -2041,6 +3481,36 @@
       "sha256": "28691db1736c73c4eef0c77f1ff813169bd7ca5777a0ee957616a8d286928827"
     },
     {
+      "path": "work/protokoto_r3/audit.py",
+      "storage": "git",
+      "size_bytes": 8118,
+      "sha256": "4be1d16b3a45dae6fb9e1b80c043c6754c29ed46f976d98256c825cef1bfb77c"
+    },
+    {
+      "path": "work/protokoto_r3/build.py",
+      "storage": "git",
+      "size_bytes": 26084,
+      "sha256": "e13095698c6ac541dbd200579fc8701a884803fb3c5f488c5b3743ceb3db2813"
+    },
+    {
+      "path": "work/protokoto_r3/compact_eye.py",
+      "storage": "git",
+      "size_bytes": 2129,
+      "sha256": "cc6b8ba9fa92f08d2feef633b5fa6b2951d1d4475fdbdac56d422dfd44582551"
+    },
+    {
+      "path": "work/protokoto_r3/config.py",
+      "storage": "git",
+      "size_bytes": 785,
+      "sha256": "80555fdb0367410a1cfb5b2cb9af7ffda792e44eb10a50a35f6069bb4d770938"
+    },
+    {
+      "path": "work/protokoto_r3/package_reports.py",
+      "storage": "git",
+      "size_bytes": 4980,
+      "sha256": "c265a17a5accc05ed96874c219c4accbe9effd9ac47c2a8a1225299777b424f3"
+    },
+    {
       "path": "work/prototype_a_bom.py",
       "storage": "git",
       "size_bytes": 12706,
@@ -2057,6 +3527,66 @@
       "storage": "git",
       "size_bytes": 2444,
       "sha256": "7e1d888b950144baef2c0205a392024c675e6ff428f40980b6b5522a7c802c52"
+    },
+    {
+      "path": "work/rebuild_mechanical/audit.py",
+      "storage": "git",
+      "size_bytes": 8154,
+      "sha256": "a13acecf9c2abfa224a9cb96e3d0ffe0653a27cf6b03b29e6450400e0e417a50"
+    },
+    {
+      "path": "work/rebuild_mechanical/baseline_builder.py",
+      "storage": "git",
+      "size_bytes": 23420,
+      "sha256": "19ddb3404469482f69bf999b22d7b65dbd2942ad20c62b7575f45da15c186b5f"
+    },
+    {
+      "path": "work/rebuild_mechanical/build.py",
+      "storage": "git",
+      "size_bytes": 23522,
+      "sha256": "2db53dc8bc1361be1cdcb6c7347c113bd0ba8439f94a30f718c0ebde03e6a01c"
+    },
+    {
+      "path": "work/rebuild_mechanical/check_dimensions.py",
+      "storage": "git",
+      "size_bytes": 3780,
+      "sha256": "6a2f7c02e309b749d4e5652527a4a6b90cbf66a252cc77c78d5746ab58229f5a"
+    },
+    {
+      "path": "work/rebuild_mechanical/check_input_envelopes.py",
+      "storage": "git",
+      "size_bytes": 1959,
+      "sha256": "2287bd256f3820448eb9fd0e4ac71336b08d145f3ecab9a26ee69b20db067593"
+    },
+    {
+      "path": "work/rebuild_mechanical/combine_motion.py",
+      "storage": "git",
+      "size_bytes": 2990,
+      "sha256": "c90ea9780d6e240f6f100e5716630b44b83a5edc85d061e968a742063d7fc874"
+    },
+    {
+      "path": "work/rebuild_mechanical/delta_envelopes.py",
+      "storage": "git",
+      "size_bytes": 4540,
+      "sha256": "bede2e556cef8de38a5b2e7505ef5869071ce44c5f0041c223c85b9bcf0f9bab"
+    },
+    {
+      "path": "work/rebuild_mechanical/export_reference.py",
+      "storage": "git",
+      "size_bytes": 397,
+      "sha256": "a3ccf3ab125b78d7532647df2ede445948abfd743d2944a13b628305b03b4841"
+    },
+    {
+      "path": "work/rebuild_mechanical/finalize.py",
+      "storage": "git",
+      "size_bytes": 13399,
+      "sha256": "457a3f271384c49189a1f4244cd902d467a0d88d40c0a3691f1afa0e52671186"
+    },
+    {
+      "path": "work/rebuild_mechanical/inspection_views.py",
+      "storage": "git",
+      "size_bytes": 2021,
+      "sha256": "bb78c38b40aeea3ca8bf66e0aa75fa164d1a5a531ac4708b3c3061cc343763a9"
     },
     {
       "path": "work/recover_koto_static.py",
@@ -2125,6 +3655,12 @@
       "sha256": "78816a550365b702c2a111bcd2e86aa4bcc881899755333d7f812dce4fdb5ec8"
     },
     {
+      "path": "work/render_direct_gear_360_axle_fix.py",
+      "storage": "git",
+      "size_bytes": 5802,
+      "sha256": "9d26f5d71fef79e93aa46c5d5c383bb57e5e01846d19f61e56a0a682e0a2a0ac"
+    },
+    {
       "path": "work/render_koto.py",
       "storage": "git",
       "size_bytes": 1730,
@@ -2135,6 +3671,18 @@
       "storage": "git",
       "size_bytes": 12736,
       "sha256": "aced4aecaaf8fd37d45c8d3c0e48313474fc3d5c4cfa6362b2bba86194843c0f"
+    },
+    {
+      "path": "work/render_lovophon_paris_close.py",
+      "storage": "git",
+      "size_bytes": 7906,
+      "sha256": "740280d3f2b2f5b605e15a5dbbb36d8bcefc4a7155aa8100a8aaf998b8575667"
+    },
+    {
+      "path": "work/render_lovophon_r5_paris.py",
+      "storage": "git",
+      "size_bytes": 12011,
+      "sha256": "23e5ae0c9b175d9e36d8e2c864d92646b442f645ba57ae3b74c437c2e7439bda"
     },
     {
       "path": "work/render_lovophone_8min.py",
@@ -2155,6 +3703,12 @@
       "sha256": "b2bc662d03ce58d085483274bc6a2c4fca80b3d9cf04fc32d88c572fb85d85ca"
     },
     {
+      "path": "work/render_r5_paris_animation.py",
+      "storage": "git",
+      "size_bytes": 3268,
+      "sha256": "a439db9bb8e1f3bec6343fc8d5fc4b5035c80fa9f45c04446e22be2c65f659f0"
+    },
+    {
       "path": "work/render_right_film.py",
       "storage": "git",
       "size_bytes": 2229,
@@ -2171,6 +3725,12 @@
       "storage": "git",
       "size_bytes": 1685,
       "sha256": "ba3f01ae9b971e52911691a6d60eb5a66ae0f55f747a3bdcae1325f1d6c9ce5f"
+    },
+    {
+      "path": "work/render_sampled_harp.py",
+      "storage": "git",
+      "size_bytes": 3996,
+      "sha256": "452378daed4daf12a364bd6f69367603744fb2b92c90cffbb16c143370bb4976"
     },
     {
       "path": "work/render_slender_bank.py",
@@ -2219,6 +3779,12 @@
       "storage": "git",
       "size_bytes": 1626,
       "sha256": "bc554cf6ea9425d6e7f73c9e8a0c2cecfa5f19787786068bdbc94b55575bed8b"
+    },
+    {
+      "path": "work/summarize_reality_audit.py",
+      "storage": "git",
+      "size_bytes": 9590,
+      "sha256": "78a7349ee5d49308c4a5add01757732c370f910ba8c3113cda2975906daaf0aa"
     },
     {
       "path": "work/test_right_denoise.py",

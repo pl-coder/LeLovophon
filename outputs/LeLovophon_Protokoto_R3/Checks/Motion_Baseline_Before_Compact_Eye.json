@@ -1,0 +1,1722 @@
+{
+  "cad_sha256": "095157a2efa850ccfac5f76815c4fb74bfeefd49adcc9e901e2b79b2d83d6b32",
+  "poses_per_changed_joint": 360,
+  "inherited_unchanged_pairs": "R2, after rigid axial translation identity; carrier removals are subsets",
+  "continuous_bound_containment": [
+    {
+      "name": "V01_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V01_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V02_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V03_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V04_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V05_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V06_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V07_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V08_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V09_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V10_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V11_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankShaftOnePiece",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_DriverGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_DriverFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_OutputGear",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_OutputFlushCrossPin",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_PivotRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_PivotRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_PivotFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankRearEClip",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankRearShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankFrontThrustShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerShoulderJournal",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerPinEndScrew",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerPinWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_PickM1_6Screw",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_PendulumAssembly",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_PETPick",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_ArmClampM2",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_SteelPushrod",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_CrankFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerDryBush_GFM030402",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerRearJointShim",
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "name": "V12_RockerFrontPTFEWasher",
+      "outside_volume_mm3": 0.0
+    }
+  ],
+  "new_fixed_pairs_requiring_360_pose_fallback": [
+    {
+      "a": "V01_PickM1_6Screw",
+      "b": "RearCarrierRail_8x1"
+    },
+    {
+      "a": "V01_PickM1_6Screw",
+      "b": "FourCornerWeldedGantry"
+    },
+    {
+      "a": "V01_PendulumAssembly",
+      "b": "RearCarrierRail_8x1"
+    },
+    {
+      "a": "V01_PendulumAssembly",
+      "b": "FourCornerWeldedGantry"
+    },
+    {
+      "a": "V01_PETPick",
+      "b": "V01_FluorocarbonString"
+    },
+    {
+      "a": "V01_PETPick",
+      "b": "RearCarrierRail_8x1"
+    },
+    {
+      "a": "V01_PETPick",
+      "b": "FourCornerWeldedGantry"
+    },
+    {
+      "a": "V02_PickM1_6Screw",
+      "b": "RearCarrierRail_8x1"
+    },
+    {
+      "a": "V02_PendulumAssembly",
+      "b": "RearCarrierRail_8x1"
+    },
+    {
+      "a": "V02_PETPick",
+      "b": "V02_FluorocarbonString"
+    },
+    {
+      "a": "V02_PETPick",
+      "b": "RearCarrierRail_8x1"
+    },
+    {
+      "a": "V02_PETPick",
+      "b": "FourCornerWeldedGantry"
+    },
+    {
+      "a": "V03_PickM1_6Screw",
+      "b": "RearCarrierRail_8x1"
+    },
+    {
+      "a": "V03_PendulumAssembly",
+      "b": "RearCarrierRail_8x1"
+    },
+    {
+      "a": "V03_PETPick",
+      "b": "V03_FluorocarbonString"
+    },
+    {
+      "a": "V03_PETPick",
+      "b": "RearCarrierRail_8x1"
+    },
+    {
+      "a": "V04_PETPick",
+      "b": "V04_FluorocarbonString"
+    },
+    {
+      "a": "V05_PETPick",
+      "b": "V05_FluorocarbonString"
+    },
+    {
+      "a": "V06_PETPick",
+      "b": "V06_FluorocarbonString"
+    },
+    {
+      "a": "V07_PETPick",
+      "b": "V07_FluorocarbonString"
+    },
+    {
+      "a": "V08_PETPick",
+      "b": "V08_FluorocarbonString"
+    },
+    {
+      "a": "V09_PETPick",
+      "b": "V09_FluorocarbonString"
+    },
+    {
+      "a": "V10_PETPick",
+      "b": "V10_FluorocarbonString"
+    },
+    {
+      "a": "V11_PETPick",
+      "b": "V11_FluorocarbonString"
+    },
+    {
+      "a": "V12_PETPick",
+      "b": "V12_FluorocarbonString"
+    }
+  ],
+  "continuous_shared_input_bounds": [
+    {
+      "name": "Common5mmInputShaft",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "InputPinnedCollar",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "CollarFlushPin",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "InputRearThrustShim",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "InputFrontThrustSpacer",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "HandCrank32mm",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "CrankHubFlushPin",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "FreeGripShoulderJournal",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "GripJournalM4Nut",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "GripMR105ZZ",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "GripMR105ZZ001",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "GripInternalRetainingRing",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "GripInternalRetainingRing001",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "FreelyRotatingGrip",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "GripInnerThrustShim",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "GripInnerThrustShim001",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "GripInnerSpacer",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "GripEndWasher",
+      "base_outside_volume_mm3": 0.0
+    },
+    {
+      "name": "GripM3EndScrew",
+      "base_outside_volume_mm3": 0.0
+    }
+  ],
+  "shared_input_axially_disjoint_from_local_motion": [
+    "InputPinnedCollar",
+    "CollarFlushPin",
+    "InputRearThrustShim",
+    "InputFrontThrustSpacer",
+    "HandCrank32mm",
+    "CrankHubFlushPin",
+    "FreeGripShoulderJournal",
+    "GripJournalM4Nut",
+    "GripMR105ZZ",
+    "GripMR105ZZ001",
+    "GripInternalRetainingRing",
+    "GripInternalRetainingRing001",
+    "FreelyRotatingGrip",
+    "GripInnerThrustShim",
+    "GripInnerThrustShim001",
+    "GripInnerSpacer",
+    "GripEndWasher",
+    "GripM3EndScrew"
+  ],
+  "neighbour_moving_axial_gaps_mm": [
+    20.636363636363626,
+    20.636363636363626,
+    20.636363636363683,
+    20.636363636363626,
+    20.636363636363626,
+    20.636363636363626,
+    20.636363636363654,
+    20.636363636363626,
+    20.636363636363654,
+    20.636363636363626,
+    20.636363636363626
+  ],
+  "unexpected": [
+    {
+      "a": "V05_CrankDryBush_GFM030402",
+      "b": "COMMON_SHAFT_ENVELOPE",
+      "first_phase_deg": 267,
+      "poses": 16,
+      "max_volume_mm3": 0.1425267541004347,
+      "reason": null
+    }
+  ],
+  "intended_contacts": [
+    {
+      "a": "V01_PETPick",
+      "b": "V01_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 1,
+      "max_volume_mm3": 0.11550061208924871,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V02_PETPick",
+      "b": "V02_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 2,
+      "max_volume_mm3": 0.11550061208914839,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V03_PETPick",
+      "b": "V03_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 2,
+      "max_volume_mm3": 0.11550061208914915,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V04_PETPick",
+      "b": "V04_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 2,
+      "max_volume_mm3": 0.11550061208914897,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V05_PETPick",
+      "b": "V05_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 3,
+      "max_volume_mm3": 0.11550061208919826,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V06_PETPick",
+      "b": "V06_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 3,
+      "max_volume_mm3": 0.11550061208920889,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V07_PETPick",
+      "b": "V07_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 5,
+      "max_volume_mm3": 0.11550061208914342,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V08_PETPick",
+      "b": "V08_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 5,
+      "max_volume_mm3": 0.11550061208913637,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V09_PETPick",
+      "b": "V09_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 6,
+      "max_volume_mm3": 0.11550061208913454,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V10_PETPick",
+      "b": "V10_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 7,
+      "max_volume_mm3": 0.11550061208913573,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V11_PETPick",
+      "b": "V11_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 7,
+      "max_volume_mm3": 0.11550061208914887,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V12_PETPick",
+      "b": "V12_FluorocarbonString",
+      "first_phase_deg": 0,
+      "poses": 9,
+      "max_volume_mm3": 0.11550061208913498,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    }
+  ],
+  "physical_test_passed": false,
+  "scope": "Exact nominal solids. Conservative continuous envelopes where disjoint, 1-degree samples where envelopes overlap; no contact forces, material flex, wear or assembly tolerances simulated."
+}

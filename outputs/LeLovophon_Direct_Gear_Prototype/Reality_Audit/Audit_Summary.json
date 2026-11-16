@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-09",
+  "model": "Axle_Clearance_Revision/LeLovophon_Direct_Gear_Prototype.FCStd",
+  "build_status": "FAIL \u2014 not buildable as drawn; no physical validation",
+  "failures": [
+    {
+      "id": "F01",
+      "status": "Confirmed interference",
+      "finding": "Diagonal supports intersect speaking strings",
+      "count": 7,
+      "consequence": "Seven solid intersections on the five lowest strings obstruct the modeled vibrating lengths."
+    },
+    {
+      "id": "F02",
+      "status": "Confirmed interference",
+      "finding": "Input bearing shelves intersect the common rotating shaft",
+      "count": 4,
+      "consequence": "The shelf tubes terminate at the shaft axis instead of at a clear outer bearing housing."
+    },
+    {
+      "id": "F03",
+      "status": "Confirmed interference",
+      "finding": "Rear pivot stays intersect pivot shafts and bearings",
+      "count": 12,
+      "consequence": "All twelve pivots are obstructed by their own stationary support tubes."
+    },
+    {
+      "id": "F04",
+      "status": "Confirmed motion interference",
+      "finding": "Moving arms strike neighbouring pivot shafts",
+      "count": 4,
+      "consequence": "These contacts arise during the swept motion and are absent at common zero."
+    },
+    {
+      "id": "F05",
+      "status": "Confirmed interference",
+      "finding": "Anchor string tails run inside the solid end plate",
+      "count": 12,
+      "consequence": "The routing is not a clear path through the modeled anchor holes."
+    },
+    {
+      "id": "F06",
+      "status": "Confirmed dimensional conflict",
+      "finding": "Retaining washer holes are smaller than the passing pin bodies",
+      "count": 24,
+      "consequence": "1.7 mm washer bores overlap 3 mm pins; shoulder/retention design is unfinished."
+    },
+    {
+      "id": "F07",
+      "status": "Confirmed unsupported/interfering geometry",
+      "finding": "Outer third bridges miss the soundboard",
+      "count": 2,
+      "consequence": "Both bridge feet are 4 mm from the board; high D5 has no board underneath, while low C3 also intersects the anchor block."
+    },
+    {
+      "id": "F08",
+      "status": "Confirmed geometry; acoustic consequence untested",
+      "finding": "Zero string break angle at third bridges",
+      "count": 12,
+      "consequence": "No static downbearing from string tension is defined; a stable speaking-length boundary and reliable soundboard coupling are not established."
+    },
+    {
+      "id": "F09",
+      "status": "Confirmed zero-clearance contact; thrust design unresolved",
+      "finding": "Crank flanges have zero separation from fixed front carriers/bearing faces",
+      "count": 12,
+      "consequence": "Requires a defined bearing/thrust/spacer stack. Zero-volume contact alone does not prove that it will bind or run acceptably."
+    },
+    {
+      "id": "F10",
+      "status": "Incomplete engineering, not a geometric impossibility claim",
+      "finding": "Shaft torque locking, phase adjustment, fits and fastening not detailed",
+      "count": "",
+      "consequence": "Round bores, overlapping attachment reservations and placeholders are not a complete power-transmitting assembly."
+    }
+  ],
+  "static_pairs_examined": 129286,
+  "raw_static_overlap_count": 304,
+  "raw_overlap_warning": "Includes intentional press-fit/joinery/attachment reservations; not 304 independent design failures.",
+  "motion_poses_per_voice": 360,
+  "motion_scope": "Pendulum hub, tube, socket, pick and POM connecting rod against every stationary solid plus invariant common/pivot shafts and bearing envelopes. Integral crank-shaft flanges remain excluded with the crank group. Gear tooth meshing, moving fastener-to-moving link contacts, flex, load and physical release remain outside this sweep. Each voice swept independently; other non-circular moving groups are omitted rather than frozen.",
+  "physical_pass": false
+}

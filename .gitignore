@@ -45,3 +45,16 @@ work/studio_ir/
 *.tar
 *.xz
 *.sf2
+
+# R2 local geometry caches / validation intermediates
+work/rebuild_mechanical/*.json
+work/rebuild_mechanical/*.FCStd
+work/rebuild_mechanical/backups/
+
+# R3-R5 working caches and solver environments
+work/**/mesh.json
+work/**/venv/
+work/**/mplconfig/
+work/**/cache/
+*.npz
+*.npy

@@ -1,0 +1,15 @@
+{
+  "cad_sha256": "8b5322026e943034589d3b90ea17b8ebd58bd06830b3c0050511e0693e0f7148",
+  "mesh_sha256": "5ea012f0a36451fc4e5d598045e02ded0b919175aeeee371677b7529c250857e",
+  "movie_sha256": "23dad1992c1dec668ef88b17d08b85b3cf44e60cbee08f5431c2c5b19fd973d2",
+  "audio_source_sha256": "1171e94badf7cf75dbdb7839581d5bf594d37939eb3d2310236fe67c3a910a3a",
+  "recipe_files": {
+    "render_lovophon_r5_paris.py": "23e5ae0c9b175d9e36d8e2c864d92646b442f645ba57ae3b74c437c2e7439bda",
+    "render_r5_paris_animation.py": "a439db9bb8e1f3bec6343fc8d5fc4b5035c80fa9f45c04446e22be2c65f659f0",
+    "direct_gear_math.py": "df5a8822c527f8ef2fc997d4a0aede7106c41f68cd26d125c77ad943c252d99e",
+    "pluck_r5/config.py": "5a3ae902f2444345150824923a510174be910e414facd1165c3784fb53546cd1",
+    "direct_gear_studio_materials.py": "dbf47767c262e862656a5c26ebc07f043eb04f6cef0921edea32ecc3dc624736",
+    "lovophon_paris_close_studio.py": "97d0eb026b25692ba914f8d92a7f0feb9e373a04213849edc6d78f5363422411",
+    "encode_r5_paris_16min.py": "f9e52436ef5ed8c2e26977cb73c38115924ded78846484645036018639d5caea"
+  }
+}

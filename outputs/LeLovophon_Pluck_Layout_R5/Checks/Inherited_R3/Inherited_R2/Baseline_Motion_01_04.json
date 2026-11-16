@@ -1,0 +1,66 @@
+{
+  "completed_voice": 4,
+  "unexpected": [
+    {
+      "a": "V04_CrankShoulderJournal",
+      "b": "InputBearingRetainer_112",
+      "first_phase_deg": 267,
+      "poses": 17,
+      "max_volume_mm3": 0.10980228198216238,
+      "reason": null
+    },
+    {
+      "a": "V04_CrankPinWasher",
+      "b": "InputBearingBridge_112",
+      "first_phase_deg": 282,
+      "poses": 5,
+      "max_volume_mm3": 0.005363540454452252,
+      "reason": null
+    }
+  ],
+  "intended": [
+    {
+      "a": "V01_PETPick",
+      "b": "V01_NylonString",
+      "first_phase_deg": 0,
+      "poses": 1,
+      "max_volume_mm3": 0.07433675602959029,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V02_PETPick",
+      "b": "V02_NylonString",
+      "first_phase_deg": 0,
+      "poses": 2,
+      "max_volume_mm3": 0.07433675602958982,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V03_PETPick",
+      "b": "V03_NylonString",
+      "first_phase_deg": 0,
+      "poses": 2,
+      "max_volume_mm3": 0.07433675602958932,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V04_PETPick",
+      "b": "V04_NylonString",
+      "first_phase_deg": 0,
+      "poses": 2,
+      "max_volume_mm3": 0.07433675602958978,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    }
+  ],
+  "cad_sha256": "b99727549b9726cd700485480fa619c277aa907ba96c17816f74f628c54987e7",
+  "checked_voices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "poses_per_voice": 360,
+  "independent_tooth_phase_samples_per_pair": 64,
+  "shared_input_poses": 0,
+  "scope_note": "Baseline per-voice sweeps completed; shared input instead verified by the stronger continuous envelope check on final CAD."
+}

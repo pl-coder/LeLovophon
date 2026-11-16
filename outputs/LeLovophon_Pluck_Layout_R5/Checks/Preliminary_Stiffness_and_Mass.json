@@ -1,0 +1,27 @@
+{
+  "scope": "Preliminary elastic idealisation, not FEA, allowable loads or physical stiffness verification. Perfectly fixed roots, rigid clamps/rail and a constant22x8mm strip; ignores fastener compliance, wood movement, fillets, local notch stress, load sharing and joint slip. Illustrative10N force is assumed, not a measured operating or accidental load.",
+  "nominal_total_mass_kg": 4.686525154312848,
+  "new_rear_frame_mass_kg": 1.2989085325335845,
+  "curved_strip_centreline_length_mm": 231.34062050865882,
+  "aluminium_E_MPa": 69000,
+  "weak_I_mm4": 938.6666666666666,
+  "strong_I_mm4": 7098.666666666667,
+  "torsion_J_mm4": 2895.7600018213693,
+  "single_rib_tip_compliance_mm_per_N": {
+    "along_bank_X": 0.05373476884751998,
+    "vertical_Y": 0.0009530138057741585,
+    "front_back_Z": 0.006449418280719071
+  },
+  "four_identical_ribs_assuming_equal_force_sharing_10N_total_deflection_mm": {
+    "along_bank_X": 0.13433692211879994,
+    "vertical_Y": 0.002382534514435396,
+    "front_back_Z": 0.01612354570179768
+  },
+  "largest_rear_rail_support_span_mm": 182,
+  "solid8mm_steel_rail_10N_midspan_deflection_mm": 0.03123295563039132,
+  "physical_test_passed": false,
+  "manufacturing_release": false,
+  "crank_rail_ideal_cantilever_length_mm": 63,
+  "crank_rail_ideal_10N_cantilever_deflection_mm": 0.020727195862134975,
+  "crank_rail_ideal_10N_cantilever_root_bending_stress_MPa": 12.533451768486758
+}

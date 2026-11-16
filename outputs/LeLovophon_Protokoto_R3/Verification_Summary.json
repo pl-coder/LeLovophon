@@ -1,0 +1,63 @@
+{
+  "revision": "Protokoto R3",
+  "cad_sha256": "7b2298082c295d9029f626de26fd0f8c8596d45e8ed3974a5baf7ac676a403c2",
+  "status": "PASS recorded nominal geometry checks / UNBUILT",
+  "parts": 1031,
+  "main_corner_uprights": 4,
+  "all_pairs_tested": 530965,
+  "invalid_shapes": 0,
+  "disconnected_part_shapes": 0,
+  "unexpected_saved_pose_intersections": 0,
+  "unexpected_remaining_motion_intersections": 0,
+  "changed_joint_samples_per_revolution": 360,
+  "continuous_shared_input_envelopes": true,
+  "compact_fifth_joint_continuous_nominal_shaft_clearance_mm": 0.1999999999999984,
+  "minimum_neighbour_moving_axial_gap_mm": 20.636363636363626,
+  "tensioner_travel_mm": 21.8,
+  "unexpected_tensioner_travel_intersections": 0,
+  "all_bridge_feet_supported": true,
+  "max_speaking_length_error_mm": 0.0,
+  "input_rpm": 3,
+  "repeat_seconds_at_3rpm": 480,
+  "repeat_common_input_turns": 24,
+  "output_turns_per_repeat": [
+    24,
+    27,
+    30,
+    36,
+    40,
+    48,
+    54,
+    60,
+    72,
+    80,
+    96,
+    108
+  ],
+  "hand_crank_throw_mm": 32,
+  "grip_has_two_bearings_and_inner_spacer_stack": true,
+  "body_envelope_mm": [
+    700,
+    220,
+    60
+  ],
+  "saved_pose_envelope_mm": [
+    768.5,
+    267.5,
+    306
+  ],
+  "gauge_mm": 1.05,
+  "bass_speaking_length_mm": 600,
+  "physical_test_passed": false,
+  "manufacturing_release": false,
+  "limits": "Nominal geometry; material choices and loads provisional. Continuous bounds used when disjoint, one-degree motion sampling where bounds overlap. R2 unchanged local pairs inherit prior verified kinematics after source transformation checks. Tolerances, friction, torque, flexibility, wear, timber/weld strength and real pick release still need physical validation.",
+  "evidence": [
+    "Checks/Static_All_Pairs.json",
+    "Checks/Motion_Clearance_R3.json",
+    "Checks/Motion_Baseline_Before_Compact_Eye.json",
+    "Checks/Final_Refinement_Inheritance.json",
+    "Checks/Source_Geometry_Identity.json",
+    "Checks/Dimensions_and_Tensioners.json",
+    "Checks/Preliminary_Load_Estimates.json"
+  ]
+}

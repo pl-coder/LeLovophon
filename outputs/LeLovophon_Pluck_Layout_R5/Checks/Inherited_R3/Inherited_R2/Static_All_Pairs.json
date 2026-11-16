@@ -1,0 +1,225 @@
+{
+  "cad_sha256": "264084afcb461bb55a4e22db9f73d9ee841b749e00c6255b3f3264debac94e67",
+  "parts": 803,
+  "pair_count": 322003,
+  "bbox_candidates": 1555,
+  "unexpected": [],
+  "intended_contacts": [
+    {
+      "a": "V01_NylonString",
+      "b": "V01_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876075315,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V01_NylonString",
+      "b": "V01_TunerStopperKnot",
+      "volume_mm3": 0.7915472772575602,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V01_NylonString",
+      "b": "V01_PETPick",
+      "volume_mm3": 0.07433675602944236,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V02_NylonString",
+      "b": "V02_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876075315,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V02_NylonString",
+      "b": "V02_TunerStopperKnot",
+      "volume_mm3": 0.7915472772575602,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V02_NylonString",
+      "b": "V02_PETPick",
+      "volume_mm3": 0.07433675602958983,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V03_NylonString",
+      "b": "V03_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876075315,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V03_NylonString",
+      "b": "V03_TunerStopperKnot",
+      "volume_mm3": 0.7915472772575605,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V03_NylonString",
+      "b": "V03_PETPick",
+      "volume_mm3": 0.07433675602958953,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V04_NylonString",
+      "b": "V04_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876074968,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V04_NylonString",
+      "b": "V04_TunerStopperKnot",
+      "volume_mm3": 0.7915472772575878,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V04_NylonString",
+      "b": "V04_PETPick",
+      "volume_mm3": 0.07433675602958993,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V05_NylonString",
+      "b": "V05_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876074968,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V05_NylonString",
+      "b": "V05_TunerStopperKnot",
+      "volume_mm3": 0.7915472772575878,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V05_NylonString",
+      "b": "V05_PETPick",
+      "volume_mm3": 0.07433675602959024,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V06_NylonString",
+      "b": "V06_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876074972,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V06_NylonString",
+      "b": "V06_TunerStopperKnot",
+      "volume_mm3": 0.791547277257588,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V06_NylonString",
+      "b": "V06_PETPick",
+      "volume_mm3": 0.07433675602964791,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V07_NylonString",
+      "b": "V07_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876075033,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V07_NylonString",
+      "b": "V07_TunerStopperKnot",
+      "volume_mm3": 0.7915472772575673,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V07_NylonString",
+      "b": "V07_PETPick",
+      "volume_mm3": 0.07433675602964535,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V08_NylonString",
+      "b": "V08_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876075096,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V08_NylonString",
+      "b": "V08_TunerStopperKnot",
+      "volume_mm3": 0.7915472772576035,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V08_NylonString",
+      "b": "V08_PETPick",
+      "volume_mm3": 0.07433675602958349,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V09_NylonString",
+      "b": "V09_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876075147,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V09_NylonString",
+      "b": "V09_TunerStopperKnot",
+      "volume_mm3": 0.7915472772575796,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V09_NylonString",
+      "b": "V09_PETPick",
+      "volume_mm3": 0.07433675602959228,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V10_NylonString",
+      "b": "V10_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876075033,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V10_NylonString",
+      "b": "V10_TunerStopperKnot",
+      "volume_mm3": 0.7915472772575782,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V10_NylonString",
+      "b": "V10_PETPick",
+      "volume_mm3": 0.07433675602958695,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V11_NylonString",
+      "b": "V11_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876074968,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V11_NylonString",
+      "b": "V11_TunerStopperKnot",
+      "volume_mm3": 0.7915472772575878,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V11_NylonString",
+      "b": "V11_PETPick",
+      "volume_mm3": 0.07433675602964651,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V12_NylonString",
+      "b": "V12_AnchorStopperKnot",
+      "volume_mm3": 0.7915472876074968,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V12_NylonString",
+      "b": "V12_TunerStopperKnot",
+      "volume_mm3": 0.7915472772575918,
+      "reason": "tied nylon / stopper-knot envelope"
+    },
+    {
+      "a": "V12_NylonString",
+      "b": "V12_PETPick",
+      "volume_mm3": 0.0743367560296315,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    }
+  ]
+}

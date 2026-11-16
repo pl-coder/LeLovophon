@@ -1,0 +1,20 @@
+{
+  "R4_CurvedRib_8mm_x4": {
+    "thickness_mm": 8,
+    "area_mm2": 6828.331463029277,
+    "bbox_mm": [
+      255.83230410425526,
+      77.73275734901432
+    ],
+    "dxf_chord_tolerance_mm": 0.015
+  },
+  "R4_CrankOuTrigger_6mm_x1": {
+    "thickness_mm": 6,
+    "area_mm2": 2539.466352523546,
+    "bbox_mm": [
+      70.0,
+      117.95333333333335
+    ],
+    "dxf_chord_tolerance_mm": 0.015
+  }
+}

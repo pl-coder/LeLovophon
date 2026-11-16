@@ -1,0 +1,16 @@
+{
+  "engine": "Exudyn",
+  "version": "1.13.6",
+  "simulation_seconds": 480.0,
+  "step_seconds": 0.005,
+  "wall_seconds": 19.663809875026345,
+  "rigid_bodies": 37,
+  "physical_inputs": "Exact CAD moving mass/centre/inertia; rigid ideal gears and 4-bar pin joints, gravity, prescribed3rpm; no friction or string force.",
+  "multiplier_to_drive_torque_sign": -1,
+  "max_abs_torque_Nm": 0.0116116095471693,
+  "max_absolute_analytical_difference_Nm": 1.2344553850657247e-07,
+  "initial_difference_Nm": 1.9120117294990635e-10,
+  "input_angle_max_error_rad": 0.0,
+  "agreement_passed": true,
+  "physical_test_passed": false
+}

@@ -1,0 +1,11 @@
+id,status,finding,count,consequence
+F01,Confirmed interference,Diagonal supports intersect speaking strings,7,Seven solid intersections on the five lowest strings obstruct the modeled vibrating lengths.
+F02,Confirmed interference,Input bearing shelves intersect the common rotating shaft,4,The shelf tubes terminate at the shaft axis instead of at a clear outer bearing housing.
+F03,Confirmed interference,Rear pivot stays intersect pivot shafts and bearings,12,All twelve pivots are obstructed by their own stationary support tubes.
+F04,Confirmed motion interference,Moving arms strike neighbouring pivot shafts,4,These contacts arise during the swept motion and are absent at common zero.
+F05,Confirmed interference,Anchor string tails run inside the solid end plate,12,The routing is not a clear path through the modeled anchor holes.
+F06,Confirmed dimensional conflict,Retaining washer holes are smaller than the passing pin bodies,24,1.7 mm washer bores overlap 3 mm pins; shoulder/retention design is unfinished.
+F07,Confirmed unsupported/interfering geometry,Outer third bridges miss the soundboard,2,"Both bridge feet are 4 mm from the board; high D5 has no board underneath, while low C3 also intersects the anchor block."
+F08,Confirmed geometry; acoustic consequence untested,Zero string break angle at third bridges,12,No static downbearing from string tension is defined; a stable speaking-length boundary and reliable soundboard coupling are not established.
+F09,Confirmed zero-clearance contact; thrust design unresolved,Crank flanges have zero separation from fixed front carriers/bearing faces,12,Requires a defined bearing/thrust/spacer stack. Zero-volume contact alone does not prove that it will bind or run acceptably.
+F10,"Incomplete engineering, not a geometric impossibility claim","Shaft torque locking, phase adjustment, fits and fastening not detailed",,"Round bores, overlapping attachment reservations and placeholders are not a complete power-transmitting assembly."

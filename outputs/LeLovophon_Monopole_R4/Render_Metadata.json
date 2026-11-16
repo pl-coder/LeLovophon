@@ -1,0 +1,12 @@
+{
+  "source_cad": "LeLovophon_Monopole_R4.FCStd",
+  "source_cad_sha256": "1eaa9f0972b8fe906b78259f1bb48794cb66ac507e2f8cc8157353e0c2f8c531",
+  "source_mesh_sha256": "44a60bc2b0881f4e812feaefc053156f4a7b843c8ce2cd08c8fd2fedcf0f58ac",
+  "engine": "Blender4.5 Eevee",
+  "parts": 1101,
+  "views": [
+    "R4_Studio_Overview.png",
+    "R4_Studio_Rear.png"
+  ],
+  "note": "Same CAD geometry; procedural materials and lighting, cosmetic0.22mm edge highlights. Still previews, no animation or mechanical load simulation."
+}

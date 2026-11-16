@@ -6,6 +6,10 @@ This proposal replaces the undriven Slender Bank with an explicit twelve-channel
 
 Use the current [axle-clearance revision](Axle_Clearance_Revision/README.md). The original direct-gear CAD is superseded and is not included here. The original sweep missed the individual crank axles; the revised check covers every axle.
 
+## Reality audit — assembly failed
+
+[Full findings](Reality_Audit/README.md): the narrow checks below did not cover the complete assembly. The saved-pose and motion audits identify independent geometric blockers. This is a rejected layout for fabrication until those failures are redesigned and rechecked. The nominal ratios and linkage closure do not establish assembly feasibility.
+
 ## Power path
 
 Hand input -> one continuous5 mm shaft -> one external spur-gear pair per voice -> rotating crank -> pinned POM connecting rod -> rocker shaft -> visible tube pendulum -> flexible pick -> nylon string.

@@ -1,0 +1,153 @@
+{
+  "poses_per_voice": 360,
+  "scope": "Pendulum hub, tube, socket, pick and POM connecting rod against every stationary solid plus invariant common/pivot shafts and bearing envelopes. Integral crank-shaft flanges remain excluded with the crank group. Gear tooth meshing, moving fastener-to-moving link contacts, flex, load and physical release remain outside this sweep. Each voice swept independently; other non-circular moving groups are omitted rather than frozen.",
+  "unexpected_intersection_pairs": [
+    {
+      "voice": "V01",
+      "note": "C3",
+      "moving": "V01_TubeArm",
+      "fixed": "V02_3mmShaft_0",
+      "first_phase_deg": 235,
+      "poses_with_intersection": 63,
+      "maximum_intersection_mm3": 3.900420216670998
+    },
+    {
+      "voice": "V02",
+      "note": "D3",
+      "moving": "V02_TubeArm",
+      "fixed": "V03_3mmShaft_0",
+      "first_phase_deg": 253,
+      "poses_with_intersection": 27,
+      "maximum_intersection_mm3": 0.12570812726728836
+    },
+    {
+      "voice": "V03",
+      "note": "E3",
+      "moving": "V03_TubeArm",
+      "fixed": "V04_3mmShaft_0",
+      "first_phase_deg": 223,
+      "poses_with_intersection": 84,
+      "maximum_intersection_mm3": 5.987977438489396
+    },
+    {
+      "voice": "V05",
+      "note": "A3",
+      "moving": "V05_TubeArm",
+      "fixed": "V06_3mmShaft_0",
+      "first_phase_deg": 242,
+      "poses_with_intersection": 49,
+      "maximum_intersection_mm3": 1.5133418451726992
+    }
+  ],
+  "intended_own_pick_string_contacts": [
+    {
+      "voice": "V01",
+      "note": "C3",
+      "moving": "V01_PETPick",
+      "fixed": "C_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 3,
+      "maximum_intersection_mm3": 0.06710121985705997
+    },
+    {
+      "voice": "V02",
+      "note": "D3",
+      "moving": "V02_PETPick",
+      "fixed": "Cs_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 2,
+      "maximum_intersection_mm3": 0.06710474658590114
+    },
+    {
+      "voice": "V03",
+      "note": "E3",
+      "moving": "V03_PETPick",
+      "fixed": "D_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 3,
+      "maximum_intersection_mm3": 0.06710121985739069
+    },
+    {
+      "voice": "V04",
+      "note": "G3",
+      "moving": "V04_PETPick",
+      "fixed": "Eb_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 3,
+      "maximum_intersection_mm3": 0.06712150399091595
+    },
+    {
+      "voice": "V05",
+      "note": "A3",
+      "moving": "V05_PETPick",
+      "fixed": "E_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 5,
+      "maximum_intersection_mm3": 0.0671012198574035
+    },
+    {
+      "voice": "V06",
+      "note": "C4",
+      "moving": "V06_PETPick",
+      "fixed": "F_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 6,
+      "maximum_intersection_mm3": 0.0671541104470423
+    },
+    {
+      "voice": "V07",
+      "note": "D4",
+      "moving": "V07_PETPick",
+      "fixed": "Fs_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 6,
+      "maximum_intersection_mm3": 0.06710121985739895
+    },
+    {
+      "voice": "V08",
+      "note": "E4",
+      "moving": "V08_PETPick",
+      "fixed": "G_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 6,
+      "maximum_intersection_mm3": 0.06710121985740077
+    },
+    {
+      "voice": "V09",
+      "note": "G4",
+      "moving": "V09_PETPick",
+      "fixed": "Ab_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 7,
+      "maximum_intersection_mm3": 0.0671012198574043
+    },
+    {
+      "voice": "V10",
+      "note": "A4",
+      "moving": "V10_PETPick",
+      "fixed": "A_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 9,
+      "maximum_intersection_mm3": 0.06710121985740458
+    },
+    {
+      "voice": "V11",
+      "note": "C5",
+      "moving": "V11_PETPick",
+      "fixed": "Bb_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 10,
+      "maximum_intersection_mm3": 0.06718703893885336
+    },
+    {
+      "voice": "V12",
+      "note": "D5",
+      "moving": "V12_PETPick",
+      "fixed": "B_KotoSpeakingString",
+      "first_phase_deg": 0,
+      "poses_with_intersection": 11,
+      "maximum_intersection_mm3": 0.06714915291750873
+    }
+  ],
+  "physical_pass": false
+}

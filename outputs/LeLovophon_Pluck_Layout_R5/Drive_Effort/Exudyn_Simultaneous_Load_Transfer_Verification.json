@@ -1,0 +1,13 @@
+{
+  "engine": "Exudyn",
+  "version": "1.13.6",
+  "case": "Fully constrained all-12 zero-crossing static force transfer. Assumed common sideways string deflection; not a flexible pick/contact simulation.",
+  "assumed_string_deflection_mm": 0.2,
+  "exudyn_input_torque_Nm": 0.12906673648142866,
+  "independent_virtual_work_input_torque_Nm": 0.1290667364955443,
+  "difference_Nm": -1.4115625335264781e-11,
+  "handle_force_N": 4.033335515044645,
+  "force_transfer_agreement_passed": true,
+  "friction_included": false,
+  "physical_test_passed": false
+}

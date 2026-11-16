@@ -1,0 +1,188 @@
+{
+  "case": "All12 strings deflected0.2mm at shared crossing, nominal tension; tip forces oppose positive input motion; includes moving-part gravity, no friction/inertia/contact release. Conditional load case, not operating prediction.",
+  "cad_sha256": "8b5322026e943034589d3b90ea17b8ebd58bd06830b3c0050511e0693e0f7148",
+  "input_torque_Nm": 0.1403749104343137,
+  "reactions": [
+    {
+      "voice": 1,
+      "note": "C3",
+      "gear_constraint_output": 0.005470359445068639,
+      "crank_pin_reaction_N": [
+        0.31659581824996796,
+        0.4438464617036044,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.2952632743658124,
+        -0.4438464617036044,
+        0.0
+      ]
+    },
+    {
+      "voice": 2,
+      "note": "D3",
+      "gear_constraint_output": 0.005525417730836368,
+      "crank_pin_reaction_N": [
+        0.4038847914867085,
+        0.37367760281327383,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.3832038618131444,
+        -0.37367760281327383,
+        0.0
+      ]
+    },
+    {
+      "voice": 3,
+      "note": "E3",
+      "gear_constraint_output": 0.0055648028833794085,
+      "crank_pin_reaction_N": [
+        0.47244428426742147,
+        0.28902728558299356,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.4524385863304174,
+        -0.28902728558299356,
+        0.0
+      ]
+    },
+    {
+      "voice": 4,
+      "note": "G3",
+      "gear_constraint_output": 0.005605955025201536,
+      "crank_pin_reaction_N": [
+        0.5267914064613115,
+        0.18306650096513727,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.5058805445246021,
+        -0.18306650096513727,
+        0.0
+      ]
+    },
+    {
+      "voice": 5,
+      "note": "A3",
+      "gear_constraint_output": 0.005630076761822926,
+      "crank_pin_reaction_N": [
+        0.5516888302008849,
+        0.09607636712884296,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.52976763886396,
+        -0.09607636712884296,
+        0.0
+      ]
+    },
+    {
+      "voice": 6,
+      "note": "C4",
+      "gear_constraint_output": 0.0056536439445528655,
+      "crank_pin_reaction_N": [
+        0.5622040621606692,
+        0.011580958474600575,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.5382086510317117,
+        -0.011580958474600575,
+        0.0
+      ]
+    },
+    {
+      "voice": 7,
+      "note": "D4",
+      "gear_constraint_output": 0.0056076102824508915,
+      "crank_pin_reaction_N": [
+        0.5545285615732781,
+        -0.06004782960789422,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.5294841883825261,
+        0.06004782960789422,
+        0.0
+      ]
+    },
+    {
+      "voice": 8,
+      "note": "E4",
+      "gear_constraint_output": 0.005216189886335204,
+      "crank_pin_reaction_N": [
+        0.5059966459243014,
+        -0.11415332711631695,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.479783264262198,
+        0.11415332711631695,
+        0.0
+      ]
+    },
+    {
+      "voice": 9,
+      "note": "G4",
+      "gear_constraint_output": 0.004778031024437189,
+      "crank_pin_reaction_N": [
+        0.4518884874558224,
+        -0.14632355777305797,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.4230572987171113,
+        0.14632355777305797,
+        0.0
+      ]
+    },
+    {
+      "voice": 10,
+      "note": "A4",
+      "gear_constraint_output": 0.004459059548865381,
+      "crank_pin_reaction_N": [
+        0.4078260328147825,
+        -0.17359876292702328,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.3785330393460788,
+        0.17359876292702328,
+        0.0
+      ]
+    },
+    {
+      "voice": 11,
+      "note": "C5",
+      "gear_constraint_output": 0.004363086186839826,
+      "crank_pin_reaction_N": [
+        0.38642517043107477,
+        -0.19705411804436557,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.35443989802155024,
+        0.19705411804436557,
+        0.0
+      ]
+    },
+    {
+      "voice": 12,
+      "note": "D5",
+      "gear_constraint_output": 0.004516164564437242,
+      "crank_pin_reaction_N": [
+        0.3850931941643525,
+        -0.23132132376512615,
+        0.0
+      ],
+      "rocker_pin_reaction_N": [
+        -0.3515403160869318,
+        0.23132132376512615,
+        0.0
+      ]
+    }
+  ],
+  "physical_test_passed": false
+}

@@ -1,0 +1,49 @@
+{
+  "completed_voice": 12,
+  "unexpected": [],
+  "intended": [
+    {
+      "a": "V09_PETPick",
+      "b": "V09_NylonString",
+      "first_phase_deg": 0,
+      "poses": 5,
+      "max_volume_mm3": 0.07433675602957888,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V10_PETPick",
+      "b": "V10_NylonString",
+      "first_phase_deg": 0,
+      "poses": 5,
+      "max_volume_mm3": 0.07433675602958262,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V11_PETPick",
+      "b": "V11_NylonString",
+      "first_phase_deg": 0,
+      "poses": 6,
+      "max_volume_mm3": 0.07433675602958958,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    },
+    {
+      "a": "V12_PETPick",
+      "b": "V12_NylonString",
+      "first_phase_deg": 0,
+      "poses": 6,
+      "max_volume_mm3": 0.07433675602957411,
+      "reason": "flexible pick contact \u2014 physical release unproved"
+    }
+  ],
+  "cad_sha256": "b99727549b9726cd700485480fa619c277aa907ba96c17816f74f628c54987e7",
+  "checked_voices": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "poses_per_voice": 360,
+  "independent_tooth_phase_samples_per_pair": 64,
+  "shared_input_poses": 0,
+  "scope_note": "Baseline per-voice sweeps completed; shared input instead verified by the stronger continuous envelope check on final CAD."
+}

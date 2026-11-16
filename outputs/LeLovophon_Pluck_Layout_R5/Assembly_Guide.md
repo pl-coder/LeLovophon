@@ -1,0 +1,13 @@
+# R5 assembly changes — unbuilt prototype
+
+Use the saved R5 CAD and position table together. This note replaces R4's mounting locations; the physical assembly, alignment and release checks remain outstanding.
+
+1. Confirm the actual purchased SHF8 clamp, bearing, insert and stock-angle drawings before cutting. R4-named flat profiles in this folder are unchanged part shapes. Obtain supplier deburring/edge breaking. Laser-cut clearance holes are not precision bearing seats.
+2. Locate the four identical rear rib starts at native X−210,−28,150,272mm. Y is up, Z across strings, X along strings. Three angle feet face right; the last faces left. Through-bolt the structural rear rim using its compression sleeves, backing plates and accessible nuts. Do not tighten directly through unsupported soundboard skin. R5 body bores/pockets differ from R4; do not reuse an old drill map.
+3. Fit the solidØ8×590mm rear rail fromX−221 to369 atY65,Z−125. Assemble the unchanged precision carriers onto that rail at the voice stations in `Plucking_Positions.csv`. Leave clamps loose while aligning the bearing axes. Ribs carry the rail, not the plucking strings.
+4. Place the eight input bearing starts/centres in the supplied coordinate CSV. Fit theØ5×575mm input shaft fromX−194 to381. Its left positive-retention pin is atX−188; the right crank pin remainsX376. Phase/jig-drill the twelve gear cross-pin bores at stationX−5.5 along their original local axes; no abandoned holes are allowed. Final shaft/bearing fits, pin retention and coaxial alignment require shop detail and measurement.
+5. Keep the exact original gear pairs, four-bar geometry, proportional arm radii and phase settings. All picks lie at stationX+8; strings/third bridges and the common nut stay in their original positions. The relocated bearing forD4 lies atX123.3. Its gap to the following station was increased2mm; do not move it into a neighbouring carrier.
+6. Retain the rear-mounted crank outrigger, console and freely rotating grip. The32mm throw and its input speed/reference remain unchanged. Tune/tension the strings gradually and symmetrically, then check unloaded travel, tolerances and alignment before adjusting PET engagement.
+7. Test a single real pick/string assembly first. Establish two-way release and actual force traces, then measure the whole mechanism through a full cycle. See `Drive_Effort/README.md`. Any rub, binding or unstable release invalidates a simple ideal-force prediction. A smooth-looking CAD animation is not a loaded performance test.
+
+The body, full manufacturing fits and woodshop drawings are not released. This is a development/quotation model.

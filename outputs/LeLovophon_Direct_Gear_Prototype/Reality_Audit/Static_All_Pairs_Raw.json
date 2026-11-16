@@ -1,0 +1,3049 @@
+{
+  "model": "outputs/LeLovophon_Direct_Gear_Prototype/Axle_Clearance_Revision/LeLovophon_Direct_Gear_Prototype.FCStd",
+  "pose": "saved common zero",
+  "part_count": 509,
+  "tested_pairs": 129286,
+  "positive_volume_intersections": [
+    {
+      "a": "SoundboxShell",
+      "b": "SoundboxEndBlock1",
+      "volume_mm3": 31034.801339973914,
+      "intersection_center_mm": [
+        337.0,
+        -132.5,
+        -25.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "C_KotoThirdBridge",
+      "volume_mm3": 34.80000000000002,
+      "intersection_center_mm": [
+        -15.0,
+        -106.1,
+        -102.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "C_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        -102.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "D_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        -74.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "E_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        -46.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "F_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        -32.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "G_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        -4.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "A_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        24.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "NylonLeftGuidePedestal",
+      "volume_mm3": 16704.0,
+      "intersection_center_mm": [
+        -26.0,
+        -103.0,
+        -25.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "Cs_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        -88.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "Eb_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        -60.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "Fs_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        -18.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "Ab_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        10.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "Bb_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        38.0
+      ]
+    },
+    {
+      "a": "KotoAnchorBlock",
+      "b": "B_LeftNylonGuide",
+      "volume_mm3": 324.96434375841505,
+      "intersection_center_mm": [
+        -27.2,
+        -97.6,
+        52.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "C_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        -102.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "D_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        -74.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "E_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        -46.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "F_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        -32.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "G_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        -4.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "A_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        24.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "Cs_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        -88.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "Eb_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        -60.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "Fs_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        -18.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "Ab_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        10.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "Bb_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        38.0
+      ]
+    },
+    {
+      "a": "KotoAnchorSaddleRail",
+      "b": "B_AnchorNylonSaddle",
+      "volume_mm3": 3.0159289474462003,
+      "intersection_center_mm": [
+        -22.0,
+        -91.80000000000001,
+        52.0
+      ]
+    },
+    {
+      "a": "KotoTunerBlock",
+      "b": "RearStay_320",
+      "volume_mm3": 50.798706113833134,
+      "intersection_center_mm": [
+        320.0,
+        -100.8,
+        -112.5
+      ]
+    },
+    {
+      "a": "KotoTunerBlock",
+      "b": "RearBackbone",
+      "volume_mm3": 37.16978496134143,
+      "intersection_center_mm": [
+        318.0,
+        -106.0,
+        -112.5
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "C_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        -102.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "D_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        -74.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "E_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        -46.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "F_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        -32.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "G_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        -4.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "A_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        24.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "Cs_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        -88.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "Eb_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        -60.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "Fs_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        -18.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "Ab_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        10.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "Bb_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        38.0
+      ]
+    },
+    {
+      "a": "KotoTunerSaddleRail",
+      "b": "B_TunerNylonSaddle",
+      "volume_mm3": 3.015928947446187,
+      "intersection_center_mm": [
+        320.0,
+        -91.80000000000001,
+        52.0
+      ]
+    },
+    {
+      "a": "C_KotoSpeakingString",
+      "b": "V01_PETPick",
+      "volume_mm3": 0.06710121985775473,
+      "intersection_center_mm": [
+        44.0,
+        -90.72500000000102,
+        -102.0
+      ]
+    },
+    {
+      "a": "C_KotoSpeakingString",
+      "b": "V01_RearPivotStay",
+      "volume_mm3": 0.8432755897613939,
+      "intersection_center_mm": [
+        24.999999974692276,
+        -90.99855838662609,
+        -101.92109497213335
+      ]
+    },
+    {
+      "a": "C_KotoThirdBridge",
+      "b": "C_NylonBridgeCrown",
+      "volume_mm3": 2.3506511701117603,
+      "intersection_center_mm": [
+        -10.0,
+        -92.15,
+        -102.0
+      ]
+    },
+    {
+      "a": "D_KotoSpeakingString",
+      "b": "V03_PETPick",
+      "volume_mm3": 0.06710121985740163,
+      "intersection_center_mm": [
+        92.0,
+        -90.72500000000016,
+        -74.0
+      ]
+    },
+    {
+      "a": "D_KotoSpeakingString",
+      "b": "V08_RearPivotStay",
+      "volume_mm3": 1.2684617197476211,
+      "intersection_center_mm": [
+        193.0,
+        -91.00062287999958,
+        -74.00037775597386
+      ]
+    },
+    {
+      "a": "D_KotoThirdBridge",
+      "b": "D_NylonBridgeCrown",
+      "volume_mm3": 2.3506511701117523,
+      "intersection_center_mm": [
+        56.0,
+        -92.15,
+        -74.0
+      ]
+    },
+    {
+      "a": "E_KotoSpeakingString",
+      "b": "V05_PETPick",
+      "volume_mm3": 0.06710121985740045,
+      "intersection_center_mm": [
+        140.0,
+        -90.72500000000016,
+        -46.0
+      ]
+    },
+    {
+      "a": "E_KotoSpeakingString",
+      "b": "V11_RearPivotStay",
+      "volume_mm3": 1.3334745879548184,
+      "intersection_center_mm": [
+        265.0,
+        -90.99926924974396,
+        -45.997597504684734
+      ]
+    },
+    {
+      "a": "E_KotoSpeakingString",
+      "b": "V12_RearPivotStay",
+      "volume_mm3": 1.4820886209758184,
+      "intersection_center_mm": [
+        289.0,
+        -90.99960730006104,
+        -45.99847814867847
+      ]
+    },
+    {
+      "a": "E_KotoThirdBridge",
+      "b": "E_NylonBridgeCrown",
+      "volume_mm3": 2.350651170111729,
+      "intersection_center_mm": [
+        122.0,
+        -92.15,
+        -46.0
+      ]
+    },
+    {
+      "a": "F_KotoSpeakingString",
+      "b": "V06_PETPick",
+      "volume_mm3": 0.067101219857401,
+      "intersection_center_mm": [
+        164.0,
+        -90.72500000000016,
+        -32.0
+      ]
+    },
+    {
+      "a": "F_KotoThirdBridge",
+      "b": "F_NylonBridgeCrown",
+      "volume_mm3": 2.3506511701117225,
+      "intersection_center_mm": [
+        155.0,
+        -92.15,
+        -32.0
+      ]
+    },
+    {
+      "a": "G_KotoSpeakingString",
+      "b": "V08_PETPick",
+      "volume_mm3": 0.06710121985740272,
+      "intersection_center_mm": [
+        212.0,
+        -90.72500000000016,
+        -4.0
+      ]
+    },
+    {
+      "a": "G_KotoThirdBridge",
+      "b": "G_NylonBridgeCrown",
+      "volume_mm3": 2.350651170111724,
+      "intersection_center_mm": [
+        188.0,
+        -92.15,
+        -4.0
+      ]
+    },
+    {
+      "a": "A_KotoSpeakingString",
+      "b": "V10_PETPick",
+      "volume_mm3": 0.06710121985740217,
+      "intersection_center_mm": [
+        260.0,
+        -90.72500000000016,
+        24.0
+      ]
+    },
+    {
+      "a": "A_KotoThirdBridge",
+      "b": "A_NylonBridgeCrown",
+      "volume_mm3": 2.350651170111724,
+      "intersection_center_mm": [
+        221.0,
+        -92.15,
+        24.0
+      ]
+    },
+    {
+      "a": "C_LeftNylonGuide",
+      "b": "NylonLeftGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        -102.0
+      ]
+    },
+    {
+      "a": "C_LeftNylonOverEdge",
+      "b": "C_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203307811859711,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        -101.99999248252465
+      ]
+    },
+    {
+      "a": "C_LeftNylonOverEdge",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 8.504226532401269,
+      "intersection_center_mm": [
+        -36.0,
+        -120.48765246170308,
+        -102.0
+      ]
+    },
+    {
+      "a": "C_RightNylonGuide",
+      "b": "NylonRightGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        -102.0
+      ]
+    },
+    {
+      "a": "C_RightNylonOverEdge",
+      "b": "C_NylonTieShuttle",
+      "volume_mm3": 0.9643398629704484,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        -101.99999999999201
+      ]
+    },
+    {
+      "a": "C_NylonTieShuttle",
+      "b": "C_NylonTensionScrew",
+      "volume_mm3": 20.923007072908327,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        -102.0
+      ]
+    },
+    {
+      "a": "C_NylonTieKnotEnvelope",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 1.5896458827164333,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        -102.0
+      ]
+    },
+    {
+      "a": "D_LeftNylonGuide",
+      "b": "NylonLeftGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        -74.0
+      ]
+    },
+    {
+      "a": "D_LeftNylonOverEdge",
+      "b": "D_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203307811859708,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        -73.99999248252465
+      ]
+    },
+    {
+      "a": "D_LeftNylonOverEdge",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 8.504226532400091,
+      "intersection_center_mm": [
+        -36.0,
+        -120.48765246170203,
+        -74.0
+      ]
+    },
+    {
+      "a": "D_RightNylonGuide",
+      "b": "NylonRightGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        -74.0
+      ]
+    },
+    {
+      "a": "D_RightNylonOverEdge",
+      "b": "D_NylonTieShuttle",
+      "volume_mm3": 0.9643398629704484,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        -74.0
+      ]
+    },
+    {
+      "a": "D_NylonTieShuttle",
+      "b": "D_NylonTensionScrew",
+      "volume_mm3": 20.923007072908327,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        -74.0
+      ]
+    },
+    {
+      "a": "D_NylonTieKnotEnvelope",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 1.5896458827164333,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        -74.0
+      ]
+    },
+    {
+      "a": "E_LeftNylonGuide",
+      "b": "NylonLeftGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        -46.0
+      ]
+    },
+    {
+      "a": "E_LeftNylonOverEdge",
+      "b": "E_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203306951678591,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        -45.99998581286595
+      ]
+    },
+    {
+      "a": "E_LeftNylonOverEdge",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 8.50422653240075,
+      "intersection_center_mm": [
+        -36.0,
+        -120.4876524617022,
+        -46.0
+      ]
+    },
+    {
+      "a": "E_RightNylonGuide",
+      "b": "NylonRightGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        -46.0
+      ]
+    },
+    {
+      "a": "E_RightNylonOverEdge",
+      "b": "E_NylonTieShuttle",
+      "volume_mm3": 0.9643398629704462,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        -45.999999999992
+      ]
+    },
+    {
+      "a": "E_NylonTieShuttle",
+      "b": "E_NylonTensionScrew",
+      "volume_mm3": 20.923007072908305,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        -46.0
+      ]
+    },
+    {
+      "a": "E_NylonTieKnotEnvelope",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 1.589645882716427,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        -46.0
+      ]
+    },
+    {
+      "a": "F_LeftNylonGuide",
+      "b": "NylonLeftGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        -32.0
+      ]
+    },
+    {
+      "a": "F_LeftNylonOverEdge",
+      "b": "F_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203307811859582,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        -31.99999248252464
+      ]
+    },
+    {
+      "a": "F_LeftNylonOverEdge",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 8.5042265324007,
+      "intersection_center_mm": [
+        -36.0,
+        -120.4876524617022,
+        -32.0
+      ]
+    },
+    {
+      "a": "F_RightNylonGuide",
+      "b": "NylonRightGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        -32.0
+      ]
+    },
+    {
+      "a": "F_RightNylonOverEdge",
+      "b": "F_NylonTieShuttle",
+      "volume_mm3": 0.9643398629704449,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        -31.999999999992003
+      ]
+    },
+    {
+      "a": "F_NylonTieShuttle",
+      "b": "F_NylonTensionScrew",
+      "volume_mm3": 20.92300707290832,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        -32.0
+      ]
+    },
+    {
+      "a": "F_NylonTieKnotEnvelope",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 1.5896458827164288,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        -32.0
+      ]
+    },
+    {
+      "a": "G_LeftNylonGuide",
+      "b": "NylonLeftGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        -4.0
+      ]
+    },
+    {
+      "a": "G_LeftNylonOverEdge",
+      "b": "G_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203307811859987,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        -3.9999924825246413
+      ]
+    },
+    {
+      "a": "G_LeftNylonOverEdge",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 8.5042265324008,
+      "intersection_center_mm": [
+        -36.0,
+        -120.4876524617022,
+        -4.0
+      ]
+    },
+    {
+      "a": "G_RightNylonGuide",
+      "b": "NylonRightGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        -4.0
+      ]
+    },
+    {
+      "a": "G_RightNylonOverEdge",
+      "b": "G_NylonTieShuttle",
+      "volume_mm3": 0.9643398629704428,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        -4.0
+      ]
+    },
+    {
+      "a": "G_NylonTieShuttle",
+      "b": "G_NylonTensionScrew",
+      "volume_mm3": 20.923007072908312,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        -4.0
+      ]
+    },
+    {
+      "a": "G_NylonTieKnotEnvelope",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 1.5896458827164297,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        -4.0
+      ]
+    },
+    {
+      "a": "A_LeftNylonGuide",
+      "b": "NylonLeftGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        24.0
+      ]
+    },
+    {
+      "a": "A_LeftNylonOverEdge",
+      "b": "A_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203307811859554,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        24.00000751747536
+      ]
+    },
+    {
+      "a": "A_LeftNylonOverEdge",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 8.504226532400697,
+      "intersection_center_mm": [
+        -36.0,
+        -120.4876524617022,
+        24.0
+      ]
+    },
+    {
+      "a": "A_RightNylonGuide",
+      "b": "NylonRightGuidePedestal",
+      "volume_mm3": 172.41060482900778,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        24.0
+      ]
+    },
+    {
+      "a": "A_RightNylonOverEdge",
+      "b": "A_NylonTieShuttle",
+      "volume_mm3": 0.9643398629704452,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        24.000000000008008
+      ]
+    },
+    {
+      "a": "A_NylonTieShuttle",
+      "b": "A_NylonTensionScrew",
+      "volume_mm3": 20.923007072908277,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        24.0
+      ]
+    },
+    {
+      "a": "A_NylonTieKnotEnvelope",
+      "b": "NylonAnchorEndPlate",
+      "volume_mm3": 1.5896458827164306,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        24.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "Cs_LeftNylonOverEdge",
+      "volume_mm3": 6.5473637774165425,
+      "intersection_center_mm": [
+        -35.99955207536928,
+        -120.48765246170203,
+        -88.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "Cs_NylonTieKnotEnvelope",
+      "volume_mm3": 1.5896458827164324,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        -88.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "Eb_LeftNylonOverEdge",
+      "volume_mm3": 8.504226532401312,
+      "intersection_center_mm": [
+        -36.0,
+        -120.48765246170308,
+        -60.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "Eb_NylonTieKnotEnvelope",
+      "volume_mm3": 1.5896458827164208,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        -60.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "Fs_LeftNylonOverEdge",
+      "volume_mm3": 8.50422653240063,
+      "intersection_center_mm": [
+        -36.0,
+        -120.4876524617022,
+        -18.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "Fs_NylonTieKnotEnvelope",
+      "volume_mm3": 1.5896458827164262,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        -18.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "Ab_LeftNylonOverEdge",
+      "volume_mm3": 8.504226532400775,
+      "intersection_center_mm": [
+        -36.0,
+        -120.4876524617022,
+        10.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "Ab_NylonTieKnotEnvelope",
+      "volume_mm3": 1.5896458827164253,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        10.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "Bb_LeftNylonOverEdge",
+      "volume_mm3": 6.5473637774164635,
+      "intersection_center_mm": [
+        -35.999552075369316,
+        -120.4876524617022,
+        38.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "Bb_NylonTieKnotEnvelope",
+      "volume_mm3": 1.5896458827164235,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        38.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "B_LeftNylonOverEdge",
+      "volume_mm3": 8.504226532400725,
+      "intersection_center_mm": [
+        -36.0,
+        -120.4876524617022,
+        52.0
+      ]
+    },
+    {
+      "a": "NylonAnchorEndPlate",
+      "b": "B_NylonTieKnotEnvelope",
+      "volume_mm3": 1.5896458827164208,
+      "intersection_center_mm": [
+        -36.0,
+        -130.0,
+        52.0
+      ]
+    },
+    {
+      "a": "NylonRightGuidePedestal",
+      "b": "Cs_RightNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        -88.0
+      ]
+    },
+    {
+      "a": "NylonRightGuidePedestal",
+      "b": "Eb_RightNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        -60.0
+      ]
+    },
+    {
+      "a": "NylonRightGuidePedestal",
+      "b": "Fs_RightNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        -18.0
+      ]
+    },
+    {
+      "a": "NylonRightGuidePedestal",
+      "b": "Ab_RightNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        10.0
+      ]
+    },
+    {
+      "a": "NylonRightGuidePedestal",
+      "b": "Bb_RightNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        38.0
+      ]
+    },
+    {
+      "a": "NylonRightGuidePedestal",
+      "b": "B_RightNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        337.2,
+        -99.8,
+        52.0
+      ]
+    },
+    {
+      "a": "NylonLeftGuidePedestal",
+      "b": "Cs_LeftNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        -88.0
+      ]
+    },
+    {
+      "a": "NylonLeftGuidePedestal",
+      "b": "Eb_LeftNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        -60.0
+      ]
+    },
+    {
+      "a": "NylonLeftGuidePedestal",
+      "b": "Fs_LeftNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        -18.0
+      ]
+    },
+    {
+      "a": "NylonLeftGuidePedestal",
+      "b": "Ab_LeftNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        10.0
+      ]
+    },
+    {
+      "a": "NylonLeftGuidePedestal",
+      "b": "Bb_LeftNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        38.0
+      ]
+    },
+    {
+      "a": "NylonLeftGuidePedestal",
+      "b": "B_LeftNylonGuide",
+      "volume_mm3": 172.4106048290078,
+      "intersection_center_mm": [
+        -27.2,
+        -99.8,
+        52.0
+      ]
+    },
+    {
+      "a": "Cs_KotoSpeakingString",
+      "b": "V02_PETPick",
+      "volume_mm3": 0.06710121985740276,
+      "intersection_center_mm": [
+        68.0,
+        -90.72500000000016,
+        -88.0
+      ]
+    },
+    {
+      "a": "Cs_KotoSpeakingString",
+      "b": "V05_RearPivotStay",
+      "volume_mm3": 1.1511508096098653,
+      "intersection_center_mm": [
+        121.0,
+        -91.00005047082601,
+        -87.99999742894556
+      ]
+    },
+    {
+      "a": "Cs_KotoSpeakingString",
+      "b": "V06_RearPivotStay",
+      "volume_mm3": 0.5344230902403385,
+      "intersection_center_mm": [
+        145.0,
+        -91.10942063590082,
+        -87.88815794776082
+      ]
+    },
+    {
+      "a": "Cs_KotoThirdBridge",
+      "b": "Cs_NylonBridgeCrown",
+      "volume_mm3": 2.350651170111738,
+      "intersection_center_mm": [
+        26.666666666666686,
+        -92.15,
+        -88.0
+      ]
+    },
+    {
+      "a": "Cs_LeftNylonOverEdge",
+      "b": "Cs_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203307811967334,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        -87.99999248252465
+      ]
+    },
+    {
+      "a": "Cs_RightNylonOverEdge",
+      "b": "Cs_NylonTieShuttle",
+      "volume_mm3": 0.9643398629704484,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        -88.0
+      ]
+    },
+    {
+      "a": "Cs_NylonTieShuttle",
+      "b": "Cs_NylonTensionScrew",
+      "volume_mm3": 20.923007072908327,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        -88.0
+      ]
+    },
+    {
+      "a": "Eb_KotoSpeakingString",
+      "b": "V04_PETPick",
+      "volume_mm3": 0.06710121985740132,
+      "intersection_center_mm": [
+        116.0,
+        -90.72500000000016,
+        -60.0
+      ]
+    },
+    {
+      "a": "Eb_KotoSpeakingString",
+      "b": "V10_RearPivotStay",
+      "volume_mm3": 1.0554408527618149,
+      "intersection_center_mm": [
+        241.0,
+        -91.00320976318113,
+        -60.00301797584858
+      ]
+    },
+    {
+      "a": "Eb_KotoThirdBridge",
+      "b": "Eb_NylonBridgeCrown",
+      "volume_mm3": 2.3506511701117403,
+      "intersection_center_mm": [
+        100.0,
+        -92.15,
+        -60.0
+      ]
+    },
+    {
+      "a": "Eb_LeftNylonOverEdge",
+      "b": "Eb_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203306951678593,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        -59.99998581286595
+      ]
+    },
+    {
+      "a": "Eb_RightNylonOverEdge",
+      "b": "Eb_NylonTieShuttle",
+      "volume_mm3": 0.964339862970447,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        -59.999999999992006
+      ]
+    },
+    {
+      "a": "Eb_NylonTieShuttle",
+      "b": "Eb_NylonTensionScrew",
+      "volume_mm3": 20.923007072908327,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        -60.0
+      ]
+    },
+    {
+      "a": "Fs_KotoSpeakingString",
+      "b": "V07_PETPick",
+      "volume_mm3": 0.06710121985740292,
+      "intersection_center_mm": [
+        188.0,
+        -90.72500000000016,
+        -18.0
+      ]
+    },
+    {
+      "a": "Fs_KotoThirdBridge",
+      "b": "Fs_NylonBridgeCrown",
+      "volume_mm3": 2.3506511701117536,
+      "intersection_center_mm": [
+        173.33333333333331,
+        -92.15,
+        -18.0
+      ]
+    },
+    {
+      "a": "Fs_LeftNylonOverEdge",
+      "b": "Fs_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203307811859564,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        -17.99999248252464
+      ]
+    },
+    {
+      "a": "Fs_RightNylonOverEdge",
+      "b": "Fs_NylonTieShuttle",
+      "volume_mm3": 0.9643398629704463,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        -18.0
+      ]
+    },
+    {
+      "a": "Fs_NylonTieShuttle",
+      "b": "Fs_NylonTensionScrew",
+      "volume_mm3": 20.923007072908327,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        -18.0
+      ]
+    },
+    {
+      "a": "Ab_KotoSpeakingString",
+      "b": "V09_PETPick",
+      "volume_mm3": 0.06710121985740247,
+      "intersection_center_mm": [
+        236.0,
+        -90.72500000000016,
+        10.0
+      ]
+    },
+    {
+      "a": "Ab_KotoThirdBridge",
+      "b": "Ab_NylonBridgeCrown",
+      "volume_mm3": 2.350651170111754,
+      "intersection_center_mm": [
+        210.0,
+        -92.15,
+        10.0
+      ]
+    },
+    {
+      "a": "Ab_LeftNylonOverEdge",
+      "b": "Ab_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203307811859733,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        10.000007517475359
+      ]
+    },
+    {
+      "a": "Ab_RightNylonOverEdge",
+      "b": "Ab_NylonTieShuttle",
+      "volume_mm3": 0.964339862970446,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        10.000000000007994
+      ]
+    },
+    {
+      "a": "Ab_NylonTieShuttle",
+      "b": "Ab_NylonTensionScrew",
+      "volume_mm3": 20.923007072908327,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        10.0
+      ]
+    },
+    {
+      "a": "Bb_KotoSpeakingString",
+      "b": "V11_PETPick",
+      "volume_mm3": 0.06710121985740175,
+      "intersection_center_mm": [
+        284.0,
+        -90.72500000000016,
+        38.0
+      ]
+    },
+    {
+      "a": "Bb_KotoThirdBridge",
+      "b": "Bb_NylonBridgeCrown",
+      "volume_mm3": 2.3506511701117234,
+      "intersection_center_mm": [
+        237.5,
+        -92.15,
+        38.0
+      ]
+    },
+    {
+      "a": "Bb_LeftNylonOverEdge",
+      "b": "Bb_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203306951678585,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        38.00001418713405
+      ]
+    },
+    {
+      "a": "Bb_RightNylonOverEdge",
+      "b": "Bb_NylonTieShuttle",
+      "volume_mm3": 0.9643398629704467,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        38.000000000007994
+      ]
+    },
+    {
+      "a": "Bb_NylonTieShuttle",
+      "b": "Bb_NylonTensionScrew",
+      "volume_mm3": 20.923007072908327,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        38.0
+      ]
+    },
+    {
+      "a": "B_KotoSpeakingString",
+      "b": "V12_PETPick",
+      "volume_mm3": 0.0671012198574,
+      "intersection_center_mm": [
+        308.0,
+        -90.72500000000016,
+        52.0
+      ]
+    },
+    {
+      "a": "B_KotoThirdBridge",
+      "b": "B_NylonBridgeCrown",
+      "volume_mm3": 2.3506511701117536,
+      "intersection_center_mm": [
+        246.66666666666669,
+        -92.15,
+        52.0
+      ]
+    },
+    {
+      "a": "B_LeftNylonOverEdge",
+      "b": "B_NylonTieKnotEnvelope",
+      "volume_mm3": 0.09203306951678593,
+      "intersection_center_mm": [
+        -36.0,
+        -128.9,
+        52.00001418713405
+      ]
+    },
+    {
+      "a": "B_RightNylonOverEdge",
+      "b": "B_NylonTieShuttle",
+      "volume_mm3": 0.964339862970447,
+      "intersection_center_mm": [
+        346.0,
+        -127.98765246170203,
+        52.0
+      ]
+    },
+    {
+      "a": "B_NylonTieShuttle",
+      "b": "B_NylonTensionScrew",
+      "volume_mm3": 20.923007072908327,
+      "intersection_center_mm": [
+        351.0,
+        -130.0,
+        52.0
+      ]
+    },
+    {
+      "a": "LabBaseTransom0",
+      "b": "LabBaseLongeron0",
+      "volume_mm3": 22.526599646584284,
+      "intersection_center_mm": [
+        1.3500003528004196,
+        -116.00000000089108,
+        -147.5000022147156
+      ]
+    },
+    {
+      "a": "LabBaseTransom0",
+      "b": "LabBaseLongeron1",
+      "volume_mm3": 28.55298001813767,
+      "intersection_center_mm": [
+        1.3500004212088,
+        -116.0000000008912,
+        38.00000045239632
+      ]
+    },
+    {
+      "a": "LabBaseTransom1",
+      "b": "LabBaseLongeron0",
+      "volume_mm3": 22.52660041154027,
+      "intersection_center_mm": [
+        314.35000035280086,
+        -116.00000000089108,
+        -147.50000221469983
+      ]
+    },
+    {
+      "a": "LabBaseTransom1",
+      "b": "LabBaseLongeron1",
+      "volume_mm3": 28.55297959305162,
+      "intersection_center_mm": [
+        314.3500004212075,
+        -116.0000000008912,
+        38.00000045239233
+      ]
+    },
+    {
+      "a": "LabBaseTransom1",
+      "b": "StayFoot_320",
+      "volume_mm3": 57.01881870857347,
+      "intersection_center_mm": [
+        315.40705080756857,
+        -111.0,
+        -115.0
+      ]
+    },
+    {
+      "a": "LabBaseLongeron0",
+      "b": "LabRearFootStem0",
+      "volume_mm3": 32.45326714143309,
+      "intersection_center_mm": [
+        -8.000000000000014,
+        -120.00440648558853,
+        -148.0
+      ]
+    },
+    {
+      "a": "LabBaseLongeron0",
+      "b": "LabRearFootStem1",
+      "volume_mm3": 32.45326725941182,
+      "intersection_center_mm": [
+        320.0,
+        -120.00440648558855,
+        -148.0
+      ]
+    },
+    {
+      "a": "LabBaseClamp10",
+      "b": "LabRearFootStem1",
+      "volume_mm3": 19.645882035237605,
+      "intersection_center_mm": [
+        318.6690770917098,
+        -121.89729080573238,
+        -148.0000261345109
+      ]
+    },
+    {
+      "a": "Common5mmInputShaft",
+      "b": "InputBearingShelf_16",
+      "volume_mm3": 24.560136190725462,
+      "intersection_center_mm": [
+        15.997710219045178,
+        65.00000000000017,
+        -26.252743774223205
+      ]
+    },
+    {
+      "a": "Common5mmInputShaft",
+      "b": "InputBearingShelf_112",
+      "volume_mm3": 24.560106068181867,
+      "intersection_center_mm": [
+        111.99771021904517,
+        64.99999999999994,
+        -26.25274377422321
+      ]
+    },
+    {
+      "a": "Common5mmInputShaft",
+      "b": "InputBearingShelf_208",
+      "volume_mm3": 24.560106087103094,
+      "intersection_center_mm": [
+        207.9977102190452,
+        64.99999999999994,
+        -26.252743774223205
+      ]
+    },
+    {
+      "a": "Common5mmInputShaft",
+      "b": "InputBearingShelf_320",
+      "volume_mm3": 24.560106057242773,
+      "intersection_center_mm": [
+        319.99771021904513,
+        64.99999999999994,
+        -26.25274377422321
+      ]
+    },
+    {
+      "a": "InputBearingBlock_16",
+      "b": "InputBearingShelf_16",
+      "volume_mm3": 16.535606134247463,
+      "intersection_center_mm": [
+        17.499999999999996,
+        64.99999999999906,
+        -30.49999999999992
+      ]
+    },
+    {
+      "a": "Input105Bearing_16",
+      "b": "InputBearingShelf_16",
+      "volume_mm3": 24.288435325339297,
+      "intersection_center_mm": [
+        17.5,
+        64.99999999999989,
+        -27.499999999999993
+      ]
+    },
+    {
+      "a": "RearStay_16",
+      "b": "InputBearingShelf_16",
+      "volume_mm3": 11.198583601315537,
+      "intersection_center_mm": [
+        16.0,
+        63.50000000000004,
+        -113.5
+      ]
+    },
+    {
+      "a": "RearStay_16",
+      "b": "RearBackbone",
+      "volume_mm3": 44.7961092002371,
+      "intersection_center_mm": [
+        16.000000000000004,
+        -105.99708663397755,
+        -115.0
+      ]
+    },
+    {
+      "a": "InputBearingBlock_112",
+      "b": "InputBearingShelf_112",
+      "volume_mm3": 16.535606132659783,
+      "intersection_center_mm": [
+        113.5,
+        64.99999999999906,
+        -30.49999999999992
+      ]
+    },
+    {
+      "a": "Input105Bearing_112",
+      "b": "InputBearingShelf_112",
+      "volume_mm3": 24.28849536911779,
+      "intersection_center_mm": [
+        113.5,
+        64.9999999999999,
+        -27.49999999999998
+      ]
+    },
+    {
+      "a": "RearStay_112",
+      "b": "InputBearingShelf_112",
+      "volume_mm3": 11.198589059827423,
+      "intersection_center_mm": [
+        112.0,
+        63.50000000000004,
+        -113.5
+      ]
+    },
+    {
+      "a": "RearStay_112",
+      "b": "RearBackbone",
+      "volume_mm3": 44.796109236050256,
+      "intersection_center_mm": [
+        112.0,
+        -105.99708663397756,
+        -115.0
+      ]
+    },
+    {
+      "a": "InputBearingBlock_208",
+      "b": "InputBearingShelf_208",
+      "volume_mm3": 16.535606134609644,
+      "intersection_center_mm": [
+        209.5,
+        64.99999999999906,
+        -30.49999999999992
+      ]
+    },
+    {
+      "a": "Input105Bearing_208",
+      "b": "InputBearingShelf_208",
+      "volume_mm3": 24.288493918900667,
+      "intersection_center_mm": [
+        209.5,
+        64.99999999999989,
+        -27.49999999999998
+      ]
+    },
+    {
+      "a": "RearStay_208",
+      "b": "InputBearingShelf_208",
+      "volume_mm3": 11.198589060281545,
+      "intersection_center_mm": [
+        208.0,
+        63.50000000000004,
+        -113.5
+      ]
+    },
+    {
+      "a": "RearStay_208",
+      "b": "RearBackbone",
+      "volume_mm3": 44.796108919502146,
+      "intersection_center_mm": [
+        208.0,
+        -105.99708663397755,
+        -115.0
+      ]
+    },
+    {
+      "a": "InputBearingBlock_320",
+      "b": "InputBearingShelf_320",
+      "volume_mm3": 16.535606134256682,
+      "intersection_center_mm": [
+        321.5,
+        64.99999999999906,
+        -30.499999999999922
+      ]
+    },
+    {
+      "a": "Input105Bearing_320",
+      "b": "InputBearingShelf_320",
+      "volume_mm3": 24.288488192952293,
+      "intersection_center_mm": [
+        321.5,
+        64.99999999999989,
+        -27.499999999999986
+      ]
+    },
+    {
+      "a": "RearStay_320",
+      "b": "InputBearingShelf_320",
+      "volume_mm3": 11.198583599825461,
+      "intersection_center_mm": [
+        320.0,
+        63.50000000000004,
+        -113.5
+      ]
+    },
+    {
+      "a": "RearStay_320",
+      "b": "RearBackbone",
+      "volume_mm3": 44.79610944740253,
+      "intersection_center_mm": [
+        320.0,
+        -105.99708663397743,
+        -115.0
+      ]
+    },
+    {
+      "a": "V01_Carrier0",
+      "b": "V01_RearPivotStay",
+      "volume_mm3": 7.258063752382003,
+      "intersection_center_mm": [
+        24.49999999824812,
+        14.30825098763599,
+        -101.94049870973893
+      ]
+    },
+    {
+      "a": "V01_683Bearing_0_0",
+      "b": "V01_RearPivotStay",
+      "volume_mm3": 17.229240726486125,
+      "intersection_center_mm": [
+        24.499999998238316,
+        16.250227581170986,
+        -101.97177786421194
+      ]
+    },
+    {
+      "a": "V01_3mmShaft_0",
+      "b": "V01_RearPivotStay",
+      "volume_mm3": 8.622904329334755,
+      "intersection_center_mm": [
+        25.000000000000057,
+        17.249868582641646,
+        -101.98790110617217
+      ]
+    },
+    {
+      "a": "V01_CrankShaftOnePiece",
+      "b": "V01_CrankPin",
+      "volume_mm3": 7.068583470577035,
+      "intersection_center_mm": [
+        38.5,
+        47.554854636303844,
+        -34.45455175619569
+      ]
+    },
+    {
+      "a": "V01_CrankPin",
+      "b": "V01_PinRetainingWasher_0",
+      "volume_mm3": 2.399391389179205,
+      "intersection_center_mm": [
+        42.45,
+        47.554854636303844,
+        -34.45455175619569
+      ]
+    },
+    {
+      "a": "V01_Rocker",
+      "b": "V01_RockerPin",
+      "volume_mm3": 7.068583470576752,
+      "intersection_center_mm": [
+        38.5,
+        6.573933825823792,
+        -93.91019086854664
+      ]
+    },
+    {
+      "a": "V01_RockerPin",
+      "b": "V01_PinRetainingWasher_1",
+      "volume_mm3": 2.3993913891792036,
+      "intersection_center_mm": [
+        42.45,
+        6.573933825823792,
+        -93.91019086854664
+      ]
+    },
+    {
+      "a": "V01_PendulumHub",
+      "b": "V01_TubeArm",
+      "volume_mm3": 8.220635020651516,
+      "intersection_center_mm": [
+        44.0,
+        13.5,
+        -102.0
+      ]
+    },
+    {
+      "a": "V01_TubeArm",
+      "b": "V01_PETPick",
+      "volume_mm3": 3.5471776586345456,
+      "intersection_center_mm": [
+        44.0,
+        -87.37715237126403,
+        -101.99999999999997
+      ]
+    },
+    {
+      "a": "V01_TipSocket",
+      "b": "V01_PETPick",
+      "volume_mm3": 1.067275276337471,
+      "intersection_center_mm": [
+        43.99999999999996,
+        -86.12940217591947,
+        -101.99999999999997
+      ]
+    },
+    {
+      "a": "V02_Carrier0",
+      "b": "V02_RearPivotStay",
+      "volume_mm3": 7.258063752900963,
+      "intersection_center_mm": [
+        48.49999999824813,
+        2.217746910810246,
+        -88.39373087819035
+      ]
+    },
+    {
+      "a": "V02_683Bearing_0_0",
+      "b": "V02_RearPivotStay",
+      "volume_mm3": 17.229233060225784,
+      "intersection_center_mm": [
+        48.499999996899604,
+        4.1488674879991905,
+        -88.18661599929774
+      ]
+    },
+    {
+      "a": "V02_3mmShaft_0",
+      "b": "V02_RearPivotStay",
+      "volume_mm3": 8.622915971624879,
+      "intersection_center_mm": [
+        49.0,
+        5.139956096116011,
+        -88.0803224842293
+      ]
+    },
+    {
+      "a": "V02_CrankShaftOnePiece",
+      "b": "V02_CrankPin",
+      "volume_mm3": 7.068583470577037,
+      "intersection_center_mm": [
+        62.5,
+        46.70236040395355,
+        -29.94280006298796
+      ]
+    },
+    {
+      "a": "V02_CrankPin",
+      "b": "V02_PinRetainingWasher_0",
+      "volume_mm3": 2.399391389179205,
+      "intersection_center_mm": [
+        66.45,
+        46.70236040395355,
+        -29.94280006298796
+      ]
+    },
+    {
+      "a": "V02_Rocker",
+      "b": "V02_RockerPin",
+      "volume_mm3": 7.068583470577033,
+      "intersection_center_mm": [
+        62.5,
+        -3.616992284206649,
+        -77.72195431402507
+      ]
+    },
+    {
+      "a": "V02_RockerPin",
+      "b": "V02_PinRetainingWasher_1",
+      "volume_mm3": 2.399391389179203,
+      "intersection_center_mm": [
+        66.45,
+        -3.616992284206649,
+        -77.72195431402507
+      ]
+    },
+    {
+      "a": "V02_PendulumHub",
+      "b": "V02_TubeArm",
+      "volume_mm3": 8.220635020653484,
+      "intersection_center_mm": [
+        68.0,
+        1.3888888888888857,
+        -88.0
+      ]
+    },
+    {
+      "a": "V02_TubeArm",
+      "b": "V02_PETPick",
+      "volume_mm3": 3.5471776586346273,
+      "intersection_center_mm": [
+        68.0,
+        -87.37715237126403,
+        -87.99999999999999
+      ]
+    },
+    {
+      "a": "V02_TipSocket",
+      "b": "V02_PETPick",
+      "volume_mm3": 1.067275276341553,
+      "intersection_center_mm": [
+        68.0,
+        -86.1294021759197,
+        -87.99999999999999
+      ]
+    },
+    {
+      "a": "V03_Carrier0",
+      "b": "V03_RearPivotStay",
+      "volume_mm3": 7.258063752550483,
+      "intersection_center_mm": [
+        72.4999999982484,
+        -7.37821146366716,
+        -74.9103181497457
+      ]
+    },
+    {
+      "a": "V03_683Bearing_0_0",
+      "b": "V03_RearPivotStay",
+      "volume_mm3": 17.229240213313172,
+      "intersection_center_mm": [
+        72.49999999689987,
+        -5.495977743838651,
+        -74.4314620483272
+      ]
+    },
+    {
+      "a": "V03_3mmShaft_0",
+      "b": "V03_RearPivotStay",
+      "volume_mm3": 8.622916029175252,
+      "intersection_center_mm": [
+        73.0,
+        -4.529975704623199,
+        -74.1857081048941
+      ]
+    },
+    {
+      "a": "V03_CrankShaftOnePiece",
+      "b": "V03_CrankPin",
+      "volume_mm3": 7.068583470577037,
+      "intersection_center_mm": [
+        86.5,
+        45.30615248039296,
+        -26.80057059223986
+      ]
+    },
+    {
+      "a": "V03_CrankPin",
+      "b": "V03_PinRetainingWasher_0",
+      "volume_mm3": 2.399391389179205,
+      "intersection_center_mm": [
+        90.45,
+        45.30615248039296,
+        -26.80057059223986
+      ]
+    },
+    {
+      "a": "V03_Rocker",
+      "b": "V03_RockerPin",
+      "volume_mm3": 7.068583470576899,
+      "intersection_center_mm": [
+        86.5,
+        -11.056499665019746,
+        -62.02739741695365
+      ]
+    },
+    {
+      "a": "V03_RockerPin",
+      "b": "V03_PinRetainingWasher_1",
+      "volume_mm3": 2.3993913891792045,
+      "intersection_center_mm": [
+        90.45,
+        -11.056499665019746,
+        -62.02739741695365
+      ]
+    },
+    {
+      "a": "V03_PendulumHub",
+      "b": "V03_TubeArm",
+      "volume_mm3": 8.22063502065135,
+      "intersection_center_mm": [
+        92.0,
+        -8.299999999999997,
+        -74.0
+      ]
+    },
+    {
+      "a": "V03_TubeArm",
+      "b": "V03_PETPick",
+      "volume_mm3": 3.547177658634699,
+      "intersection_center_mm": [
+        92.0,
+        -87.37715237126403,
+        -73.99999999999999
+      ]
+    },
+    {
+      "a": "V03_TipSocket",
+      "b": "V03_PETPick",
+      "volume_mm3": 1.0672752763415005,
+      "intersection_center_mm": [
+        92.0,
+        -86.12940217591972,
+        -73.99999999999999
+      ]
+    },
+    {
+      "a": "V04_Carrier0",
+      "b": "V04_RearPivotStay",
+      "volume_mm3": 7.258063752196962,
+      "intersection_center_mm": [
+        96.49999999824811,
+        -21.692380003752852,
+        -61.53266518829824
+      ]
+    },
+    {
+      "a": "V04_683Bearing_0_0",
+      "b": "V04_RearPivotStay",
+      "volume_mm3": 17.229235076057197,
+      "intersection_center_mm": [
+        96.49999999689959,
+        -19.925436459013326,
+        -60.726434886229235
+      ]
+    },
+    {
+      "a": "V04_3mmShaft_0",
+      "b": "V04_RearPivotStay",
+      "volume_mm3": 8.622922638025916,
+      "intersection_center_mm": [
+        97.0,
+        -19.018599755739793,
+        -60.312669090070784
+      ]
+    },
+    {
+      "a": "V04_CrankShaftOnePiece",
+      "b": "V04_CrankPin",
+      "volume_mm3": 7.068583470577037,
+      "intersection_center_mm": [
+        110.5,
+        43.498146752177014,
+        -23.225045548244832
+      ]
+    },
+    {
+      "a": "V04_CrankPin",
+      "b": "V04_PinRetainingWasher_0",
+      "volume_mm3": 2.399391389179205,
+      "intersection_center_mm": [
+        114.45,
+        43.498146752177014,
+        -23.225045548244832
+      ]
+    },
+    {
+      "a": "V04_Rocker",
+      "b": "V04_RockerPin",
+      "volume_mm3": 7.068583470577033,
+      "intersection_center_mm": [
+        110.5,
+        -22.84066127805724,
+        -46.745416083531296
+      ]
+    },
+    {
+      "a": "V04_RockerPin",
+      "b": "V04_PinRetainingWasher_1",
+      "volume_mm3": 2.399391389179204,
+      "intersection_center_mm": [
+        114.45,
+        -22.84066127805724,
+        -46.745416083531296
+      ]
+    },
+    {
+      "a": "V04_PendulumHub",
+      "b": "V04_TubeArm",
+      "volume_mm3": 8.220635020681163,
+      "intersection_center_mm": [
+        116.0,
+        -22.83333333333333,
+        -60.0
+      ]
+    },
+    {
+      "a": "V04_TubeArm",
+      "b": "V04_PETPick",
+      "volume_mm3": 3.547177658634663,
+      "intersection_center_mm": [
+        116.0,
+        -87.37715237126395,
+        -59.999999999999986
+      ]
+    },
+    {
+      "a": "V04_TipSocket",
+      "b": "V04_PETPick",
+      "volume_mm3": 1.067275276341531,
+      "intersection_center_mm": [
+        116.0,
+        -86.12940217591971,
+        -59.999999999999986
+      ]
+    },
+    {
+      "a": "V05_Carrier0",
+      "b": "V05_RearPivotStay",
+      "volume_mm3": 7.258063752456267,
+      "intersection_center_mm": [
+        120.49999999824811,
+        -28.665015951580482,
+        -48.05862520876796
+      ]
+    },
+    {
+      "a": "V05_683Bearing_0_0",
+      "b": "V05_RearPivotStay",
+      "volume_mm3": 17.229233353027762,
+      "intersection_center_mm": [
+        120.49999999689959,
+        -27.05274361305263,
+        -46.97572332218262
+      ]
+    },
+    {
+      "a": "V05_3mmShaft_0",
+      "b": "V05_RearPivotStay",
+      "volume_mm3": 8.622915177086226,
+      "intersection_center_mm": [
+        121.0,
+        -26.225283879123943,
+        -46.41996678448591
+      ]
+    },
+    {
+      "a": "V05_CrankShaftOnePiece",
+      "b": "V05_CrankPin",
+      "volume_mm3": 7.068583470577037,
+      "intersection_center_mm": [
+        134.5,
+        47.93037509982123,
+        -18.723381721704595
+      ]
+    },
+    {
+      "a": "V05_CrankPin",
+      "b": "V05_PinRetainingWasher_0",
+      "volume_mm3": 2.3993913891792054,
+      "intersection_center_mm": [
+        138.45,
+        47.93037509982123,
+        -18.723381721704595
+      ]
+    },
+    {
+      "a": "V05_Rocker",
+      "b": "V05_RockerPin",
+      "volume_mm3": 7.068583470577032,
+      "intersection_center_mm": [
+        134.5,
+        -27.885245135267176,
+        -32.1877715530137
+      ]
+    },
+    {
+      "a": "V05_RockerPin",
+      "b": "V05_PinRetainingWasher_1",
+      "volume_mm3": 2.3993913891792036,
+      "intersection_center_mm": [
+        138.45,
+        -27.885245135267176,
+        -32.1877715530137
+      ]
+    },
+    {
+      "a": "V05_PendulumHub",
+      "b": "V05_TubeArm",
+      "volume_mm3": 8.220635020677589,
+      "intersection_center_mm": [
+        140.0,
+        -30.10000000000001,
+        -46.0
+      ]
+    },
+    {
+      "a": "V05_TubeArm",
+      "b": "V05_PETPick",
+      "volume_mm3": 3.5471776586346073,
+      "intersection_center_mm": [
+        140.0,
+        -87.37715237126406,
+        -45.999999999999986
+      ]
+    },
+    {
+      "a": "V05_TipSocket",
+      "b": "V05_PETPick",
+      "volume_mm3": 1.0672752763414917,
+      "intersection_center_mm": [
+        140.0,
+        -86.12940217591972,
+        -45.999999999999986
+      ]
+    },
+    {
+      "a": "V06_Carrier0",
+      "b": "V06_RearPivotStay",
+      "volume_mm3": 7.258063752860942,
+      "intersection_center_mm": [
+        144.49999999824814,
+        -39.139073832934926,
+        -34.582165186421605
+      ]
+    },
+    {
+      "a": "V06_683Bearing_0_0",
+      "b": "V06_RearPivotStay",
+      "volume_mm3": 17.22923274511707,
+      "intersection_center_mm": [
+        144.4999999968996,
+        -37.75086175050342,
+        -33.22386473428431
+      ]
+    },
+    {
+      "a": "V06_3mmShaft_0",
+      "b": "V06_RearPivotStay",
+      "volume_mm3": 8.622938848618304,
+      "intersection_center_mm": [
+        144.99759997795798,
+        -37.03839072536625,
+        -32.526770781652345
+      ]
+    },
+    {
+      "a": "V06_CrankShaftOnePiece",
+      "b": "V06_CrankPin",
+      "volume_mm3": 7.068583470577035,
+      "intersection_center_mm": [
+        158.5,
+        47.07952669096885,
+        -16.238505628748932
+      ]
+    },
+    {
+      "a": "V06_CrankPin",
+      "b": "V06_PinRetainingWasher_0",
+      "volume_mm3": 2.399391389179204,
+      "intersection_center_mm": [
+        162.45,
+        47.07952669096885,
+        -16.238505628748932
+      ]
+    },
+    {
+      "a": "V06_Rocker",
+      "b": "V06_RockerPin",
+      "volume_mm3": 7.068583470577035,
+      "intersection_center_mm": [
+        158.5,
+        -36.64302233924406,
+        -18.000730568687622
+      ]
+    },
+    {
+      "a": "V06_RockerPin",
+      "b": "V06_PinRetainingWasher_1",
+      "volume_mm3": 2.3993913891792045,
+      "intersection_center_mm": [
+        162.45,
+        -36.64302233924406,
+        -18.000730568687622
+      ]
+    },
+    {
+      "a": "V06_PendulumHub",
+      "b": "V06_TubeArm",
+      "volume_mm3": 8.22063502065291,
+      "intersection_center_mm": [
+        164.0,
+        -41.0,
+        -32.0
+      ]
+    },
+    {
+      "a": "V06_TubeArm",
+      "b": "V06_PETPick",
+      "volume_mm3": 3.547177658634638,
+      "intersection_center_mm": [
+        164.0,
+        -87.37715237126402,
+        -31.999999999999993
+      ]
+    },
+    {
+      "a": "V06_TipSocket",
+      "b": "V06_PETPick",
+      "volume_mm3": 1.0672752763415208,
+      "intersection_center_mm": [
+        164.0,
+        -86.1294021759197,
+        -31.999999999999993
+      ]
+    },
+    {
+      "a": "V07_Carrier0",
+      "b": "V07_RearPivotStay",
+      "volume_mm3": 7.257984418150829,
+      "intersection_center_mm": [
+        168.50000000167785,
+        -44.81496129114018,
+        -20.920212667012287
+      ]
+    },
+    {
+      "a": "V07_683Bearing_0_0",
+      "b": "V07_RearPivotStay",
+      "volume_mm3": 17.229106477562524,
+      "intersection_center_mm": [
+        168.4999999987843,
+        -43.62644250413946,
+        -19.3840885605165
+      ]
+    },
+    {
+      "a": "V07_3mmShaft_0",
+      "b": "V07_RearPivotStay",
+      "volume_mm3": 8.623103095364502,
+      "intersection_center_mm": [
+        169.0,
+        -43.01648227382536,
+        -18.595733656887454
+      ]
+    },
+    {
+      "a": "V07_CrankShaftOnePiece",
+      "b": "V07_CrankPin",
+      "volume_mm3": 7.068583470577037,
+      "intersection_center_mm": [
+        182.5,
+        46.87501830197144,
+        -13.82292482939016
+      ]
+    },
+    {
+      "a": "V07_CrankPin",
+      "b": "V07_PinRetainingWasher_0",
+      "volume_mm3": 2.3993913891792045,
+      "intersection_center_mm": [
+        186.45,
+        46.87501830197144,
+        -13.82292482939016
+      ]
+    },
+    {
+      "a": "V07_Rocker",
+      "b": "V07_RockerPin",
+      "volume_mm3": 7.068583470577003,
+      "intersection_center_mm": [
+        182.5,
+        -40.871229743846015,
+        -4.101689075286558
+      ]
+    },
+    {
+      "a": "V07_RockerPin",
+      "b": "V07_PinRetainingWasher_1",
+      "volume_mm3": 2.3993913891792045,
+      "intersection_center_mm": [
+        186.45,
+        -40.871229743846015,
+        -4.101689075286558
+      ]
+    },
+    {
+      "a": "V07_PendulumHub",
+      "b": "V07_TubeArm",
+      "volume_mm3": 8.220635021089373,
+      "intersection_center_mm": [
+        188.0,
+        -47.05555555555556,
+        -18.0
+      ]
+    },
+    {
+      "a": "V07_TubeArm",
+      "b": "V07_PETPick",
+      "volume_mm3": 3.5471776586345554,
+      "intersection_center_mm": [
+        188.0,
+        -87.377152371264,
+        -17.999999999999993
+      ]
+    },
+    {
+      "a": "V07_TipSocket",
+      "b": "V07_PETPick",
+      "volume_mm3": 1.0672752763415183,
+      "intersection_center_mm": [
+        188.0,
+        -86.12940217591972,
+        -17.999999999999993
+      ]
+    },
+    {
+      "a": "V08_Carrier0",
+      "b": "V08_RearPivotStay",
+      "volume_mm3": 7.2613880722343875,
+      "intersection_center_mm": [
+        192.50000000167722,
+        -49.32371924551265,
+        -7.1514854534045575
+      ]
+    },
+    {
+      "a": "V08_683Bearing_0_0",
+      "b": "V08_RearPivotStay",
+      "volume_mm3": 17.229098998813747,
+      "intersection_center_mm": [
+        192.4999999987993,
+        -48.31178215595091,
+        -5.493704555824033
+      ]
+    },
+    {
+      "a": "V08_3mmShaft_0",
+      "b": "V08_RearPivotStay",
+      "volume_mm3": 8.623056433891328,
+      "intersection_center_mm": [
+        193.0,
+        -47.7924454934064,
+        -4.642914118890302
+      ]
+    },
+    {
+      "a": "V08_CrankShaftOnePiece",
+      "b": "V08_CrankPin",
+      "volume_mm3": 7.068583470577035,
+      "intersection_center_mm": [
+        206.5,
+        46.82880031067128,
+        -11.453502817720851
+      ]
+    },
+    {
+      "a": "V08_CrankPin",
+      "b": "V08_PinRetainingWasher_0",
+      "volume_mm3": 2.399391389179205,
+      "intersection_center_mm": [
+        210.45,
+        46.82880031067128,
+        -11.453502817720851
+      ]
+    },
+    {
+      "a": "V08_Rocker",
+      "b": "V08_RockerPin",
+      "volume_mm3": 7.068583470577037,
+      "intersection_center_mm": [
+        206.5,
+        -44.10908322071247,
+        9.607713501973937
+      ]
+    },
+    {
+      "a": "V08_RockerPin",
+      "b": "V08_PinRetainingWasher_1",
+      "volume_mm3": 2.399391389179205,
+      "intersection_center_mm": [
+        210.45,
+        -44.10908322071247,
+        9.607713501973937
+      ]
+    },
+    {
+      "a": "V08_PendulumHub",
+      "b": "V08_TubeArm",
+      "volume_mm3": 8.220635021114607,
+      "intersection_center_mm": [
+        212.0,
+        -51.9,
+        -3.999999999999999
+      ]
+    },
+    {
+      "a": "V08_TubeArm",
+      "b": "V08_PETPick",
+      "volume_mm3": 3.5471776586346127,
+      "intersection_center_mm": [
+        212.0,
+        -87.377152371264,
+        -3.999999999999991
+      ]
+    },
+    {
+      "a": "V08_TipSocket",
+      "b": "V08_PETPick",
+      "volume_mm3": 1.0672752763415414,
+      "intersection_center_mm": [
+        212.0,
+        -86.12940217591971,
+        -3.999999999999991
+      ]
+    },
+    {
+      "a": "V09_Carrier0",
+      "b": "V09_RearPivotStay",
+      "volume_mm3": 7.423830893678984,
+      "intersection_center_mm": [
+        216.50000000189394,
+        -56.22805672388674,
+        6.6541641703173875
+      ]
+    },
+    {
+      "a": "V09_683Bearing_0_0",
+      "b": "V09_RearPivotStay",
+      "volume_mm3": 17.229113063046764,
+      "intersection_center_mm": [
+        216.4999999987843,
+        -55.406716230996125,
+        8.414179505008303
+      ]
+    },
+    {
+      "a": "V09_3mmShaft_0",
+      "b": "V09_RearPivotStay",
+      "volume_mm3": 8.623142831323248,
+      "intersection_center_mm": [
+        216.99759997795763,
+        -54.9851957303505,
+        9.317437720678605
+      ]
+    },
+    {
+      "a": "V09_CrankShaftOnePiece",
+      "b": "V09_CrankPin",
+      "volume_mm3": 7.068583470577035,
+      "intersection_center_mm": [
+        230.5,
+        49.16280721955731,
+        -9.966513089242921
+      ]
+    },
+    {
+      "a": "V09_CrankPin",
+      "b": "V09_PinRetainingWasher_0",
+      "volume_mm3": 2.399391389179205,
+      "intersection_center_mm": [
+        234.45,
+        49.16280721955731,
+        -9.966513089242921
+      ]
+    },
+    {
+      "a": "V09_Rocker",
+      "b": "V09_RockerPin",
+      "volume_mm3": 7.068583470577102,
+      "intersection_center_mm": [
+        230.50000000000003,
+        -50.11135262287657,
+        23.23816882965498
+      ]
+    },
+    {
+      "a": "V09_RockerPin",
+      "b": "V09_PinRetainingWasher_1",
+      "volume_mm3": 2.399391389179204,
+      "intersection_center_mm": [
+        234.45,
+        -50.11135262287657,
+        23.23816882965498
+      ]
+    },
+    {
+      "a": "V09_PendulumHub",
+      "b": "V09_TubeArm",
+      "volume_mm3": 8.220635021091141,
+      "intersection_center_mm": [
+        236.0,
+        -59.166666666666664,
+        10.0
+      ]
+    },
+    {
+      "a": "V09_TubeArm",
+      "b": "V09_PETPick",
+      "volume_mm3": 3.547177658634575,
+      "intersection_center_mm": [
+        236.0,
+        -87.377152371264,
+        10.000000000000005
+      ]
+    },
+    {
+      "a": "V09_TipSocket",
+      "b": "V09_PETPick",
+      "volume_mm3": 1.067275276341508,
+      "intersection_center_mm": [
+        236.0,
+        -86.12940217591972,
+        10.000000000000007
+      ]
+    },
+    {
+      "a": "V10_Carrier0",
+      "b": "V10_RearPivotStay",
+      "volume_mm3": 7.883974853659672,
+      "intersection_center_mm": [
+        240.50000000189394,
+        -59.62566847986555,
+        20.543514214792722
+      ]
+    },
+    {
+      "a": "V10_683Bearing_0_0",
+      "b": "V10_RearPivotStay",
+      "volume_mm3": 17.229110126652394,
+      "intersection_center_mm": [
+        240.50000000188467,
+        -58.92830165346678,
+        22.36667913983478
+      ]
+    },
+    {
+      "a": "V10_3mmShaft_0",
+      "b": "V10_RearPivotStay",
+      "volume_mm3": 8.623114680016602,
+      "intersection_center_mm": [
+        241.0024000220412,
+        -58.57043099143084,
+        23.296992810537184
+      ]
+    },
+    {
+      "a": "V10_CrankShaftOnePiece",
+      "b": "V10_CrankPin",
+      "volume_mm3": 7.068583470577035,
+      "intersection_center_mm": [
+        254.5,
+        45.05353620412412,
+        -6.32986985457881
+      ]
+    },
+    {
+      "a": "V10_CrankPin",
+      "b": "V10_PinRetainingWasher_0",
+      "volume_mm3": 2.3993913891792045,
+      "intersection_center_mm": [
+        258.45,
+        45.05353620412412,
+        -6.32986985457881
+      ]
+    },
+    {
+      "a": "V10_Rocker",
+      "b": "V10_RockerPin",
+      "volume_mm3": 7.068583470577037,
+      "intersection_center_mm": [
+        254.5,
+        -52.536995718545725,
+        36.758831515931995
+      ]
+    },
+    {
+      "a": "V10_RockerPin",
+      "b": "V10_PinRetainingWasher_1",
+      "volume_mm3": 2.399391389179205,
+      "intersection_center_mm": [
+        258.45,
+        -52.536995718545725,
+        36.758831515931995
+      ]
+    },
+    {
+      "a": "V10_PendulumHub",
+      "b": "V10_TubeArm",
+      "volume_mm3": 8.220635021113281,
+      "intersection_center_mm": [
+        260.0,
+        -62.800000000000004,
+        24.0
+      ]
+    },
+    {
+      "a": "V10_TubeArm",
+      "b": "V10_PETPick",
+      "volume_mm3": 3.547177658634579,
+      "intersection_center_mm": [
+        260.0,
+        -87.37715237126402,
+        24.000000000000007
+      ]
+    },
+    {
+      "a": "V10_TipSocket",
+      "b": "V10_PETPick",
+      "volume_mm3": 1.0672752763331537,
+      "intersection_center_mm": [
+        259.99999999999994,
+        -86.1294021759192,
+        24.000000000000007
+      ]
+    },
+    {
+      "a": "V11_Carrier0",
+      "b": "V11_RearPivotStay",
+      "volume_mm3": 8.662972390127974,
+      "intersection_center_mm": [
+        264.5000000018939,
+        -64.83919231299079,
+        34.290101820835716
+      ]
+    },
+    {
+      "a": "V11_683Bearing_0_0",
+      "b": "V11_RearPivotStay",
+      "volume_mm3": 17.2291020629107,
+      "intersection_center_mm": [
+        264.5000000018847,
+        -64.26230654045038,
+        36.32666739450529
+      ]
+    },
+    {
+      "a": "V11_3mmShaft_0",
+      "b": "V11_RearPivotStay",
+      "volume_mm3": 8.623074865752102,
+      "intersection_center_mm": [
+        265.0,
+        -63.969574090491996,
+        37.28281125472574
+      ]
+    },
+    {
+      "a": "V11_CrankShaftOnePiece",
+      "b": "V11_CrankPin",
+      "volume_mm3": 7.068583470577037,
+      "intersection_center_mm": [
+        278.5,
+        47.39395819031022,
+        -5.266642590400574
+      ]
+    },
+    {
+      "a": "V11_CrankPin",
+      "b": "V11_PinRetainingWasher_0",
+      "volume_mm3": 2.3993913891792045,
+      "intersection_center_mm": [
+        282.45,
+        47.39395819031022,
+        -5.266642590400574
+      ]
+    },
+    {
+      "a": "V11_Rocker",
+      "b": "V11_RockerPin",
+      "volume_mm3": 7.0685834705770345,
+      "intersection_center_mm": [
+        278.5,
+        -57.08090111513583,
+        50.309472777658
+      ]
+    },
+    {
+      "a": "V11_RockerPin",
+      "b": "V11_PinRetainingWasher_1",
+      "volume_mm3": 2.399391389179205,
+      "intersection_center_mm": [
+        282.45,
+        -57.08090111513583,
+        50.309472777658
+      ]
+    },
+    {
+      "a": "V11_PendulumHub",
+      "b": "V11_TubeArm",
+      "volume_mm3": 8.220635021089768,
+      "intersection_center_mm": [
+        284.0,
+        -68.25,
+        38.0
+      ]
+    },
+    {
+      "a": "V11_TubeArm",
+      "b": "V11_PETPick",
+      "volume_mm3": 3.5471776586345776,
+      "intersection_center_mm": [
+        284.0,
+        -87.37715237126402,
+        38.00000000000001
+      ]
+    },
+    {
+      "a": "V11_TipSocket",
+      "b": "V11_PETPick",
+      "volume_mm3": 1.0672752763331852,
+      "intersection_center_mm": [
+        283.99999999999994,
+        -86.1294021759192,
+        38.00000000000001
+      ]
+    },
+    {
+      "a": "V12_Carrier0",
+      "b": "V12_RearPivotStay",
+      "volume_mm3": 9.629367428962668,
+      "intersection_center_mm": [
+        288.5000000001024,
+        -67.72246489789228,
+        48.06446894169336
+      ]
+    },
+    {
+      "a": "V12_683Bearing_0_0",
+      "b": "V12_RearPivotStay",
+      "volume_mm3": 17.229234189418626,
+      "intersection_center_mm": [
+        288.50000000099726,
+        -67.21502684886765,
+        50.30550501628626
+      ]
+    },
+    {
+      "a": "V12_3mmShaft_0",
+      "b": "V12_RearPivotStay",
+      "volume_mm3": 8.623010468892172,
+      "intersection_center_mm": [
+        289.0,
+        -66.96518230909356,
+        51.27374107977504
+      ]
+    },
+    {
+      "a": "V12_CrankShaftOnePiece",
+      "b": "V12_CrankPin",
+      "volume_mm3": 7.068583470577035,
+      "intersection_center_mm": [
+        302.5,
+        46.71377294665969,
+        -2.7466567485689026
+      ]
+    },
+    {
+      "a": "V12_CrankPin",
+      "b": "V12_PinRetainingWasher_0",
+      "volume_mm3": 2.3993913891792045,
+      "intersection_center_mm": [
+        306.45,
+        46.71377294665969,
+        -2.7466567485689026
+      ]
+    },
+    {
+      "a": "V12_Rocker",
+      "b": "V12_RockerPin",
+      "volume_mm3": 7.068583470577033,
+      "intersection_center_mm": [
+        302.5,
+        -59.24649131778983,
+        63.801683111217756
+      ]
+    },
+    {
+      "a": "V12_RockerPin",
+      "b": "V12_PinRetainingWasher_1",
+      "volume_mm3": 2.399391389179204,
+      "intersection_center_mm": [
+        306.45,
+        -59.24649131778983,
+        63.801683111217756
+      ]
+    },
+    {
+      "a": "V12_PendulumHub",
+      "b": "V12_TubeArm",
+      "volume_mm3": 8.220635021089766,
+      "intersection_center_mm": [
+        308.0,
+        -71.27777777777777,
+        52.0
+      ]
+    },
+    {
+      "a": "V12_TubeArm",
+      "b": "V12_PETPick",
+      "volume_mm3": 3.547177658634559,
+      "intersection_center_mm": [
+        308.0,
+        -87.377152371264,
+        52.0
+      ]
+    },
+    {
+      "a": "V12_TipSocket",
+      "b": "V12_PETPick",
+      "volume_mm3": 1.0672752763331284,
+      "intersection_center_mm": [
+        307.99999999999994,
+        -86.1294021759192,
+        52.00000000000001
+      ]
+    }
+  ],
+  "warning": "Raw intersections include intentional modeled fits and undeveloped attachment reservations; they require interpretation. This is not an assembly clearance pass."
+}

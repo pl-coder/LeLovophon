@@ -1,0 +1,37 @@
+{
+  "cad_sha256": "264084afcb461bb55a4e22db9f73d9ee841b749e00c6255b3f3264debac94e67",
+  "scope": "Every shared-input solid contained in an exactly axisymmetric envelope about the common shaft. Envelopes checked against all fixed solids. This covers every input angle continuously; interfaces between co-rotating shared parts inherit final static checks. Per-voice gears/pins have separate full motion checks.",
+  "containment": [
+    {
+      "name": "Common5mmInputShaft",
+      "actual_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "HandInputWheelWithHub",
+      "actual_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "HandWheelFlushPin",
+      "actual_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "InputRearPinnedCollar",
+      "actual_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "InputRearCollarFlushPin",
+      "actual_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "InputRearThrustShim",
+      "actual_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "name": "InputFrontThrustShim",
+      "actual_volume_outside_envelope_mm3": 0.0
+    }
+  ],
+  "unexpected": [],
+  "all_angles_covered": true,
+  "physical_test_passed": false
+}

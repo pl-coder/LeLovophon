@@ -1,0 +1,6426 @@
+[
+  {
+    "name": "Soundboard_355x178x3",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Soundboard",
+    "volume_mm3": 189445.3101875789,
+    "design_note": ""
+  },
+  {
+    "name": "RemovableBottom_355x178x3",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Body",
+    "volume_mm3": 189570.0,
+    "design_note": ""
+  },
+  {
+    "name": "SoundboxWalls_6mm",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Body",
+    "volume_mm3": 243132.3571387159,
+    "design_note": "Glued side/end frame; bottom panel removable. Wood joints and bottom screws require shop drawing."
+  },
+  {
+    "name": "RubberFoot",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Foot",
+    "volume_mm3": 1100.0,
+    "design_note": "Adhesive elastomer foot; raises tuning screw heads 4 mm clear of table."
+  },
+  {
+    "name": "RubberFoot001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Foot",
+    "volume_mm3": 1100.0,
+    "design_note": "Adhesive elastomer foot; raises tuning screw heads 4 mm clear of table."
+  },
+  {
+    "name": "RubberFoot002",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Foot",
+    "volume_mm3": 1100.0,
+    "design_note": "Adhesive elastomer foot; raises tuning screw heads 4 mm clear of table."
+  },
+  {
+    "name": "RubberFoot003",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Foot",
+    "volume_mm3": 1100.0,
+    "design_note": "Adhesive elastomer foot; raises tuning screw heads 4 mm clear of table."
+  },
+  {
+    "name": "LeftSaddlePedestal",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 3271.2000000000016,
+    "design_note": ""
+  },
+  {
+    "name": "RightNutPedestal",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 11623.200000000003,
+    "design_note": ""
+  },
+  {
+    "name": "TwelveStringAnchorBar",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Anchor",
+    "volume_mm3": 4817.296916470579,
+    "design_note": "Nylon passes through 2.1 mm holes; stopper knot bears below bar. Side screws retain the bar."
+  },
+  {
+    "name": "AnchorBarSideScrew",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 51.54568146377457,
+    "design_note": "M2 socket-head reference; threads omitted."
+  },
+  {
+    "name": "AnchorBarSideScrew001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 51.54568146377457,
+    "design_note": "M2 socket-head reference; threads omitted."
+  },
+  {
+    "name": "V01_NylonString",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "String",
+    "volume_mm3": 223.69900785731315,
+    "design_note": ""
+  },
+  {
+    "name": "V01_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Bridge",
+    "volume_mm3": 1111.6258836336397,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V01_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Knot",
+    "volume_mm3": 17.15728467880508,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V01_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805063,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V02_NylonString",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "String",
+    "volume_mm3": 222.2744201318178,
+    "design_note": ""
+  },
+  {
+    "name": "V02_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Bridge",
+    "volume_mm3": 1111.657615053099,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V02_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Knot",
+    "volume_mm3": 17.15728467880508,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V02_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805063,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V03_NylonString",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "String",
+    "volume_mm3": 222.0275255827644,
+    "design_note": ""
+  },
+  {
+    "name": "V03_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Bridge",
+    "volume_mm3": 1111.6633805988554,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V03_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Knot",
+    "volume_mm3": 17.15728467880508,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V03_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Knot",
+    "volume_mm3": 17.15728467880506,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V04_NylonString",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "String",
+    "volume_mm3": 221.87201151506204,
+    "design_note": ""
+  },
+  {
+    "name": "V04_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Bridge",
+    "volume_mm3": 1111.6670311902635,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V04_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805087,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V04_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805063,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V05_NylonString",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "String",
+    "volume_mm3": 221.82893583786282,
+    "design_note": ""
+  },
+  {
+    "name": "V05_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Bridge",
+    "volume_mm3": 1111.6680441605406,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V05_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805087,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V05_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805063,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V06_NylonString",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "String",
+    "volume_mm3": 221.783985377805,
+    "design_note": ""
+  },
+  {
+    "name": "V06_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Bridge",
+    "volume_mm3": 1111.6691018841736,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V06_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805084,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V06_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805066,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V07_NylonString",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "String",
+    "volume_mm3": 221.76545603283319,
+    "design_note": ""
+  },
+  {
+    "name": "V07_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Bridge",
+    "volume_mm3": 1111.6695379990829,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V07_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805084,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V07_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805063,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V08_NylonString",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "String",
+    "volume_mm3": 221.75292323494307,
+    "design_note": ""
+  },
+  {
+    "name": "V08_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Bridge",
+    "volume_mm3": 1111.66983304984,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V08_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Knot",
+    "volume_mm3": 17.15728467880508,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V08_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805063,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V09_NylonString",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "String",
+    "volume_mm3": 221.7370509756428,
+    "design_note": ""
+  },
+  {
+    "name": "V09_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Bridge",
+    "volume_mm3": 1111.670206768306,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V09_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Knot",
+    "volume_mm3": 17.15728467880508,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V09_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Knot",
+    "volume_mm3": 17.15728467880506,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V10_NylonString",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "String",
+    "volume_mm3": 221.7301774258259,
+    "design_note": ""
+  },
+  {
+    "name": "V10_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Bridge",
+    "volume_mm3": 1111.6703686638302,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V10_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805084,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V10_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805066,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V11_NylonString",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "String",
+    "volume_mm3": 221.72094543722628,
+    "design_note": ""
+  },
+  {
+    "name": "V11_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Bridge",
+    "volume_mm3": 1111.6705860306913,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V11_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805087,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V11_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805063,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V12_NylonString",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "String",
+    "volume_mm3": 221.71630038332714,
+    "design_note": ""
+  },
+  {
+    "name": "V12_ThirdBridge",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Bridge",
+    "volume_mm3": 1111.6706954630363,
+    "design_note": "8 mm foot fully supported. Nominal seated 0.4 mm-radius groove, 0.1 mm deep in R2 crown. Final action/pick flex must be bench set."
+  },
+  {
+    "name": "V12_AnchorStopperKnot",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805087,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "V12_TunerStopperKnot",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Knot",
+    "volume_mm3": 17.157284678805063,
+    "design_note": "Knot envelope only. Tie and pull-test actual nylon; not a molded ball end."
+  },
+  {
+    "name": "LowerBackSaddleGrooved",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 2184.9983213455776,
+    "design_note": ""
+  },
+  {
+    "name": "SpeakingEndNutGrooved",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 2184.8846128690857,
+    "design_note": ""
+  },
+  {
+    "name": "TunerMountSpacer",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 98.60673941454966,
+    "design_note": ""
+  },
+  {
+    "name": "TunerMountM3Screw",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 151.3226641417864,
+    "design_note": "M3 socket-head nominal core; tapped side/end block required."
+  },
+  {
+    "name": "TunerMountSpacer001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 98.6067394145497,
+    "design_note": ""
+  },
+  {
+    "name": "TunerMountM3Screw001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 151.32266414178628,
+    "design_note": "M3 socket-head nominal core; tapped side/end block required."
+  },
+  {
+    "name": "TunerMountSpacer002",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 98.60673941454962,
+    "design_note": ""
+  },
+  {
+    "name": "TunerMountM3Screw002",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 151.32266414178642,
+    "design_note": "M3 socket-head nominal core; tapped side/end block required."
+  },
+  {
+    "name": "TunerMountSpacer003",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 98.60673941454965,
+    "design_note": ""
+  },
+  {
+    "name": "TunerMountM3Screw003",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 151.32266414178633,
+    "design_note": "M3 socket-head nominal core; tapped side/end block required."
+  },
+  {
+    "name": "SlottedTensionerAngle",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "TensionerFrame",
+    "volume_mm3": 23392.604918323326,
+    "design_note": ""
+  },
+  {
+    "name": "V01_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269904,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483173,
+    "design_note": ""
+  },
+  {
+    "name": "V01_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569445,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V01_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881964,
+    "design_note": ""
+  },
+  {
+    "name": "V01_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V01_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V02_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269906,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483172,
+    "design_note": ""
+  },
+  {
+    "name": "V02_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569445,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V02_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881964,
+    "design_note": ""
+  },
+  {
+    "name": "V02_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V02_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V03_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269906,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483172,
+    "design_note": ""
+  },
+  {
+    "name": "V03_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569445,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V03_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881964,
+    "design_note": ""
+  },
+  {
+    "name": "V03_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V03_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V04_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269908,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483176,
+    "design_note": ""
+  },
+  {
+    "name": "V04_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569445,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V04_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881968,
+    "design_note": ""
+  },
+  {
+    "name": "V04_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V04_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V05_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269908,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483176,
+    "design_note": ""
+  },
+  {
+    "name": "V05_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569446,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V05_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881964,
+    "design_note": ""
+  },
+  {
+    "name": "V05_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V05_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V06_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269906,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483174,
+    "design_note": ""
+  },
+  {
+    "name": "V06_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569445,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V06_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881964,
+    "design_note": ""
+  },
+  {
+    "name": "V06_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V06_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V07_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269905,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483172,
+    "design_note": ""
+  },
+  {
+    "name": "V07_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569443,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V07_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881964,
+    "design_note": ""
+  },
+  {
+    "name": "V07_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V07_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V08_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269906,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483172,
+    "design_note": ""
+  },
+  {
+    "name": "V08_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569445,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V08_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881968,
+    "design_note": ""
+  },
+  {
+    "name": "V08_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V08_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902645,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V09_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269904,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483173,
+    "design_note": ""
+  },
+  {
+    "name": "V09_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569445,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V09_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881964,
+    "design_note": ""
+  },
+  {
+    "name": "V09_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V09_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V10_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269906,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483173,
+    "design_note": ""
+  },
+  {
+    "name": "V10_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569444,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V10_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881964,
+    "design_note": ""
+  },
+  {
+    "name": "V10_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V10_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V11_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269906,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483174,
+    "design_note": ""
+  },
+  {
+    "name": "V11_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569446,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V11_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881964,
+    "design_note": ""
+  },
+  {
+    "name": "V11_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V11_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V12_TunerCarriage",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Carriage",
+    "volume_mm3": 587.6718402269908,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CapturedM4Nut",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 70.08532215483174,
+    "design_note": ""
+  },
+  {
+    "name": "V12_M4TensionScrew",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "LeadScrew",
+    "volume_mm3": 653.5996804569446,
+    "design_note": "M4x45 socket screw reference; nominal smooth thread envelope. 23 mm usable carriage travel. Washer/collar gives axial capture; pull test required."
+  },
+  {
+    "name": "V12_TensionThrustWasher",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 12.640983439881968,
+    "design_note": ""
+  },
+  {
+    "name": "V12_TensionJamNut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "V12_TensionJamNut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 58.40443512902644,
+    "design_note": "Two M4 jam nuts locked together; 0.2 mm running axial clearance above angle."
+  },
+  {
+    "name": "FrameWallM3Screw",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 150.5372659783889,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Nut",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 41.80760649805415,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Screw001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 150.53726597838886,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Nut001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 41.80760649805413,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Screw002",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 150.53726597838886,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Nut002",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 41.807606498054156,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Screw003",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 150.53726597838886,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Nut003",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 41.80760649805414,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Screw004",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 150.53726597838886,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Nut004",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 41.80760649805411,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Screw005",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 150.53726597838883,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Nut005",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 41.807606498054106,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Screw006",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 150.53726597838886,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Nut006",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 41.80760649805418,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Screw007",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 150.53726597838883,
+    "design_note": ""
+  },
+  {
+    "name": "FrameWallM3Nut007",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 41.80760649805417,
+    "design_note": ""
+  },
+  {
+    "name": "WeldedRearFrame_8x1Tube",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Frame",
+    "volume_mm3": 39254.33443040982,
+    "design_note": "8 mm OD / 6 mm ID tube. Welded subassembly removable via eight M3 wall bolts; weld penetration, body crush and stiffness require shop review/test."
+  },
+  {
+    "name": "InputBearingBridge_16",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 5885.679117541494,
+    "design_note": ""
+  },
+  {
+    "name": "Input105Bearing_16",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Bearing",
+    "volume_mm3": 235.61944901923448,
+    "design_note": "MR105ZZ shielded 5x10x4; open MR105 is 3 mm wide and is not interchangeable here."
+  },
+  {
+    "name": "InputRetainerScrew",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823779,
+    "design_note": ""
+  },
+  {
+    "name": "InputRetainerScrew001",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823779,
+    "design_note": ""
+  },
+  {
+    "name": "InputBearingRetainer_16",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 118.17040569715752,
+    "design_note": ""
+  },
+  {
+    "name": "InputRailClampM2_16",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 8.50586210959436,
+    "design_note": "Radial M2 cup screw nominal core; reaches rear rail surface, threads omitted."
+  },
+  {
+    "name": "InputBearingBridge_112",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 5885.679117541507,
+    "design_note": ""
+  },
+  {
+    "name": "Input105Bearing_112",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Bearing",
+    "volume_mm3": 235.61944901923448,
+    "design_note": "MR105ZZ shielded 5x10x4; open MR105 is 3 mm wide and is not interchangeable here."
+  },
+  {
+    "name": "InputRetainerScrew002",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823784,
+    "design_note": ""
+  },
+  {
+    "name": "InputRetainerScrew003",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823782,
+    "design_note": ""
+  },
+  {
+    "name": "InputBearingRetainer_112",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 118.17040569715783,
+    "design_note": ""
+  },
+  {
+    "name": "InputRailClampM2_112",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 8.505862109594375,
+    "design_note": "Radial M2 cup screw nominal core; reaches rear rail surface, threads omitted."
+  },
+  {
+    "name": "InputBearingBridge_208",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 5885.67911753979,
+    "design_note": ""
+  },
+  {
+    "name": "Input105Bearing_208",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Bearing",
+    "volume_mm3": 235.61944901923448,
+    "design_note": "MR105ZZ shielded 5x10x4; open MR105 is 3 mm wide and is not interchangeable here."
+  },
+  {
+    "name": "InputRetainerScrew004",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "InputRetainerScrew005",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "InputBearingRetainer_208",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 118.17040569715654,
+    "design_note": ""
+  },
+  {
+    "name": "InputRailClampM2_208",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 8.50586210959434,
+    "design_note": "Radial M2 cup screw nominal core; reaches rear rail surface, threads omitted."
+  },
+  {
+    "name": "InputBearingBridge_320",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 5885.679117546582,
+    "design_note": ""
+  },
+  {
+    "name": "Input105Bearing_320",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Bearing",
+    "volume_mm3": 235.61944901923448,
+    "design_note": "MR105ZZ shielded 5x10x4; open MR105 is 3 mm wide and is not interchangeable here."
+  },
+  {
+    "name": "InputRetainerScrew006",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782377,
+    "design_note": ""
+  },
+  {
+    "name": "InputRetainerScrew007",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823768,
+    "design_note": ""
+  },
+  {
+    "name": "InputBearingRetainer_320",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 118.17040569715662,
+    "design_note": ""
+  },
+  {
+    "name": "InputRailClampM2_320",
+    "motion": "Fixed",
+    "voice": 0,
+    "role": "Fastener",
+    "volume_mm3": 8.505862109594377,
+    "design_note": "Radial M2 cup screw nominal core; reaches rear rail surface, threads omitted."
+  },
+  {
+    "name": "Common5mmInputShaft",
+    "motion": "Input",
+    "voice": 0,
+    "role": "InputShaft",
+    "volume_mm3": 6365.923542827332,
+    "design_note": "1 mm transverse pin holes phased in assembly jig. Fits and pin stresses require machine-shop review."
+  },
+  {
+    "name": "HandInputWheelWithHub",
+    "motion": "Input",
+    "voice": 0,
+    "role": "",
+    "volume_mm3": 8037.988600482623,
+    "design_note": "One-piece wheel/hub, 5 mm shaft engagement, flush 1 mm transverse pin. Manual test input; no regulated motor speed claimed."
+  },
+  {
+    "name": "HandWheelFlushPin",
+    "motion": "Input",
+    "voice": 0,
+    "role": "DrivePin",
+    "volume_mm3": 7.241245402818335,
+    "design_note": ""
+  },
+  {
+    "name": "InputRearPinnedCollar",
+    "motion": "Input",
+    "voice": 0,
+    "role": "Retainer",
+    "volume_mm3": 88.61094010945168,
+    "design_note": ""
+  },
+  {
+    "name": "InputRearCollarFlushPin",
+    "motion": "Input",
+    "voice": 0,
+    "role": "DrivePin",
+    "volume_mm3": 5.732652610564511,
+    "design_note": ""
+  },
+  {
+    "name": "InputRearThrustShim",
+    "motion": "Input",
+    "voice": 0,
+    "role": "Shim",
+    "volume_mm3": 2.073451151369257,
+    "design_note": ""
+  },
+  {
+    "name": "InputFrontThrustShim",
+    "motion": "Input",
+    "voice": 0,
+    "role": "Shim",
+    "volume_mm3": 1.3823007675796384,
+    "design_note": ""
+  },
+  {
+    "name": "V01_Carrier0",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Carrier",
+    "volume_mm3": 6485.732418447936,
+    "design_note": ""
+  },
+  {
+    "name": "V01_RailLock0",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892397,
+    "design_note": ""
+  },
+  {
+    "name": "V01_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769383,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V01_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 14.9639294078238,
+    "design_note": ""
+  },
+  {
+    "name": "V01_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 14.9639294078238,
+    "design_note": ""
+  },
+  {
+    "name": "V01_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665096,
+    "design_note": ""
+  },
+  {
+    "name": "V01_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Bearing",
+    "volume_mm3": 94.2477796076938,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V01_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V01_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V01_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Retainer",
+    "volume_mm3": 158.402243186651,
+    "design_note": ""
+  },
+  {
+    "name": "V01_Carrier1",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Carrier",
+    "volume_mm3": 6485.732415559865,
+    "design_note": ""
+  },
+  {
+    "name": "V01_RailLock1",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892395,
+    "design_note": ""
+  },
+  {
+    "name": "V01_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769383,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V01_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823798,
+    "design_note": ""
+  },
+  {
+    "name": "V01_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823798,
+    "design_note": ""
+  },
+  {
+    "name": "V01_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665096,
+    "design_note": ""
+  },
+  {
+    "name": "V01_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Bearing",
+    "volume_mm3": 94.2477796076938,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V01_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V01_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V01_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665096,
+    "design_note": ""
+  },
+  {
+    "name": "V01_M2Standoff",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V01_StandoffShim",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485772,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 20.63450414755338,
+    "design_note": ""
+  },
+  {
+    "name": "V01_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V01_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485776,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553383,
+    "design_note": ""
+  },
+  {
+    "name": "V01_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 1,
+    "role": "Rocker",
+    "volume_mm3": 409.9543977615534,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 1,
+    "role": "Crank",
+    "volume_mm3": 997.0295264632822,
+    "design_note": ""
+  },
+  {
+    "name": "V01_DriverGear",
+    "motion": "Input",
+    "voice": 1,
+    "role": "Gear",
+    "volume_mm3": 910.4785659495925,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V01_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 1,
+    "role": "DrivePin",
+    "volume_mm3": 12.33274607667497,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V01_OutputGear",
+    "motion": "Crank",
+    "voice": 1,
+    "role": "Gear",
+    "volume_mm3": 960.5530865426894,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V01_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 1,
+    "role": "DrivePin",
+    "volume_mm3": 12.33274607667497,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V01_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 1,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384956,
+    "design_note": ""
+  },
+  {
+    "name": "V01_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 1,
+    "role": "Shim",
+    "volume_mm3": 1.003738852821942,
+    "design_note": ""
+  },
+  {
+    "name": "V01_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 1,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219302,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 1,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384954,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CrankRearShim",
+    "motion": "Crank",
+    "voice": 1,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219413,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 1,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219293,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 1,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695128,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031237,
+    "design_note": ""
+  },
+  {
+    "name": "V01_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 1,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V01_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 1,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695114,
+    "design_note": ""
+  },
+  {
+    "name": "V01_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031226,
+    "design_note": ""
+  },
+  {
+    "name": "V01_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 1,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962671,
+    "design_note": ""
+  },
+  {
+    "name": "V01_POMCoupler",
+    "motion": "Coupler",
+    "voice": 1,
+    "role": "Coupler",
+    "volume_mm3": 573.7863112873105,
+    "design_note": ""
+  },
+  {
+    "name": "V01_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 8.838085532711473,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V01_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 1,
+    "role": "Arm",
+    "volume_mm3": 1210.25199773765,
+    "design_note": ""
+  },
+  {
+    "name": "V01_PETPick",
+    "motion": "Pendulum",
+    "voice": 1,
+    "role": "Pick",
+    "volume_mm3": 4.0290597923343965,
+    "design_note": ""
+  },
+  {
+    "name": "V01_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 1,
+    "role": "Fastener",
+    "volume_mm3": 39.949277581211206,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V02_Carrier0",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Carrier",
+    "volume_mm3": 6492.494698903275,
+    "design_note": ""
+  },
+  {
+    "name": "V02_RailLock0",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892395,
+    "design_note": ""
+  },
+  {
+    "name": "V02_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769383,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V02_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823802,
+    "design_note": ""
+  },
+  {
+    "name": "V02_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823802,
+    "design_note": ""
+  },
+  {
+    "name": "V02_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665102,
+    "design_note": ""
+  },
+  {
+    "name": "V02_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V02_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782378,
+    "design_note": ""
+  },
+  {
+    "name": "V02_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782378,
+    "design_note": ""
+  },
+  {
+    "name": "V02_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665102,
+    "design_note": ""
+  },
+  {
+    "name": "V02_Carrier1",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Carrier",
+    "volume_mm3": 6492.4946950033345,
+    "design_note": ""
+  },
+  {
+    "name": "V02_RailLock1",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892395,
+    "design_note": ""
+  },
+  {
+    "name": "V02_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769383,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V02_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823802,
+    "design_note": ""
+  },
+  {
+    "name": "V02_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823802,
+    "design_note": ""
+  },
+  {
+    "name": "V02_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665102,
+    "design_note": ""
+  },
+  {
+    "name": "V02_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V02_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782378,
+    "design_note": ""
+  },
+  {
+    "name": "V02_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782378,
+    "design_note": ""
+  },
+  {
+    "name": "V02_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665102,
+    "design_note": ""
+  },
+  {
+    "name": "V02_M2Standoff",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V02_StandoffShim",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485776,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 20.63450414755338,
+    "design_note": ""
+  },
+  {
+    "name": "V02_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V02_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248578,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553383,
+    "design_note": ""
+  },
+  {
+    "name": "V02_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 2,
+    "role": "Rocker",
+    "volume_mm3": 409.9543977615484,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 2,
+    "role": "Crank",
+    "volume_mm3": 997.0295293118905,
+    "design_note": ""
+  },
+  {
+    "name": "V02_DriverGear",
+    "motion": "Input",
+    "voice": 2,
+    "role": "Gear",
+    "volume_mm3": 910.4785658519581,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V02_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 2,
+    "role": "DrivePin",
+    "volume_mm3": 12.332746076674987,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V02_OutputGear",
+    "motion": "Crank",
+    "voice": 2,
+    "role": "Gear",
+    "volume_mm3": 749.7730806665872,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V02_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 2,
+    "role": "DrivePin",
+    "volume_mm3": 10.824153284421161,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V02_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 2,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384954,
+    "design_note": ""
+  },
+  {
+    "name": "V02_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 2,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219302,
+    "design_note": ""
+  },
+  {
+    "name": "V02_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 2,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219302,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 2,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384952,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CrankRearShim",
+    "motion": "Crank",
+    "voice": 2,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219293,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 2,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219298,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 2,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695114,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031237,
+    "design_note": ""
+  },
+  {
+    "name": "V02_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 2,
+    "role": "Washer",
+    "volume_mm3": 11.18014285596268,
+    "design_note": ""
+  },
+  {
+    "name": "V02_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 2,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.5447318346951,
+    "design_note": ""
+  },
+  {
+    "name": "V02_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 9.16166957603123,
+    "design_note": ""
+  },
+  {
+    "name": "V02_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 2,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962679,
+    "design_note": ""
+  },
+  {
+    "name": "V02_POMCoupler",
+    "motion": "Coupler",
+    "voice": 2,
+    "role": "Coupler",
+    "volume_mm3": 551.2143681825453,
+    "design_note": ""
+  },
+  {
+    "name": "V02_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 8.838085532711506,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V02_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 2,
+    "role": "Arm",
+    "volume_mm3": 1096.1074182561438,
+    "design_note": ""
+  },
+  {
+    "name": "V02_PETPick",
+    "motion": "Pendulum",
+    "voice": 2,
+    "role": "Pick",
+    "volume_mm3": 4.029059792334396,
+    "design_note": ""
+  },
+  {
+    "name": "V02_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 2,
+    "role": "Fastener",
+    "volume_mm3": 39.9492775812112,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V03_Carrier0",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Carrier",
+    "volume_mm3": 6489.555576311717,
+    "design_note": ""
+  },
+  {
+    "name": "V03_RailLock0",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892401,
+    "design_note": ""
+  },
+  {
+    "name": "V03_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769383,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V03_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823807,
+    "design_note": ""
+  },
+  {
+    "name": "V03_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823807,
+    "design_note": ""
+  },
+  {
+    "name": "V03_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665105,
+    "design_note": ""
+  },
+  {
+    "name": "V03_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V03_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823782,
+    "design_note": ""
+  },
+  {
+    "name": "V03_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823784,
+    "design_note": ""
+  },
+  {
+    "name": "V03_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665105,
+    "design_note": ""
+  },
+  {
+    "name": "V03_Carrier1",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Carrier",
+    "volume_mm3": 6489.555570716731,
+    "design_note": ""
+  },
+  {
+    "name": "V03_RailLock1",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892401,
+    "design_note": ""
+  },
+  {
+    "name": "V03_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769383,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V03_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823805,
+    "design_note": ""
+  },
+  {
+    "name": "V03_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823805,
+    "design_note": ""
+  },
+  {
+    "name": "V03_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Retainer",
+    "volume_mm3": 158.402243186651,
+    "design_note": ""
+  },
+  {
+    "name": "V03_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V03_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782378,
+    "design_note": ""
+  },
+  {
+    "name": "V03_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823784,
+    "design_note": ""
+  },
+  {
+    "name": "V03_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Retainer",
+    "volume_mm3": 158.402243186651,
+    "design_note": ""
+  },
+  {
+    "name": "V03_M2Standoff",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V03_StandoffShim",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248578,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553386,
+    "design_note": ""
+  },
+  {
+    "name": "V03_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V03_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485783,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 20.63450414755339,
+    "design_note": ""
+  },
+  {
+    "name": "V03_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 3,
+    "role": "Rocker",
+    "volume_mm3": 409.95439776155087,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 3,
+    "role": "Crank",
+    "volume_mm3": 997.029607136824,
+    "design_note": ""
+  },
+  {
+    "name": "V03_DriverGear",
+    "motion": "Input",
+    "voice": 3,
+    "role": "Gear",
+    "volume_mm3": 1146.3695270748242,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V03_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 3,
+    "role": "DrivePin",
+    "volume_mm3": 13.841338868928794,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V03_OutputGear",
+    "motion": "Crank",
+    "voice": 3,
+    "role": "Gear",
+    "volume_mm3": 749.7726312822499,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V03_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 3,
+    "role": "DrivePin",
+    "volume_mm3": 10.824153284421156,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V03_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 3,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384954,
+    "design_note": ""
+  },
+  {
+    "name": "V03_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 3,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219295,
+    "design_note": ""
+  },
+  {
+    "name": "V03_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 3,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219295,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 3,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384952,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CrankRearShim",
+    "motion": "Crank",
+    "voice": 3,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219298,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 3,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219298,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 3,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695114,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031237,
+    "design_note": ""
+  },
+  {
+    "name": "V03_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 3,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V03_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 3,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.5447318346951,
+    "design_note": ""
+  },
+  {
+    "name": "V03_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031233,
+    "design_note": ""
+  },
+  {
+    "name": "V03_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 3,
+    "role": "Washer",
+    "volume_mm3": 11.18014285596267,
+    "design_note": ""
+  },
+  {
+    "name": "V03_POMCoupler",
+    "motion": "Coupler",
+    "voice": 3,
+    "role": "Coupler",
+    "volume_mm3": 527.8243130050425,
+    "design_note": ""
+  },
+  {
+    "name": "V03_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 8.838085532711498,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V03_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 3,
+    "role": "Arm",
+    "volume_mm3": 1004.7917546709394,
+    "design_note": ""
+  },
+  {
+    "name": "V03_PETPick",
+    "motion": "Pendulum",
+    "voice": 3,
+    "role": "Pick",
+    "volume_mm3": 4.0290597923343965,
+    "design_note": ""
+  },
+  {
+    "name": "V03_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 3,
+    "role": "Fastener",
+    "volume_mm3": 39.949277581211206,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V04_Carrier0",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Carrier",
+    "volume_mm3": 6700.742990449607,
+    "design_note": ""
+  },
+  {
+    "name": "V04_RailLock0",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892401,
+    "design_note": ""
+  },
+  {
+    "name": "V04_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769381,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V04_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823787,
+    "design_note": ""
+  },
+  {
+    "name": "V04_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823787,
+    "design_note": ""
+  },
+  {
+    "name": "V04_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Retainer",
+    "volume_mm3": 158.402243186651,
+    "design_note": ""
+  },
+  {
+    "name": "V04_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Bearing",
+    "volume_mm3": 94.2477796076938,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V04_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823784,
+    "design_note": ""
+  },
+  {
+    "name": "V04_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823784,
+    "design_note": ""
+  },
+  {
+    "name": "V04_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Retainer",
+    "volume_mm3": 158.402243186651,
+    "design_note": ""
+  },
+  {
+    "name": "V04_Carrier1",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Carrier",
+    "volume_mm3": 6700.7429832931275,
+    "design_note": ""
+  },
+  {
+    "name": "V04_RailLock1",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892401,
+    "design_note": ""
+  },
+  {
+    "name": "V04_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769381,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V04_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823786,
+    "design_note": ""
+  },
+  {
+    "name": "V04_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823786,
+    "design_note": ""
+  },
+  {
+    "name": "V04_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Retainer",
+    "volume_mm3": 158.402243186651,
+    "design_note": ""
+  },
+  {
+    "name": "V04_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Bearing",
+    "volume_mm3": 94.2477796076938,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V04_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823786,
+    "design_note": ""
+  },
+  {
+    "name": "V04_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823786,
+    "design_note": ""
+  },
+  {
+    "name": "V04_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Retainer",
+    "volume_mm3": 158.402243186651,
+    "design_note": ""
+  },
+  {
+    "name": "V04_M2Standoff",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V04_StandoffShim",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248578,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553386,
+    "design_note": ""
+  },
+  {
+    "name": "V04_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V04_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248578,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 20.63450414755339,
+    "design_note": ""
+  },
+  {
+    "name": "V04_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 4,
+    "role": "Rocker",
+    "volume_mm3": 409.95439776154853,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 4,
+    "role": "Crank",
+    "volume_mm3": 997.0296025931424,
+    "design_note": ""
+  },
+  {
+    "name": "V04_DriverGear",
+    "motion": "Input",
+    "voice": 4,
+    "role": "Gear",
+    "volume_mm3": 1693.5794049540432,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V04_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 4,
+    "role": "DrivePin",
+    "volume_mm3": 16.858524453436424,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V04_OutputGear",
+    "motion": "Crank",
+    "voice": 4,
+    "role": "Gear",
+    "volume_mm3": 749.7726313151035,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V04_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 4,
+    "role": "DrivePin",
+    "volume_mm3": 10.824153284421158,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V04_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 4,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384954,
+    "design_note": ""
+  },
+  {
+    "name": "V04_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 4,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219304,
+    "design_note": ""
+  },
+  {
+    "name": "V04_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 4,
+    "role": "Shim",
+    "volume_mm3": 1.00373885282193,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 4,
+    "role": "Retainer",
+    "volume_mm3": 6.4733829303849575,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CrankRearShim",
+    "motion": "Crank",
+    "voice": 4,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219282,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 4,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219282,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 4,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.54473183469511,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031237,
+    "design_note": ""
+  },
+  {
+    "name": "V04_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 4,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V04_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 4,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695096,
+    "design_note": ""
+  },
+  {
+    "name": "V04_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031235,
+    "design_note": ""
+  },
+  {
+    "name": "V04_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 4,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962671,
+    "design_note": ""
+  },
+  {
+    "name": "V04_POMCoupler",
+    "motion": "Coupler",
+    "voice": 4,
+    "role": "Coupler",
+    "volume_mm3": 559.1792312523033,
+    "design_note": ""
+  },
+  {
+    "name": "V04_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 8.838085532711487,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V04_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 4,
+    "role": "Arm",
+    "volume_mm3": 867.8182592931327,
+    "design_note": ""
+  },
+  {
+    "name": "V04_PETPick",
+    "motion": "Pendulum",
+    "voice": 4,
+    "role": "Pick",
+    "volume_mm3": 4.0290597923343965,
+    "design_note": ""
+  },
+  {
+    "name": "V04_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 4,
+    "role": "Fastener",
+    "volume_mm3": 39.9492775812112,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V05_Carrier0",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Carrier",
+    "volume_mm3": 6795.225727452875,
+    "design_note": ""
+  },
+  {
+    "name": "V05_RailLock0",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892401,
+    "design_note": ""
+  },
+  {
+    "name": "V05_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769381,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V05_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823787,
+    "design_note": ""
+  },
+  {
+    "name": "V05_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823787,
+    "design_note": ""
+  },
+  {
+    "name": "V05_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665102,
+    "design_note": ""
+  },
+  {
+    "name": "V05_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V05_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823784,
+    "design_note": ""
+  },
+  {
+    "name": "V05_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823784,
+    "design_note": ""
+  },
+  {
+    "name": "V05_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Retainer",
+    "volume_mm3": 158.402243186651,
+    "design_note": ""
+  },
+  {
+    "name": "V05_Carrier1",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Carrier",
+    "volume_mm3": 6795.225841693875,
+    "design_note": ""
+  },
+  {
+    "name": "V05_RailLock1",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V05_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769381,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V05_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823796,
+    "design_note": ""
+  },
+  {
+    "name": "V05_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823798,
+    "design_note": ""
+  },
+  {
+    "name": "V05_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665105,
+    "design_note": ""
+  },
+  {
+    "name": "V05_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V05_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823795,
+    "design_note": ""
+  },
+  {
+    "name": "V05_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823795,
+    "design_note": ""
+  },
+  {
+    "name": "V05_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665102,
+    "design_note": ""
+  },
+  {
+    "name": "V05_M2Standoff",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V05_StandoffShim",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248578,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553372,
+    "design_note": ""
+  },
+  {
+    "name": "V05_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V05_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248578,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553375,
+    "design_note": ""
+  },
+  {
+    "name": "V05_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 5,
+    "role": "Rocker",
+    "volume_mm3": 409.9543977615484,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 5,
+    "role": "Crank",
+    "volume_mm3": 997.0295941290937,
+    "design_note": ""
+  },
+  {
+    "name": "V05_DriverGear",
+    "motion": "Input",
+    "voice": 5,
+    "role": "Gear",
+    "volume_mm3": 1146.3695273263188,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V05_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 5,
+    "role": "DrivePin",
+    "volume_mm3": 13.841338868928787,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V05_OutputGear",
+    "motion": "Crank",
+    "voice": 5,
+    "role": "Gear",
+    "volume_mm3": 403.826875947077,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V05_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 5,
+    "role": "DrivePin",
+    "volume_mm3": 7.806967699913517,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V05_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 5,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384954,
+    "design_note": ""
+  },
+  {
+    "name": "V05_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 5,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219302,
+    "design_note": ""
+  },
+  {
+    "name": "V05_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 5,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219777,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 5,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384953,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CrankRearShim",
+    "motion": "Crank",
+    "voice": 5,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219282,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 5,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219757,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 5,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.54473183469511,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031244,
+    "design_note": ""
+  },
+  {
+    "name": "V05_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 5,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V05_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 5,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695092,
+    "design_note": ""
+  },
+  {
+    "name": "V05_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031247,
+    "design_note": ""
+  },
+  {
+    "name": "V05_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 5,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V05_POMCoupler",
+    "motion": "Coupler",
+    "voice": 5,
+    "role": "Coupler",
+    "volume_mm3": 612.1148822711514,
+    "design_note": ""
+  },
+  {
+    "name": "V05_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 8.838085532711482,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V05_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 5,
+    "role": "Arm",
+    "volume_mm3": 799.331511604229,
+    "design_note": ""
+  },
+  {
+    "name": "V05_PETPick",
+    "motion": "Pendulum",
+    "voice": 5,
+    "role": "Pick",
+    "volume_mm3": 4.029059792334399,
+    "design_note": ""
+  },
+  {
+    "name": "V05_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 5,
+    "role": "Fastener",
+    "volume_mm3": 39.94927758121126,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V06_Carrier0",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Carrier",
+    "volume_mm3": 7078.351348708009,
+    "design_note": ""
+  },
+  {
+    "name": "V06_RailLock0",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V06_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Bearing",
+    "volume_mm3": 94.2477796076938,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V06_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V06_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V06_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V06_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V06_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V06_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V06_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V06_Carrier1",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Carrier",
+    "volume_mm3": 7078.351341325746,
+    "design_note": ""
+  },
+  {
+    "name": "V06_RailLock1",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V06_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Bearing",
+    "volume_mm3": 94.2477796076938,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V06_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V06_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V06_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Retainer",
+    "volume_mm3": 158.4022431866507,
+    "design_note": ""
+  },
+  {
+    "name": "V06_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V06_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V06_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V06_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Retainer",
+    "volume_mm3": 158.4022431866507,
+    "design_note": ""
+  },
+  {
+    "name": "V06_M2Standoff",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V06_StandoffShim",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485765,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553375,
+    "design_note": ""
+  },
+  {
+    "name": "V06_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V06_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248577,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 20.63450414755338,
+    "design_note": ""
+  },
+  {
+    "name": "V06_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 6,
+    "role": "Rocker",
+    "volume_mm3": 409.9543977615443,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 6,
+    "role": "Crank",
+    "volume_mm3": 997.0295741028187,
+    "design_note": ""
+  },
+  {
+    "name": "V06_DriverGear",
+    "motion": "Input",
+    "voice": 6,
+    "role": "Gear",
+    "volume_mm3": 1693.5806589982242,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V06_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 6,
+    "role": "DrivePin",
+    "volume_mm3": 16.85852445343637,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V06_OutputGear",
+    "motion": "Crank",
+    "voice": 6,
+    "role": "Gear",
+    "volume_mm3": 403.8268704888598,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V06_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 6,
+    "role": "DrivePin",
+    "volume_mm3": 7.806967699913487,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V06_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 6,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384955,
+    "design_note": ""
+  },
+  {
+    "name": "V06_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 6,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V06_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 6,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 6,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384952,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CrankRearShim",
+    "motion": "Crank",
+    "voice": 6,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 6,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 6,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695106,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031244,
+    "design_note": ""
+  },
+  {
+    "name": "V06_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 6,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962677,
+    "design_note": ""
+  },
+  {
+    "name": "V06_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 6,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695106,
+    "design_note": ""
+  },
+  {
+    "name": "V06_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031244,
+    "design_note": ""
+  },
+  {
+    "name": "V06_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 6,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V06_POMCoupler",
+    "motion": "Coupler",
+    "voice": 6,
+    "role": "Coupler",
+    "volume_mm3": 666.0281423712261,
+    "design_note": ""
+  },
+  {
+    "name": "V06_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 8.838085532711476,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V06_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 6,
+    "role": "Arm",
+    "volume_mm3": 696.6013900708738,
+    "design_note": ""
+  },
+  {
+    "name": "V06_PETPick",
+    "motion": "Pendulum",
+    "voice": 6,
+    "role": "Pick",
+    "volume_mm3": 4.029059792334435,
+    "design_note": ""
+  },
+  {
+    "name": "V06_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 6,
+    "role": "Fastener",
+    "volume_mm3": 39.94927758121126,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V07_Carrier0",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Carrier",
+    "volume_mm3": 7273.454312794517,
+    "design_note": ""
+  },
+  {
+    "name": "V07_RailLock0",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V07_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V07_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V07_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V07_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V07_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769377,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V07_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V07_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V07_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V07_Carrier1",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Carrier",
+    "volume_mm3": 7273.454304936734,
+    "design_note": ""
+  },
+  {
+    "name": "V07_RailLock1",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V07_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V07_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V07_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V07_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V07_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769377,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V07_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V07_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V07_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V07_M2Standoff",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V07_StandoffShim",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485765,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553375,
+    "design_note": ""
+  },
+  {
+    "name": "V07_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V07_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248577,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 20.63450414755338,
+    "design_note": ""
+  },
+  {
+    "name": "V07_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 7,
+    "role": "Rocker",
+    "volume_mm3": 409.95439776154865,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 7,
+    "role": "Crank",
+    "volume_mm3": 997.0296250403533,
+    "design_note": ""
+  },
+  {
+    "name": "V07_DriverGear",
+    "motion": "Input",
+    "voice": 7,
+    "role": "Gear",
+    "volume_mm3": 2170.889138756251,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V07_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 7,
+    "role": "DrivePin",
+    "volume_mm3": 19.1214136418171,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V07_OutputGear",
+    "motion": "Crank",
+    "voice": 7,
+    "role": "Gear",
+    "volume_mm3": 403.82688592824326,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V07_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 7,
+    "role": "DrivePin",
+    "volume_mm3": 7.806967699913486,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V07_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 7,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384955,
+    "design_note": ""
+  },
+  {
+    "name": "V07_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 7,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219757,
+    "design_note": ""
+  },
+  {
+    "name": "V07_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 7,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219757,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 7,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384953,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CrankRearShim",
+    "motion": "Crank",
+    "voice": 7,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 7,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 7,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695103,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031246,
+    "design_note": ""
+  },
+  {
+    "name": "V07_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 7,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962677,
+    "design_note": ""
+  },
+  {
+    "name": "V07_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 7,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695103,
+    "design_note": ""
+  },
+  {
+    "name": "V07_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031247,
+    "design_note": ""
+  },
+  {
+    "name": "V07_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 7,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962677,
+    "design_note": ""
+  },
+  {
+    "name": "V07_POMCoupler",
+    "motion": "Coupler",
+    "voice": 7,
+    "role": "Coupler",
+    "volume_mm3": 702.3642314144751,
+    "design_note": ""
+  },
+  {
+    "name": "V07_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 8.83808553271148,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V07_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 7,
+    "role": "Arm",
+    "volume_mm3": 639.5291003301209,
+    "design_note": ""
+  },
+  {
+    "name": "V07_PETPick",
+    "motion": "Pendulum",
+    "voice": 7,
+    "role": "Pick",
+    "volume_mm3": 4.029059792334422,
+    "design_note": ""
+  },
+  {
+    "name": "V07_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 7,
+    "role": "Fastener",
+    "volume_mm3": 39.94927758121127,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V08_Carrier0",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Carrier",
+    "volume_mm3": 7483.359080990138,
+    "design_note": ""
+  },
+  {
+    "name": "V08_RailLock0",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V08_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Bearing",
+    "volume_mm3": 94.2477796076938,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V08_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V08_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V08_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V08_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769377,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V08_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V08_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V08_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V08_Carrier1",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Carrier",
+    "volume_mm3": 7483.3590727613655,
+    "design_note": ""
+  },
+  {
+    "name": "V08_RailLock1",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V08_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Bearing",
+    "volume_mm3": 94.2477796076938,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V08_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V08_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V08_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V08_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769377,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V08_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V08_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V08_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V08_M2Standoff",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V08_StandoffShim",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485765,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553375,
+    "design_note": ""
+  },
+  {
+    "name": "V08_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V08_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248577,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 20.63450414755338,
+    "design_note": ""
+  },
+  {
+    "name": "V08_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 8,
+    "role": "Rocker",
+    "volume_mm3": 409.95439776154853,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 8,
+    "role": "Crank",
+    "volume_mm3": 997.0296215762876,
+    "design_note": ""
+  },
+  {
+    "name": "V08_DriverGear",
+    "motion": "Input",
+    "voice": 8,
+    "role": "Gear",
+    "volume_mm3": 2703.0392450220097,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V08_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 8,
+    "role": "DrivePin",
+    "volume_mm3": 21.384302830197807,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V08_OutputGear",
+    "motion": "Crank",
+    "voice": 8,
+    "role": "Gear",
+    "volume_mm3": 403.82688296825614,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V08_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 8,
+    "role": "DrivePin",
+    "volume_mm3": 7.806967699913489,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V08_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 8,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384952,
+    "design_note": ""
+  },
+  {
+    "name": "V08_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 8,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V08_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 8,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 8,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384955,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CrankRearShim",
+    "motion": "Crank",
+    "voice": 8,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 8,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 8,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695106,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031246,
+    "design_note": ""
+  },
+  {
+    "name": "V08_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 8,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V08_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 8,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695106,
+    "design_note": ""
+  },
+  {
+    "name": "V08_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031246,
+    "design_note": ""
+  },
+  {
+    "name": "V08_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 8,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V08_POMCoupler",
+    "motion": "Coupler",
+    "voice": 8,
+    "role": "Coupler",
+    "volume_mm3": 742.8587330313048,
+    "design_note": ""
+  },
+  {
+    "name": "V08_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 8.838085532711482,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V08_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 8,
+    "role": "Arm",
+    "volume_mm3": 593.8712685375185,
+    "design_note": ""
+  },
+  {
+    "name": "V08_PETPick",
+    "motion": "Pendulum",
+    "voice": 8,
+    "role": "Pick",
+    "volume_mm3": 4.029059792334416,
+    "design_note": ""
+  },
+  {
+    "name": "V08_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 8,
+    "role": "Fastener",
+    "volume_mm3": 39.94927758121126,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V09_Carrier0",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Carrier",
+    "volume_mm3": 7810.97670084909,
+    "design_note": ""
+  },
+  {
+    "name": "V09_RailLock0",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V09_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V09_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V09_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V09_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V09_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V09_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V09_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V09_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665068,
+    "design_note": ""
+  },
+  {
+    "name": "V09_Carrier1",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Carrier",
+    "volume_mm3": 7810.976692299063,
+    "design_note": ""
+  },
+  {
+    "name": "V09_RailLock1",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V09_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V09_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V09_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V09_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Retainer",
+    "volume_mm3": 158.4022431866507,
+    "design_note": ""
+  },
+  {
+    "name": "V09_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V09_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V09_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V09_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Retainer",
+    "volume_mm3": 158.4022431866507,
+    "design_note": ""
+  },
+  {
+    "name": "V09_M2Standoff",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V09_StandoffShim",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248577,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553372,
+    "design_note": ""
+  },
+  {
+    "name": "V09_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V09_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485772,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553375,
+    "design_note": ""
+  },
+  {
+    "name": "V09_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 9,
+    "role": "Rocker",
+    "volume_mm3": 409.9543977615483,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 9,
+    "role": "Crank",
+    "volume_mm3": 997.0296451291046,
+    "design_note": ""
+  },
+  {
+    "name": "V09_DriverGear",
+    "motion": "Input",
+    "voice": 9,
+    "role": "Gear",
+    "volume_mm3": 2703.0402231213416,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V09_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 9,
+    "role": "DrivePin",
+    "volume_mm3": 21.384302830197818,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V09_OutputGear",
+    "motion": "Crank",
+    "voice": 9,
+    "role": "Gear",
+    "volume_mm3": 268.8042181283621,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V09_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 9,
+    "role": "DrivePin",
+    "volume_mm3": 6.298374907659671,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V09_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 9,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384952,
+    "design_note": ""
+  },
+  {
+    "name": "V09_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 9,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219764,
+    "design_note": ""
+  },
+  {
+    "name": "V09_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 9,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219764,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 9,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384955,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CrankRearShim",
+    "motion": "Crank",
+    "voice": 9,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219764,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 9,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219764,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 9,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695103,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031246,
+    "design_note": ""
+  },
+  {
+    "name": "V09_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 9,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962677,
+    "design_note": ""
+  },
+  {
+    "name": "V09_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 9,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.5447318346951,
+    "design_note": ""
+  },
+  {
+    "name": "V09_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031244,
+    "design_note": ""
+  },
+  {
+    "name": "V09_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 9,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V09_POMCoupler",
+    "motion": "Coupler",
+    "voice": 9,
+    "role": "Coupler",
+    "volume_mm3": 833.5396780322645,
+    "design_note": ""
+  },
+  {
+    "name": "V09_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 8.838085532711478,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V09_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 9,
+    "role": "Arm",
+    "volume_mm3": 525.3845208486148,
+    "design_note": ""
+  },
+  {
+    "name": "V09_PETPick",
+    "motion": "Pendulum",
+    "voice": 9,
+    "role": "Pick",
+    "volume_mm3": 4.029059792334419,
+    "design_note": ""
+  },
+  {
+    "name": "V09_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 9,
+    "role": "Fastener",
+    "volume_mm3": 39.94927758121126,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V10_Carrier0",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Carrier",
+    "volume_mm3": 8064.481586969501,
+    "design_note": ""
+  },
+  {
+    "name": "V10_RailLock0",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V10_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V10_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V10_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V10_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665074,
+    "design_note": ""
+  },
+  {
+    "name": "V10_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769377,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V10_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823775,
+    "design_note": ""
+  },
+  {
+    "name": "V10_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V10_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Retainer",
+    "volume_mm3": 158.4022431866507,
+    "design_note": ""
+  },
+  {
+    "name": "V10_Carrier1",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Carrier",
+    "volume_mm3": 8064.481577826406,
+    "design_note": ""
+  },
+  {
+    "name": "V10_RailLock1",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892404,
+    "design_note": ""
+  },
+  {
+    "name": "V10_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V10_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V10_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823773,
+    "design_note": ""
+  },
+  {
+    "name": "V10_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665074,
+    "design_note": ""
+  },
+  {
+    "name": "V10_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769377,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V10_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823775,
+    "design_note": ""
+  },
+  {
+    "name": "V10_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823777,
+    "design_note": ""
+  },
+  {
+    "name": "V10_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Retainer",
+    "volume_mm3": 158.4022431866507,
+    "design_note": ""
+  },
+  {
+    "name": "V10_M2Standoff",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V10_StandoffShim",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 22.05214783248577,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553372,
+    "design_note": ""
+  },
+  {
+    "name": "V10_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V10_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485772,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553375,
+    "design_note": ""
+  },
+  {
+    "name": "V10_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 10,
+    "role": "Rocker",
+    "volume_mm3": 409.9543977615484,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 10,
+    "role": "Crank",
+    "volume_mm3": 997.0295413788697,
+    "design_note": ""
+  },
+  {
+    "name": "V10_DriverGear",
+    "motion": "Input",
+    "voice": 10,
+    "role": "Gear",
+    "volume_mm3": 4888.661456445902,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V10_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 10,
+    "role": "DrivePin",
+    "volume_mm3": 28.92726679146687,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V10_OutputGear",
+    "motion": "Crank",
+    "voice": 10,
+    "role": "Gear",
+    "volume_mm3": 403.8270225892546,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V10_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 10,
+    "role": "DrivePin",
+    "volume_mm3": 7.806967699913487,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V10_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 10,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384952,
+    "design_note": ""
+  },
+  {
+    "name": "V10_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 10,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V10_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 10,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219762,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 10,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384951,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CrankRearShim",
+    "motion": "Crank",
+    "voice": 10,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219764,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 10,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219768,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 10,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695163,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 9.16166957603123,
+    "design_note": ""
+  },
+  {
+    "name": "V10_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 10,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V10_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 10,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695163,
+    "design_note": ""
+  },
+  {
+    "name": "V10_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 9.16166957603123,
+    "design_note": ""
+  },
+  {
+    "name": "V10_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 10,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962675,
+    "design_note": ""
+  },
+  {
+    "name": "V10_POMCoupler",
+    "motion": "Coupler",
+    "voice": 10,
+    "role": "Coupler",
+    "volume_mm3": 849.5366129079644,
+    "design_note": ""
+  },
+  {
+    "name": "V10_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 8.83808553271148,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V10_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 10,
+    "role": "Arm",
+    "volume_mm3": 491.14114700416326,
+    "design_note": ""
+  },
+  {
+    "name": "V10_PETPick",
+    "motion": "Pendulum",
+    "voice": 10,
+    "role": "Pick",
+    "volume_mm3": 4.029059792334414,
+    "design_note": ""
+  },
+  {
+    "name": "V10_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 10,
+    "role": "Fastener",
+    "volume_mm3": 39.949277581211234,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V11_Carrier0",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Carrier",
+    "volume_mm3": 8401.182355388935,
+    "design_note": ""
+  },
+  {
+    "name": "V11_RailLock0",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892406,
+    "design_note": ""
+  },
+  {
+    "name": "V11_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V11_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823768,
+    "design_note": ""
+  },
+  {
+    "name": "V11_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823766,
+    "design_note": ""
+  },
+  {
+    "name": "V11_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665094,
+    "design_note": ""
+  },
+  {
+    "name": "V11_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769377,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V11_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782377,
+    "design_note": ""
+  },
+  {
+    "name": "V11_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782377,
+    "design_note": ""
+  },
+  {
+    "name": "V11_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665088,
+    "design_note": ""
+  },
+  {
+    "name": "V11_Carrier1",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Carrier",
+    "volume_mm3": 8401.18234597458,
+    "design_note": ""
+  },
+  {
+    "name": "V11_RailLock1",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892406,
+    "design_note": ""
+  },
+  {
+    "name": "V11_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V11_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823768,
+    "design_note": ""
+  },
+  {
+    "name": "V11_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823766,
+    "design_note": ""
+  },
+  {
+    "name": "V11_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665094,
+    "design_note": ""
+  },
+  {
+    "name": "V11_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769377,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V11_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782377,
+    "design_note": ""
+  },
+  {
+    "name": "V11_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782377,
+    "design_note": ""
+  },
+  {
+    "name": "V11_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665088,
+    "design_note": ""
+  },
+  {
+    "name": "V11_M2Standoff",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V11_StandoffShim",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485762,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553365,
+    "design_note": ""
+  },
+  {
+    "name": "V11_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V11_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485765,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 20.63450414755337,
+    "design_note": ""
+  },
+  {
+    "name": "V11_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 11,
+    "role": "Rocker",
+    "volume_mm3": 409.95439776154836,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 11,
+    "role": "Crank",
+    "volume_mm3": 997.0295396807137,
+    "design_note": ""
+  },
+  {
+    "name": "V11_DriverGear",
+    "motion": "Input",
+    "voice": 11,
+    "role": "Gear",
+    "volume_mm3": 4888.661456472554,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V11_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 11,
+    "role": "DrivePin",
+    "volume_mm3": 28.927266791466998,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V11_OutputGear",
+    "motion": "Crank",
+    "voice": 11,
+    "role": "Gear",
+    "volume_mm3": 268.80439327838343,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V11_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 11,
+    "role": "DrivePin",
+    "volume_mm3": 6.298374907659698,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V11_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 11,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384956,
+    "design_note": ""
+  },
+  {
+    "name": "V11_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 11,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219764,
+    "design_note": ""
+  },
+  {
+    "name": "V11_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 11,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219764,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 11,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384952,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CrankRearShim",
+    "motion": "Crank",
+    "voice": 11,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219768,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 11,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219764,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 11,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695167,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 9.16166957603123,
+    "design_note": ""
+  },
+  {
+    "name": "V11_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 11,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962673,
+    "design_note": ""
+  },
+  {
+    "name": "V11_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 11,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695156,
+    "design_note": ""
+  },
+  {
+    "name": "V11_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031226,
+    "design_note": ""
+  },
+  {
+    "name": "V11_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 11,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962675,
+    "design_note": ""
+  },
+  {
+    "name": "V11_POMCoupler",
+    "motion": "Coupler",
+    "voice": 11,
+    "role": "Coupler",
+    "volume_mm3": 942.7972663538613,
+    "design_note": ""
+  },
+  {
+    "name": "V11_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 8.838085532711478,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V11_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 11,
+    "role": "Arm",
+    "volume_mm3": 439.77608623748563,
+    "design_note": ""
+  },
+  {
+    "name": "V11_PETPick",
+    "motion": "Pendulum",
+    "voice": 11,
+    "role": "Pick",
+    "volume_mm3": 4.029059792334399,
+    "design_note": ""
+  },
+  {
+    "name": "V11_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 11,
+    "role": "Fastener",
+    "volume_mm3": 39.94927758121124,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  },
+  {
+    "name": "V12_Carrier0",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Carrier",
+    "volume_mm3": 8694.506676364213,
+    "design_note": ""
+  },
+  {
+    "name": "V12_RailLock0",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892406,
+    "design_note": ""
+  },
+  {
+    "name": "V12_683Bearing_0_0",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V12_RetainerScrew_0_0",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823768,
+    "design_note": ""
+  },
+  {
+    "name": "V12_RetainerScrew_0_001",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823768,
+    "design_note": ""
+  },
+  {
+    "name": "V12_OuterRaceRetainer_0_0",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665094,
+    "design_note": ""
+  },
+  {
+    "name": "V12_683Bearing_0_1",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V12_RetainerScrew_0_1",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782377,
+    "design_note": ""
+  },
+  {
+    "name": "V12_RetainerScrew_0_002",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782377,
+    "design_note": ""
+  },
+  {
+    "name": "V12_OuterRaceRetainer_0_1",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Retainer",
+    "volume_mm3": 158.4022431866509,
+    "design_note": ""
+  },
+  {
+    "name": "V12_Carrier1",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Carrier",
+    "volume_mm3": 8694.506666687095,
+    "design_note": ""
+  },
+  {
+    "name": "V12_RailLock1",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 6.031857894892406,
+    "design_note": ""
+  },
+  {
+    "name": "V12_683Bearing_1_0",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V12_RetainerScrew_1_0",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782377,
+    "design_note": ""
+  },
+  {
+    "name": "V12_RetainerScrew_1_001",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 14.963929407823768,
+    "design_note": ""
+  },
+  {
+    "name": "V12_OuterRaceRetainer_1_0",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665088,
+    "design_note": ""
+  },
+  {
+    "name": "V12_683Bearing_1_1",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Bearing",
+    "volume_mm3": 94.24777960769379,
+    "design_note": "683ZZ shielded 3x7x3; open 683 is narrower. Inner abutment OD4, outer shoulder ID6.4."
+  },
+  {
+    "name": "V12_RetainerScrew_1_1",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782377,
+    "design_note": ""
+  },
+  {
+    "name": "V12_RetainerScrew_1_002",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 14.96392940782377,
+    "design_note": ""
+  },
+  {
+    "name": "V12_OuterRaceRetainer_1_1",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Retainer",
+    "volume_mm3": 158.40224318665085,
+    "design_note": ""
+  },
+  {
+    "name": "V12_M2Standoff",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V12_StandoffShim",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CarrierM2CSKScrew",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485762,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CarrierM2CSKScrew001",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 20.634504147553365,
+    "design_note": ""
+  },
+  {
+    "name": "V12_M2Standoff001",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Spacer",
+    "volume_mm3": 97.02808910612075,
+    "design_note": ""
+  },
+  {
+    "name": "V12_StandoffShim001",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Shim",
+    "volume_mm3": 8.085674092176728,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CarrierM2CSKScrew002",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 22.052147832485765,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CarrierM2CSKScrew003",
+    "motion": "Fixed",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 20.63450414755337,
+    "design_note": ""
+  },
+  {
+    "name": "V12_RockerShaftOnePiece",
+    "motion": "Rocker",
+    "voice": 12,
+    "role": "Rocker",
+    "volume_mm3": 409.95439776154825,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CrankShaftOnePiece",
+    "motion": "Crank",
+    "voice": 12,
+    "role": "Crank",
+    "volume_mm3": 997.0295381374752,
+    "design_note": ""
+  },
+  {
+    "name": "V12_DriverGear",
+    "motion": "Input",
+    "voice": 12,
+    "role": "Gear",
+    "volume_mm3": 6218.229017523658,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V12_DriverFlushCrossPin",
+    "motion": "Input",
+    "voice": 12,
+    "role": "DrivePin",
+    "volume_mm3": 32.69874877210155,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V12_OutputGear",
+    "motion": "Crank",
+    "voice": 12,
+    "role": "Gear",
+    "volume_mm3": 268.80439329582066,
+    "design_note": "0.08 mm nominal pitch-circle pair backlash. Reference faceted involute, root fillets and final tolerances must use gear-maker drawing."
+  },
+  {
+    "name": "V12_OutputFlushCrossPin",
+    "motion": "Crank",
+    "voice": 12,
+    "role": "DrivePin",
+    "volume_mm3": 6.298374907659699,
+    "design_note": "1 mm flush cross pin. Jig-drill after phase setting, pin ends below gear root circle. Retention/fit and shear proof required."
+  },
+  {
+    "name": "V12_PivotRearEClip",
+    "motion": "Rocker",
+    "voice": 12,
+    "role": "Retainer",
+    "volume_mm3": 6.47338293038496,
+    "design_note": ""
+  },
+  {
+    "name": "V12_PivotRearShim",
+    "motion": "Rocker",
+    "voice": 12,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219757,
+    "design_note": ""
+  },
+  {
+    "name": "V12_PivotFrontThrustShim",
+    "motion": "Rocker",
+    "voice": 12,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219757,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CrankRearEClip",
+    "motion": "Crank",
+    "voice": 12,
+    "role": "Retainer",
+    "volume_mm3": 6.473382930384951,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CrankRearShim",
+    "motion": "Crank",
+    "voice": 12,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219766,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CrankFrontThrustShim",
+    "motion": "Crank",
+    "voice": 12,
+    "role": "Shim",
+    "volume_mm3": 1.0037388528219766,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CrankShoulderJournal",
+    "motion": "Crank",
+    "voice": 12,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.54473183469516,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CrankPinEndScrew",
+    "motion": "Crank",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 9.16166957603123,
+    "design_note": ""
+  },
+  {
+    "name": "V12_CrankPinWasher",
+    "motion": "Crank",
+    "voice": 12,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962677,
+    "design_note": ""
+  },
+  {
+    "name": "V12_RockerShoulderJournal",
+    "motion": "Rocker",
+    "voice": 12,
+    "role": "ShoulderPin",
+    "volume_mm3": 31.544731834695156,
+    "design_note": ""
+  },
+  {
+    "name": "V12_RockerPinEndScrew",
+    "motion": "Rocker",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 9.161669576031237,
+    "design_note": ""
+  },
+  {
+    "name": "V12_RockerPinWasher",
+    "motion": "Rocker",
+    "voice": 12,
+    "role": "Washer",
+    "volume_mm3": 11.180142855962677,
+    "design_note": ""
+  },
+  {
+    "name": "V12_POMCoupler",
+    "motion": "Coupler",
+    "voice": 12,
+    "role": "Coupler",
+    "volume_mm3": 997.0991912832988,
+    "design_note": ""
+  },
+  {
+    "name": "V12_PickM1_6Screw",
+    "motion": "Pendulum",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 8.83808553271148,
+    "design_note": "Countersunk M1.6 screw through PET into brass tip block; thread form omitted."
+  },
+  {
+    "name": "V12_PendulumAssembly",
+    "motion": "Pendulum",
+    "voice": 12,
+    "role": "Arm",
+    "volume_mm3": 411.239941367109,
+    "design_note": ""
+  },
+  {
+    "name": "V12_PETPick",
+    "motion": "Pendulum",
+    "voice": 12,
+    "role": "Pick",
+    "volume_mm3": 4.029059792334397,
+    "design_note": ""
+  },
+  {
+    "name": "V12_ArmClampM2",
+    "motion": "Pendulum",
+    "voice": 12,
+    "role": "Fastener",
+    "volume_mm3": 39.94927758121127,
+    "design_note": "M2 pinch screw across split hub; phase set with arm at zero; clamp torque and slip must be bench tested."
+  }
+]

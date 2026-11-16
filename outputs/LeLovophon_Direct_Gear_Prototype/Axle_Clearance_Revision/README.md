@@ -1,5 +1,7 @@
 # Le Lovophon — crank axle clearance revision
 
+**FAILED whole-assembly reality audit.** The local crank/rod clearance fix does not make this assembly buildable. Read the [measured failures](../Reality_Audit/README.md) before using this CAD or BOM.
+
 The previous crank axles projected through the connecting-rod plane. The corrected design replaces each separate crank disk and projecting axle with one integral shaft/flange candidate. Its front face ends at station X +4 mm; the connecting rod occupies X +5 to +7 mm. Rotation leaves these X extents unchanged, giving 1 mm continuous axial separation from that crank axle/flange throughout the cycle.
 
 Pitch ratios, tooth counts, crank throws, rod lengths, proportional pendula, phases and the 480-second repeat are unchanged. The original model and films are retained in the author’s local workspace; only this corrected CAD revision is included here. Use the FCStd in this folder.
